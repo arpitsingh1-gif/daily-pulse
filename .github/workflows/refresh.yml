@@ -4,7 +4,7 @@ on:
   schedule:
     # Cron is UTC. IST = UTC+5:30.
     - cron: '30 2 * * *'      # 08:00 IST daily — morning briefing (news + cards rotation)
-    - cron: '0,30 4-9 * * 1-5' # every 30 min, 09:30–15:30 IST weekdays — market hours pulse
+    - cron: '*/15 4-9 * * 1-5' # every 15 min, 09:30–15:30 IST weekdays — market hours pulse
     - cron: '45 10 * * 1-5'   # 16:15 IST weekdays — post market close wrap
   workflow_dispatch: {}       # manual "Run workflow" button
 
