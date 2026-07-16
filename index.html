@@ -8,6 +8,7 @@
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>Daily Pulse</title>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
   :root {
     --bg:#F6F6F3; --card:#FFFFFF; --ink:#211F1A; --ink2:#6B6A63; --ink3:#A8A79D;
@@ -223,10 +224,28 @@
   .switch { width:46px; height:27px; border-radius:20px; background:var(--line); position:relative; cursor:pointer; transition:background .2s; border:none; flex-shrink:0; }
   .switch::after { content:""; position:absolute; top:3px; left:3px; width:21px; height:21px; border-radius:50%; background:#fff; transition:left .2s; box-shadow:0 1px 3px rgba(0,0,0,.25); }
   .switch.on { background:var(--accent); } .switch.on::after { left:22px; }
-  #snack { position:fixed; bottom:calc(var(--nav-h) + 18px); left:50%; transform:translateX(-50%) translateY(90px);
-    background:var(--ink); color:var(--bg); border-radius:14px; padding:11px 16px; font-size:13.5px; font-weight:600;
-    display:flex; gap:14px; align-items:center; z-index:90; transition:transform .25s ease; max-width:88vw; }
+  #snack { position:fixed; top:12px; left:50%; transform:translateX(-50%) translateY(-80px);
+    background:var(--ink); color:var(--bg); border-radius:14px; padding:9px 15px; font-size:13px; font-weight:600;
+    display:flex; gap:12px; align-items:center; z-index:90; transition:transform .22s ease; max-width:88vw;
+    box-shadow:0 4px 16px rgba(0,0,0,.25); }
   #snack.on { transform:translateX(-50%) translateY(0); }
+  /* read-highlight in browse lists */
+  a.browserow.wasread { background:var(--ok-soft); margin:0 -8px; padding-left:10px; padding-right:8px;
+    border-radius:10px; border-top-color:transparent; }
+  a.browserow.wasread .bt::after { content:" ✓"; color:var(--ok); }
+  /* onboarding wizard */
+  #wiz { position:fixed; inset:0; background:var(--bg); z-index:120; overflow-y:auto; display:none; }
+  #wiz.on { display:block; }
+  #wiz .in { max-width:520px; margin:0 auto; padding:36px 20px 60px; }
+  #wiz h2 { font-size:22px; font-weight:800; margin-bottom:6px; }
+  #wiz .sub2 { color:var(--ink2); font-size:14px; margin-bottom:20px; }
+  #wiz label { font-size:12px; font-weight:700; color:var(--ink2); display:block; margin-top:16px; }
+  #wiz input[type=text] { width:100%; background:var(--card); border:1px solid var(--line); border-radius:12px;
+    color:var(--ink); font:inherit; font-size:14px; padding:11px 13px; margin-top:6px; }
+  .topicgrid { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+  .topicgrid button { border:1.5px solid var(--line); background:var(--card); color:var(--ink2);
+    border-radius:20px; padding:8px 14px; font-size:13px; font-weight:700; cursor:pointer; }
+  .topicgrid button.on { border-color:var(--accent); color:var(--accent); background:var(--accent-soft); }
   #snack button { background:none; border:none; color:var(--accent2); font-weight:800; font-size:13.5px; cursor:pointer; }
   [data-theme="dark"] #snack button { color:var(--accent); }
   .empty { color:var(--ink2); font-size:13.5px; padding:8px 2px; }
@@ -255,12 +274,25 @@
 <div class="sheet" id="sheet">
   <div class="inner">
     <h3>Settings</h3>
+    <div class="srow"><span>Personalize<small>Name, news topics, theme — rerun setup</small></span><button class="minibtn" id="wizAgain">Edit</button></div>
     <div class="srow"><span>Dark mode</span><button class="switch" id="swTheme"></button></div>
     <div class="srow"><span>Reset swipes<small>Bring back read &amp; dismissed items</small></span><button class="minibtn" id="resetBtn">Reset</button></div>
     <div class="srow"><span>Reset scorecard<small>Clears XP, streak and all stats</small></span><button class="minibtn" id="resetScoreBtn">Reset</button></div>
     <div class="srow"><span>Data refresh<small>GitHub Action: 8:00 &amp; 11:00 IST daily, 16:15 IST weekdays</small></span></div>
   </div>
 </div>
+<div id="wiz"><div class="in">
+  <h2>Make Daily Pulse yours</h2>
+  <div class="sub2">30 seconds. Everything stays on this device — nothing is uploaded anywhere.</div>
+  <label>Your first name</label>
+  <input type="text" id="wizName" placeholder="e.g. Arpit" maxlength="20">
+  <label>News topics you want (tap to toggle)</label>
+  <div class="topicgrid" id="wizTopics"></div>
+  <label>Theme</label>
+  <div class="topicgrid"><button data-th="light" id="wizLight">☀️ Light</button><button data-th="dark" id="wizDark">🌙 Dark</button></div>
+  <button class="bigbtn" id="wizGo" style="margin-top:28px">Start my Pulse</button>
+</div></div>
+
 <div id="snack"><span id="snackTxt"></span><button id="undoBtn">UNDO</button></div>
 
 <script src="data/embed.js"></script>
@@ -347,31 +379,90 @@
     var hrs=(Date.now()-new Date(DATA.generatedAt).getTime())/36e5;
     return hrs>26 ? ' <span class="stale">· data '+Math.round(hrs)+'h old</span>' : ''; }
 
+  /* ============ PROFILE / ONBOARDING ============ */
+  var profile = store.get('profile', null);
+  var ALLTOPICS = ['Business','Share Market','Sports','Tech','AI','Economy','Politics','Jobs','Crime','World','For You'];
+  function myName(){ return (profile && profile.name) || 'there'; }
+  function topicOn(tag){ return !profile || !profile.topics || !profile.topics.length || profile.topics.indexOf(tag)>=0; }
+  function wizOpen(){
+    var p = profile || { name:'', topics:ALLTOPICS.slice(), theme:theme };
+    $('#wizName').value = p.name||'';
+    $('#wizTopics').innerHTML = ALLTOPICS.map(function(t){
+      return '<button data-t="'+esc(t)+'"'+((p.topics||ALLTOPICS).indexOf(t)>=0?' class="on"':'')+'>'+esc(t)+'</button>'; }).join('');
+    $('#wizTopics').querySelectorAll('button').forEach(function(b){
+      b.onclick=function(){ b.classList.toggle('on'); }; });
+    $('#wizLight').className = p.theme==='light'?'on':''; $('#wizDark').className = p.theme==='dark'?'on':'';
+    $('#wizLight').onclick=function(){ this.className='on'; $('#wizDark').className=''; };
+    $('#wizDark').onclick=function(){ this.className='on'; $('#wizLight').className=''; };
+    $('#wiz').classList.add('on');
+  }
+  $('#wizGo').addEventListener('click', function(){
+    var topics=[]; $('#wizTopics').querySelectorAll('button.on').forEach(function(b){ topics.push(b.dataset.t); });
+    profile = { name: ($('#wizName').value.trim()||'friend'), topics: topics.length?topics:ALLTOPICS.slice(),
+      theme: $('#wizDark').className==='on'?'dark':'light' };
+    store.set('profile', profile);
+    theme=profile.theme; store.set('theme',theme); applyTheme();
+    $('#wiz').classList.remove('on');
+    if(DATA) renderAll();
+    toast('Welcome, '+profile.name+' 👋');
+  });
+  if(!profile) setTimeout(wizOpen, 400);
+
+  /* text shared INTO the app (Android share sheet → Daily Pulse) lands in Interview pack notes */
+  try{
+    var sp=new URLSearchParams(location.search);
+    var shared=[sp.get('title'),sp.get('text'),sp.get('url')].filter(Boolean).join('\n');
+    if(shared){ var pp=store.get('prep',{c:'',r:'',j:'',n:'',resume:''});
+      pp.n=(pp.n?pp.n+'\n':'')+shared; store.set('prep',pp);
+      history.replaceState(null,'',location.pathname);
+      setTimeout(function(){ toast('Shared text saved to Interview pack notes'); }, 700); }
+  }catch(e){}
+
   /* ============ HOME ============ */
   function renderHome(){
     var hr=new Date().getHours();
-    var greet = hr<12?'Good morning':(hr<17?'Good afternoon':'Good evening');
+    var greet = (hr<12?'Good morning':(hr<17?'Good afternoon':'Good evening'))+', '+myName();
     var idx=(DATA.markets.indices||[]).filter(function(i){return i.ok;}).slice(0,2);
     var pills = idx.map(function(i){
       return '<div class="hpill"><div class="n">'+esc(i.name)+'</div><div class="v">'+fmtN(i.price)+'</div><div class="c '+pctCls(i.pct)+'">'+pctTxt(i.pct)+'</div></div>';
     }).join('') + '<div class="hpill"><div class="n">Streak</div><div class="v">'+streak()+' 🔥</div><div class="c up">'+stats.xp+' XP</div></div>';
-    var unread=(DATA.news||[]).filter(function(n){ var id=newsId(n); return !read[id]&&!gone[id]&&!bm[id]; });
+    var unread=(DATA.news||[]).filter(function(n){ var id=newsId(n); return topicOn(n.tag)&&!read[id]&&!gone[id]&&!bmHas(id); });
     var totalLessons=0, doneLessons=0;
     if(SKILLS) SKILLS.tracks.forEach(function(t){ t.levels.forEach(function(l){ l.lessons.forEach(function(x){ totalLessons++; if(skillsDone[x.id]) doneLessons++; }); }); });
     var rows = unread.slice(0,3).map(function(n){
       return '<div class="homerow" data-go="news"><span class="dot"></span><span class="t">'+esc(n.title)+'</span><span class="g">›</span></div>';
     }).join('') || '<div class="empty">All caught up on today\'s news.</div>';
     $('#page-home').innerHTML =
-      '<div class="card hero"><div class="hi">'+greet+', Arpit</div>'
+      '<div class="card hero"><div class="hi">'+esc(greet)+'</div>'
       +'<div class="sub">'+new Date().toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long'})+' · '+esc(DATA.label||'')+'</div>'
       +'<div class="hstrip">'+pills+'</div></div>'
       +'<div class="card"><h2>Unread news <span class="chip">'+unread.length+'</span></h2>'+rows+'</div>'
       +'<div class="card"><h2>Keep going</h2>'
       +'<div class="homerow" data-go="skills"><span class="dot" style="background:var(--blue)"></span><span class="t">Skills: '+doneLessons+'/'+totalLessons+' lessons done</span><span class="g">›</span></div>'
       +'<div class="homerow" data-go="brain"><span class="dot" style="background:var(--ok)"></span><span class="t">'+(DATA.gk||[]).length+' GK flips &amp; '+(DATA.learn||[]).length+' deeper reads today</span><span class="g">›</span></div>'
-      +'<div class="homerow" data-go="markets"><span class="dot"></span><span class="t">'+((DATA.markets.insights||[])[0]?esc(DATA.markets.insights[0]):'Market snapshot')+'</span><span class="g">›</span></div></div>';
+      +'<div class="homerow" data-go="markets"><span class="dot"></span><span class="t">'+((DATA.markets.insights||[])[0]?esc(DATA.markets.insights[0]):'Market snapshot')+'</span><span class="g">›</span></div></div>'
+      +bmHub();
     $('#page-home').querySelectorAll('[data-go]').forEach(function(el){
       el.addEventListener('click', function(){ setTab(el.dataset.go); }); });
+    $('#page-home').querySelectorAll('[data-rmbm]').forEach(function(b){
+      b.onclick=function(e){ e.preventDefault(); e.stopPropagation();
+        bmRemove(b.dataset.rmbm); renderHome(); renderNews(); renderBrain(); toast('Removed'); }; });
+  }
+  function bmHub(){
+    if(!bmList.length) return '';
+    var icons={news:'📰',gk:'🧠',learn:'📚'};
+    return '<div class="card"><h2>Bookmarked <span class="chip" style="background:var(--gold-soft);color:var(--gold)">'+bmList.length+'</span></h2>'
+      +bmList.map(function(b){
+        var rm='<button class="minibtn" data-rmbm="'+esc(b.id)+'" style="padding:3px 9px;font-size:11px;flex-shrink:0">remove</button>';
+        if(b.ty==='news') return '<div class="readrow"><span class="st">'+icons.news+'</span>'
+          +'<a href="'+esc(b.u)+'" target="_blank" rel="noopener" style="flex:1;color:var(--ink)">'+esc(b.t)+'</a>'+rm+'</div>';
+        return '<details class="kc"><summary><span class="kn">'+(icons[b.ty]||'🔖')+'</span>'
+          +'<span class="khead"><span class="ktitle">'+esc(b.t)+'</span>'
+          +(b.x?'<span class="kteaser">'+esc(b.x)+'</span>':'')+'</span>'
+          +'<span class="khint"></span></summary><div class="kbody">'
+          +(b.b||[]).map(function(p){ return '<p>'+esc(p)+'</p>'; }).join('')
+          +'<div style="margin-top:8px">'+rm+'</div></div></details>';
+      }).join('')+'</div>';
   }
 
   /* ============ MARKETS ============ */
@@ -404,13 +495,14 @@
   }
 
   /* ============ NEWS deck ============ */
-  var bm = store.get('bm', {}); // bookmarks: saved for later
+  /* Bookmarks v2 — one store for everything (news/GK/learn), full payloads so saves survive daily rotation */
+  var bmList = store.get('bm2', []);
+  function bmHas(id){ return bmList.some(function(b){ return b.id===id; }); }
+  function bmAdd(e2){ if(!bmHas(e2.id)){ bmList.unshift(e2); store.set('bm2',bmList); } }
+  function bmRemove(id){ bmList=bmList.filter(function(b){ return b.id!==id; }); store.set('bm2',bmList); }
   function renderNews(){
-    var all=(DATA.news||[]);
-    var queue=all.filter(function(n){ var id=newsId(n); return !read[id]&&!gone[id]&&!bm[id]; });
-    var savedList=all.filter(function(n){ return bm[newsId(n)]; });
-    var readList=all.filter(function(n){ return read[newsId(n)]&&!bm[newsId(n)]; });
-    var goneList=all.filter(function(n){ return gone[newsId(n)]&&!bm[newsId(n)]; });
+    var all=(DATA.news||[]).filter(function(n){ return topicOn(n.tag); });
+    var queue=all.filter(function(n){ var id=newsId(n); return !read[id]&&!gone[id]&&!bmHas(id); });
     var page=$('#page-news');
     var deckHtml;
     if(queue.length){
@@ -419,34 +511,28 @@
       deckHtml='<div class="card deckdone"><div class="big">🎉</div><div style="font-weight:700;margin-top:6px">Top cards cleared</div>'
         +'<div style="font-size:13px;margin-top:4px">Browse all of today\'s headlines by topic below — new cards arrive with the next refresh.</div></div>';
     }
-    var lists='';
-    if(savedList.length) lists+='<div class="card"><h2>Saved for later <span class="chip" style="background:var(--gold-soft);color:var(--gold)">'+savedList.length+'</span></h2>'
-      +savedList.map(function(n){ var id=newsId(n);
-        return '<div class="readrow"><span class="st" style="color:var(--gold)">🔖</span><a href="'+esc(n.url)+'" target="_blank" rel="noopener" style="flex:1">'+esc(n.title)+'</a>'
-        +'<button class="minibtn" data-unbm="'+id+'" style="padding:3px 9px;font-size:11px">done</button></div>'; }).join('')+'</div>';
-    if(readList.length) lists+='<div class="card"><h2>Read <span class="chip g">'+readList.length+'</span></h2>'
-      +readList.map(function(n){ return '<div class="readrow"><span class="st up">✓</span><a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.title)+'</a></div>'; }).join('')+'</div>';
-    if(goneList.length) lists+='<div class="card"><h2>Hidden <span class="chip">'+goneList.length+'</span></h2>'
-      +goneList.map(function(n){ return '<div class="readrow"><span class="st dn">✕</span><span>'+esc(n.title)+'</span></div>'; }).join('')+'</div>';
-    // full per-segment browse lists
+    // full per-segment browse lists: read = green highlight, hidden = removed, respects chosen topics
     var browse='';
     (DATA.browse||[]).forEach(function(sec){
-      if(!sec.items||!sec.items.length) return;
-      browse+='<div class="lvl2">'+esc(sec.tag)+'</div>'
-        +sec.items.map(function(n){
-          return '<a class="browserow" href="'+esc(n.url)+'" target="_blank" rel="noopener">'
+      if(!sec.items||!sec.items.length||!topicOn(sec.tag)) return;
+      var rows=sec.items.filter(function(n){ return !gone[newsId({title:n.title,url:n.url})]; })
+        .map(function(n){
+          var id=newsId({title:n.title,url:n.url});
+          return '<a class="browserow'+(read[id]?' wasread':'')+'" href="'+esc(n.url)+'" target="_blank" rel="noopener">'
             +'<div class="bt">'+esc(n.title)+'</div>'
             +'<div class="bs">'+esc(n.src||'')+(n.at?' · '+esc(n.at):'')+'</div></a>';
         }).join('');
+      if(rows) browse+='<div class="lvl2">'+esc(sec.tag)+'</div>'+rows;
     });
-    if(browse) browse='<div class="card"><h2>All headlines by topic <span class="chip">tap to read</span></h2>'+browse+'</div>';
-    page.innerHTML=deckHtml+lists+browse;
-    page.querySelectorAll('[data-unbm]').forEach(function(b){
-      b.onclick=function(){ delete bm[b.dataset.unbm]; store.set('bm',bm); renderNews(); toast('Removed from saved'); }; });
+    if(browse) browse='<div class="card"><h2>All headlines by topic <span class="chip">✓ = read from deck</span></h2>'+browse+'</div>';
+    page.innerHTML=deckHtml+browse;
+    function newsBm(item){ var id=newsId(item);
+      bmAdd({ ty:'news', id:id, t:item.title, u:item.url, x:item.tag+' · '+(item.src||'')+(item.at?' · '+item.at:'') });
+      bump(null,1,true); }
     if(queue.length) buildDeck($('#deck'), queue.slice(0,4), function(item,dir){
       var id=newsId(item);
-      if(dir==='save'){ bm[id]=true; store.set('bm',bm); bump(null,1,true);
-        toast('Saved for later 🔖 · +1 XP', function(){ delete bm[id]; store.set('bm',bm); renderNews(); }); }
+      if(dir==='save'){ newsBm(item);
+        toast('Bookmarked 🔖 · +1 XP', function(){ bmRemove(id); renderNews(); renderHome(); }); }
       else if(dir>0){ read[id]=true; store.set('read',read); bump('news_read',2,true);
         toast('Marked read · +2 XP', function(){ delete read[id]; store.set('read',read); renderNews(); }); }
       else { gone[id]=true; store.set('gone',gone); bump('news_hidden',1,true);
@@ -461,8 +547,9 @@
         +'<a class="openlink" href="'+esc(item.url)+'" target="_blank" rel="noopener">Read full story ↗</a>';
     }, 'SAVE 🔖');
     page.querySelectorAll('.bmbtn').forEach(function(bb){
-      bb.onclick=function(){ var id=bb.dataset.bm; bm[id]=true; store.set('bm',bm); bump(null,1,true);
-        toast('Saved for later 🔖'); renderNews(); renderHome(); }; });
+      bb.onclick=function(){ var id=bb.dataset.bm;
+        var item=queue.filter(function(n){ return newsId(n)===id; })[0];
+        if(item){ newsBm(item); toast('Bookmarked 🔖'); renderNews(); renderHome(); } }; });
   }
 
   /* ============ swipe deck engine ============ */
@@ -528,17 +615,22 @@
       return '<details class="kc" data-l="1"><summary><span class="kn">'+(i+1)+'</span>'
         +'<span class="khead"><span class="ktitle">'+esc(c.title)+'</span><span class="kteaser">'+esc(c.teaser)+'</span></span>'
         +'<span class="khint"></span></summary><div class="kbody">'
-        +(c.body||[]).map(function(p){ return '<p>'+esc(p)+'</p>'; }).join('')+'</div></details>';
+        +(c.body||[]).map(function(p){ return '<p>'+esc(p)+'</p>'; }).join('')
+        +'<div style="margin-top:8px"><button class="minibtn" data-lbm="'+i+'" style="font-size:11px;padding:4px 10px">🔖 Bookmark this</button></div></div></details>';
     }).join('');
     box.innerHTML='<div class="card"><h2>Learn something <span class="chip b">rotates daily</span></h2>'
       +(cards||'<div class="empty">Nothing today.</div>')+'</div>';
     box.querySelectorAll('details[data-l]').forEach(function(d){
       d.addEventListener('toggle', function(){ if(d.open){ bump('learn_open',2,true); toast('+2 XP'); } }); });
+    box.querySelectorAll('[data-lbm]').forEach(function(b){
+      b.onclick=function(){ var c=(DATA.learn||[])[+b.dataset.lbm];
+        if(c){ bmAdd({ ty:'learn', id:'l'+hash(c.title), t:c.title, x:c.teaser, b:c.body||[] });
+          toast('Bookmarked 🔖'); renderHome(); } }; });
   }
   function gkId(c){ return hash(c.t); }
   function renderGK(box){
     var all=(DATA.gk||[]);
-    var queue=all.filter(function(c){ return !gkDone[gkId(c)]; })
+    var queue=all.filter(function(c){ return !gkDone[gkId(c)] && !bmHas('g'+gkId(c)); })
       .sort(function(a,b){ return (gkLater[gkId(a)]||0)-(gkLater[gkId(b)]||0); });
     var moreH='';
     if((DATA.gkMore||[]).length){
@@ -560,14 +652,21 @@
     }
     box.innerHTML='<div class="deckhint"><span>← show me later</span><span>'+queue.length+' left</span><span>got it →</span></div><div class="deckwrap" id="gkdeck" style="height:360px"></div>'+moreH;
     buildDeck(box.querySelector('#gkdeck'), queue.slice(0,4), function(item,dir){
-      if(dir>0){ gkDone[gkId(item)]=true; store.set('gkdone',gkDone); bump('gk_done',3,true); toast('Got it · +3 XP'); }
+      if(dir==='save'){ bmAdd({ ty:'gk', id:'g'+gkId(item), t:item.t, x:item.teaser, b:[item.more] });
+        toast('Bookmarked 🔖'); }
+      else if(dir>0){ gkDone[gkId(item)]=true; store.set('gkdone',gkDone); bump('gk_done',3,true); toast('Got it · +3 XP'); }
       else { gkLater[gkId(item)]=Date.now(); toast('Moved to the back'); }
-      renderBrain();
+      renderBrain(); renderHome();
     }, function(c){
-      return '<span class="tag">Did you know?</span><div class="ttl">'+esc(c.t)+'</div>'
+      return '<button class="bmbtn" data-gkbm="'+gkId(c)+'" title="Bookmark">🔖</button>'
+        +'<span class="tag">Did you know?</span><div class="ttl">'+esc(c.t)+'</div>'
         +'<div class="src">'+esc(c.teaser)+'</div>'
         +'<div class="body"><p style="margin-top:6px">'+esc(c.more)+'</p></div>';
-    });
+    }, 'SAVE 🔖');
+    box.querySelectorAll('.bmbtn').forEach(function(bb){
+      bb.onclick=function(){ var c=queue.filter(function(x){ return gkId(x)===bb.dataset.gkbm; })[0];
+        if(c){ bmAdd({ ty:'gk', id:'g'+gkId(c), t:c.t, x:c.teaser, b:[c.more] });
+          toast('Bookmarked 🔖'); renderBrain(); renderHome(); } }; });
   }
 
   /* ============ SKILLS ============ */
@@ -587,7 +686,7 @@
           +'<div class="pbar"><i style="width:'+p.pct+'%"></i></div></div>'
           +'<span class="g" style="color:var(--ink3)">›</span></div>';
       }).join('');
-      var prep=store.get('prep',{c:'',r:'',j:'',n:''});
+      var prep=store.get('prep',{c:'',r:'',j:'',n:'',resume:''});
       page.innerHTML='<div class="card"><h2>Skill academy <span class="chip b">beginner → advanced</span></h2>'+rows+'</div>'
         +'<div class="card prep"><h2>Interview pack generator <span class="chip" style="background:var(--gold-soft);color:var(--gold)">cram sheet</span></h2>'
         +'<div style="font-size:13px;color:var(--ink2);margin-bottom:10px">Fill this in and hand it to Claude — it researches the company and builds your 9-section cram pack (company snapshot, culture &amp; stability, JD-to-evidence fit rating, smart questions, SQL/Power BI revision, STAR stories, likely Q&amp;A, night-before checklist) as a Word/PDF you download.</div>'
@@ -595,17 +694,83 @@
         +'<label>Role</label><input id="prepR" placeholder="e.g. Business Analyst — Lending Analytics" value="'+esc(prep.r)+'">'
         +'<label>Job description (paste)</label><textarea id="prepJ" placeholder="Paste the JD here…">'+esc(prep.j)+'</textarea>'
         +'<label>Anything else (round type, interviewer, worries)</label><input id="prepN" value="'+esc(prep.n)+'">'
-        +'<button class="bigbtn" id="prepGo">Generate pack with Claude</button>'
+        +'<label>Your resume / background (paste text — stays on this device)</label>'
+        +'<textarea id="prepRes" placeholder="Paste your resume text here…">'+esc(prep.resume||'')+'</textarea>'
+        +'<button class="bigbtn" id="prepDoc">⬇ Download pack — Word</button>'
+        +'<button class="bigbtn" id="prepPdf" style="margin-top:8px;background:var(--blue)">⬇ Download pack — PDF</button>'
+        +'<div style="font-size:12px;color:var(--ink3);margin-top:8px">Instant offline pack: JD-keyword fit check, likely questions with answers, STAR templates, night-before checklist. For the researched version (company snapshot, culture, honest fit rating) use the Claude option below.</div>'
+        +'<button class="bigbtn ghost" id="prepGo" style="margin-top:12px">Generate researched pack with Claude</button>'
         +'<button class="bigbtn ghost" id="prepCopy" style="margin-top:8px">Copy the brief instead</button></div>'
         +'<div class="card" style="font-size:13px;color:var(--ink2)">Each lesson: concept → real-life example → something to try at work → quiz with the why and the best approach. Passing every question completes the lesson (+25 XP).</div>';
       page.querySelectorAll('.trackcard').forEach(function(el){
         el.addEventListener('click', function(){ sView={mode:'track', t:SKILLS.tracks[+el.dataset.t]}; renderSkills(); }); });
       function readPrep(){ var p={ c:$('#prepC').value.trim(), r:$('#prepR').value.trim(),
-          j:$('#prepJ').value.trim(), n:$('#prepN').value.trim() };
+          j:$('#prepJ').value.trim(), n:$('#prepN').value.trim(), resume:$('#prepRes').value.trim() };
         store.set('prep',p); return p; }
-      ['prepC','prepR','prepJ','prepN'].forEach(function(id){ $('#'+id).addEventListener('change', readPrep); });
+      ['prepC','prepR','prepJ','prepN','prepRes'].forEach(function(id){ $('#'+id).addEventListener('change', readPrep); });
       function prepBrief(){ var p=readPrep();
-        return 'Create my interview cram pack as Word + PDF in my standard 9-section format: 1) Company Snapshot 2) Culture & Stability with an honest read 3) JD mapped to my evidence with a fit rating out of 10 and gaps 4) Smart questions to ask 5) SQL revision with interview lines and probes 6) Power BI revision 7) My projects as STAR stories 8) Likely questions with how to answer 9) Night-before checklist. Use my saved career context (arpit-career-context skill) for my background and honesty rules; research the company on the web (what they do, funding, Glassdoor culture, stability). Company: '+(p.c||'?')+'. Role: '+(p.r||'?')+'. Notes: '+(p.n||'-')+'. JD: '+(p.j||'(none — infer from the role)'); }
+        var isArpit=/arpit/i.test(myName());
+        var bg=isArpit
+          ? 'Use my saved career context (arpit-career-context skill) for my background and honesty rules'
+          : (p.resume ? 'My background/resume: '+p.resume.slice(0,700) : 'Ask me for my resume first');
+        return 'Create my interview cram pack as Word + PDF in my standard 9-section format: 1) Company Snapshot 2) Culture & Stability with an honest read 3) JD mapped to my evidence with a fit rating out of 10 and gaps 4) Smart questions to ask 5) SQL revision with interview lines and probes 6) Power BI revision 7) My projects as STAR stories 8) Likely questions with how to answer 9) Night-before checklist. '+bg+'; research the company on the web (what they do, funding, Glassdoor culture, stability). Company: '+(p.c||'?')+'. Role: '+(p.r||'?')+'. Notes: '+(p.n||'-')+'. JD: '+(p.j||'(none — infer from the role)'); }
+      /* ---- offline pack builder (no AI: your data + question banks, assembled) ---- */
+      var KW=['sql','power bi','powerbi','tableau','python','excel','snowflake','postgresql','mysql','dax','etl','dashboard','a/b','statistics','cohort','funnel','retention','conversion','stakeholder','agile','jira','looker','pandas','reporting','kpi','automation'];
+      function packModel(){
+        var p=readPrep(); var nm=myName()==='there'?'Candidate':myName();
+        var jd=(p.j||'').toLowerCase(), rs=(p.resume||'').toLowerCase();
+        var asked=KW.filter(function(k){ return jd.indexOf(k)>=0; });
+        var fit=asked.map(function(k){ return {k:k, ok:rs.indexOf(k)>=0}; });
+        var score=fit.length&&rs? Math.round(fit.filter(function(f){return f.ok;}).length/fit.length*100) : null;
+        var qs=[];
+        (SKILLS?SKILLS.tracks:[]).forEach(function(t){
+          if(['interview','sql','powerbi'].indexOf(t.id)<0) return;
+          t.levels.forEach(function(l){ l.lessons.forEach(function(x){ (x.quiz||[]).forEach(function(q){
+            qs.push({tr:t.name, q:q.q, a:q.opts[q.a], w:q.approach||q.why||''}); }); }); }); });
+        return {p:p, nm:nm, fit:fit, score:score, qs:qs.slice(0,24)};
+      }
+      function packLines(){
+        var m=packModel(); var L=[];
+        L.push('INTERVIEW CRAM PACK — '+m.nm); L.push((m.p.c||'Company?')+' · '+(m.p.r||'Role?')+' · '+new Date().toDateString()); L.push('');
+        L.push('== 1. JD KEYWORD FIT '+(m.score!=null?('('+m.score+'% naive match)'):'(paste JD + resume for the check)')+' ==');
+        m.fit.forEach(function(f){ L.push((f.ok?'  [YES] ':'  [GAP] ')+f.k.toUpperCase()); });
+        if(!m.fit.length) L.push('  (no recognizable skill keywords found in the JD)');
+        L.push(''); L.push('NOTE: keyword match is mechanical. For an honest fit rating with framing for the gaps, use "Generate researched pack with Claude".'); L.push('');
+        if(m.p.n){ L.push('== NOTES =='); L.push(m.p.n); L.push(''); }
+        L.push('== 2. LIKELY QUESTIONS + ANSWERS ==');
+        m.qs.forEach(function(q,i){ L.push(''); L.push((i+1)+'. ['+q.tr+'] '+q.q); L.push('   Answer: '+q.a); if(q.w) L.push('   Approach: '+q.w); });
+        L.push(''); L.push('== 3. STAR STORY TEMPLATES (fill before the interview) ==');
+        ['A win with numbers','A failure you fixed','A conflict you resolved','A deadline you rescued'].forEach(function(s){
+          L.push(''); L.push('STORY: '+s); L.push('  Situation (1 line):'); L.push('  Task (1 line):'); L.push('  Action (3-4 lines, use I not we):'); L.push('  Result (number + lesson):'); });
+        L.push(''); L.push('== 4. NIGHT-BEFORE CHECKLIST ==');
+        ['Re-read the JD and your own resume line by line','Rehearse tell-me-about-yourself under 90 seconds','Type the 5 core SQL patterns from memory','Prepare 3 smart questions for them','Company latest news: check the morning of','Logistics: link/location, interviewer names, water, notebook'].forEach(function(c){ L.push('  [ ] '+c); });
+        if(m.p.j){ L.push(''); L.push('== 5. FULL JD (reference) =='); L.push(m.p.j); }
+        return L;
+      }
+      function dlName(){ var p=store.get('prep',{}); return ('Pack_'+(p.c||'draft')).replace(/[^\w-]+/g,'_'); }
+      $('#prepDoc').addEventListener('click', function(){
+        var html='<html><head><meta charset="utf-8"></head><body style="font-family:Calibri,Arial,sans-serif;font-size:11pt">'
+          +packLines().map(function(l){
+            if(l.indexOf('== ')===0) return '<h2 style="font-size:14pt;margin:14pt 0 4pt">'+esc(l.replace(/==/g,'').trim())+'</h2>';
+            if(l.indexOf('INTERVIEW CRAM PACK')===0) return '<h1 style="font-size:18pt">'+esc(l)+'</h1>';
+            return l?'<p style="margin:2pt 0">'+esc(l)+'</p>':'<br>';
+          }).join('')+'</body></html>';
+        var blob=new Blob(['﻿'+html],{type:'application/msword'});
+        var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=dlName()+'.doc';
+        document.body.appendChild(a); a.click(); a.remove(); toast('Word pack downloaded'); });
+      $('#prepPdf').addEventListener('click', function(){
+        if(!window.jspdf||!window.jspdf.jsPDF){ toast('PDF engine loading — try again in a few seconds'); return; }
+        var doc=new window.jspdf.jsPDF({unit:'pt',format:'a4'});
+        var y=48, W=515;
+        packLines().forEach(function(l){
+          var big=l.indexOf('INTERVIEW CRAM PACK')===0, h=l.indexOf('== ')===0;
+          doc.setFont('helvetica', (big||h)?'bold':'normal'); doc.setFontSize(big?16:(h?12:9.5));
+          var txt=h?l.replace(/==/g,'').trim():l;
+          var lines=doc.splitTextToSize(txt||' ', W);
+          lines.forEach(function(ln){ if(y>790){ doc.addPage(); y=48; } doc.text(ln,40,y); y+=(big?20:(h?16:12)); });
+          if(h) y+=2;
+        });
+        doc.save(dlName()+'.pdf'); toast('PDF pack downloaded'); });
       $('#prepGo').addEventListener('click', function(){
         var b=prepBrief(); if(!store.get('prep',{}).c){ toast('Add the company name first'); return; }
         window.open('https://claude.ai/new?q='+encodeURIComponent(b.slice(0,1800))+'&surface=cowork','_blank'); });
@@ -748,6 +913,7 @@
   $('#undoBtn').addEventListener('click', function(){ if(lastAction) lastAction();
     $('#snack').classList.remove('on'); lastAction=null; });
   $('#gearBtn').addEventListener('click', function(){ $('#sheet').classList.add('on'); });
+  $('#wizAgain').addEventListener('click', function(){ $('#sheet').classList.remove('on'); wizOpen(); });
   $('#sheet').addEventListener('click', function(e){ if(e.target===$('#sheet')) $('#sheet').classList.remove('on'); });
   $('#swTheme').addEventListener('click', function(){ theme=(theme==='dark'?'light':'dark'); store.set('theme',theme); applyTheme(); });
   $('#resetBtn').addEventListener('click', function(){ read={}; gone={}; gkDone={}; bm={};
