@@ -82,23 +82,57 @@ async function yget(path) {
   catch (e) { return jget('https://query2.finance.yahoo.com' + withCrumb, extra); }
 }
 
+/* ---- source 2: Google Finance page scrape (server-rendered; reachable from CI runners) ---- */
+const GMAP = { '^BSESN': 'SENSEX:INDEXBOM', '^NSEI': 'NIFTY_50:INDEXNSE',
+  '^NSEBANK': 'NIFTY_BANK:INDEXNSE', '^CNXIT': 'NIFTY_IT:INDEXNSE', 'USDINR=X': 'USD-INR' };
+function gsym(sym) {
+  if (GMAP[sym]) return GMAP[sym];
+  const ns = sym.match(/^(.+)\.NS$/); if (ns) return encodeURIComponent(ns[1]) + ':NSE';
+  const bo = sym.match(/^(.+)\.BO$/); if (bo) return encodeURIComponent(bo[1]) + ':BOM';
+  return null;
+}
+async function gquote(sym) {
+  const g = gsym(sym); if (!g) return null;
+  const html = await tget('https://www.google.com/finance/quote/' + g, { 'accept-language': 'en-US,en' });
+  const last = (html.match(/data-last-price="([\d.]+)"/) || [])[1];
+  if (!last) return null;
+  const pm = html.match(/Previous close[\s\S]{0,200}?([\d,]+\.\d+|[\d,]{2,})/);
+  const prev = pm ? +pm[1].replace(/,/g, '') : null;
+  return { price: +last, prev: prev };
+}
+/* ---- source 3: Stooq CSV (for Brent) ---- */
+async function squote(s) {
+  const csv = await tget('https://stooq.com/q/l/?s=' + s + '&f=sd2t2ohlcv&e=csv');
+  const p = (csv.split('\n')[1] || '').split(',');
+  const close = +p[6], open = +p[3];
+  return (isFinite(close) && close > 0) ? { price: close, prev: isFinite(open) && open > 0 ? open : null } : null;
+}
+function shape(name, sym, fx, price, prev, extra) {
+  const chg = prev != null ? price - prev : 0;
+  const pct = prev ? (chg / prev) * 100 : 0;
+  const out = { name, sym, price: +price.toFixed(2), chg: +chg.toFixed(2), pct: +pct.toFixed(2),
+    spark: prev != null ? [+prev.toFixed(2), +price.toFixed(2)] : [], fx: !!fx, ok: true };
+  return Object.assign(out, extra || {});
+}
 async function quote({ sym, name, fx }) {
+  // source 1: Yahoo (best data, often blocked from CI)
   try {
     const j = await yget(`/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`);
     const res = j.chart.result[0];
     const price = res.meta.regularMarketPrice;
     const closes = (res.indicators.quote[0].close || []).filter((x) => x != null);
     const prev = res.meta.chartPreviousClose ?? closes[closes.length - 2] ?? price;
-    const chg = price - prev, pct = prev ? (chg / prev) * 100 : 0;
-    const out = { name, sym, price: +price.toFixed(2), chg: +chg.toFixed(2), pct: +pct.toFixed(2),
-      spark: closes.slice(-5).map((x) => +x.toFixed(2)), fx: !!fx, ok: true };
-    if (res.meta.fiftyTwoWeekHigh) out.hi52 = +res.meta.fiftyTwoWeekHigh.toFixed(2);
-    if (res.meta.fiftyTwoWeekLow) out.lo52 = +res.meta.fiftyTwoWeekLow.toFixed(2);
-    return out;
-  } catch (e) {
-    console.error('quote fail', sym, e.message);
-    return { name, sym, ok: false };
-  }
+    const extra = { spark: closes.slice(-5).map((x) => +x.toFixed(2)) };
+    if (res.meta.fiftyTwoWeekHigh) extra.hi52 = +res.meta.fiftyTwoWeekHigh.toFixed(2);
+    if (res.meta.fiftyTwoWeekLow) extra.lo52 = +res.meta.fiftyTwoWeekLow.toFixed(2);
+    return shape(name, sym, fx, price, prev, extra);
+  } catch (e) { console.error('yahoo fail', sym, e.message); }
+  // source 2/3 fallbacks
+  try {
+    const alt = sym === 'BZ=F' ? await squote('cb.f') : await gquote(sym);
+    if (alt && alt.price) return shape(name, sym, fx, alt.price, alt.prev);
+  } catch (e) { console.error('fallback fail', sym, e.message); }
+  return { name, sym, ok: false };
 }
 
 // Yahoo "trending in India" tickers — the closest free proxy to "most searched" stocks.
