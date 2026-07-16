@@ -1,0 +1,46 @@
+name: Refresh data
+
+on:
+  schedule:
+    # Cron is UTC. IST = UTC+5:30.
+    - cron: '30 2 * * *'      # 08:00 IST daily — morning briefing (news + cards rotation)
+    - cron: '0,30 4-9 * * 1-5' # every 30 min, 09:30–15:30 IST weekdays — market hours pulse
+    - cron: '45 10 * * 1-5'   # 16:15 IST weekdays — post market close wrap
+  workflow_dispatch: {}       # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build data.json + embed.js
+        run: node scripts/refresh.mjs
+      - name: Push phone notification if top headline changed
+        run: |
+          if [ -f data/.notify ]; then
+            curl -s -H "Title: Daily Pulse" -H "Tags: newspaper" \
+              -d "$(cat data/.notify)" "ntfy.sh/${NTFY_TOPIC}" || true
+            rm -f data/.notify
+          fi
+        env:
+          # Your private notification channel. Change it to any hard-to-guess string,
+          # then subscribe to the same topic in the ntfy app on your phone.
+          NTFY_TOPIC: arpit-daily-pulse-x7k93q
+      - name: Commit if changed
+        run: |
+          git config user.name "pulse-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/data.json data/embed.js
+          git diff --staged --quiet || git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
