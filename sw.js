@@ -1,5 +1,5 @@
 // Daily Pulse service worker — shell cache-first, data network-first.
-const VER = 'dp-v3';
+const VER = 'dp-v4';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'data/skills-bank.json', 'data/embed.js'];
 
 self.addEventListener('install', (e) => {

@@ -52,13 +52,39 @@ const dec = (s) => String(s || '')
   .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
   .replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ').trim();
 
-const OPTS = () => ({ headers: UA, signal: AbortSignal.timeout(+(process.env.DP_FETCH_TIMEOUT_MS||15000)) });
-async function jget(url) { const r = await fetch(url, OPTS()); if (!r.ok) throw new Error(r.status); return r.json(); }
-async function tget(url) { const r = await fetch(url, OPTS()); if (!r.ok) throw new Error(r.status); return r.text(); }
+const OPTS = (extra) => ({ headers: { ...UA, ...(extra || {}) }, signal: AbortSignal.timeout(+(process.env.DP_FETCH_TIMEOUT_MS||15000)) });
+async function jget(url, extra) { const r = await fetch(url, OPTS(extra)); if (!r.ok) throw new Error(r.status); return r.json(); }
+async function tget(url, extra) { const r = await fetch(url, OPTS(extra)); if (!r.ok) throw new Error(r.status); return r.text(); }
+
+// Yahoo blocks datacenter IPs without a session cookie + crumb. Establish one once per run.
+let ySess;
+async function yahoo() {
+  if (ySess !== undefined) return ySess;
+  try {
+    const r1 = await fetch('https://fc.yahoo.com', { headers: UA, redirect: 'manual', signal: AbortSignal.timeout(10000) });
+    const cookie = (r1.headers.get('set-cookie') || '').split(';')[0];
+    let crumb = '';
+    if (cookie) {
+      const r2 = await fetch('https://query1.finance.yahoo.com/v1/test/getcrumb',
+        { headers: { ...UA, cookie }, signal: AbortSignal.timeout(10000) });
+      if (r2.ok) crumb = (await r2.text()).trim();
+    }
+    ySess = { cookie, crumb };
+  } catch (e) { console.error('yahoo session fail', e.message); ySess = { cookie: '', crumb: '' }; }
+  return ySess;
+}
+async function yget(path) {
+  const s = await yahoo();
+  const extra = s.cookie ? { cookie: s.cookie } : {};
+  const sep = path.includes('?') ? '&' : '?';
+  const withCrumb = s.crumb ? path + sep + 'crumb=' + encodeURIComponent(s.crumb) : path;
+  try { return await jget('https://query1.finance.yahoo.com' + withCrumb, extra); }
+  catch (e) { return jget('https://query2.finance.yahoo.com' + withCrumb, extra); }
+}
 
 async function quote({ sym, name, fx }) {
   try {
-    const j = await jget(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`);
+    const j = await yget(`/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`);
     const res = j.chart.result[0];
     const price = res.meta.regularMarketPrice;
     const closes = (res.indicators.quote[0].close || []).filter((x) => x != null);
@@ -79,7 +105,7 @@ async function quote({ sym, name, fx }) {
 // Falls back to the static WATCHLIST when unavailable.
 async function trendingIN() {
   try {
-    const j = await jget('https://query1.finance.yahoo.com/v1/finance/trending/IN?count=14');
+    const j = await yget('/v1/finance/trending/IN?count=14');
     const syms = ((j.finance.result[0] || {}).quotes || []).map((q) => q.symbol)
       .filter((s) => /\.(NS|BO)$/.test(s)).slice(0, 8);
     if (syms.length < 4) return null;
@@ -94,13 +120,18 @@ async function rss(bucket) {
     : `${base}/search?q=${encodeURIComponent(bucket.q)}+when:1d&hl=en-IN&gl=IN&ceid=IN:en`;
   try {
     const xml = await tget(url);
-    const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 4).map((m) => {
+    const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 8).map((m) => {
       const b = m[1];
       const g = (re) => (b.match(re) || [])[1] || '';
       let title = dec(g(/<title>([\s\S]*?)<\/title>/));
       const source = dec(g(/<source[^>]*>([\s\S]*?)<\/source>/));
       if (source && title.endsWith(' - ' + source)) title = title.slice(0, -(' - ' + source).length);
-      return { title, url: dec(g(/<link>([\s\S]*?)<\/link>/)), src: source, at: dec(g(/<pubDate>([\s\S]*?)<\/pubDate>/)) };
+      let at = dec(g(/<pubDate>([\s\S]*?)<\/pubDate>/));
+      const d = new Date(at);
+      if (!isNaN(d)) { const i = new Date(d.getTime() + 330 * 60000);
+        at = i.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) + ', '
+          + String(i.getUTCHours()).padStart(2, '0') + ':' + String(i.getUTCMinutes()).padStart(2, '0'); }
+      return { title, url: dec(g(/<link>([\s\S]*?)<\/link>/)), src: source, at };
     }).filter((x) => x.title && x.url);
     return items;
   } catch (e) { console.error('rss fail', bucket.tag, e.message); return []; }
@@ -142,16 +173,21 @@ const main = async () => {
   const ipo = (await rss({ tag: 'IPO', q: 'IPO india price band listing subscription' })).slice(0, 4);
 
   const newsArrays = await Promise.all(BUCKETS.map(rss));
-  const news = [];
+  const news = [];      // top cards for the swipe deck (1-2 per bucket)
+  const browse = [];    // full per-segment lists (up to 6 per bucket)
   BUCKETS.forEach((b, i) => {
     newsArrays[i].slice(0, b.tag === 'Share Market' || b.tag === 'AI' ? 2 : 1)
       .forEach((it) => news.push({ tag: b.tag, ...it }));
+    if (newsArrays[i].length) browse.push({ tag: b.tag, items: newsArrays[i].slice(0, 6) });
   });
   const fy = await rss({ tag: 'For You', q: FORYOU[seed % FORYOU.length] });
   fy.slice(0, 1).forEach((it) => news.push({ tag: 'For You', ...it }));
+  if (fy.length) browse.push({ tag: 'For You', items: fy.slice(0, 6) });
 
   const banks = JSON.parse(readFileSync(join(ROOT, 'data', 'banks.json'), 'utf8'));
   const gk = rotate(banks.gk, 10, seed, 3);
+  const gkMore = rotate(banks.gk, 10, seed + 917, 5)
+    .filter((c) => !gk.some((g) => g.t === c.t)).slice(0, 10);
   const learn = rotate(banks.learn, 8, seed, 11);
 
   const prevPath = join(ROOT, 'data', 'data.json');
@@ -162,7 +198,8 @@ const main = async () => {
     label: ist.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) + ', ' + istHM + ' IST',
     markets: { indices, watchlist, trending: !!trend, ipo, insights },
     news: news.length ? news : (prev.news || []),
-    gk, learn,
+    browse: browse.length ? browse : (prev.browse || []),
+    gk, gkMore, learn,
   };
   writeFileSync(prevPath, JSON.stringify(data, null, 1));
 

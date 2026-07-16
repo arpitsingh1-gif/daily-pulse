@@ -1,17 +1,33 @@
 {
- "generatedAt": "2026-07-16T19:36:27.647Z",
- "label": "17 Jul, 01:06 IST",
+ "generatedAt": "2026-07-16T18:10:42.257455Z",
+ "label": "16 Jul seed \u2014 first Action run replaces this",
  "markets": {
   "indices": [
    {
     "name": "Sensex",
     "sym": "^BSESN",
-    "ok": false
+    "price": 77447.51,
+    "chg": 262.08,
+    "pct": 0.34,
+    "spark": [
+     77185.43,
+     77447.51
+    ],
+    "fx": false,
+    "ok": true
    },
    {
     "name": "Nifty 50",
     "sym": "^NSEI",
-    "ok": false
+    "price": 24161.85,
+    "chg": 83.35,
+    "pct": 0.35,
+    "spark": [
+     24078.5,
+     24161.85
+    ],
+    "fx": false,
+    "ok": true
    },
    {
     "name": "Bank Nifty",
@@ -26,11 +42,13 @@
    {
     "name": "USD/INR",
     "sym": "USDINR=X",
+    "fx": true,
     "ok": false
    },
    {
     "name": "Brent $",
     "sym": "BZ=F",
+    "fx": true,
     "ok": false
    }
   ],
@@ -76,210 +94,134 @@
     "ok": false
    }
   ],
-  "trending": false,
-  "ipo": [
-   {
-    "title": "SBI Funds IPO closes with 41.66x subscription, strong GMP signals",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVUVlb3NLc1ZxU0F1VENYbVhIdzBlb0FrWFp6MjlKb1A1SVJ3bDVnSXprYXpuN19QbWFwek9CcGNfV2tJTDZwcjJxZjBONkM3MnhkTGxHQTZqQXpQLTZTbEl2U1FmU3lYLXhSZTlUUS12Mll4c2JEVWFsS3RyWm1ZYzkxMC1TdUY5VGgycXhLMVRSZm9Qamt5YUlNazV3NWlCbHZPLTV3YmxrUl9uT0xnY3ktLXBmOG1VQzFHZWVfcWt3ZDdHOW5hNWxnRU04SzZKMUFfMTVtdFNpakZ4djZCWUhmQlVfUDFqU1JFczQwMlR3UlJsdVJrYURR?oc=5",
-    "src": "MSN",
-    "at": "Thu, 16 Jul 2026 12:54:03 GMT"
-   },
-   {
-    "title": "Alpine Texworld IPO : Subscription at 1.04x; GMP Indicates Around 3% Listing Premium",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQWVOak8xUzhBRE42VXJKMDZIclNXRXVRWE1ETUpITkZWb1pEdVNLMG9obTUtdXV5OVhQY09WekwtV255VFpDOW1TV3hBYW1EdlhPYVE2aklJdzJVeFVPSkdkT2ppQmtnX2RENHRkYkdpcTRQUTZQX1dZcUdBZWo5STBMaE5uWVdmNFctRFJ1SVZLdjRQMFJzQ0ZUTkU3Q2txN1JPcnRlcHotQzJmVFB3a09kcllpbTVPLWNV?oc=5",
-    "src": "India Infoline",
-    "at": "Thu, 16 Jul 2026 06:26:48 GMT"
-   },
-   {
-    "title": "SBI Funds Management IPO closes with 42x subscription, led by strong QIB demand; GMP signals healthy listing",
-    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQjhZLTh2ZTdzQ1ZUUTZKTnJYNTNzMWJrR0dhYTROU19WUmY2RHhNeE1mLWtTMVFBS0U0ejVGb01IQzVSeDBDSW4ybXh0Ym5DM2pSbGYxaUtudHRNLTJYb05kYUZKNWVPY25wNWtoOG01TkxGSVd3WGd5RHlvRUVRa1Vvd0R3QU1lSXVWai1HRDh6bWt6NGxtZ0N2SGI1bkw1SzJ4cHdVRkF0WEt6SEh1TTEwbGQzV05hQXB0S2xSTlM2OUNMWDZQVEFEemlBdGE1RGFobW56ZFViRW00S3FtTF9seW1hS0ZsdmNnbXJGMHA1dE8zYzRBQWRZUUhiUFRuU3gteW4zONIBjAJBVV95cUxPNm5ITmZjc01xanBHbHhuSVFBaXBvOTNBWmFVRjEzQjJNaHlCZVkxQTJ5eWtjWjlhaUVsSW1mODZDd2ZORHl2dE96U2xoOVJqejRIZWZTaXBJcEtYMDBITWdfZ1lPVS14ZFhsQWhNZkxfQS02U0E0WFhfUGhteWluZmI5X3dicTd3VHZ0ODRCZHlMY2FpU1E1OGZia05ObEZuclFhWE5WSVhJWU1hUUdqZl8wM1c5YmVIZXA1dDV6QkxQbXpkXzhILUo5NC1jM29McVUtWS1Dbzl0SVh0Z25ONXkzMlA5dzZlcXU3QlUwX21DNmtHMG1sZ2Fxemp1Ul80MnRNcl8zdkVwSlVv?oc=5",
-    "src": "livemint.com",
-    "at": "Thu, 16 Jul 2026 14:49:56 GMT"
-   },
-   {
-    "title": "SBI Funds IPO GMP signals healthy listing gains as bidding ends today; should you subscribe?",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMDFNejlNb2FneENFazJ0NGI4bHVkaEpLeDNGc1oxVnBRRGExdG1SaWJ5M0h6XzRoajF1NXlyS2JHWXNGM2JDMlBtRTRrdi1PSlRuN3I1clhrVFlWZEt2ZzNrX0hkbzlZOWlhdnY0RkFNZHk0TWVOOW05SEpFWnJucERzM1lhdzIwanlQSGhYNERSc3FGMW5fZ1FMLTc2ek4yd3hVbmYzeU1DcUFmYjFrdWpSNWpWcElHMjM1eERpTC1YcWdJRmpHaHBtYzVZV1dtVk9kbkw0YW4zcWhEUjl3ekg2Y1dfd9IB6wFBVV95cUxPRjZEYlJXbktvUWQxS2hSZExQQkNWZ2tHelJwcGw4a29QSUxBdEFSVURuRml6dzJkUGJUQ29wMVRXVzRiV0J4dGhNTVVUeVBNTFROcVozRTNTZF96Q3Fvei1jUGxZNnphWGVzcExYOTlpNm1hYjdDVkpVUlZka0FYc1NJdEN0OTB5TlNFbmFIWnJfd3ZJRV81Vm44NHQzaHR1cjRTa1FyWkhkRk5CUDJ6OWxBMkJ4ZzdEeE1OQmZIWTRidmdGaVlJMWdENHdIek13NzBsMWFNeUxWQ3NtQTFLeUdjRnY0MEc2bFBF?oc=5",
-    "src": "Moneycontrol.com",
-    "at": "Thu, 16 Jul 2026 08:56:31 GMT"
-   }
-  ],
-  "insights": []
+  "insights": [
+   "Seed snapshot from July 16 open \u2014 run the refresh Action for live numbers",
+   "Nifty IT led sectors at open (+1.52%), HCL Tech top gainer (+2.65%)"
+  ]
  },
  "news": [
   {
    "tag": "Business",
-   "title": "Centre floats another draft of CAFE-III, gives special recognition to ethanol and biofuel cars",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNHFzbU5TdFR4U3IyZllTbnQyOUo0U1Q4dEhEYXFfMXZVa1JxYUJGSHFCRm5OdU5JWWp1cXpTVTY1dzl2ZFZaaDUwQjJGdkhKVXBDbVVvdm9jaDgwU1dEcDRiQzJFVXlEY1F6ODJpRER5RzdFRlF5SHZObncyTWlENFJMNkNhOHhnajdoeTdNc3c0dkNDT1F3Q2FFVzY3Z3dHRU8zZkNkd1A5S1ZvRGpJSkMxWnF4RXA1OEdtTVhENXotRTU0b2MzVnJISHpQQl9JVlRxWXZaNThWVktLQjRpcEJyWHRYWGsz0gHvAUFVX3lxTE1palRSbGhyS3J5b0phenJXZlNGOFJxUnByUTZ5aDNHcTdBSXo3aFF0djlJUURfb1hjQWcwLVN2T0F0VWlkeHkyS3FBVmVuUWhiOW1kRGF6elppMU43VW9lUko5LTdtM205ZWl0MV9QOWg4bFlZTURvM1dKWFBsQUVLOXNxd3lodGZEbUhUSVVnd0tOWTVrR0Y5TncwZFphSGwwSjg3WVBuc1BuYVpHOXdINjU0dWRwTTdTQURzRmoxOFhtQklqZHBEQjdCV1RkNFJYWUZSNFhtOGhzOHFZZmNyYXk5NlhWRTNmXzFKX3RZ?oc=5",
-   "src": "The Hindu",
-   "at": "Thu, 16 Jul 2026 08:54:23 GMT"
+   "title": "India's first hydrogen train flags off Friday",
+   "url": "https://saachibaat.com/politics/todays-top-news-16-july-2026/",
+   "src": "Saachi Baat",
+   "at": "16 Jul 2026"
   },
   {
    "tag": "Share Market",
-   "title": "Stock market today: Sensex, Nifty end flat; mid, small-caps underperform; escalating US-Iran conflict weigh on sentiment",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUmdJaDB0NGNzeHBoNVpZcHZmc3NhbjYwaVdlUzhOLW14Z0JncmdGamxHaWh4MXUwZ1pIZ0M1ZG5yOXRETEhNczhkYmk4bVZYa3RKUl9ZbW8tVHljaEFmYk9BeGVvckVLcEdjeGgyVkR4eDBUNmxvVmdHUjlEdzUtRkVjejNWSkFzY1NXV00xeUpHdzdxYkpPT1p1cjNyWmliSmlzS0phckVTaEJpMFA1ZXRPQ2dkaEJ3cnpNWFVYMjdqdUVUVFIzeVNNRnVfTEVpbFdzd0tkejJUZzBGX1A2Nl9Ja0JLRmZPR3hXNHBlT3MyUdIB9wFBVV95cUxONXQ4LS0xYUZMSWtaS1JSbHMxNkpmMk1YLXRWZXB4TS1EbHdTSkNkcXJqSnc5MmhteGczMVpGcWV6RXFGX21JQklDcmdmRHhwMmtGcjZuZ0hXdXc3UlVMVzRkcTJZUi1lRGNCeHI0Rk5VMmduVTN3Vk01Rkd4N1dpREZJOXJqRFRRTGNRT281dmc0ZTZLZ1hzbGhVNUtEbUpVcUNhUlZ2ak9KQmxtTVhhQ1BwUmVabFlRU0pSRV9jQTk0TGZDcWhoRVhkU3JRakh1NWwzc2Z3YjlJcEEzbEFzMUxXV1EwYnRBWVBoV1BRZnI4ODBtc1JV?oc=5",
-   "src": "livemint.com",
-   "at": "Thu, 16 Jul 2026 10:05:20 GMT"
-  },
-  {
-   "tag": "Share Market",
-   "title": "Sensex & Nifty plunge around 1.2% today",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ySFVlUVZ0VUU0NU4wSVFhOWplMENwWnc2cG1tWmtWU2hpalNpaldzeUhhTm52UE5MWTBHY1dIYUs1ZnlCMXQ4dGVlSmllN09tWWMycUJVa2JiamZCUEpTLWQ3M0Z3SkN4ZG41WUx3NA?oc=5",
-   "src": "News On AIR",
-   "at": "Thu, 16 Jul 2026 07:54:19 GMT"
+   "title": "Sensex opens 262 points up; IT leads, SBI Life lags",
+   "url": "https://www.equitymaster.com/indian-share-markets/7/16/2026/Sensex-Today-Trades-Higher--Nifty-Above-24100--HCL-Tech--Tech-Mahindra-Top-Gainers",
+   "src": "Equitymaster",
+   "at": "16 Jul 2026"
   },
   {
    "tag": "Sports",
-   "title": "ENG vs IND, 2nd ODI, India tour of England, 2026 - Commentary",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZkswVmQxOGotOHdudy05SS1ZOEFfWFl1RUhDRDZXLTBERHF6bl9DNTNYOFE0WURLYXlyRVpQZWRaSTBQYi12TnBwX1dGWTdhUkNrNGJLY0haQXdwOHQ2UjlpVXlIR19CbFYzb0l0WTk3dlFCZ3pUcXRnSU15SDBuX2dwSHVPSjVITjZRd2JpVm1tYkhmTGs4U3VhUQ?oc=5",
-   "src": "Cricbuzz",
-   "at": "Thu, 16 Jul 2026 17:36:42 GMT"
+   "title": "India defend 233 in 2nd ODI at Cardiff",
+   "url": "https://www.livescore.com/en/cricket/2026-07-16/",
+   "src": "LiveScore",
+   "at": "16 Jul 2026"
   },
   {
    "tag": "Tech",
-   "title": "OnePlus will continue software updates, all devices move to ColorOS with Android 17",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV1BET3ZFeWY2ZEZOc0Z5QUZiVnNabU44OGE1MW9PcWJmLXc0OV80WUF0V0pGMDl0aWt5NnBHNGxEMEMtVWNDSzFEb05nSTdwVFdtcjVpSmlDNHZtcmVjS3VxcFhaNlpCa1JqQncxM29XMVlGcWZuZ2hRbXBCRVBScFVDWjE?oc=5",
-   "src": "9to5Google",
-   "at": "Thu, 16 Jul 2026 13:45:00 GMT"
+   "title": "Qualcomm in talks to buy Tenstorrent for $8-10B",
+   "url": "https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/",
+   "src": "Tech Startups",
+   "at": "15 Jul 2026"
   },
   {
    "tag": "AI",
-   "title": "Artificial Intelligence and Infrastructure: From Automation to Intelligent Infrastructure",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUEt6d0RockgwOWNmVnd5OUNRQ0xYVnd6bmEzc2MtQVQ0LXQtZXgzZUhDU21MLXphcjAydF9CdEVHTG8tanZ4RS1sdFN1SEFpcm13ZlNPXzlaWEl0ZWdJQ21VZi16ajJidktGR0JhZ1p2Q0lqS3hjdmV1Uk9BTVUwbVcwMUVqRHBYNFdqTTVWblZHdzNiQmZnZXdwUDlZdmxPblJIQkdDb19TcWNYVUFiQkpqME4tRkJ0aE9QYm1RM0JCNFV6RTFB?oc=5",
-   "src": "Egis",
-   "at": "Thu, 16 Jul 2026 17:15:54 GMT"
-  },
-  {
-   "tag": "AI",
-   "title": "Twenty-nine countries sign agreement to establish global AI cooperation body",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTGF5ME1YRmJSTE42TWVWMDUyc1NkMlA2QVQxVlN6dkZuenF4RFcxSFlhUXk3eVZnUWZ3SzdZTDEzbTNVZzJ0NUhadERqUHQ1WmtvSl9aXzE1Qlh3UFdvR3ZXUmJDXzhycGJ0cUdtdXFVUFpzaTNWX3VBemlqUXh3UF95R2k5RTJKbjZFZ09MS3h0TUlnZ3FRMlN2T3lIc19qNGxLcmY1eTJwQVMyb2ZfNk03YjdST2hKRkg1TFFn?oc=5",
-   "src": "Reuters",
-   "at": "Thu, 16 Jul 2026 15:23:43 GMT"
+   "title": "Google ships Gemini 2.5 Pro 'Deep Think' reasoning mode",
+   "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+   "src": "Crescendo",
+   "at": "16 Jul 2026"
   },
   {
    "tag": "Economy",
-   "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9%",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
-   "src": "News On AIR",
-   "at": "Thu, 16 Jul 2026 14:29:57 GMT"
+   "title": "Cabinet clears Semicon 2.0 at Rs 1.27 lakh crore",
+   "url": "https://saachibaat.com/politics/todays-top-news-16-july-2026/",
+   "src": "Saachi Baat",
+   "at": "16 Jul 2026"
   },
   {
    "tag": "Politics",
-   "title": "Lok Sabha resumes discussion on 3 bills to provide reservation to women in Lower House and State Assemblies",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWlJVQmhHUnlDNGN2X3pyREJDZTR3VEtFel9HN0FPLXNnUXhaVTJhQTBLSGNnb2dOWEQxU1plS1U1aE5kbnVBV1R5a1R6Z0dIcm16YksweFl4SGd1elBSYUtWcGVFRU1MbUxRclIzN01IU09saG4tbVFmM3NONVpoZEZfbTE0UV9UMDJ0enY0Qml6bFoxMlpuR2ZZc0hnSmY3clJRNzZKNGw4QUVTQmJQZzZMNWtOUzhPUVlBWnJ0eDVwRUdzQTNVODUxYUtMWW5YZ0g1X21kVXVWeWZPR3A3VlRia28?oc=5",
-   "src": "News On AIR",
-   "at": "Thu, 16 Jul 2026 08:05:24 GMT"
+   "title": "Delhi bill makes time-bound public services a legal right",
+   "url": "https://saachibaat.com/politics/todays-top-news-16-july-2026/",
+   "src": "Saachi Baat",
+   "at": "16 Jul 2026"
   },
   {
    "tag": "Jobs",
-   "title": "Workers are entering the era of the forever layoff, where companies keep cutting small groups of employee",
-   "url": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxNOS16ZFhTOVBiVGZ5SkNsVlVoY29TRnRWNXNuMzBJOWdPa3JNMWFUNEU3OGR1WDdZc0R5dFo0eTQwR0t4T3Zhd1JmenRaal91ckpLdFc3Ym84bUN2QW1WaWlhZ0tCSkkyUlU0OFNrcTVNcTdTbnVPQ3hJbmhpWTdEVlNBaUlPcmNjenRsTGs1VjluYjRjZGUxa0Z6REU1RXBLb3NxZmhHSWtpUkZvT0Z4Nm5kb2cySFNxNkRPREc3WnNQRWc1VElZaml0bXBzT2c4UVVnWnNxdXlwVmE0ODV3Zk9ESEI0N1RPXzlfcm1tcmVidGNtTGR2LXNTUDFoN0xXSm1BY0ViMThRblFQc0RBcTJwUEttblYyWDhvbFdxdTMwcFNUS3JRQnNFZHhLOHBOeEJUWWNnckRYR2t4eXVtVTlfcGMtZGc4OVdacHdRX2R5VTNEMEprVzdlQ0N5N0F50gHmAkFVX3lxTE5BLWFZd0hWb3FVa2x0UVl5WGZwSy1RMkNfa1JBeHQzSE0zMlR2TkhtWlBLb2l5akoyZFc3RTlxQzJzSUtGZnl5ZEF0a2FMbDJVQzU3QlFCaV9TM3hwNVhvaktjbVQ3LVg4SDNkaFF3SHRIa0VjWXlQNVQ4NXNRbmx4OEk3TmNWUl96am9nYmVEcmx3MTE0RXBoenh5ZlpWY1ZMcFNIWGVWQXExc1ItRUNaSU5FZmxCdTFlZEc1S09vdFY4ZVlTZjRXQ1N5WkhMcHk3LXVScjBhWExmTXUyYkJnUVNQemJmQm5ZQU9UUjJTdmQ3czFKU2xoQVpNR0EzZ2JNODZvZHRqbDRPc3VWejRhS0VXZG1Yc0Q1dkl3ZkJtVUVpcWZ6VDBsVlVlalJJbEQ5S2l1TmZhSDZoZVgtWUZ6WFdMNVZDV1ZiMFI2b0pIMEYzMlJ3MHZlTWxKeVdGOHowM0YtYVE?oc=5",
-   "src": "The Times of India",
-   "at": "Thu, 16 Jul 2026 04:27:00 GMT"
-  },
-  {
-   "tag": "Crime",
-   "title": "Court asks police, banks, telecom firms, online platforms to unite to fight cyber frauds",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeDhiRUxVQU1UTHg1cUFTWFpaNEdZNlgzSG5IQ0JrM1V0by1FQmtnOFQyZkF4dkdNTUNqbGlJWHNjVl92UkhGZmRvdGlYZzd1Wk1JSlJsUEwwSzFISzg0RTItaXY5ZTBsUVZMUjRYZVd6RU1NVWo0OWlYSGZkSktPYkVVcUNlRm9HeGE2OTFzUnpDSDJXa2IxN2JTQWdzVUFxZUNTOWVQMnptUmhGWEJVbzVkcmJhX0lQ0gG_AUFVX3lxTE1XaXNPMmlFVmFrQjNPY1NqMjVLT1JIckx0M3p5YU1CLXczbzQ5bXA2OG5EaGFza2wyQW5zQkdkY0FVZXJWcmNray1jNTFSajJTOUtjVV9vbU13RzYzTE83dk52NlJtUGRRYVpjOHpMTi1WQWoxYzN5bUVpM0pJaGFxT0RwSElNZzZqTGR3T3JCTmpxbG93Zm5jREp6aFhYSklZNlNFZjdaejN6bXB6MXZwb3NCUGNmWmlPbmVBLVJz?oc=5",
-   "src": "The Indian Express",
-   "at": "Thu, 16 Jul 2026 07:25:11 GMT"
+   "title": "Karnataka to open India's first government AI university",
+   "url": "https://saachibaat.com/politics/todays-top-news-16-july-2026/",
+   "src": "Saachi Baat",
+   "at": "16 Jul 2026"
   },
   {
    "tag": "World",
-   "title": "U.S. to change visa regulations for foreign students, journalists",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnJCRGJ4VG1LSEtqWXNLSENMa09IbGV6M3ktUzFUdVhRQWpNbEtPdG5naFhGSHk4V0pJRmFZUkNGUzVuREUxaWFnVVlrTEJxR29jTUp4RjZRY0duMlBvMVdXaUpHdC0yaGI5ek16TXRlSVdDVHRKR2lmTFBhZ1BaQkRRSXdjdU1CQzRIY0JvbGVFZlRiSFljLWNVbElBeng5SzVYMk1MQ0JhZlE1WG1heVdmMW1IYkE5ZDJOWjU2UGdwSHlY0gHLAUFVX3lxTE41YWJNdVhSX2VKVVNQNkJ6QVAwMENZOHJIQ2NlNjl2ajgyalhzMHh3TVFaNUM4MXo4ZzBLdEstSldzVFN4ZDh2WHZEMXZlUkFkOE9zVWloSU5FQlRxRlFWa1dpck4tMk1SMEVDWHRQUk80YkI2SzUycU04eDBaVWl2YjF5R0thcmg3d0p0ZjFUaGUxVkstVEN2U3Z1RU1pWDFBVW5RSmsyRUQwdHJ1TFlOY25rQzI3VDBVMFEtRkdxQjBHNFdTcnNMX1RJ?oc=5",
-   "src": "The Hindu",
-   "at": "Thu, 16 Jul 2026 14:15:27 GMT"
-  },
-  {
-   "tag": "For You",
-   "title": "Iceberg REST: Snowflake vs. Databricks",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaEVZTWFfUEN0MThmaUU0NDZNa0FyM1o3U25OSHExR0c1UVRlOHZhYzd0VTJoX1NSa3R0TTBGdDVSMTlMb3NpdGFRcFRjeDBpLXVLRzhFdUIzQ1M2NWtEZVFidFFGN0RFaDNQWEk4QUx1eGhLV0xhNEVIT08xMWxmSVVQalMzMnBrRzBNNGticw?oc=5",
-   "src": "StartupHub.ai",
-   "at": "Wed, 15 Jul 2026 20:04:15 GMT"
+   "title": "Oil climbs 4th session as US-Iran crisis escalates",
+   "url": "https://hdfcsky.com/news/stock-market-today-sensex-surges-nifty-gains-wall-street-oil-prices-iran-us-crisis",
+   "src": "HDFC Sky",
+   "at": "16 Jul 2026"
   }
  ],
  "gk": [
   {
-   "t": "Moore's Law",
-   "teaser": "Chip transistor counts doubled roughly every two years for 50 years.",
-   "more": "Intel co-founder Gordon Moore's 1965 observation became the tech industry's metronome — it's why phones outpower old supercomputers. Physical limits have slowed it, which is partly why the industry pivoted to specialised chips (GPUs, AI accelerators) instead of just faster general processors."
+   "t": "The RBI was born in 1935",
+   "teaser": "India's central bank predates independence by 12 years.",
+   "more": "Set up under the RBI Act 1934 based on the Hilton Young Commission, it was privately owned until nationalisation in 1949. It issues currency, sets the repo rate, regulates banks, and manages the rupee \u2014 its first governor was Osborne Smith; C.D. Deshmukh was the first Indian governor."
   },
   {
-   "t": "Why Silicon Valley is 'silicon'",
-   "teaser": "The chip element, not the software.",
-   "more": "The Santa Clara Valley earned the name in the 1970s from silicon semiconductor makers like Fairchild and Intel. Software, internet and AI giants came in later waves. Bengaluru earned the 'India's Silicon Valley' tag through the 1990s IT services boom — Infosys and Wipro, not chips."
+   "t": "1991: the year India's economy changed",
+   "teaser": "A balance-of-payments crisis forced liberalisation.",
+   "more": "With forex reserves down to weeks of imports, PM Narasimha Rao and FM Manmohan Singh dismantled the licence raj, devalued the rupee, cut tariffs and opened doors to foreign investment. Nearly every big private-sector story since \u2014 IT, telecom, startups \u2014 traces to this pivot."
   },
   {
-   "t": "How vaccines work",
-   "teaser": "A harmless preview teaches your immune system the enemy's face.",
-   "more": "Vaccines present a dead, weakened, or fragment version of a pathogen (or, in mRNA vaccines, instructions to build one protein of it), so your body develops antibodies without the disease. Smallpox — which killed ~300 million people in the 20th century alone — became the first disease ever eradicated, in 1980."
+   "t": "Why the monsoon happens",
+   "teaser": "Land heats faster than sea \u2014 wind follows.",
+   "more": "By June the subcontinent's landmass is much hotter than the Indian Ocean, creating a low-pressure zone that pulls moisture-laden winds northeast. They break on the Western Ghats and Himalayas as rain. About 70% of India's annual rainfall arrives in these four months, which is why a 'bad monsoon' moves inflation, farm incomes and even elections."
   },
   {
-   "t": "Plate tectonics built the Himalayas",
-   "teaser": "India is still crashing into Asia at ~5 cm a year.",
-   "more": "Around 50 million years ago the Indian plate slammed into the Eurasian plate; the crumple zone is the Himalayas, still rising a few millimetres yearly. The same collision makes the region earthquake-prone — the reason Delhi sits in seismic zone IV."
+   "t": "Ashoka: the emperor who renounced war",
+   "teaser": "His wheel sits at the centre of the tricolour.",
+   "more": "After the bloody Kalinga war (~261 BCE), Mauryan emperor Ashoka embraced Buddhism and spread edicts on rock pillars across the subcontinent. The Ashoka Chakra on India's flag and the Lion Capital national emblem both come from his pillars at Sarnath."
   },
   {
-   "t": "Why the sky is blue",
-   "teaser": "Air scatters blue light more than red.",
-   "more": "Sunlight contains all colours; molecules in the atmosphere scatter shorter (bluer) wavelengths far more — called Rayleigh scattering. At sunset, light travels through more air, the blue scatters away before reaching you, leaving reds and oranges."
+   "t": "The two World Wars, datelined",
+   "teaser": "1914\u201318 and 1939\u201345 \u2014 the second killed ~70\u201385 million.",
+   "more": "WWI started with an assassination in Sarajevo and ended empires (Ottoman, Austro-Hungarian, Russian Tsar). WWII began with Germany invading Poland and ended with atomic bombs on Hiroshima and Nagasaki. Over 2.5 million Indian soldiers served in WWII \u2014 the largest volunteer army in history."
   },
   {
-   "t": "Black holes, minus the mystery",
-   "teaser": "Gravity so strong that light can't leave.",
-   "more": "When a massive star collapses, its gravity can warp space so severely nothing escapes past the 'event horizon'. They're detected by their effect on nearby matter. The first-ever photo of one (M87*, 2019) took a telescope network the size of Earth."
+   "t": "Why the UN exists",
+   "teaser": "Founded 1945 by 51 countries so WWIII never happens.",
+   "more": "Headquartered in New York, its Security Council has five veto-holding permanent members: US, UK, France, Russia, China. India is a founding member and the largest cumulative contributor of UN peacekeeping troops, but its long push for a permanent Security Council seat remains unresolved."
   },
   {
-   "t": "The Suez Canal shortcut",
-   "teaser": "It saves ships ~7,000 km between Europe and Asia.",
-   "more": "Opened in 1869 through Egypt, it carries about 12% of global trade. When one ship (Ever Given) wedged sideways for six days in 2021, it blocked ~$10 billion of goods per day — a live demo of how fragile supply chains are."
+   "t": "The Berlin Wall fell in 1989",
+   "teaser": "One night in November ended Europe's clearest Cold War symbol.",
+   "more": "Built in 1961 to stop East Germans fleeing to the capitalist West, the wall cut Berlin in two for 28 years. Its fall on 9 November 1989 triggered German reunification within a year and previewed the Soviet collapse of 1991."
   },
   {
-   "t": "Mughals to the British, compressed",
-   "teaser": "1526 Panipat → 1757 Plassey → 1857 Revolt → 1947.",
-   "more": "Babur founded Mughal rule in 1526; it peaked under Akbar and Aurangzeb. The East India Company's victory at Plassey (1757) began company rule; after the 1857 revolt, the British Crown took direct control ('the Raj') until independence in 1947."
+   "t": "What NATO is",
+   "teaser": "A military pact where attacking one member means attacking all.",
+   "more": "Founded 1949, the North Atlantic Treaty Organization's Article 5 collective-defence clause has been invoked once \u2014 after 9/11. It expanded eastward after the Cold War, which Russia cites among grievances behind the Ukraine conflict. India is not a member and stays formally non-aligned."
   },
   {
-   "t": "What the Non-Aligned Movement was",
-   "teaser": "India's Cold War stance: neither US bloc nor Soviet bloc.",
-   "more": "Co-founded by Nehru, Egypt's Nasser and Yugoslavia's Tito in 1961, NAM let newly independent nations avoid picking sides. In practice India tilted toward Soviet defence supplies after the 1962 China war and 1971 US support for Pakistan."
+   "t": "The EU in one card",
+   "teaser": "27 countries, one market, 20 sharing the euro.",
+   "more": "Born from post-WWII efforts to bind France and Germany economically so they'd never fight again, the European Union lets goods, services, money and people move freely across members. Brexit (2020) made the UK the only country ever to leave."
   },
   {
-   "t": "The 1947 Partition, in numbers",
-   "teaser": "~10–15 million displaced; up to a million dead.",
-   "more": "British India split into India and Pakistan along the hastily drawn Radcliffe Line, published two days after independence. It remains one of history's largest forced migrations and the root of the Kashmir dispute and three India-Pakistan wars (1947, 1965, 1971 — the last creating Bangladesh)."
+   "t": "Why there's an International Date Line",
+   "teaser": "Cross it westward and you skip a day.",
+   "more": "The Earth has 24 time zones; somewhere the calendar must flip. The line zigzags through the Pacific to avoid splitting countries. Fly Delhi to San Francisco and you can land at an earlier local time than you took off \u2014 the date line gives the day back."
   }
  ],
  "learn": [
   {
-   "title": "Bulls, bears, and the names",
-   "teaser": "Horns toss up; paws swipe down.",
-   "body": [
-    "Bull market: sustained rise (+20% from a low). Bear: sustained fall (−20% from a high). The likely origin is the animals' attack styles, plus an old proverb about selling the bearskin before catching the bear — betting on a fall.",
-    "March 2020's COVID crash was a three-month bear phase; the recovery after was a textbook bull run. 'Bullish on X' simply means expecting X to rise."
-   ]
-  },
-  {
-   "title": "Market cap, and why price ≠ size",
-   "teaser": "A ₹5,000 stock can be a smaller company than a ₹500 one.",
-   "body": [
-    "Market capitalisation = share price × number of shares. MRF's famous ₹1+ lakh share price makes it nowhere near India's biggest company; Reliance's much cheaper shares multiply across far more of them.",
-    "Caps define categories — large (top 100), mid (101–250), small (rest) by SEBI's rules — which matters because mutual funds are mandated to buy within their category. A stock crossing a cap boundary mechanically gains or loses buyers."
-   ]
-  },
-  {
-   "title": "Percentiles: how analysts avoid lying",
-   "teaser": "p50, p90, p99 — the shape of reality, not one number.",
-   "body": [
-    "An average API response of 200ms hides that 1% of users wait 4 seconds. p50 (median) shows the typical case, p90 the bad day, p99 the disaster tail. Same for delivery times, load times, ticket resolution.",
-    "Reporting reflex: any latency, wait-time or money metric deserves at least p50 + p90. If someone gives you only the mean, they're either new or hiding the tail."
-   ]
-  },
-  {
    "title": "The 1962 war India doesn't celebrate",
    "teaser": "A month-long border war with China reshaped Indian defence policy.",
    "body": [
-    "In October 1962 Chinese forces advanced across the disputed Himalayan border (Aksai Chin, NEFA — today's Arunachal), overwhelming underprepared Indian positions before declaring a unilateral ceasefire. Nehru's reputation never fully recovered.",
+    "In October 1962 Chinese forces advanced across the disputed Himalayan border (Aksai Chin, NEFA \u2014 today's Arunachal), overwhelming underprepared Indian positions before declaring a unilateral ceasefire. Nehru's reputation never fully recovered.",
     "The war triggered India's military modernisation and its tilt toward Soviet arms, and the unresolved Line of Actual Control remains the flashpoint behind standoffs like Galwan 2020."
    ]
   },
@@ -287,32 +229,56 @@
    "title": "P/E ratio: the market's price tag",
    "teaser": "How many years of profit you're paying for one share.",
    "body": [
-    "Price-to-Earnings = share price ÷ earnings per share. A P/E of 25 means you pay ₹25 for every ₹1 of annual profit. High P/E signals the market expects fast growth (or the stock is expensive); low P/E signals slow growth expectations (or a bargain).",
-    "It's only meaningful against context: the company's own history, its sector average, and growth rate. Indian IT often trades at 20–30; PSU banks far lower. A 'cheap' stock with shrinking profits is usually cheap for a reason."
+    "Price-to-Earnings = share price \u00f7 earnings per share. A P/E of 25 means you pay \u20b925 for every \u20b91 of annual profit. High P/E signals the market expects fast growth (or the stock is expensive); low P/E signals slow growth expectations (or a bargain).",
+    "It's only meaningful against context: the company's own history, its sector average, and growth rate. Indian IT often trades at 20\u201330; PSU banks far lower. A 'cheap' stock with shrinking profits is usually cheap for a reason."
    ]
   },
   {
    "title": "Correlation is not causation",
    "teaser": "The most important sentence in analytics.",
    "body": [
-    "Ice cream sales and drownings rise together — summer causes both. When two metrics move together, there are always four possibilities: A causes B, B causes A, something else causes both, or coincidence. Dashboards show correlation; only controlled experiments or careful causal analysis show causation.",
-    "Practical BI reflex: before reporting 'X drove Y', ask what else changed in the same window — a campaign, a price change, seasonality, a tracking change. The last one bites analysts most often."
+    "Ice cream sales and drownings rise together \u2014 summer causes both. When two metrics move together, there are always four possibilities: A causes B, B causes A, something else causes both, or coincidence. Dashboards show correlation; only controlled experiments or careful causal analysis show causation.",
+    "Practical BI reflex: before reporting 'X drove Y', ask what else changed in the same window \u2014 a campaign, a price change, seasonality, a tracking change. The last one bites analysts most often."
    ]
   },
   {
    "title": "Mean vs median: which lies less?",
    "teaser": "One billionaire in a room makes the 'average' person rich.",
    "body": [
-    "The mean (sum ÷ count) is dragged by outliers; the median (middle value) isn't. Average income sounds impressive when a few earn crores; median income tells you what the typical person makes. Same for ticket sizes, session times, order values.",
-    "Rule of thumb: for skewed data (money, wait times, engagement), report the median or percentiles. If mean and median differ a lot, that gap itself is a finding — your distribution has a long tail worth investigating."
+    "The mean (sum \u00f7 count) is dragged by outliers; the median (middle value) isn't. Average income sounds impressive when a few earn crores; median income tells you what the typical person makes. Same for ticket sizes, session times, order values.",
+    "Rule of thumb: for skewed data (money, wait times, engagement), report the median or percentiles. If mean and median differ a lot, that gap itself is a finding \u2014 your distribution has a long tail worth investigating."
    ]
   },
   {
    "title": "Opportunity cost",
    "teaser": "The real cost of anything is what you gave up to get it.",
    "body": [
-    "Spending ₹15 lakh on a car isn't just ₹15 lakh — it's also the ~₹47 lakh that money could become in 10 years at 12%. Every choice of time or money silently declines the alternatives. Economists call the best foregone alternative the opportunity cost.",
+    "Spending \u20b915 lakh on a car isn't just \u20b915 lakh \u2014 it's also the ~\u20b947 lakh that money could become in 10 years at 12%. Every choice of time or money silently declines the alternatives. Economists call the best foregone alternative the opportunity cost.",
     "It reframes decisions: a 'free' three-hour meeting costs the work you'd have shipped. An okay job offer costs the better one you stopped searching for. Comparing against 'doing nothing' is almost always the wrong baseline."
+   ]
+  },
+  {
+   "title": "How IPOs actually work",
+   "teaser": "A private company sells shares to the public for the first time.",
+   "body": [
+    "The company hires investment banks to set a price band, files a prospectus (DRHP) with SEBI, and collects bids. Retail investors apply in lots; oversubscribed issues allot by lottery. On listing day the stock starts trading \u2014 sometimes far above or below issue price.",
+    "Listing 'pops' make headlines, but the base rate is sobering: many hyped IPOs trade below issue price within a year (India's 2021 tech-IPO batch is the classic case). Reading where the money goes \u2014 fresh growth capital vs early investors cashing out \u2014 tells you a lot."
+   ]
+  },
+  {
+   "title": "A/B testing in five sentences",
+   "teaser": "Split users randomly, change one thing, measure the difference.",
+   "body": [
+    "Random assignment makes the two groups statistically identical except for your change, so any outcome gap is caused by it \u2014 this is the cleanest causation tool in product work. The catch is sample size: small tests 'win' by luck constantly.",
+    "Standard practice: decide the metric and minimum effect before launching, run a significance check (p < 0.05 convention), and beware peeking early \u2014 checking daily and stopping at the first 'significant' result inflates false positives dramatically."
+   ]
+  },
+  {
+   "title": "Why the Sensex is called the Sensex",
+   "teaser": "'Sensitive Index' \u2014 30 big BSE stocks standing in for the market.",
+   "body": [
+    "It tracks 30 of the largest, most-traded companies on the Bombay Stock Exchange, Asia's oldest (1875). Base value: 100 in 1978\u201379 \u2014 so ~77,000 means those stocks are worth roughly 770\u00d7 their 1979 level. The Nifty 50 is the NSE's 50-stock equivalent.",
+    "Index composition changes over time \u2014 laggards get dropped, risers added \u2014 which builds in survivorship: the index isn't the same 30 companies your grandfather's Sensex had."
    ]
   }
  ]

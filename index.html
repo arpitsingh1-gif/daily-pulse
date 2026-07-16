@@ -88,6 +88,28 @@
     padding:6px 12px; border-radius:10px; opacity:0; transform:rotate(-8deg); pointer-events:none; }
   .stampR { left:16px; color:var(--ok); border:2.5px solid var(--ok); }
   .stampL { right:16px; color:var(--bad); border:2.5px solid var(--bad); transform:rotate(8deg); }
+  .stampU { position:absolute; bottom:70px; left:50%; transform:translateX(-50%) rotate(-4deg); font-size:15px; font-weight:800;
+    letter-spacing:.05em; padding:6px 12px; border-radius:10px; opacity:0; pointer-events:none; color:var(--gold); border:2.5px solid var(--gold); }
+  .deckcard { touch-action:none; }
+  .deckcard .body { touch-action:pan-y; }
+  .bmbtn { position:absolute; top:14px; right:14px; width:36px; height:36px; border-radius:12px;
+    border:1px solid var(--line); background:var(--bg); color:var(--ink3); font-size:16px; cursor:pointer; }
+  /* muted IPO rows */
+  .iporow .subj { color:var(--ink2) !important; font-weight:600; }
+  .iporow .snip { color:var(--ink3); }
+  /* browse sections */
+  .lvl2 { font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; color:var(--accent); margin:14px 0 2px; opacity:.85; }
+  a.browserow { display:block; padding:9px 2px; border-top:1px solid var(--line); text-decoration:none; color:inherit; }
+  a.browserow:first-of-type { border-top:none; }
+  a.browserow .bt { font-size:13.5px; font-weight:600; color:var(--ink); }
+  a.browserow .bs { font-size:11.5px; color:var(--ink3); margin-top:1px; }
+  /* prep form */
+  .prep input, .prep textarea { width:100%; background:var(--bg); border:1px solid var(--line); border-radius:12px;
+    color:var(--ink); font:inherit; font-size:13.5px; padding:10px 12px; margin:5px 0 10px; }
+  .prep textarea { min-height:90px; resize:vertical; }
+  .prep label { font-size:12px; font-weight:700; color:var(--ink2); }
+  #snack { pointer-events:none; }
+  #snack button { pointer-events:auto; }
   .deckhint { display:flex; justify-content:space-between; font-size:11.5px; color:var(--ink3); padding:0 6px 10px; }
   .deckdone { text-align:center; padding:36px 12px; color:var(--ink2); }
   .deckdone .big { font-size:34px; }
@@ -333,7 +355,7 @@
     var pills = idx.map(function(i){
       return '<div class="hpill"><div class="n">'+esc(i.name)+'</div><div class="v">'+fmtN(i.price)+'</div><div class="c '+pctCls(i.pct)+'">'+pctTxt(i.pct)+'</div></div>';
     }).join('') + '<div class="hpill"><div class="n">Streak</div><div class="v">'+streak()+' 🔥</div><div class="c up">'+stats.xp+' XP</div></div>';
-    var unread=(DATA.news||[]).filter(function(n){ var id=newsId(n); return !read[id]&&!gone[id]; });
+    var unread=(DATA.news||[]).filter(function(n){ var id=newsId(n); return !read[id]&&!gone[id]&&!bm[id]; });
     var totalLessons=0, doneLessons=0;
     if(SKILLS) SKILLS.tracks.forEach(function(t){ t.levels.forEach(function(l){ l.lessons.forEach(function(x){ totalLessons++; if(skillsDone[x.id]) doneLessons++; }); }); });
     var rows = unread.slice(0,3).map(function(n){
@@ -369,8 +391,8 @@
     }).join('');
     var ins=(DATA.markets.insights||[]).map(function(s){ return '<div class="insight">'+esc(s)+'</div>'; }).join('');
     var ipo=(DATA.markets.ipo||[]).map(function(n){
-      return '<a class="rowitem" href="'+esc(n.url)+'" target="_blank" rel="noopener"><div class="body">'
-        +'<div class="subj" style="white-space:normal;font-weight:600">'+esc(n.title)+'</div>'
+      return '<a class="rowitem iporow" href="'+esc(n.url)+'" target="_blank" rel="noopener"><div class="body">'
+        +'<div class="subj" style="white-space:normal">'+esc(n.title)+'</div>'
         +'<div class="snip">'+esc(n.src||'')+(n.at?' · '+esc(n.at):'')+'</div></div></a>';
     }).join('');
     $('#page-markets').innerHTML =
@@ -382,42 +404,69 @@
   }
 
   /* ============ NEWS deck ============ */
+  var bm = store.get('bm', {}); // bookmarks: saved for later
   function renderNews(){
     var all=(DATA.news||[]);
-    var queue=all.filter(function(n){ var id=newsId(n); return !read[id]&&!gone[id]; });
-    var readList=all.filter(function(n){ return read[newsId(n)]; });
-    var goneList=all.filter(function(n){ return gone[newsId(n)]; });
+    var queue=all.filter(function(n){ var id=newsId(n); return !read[id]&&!gone[id]&&!bm[id]; });
+    var savedList=all.filter(function(n){ return bm[newsId(n)]; });
+    var readList=all.filter(function(n){ return read[newsId(n)]&&!bm[newsId(n)]; });
+    var goneList=all.filter(function(n){ return gone[newsId(n)]&&!bm[newsId(n)]; });
     var page=$('#page-news');
     var deckHtml;
     if(queue.length){
-      deckHtml='<div class="deckhint"><span>← not relevant</span><span>'+queue.length+' left</span><span>read ✓ →</span></div><div class="deckwrap" id="deck"></div>';
+      deckHtml='<div class="deckhint"><span>← not relevant</span><span>↑ save · '+queue.length+' left</span><span>read ✓ →</span></div><div class="deckwrap" id="deck"></div>';
     } else {
-      deckHtml='<div class="card deckdone"><div class="big">🎉</div><div style="font-weight:700;margin-top:6px">News cleared for today</div>'
-        +'<div style="font-size:13px;margin-top:4px">New stories arrive with the next refresh.</div></div>';
+      deckHtml='<div class="card deckdone"><div class="big">🎉</div><div style="font-weight:700;margin-top:6px">Top cards cleared</div>'
+        +'<div style="font-size:13px;margin-top:4px">Browse all of today\'s headlines by topic below — new cards arrive with the next refresh.</div></div>';
     }
     var lists='';
+    if(savedList.length) lists+='<div class="card"><h2>Saved for later <span class="chip" style="background:var(--gold-soft);color:var(--gold)">'+savedList.length+'</span></h2>'
+      +savedList.map(function(n){ var id=newsId(n);
+        return '<div class="readrow"><span class="st" style="color:var(--gold)">🔖</span><a href="'+esc(n.url)+'" target="_blank" rel="noopener" style="flex:1">'+esc(n.title)+'</a>'
+        +'<button class="minibtn" data-unbm="'+id+'" style="padding:3px 9px;font-size:11px">done</button></div>'; }).join('')+'</div>';
     if(readList.length) lists+='<div class="card"><h2>Read <span class="chip g">'+readList.length+'</span></h2>'
       +readList.map(function(n){ return '<div class="readrow"><span class="st up">✓</span><a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.title)+'</a></div>'; }).join('')+'</div>';
     if(goneList.length) lists+='<div class="card"><h2>Hidden <span class="chip">'+goneList.length+'</span></h2>'
       +goneList.map(function(n){ return '<div class="readrow"><span class="st dn">✕</span><span>'+esc(n.title)+'</span></div>'; }).join('')+'</div>';
-    page.innerHTML=deckHtml+lists;
+    // full per-segment browse lists
+    var browse='';
+    (DATA.browse||[]).forEach(function(sec){
+      if(!sec.items||!sec.items.length) return;
+      browse+='<div class="lvl2">'+esc(sec.tag)+'</div>'
+        +sec.items.map(function(n){
+          return '<a class="browserow" href="'+esc(n.url)+'" target="_blank" rel="noopener">'
+            +'<div class="bt">'+esc(n.title)+'</div>'
+            +'<div class="bs">'+esc(n.src||'')+(n.at?' · '+esc(n.at):'')+'</div></a>';
+        }).join('');
+    });
+    if(browse) browse='<div class="card"><h2>All headlines by topic <span class="chip">tap to read</span></h2>'+browse+'</div>';
+    page.innerHTML=deckHtml+lists+browse;
+    page.querySelectorAll('[data-unbm]').forEach(function(b){
+      b.onclick=function(){ delete bm[b.dataset.unbm]; store.set('bm',bm); renderNews(); toast('Removed from saved'); }; });
     if(queue.length) buildDeck($('#deck'), queue.slice(0,4), function(item,dir){
       var id=newsId(item);
-      if(dir>0){ read[id]=true; store.set('read',read); bump('news_read',2,true);
+      if(dir==='save'){ bm[id]=true; store.set('bm',bm); bump(null,1,true);
+        toast('Saved for later 🔖 · +1 XP', function(){ delete bm[id]; store.set('bm',bm); renderNews(); }); }
+      else if(dir>0){ read[id]=true; store.set('read',read); bump('news_read',2,true);
         toast('Marked read · +2 XP', function(){ delete read[id]; store.set('read',read); renderNews(); }); }
       else { gone[id]=true; store.set('gone',gone); bump('news_hidden',1,true);
         toast('Hidden · +1 XP', function(){ delete gone[id]; store.set('gone',gone); renderNews(); }); }
       renderNews(); renderHome();
     }, function(item){
-      return '<span class="tag">'+esc(item.tag)+'</span><div class="ttl">'+esc(item.title)+'</div>'
+      var id=newsId(item);
+      return '<button class="bmbtn" data-bm="'+id+'" title="Save for later">🔖</button>'
+        +'<span class="tag">'+esc(item.tag)+'</span><div class="ttl">'+esc(item.title)+'</div>'
         +'<div class="src">'+esc(item.src||'')+(item.at?' · '+esc(item.at):'')+'</div>'
         +'<div class="body"></div>'
         +'<a class="openlink" href="'+esc(item.url)+'" target="_blank" rel="noopener">Read full story ↗</a>';
-    });
+    }, 'SAVE 🔖');
+    page.querySelectorAll('.bmbtn').forEach(function(bb){
+      bb.onclick=function(){ var id=bb.dataset.bm; bm[id]=true; store.set('bm',bm); bump(null,1,true);
+        toast('Saved for later 🔖'); renderNews(); renderHome(); }; });
   }
 
   /* ============ swipe deck engine ============ */
-  function buildDeck(wrap, items, onSwipe, tpl){
+  function buildDeck(wrap, items, onSwipe, tpl, saveLabel){
     wrap.innerHTML='';
     items.slice().reverse().forEach(function(item, ri){
       var i=items.length-1-ri;
@@ -425,28 +474,42 @@
       el.className='deckcard'+(i===0?' top':'');
       el.style.transform='translateY('+(i*8)+'px) scale('+(1-i*.03)+')';
       el.style.zIndex=String(10-i);
-      el.innerHTML=tpl(item)+'<span class="stampR">YES ✓</span><span class="stampL">SKIP ✕</span>';
+      el.innerHTML=tpl(item)+'<span class="stampR">YES ✓</span><span class="stampL">SKIP ✕</span>'
+        +(saveLabel?'<span class="stampU">'+saveLabel+'</span>':'');
       wrap.appendChild(el);
-      if(i===0) attachDrag(el, item, onSwipe);
+      if(i===0) attachDrag(el, item, onSwipe, !!saveLabel);
     });
   }
-  function attachDrag(el, item, onSwipe){
-    var sx=0, dx=0, dragging=false;
-    function move(e){ if(!dragging) return;
-      dx=(e.touches?e.touches[0].clientX:e.clientX)-sx;
-      el.style.transform='translateX('+dx+'px) rotate('+(dx/22)+'deg)';
+  function attachDrag(el, item, onSwipe, canSave){
+    var sx=0, sy=0, dx=0, dy=0, dragging=false;
+    function setStamps(){
       el.querySelector('.stampR').style.opacity=Math.min(1, Math.max(0, dx/90));
-      el.querySelector('.stampL').style.opacity=Math.min(1, Math.max(0,-dx/90)); }
+      el.querySelector('.stampL').style.opacity=Math.min(1, Math.max(0,-dx/90));
+      var u=el.querySelector('.stampU');
+      if(u) u.style.opacity=Math.min(1, Math.max(0, Math.abs(dy)/90 - Math.abs(dx)/180));
+    }
+    function move(e){ if(!dragging) return;
+      dx=e.clientX-sx; dy=e.clientY-sy;
+      if(canSave && Math.abs(dy)>Math.abs(dx))
+        el.style.transform='translateY('+dy+'px)';
+      else
+        el.style.transform='translateX('+dx+'px) rotate('+(dx/22)+'deg)';
+      setStamps(); }
     function up(){ if(!dragging) return; dragging=false; el.classList.remove('dragging');
       document.removeEventListener('pointermove',move); document.removeEventListener('pointerup',up);
-      if(Math.abs(dx)>85){ var dir=dx>0?1:-1;
+      var vertical = canSave && Math.abs(dy)>Math.abs(dx) && Math.abs(dy)>85;
+      if(vertical){
+        el.style.transform='translateY('+(dy>0?520:-520)+'px)'; el.style.opacity='0';
+        setTimeout(function(){ onSwipe(item, 'save'); }, 190);
+      } else if(Math.abs(dx)>85){ var dir=dx>0?1:-1;
         el.style.transform='translateX('+(dir*480)+'px) rotate('+(dir*24)+'deg)'; el.style.opacity='0';
         setTimeout(function(){ onSwipe(item, dir); }, 190);
-      } else { el.style.transform=''; el.querySelector('.stampR').style.opacity=0; el.querySelector('.stampL').style.opacity=0; }
-      dx=0; }
+      } else { el.style.transform=''; dx=0; dy=0; setStamps(); }
+      dx=0; dy=0; }
     el.addEventListener('pointerdown', function(e){
-      if(e.target.closest('a')) return;
-      dragging=true; sx=e.clientX; el.classList.add('dragging');
+      if(e.target.closest('a')||e.target.closest('button')) return;
+      dragging=true; sx=e.clientX; sy=e.clientY; el.classList.add('dragging');
+      try{ el.setPointerCapture(e.pointerId); }catch(err){}
       document.addEventListener('pointermove',move); document.addEventListener('pointerup',up); });
   }
 
@@ -477,15 +540,25 @@
     var all=(DATA.gk||[]);
     var queue=all.filter(function(c){ return !gkDone[gkId(c)]; })
       .sort(function(a,b){ return (gkLater[gkId(a)]||0)-(gkLater[gkId(b)]||0); });
+    var moreH='';
+    if((DATA.gkMore||[]).length){
+      moreH='<div class="card"><h2>More facts today <span class="chip b">tap for details</span></h2>'
+        +DATA.gkMore.map(function(c,i){
+          return '<details class="kc"><summary><span class="kn">'+(i+1)+'</span>'
+            +'<span class="khead"><span class="ktitle">'+esc(c.t)+'</span>'
+            +(c.teaser?'<span class="kteaser">'+esc(c.teaser)+'</span>':'')+'</span>'
+            +'<span class="khint"></span></summary><div class="kbody"><p>'+esc(c.more)+'</p></div></details>';
+        }).join('')+'</div>';
+    }
     if(!queue.length){
       box.innerHTML='<div class="card deckdone"><div class="big">🧠</div><div style="font-weight:700;margin-top:6px">All '+all.length+' cards done</div>'
-        +'<div style="font-size:13px;margin-top:4px">Fresh cards arrive tomorrow.</div>'
-        +'<div style="margin-top:14px"><button class="minibtn acc" id="gkAgain">Review again</button></div></div>';
+        +'<div style="font-size:13px;margin-top:4px">Fresh cards arrive tomorrow — more facts below.</div>'
+        +'<div style="margin-top:14px"><button class="minibtn acc" id="gkAgain">Review again</button></div></div>'+moreH;
       var b=box.querySelector('#gkAgain'); if(b) b.addEventListener('click', function(){
         (DATA.gk||[]).forEach(function(c){ delete gkDone[gkId(c)]; }); store.set('gkdone',gkDone); renderBrain(); });
       return;
     }
-    box.innerHTML='<div class="deckhint"><span>← show me later</span><span>'+queue.length+' left</span><span>got it →</span></div><div class="deckwrap" id="gkdeck" style="height:360px"></div>';
+    box.innerHTML='<div class="deckhint"><span>← show me later</span><span>'+queue.length+' left</span><span>got it →</span></div><div class="deckwrap" id="gkdeck" style="height:360px"></div>'+moreH;
     buildDeck(box.querySelector('#gkdeck'), queue.slice(0,4), function(item,dir){
       if(dir>0){ gkDone[gkId(item)]=true; store.set('gkdone',gkDone); bump('gk_done',3,true); toast('Got it · +3 XP'); }
       else { gkLater[gkId(item)]=Date.now(); toast('Moved to the back'); }
@@ -514,10 +587,33 @@
           +'<div class="pbar"><i style="width:'+p.pct+'%"></i></div></div>'
           +'<span class="g" style="color:var(--ink3)">›</span></div>';
       }).join('');
+      var prep=store.get('prep',{c:'',r:'',j:'',n:''});
       page.innerHTML='<div class="card"><h2>Skill academy <span class="chip b">beginner → advanced</span></h2>'+rows+'</div>'
+        +'<div class="card prep"><h2>Interview pack generator <span class="chip" style="background:var(--gold-soft);color:var(--gold)">cram sheet</span></h2>'
+        +'<div style="font-size:13px;color:var(--ink2);margin-bottom:10px">Fill this in and hand it to Claude — it researches the company and builds your 9-section cram pack (company snapshot, culture &amp; stability, JD-to-evidence fit rating, smart questions, SQL/Power BI revision, STAR stories, likely Q&amp;A, night-before checklist) as a Word/PDF you download.</div>'
+        +'<label>Company</label><input id="prepC" placeholder="e.g. RupeeRedee (FincFriends)" value="'+esc(prep.c)+'">'
+        +'<label>Role</label><input id="prepR" placeholder="e.g. Business Analyst — Lending Analytics" value="'+esc(prep.r)+'">'
+        +'<label>Job description (paste)</label><textarea id="prepJ" placeholder="Paste the JD here…">'+esc(prep.j)+'</textarea>'
+        +'<label>Anything else (round type, interviewer, worries)</label><input id="prepN" value="'+esc(prep.n)+'">'
+        +'<button class="bigbtn" id="prepGo">Generate pack with Claude</button>'
+        +'<button class="bigbtn ghost" id="prepCopy" style="margin-top:8px">Copy the brief instead</button></div>'
         +'<div class="card" style="font-size:13px;color:var(--ink2)">Each lesson: concept → real-life example → something to try at work → quiz with the why and the best approach. Passing every question completes the lesson (+25 XP).</div>';
       page.querySelectorAll('.trackcard').forEach(function(el){
         el.addEventListener('click', function(){ sView={mode:'track', t:SKILLS.tracks[+el.dataset.t]}; renderSkills(); }); });
+      function readPrep(){ var p={ c:$('#prepC').value.trim(), r:$('#prepR').value.trim(),
+          j:$('#prepJ').value.trim(), n:$('#prepN').value.trim() };
+        store.set('prep',p); return p; }
+      ['prepC','prepR','prepJ','prepN'].forEach(function(id){ $('#'+id).addEventListener('change', readPrep); });
+      function prepBrief(){ var p=readPrep();
+        return 'Create my interview cram pack as Word + PDF in my standard 9-section format: 1) Company Snapshot 2) Culture & Stability with an honest read 3) JD mapped to my evidence with a fit rating out of 10 and gaps 4) Smart questions to ask 5) SQL revision with interview lines and probes 6) Power BI revision 7) My projects as STAR stories 8) Likely questions with how to answer 9) Night-before checklist. Use my saved career context (arpit-career-context skill) for my background and honesty rules; research the company on the web (what they do, funding, Glassdoor culture, stability). Company: '+(p.c||'?')+'. Role: '+(p.r||'?')+'. Notes: '+(p.n||'-')+'. JD: '+(p.j||'(none — infer from the role)'); }
+      $('#prepGo').addEventListener('click', function(){
+        var b=prepBrief(); if(!store.get('prep',{}).c){ toast('Add the company name first'); return; }
+        window.open('https://claude.ai/new?q='+encodeURIComponent(b.slice(0,1800))+'&surface=cowork','_blank'); });
+      $('#prepCopy').addEventListener('click', function(){
+        var b=prepBrief();
+        (navigator.clipboard?navigator.clipboard.writeText(b):Promise.reject()).then(
+          function(){ toast('Brief copied — paste it to Claude'); },
+          function(){ prompt('Copy this brief:', b); }); });
       return;
     }
     if(sView.mode==='track'){
@@ -635,20 +731,27 @@
 
   /* ============ snackbar / settings ============ */
   var snackTimer=null;
+  function hideSnack(){ $('#snack').classList.remove('on'); lastAction=null; }
   function toast(msg, undo){
     $('#snackTxt').textContent=msg; lastAction=undo||null;
     $('#undoBtn').style.display=undo?'block':'none';
     $('#snack').classList.add('on');
     clearTimeout(snackTimer);
-    snackTimer=setTimeout(function(){ $('#snack').classList.remove('on'); lastAction=null; }, 2800);
+    snackTimer=setTimeout(hideSnack, 1800);
   }
+  // never let the snackbar linger: any interaction outside it dismisses immediately
+  ['pointerdown','wheel','touchmove'].forEach(function(ev){
+    document.addEventListener(ev, function(e){
+      if(!e.target.closest||!e.target.closest('#snack')) hideSnack();
+    }, {passive:true});
+  });
   $('#undoBtn').addEventListener('click', function(){ if(lastAction) lastAction();
     $('#snack').classList.remove('on'); lastAction=null; });
   $('#gearBtn').addEventListener('click', function(){ $('#sheet').classList.add('on'); });
   $('#sheet').addEventListener('click', function(e){ if(e.target===$('#sheet')) $('#sheet').classList.remove('on'); });
   $('#swTheme').addEventListener('click', function(){ theme=(theme==='dark'?'light':'dark'); store.set('theme',theme); applyTheme(); });
-  $('#resetBtn').addEventListener('click', function(){ read={}; gone={}; gkDone={};
-    store.set('read',read); store.set('gone',gone); store.set('gkdone',gkDone);
+  $('#resetBtn').addEventListener('click', function(){ read={}; gone={}; gkDone={}; bm={};
+    store.set('read',read); store.set('gone',gone); store.set('gkdone',gkDone); store.set('bm',bm);
     renderAll(); $('#sheet').classList.remove('on'); toast('Swipes reset'); });
   $('#resetScoreBtn').addEventListener('click', function(){
     stats={news_read:0,news_hidden:0,gk_done:0,learn_open:0,quiz_att:0,quiz_ok:0,lessons_done:0,time_s:0,xp:0};
