@@ -1,0 +1,11 @@
+# internal project notes for Claude Code — must NOT go to the public repo
+CLAUDE.md
+
+# transient: created by refresh.mjs only when the top headline changes, consumed by the workflow
+data/.notify
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+node_modules/

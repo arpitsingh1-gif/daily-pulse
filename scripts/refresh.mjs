@@ -1,31 +1,36 @@
 // Daily Pulse — data refresher. Runs in GitHub Actions (Node 20+), no dependencies.
-// Fetches: Yahoo Finance quotes (indices + watchlist) and Google News RSS per topic bucket.
-// Rotates 10 GK + 8 Learn cards from data/banks.json by date. Writes data/data.json.
+// Markets: Google Finance via the r.jina.ai reader (reachable from CI runners).
+// News: Google News RSS per topic bucket. Rotates GK + Learn cards from data/banks.json by date.
+// Writes data/data.json (+ data/embed.js for offline/file:// fallback).
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const UA = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36' };
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Instruments are addressed by their Google Finance symbol (EXCHANGE-qualified).
 const INDICES = [
-  { sym: '^BSESN', name: 'Sensex' },
-  { sym: '^NSEI', name: 'Nifty 50' },
-  { sym: '^NSEBANK', name: 'Bank Nifty' },
-  { sym: '^CNXIT', name: 'Nifty IT' },
-  { sym: 'USDINR=X', name: 'USD/INR', fx: true },
-  { sym: 'BZ=F', name: 'Brent $', fx: true },
+  { g: 'SENSEX:INDEXBOM', name: 'Sensex' },
+  { g: 'NIFTY_50:INDEXNSE', name: 'Nifty 50' },
+  { g: 'NIFTY_BANK:INDEXNSE', name: 'Bank Nifty' },
+  { g: 'NIFTY_IT:INDEXNSE', name: 'Nifty IT' },
+  { g: 'USD-INR', name: 'USD/INR', fx: true },
+  { g: 'BZW00:NYMEX', name: 'Brent $', fx: true }, // front-month Brent crude, USD/bbl
 ];
-// Edit this list to change the stock watchlist.
+// Edit this list to change the stock watchlist. Values are Google Finance symbols.
+// Note: TATAMOTORS:NSE returns a broken quote page post-demerger; TMPV (Tata Motors
+// Passenger Vehicles, the car/EV arm) is the working, marketplace-relevant listing.
 const WATCHLIST = [
-  { sym: 'RELIANCE.NS', name: 'Reliance' },
-  { sym: 'TCS.NS', name: 'TCS' },
-  { sym: 'HDFCBANK.NS', name: 'HDFC Bank' },
-  { sym: 'INFY.NS', name: 'Infosys' },
-  { sym: 'ICICIBANK.NS', name: 'ICICI Bank' },
-  { sym: 'TATAMOTORS.NS', name: 'Tata Motors' },
-  { sym: 'M&M.NS', name: 'M&M' },
-  { sym: 'ITC.NS', name: 'ITC' },
+  { g: 'RELIANCE:NSE', name: 'Reliance' },
+  { g: 'TCS:NSE', name: 'TCS' },
+  { g: 'HDFCBANK:NSE', name: 'HDFC Bank' },
+  { g: 'INFY:NSE', name: 'Infosys' },
+  { g: 'ICICIBANK:NSE', name: 'ICICI Bank' },
+  { g: 'TMPV:NSE', name: 'Tata Motors' },
+  { g: 'M%26M:NSE', name: 'M&M' },
+  { g: 'ITC:NSE', name: 'ITC' },
 ];
 
 // News buckets in Arpit's preferred order. `q` = Google News search; `topic` = curated feed.
@@ -52,128 +57,88 @@ const dec = (s) => String(s || '')
   .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
   .replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, ' ').trim();
 
-const OPTS = (extra) => ({ headers: { ...UA, ...(extra || {}) }, signal: AbortSignal.timeout(+(process.env.DP_FETCH_TIMEOUT_MS||15000)) });
-async function jget(url, extra) { const r = await fetch(url, OPTS(extra)); if (!r.ok) throw new Error(r.status); return r.json(); }
-async function tget(url, extra) { const r = await fetch(url, OPTS(extra)); if (!r.ok) throw new Error(r.status); return r.text(); }
+const OPTS = (extra, to) => ({ headers: { ...UA, ...(extra || {}) }, signal: AbortSignal.timeout(to || +(process.env.DP_FETCH_TIMEOUT_MS || 20000)) });
+async function tget(url, extra, to) { const r = await fetch(url, OPTS(extra, to)); if (!r.ok) throw new Error(r.status); return r.text(); }
 
-// Yahoo blocks datacenter IPs without a session cookie + crumb. Establish one once per run.
-let ySess;
-async function yahoo() {
-  if (ySess !== undefined) return ySess;
-  try {
-    const r1 = await fetch('https://fc.yahoo.com', { headers: UA, redirect: 'manual', signal: AbortSignal.timeout(10000) });
-    const cookie = (r1.headers.get('set-cookie') || '').split(';')[0];
-    let crumb = '';
-    if (cookie) {
-      const r2 = await fetch('https://query1.finance.yahoo.com/v1/test/getcrumb',
-        { headers: { ...UA, cookie }, signal: AbortSignal.timeout(10000) });
-      if (r2.ok) crumb = (await r2.text()).trim();
-    }
-    ySess = { cookie, crumb };
-  } catch (e) { console.error('yahoo session fail', e.message); ySess = { cookie: '', crumb: '' }; }
-  return ySess;
-}
-async function yget(path) {
-  const s = await yahoo();
-  const extra = s.cookie ? { cookie: s.cookie } : {};
-  const sep = path.includes('?') ? '&' : '?';
-  const withCrumb = s.crumb ? path + sep + 'crumb=' + encodeURIComponent(s.crumb) : path;
-  try { return await jget('https://query1.finance.yahoo.com' + withCrumb, extra); }
-  catch (e) { return jget('https://query2.finance.yahoo.com' + withCrumb, extra); }
-}
+/* ============================ MARKET QUOTES ============================
+   The reader returns markdown whose quote block reads like:
+     NIFTY 50 24,334.30 _arrow_upward_ +1.09% (+261.55)
+   We read price, %, and absolute change straight from that line (no fragile
+   "previous close" label), derive prev = price - change, and best-effort read
+   the 52-week ("Year range") band. Yahoo (blocked from datacenter IPs) and
+   Stooq (now behind a proof-of-work wall) were removed as dead sources. */
+const JINA_HDR = { 'x-return-format': 'markdown',
+  ...(process.env.JINA_KEY ? { Authorization: 'Bearer ' + process.env.JINA_KEY } : {}) };
 
-/* ---- source 2: Google Finance page scrape (server-rendered; reachable from CI runners) ---- */
-const GMAP = { '^BSESN': 'SENSEX:INDEXBOM', '^NSEI': 'NIFTY_50:INDEXNSE',
-  '^NSEBANK': 'NIFTY_BANK:INDEXNSE', '^CNXIT': 'NIFTY_IT:INDEXNSE', 'USDINR=X': 'USD-INR' };
-function gsym(sym) {
-  if (GMAP[sym]) return GMAP[sym];
-  const ns = sym.match(/^(.+)\.NS$/); if (ns) return encodeURIComponent(ns[1]) + ':NSE';
-  const bo = sym.match(/^(.+)\.BO$/); if (bo) return encodeURIComponent(bo[1]) + ':BOM';
+// plausibility bounds keyed by display name — a scraped value outside its range is garbage.
+const SANE = { 'Sensex': [40000, 150000], 'Nifty 50': [15000, 60000], 'Bank Nifty': [30000, 130000],
+  'Nifty IT': [20000, 90000], 'USD/INR': [60, 140], 'Brent $': [30, 200] };
+function sane(name, v) { const r = SANE[name] || [0.01, 5000000]; return v >= r[0] && v <= r[1]; }
+
+function parseGF(mdRaw) {
+  const md = mdRaw.replace(/\\/g, '');           // the reader escapes underscores as \_
+  const m = md.match(/([\d,]+\.\d+)\s*_arrow_(upward|downward)_\s*([+-]?[\d.]+)%\s*\(([+-]?[\d,]+\.\d+)\)/);
+  if (!m) return null;
+  const price = +m[1].replace(/,/g, '');
+  const dir = m[2] === 'downward' ? -1 : 1;
+  const chg = +(dir * Math.abs(+m[4].replace(/,/g, ''))).toFixed(2);
+  const q = { price, chg, pct: +(dir * Math.abs(+m[3])).toFixed(2), prev: +(price - chg).toFixed(2) };
+  const yr = md.match(/Year range[\s₹$]*([\d,]+\.\d+)\s*[-–]\s*[₹$]?\s*([\d,]+\.\d+)/i);
+  if (yr) { q.lo52 = +yr[1].replace(/,/g, ''); q.hi52 = +yr[2].replace(/,/g, ''); }
+  return q;
+}
+// Hard cap so a jina outage can never blow the Action's 10-min budget; past it, everything
+// falls through to carry-forward instead of retrying.
+const DEADLINE = Date.now() + 7 * 60 * 1000;
+// A too-short reader response is a rate-limit / interstitial page — retry a couple of times.
+async function gfQuote(g) {
+  for (let a = 0; a < 2; a++) {
+    if (Date.now() > DEADLINE) return null;
+    try {
+      const md = await tget('https://r.jina.ai/https://www.google.com/finance/quote/' + g + '?hl=en', JINA_HDR, 12000);
+      const q = parseGF(md);
+      if (q) return q;
+    } catch (e) { console.error('gf fail', g, e.message); }
+    await sleep(2000);
+  }
   return null;
 }
-async function gquote(sym) {
-  const g = gsym(sym); if (!g) return null;
-  const url = 'https://www.google.com/finance/quote/' + g;
-  // consent cookie skips Google's consent interstitial that cloud IPs often get
-  try {
-    const html = await tget(url + '?hl=en', { 'accept-language': 'en-US,en',
-      cookie: 'CONSENT=YES+cb.20240101-01-p0.en+FX+000; SOCS=CAISNQgQEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjQwMTAxLjAxX3AwGgJlbiACGgYIgN3RrAY' });
-    const last = (html.match(/data-last-price="([\d.]+)"/) || [])[1];
-    if (last) {
-      const pm = html.match(/Previous close[\s\S]{0,200}?([\d,]+\.\d+|[\d,]{2,})/);
-      return { price: +last, prev: pm ? +pm[1].replace(/,/g, '') : null };
+function shape(inst, q) {
+  if (!q || !sane(inst.name, q.price)) { if (q) console.error('rejected', inst.name, q.price); return null; }
+  const out = { name: inst.name, g: inst.g, price: +q.price.toFixed(2), chg: q.chg, pct: q.pct,
+    spark: [q.prev, q.price], fx: !!inst.fx, ok: true };
+  if (q.lo52 && q.hi52 && sane(inst.name, q.lo52) && sane(inst.name, q.hi52)) { out.lo52 = q.lo52; out.hi52 = q.hi52; }
+  return out;
+}
+// Sequential (the reader rate-limits parallel bursts). Carry forward last-good on failure
+// so a transient miss shows the last known price instead of "awaiting refresh".
+async function quoteList(list, prevByName) {
+  const out = [];
+  for (const inst of list) {
+    const s = shape(inst, await gfQuote(inst.g));
+    if (s) { out.push(s); }
+    else {
+      const p = prevByName[inst.name];
+      out.push(p && p.ok ? { ...p, stale: true } : { name: inst.name, g: inst.g, fx: !!inst.fx, ok: false });
     }
-    console.error('gquote no-price', sym, 'len=' + html.length, html.slice(0, 120).replace(/\s+/g, ' '));
-  } catch (e) { console.error('gquote fail', sym, e.message); }
-  // source 4: same page via Jina reader proxy (different IP pool, renders the page).
-  // Google's beta layout opens with an unrelated sectors table, so parsing must be
-  // ANCHORED to this symbol's own quote block ("SYM:EXCHANGE" nearest the price).
-  try {
-    const txt = await tget('https://r.jina.ai/' + url, { 'x-return-format': 'markdown' });
-    const anchor = decodeURIComponent(g);
-    let i = txt.lastIndexOf(anchor);
-    if (i < 0) i = txt.lastIndexOf(anchor.split(':')[0]);
-    if (i >= 0) {
-      const seg = txt.slice(i, i + 500);
-      const pm2 = seg.match(/([\d,]+\.\d{2})/);
-      const prevM = txt.match(/Prev\.\s*close\s*([\d,]+\.\d+)/i);
-      if (pm2) return { price: +pm2[1].replace(/,/g, ''), prev: prevM ? +prevM[1].replace(/,/g, '') : null };
-    }
-    console.error('jina no-anchored-price', sym, 'len=' + txt.length);
-  } catch (e) { console.error('jina fail', sym, e.message); }
-  return null;
+    await sleep(1200);
+  }
+  return out;
 }
-/* ---- source 3: Stooq CSV (for Brent) ---- */
-async function squote(s) {
-  const csv = await tget('https://stooq.com/q/l/?s=' + s + '&f=sd2t2ohlcv&e=csv');
-  const p = (csv.split('\n')[1] || '').split(',');
-  const close = +p[6], open = +p[3];
-  return (isFinite(close) && close > 0) ? { price: close, prev: isFinite(open) && open > 0 ? open : null } : null;
-}
-// plausibility bounds — a scraped number outside its known range is garbage, never display it
-const SANE = { '^BSESN': [40000, 150000], '^NSEI': [15000, 60000], '^NSEBANK': [30000, 130000],
-  '^CNXIT': [20000, 90000], 'USDINR=X': [60, 140], 'BZ=F': [30, 200] };
-function sane(sym, v) { const r = SANE[sym] || [1, 500000]; return v >= r[0] && v <= r[1]; }
-function shape(name, sym, fx, price, prev, extra) {
-  if (!sane(sym, price)) { console.error('insane price rejected', sym, price); return { name, sym, ok: false }; }
-  if (prev != null && !sane(sym, prev)) prev = null;
-  const chg = prev != null ? price - prev : 0;
-  const pct = prev ? (chg / prev) * 100 : 0;
-  const out = { name, sym, price: +price.toFixed(2), chg: +chg.toFixed(2), pct: +pct.toFixed(2),
-    spark: prev != null ? [+prev.toFixed(2), +price.toFixed(2)] : [], fx: !!fx, ok: true };
-  return Object.assign(out, extra || {});
-}
-async function quote({ sym, name, fx }) {
-  // source 1: Yahoo (best data, often blocked from CI)
-  try {
-    const j = await yget(`/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`);
-    const res = j.chart.result[0];
-    const price = res.meta.regularMarketPrice;
-    const closes = (res.indicators.quote[0].close || []).filter((x) => x != null);
-    const prev = res.meta.chartPreviousClose ?? closes[closes.length - 2] ?? price;
-    const extra = { spark: closes.slice(-5).map((x) => +x.toFixed(2)) };
-    if (res.meta.fiftyTwoWeekHigh) extra.hi52 = +res.meta.fiftyTwoWeekHigh.toFixed(2);
-    if (res.meta.fiftyTwoWeekLow) extra.lo52 = +res.meta.fiftyTwoWeekLow.toFixed(2);
-    return shape(name, sym, fx, price, prev, extra);
-  } catch (e) { console.error('yahoo fail', sym, e.message); }
-  // source 2/3 fallbacks
-  try {
-    const alt = sym === 'BZ=F' ? await squote('cb.f') : await gquote(sym);
-    if (alt && alt.price) return shape(name, sym, fx, alt.price, alt.prev);
-  } catch (e) { console.error('fallback fail', sym, e.message); }
-  return { name, sym, ok: false };
-}
+const byName = (arr) => Object.fromEntries((arr || []).map((x) => [x.name, x]));
 
-// Yahoo "trending in India" tickers — the closest free proxy to "most searched" stocks.
-// Falls back to the static WATCHLIST when unavailable.
-async function trendingIN() {
-  try {
-    const j = await yget('/v1/finance/trending/IN?count=14');
-    const syms = ((j.finance.result[0] || {}).quotes || []).map((q) => q.symbol)
-      .filter((s) => /\.(NS|BO)$/.test(s)).slice(0, 8);
-    if (syms.length < 4) return null;
-    return syms.map((s) => ({ sym: s, name: s.replace(/\.(NS|BO)$/, '').replace(/[-_]/g, ' ') }));
-  } catch (e) { console.error('trending fail', e.message); return null; }
+// Best-effort structured fields pulled from an IPO news headline — conservative:
+// only emit a field when the value is unambiguously present (headlines often name the
+// word "GMP"/"Price Band" without a value, so loose matching would print garbage).
+function ipoFields(title) {
+  const f = {};
+  const band = title.match(/₹\s?(\d[\d,]*\d|\d)\s*(?:[-–]|to)\s*₹?\s?(\d[\d,]*\d|\d)/);
+  if (band) { const lo = +band[1].replace(/,/g, ''), hi = +band[2].replace(/,/g, '');
+    if (lo >= 10 && hi <= 9999 && hi > lo) f.band = '₹' + band[1] + '–₹' + band[2]; } // per-share band, not crore issue size
+  const gmp = title.match(/GMP\s*:?\s*₹\s?(\d[\d,]*\d|\d)/i);      // require ₹ + digit right after GMP
+  if (gmp) f.gmp = 'GMP ₹' + gmp[1];
+  if (/subscri/i.test(title)) { const s = title.match(/(\d[\d.]*)\s?x\b/i); if (s) f.sub = s[1] + 'x subscribed'; }
+  return Object.keys(f).length ? f : null;
 }
 
 async function rss(bucket) {
@@ -211,31 +176,35 @@ const main = async () => {
   const ist = new Date(now.getTime() + (330 + now.getTimezoneOffset()) * 60000);
   const seed = Math.floor(ist.getTime() / 86400000);
 
-  const trend = await trendingIN();
-  const wlDefs = trend || WATCHLIST;
-  const [indices, watchlist] = await Promise.all([
-    Promise.all(INDICES.map(quote)), Promise.all(wlDefs.map(quote)),
-  ]);
+  const prevPath = join(ROOT, 'data', 'data.json');
+  let prev = {}; try { prev = JSON.parse(readFileSync(prevPath, 'utf8')); } catch {}
+  const pm = prev.markets || {};
+
+  // Markets first (sequential, with carry-forward from the previous run).
+  const indices = await quoteList(INDICES, byName(pm.indices));
+  const watchlist = await quoteList(WATCHLIST, byName(pm.watchlist));
 
   const live = watchlist.filter((w) => w.ok);
   const insights = [];
   if (live.length) {
     const up = live.filter((w) => w.pct > 0).length;
-    const best = [...live].sort((a, b) => b.pct - a.pct)[0];
-    const worst = [...live].sort((a, b) => a.pct - b.pct)[0];
-    insights.push(`${up} of ${live.length} ${trend ? 'trending' : 'watchlist'} stocks advancing`);
-    insights.push(`Top: ${best.name} ${best.pct >= 0 ? '+' : ''}${best.pct}%`);
-    insights.push(`Weakest: ${worst.name} ${worst.pct >= 0 ? '+' : ''}${worst.pct}%`);
+    const ranked = [...live].sort((a, b) => b.pct - a.pct);
+    const best = ranked[0], worst = ranked[ranked.length - 1];
+    insights.push(`${up} of ${live.length} watchlist stocks advancing`);
+    if (best) insights.push(`Top: ${best.name} ${best.pct >= 0 ? '+' : ''}${best.pct}%`);
+    if (worst && worst.name !== best.name) insights.push(`Weakest: ${worst.name} ${worst.pct >= 0 ? '+' : ''}${worst.pct}%`);
     const near = live.find((w) => w.hi52 && w.price >= w.hi52 * 0.98);
     if (near) insights.push(`${near.name} within 2% of its 52-week high`);
     const it = indices.find((i) => i.name === 'Nifty IT'), nf = indices.find((i) => i.name === 'Nifty 50');
-    if (it?.ok && nf?.ok) insights.push(`Nifty IT ${it.pct > nf.pct ? 'outperforming' : 'lagging'} Nifty (${it.pct}% vs ${nf.pct}%)`);
+    if (it && it.ok && nf && nf.ok) insights.push(`Nifty IT ${it.pct > nf.pct ? 'outperforming' : 'lagging'} Nifty (${it.pct}% vs ${nf.pct}%)`);
   }
 
-  // IPO watch: headlines with price bands / listings / GMP
-  const ipo = (await rss({ tag: 'IPO', q: 'IPO india price band listing subscription' })).slice(0, 4);
+  // IPO watch: current IPO headlines, with band/GMP/subscription pulled out when present.
+  const ipoRaw = await rss({ tag: 'IPO', q: 'IPO india price band GMP listing subscription' });
+  const ipo = ipoRaw.slice(0, 5).map((it) => { const f = ipoFields(it.title); return f ? { ...it, f } : it; });
 
-  const newsArrays = await Promise.all(BUCKETS.map(rss));
+  const newsArrays = [];
+  for (const b of BUCKETS) { newsArrays.push(await rss(b)); await sleep(200); }
   const news = [];      // top cards for the swipe deck (1-2 per bucket)
   const browse = [];    // full per-segment lists (up to 6 per bucket)
   BUCKETS.forEach((b, i) => {
@@ -253,13 +222,11 @@ const main = async () => {
     .filter((c) => !gk.some((g) => g.t === c.t)).slice(0, 10);
   const learn = rotate(banks.learn, 8, seed, 11);
 
-  const prevPath = join(ROOT, 'data', 'data.json');
-  let prev = {}; try { prev = JSON.parse(readFileSync(prevPath, 'utf8')); } catch {}
   const istHM = String(ist.getUTCHours()).padStart(2, '0') + ':' + String(ist.getUTCMinutes()).padStart(2, '0');
   const data = {
     generatedAt: now.toISOString(),
     label: ist.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) + ', ' + istHM + ' IST',
-    markets: { indices, watchlist, trending: !!trend, ipo, insights },
+    markets: { indices, watchlist, trending: false, ipo, insights },
     news: news.length ? news : (prev.news || []),
     browse: browse.length ? browse : (prev.browse || []),
     gk, gkMore, learn,
@@ -276,6 +243,7 @@ const main = async () => {
   const newTop = data.news[0] && data.news[0].title;
   if (newTop && newTop !== prevTop) writeFileSync(join(ROOT, 'data', '.notify'), `${data.news[0].tag}: ${newTop}`);
 
-  console.log(`written: ${news.length} news, ${indices.filter((i) => i.ok).length}/${indices.length} indices, ${live.length}/${watchlist.length} stocks, trending=${!!trend}, ipo=${ipo.length}`);
+  const okIdx = indices.filter((i) => i.ok).length, okWl = watchlist.filter((i) => i.ok).length;
+  console.log(`written: ${news.length} news, ${okIdx}/${indices.length} indices, ${okWl}/${watchlist.length} stocks, ipo=${ipo.length}`);
 };
 main().catch((e) => { console.error(e); process.exit(1); });

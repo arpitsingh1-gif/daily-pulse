@@ -98,6 +98,8 @@
   /* muted IPO rows */
   .iporow .subj { color:var(--ink2) !important; font-weight:600; }
   .iporow .snip { color:var(--ink3); }
+  .ipochips { display:flex; flex-wrap:wrap; gap:5px; margin:6px 0 2px; }
+  .ipochip { font-size:10.5px; font-weight:700; padding:2px 8px; border-radius:8px; background:var(--ok-soft); color:var(--ok); white-space:nowrap; }
   /* browse sections */
   .lvl2 { font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; color:var(--accent); margin:14px 0 2px; opacity:.85; }
   a.browserow { display:block; padding:9px 2px; border-top:1px solid var(--line); text-decoration:none; color:inherit; }
@@ -301,6 +303,7 @@
   'use strict';
   var $ = function(s){ return document.querySelector(s); };
   var esc = function(x){ var d=document.createElement('div'); d.textContent=(x==null?'':String(x)); return d.innerHTML; };
+  var vibe = function(p){ try{ if(navigator.vibrate) navigator.vibrate(p); }catch(e){} };
   var store = {
     get: function(k,f){ try{ var v=localStorage.getItem('dp_'+k); return v==null?f:JSON.parse(v); }catch(e){ return f; } },
     set: function(k,v){ try{ localStorage.setItem('dp_'+k, JSON.stringify(v)); }catch(e){} }
@@ -482,8 +485,11 @@
     }).join('');
     var ins=(DATA.markets.insights||[]).map(function(s){ return '<div class="insight">'+esc(s)+'</div>'; }).join('');
     var ipo=(DATA.markets.ipo||[]).map(function(n){
+      var f=n.f||{};
+      var chips=[f.band,f.gmp,f.sub].filter(Boolean).map(function(v){ return '<span class="ipochip">'+esc(v)+'</span>'; }).join('');
       return '<a class="rowitem iporow" href="'+esc(n.url)+'" target="_blank" rel="noopener"><div class="body">'
         +'<div class="subj" style="white-space:normal">'+esc(n.title)+'</div>'
+        +(chips?'<div class="ipochips">'+chips+'</div>':'')
         +'<div class="snip">'+esc(n.src||'')+(n.at?' · '+esc(n.at):'')+'</div></div></a>';
     }).join('');
     $('#page-markets').innerHTML =
@@ -491,7 +497,7 @@
       +'<div class="card"><h2>'+(DATA.markets.trending?'Trending stocks <span class="chip g">most active in India</span>':'Watchlist')+'</h2>'
       +(wl||'<div class="empty">Empty watchlist.</div>')+'</div>'
       +(ins?'<div class="card"><h2>Insights</h2>'+ins+'</div>':'')
-      +(ipo?'<div class="card"><h2>IPO watch <span class="chip b">price bands &amp; listings</span></h2>'+ipo+'</div>':'');
+      +(ipo?'<div class="card"><h2>IPO watch <span class="chip b">GMP &amp; subscription</span></h2>'+ipo+'</div>':'');
   }
 
   /* ============ NEWS deck ============ */
@@ -586,9 +592,11 @@
       document.removeEventListener('pointermove',move); document.removeEventListener('pointerup',up);
       var vertical = canSave && Math.abs(dy)>Math.abs(dx) && Math.abs(dy)>85;
       if(vertical){
+        vibe(16);
         el.style.transform='translateY('+(dy>0?520:-520)+'px)'; el.style.opacity='0';
         setTimeout(function(){ onSwipe(item, 'save'); }, 190);
       } else if(Math.abs(dx)>85){ var dir=dx>0?1:-1;
+        vibe(dir>0?14:[6,16]);
         el.style.transform='translateX('+(dir*480)+'px) rotate('+(dir*24)+'deg)'; el.style.opacity='0';
         setTimeout(function(){ onSwipe(item, dir); }, 190);
       } else { el.style.transform=''; dx=0; dy=0; setStamps(); }
@@ -841,7 +849,7 @@
         if(answered[qi]!=null) return;
         answered[qi]=oi;
         var q=L.quiz[qi]; var box=page2.querySelector('.qbox[data-q="'+qi+'"]');
-        var ok=(oi===q.a); correct[qi]=ok;
+        var ok=(oi===q.a); correct[qi]=ok; vibe(ok?12:[7,22,7]);
         bump('quiz_att', 0, true); if(ok) bump('quiz_ok', 10, true); else bump(null, 2, true);
         box.querySelectorAll('.opt').forEach(function(b){
           b.disabled=true;
@@ -916,8 +924,8 @@
   $('#wizAgain').addEventListener('click', function(){ $('#sheet').classList.remove('on'); wizOpen(); });
   $('#sheet').addEventListener('click', function(e){ if(e.target===$('#sheet')) $('#sheet').classList.remove('on'); });
   $('#swTheme').addEventListener('click', function(){ theme=(theme==='dark'?'light':'dark'); store.set('theme',theme); applyTheme(); });
-  $('#resetBtn').addEventListener('click', function(){ read={}; gone={}; gkDone={}; bm={};
-    store.set('read',read); store.set('gone',gone); store.set('gkdone',gkDone); store.set('bm',bm);
+  $('#resetBtn').addEventListener('click', function(){ read={}; gone={}; gkDone={}; gkLater={};
+    store.set('read',read); store.set('gone',gone); store.set('gkdone',gkDone);
     renderAll(); $('#sheet').classList.remove('on'); toast('Swipes reset'); });
   $('#resetScoreBtn').addEventListener('click', function(){
     stats={news_read:0,news_hidden:0,gk_done:0,learn_open:0,quiz_att:0,quiz_ok:0,lessons_done:0,time_s:0,xp:0};
