@@ -105,13 +105,21 @@ async function gquote(sym) {
     }
     console.error('gquote no-price', sym, 'len=' + html.length, html.slice(0, 120).replace(/\s+/g, ' '));
   } catch (e) { console.error('gquote fail', sym, e.message); }
-  // source 4: same page via Jina reader proxy (different IP pool, renders the page)
+  // source 4: same page via Jina reader proxy (different IP pool, renders the page).
+  // Google's beta layout opens with an unrelated sectors table, so parsing must be
+  // ANCHORED to this symbol's own quote block ("SYM:EXCHANGE" nearest the price).
   try {
     const txt = await tget('https://r.jina.ai/' + url, { 'x-return-format': 'markdown' });
-    const pm = txt.match(/Previous close[\s\S]{0,80}?([\d,]+\.\d+)/i);
-    const first = txt.match(/(?:₹|\$)?\s?([\d,]{2,}\.\d{2})/);
-    if (first) return { price: +first[1].replace(/,/g, ''), prev: pm ? +pm[1].replace(/,/g, '') : null };
-    console.error('jina no-price', sym, 'len=' + txt.length);
+    const anchor = decodeURIComponent(g);
+    let i = txt.lastIndexOf(anchor);
+    if (i < 0) i = txt.lastIndexOf(anchor.split(':')[0]);
+    if (i >= 0) {
+      const seg = txt.slice(i, i + 500);
+      const pm2 = seg.match(/([\d,]+\.\d{2})/);
+      const prevM = txt.match(/Prev\.\s*close\s*([\d,]+\.\d+)/i);
+      if (pm2) return { price: +pm2[1].replace(/,/g, ''), prev: prevM ? +prevM[1].replace(/,/g, '') : null };
+    }
+    console.error('jina no-anchored-price', sym, 'len=' + txt.length);
   } catch (e) { console.error('jina fail', sym, e.message); }
   return null;
 }
@@ -122,7 +130,13 @@ async function squote(s) {
   const close = +p[6], open = +p[3];
   return (isFinite(close) && close > 0) ? { price: close, prev: isFinite(open) && open > 0 ? open : null } : null;
 }
+// plausibility bounds — a scraped number outside its known range is garbage, never display it
+const SANE = { '^BSESN': [40000, 150000], '^NSEI': [15000, 60000], '^NSEBANK': [30000, 130000],
+  '^CNXIT': [20000, 90000], 'USDINR=X': [60, 140], 'BZ=F': [30, 200] };
+function sane(sym, v) { const r = SANE[sym] || [1, 500000]; return v >= r[0] && v <= r[1]; }
 function shape(name, sym, fx, price, prev, extra) {
+  if (!sane(sym, price)) { console.error('insane price rejected', sym, price); return { name, sym, ok: false }; }
+  if (prev != null && !sane(sym, prev)) prev = null;
   const chg = prev != null ? price - prev : 0;
   const pct = prev ? (chg / prev) * 100 : 0;
   const out = { name, sym, price: +price.toFixed(2), chg: +chg.toFixed(2), pct: +pct.toFixed(2),
