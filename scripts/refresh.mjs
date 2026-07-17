@@ -93,12 +93,27 @@ function gsym(sym) {
 }
 async function gquote(sym) {
   const g = gsym(sym); if (!g) return null;
-  const html = await tget('https://www.google.com/finance/quote/' + g, { 'accept-language': 'en-US,en' });
-  const last = (html.match(/data-last-price="([\d.]+)"/) || [])[1];
-  if (!last) return null;
-  const pm = html.match(/Previous close[\s\S]{0,200}?([\d,]+\.\d+|[\d,]{2,})/);
-  const prev = pm ? +pm[1].replace(/,/g, '') : null;
-  return { price: +last, prev: prev };
+  const url = 'https://www.google.com/finance/quote/' + g;
+  // consent cookie skips Google's consent interstitial that cloud IPs often get
+  try {
+    const html = await tget(url + '?hl=en', { 'accept-language': 'en-US,en',
+      cookie: 'CONSENT=YES+cb.20240101-01-p0.en+FX+000; SOCS=CAISNQgQEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjQwMTAxLjAxX3AwGgJlbiACGgYIgN3RrAY' });
+    const last = (html.match(/data-last-price="([\d.]+)"/) || [])[1];
+    if (last) {
+      const pm = html.match(/Previous close[\s\S]{0,200}?([\d,]+\.\d+|[\d,]{2,})/);
+      return { price: +last, prev: pm ? +pm[1].replace(/,/g, '') : null };
+    }
+    console.error('gquote no-price', sym, 'len=' + html.length, html.slice(0, 120).replace(/\s+/g, ' '));
+  } catch (e) { console.error('gquote fail', sym, e.message); }
+  // source 4: same page via Jina reader proxy (different IP pool, renders the page)
+  try {
+    const txt = await tget('https://r.jina.ai/' + url, { 'x-return-format': 'markdown' });
+    const pm = txt.match(/Previous close[\s\S]{0,80}?([\d,]+\.\d+)/i);
+    const first = txt.match(/(?:₹|\$)?\s?([\d,]{2,}\.\d{2})/);
+    if (first) return { price: +first[1].replace(/,/g, ''), prev: pm ? +pm[1].replace(/,/g, '') : null };
+    console.error('jina no-price', sym, 'len=' + txt.length);
+  } catch (e) { console.error('jina fail', sym, e.message); }
+  return null;
 }
 /* ---- source 3: Stooq CSV (for Brent) ---- */
 async function squote(s) {
