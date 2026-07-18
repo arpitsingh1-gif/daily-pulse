@@ -234,7 +234,7 @@ function rotate(bank, n, seed, salt) {
 
 const main = async () => {
   const now = new Date();
-  const ist = new Date(now.getTime() + (330 + now.getTimezoneOffset()) * 60000);
+  const ist = new Date(now.getTime() + 330 * 60000); // UTC instant → IST, correct on any runner (CI is UTC)
   const seed = Math.floor(ist.getTime() / 86400000);
 
   const prevPath = join(ROOT, 'data', 'data.json');
@@ -247,8 +247,11 @@ const main = async () => {
   const global = await quoteList(GLOBAL, byName(pm.global));
   const vix = (await quoteList(VIX, byName(pm.vix ? [pm.vix] : [])))[0];
   const etf = await quoteList(ETFS, byName(pm.etf));
-  const mf = [];
-  for (const f of MFUNDS) { const q = await mfQuote(f.code); mf.push(q ? { name: f.name, cat: f.cat, nav: q.nav, pct: q.pct, date: q.date, ok: true } : { name: f.name, cat: f.cat, ok: false }); await sleep(250); }
+  const mf = []; const pmMf = byName(pm.mf);
+  for (const f of MFUNDS) { const q = await mfQuote(f.code); const p = pmMf[f.name];
+    mf.push(q ? { name: f.name, cat: f.cat, nav: q.nav, pct: q.pct, date: q.date, ok: true }
+              : (p && p.ok ? { ...p, stale: true } : { name: f.name, cat: f.cat, ok: false })); // carry forward last-good NAV on a transient miss
+    await sleep(250); }
   const watchlist = await quoteList(WATCHLIST, byName(pm.watchlist));
 
   const live = watchlist.filter((w) => w.ok);
@@ -308,11 +311,13 @@ const main = async () => {
   fy.slice(0, 1).forEach((it) => news.push({ tag: 'For You', ...it }));
   if (fy.length) browse.push({ tag: 'For You', items: fy.slice(0, 6) });
 
-  const banks = JSON.parse(readFileSync(join(ROOT, 'data', 'banks.json'), 'utf8'));
-  const gk = rotate(banks.gk, 10, seed, 3);
-  const gkMore = rotate(banks.gk, 10, seed + 917, 5)
-    .filter((c) => !gk.some((g) => g.t === c.t)).slice(0, 10);
-  const learn = rotate(banks.learn, 8, seed, 11);
+  let banks = null;
+  try { banks = JSON.parse(readFileSync(join(ROOT, 'data', 'banks.json'), 'utf8')); }
+  catch (e) { console.error('banks.json read failed, carrying forward GK/reads:', e.message); }
+  const gk = banks ? rotate(banks.gk, 10, seed, 3) : (prev.gk || []);
+  const gkMore = banks ? rotate(banks.gk, 10, seed + 917, 5)
+    .filter((c) => !gk.some((g) => g.t === c.t)).slice(0, 10) : (prev.gkMore || []);
+  const learn = banks ? rotate(banks.learn, 8, seed, 11) : (prev.learn || []);
 
   const istHM = String(ist.getUTCHours()).padStart(2, '0') + ':' + String(ist.getUTCMinutes()).padStart(2, '0');
   const data = {
@@ -327,9 +332,11 @@ const main = async () => {
 
   // embed.js — data + the light skills INDEX inlined so the app renders even without fetch
   // (file:// or first offline open). Full per-track lessons live in data/skills/<id>.json, lazy-loaded.
-  const skillsIdx = readFileSync(join(ROOT, 'data', 'skills-index.json'), 'utf8');
-  writeFileSync(join(ROOT, 'data', 'embed.js'),
-    'window.EMBED_DATA=' + JSON.stringify(data) + ';\nwindow.EMBED_SKILLS=' + skillsIdx.trim() + ';\n');
+  try {
+    const skillsIdx = readFileSync(join(ROOT, 'data', 'skills-index.json'), 'utf8');
+    writeFileSync(join(ROOT, 'data', 'embed.js'),
+      'window.EMBED_DATA=' + JSON.stringify(data) + ';\nwindow.EMBED_SKILLS=' + skillsIdx.trim() + ';\n');
+  } catch (e) { console.error('embed.js write skipped (skills-index unreadable); data.json already saved:', e.message); }
 
   // .notify — created only when the top headline changed; the workflow sends it as a phone push
   const prevTop = prev.news && prev.news[0] && prev.news[0].title;

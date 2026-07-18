@@ -8,7 +8,6 @@
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>Daily Pulse</title>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
   :root{
     --bg:#0E0F12; --bg2:#15171B; --card:#191B20; --card2:#20232A; --raise:#262A32;
@@ -433,10 +432,11 @@
   function aiBtn(label,fn){return '<button class="aibtn" data-ai="'+(aiStore.push(fn)-1)+'">✦ '+esc(label)+'</button>';}
   function wireAI(root){$$('.aibtn[data-ai]',root).forEach(function(b){if(b._w)return;b._w=1;
     b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var f=aiStore[+b.dataset.ai];if(f)askAI(typeof f==='function'?f():f);});});}
-  function cramPrompt(c,r,j){ var isArpit=/arpit/i.test(myName());
+  function cramPrompt(c,r,j,areas){ var isArpit=/arpit/i.test(myName());
     var bg=isArpit?'Use my saved career context (the arpit-career-context skill) for my background, projects and honesty rules.':'Ask me to paste my resume/background if you need it.';
-    return 'Act as my interview coach. Research '+c+' on the web, then build my interview cram pack in this 9-section format as a clear, structured document with headings and tables:\n'
-      +'1) Company snapshot (what they do, funding, scale)\n2) Culture & stability — an honest read (Glassdoor, recent news)\n3) The JD mapped to my evidence, with a fit rating out of 10 and my gaps\n4) Smart questions to ask them\n5) SQL revision — the patterns they will test, with interview lines and the likely probes\n6) Power BI / analytics revision\n7) My projects as STAR stories\n8) Likely questions with how to answer\n9) Night-before checklist.\n'
+    var rev=(areas&&areas.length)?areas.join(', '):'the technical/data skills named in the job description';
+    return 'Act as my interview coach. Research '+c+' on the web, then build my interview cram pack as a clear, structured document with headings and tables:\n'
+      +'1) Company snapshot (what they do, funding, scale)\n2) Culture & stability — an honest read (Glassdoor, recent news)\n3) The JD mapped to my evidence, with a fit rating out of 10 and my gaps\n4) Smart questions to ask them\n5) Technical revision on: '+rev+'. For EACH of these, give the concepts and patterns they will test, the exact interview lines to say, and the likely follow-up probes and gotchas\n6) My projects as STAR stories\n7) Likely questions with how to answer them\n8) Night-before checklist.\n'
       +bg+'\nRole: '+(r||'(infer from the company)')+'.\nJob description: '+(j||'(none provided — infer typical requirements)'); }
   function cramGo(prompt){ window.open((LLM[myLLM()]||LLM.claude)(String(prompt||'').slice(0,1950)),'_blank','noopener'); vibe(10); bump('ai_used',1,true); track('cram_pack',{}); }
   function briefingPrompt(){return 'Give me my personal daily briefing for today. Using my connected Gmail, Slack and Google Calendar, summarise concisely and prioritised:\n1) Important or unread emails needing my reply (sender + one-line why).\n2) Slack messages where I am @mentioned or DMed (who/where + gist).\n3) Today\'s meetings with times and a one-line prep note each.\nPut anything urgent at the very top. If you cannot access these, tell me exactly what to connect.';}
@@ -483,7 +483,7 @@
     if(id==='learn'&&tab==='learn'&&typeof sView!=='undefined'&&sView&&sView.mode!=='tracks'){ sView={mode:'tracks'}; } // re-tap Learn pops to catalog
     tab=id;store.set('tab',id);track('tab_view',{tab:id});
     $$('nav button').forEach(function(b){b.classList.toggle('on',b.dataset.tab===id);});
-    function swap(){ $$('.tabpage').forEach(function(p){p.classList.toggle('on',p.id==='page-'+id);}); doRender(id); window.scrollTo(0,0); }
+    function swap(){ $$('.tabpage').forEach(function(p){p.classList.toggle('on',p.id==='page-'+id);}); try{ doRender(id); }catch(e){ if(window.console)console.error('render '+id,e); } window.scrollTo(0,0); }
     if(document.startViewTransition){ try{ var vt=document.startViewTransition(swap);
       ['ready','finished','updateCallbackDone'].forEach(function(k){ if(vt&&vt[k]&&vt[k].catch)vt[k].catch(function(){}); }); }catch(e){ swap(); } } else swap();
     vibe(4); }
@@ -555,7 +555,7 @@
       +(fact?'<div class="card"><h2>Today\'s fact 🧠</h2><details class="kc" style="border-top:none"><summary style="padding:3px 0"><span class="kn">💡</span><span class="khead"><span class="ktitle">'+esc(fact.t)+'</span>'+(fact.teaser?'<span class="kteaser">'+esc(fact.teaser)+'</span>':'')+'</span><span class="khint"></span></summary><div class="kbody"><p>'+esc(fact.more)+'</p></div></details></div>':'')
       +'<div class="card"><h2>Keep going</h2>'
       +(rec?'<div class="row" data-track="'+recIdx+'"><div class="tico" style="width:38px;height:38px;font-size:18px">'+esc(rec.icon)+'</div><span class="nm">Continue: '+esc(rec.name)+'<small>'+esc(rec.blurb||'')+'</small></span><span style="color:var(--ink3)">›</span></div>':'')
-      +'<div class="row" data-go="learn"><div class="tico" style="width:38px;height:38px;font-size:18px">📚</div><span class="nm">All 15 tracks<small>'+dl+' of '+tl+' lessons done</small></span><span style="color:var(--ink3)">›</span></div>'
+      +'<div class="row" data-go="learn"><div class="tico" style="width:38px;height:38px;font-size:18px">📚</div><span class="nm">All '+(SKILLS?SKILLS.tracks.length:18)+' tracks<small>'+dl+' of '+tl+' lessons done</small></span><span style="color:var(--ink3)">›</span></div>'
       +(read1?'<div class="row" data-read="1"><div class="tico" style="width:38px;height:38px;font-size:18px">📖</div><span class="nm">Read: '+esc(read1.title)+'<small>deeper read of the day</small></span><span style="color:var(--ink3)">›</span></div>':'')
       +'<div class="row" data-go="ai"><div class="tico" style="width:38px;height:38px;font-size:18px">✦</div><span class="nm">AI Studio<small>Ready-made prompts → your AI</small></span><span style="color:var(--ink3)">›</span></div>'
       +'</div>'+bmHub();
@@ -699,7 +699,7 @@
     if(sView.mode!=='tracks'){ renderTrackOrLesson(page); return; }
     page.innerHTML='<div class="seg" id="learnSeg"><button data-m="academy"'+(learnMode==='academy'?' class="on"':'')+'>Academy</button><button data-m="brain"'+(learnMode==='brain'?' class="on"':'')+'>Brain</button></div><div id="learnBody"></div>';
     var seg=$('#learnSeg'); var pill=document.createElement('div');pill.className='pill';seg.insertBefore(pill,seg.firstChild);
-    function movePill(){var on=seg.querySelector('button.on');pill.style.width=on.offsetWidth+'px';pill.style.transform='translateX('+on.offsetLeft-4+'px)';}
+    function movePill(){var on=seg.querySelector('button.on');pill.style.width=on.offsetWidth+'px';pill.style.transform='translateX('+(on.offsetLeft-4)+'px)';}
     $$('#learnSeg button').forEach(function(b){b.addEventListener('click',function(){learnMode=b.dataset.m;store.set('learnmode',learnMode);renderLearn();});});
     setTimeout(movePill,10);
     if(learnMode==='academy')renderAcademy($('#learnBody'));else renderBrain($('#learnBody'));
@@ -708,7 +708,7 @@
     var rows=SKILLS.tracks.map(function(t,i){var p=trackProgress(t);
       return '<div class="trackcard" data-t="'+i+'"><div class="tico">'+esc(t.icon)+'</div><div class="tbody"><div class="tname">'+esc(t.name)+'</div><div class="tsub">'+esc(t.blurb||(p.tot+' lessons'))+'</div><div class="pbar"><i style="width:'+p.pct+'%"></i></div></div>'
         +ringSmall(p.pct)+'</div>';}).join('');
-    box.innerHTML='<div class="card"><h2>Skill Academy <span class="chip b">15 tracks · beginner → advanced</span></h2>'+rows+'</div>'
+    box.innerHTML='<div class="card"><h2>Skill Academy <span class="chip b">'+SKILLS.tracks.length+' tracks · beginner → advanced</span></h2>'+rows+'</div>'
       +'<div class="card"><div style="font-size:13px;color:var(--ink2)">Each lesson: concept → real example → worked example → common mistakes → quiz → authoritative links. Finish the quiz to complete a lesson (+25 XP). Tap ✦ on any lesson to have your AI re-teach or quiz you.</div></div>';
     $$('.trackcard',box).forEach(function(el){el.addEventListener('click',function(){sView={mode:'track',t:SKILLS.tracks[+el.dataset.t]};renderLearn();});});
   }
@@ -748,6 +748,7 @@
   /* Brain */
   var brainMode=store.get('brainmode','learn');
   function renderBrain(box){
+    if(!DATA){box.innerHTML='<div class="card empty">Loading today’s reads…</div>';return;}
     box.innerHTML='<div class="seg" id="brSeg"><button data-b="learn"'+(brainMode==='learn'?' class="on"':'')+'>Deeper reads</button><button data-b="gk"'+(brainMode==='gk'?' class="on"':'')+'>GK cards</button></div><div id="brBody"></div>';
     var seg=$('#brSeg');var pill=document.createElement('div');pill.className='pill';seg.insertBefore(pill,seg.firstChild);
     setTimeout(function(){var on=seg.querySelector('button.on');pill.style.width=on.offsetWidth+'px';pill.style.transform='translateX('+(on.offsetLeft-4)+'px)';},10);
@@ -830,16 +831,24 @@
     var cbtn=$('#cramBtn');if(cbtn)cbtn.addEventListener('click',openCram);
     wireAI($('#page-ai'));
   }
-  function openCram(){ var p=store.get('prep',{c:'',r:'',j:''});
+  var CRAM_AREAS=['SQL','Python','Power BI','Tableau','Excel','Statistics','DAX','Pandas / EDA','Data modeling','A/B testing','Product metrics','Guesstimates','Machine learning','Cloud / warehouses'];
+  function openCram(){ var p=store.get('prep',{c:'',r:'',j:'',areas:[]}); var sel=p.areas||[];
     openSheet('<h3>🎯 Interview cram pack</h3><div style="font-size:12.5px;color:var(--ink3);margin-bottom:12px">Opens in '+esc(LLM_NAMES[myLLM()])+' — it researches the company and writes the pack.</div>'
       +'<input type="text" id="cramC" placeholder="Company (e.g. RupeeRedee)" value="'+esc(p.c||'')+'" style="margin-bottom:9px">'
       +'<input type="text" id="cramR" placeholder="Role (e.g. Data Analyst)" value="'+esc(p.r||'')+'" style="margin-bottom:9px">'
       +'<textarea id="cramJ" placeholder="Paste the job description (optional)">'+esc(p.j||'')+'</textarea>'
+      +'<label style="font-size:12px;font-weight:800;color:var(--ink2);text-transform:uppercase;letter-spacing:.05em;display:block;margin:14px 0 2px">What to revise — tap all you want</label>'
+      +'<div class="chips" id="cramAreas">'+CRAM_AREAS.map(function(a){return '<button class="chipbtn'+(sel.indexOf(a)>=0?' on':'')+'" data-a="'+esc(a)+'">'+esc(a)+'</button>';}).join('')+'</div>'
+      +'<input type="text" id="cramOther" placeholder="Anything else to revise? (e.g. dashboarding, ETL, PySpark)" value="'+esc(p.other||'')+'" style="margin-top:2px">'
       +'<button class="bigbtn grad" id="cramGoBtn" style="margin-top:12px">Build with '+esc(LLM_NAMES[myLLM()])+' ↗</button>');
     setTimeout(function(){var el=$('#cramC');if(el)el.focus();},80);
+    $$('#cramAreas .chipbtn').forEach(function(b){b.onclick=function(){b.classList.toggle('on');};});
     $('#cramGoBtn').addEventListener('click',function(){var c=$('#cramC').value.trim(),r=$('#cramR').value.trim(),j=$('#cramJ').value.trim();
+      var areas=$$('#cramAreas .chipbtn.on').map(function(b){return b.dataset.a;});
+      var other=$('#cramOther').value.trim(); if(other)areas=areas.concat(other.split(',').map(function(s){return s.trim();}).filter(Boolean));
       if(!c){toast('Add the company name first');return;}
-      store.set('prep',{c:c,r:r,j:j}); closeSheet(); cramGo(cramPrompt(c,r,j)); });
+      store.set('prep',{c:c,r:r,j:j,areas:$$('#cramAreas .chipbtn.on').map(function(b){return b.dataset.a;}),other:other});
+      closeSheet(); cramGo(cramPrompt(c,r,j,areas)); });
   }
   function openBriefSetup(){ openSheet('<h3>Set up your briefing</h3>'
     +'<div style="font-size:13.5px;color:var(--ink2);line-height:1.6">This is a <b>one-time</b> setup. After this, it\'s a single tap each day.<br><br>'
