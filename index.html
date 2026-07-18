@@ -358,6 +358,16 @@
   var vibe=function(p){try{if(navigator.vibrate)navigator.vibrate(p);}catch(e){}};
   var store={get:function(k,f){try{var v=localStorage.getItem('dp_'+k);return v==null?f:JSON.parse(v);}catch(e){return f;}},
     set:function(k,v){try{localStorage.setItem('dp_'+k,JSON.stringify(v));}catch(e){}}};
+  /* ===== aggregate analytics — anonymous, opt-out, OFF until a GA4 id is set ===== */
+  /* Set ANALYTICS.ga4 to your GA4 Measurement ID (e.g. 'G-XXXXXXXXXX') to enable.
+     Empty = zero tracking, zero external calls. No personal data or identity is ever sent. */
+  var ANALYTICS={ga4:''};
+  function analyticsOn(){ return !!ANALYTICS.ga4 && !store.get('noanalytics',false); }
+  (function(){ if(!analyticsOn())return;
+    var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ANALYTICS.ga4;document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};
+    window.gtag('js',new Date());window.gtag('config',ANALYTICS.ga4,{anonymize_ip:true}); })();
+  function track(name,params){ try{ if(analyticsOn()&&window.gtag)window.gtag('event',name,params||{}); }catch(e){} }
   var hash=function(s){var h=5381;for(var i=0;i<s.length;i++){h=((h<<5)+h+s.charCodeAt(i))|0;}return 'h'+(h>>>0).toString(36);};
   var todayKey=function(d){d=d||new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');};
   function fmtN(x){return (x==null)?'—':(+x).toLocaleString('en-IN',{maximumFractionDigits:2});}
@@ -418,7 +428,7 @@
   var LLM_NAMES={claude:'Claude',chatgpt:'ChatGPT',perplexity:'Perplexity',grok:'Grok'};
   function askAI(prompt){var base=String(prompt||'').trim().slice(0,1700);if(!base)return;
     var q=base+'\n\nFormat your answer to be rich and scannable, not a wall of text: use short headings, bullet points, and a compact table or side-by-side comparison where it genuinely helps. If a chart or simple visual would clarify it, include one.';
-    window.open((LLM[myLLM()]||LLM.claude)(q),'_blank','noopener');vibe(10);bump('ai_used',1,true);}
+    window.open((LLM[myLLM()]||LLM.claude)(q),'_blank','noopener');vibe(10);bump('ai_used',1,true);track('ask_ai',{section:tab});}
   var aiStore=[];
   function aiBtn(label,fn){return '<button class="aibtn" data-ai="'+(aiStore.push(fn)-1)+'">✦ '+esc(label)+'</button>';}
   function wireAI(root){$$('.aibtn[data-ai]',root).forEach(function(b){if(b._w)return;b._w=1;
@@ -463,7 +473,7 @@
     {id:'ai',label:'AI Studio',ico:'<path d="M12 3v3M12 18v3M5 12H2M22 12h-3"/><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/><path d="M6.3 6.3l1.5 1.5M16.2 16.2l1.5 1.5M17.7 6.3l-1.5 1.5M7.8 16.2l-1.5 1.5"/>'}];
   $('#nav').innerHTML=TABS.map(function(t){return '<button data-tab="'+t.id+'"><svg viewBox="0 0 24 24">'+t.ico+'</svg>'+t.label+'</button>';}).join('');
   function doRender(id){ ({home:renderHome,markets:renderMarkets,news:renderNews,learn:renderLearn,ai:renderAI,you:renderYou}[id]||function(){})(); }
-  function setTab(id){ tab=id;store.set('tab',id);
+  function setTab(id){ tab=id;store.set('tab',id);track('tab_view',{tab:id});
     $$('nav button').forEach(function(b){b.classList.toggle('on',b.dataset.tab===id);});
     function swap(){ $$('.tabpage').forEach(function(p){p.classList.toggle('on',p.id==='page-'+id);}); doRender(id); window.scrollTo(0,0); }
     if(document.startViewTransition)document.startViewTransition(swap);else swap(); vibe(4); }
@@ -717,11 +727,11 @@
     $('#skBack').addEventListener('click',function(){sView={mode:'track',t:t};renderLearn();});
     function foot(){var total=(L.quiz||[]).length,ans=Object.keys(answered).length,okAll=(L.quiz||[]).every(function(q,qi){return correct[qi];}),f=$('#lfoot');
       if(ans<total){f.innerHTML='<button class="bigbtn ghost" disabled>Answer all '+total+' to finish</button>';return;}
-      if(okAll){if(!skillsDone[L.id]){skillsDone[L.id]=true;store.set('skillsdone',skillsDone);bump('lessons_done',25,true);vibe([10,30,10]);toast('Lesson complete · +25 XP 🎓');}
+      if(okAll){if(!skillsDone[L.id]){skillsDone[L.id]=true;store.set('skillsdone',skillsDone);bump('lessons_done',25,true);vibe([10,30,10]);toast('Lesson complete · +25 XP 🎓');track('lesson_done',{track:t.id});}
         f.innerHTML='<button class="bigbtn" id="nextL">Done — back to '+esc(t.name)+'</button>';$('#nextL').addEventListener('click',function(){sView={mode:'track',t:t};renderLearn();});}
       else{f.innerHTML='<button class="bigbtn" id="retryL">Some missed — retry</button>';$('#retryL').addEventListener('click',function(){sView={mode:'lesson',t:t,lesson:L};renderLearn();});}}
     foot();
-    $$('.opt',page).forEach(function(btn){btn.addEventListener('click',function(){var qi=+btn.dataset.q,oi=+btn.dataset.o;if(answered[qi]!=null)return;answered[qi]=oi;var q=L.quiz[qi],box=page.querySelector('.qbox[data-q="'+qi+'"]'),ok=(oi===q.a);correct[qi]=ok;vibe(ok?12:[7,22,7]);bump('quiz_att',0,true);if(ok)bump('quiz_ok',10,true);else bump(null,2,true);
+    $$('.opt',page).forEach(function(btn){btn.addEventListener('click',function(){var qi=+btn.dataset.q,oi=+btn.dataset.o;if(answered[qi]!=null)return;answered[qi]=oi;var q=L.quiz[qi],box=page.querySelector('.qbox[data-q="'+qi+'"]'),ok=(oi===q.a);correct[qi]=ok;vibe(ok?12:[7,22,7]);bump('quiz_att',0,true);if(ok)bump('quiz_ok',10,true);else bump(null,2,true);track('quiz',{ok:ok});
       $$('.opt',box).forEach(function(b){b.disabled=true;var bo=+b.dataset.o;if(bo===q.a)b.classList.add(ok&&bo===oi?'ok':'reveal');if(bo===oi&&!ok)b.classList.add('bad');});
       box.querySelector('.eslot').innerHTML='<div class="explain '+(ok?'good':'badx')+'"><b>'+(ok?'Correct · +10 XP':'Not quite · +2 XP')+'</b>'+esc(q.why)+'</div>'+(q.approach?'<div class="explain" style="background:var(--blue-soft)"><b>Best approach</b>'+esc(q.approach)+'</div>':'');foot();});});
   }
@@ -841,11 +851,13 @@
       +'<div class="srow"><span>Dark mode</span><button class="switch'+(theme==='dark'?' on':'')+'" id="setTheme"></button></div>'
       +'<div class="srow"><span>Reset swipes<small>Bring back read &amp; dismissed</small></span><button class="mini" id="setSw">Reset</button></div>'
       +'<div class="srow"><span>Reset scorecard<small>Clears XP, streak &amp; stats</small></span><button class="mini" id="setSc">Reset</button></div>'
+      +'<div class="srow"><span>Anonymous usage stats<small>No personal data or identity — just helps improve the app</small></span><button class="switch'+(!store.get('noanalytics',false)?' on':'')+'" id="setAnalytics"></button></div>'
       +'<div class="srow"><span>Data refresh<small>Auto: 8 &amp; 11 IST daily · 16:15 weekdays</small></span></div></div>';
     $('#setWiz').addEventListener('click',function(){wizOpen();});
     $('#setTheme').addEventListener('click',function(){theme=(theme==='dark'?'light':'dark');store.set('theme',theme);applyTheme();renderYou();});
     $('#setSw').addEventListener('click',function(){read={};gone={};gkDone={};gkLater={};store.set('read',read);store.set('gone',gone);store.set('gkdone',gkDone);toast('Swipes reset');});
     $('#setSc').addEventListener('click',function(){stats={news_read:0,news_hidden:0,gk_done:0,learn_open:0,quiz_att:0,quiz_ok:0,lessons_done:0,ai_used:0,time_s:0,xp:0};daylog={};skillsDone={};store.set('stats',stats);store.set('daylog',daylog);store.set('skillsdone',skillsDone);renderYou();toast('Scorecard reset');});
+    $('#setAnalytics').addEventListener('click',function(){var cur=store.get('noanalytics',false);store.set('noanalytics',!cur);this.classList.toggle('on',cur);toast(cur?'Usage stats on':'Usage stats off');});
     $('#avaBtn').textContent=(myName()[0]||'A').toUpperCase();
   }
 
@@ -889,6 +901,7 @@
   function finishWiz(){ profile={name:(wizData.name.trim()||'friend'),topics:wizData.topics.length?wizData.topics:ALLTOPICS.slice(),
       interests:wizData.interests,risk:wizData.risk||'balanced',llm:wizData.llm||'claude',briefing:!!wizData.briefing,theme:wizData.theme};
     store.set('profile',profile);store.set('llm',profile.llm);theme=profile.theme;store.set('theme',theme);applyTheme();
+    track('onboarding_done',{briefing:!!profile.briefing,interests:(profile.interests||[]).length,llm:profile.llm,risk:profile.risk});
     $('#wiz').classList.remove('on');$('#avaBtn').textContent=(profile.name[0]||'A').toUpperCase();
     if(DATA){doRender(tab);} toast('Welcome, '+profile.name+' 👋');vibe([10,30,10]);}
 
@@ -929,7 +942,7 @@
       else $('#meta').innerHTML='<span class="stale">No data — see README</span>'; usedEmbed=false;});}
   $('#refreshBtn').addEventListener('click',function(){var b=this;b.style.transform='rotate(360deg)';b.style.transition='transform .5s';setTimeout(function(){b.style.transform='';b.style.transition='';},520);load(true);loadLive();toast('Refreshed');});
   $('#avaBtn').textContent=(myName()[0]||'A').toUpperCase();
-  applyTheme(); setTab(tab); load(false); loadLive();
+  applyTheme(); setTab(tab); load(false); loadLive(); track('app_open',{});
   if(!profile)setTimeout(wizOpen,350);
   setInterval(function(){if(document.visibilityState==='visible'){load(true);loadLive();}},5*60*1000);
   if(location.protocol!=='file:'&&'serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(function(){});
