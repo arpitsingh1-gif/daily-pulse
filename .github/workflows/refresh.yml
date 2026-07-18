@@ -26,9 +26,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      # Debounce: the schedule (fallback) and the external cron (primary) both trigger this
+      # workflow. If a refresh landed in the last 8 min, skip — keeps the combined commit rate
+      # under GitHub Pages' ~10 builds/hour soft limit no matter how the two triggers overlap.
+      - name: Debounce — skip if refreshed in the last 8 min
+        id: debounce
+        run: |
+          LAST=$(git log -1 --format=%ct 2>/dev/null || echo 0)
+          AGE=$(( $(date +%s) - LAST ))
+          if [ "$AGE" -lt 480 ]; then
+            echo "Last refresh ${AGE}s ago (<480s) — another trigger just ran; skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Build data.json + embed.js
+        if: steps.debounce.outputs.skip != 'true'
         run: node scripts/refresh.mjs
       - name: Push phone notification if top headline changed
+        if: steps.debounce.outputs.skip != 'true'
         run: |
           if [ -f data/.notify ]; then
             curl -s -H "Title: Daily Pulse" -H "Tags: newspaper" \
@@ -40,12 +56,22 @@ jobs:
           # then subscribe to the same topic in the ntfy app on your phone.
           NTFY_TOPIC: arpit-daily-pulse-x7k93q
       - name: Commit if changed
+        if: steps.debounce.outputs.skip != 'true'
         run: |
           git config user.name "pulse-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/data.json data/embed.js
-          git diff --staged --quiet || git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --staged --quiet; then echo "no data change"; exit 0; fi
+          git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          if git push origin HEAD:main; then exit 0; fi
+          echo "push rejected — checking whether a newer refresh already landed"
+          git fetch origin main
+          if [ "$(git rev-list --count HEAD..origin/main)" -gt 0 ]; then
+            echo "remote already advanced (a newer refresh won the race) — ours is redundant, done."
+            exit 0
+          fi
+          echo "push failed for a non-race reason — retrying once"
+          git push origin HEAD:main
       - name: Alert phone if the refresh failed
         if: failure()
         run: |
