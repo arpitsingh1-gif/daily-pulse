@@ -18,20 +18,77 @@ const INDICES = [
   { g: 'NIFTY_IT:INDEXNSE', name: 'Nifty IT' },
   { g: 'USD-INR', name: 'USD/INR', fx: true },
   { g: 'BZW00:NYMEX', name: 'Brent $', fx: true }, // front-month Brent crude, USD/bbl
+  { g: 'GCW00:COMEX', name: 'Gold $', fx: true },  // gold futures, USD/oz
+  { g: 'SIW00:COMEX', name: 'Silver $', fx: true }, // silver futures, USD/oz
 ];
 // Edit this list to change the stock watchlist. Values are Google Finance symbols.
 // Note: TATAMOTORS:NSE returns a broken quote page post-demerger; TMPV (Tata Motors
 // Passenger Vehicles, the car/EV arm) is the working, marketplace-relevant listing.
 const WATCHLIST = [
-  { g: 'RELIANCE:NSE', name: 'Reliance' },
-  { g: 'TCS:NSE', name: 'TCS' },
-  { g: 'HDFCBANK:NSE', name: 'HDFC Bank' },
-  { g: 'INFY:NSE', name: 'Infosys' },
-  { g: 'ICICIBANK:NSE', name: 'ICICI Bank' },
-  { g: 'TMPV:NSE', name: 'Tata Motors' },
-  { g: 'M%26M:NSE', name: 'M&M' },
-  { g: 'ITC:NSE', name: 'ITC' },
+  { g: 'RELIANCE:NSE', name: 'Reliance', sec: 'Energy' },
+  { g: 'TCS:NSE', name: 'TCS', sec: 'IT' },
+  { g: 'HDFCBANK:NSE', name: 'HDFC Bank', sec: 'Bank' },
+  { g: 'INFY:NSE', name: 'Infosys', sec: 'IT' },
+  { g: 'ICICIBANK:NSE', name: 'ICICI Bank', sec: 'Bank' },
+  { g: 'SBIN:NSE', name: 'SBI', sec: 'Bank' },
+  { g: 'BHARTIARTL:NSE', name: 'Bharti Airtel', sec: 'Telecom' },
+  { g: 'LT:NSE', name: 'L&T', sec: 'Infra' },
+  { g: 'TMPV:NSE', name: 'Tata Motors', sec: 'Auto' },
+  { g: 'M%26M:NSE', name: 'M&M', sec: 'Auto' },
+  { g: 'MARUTI:NSE', name: 'Maruti Suzuki', sec: 'Auto' },
+  { g: 'ITC:NSE', name: 'ITC', sec: 'FMCG' },
+  { g: 'HINDUNILVR:NSE', name: 'HUL', sec: 'FMCG' },
+  { g: 'SUNPHARMA:NSE', name: 'Sun Pharma', sec: 'Pharma' },
+  { g: 'BAJFINANCE:NSE', name: 'Bajaj Finance', sec: 'NBFC' },
+  { g: 'ADANIENT:NSE', name: 'Adani Ent', sec: 'Infra' },
 ];
+// Sector indices — powers the "which sectors are hot/cold" heatmap.
+const SECTORS = [
+  { g: 'NIFTY_AUTO:INDEXNSE', name: 'Auto' },
+  { g: 'NIFTY_BANK:INDEXNSE', name: 'Bank' },
+  { g: 'NIFTY_IT:INDEXNSE', name: 'IT' },
+  { g: 'NIFTY_PHARMA:INDEXNSE', name: 'Pharma' },
+  { g: 'NIFTY_FMCG:INDEXNSE', name: 'FMCG' },
+  { g: 'NIFTY_ENERGY:INDEXNSE', name: 'Energy' },
+  { g: 'NIFTY_METAL:INDEXNSE', name: 'Metal' },
+  { g: 'NIFTY_REALTY:INDEXNSE', name: 'Realty' },
+];
+// Global cues (matter for the Indian open) + volatility gauge.
+const GLOBAL = [
+  { g: '.DJI:INDEXDJX', name: 'Dow Jones' },
+  { g: '.IXIC:INDEXNASDAQ', name: 'Nasdaq' },
+  { g: '.INX:INDEXSP', name: 'S&P 500' },
+  { g: 'NI225:INDEXNIKKEI', name: 'Nikkei 225' },
+  { g: 'HSI:INDEXHANGSENG', name: 'Hang Seng' },
+  { g: 'UKX:INDEXFTSE', name: 'FTSE 100' },
+];
+const VIX = [{ g: 'INDIA_VIX:INDEXNSE', name: 'India VIX' }];
+// ETFs — what Indian retail actually buys for passive/thematic exposure.
+const ETFS = [
+  { g: 'NIFTYBEES:NSE', name: 'Nifty BeES', sub: 'Nifty 50 ETF' },
+  { g: 'BANKBEES:NSE', name: 'Bank BeES', sub: 'Bank Nifty ETF' },
+  { g: 'JUNIORBEES:NSE', name: 'Nifty Next 50', sub: 'Next 50 ETF' },
+  { g: 'GOLDBEES:NSE', name: 'Gold BeES', sub: 'Gold ETF' },
+  { g: 'SILVERBEES:NSE', name: 'Silver BeES', sub: 'Silver ETF' },
+  { g: 'MON100:NSE', name: 'Nasdaq 100', sub: 'US tech ETF (₹)' },
+];
+// Popular mutual funds (NAV via AMFI-backed api.mfapi.in). Direct-Growth plans.
+const MFUNDS = [
+  { code: '120716', name: 'UTI Nifty 50 Index', cat: 'Index' },
+  { code: '122639', name: 'Parag Parikh Flexi Cap', cat: 'Flexi Cap' },
+  { code: '119598', name: 'SBI Large Cap', cat: 'Large Cap' },
+  { code: '118989', name: 'HDFC Mid Cap', cat: 'Mid Cap' },
+  { code: '125354', name: 'Axis Small Cap', cat: 'Small Cap' },
+  { code: '120503', name: 'Axis ELSS Tax Saver', cat: 'ELSS · 80C' },
+];
+async function mfQuote(code) {
+  try {
+    const j = await (await fetch('https://api.mfapi.in/mf/' + code, OPTS(null, 15000))).json();
+    const d = j.data || []; if (!d[0]) return null;
+    const nav = +d[0].nav, prev = d[1] ? +d[1].nav : nav;
+    return { nav: +nav.toFixed(2), pct: prev ? +(((nav - prev) / prev) * 100).toFixed(2) : 0, date: d[0].date };
+  } catch (e) { console.error('mf fail', code, e.message); return null; }
+}
 
 // News buckets in Arpit's preferred order. `q` = Google News search; `topic` = curated feed.
 const BUCKETS = [
@@ -72,7 +129,8 @@ const JINA_HDR = { 'x-return-format': 'markdown',
 
 // plausibility bounds keyed by display name — a scraped value outside its range is garbage.
 const SANE = { 'Sensex': [40000, 150000], 'Nifty 50': [15000, 60000], 'Bank Nifty': [30000, 130000],
-  'Nifty IT': [20000, 90000], 'USD/INR': [60, 140], 'Brent $': [30, 200] };
+  'Nifty IT': [20000, 90000], 'USD/INR': [60, 140], 'Brent $': [30, 200],
+  'Gold $': [1500, 7000], 'Silver $': [12, 150] };
 function sane(name, v) { const r = SANE[name] || [0.01, 5000000]; return v >= r[0] && v <= r[1]; }
 
 function parseGF(mdRaw) {
@@ -85,6 +143,8 @@ function parseGF(mdRaw) {
   const q = { price, chg, pct: +(dir * Math.abs(+m[3])).toFixed(2), prev: +(price - chg).toFixed(2) };
   const yr = md.match(/Year range[\s₹$]*([\d,]+\.\d+)\s*[-–]\s*[₹$]?\s*([\d,]+\.\d+)/i);
   if (yr) { q.lo52 = +yr[1].replace(/,/g, ''); q.hi52 = +yr[2].replace(/,/g, ''); }
+  const pe = md.match(/P\/E ratio\s*([\d.,]+)/i);
+  if (pe) { const v = +pe[1].replace(/,/g, ''); if (v > 0 && v < 1000) q.pe = +v.toFixed(1); }
   return q;
 }
 // Hard cap so a jina outage can never blow the Action's 10-min budget; past it, everything
@@ -108,6 +168,7 @@ function shape(inst, q) {
   const out = { name: inst.name, g: inst.g, price: +q.price.toFixed(2), chg: q.chg, pct: q.pct,
     spark: [q.prev, q.price], fx: !!inst.fx, ok: true };
   if (q.lo52 && q.hi52 && sane(inst.name, q.lo52) && sane(inst.name, q.hi52)) { out.lo52 = q.lo52; out.hi52 = q.hi52; }
+  if (q.pe) out.pe = q.pe;
   return out;
 }
 // Sequential (the reader rate-limits parallel bursts). Carry forward last-good on failure
@@ -182,26 +243,57 @@ const main = async () => {
 
   // Markets first (sequential, with carry-forward from the previous run).
   const indices = await quoteList(INDICES, byName(pm.indices));
+  const sectors = await quoteList(SECTORS, byName(pm.sectors));
+  const global = await quoteList(GLOBAL, byName(pm.global));
+  const vix = (await quoteList(VIX, byName(pm.vix ? [pm.vix] : [])))[0];
+  const etf = await quoteList(ETFS, byName(pm.etf));
+  const mf = [];
+  for (const f of MFUNDS) { const q = await mfQuote(f.code); mf.push(q ? { name: f.name, cat: f.cat, nav: q.nav, pct: q.pct, date: q.date, ok: true } : { name: f.name, cat: f.cat, ok: false }); await sleep(250); }
   const watchlist = await quoteList(WATCHLIST, byName(pm.watchlist));
 
   const live = watchlist.filter((w) => w.ok);
+  const liveSec = sectors.filter((s) => s.ok);
+  const ranked = [...live].sort((a, b) => b.pct - a.pct);
+  const gainers = ranked.filter((w) => w.pct > 0).slice(0, 5);
+  const losers = [...ranked].reverse().filter((w) => w.pct < 0).slice(0, 5);
+  const up = live.filter((w) => w.pct > 0).length;
+  const secRank = [...liveSec].sort((a, b) => b.pct - a.pct);
+  const breadth = { up, total: live.length };
+
   const insights = [];
   if (live.length) {
-    const up = live.filter((w) => w.pct > 0).length;
-    const ranked = [...live].sort((a, b) => b.pct - a.pct);
-    const best = ranked[0], worst = ranked[ranked.length - 1];
-    insights.push(`${up} of ${live.length} watchlist stocks advancing`);
-    if (best) insights.push(`Top: ${best.name} ${best.pct >= 0 ? '+' : ''}${best.pct}%`);
-    if (worst && worst.name !== best.name) insights.push(`Weakest: ${worst.name} ${worst.pct >= 0 ? '+' : ''}${worst.pct}%`);
-    const near = live.find((w) => w.hi52 && w.price >= w.hi52 * 0.98);
-    if (near) insights.push(`${near.name} within 2% of its 52-week high`);
-    const it = indices.find((i) => i.name === 'Nifty IT'), nf = indices.find((i) => i.name === 'Nifty 50');
-    if (it && it.ok && nf && nf.ok) insights.push(`Nifty IT ${it.pct > nf.pct ? 'outperforming' : 'lagging'} Nifty (${it.pct}% vs ${nf.pct}%)`);
+    const mood = up / live.length;
+    insights.push(`Breadth: ${up}/${live.length} stocks up — ${mood > 0.65 ? 'broadly bullish' : mood < 0.35 ? 'broadly weak' : 'mixed'} today`);
+    if (ranked[0]) insights.push(`Top mover: ${ranked[0].name} ${ranked[0].pct >= 0 ? '+' : ''}${ranked[0].pct}%`);
+    if (ranked[ranked.length - 1] && ranked[ranked.length - 1].pct < 0) insights.push(`Weakest: ${ranked[ranked.length - 1].name} ${ranked[ranked.length - 1].pct}%`);
   }
+  if (secRank.length) {
+    insights.push(`Hot sector: ${secRank[0].name} ${secRank[0].pct >= 0 ? '+' : ''}${secRank[0].pct}% · Cold: ${secRank[secRank.length - 1].name} ${secRank[secRank.length - 1].pct}%`);
+    insights.push(`${liveSec.filter((s) => s.pct > 0).length}/${liveSec.length} sectors green today`);
+  }
+  const nf = indices.find((i) => i.name === 'Nifty 50');
+  if (nf && nf.ok) insights.push(`Nifty 50 ${nf.pct >= 0 ? 'up' : 'down'} ${Math.abs(nf.pct)}% — ${nf.pct > 0.5 ? 'bullish' : nf.pct < -0.5 ? 'bearish' : 'flat'} session`);
+  const rich = live.filter((w) => w.pe && w.pe > 45);
+  if (rich.length) insights.push(`Rich valuations: ${rich.slice(0, 2).map((w) => `${w.name} P/E ${w.pe}`).join(', ')}`);
+  if (vix && vix.ok) insights.push(`India VIX ${vix.price} — ${vix.price > 20 ? 'elevated fear' : vix.price < 13 ? 'calm markets' : 'moderate volatility'}`);
+  const gLive = global.filter((g) => g.ok);
+  if (gLive.length) { const gs = [...gLive].sort((a, b) => b.pct - a.pct); insights.push(`Global cues: ${gs[0].name} ${gs[0].pct >= 0 ? '+' : ''}${gs[0].pct}%, ${gs[gs.length - 1].name} ${gs[gs.length - 1].pct >= 0 ? '+' : ''}${gs[gs.length - 1].pct}%`); }
 
-  // IPO watch: current IPO headlines, with band/GMP/subscription pulled out when present.
-  const ipoRaw = await rss({ tag: 'IPO', q: 'IPO india price band GMP listing subscription' });
-  const ipo = ipoRaw.slice(0, 5).map((it) => { const f = ipoFields(it.title); return f ? { ...it, f } : it; });
+  // Educational market context — general principles anchored to today's data. NOT personalised advice.
+  const context = [];
+  if (live.length) { const mood2 = up / live.length;
+    context.push(mood2 > 0.65 ? 'Broad buying today — most large-caps rose. Broad-based rallies are generally healthier than a narrow one led by 1–2 heavyweights.'
+      : mood2 < 0.35 ? 'Broad selling today — most large-caps fell. Down days are exactly when disciplined SIP investors keep buying units cheaper.'
+      : 'A mixed, stock-specific day with no clear index direction — the kind of day where individual names matter more than the headline number.'); }
+  if (secRank.length) context.push(`Money rotated into ${secRank[0].name} and out of ${secRank[secRank.length - 1].name}. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.`);
+  if (vix && vix.ok) context.push(vix.price > 20 ? `India VIX is elevated (${vix.price}) — the market is pricing in bigger swings. High-volatility phases suit staggered buying over big lump sums.`
+    : `India VIX is low (${vix.price}) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk.`);
+
+  // IPO watch — pull broadly across two queries, dedupe, keep up to 10.
+  const ipoA = await rss({ tag: 'IPO', q: 'IPO india price band GMP listing subscription' });
+  const ipoB = await rss({ tag: 'IPO', q: 'upcoming IPO india SME mainboard open date' });
+  const seenIpo = new Set(); const ipo = [];
+  for (const it of [...ipoA, ...ipoB]) { const k = it.title.toLowerCase().slice(0, 40); if (seenIpo.has(k)) continue; seenIpo.add(k); const f = ipoFields(it.title); ipo.push(f ? { ...it, f } : it); if (ipo.length >= 10) break; }
 
   const newsArrays = [];
   for (const b of BUCKETS) { newsArrays.push(await rss(b)); await sleep(200); }
@@ -226,17 +318,18 @@ const main = async () => {
   const data = {
     generatedAt: now.toISOString(),
     label: ist.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) + ', ' + istHM + ' IST',
-    markets: { indices, watchlist, trending: false, ipo, insights },
+    markets: { indices, sectors, global, vix, etf, mf, watchlist, gainers, losers, breadth, trending: false, ipo, insights, context },
     news: news.length ? news : (prev.news || []),
     browse: browse.length ? browse : (prev.browse || []),
     gk, gkMore, learn,
   };
   writeFileSync(prevPath, JSON.stringify(data, null, 1));
 
-  // embed.js — same data inlined so the app renders even without fetch (file:// or first offline open)
-  const skillsRaw = readFileSync(join(ROOT, 'data', 'skills-bank.json'), 'utf8');
+  // embed.js — data + the light skills INDEX inlined so the app renders even without fetch
+  // (file:// or first offline open). Full per-track lessons live in data/skills/<id>.json, lazy-loaded.
+  const skillsIdx = readFileSync(join(ROOT, 'data', 'skills-index.json'), 'utf8');
   writeFileSync(join(ROOT, 'data', 'embed.js'),
-    'window.EMBED_DATA=' + JSON.stringify(data) + ';\nwindow.EMBED_SKILLS=' + skillsRaw.trim() + ';\n');
+    'window.EMBED_DATA=' + JSON.stringify(data) + ';\nwindow.EMBED_SKILLS=' + skillsIdx.trim() + ';\n');
 
   // .notify — created only when the top headline changed; the workflow sends it as a phone push
   const prevTop = prev.news && prev.news[0] && prev.news[0].title;

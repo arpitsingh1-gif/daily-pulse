@@ -1,100 +1,1573 @@
-window.EMBED_DATA={"generatedAt":"2026-07-17T21:36:49.211Z","label":"18 Jul, 21:36 IST","markets":{"indices":[{"name":"Sensex","g":"SENSEX:INDEXBOM","price":78151.45,"chg":964.58,"pct":1.25,"spark":[77186.87,78151.45],"fx":false,"ok":true},{"name":"Nifty 50","g":"NIFTY_50:INDEXNSE","price":24334.3,"chg":261.55,"pct":1.09,"spark":[24072.75,24334.3],"fx":false,"ok":true},{"name":"Bank Nifty","g":"NIFTY_BANK:INDEXNSE","price":58521.4,"chg":939.15,"pct":1.63,"spark":[57582.25,58521.4],"fx":false,"ok":true},{"name":"Nifty IT","g":"NIFTY_IT:INDEXNSE","price":29226.6,"chg":504,"pct":1.75,"spark":[28722.6,29226.6],"fx":false,"ok":true},{"name":"USD/INR","g":"USD-INR","price":96.53,"chg":-0.13,"pct":-0.13,"spark":[96.66,96.5261],"fx":true,"ok":true},{"name":"Brent $","g":"BZW00:NYMEX","price":83.04,"chg":2.27,"pct":2.81,"spark":[80.77,83.04],"fx":true,"ok":true}],"watchlist":[{"name":"Reliance","g":"RELIANCE:NSE","price":1328.8,"chg":32.2,"pct":2.48,"spark":[1296.6,1328.8],"fx":false,"ok":true},{"name":"TCS","g":"TCS:NSE","price":2266,"chg":65,"pct":2.95,"spark":[2201,2266],"fx":false,"ok":true},{"name":"HDFC Bank","g":"HDFCBANK:NSE","price":820.8,"chg":12.5,"pct":1.55,"spark":[808.3,820.8],"fx":false,"ok":true},{"name":"Infosys","g":"INFY:NSE","price":1094.2,"chg":11.8,"pct":1.09,"spark":[1082.4,1094.2],"fx":false,"ok":true},{"name":"ICICI Bank","g":"ICICIBANK:NSE","price":1454,"chg":35.8,"pct":2.52,"spark":[1418.2,1454],"fx":false,"ok":true},{"name":"Tata Motors","g":"TMPV:NSE","price":335.5,"chg":3.7,"pct":1.12,"spark":[331.8,335.5],"fx":false,"ok":true},{"name":"M&M","g":"M%26M:NSE","price":3178.9,"chg":61.1,"pct":1.96,"spark":[3117.8,3178.9],"fx":false,"ok":true},{"name":"ITC","g":"ITC:NSE","price":280.5,"chg":1.15,"pct":0.41,"spark":[279.35,280.5],"fx":false,"ok":true}],"trending":false,"ipo":[{"title":"Metalic Technoforge IPO Date, Price Band, GMP, Subscription & Allotment","url":"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWRkk0YjN3R1ByVXhaamZZakU0eVhROFdEeVJVemJTdENuZ2lZc3psbVhXRDd4OEw5TGZ5SDgyaVliT0lDN1VZd2dnLXlldTBmMkY2ZnUtZzJaQWdURk8zZWVSRjF3bGhL?oc=5","src":"IndiaIPO","at":"17 Jul, 17:33"},{"title":"SBI Funds IPO closes with 41.66x subscription, strong GMP signals","url":"https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVUVlb3NLc1ZxU0F1VENYbVhIdzBlb0FrWFp6MjlKb1A1SVJ3bDVnSXprYXpuN19QbWFwek9CcGNfV2tJTDZwcjJxZjBONkM3MnhkTGxHQTZqQXpQLTZTbEl2U1FmU3lYLXhSZTlUUS12Mll4c2JEVWFsS3RyWm1ZYzkxMC1TdUY5VGgycXhLMVRSZm9Qamt5YUlNazV3NWlCbHZPLTV3YmxrUl9uT0xnY3ktLXBmOG1VQzFHZWVfcWt3ZDdHOW5hNWxnRU04SzZKMUFfMTVtdFNpakZ4djZCWUhmQlVfUDFqU1JFczQwMlR3UlJsdVJrYURR?oc=5","src":"MSN","at":"17 Jul, 08:46","f":{"sub":"41.66x subscribed"}},{"title":"Caliber Mining & Logistics IPO GMP Signals 24%+ Listing Gain; Key IPO Details","url":"https://news.google.com/rss/articles/CBMiakFVX3lxTFAxbUFFa095TmdZdTFCaFR2OW1SMk55QVdRWmcyVUp5X0xidWUxRWRDa3BDcUN6S2Z0b3VpNFhLbExVY1BRYlA5RG40Z0kwd3c4cjlzSENUYk5oVGJVdHRXUUd5UlNIWUptT2fSAXJBVV95cUxOX29ENlgyS0liSlFiSTBaalh0ZFdGQVBMOFF4UDNkLTZlbmZsUWMwT29MeHRub0d6RERxUklFWGNOUDhTanI5QWVraTg3TzBhTUpmME5SZnZYMGR6U3FCUjRHRE9laXkzNzlUeDc3WWFKWVE?oc=5","src":"NDTV Profit","at":"17 Jul, 09:33"},{"title":"Caliber Mining & Logistics IPO Day 1: Issue subscribed 61% so far; GMP signals 25% listing gain","url":"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVmhvNWp3NWVfQkRjX2dpRURNeHdJNUVtX21ueC1RTzNNTXJHaTRqS0swTHNlQ21KTURjTV8taVhqNjRITUk2M2NEQXdvNEpQN2dfdDVCbWt3S0c1MWRGMFIyZWtVdngtOUxwdFhYeVNsNmFCZXlRcFVzMGl3QlNTcEktZXF6MDJmSXB0NXVjcXNSeHlhdmhJUTQ0Zl83QXlEanlpb1llaXh1b1JIXzQxT0swSTFOZFhLQmFna2hkNHpfdWlrdWlFQ1Ywb2xMaXl2MV9KX1F6dHFHVXp5bWkzZl81dFlJRHFsUENtYmF4dkpiQjDSAfgBQVVfeXFMTkJrV0JiWS1zcFc0aUpxLTNUa0kxUlVNZzFDRXptcUtoams2Zy1rcGJSLTNhd09ZTVJib3p4WWVURjVkVGJ4bG50OTVWX082Q3MyaEpDanNoM2ZTNDlFTUR3MWdnZ05TUlJWYjlidnQyNnh5bllWZ2h0bi1mbGxlM0hfRnRlMG1GZ2ZqUDFOQS1KX1JQNEFzbi0zaFNoci1NeC04Zjk1dnpRU0o3NXlXYVB2aUNMT3g4NUFYb0pJMFZETjlXVjhrbEtPaE5vZmtUVlYzODBsUUhOYUdTZjBQSnd2N3M3clNtUjliRkZEdXN5dldTV3E3cm8?oc=5","src":"The Economic Times","at":"17 Jul, 13:02"},{"title":"SBI Funds IPO Allotment Status: How To Check Status On BSE, NSE & KFin Tech; Live GMP, Listing Date","url":"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOa094eGpWMXpPdTBNUmVLWVZkLVkzSWJGRldLYlBZSFRSOVp4a2NsVTJnc3R3X3ZtOFFsTUZvQW9kUm53UjRxNFVDV0RkYzYzbWdSckRzZmFFVFRCRWMwX1NqdTJQUVl2U3M1VlV0Wm40elMyQS1kOG05LXZYcTQ3SVZ1S2JvV1lhb0NpMnRlUnJMQmxqVS1mdFNSWHR4TzY0OVV6UTB1NF9qUEFRQUN2M2pRaXkxdHZJb0JGV2pjOWpCTmhBa0VzLXZibFItaXc3ZGs0Q0I1elJIOTDSAeYBQVVfeXFMT1dISUo0YWVlTjRlWVRmZFdTaFVoVVJpSDlESFVVTXFKMXdORjZveEpXRjJlVGZVUkRGSTNoRlJabmVBdW1SdjJZeERlQTRLa1psLWRYTjlRWG4zYUpWbE1OZTB6N3gwTFhMQjhsT05fMjlmQmZrQnRlT2JUcVFkejNRcldYbW5veUlZOG9ZWUtIV0EybGdRLTZWUEllaDlOSlJBZE9XNUdaelEzem1PR3IzeTZQRkszdDdrZTZ6VjZSNW9CdEdtN0FYSVZEM0hDTlc0Z1E4a2pzZ2V0QnJfNDh2ZnRndWc?oc=5","src":"Goodreturns","at":"18 Jul, 01:32"}],"insights":["8 of 8 watchlist stocks advancing","Top: TCS +2.95%","Weakest: ITC +0.41%","Nifty IT outperforming Nifty (1.75% vs 1.09%)"]},"news":[{"tag":"Business","title":"RIL Q2 FY27 results: Reliance Industries beats estimates with record quarterly EBITDA; revenue rises 25%","url":"https://news.google.com/rss/articles/CBMi0AJBVV95cUxPRnRMeDRjclpLUmxlc2EtNHhKVUZmbHZmTGhWdlg2TUpXTm1GdFdxeVFFb0pCN0FRUi1MV0RXN3lBeU1INk9DUkJCWHZ6Q2FnS05mYUIwc1UtR3lQUWl0UkJvNmpMYm90QncyMG5qU2RlLXdUZTdJM3haeUpxWl9wcW5GQldJUTBXNlR6Tjk5UFdlVFhfRzhhYm02bDBNOF9KX2Rtb2lNOFRNVVZ4TFlaMUxuLWRJaDJoSHNVMzJtMHp6ckExWEpzVjhyQWE0TmZ0Q25PSVR1ZUExbXp3OE1yQkVMUUdaLVkxSU1NYlFCSmRrRk9fZXp6dmpnUXhrV3ZuOGV5SVc0T3hNWVFGeXcwY25UU3pxYlJtMS1OVGh3VmIyWG45SEJ4MkY0WnhxaGc0eXhiSHN6YkRJU3lyMVB4TEhNdzZnRS1HQ3lWRWliSkw?oc=5","src":"The Times of India","at":"18 Jul, 19:57"},{"tag":"Share Market","title":"Sensex ends nearly 1,000 points up: 3 reasons why stock market jumped today","url":"https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSkEtaWhKU1dqTTR4OFppUEp2b1RPXzFlTWxrNWo5ZXA1OGZDY0ZOUkNmXzIyVjg1ZnJSYW5fTl9HakVkQ21yV0lDclRMUUVERWhlcS1XZDdkYWk5UmthdEduNFAzNTNxOVB2R05zQy1Xdl9xenVmQWJQT2l0SzRULTZULVpZbm1EdWxDcFBidkN2OFk3eUtyUFFqWk9tZDUzcVVVcDRNME9uelRXVUxYODQ1Uk04Q0hGczhuTU1oTS1ZT1J5eC13dmZmd3hHOWRTRkZ5NXk0eXNBZ0Vra2RyRk41UW5VVXJjTi1Hdi1IM25jTmo5UVYySdIB_gFBVV95cUxOcjlQMGc2cklBY21tTUU3VVBweDBwNFlyYTdyRTlCNUVpMzBqRGhWeEFmTXZhamc5VFZ3cFA2b01MMkFwY3NwdHN3dEVINk82ZUtZZ1hrQTZac0liQWZRNGpIVGFQTVlGSFh3eS03U3lKbDJJWjZyOGhUQTBEVV9YclgtT0dZYXNzbzI2dUpQcGNrbk5YQ19KTk1jOXVmOUxfUXhfejlKQlUxVkxKUXRWbmk5MXZLdjU4UmZKSmpCa3U0aVVGU1ZiSHJGaU82TmJFeGJOa2xRcEFvVFhLemVkdXM1ejZSNFlhMjRQNWtJd05oQ0J6RnpVSmQ3dmdRdw?oc=5","src":"India Today","at":"17 Jul, 15:26"},{"tag":"Share Market","title":"Sensex, Nifty surged nearly 4% following announcement of ceasefire agreement between Washington and Tehran","url":"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVZNa0dvVmRZbGMwalItYmxmSzh4Q1d2NUZUWDlfWTloTjgyRzk2YjBYclMycDhOWE5PR3lBWG1mbXUxaUd3eHgzTF9XMjlqcEdWZU9qN3oyTXVJWThuM3I5ZVNibk9YaVM0bHFOY3RfV0t2Z2ZoZzlKR3NLbFVma2dtcTgwd00t?oc=5","src":"News On AIR","at":"17 Jul, 14:46"},{"tag":"Sports","title":"West Indies legend Sir Garfield Sobers passes away","url":"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYVBidzlwMkotSHZDTERxSk80ZUp0akhkUi1mOEdvWk5aVzR5WVU5ckhEWEY0bW10OWkyeTUwQjdMVUFzOE0wUkd4UGUxTlpIOWx0eUo2SFhWOTdPdmJJR2RUY2JEYTdNcHRXSi1Rak9UMDEzNXc2YUdrU0ZmYTc1SUVfWEJtS01KMkpZ?oc=5","src":"ICC","at":"18 Jul, 00:15"},{"tag":"Tech","title":"Oppo cuts OnePlus from North America and Europe, and Realme from China","url":"https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXhmQVEwTVpTcnNmdXM5cXRnTTh0d3A5OGpPWndtalpnUVFoX05FTkRiMUFFUTB3OFlXRDdTdC1WSUt0aThFazBmNXJWUl9qVWRvSDZKcnY4MngzYTVRZDZ3eTVUMWRPSnhhWnpfUVlpWjJSWDg2MDVoTEduRDFsYWJDX1pvWDdOSjM4N0xmTDRSZUVibXc?oc=5","src":"digitimes","at":"17 Jul, 13:11"},{"tag":"AI","title":"'Technology Must Serve People, Not the Other Way Around' - UN Secretary-General at the World AI Conference","url":"https://news.google.com/rss/articles/CBMiugFBVV95cUxQaFNtZ0VQRzJvT3JXN2dEdExTQzNVdzNocDRJTTduSmp5QVJ4N0xBLXZCdUgwX05raVRHT0tMWVBJSF9ISmx5QmIzV3ozWTZxRHV3SFhzUnJERUNZU19EQUpUTFFKSmZQY2NWYjJlYml1MGlPN0RFZExKV0ktYWUyUXRlQzI1NUlQczNUaEJZWHM0ZTF3Qy1KOTlySnk1djVnVmFRbGpucEpUVjdWUUNmTEdRODk1by1TaHc?oc=5","src":"United Nations Sustainable Development Group","at":"18 Jul, 22:05"},{"tag":"AI","title":"China’s Xi Jinping launches new AI alliance: What is it?","url":"https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlU0UE9IRjBrSkVJbDhpVlptQmRGRE9RV0dqLW04UjVoRU8yV041QmYyZVZ6bXNVaFkyQ205WUVCWnZObHdWNzl6ek5qVHFoV1UydkF1RlZ6RzBJTXBvcm5YYmlMdHN6ZFpsamFJbFk4Y21qSjBickc4THh2ajFOdDFIVWZyMUpRd2xlMTJ4SEVfbzRXR3daYUdn0gGfAUFVX3lxTFBxeFFLYTdKYXBrVDU2R3ZKNUR3aVc4aVFGTWw4VUtmanM5ZWd2cFlSRkI0bjZoSUJsY1VkR1drdFJBTmRVdTlWRDV5ajNQaHZ4MkFYQmRHZFdHeEVhMWlaT3Z5UGgxd3VpZWQtR1NyXzJvYzVkOTFnYlRreXdzRmo5aU4xQnl3bVctUHF6UHpLak0zSVN3WmthS01aOTdWYw?oc=5","src":"Al Jazeera","at":"18 Jul, 19:20"},{"tag":"Economy","title":"RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9%","url":"https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5","src":"News On AIR","at":"18 Jul, 23:56"},{"tag":"Politics","title":"Lok Sabha resumes discussion on 3 bills to provide reservation to women in Lower House and State Assemblies","url":"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWlJVQmhHUnlDNGN2X3pyREJDZTR3VEtFel9HN0FPLXNnUXhaVTJhQTBLSGNnb2dOWEQxU1plS1U1aE5kbnVBV1R5a1R6Z0dIcm16YksweFl4SGd1elBSYUtWcGVFRU1MbUxRclIzN01IU09saG4tbVFmM3NONVpoZEZfbTE0UV9UMDJ0enY0Qml6bFoxMlpuR2ZZc0hnSmY3clJRNzZKNGw4QUVTQmJQZzZMNWtOUzhPUVlBWnJ0eDVwRUdzQTNVODUxYUtMWW5YZ0g1X21kVXVWeWZPR3A3VlRia28?oc=5","src":"News On AIR","at":"17 Jul, 13:51"},{"tag":"Jobs","title":"Workers are entering the era of the forever layoff, where companies keep cutting small groups of employee","url":"https://news.google.com/rss/articles/CBMi4AJBVV95cUxNOS16ZFhTOVBiVGZ5SkNsVlVoY29TRnRWNXNuMzBJOWdPa3JNMWFUNEU3OGR1WDdZc0R5dFo0eTQwR0t4T3Zhd1JmenRaal91ckpLdFc3Ym84bUN2QW1WaWlhZ0tCSkkyUlU0OFNrcTVNcTdTbnVPQ3hJbmhpWTdEVlNBaUlPcmNjenRsTGs1VjluYjRjZGUxa0Z6REU1RXBLb3NxZmhHSWtpUkZvT0Z4Nm5kb2cySFNxNkRPREc3WnNQRWc1VElZaml0bXBzT2c4UVVnWnNxdXlwVmE0ODV3Zk9ESEI0N1RPXzlfcm1tcmVidGNtTGR2LXNTUDFoN0xXSm1BY0ViMThRblFQc0RBcTJwUEttblYyWDhvbFdxdTMwcFNUS3JRQnNFZHhLOHBOeEJUWWNnckRYR2t4eXVtVTlfcGMtZGc4OVdacHdRX2R5VTNEMEprVzdlQ0N5N0F50gHmAkFVX3lxTE5BLWFZd0hWb3FVa2x0UVl5WGZwSy1RMkNfa1JBeHQzSE0zMlR2TkhtWlBLb2l5akoyZFc3RTlxQzJzSUtGZnl5ZEF0a2FMbDJVQzU3QlFCaV9TM3hwNVhvaktjbVQ3LVg4SDNkaFF3SHRIa0VjWXlQNVQ4NXNRbmx4OEk3TmNWUl96am9nYmVEcmx3MTE0RXBoenh5ZlpWY1ZMcFNIWGVWQXExc1ItRUNaSU5FZmxCdTFlZEc1S09vdFY4ZVlTZjRXQ1N5WkhMcHk3LXVScjBhWExmTXUyYkJnUVNQemJmQm5ZQU9UUjJTdmQ3czFKU2xoQVpNR0EzZ2JNODZvZHRqbDRPc3VWejRhS0VXZG1Yc0Q1dkl3ZkJtVUVpcWZ6VDBsVlVlalJJbEQ5S2l1TmZhSDZoZVgtWUZ6WFdMNVZDV1ZiMFI2b0pIMEYzMlJ3MHZlTWxKeVdGOHowM0YtYVE?oc=5","src":"The Times of India","at":"17 Jul, 13:41"},{"tag":"Crime","title":"India signs Mutual Legal Assistance Agreement on Criminal Matters with Nepal","url":"https://news.google.com/rss/articles/CBMipAFBVV95cUxPcGtCeDhiUEtLTnVJd3BPZnVOdno4aHhXSGNiOFpaYndTQzNwQ0tTeDYwYWhfUWJNNDVMVnRHUjJ1eXY3MnJ6WVRESWsyUFFhYkdJc0hpc19STC1manRtWkVKSElKaWIzRkN3Y3ZDYXQ4SWt5c0daOF9xQm8zY29RZWdLQ3AxSy0tTFJNRnliRnNfdHBOU3Rhb1otVVZLSDBONjJ0Mg?oc=5","src":"News On AIR","at":"17 Jul, 16:45"},{"tag":"World","title":"US attacks southern Iran, as Tehran hits Gulf countries: What’s the latest?","url":"https://news.google.com/rss/articles/CBMisgFBVV95cUxNUTFnRml2MU4ya1M2Z3lhU3FoaFRNbE56LVA2VzVnMlVsd2lTUllEa3BzTWdHUEktRkxmbGlTeDZ6U2h0eFJObWdGZW9iS21SaWRhaDlrQUVLN0FsY19jX2JmaFdYckd4aXljQWVQMm4xNWZaZklVNG9McDkwbTBGVnc4Znp4azY3VW01QjkyYnNpRTFfSEc3SkoxM0ZJRjdhUmhtSWZGN3l2alo5UFZrZ01R0gG3AUFVX3lxTFBoS1ZZaWFWcjlZSHI1Y3dqT21LMmd2VVZWcjNaSzUzLWJmRm10RndvUGRWZnN6UUdqci0waE1ydXlIVEZHZXJuMEVaTlFfQlh2TnA3TmZpdE1hTmJGRjNoZEQwc3E3U0E3Sm52RXBRU1A4U05DcElaQVh2RC1xS2VfdGlma2pHTmZ0TktjckhyaVpESDNmaDZFanlveTdGTWlRdGZTWEtOeHFJX2pWc3R0cjhoRm1Zcw?oc=5","src":"Al Jazeera","at":"17 Jul, 13:45"},{"tag":"For You","title":"Integration with Lakeflow Jobs: How to Orchestrate Snowflake Queries & Slack Alerts","url":"https://news.google.com/rss/articles/CBMi3wNBVV95cUxNVUpXeEZsbEJ1MHZPWjhwM3JtMG0xbF9rQm1vOGtTSTQ0TFMxdFo3TXU0TGJrX0NVakNYYUdTdHJBZmNCNDZGR0JmV3Nqcm4xZXJoMjBvMmZLY1hmU0o4UHNmV2txb3h4bmJMMi1vaE1Sa0pGcng3enBVQjV3V2x3WHdMd3dKWWJyd3NQX1htX0RJQ0lBdTZFTEVYREt3eml5Q0NUVlFfek1Bd3RCUEZvSlRFOC1ISk5wZklVNjFIbWlBeUh2cGZTcGVHSEx3Y0ZLaGRmRDBIbXFJNFdjRUhweW9ILXM2V0JlZ2JSOHlKREhqdnZLSDlDc3ZBT25QdFBrb3RRVDdBczhsRm9pbG1UTXg5VWEtVmhGLXFKSnFvYUJENEZLVU5rYkhZVFo2akpGeklYRHExcHd1Mno4V1h0bEQ5Vjk3NllIMG90ZXdQckMyMm1jNm9nM0pTWWlWV3V1SWpzeTdqWG5mcFZyTng5RHZCWDJCbWFrVDhiNWdGdTFIUWgwZmN6MTNzNnZSN0ZoTGZ2RDJERURIZk1YLWlfREk3dkpXV2JZamtjMTE2UHNaMWpxV2otYWVPcjBpdDBuV0hfSWZpMS1JZ1BxNDJfZXRQQ2NLTWgzbkd1MkQ0aw?oc=5","src":"Databricks","at":"17 Jul, 03:19"}],"browse":[{"tag":"Business","items":[{"title":"RIL Q2 FY27 results: Reliance Industries beats estimates with record quarterly EBITDA; revenue rises 25%","url":"https://news.google.com/rss/articles/CBMi0AJBVV95cUxPRnRMeDRjclpLUmxlc2EtNHhKVUZmbHZmTGhWdlg2TUpXTm1GdFdxeVFFb0pCN0FRUi1MV0RXN3lBeU1INk9DUkJCWHZ6Q2FnS05mYUIwc1UtR3lQUWl0UkJvNmpMYm90QncyMG5qU2RlLXdUZTdJM3haeUpxWl9wcW5GQldJUTBXNlR6Tjk5UFdlVFhfRzhhYm02bDBNOF9KX2Rtb2lNOFRNVVZ4TFlaMUxuLWRJaDJoSHNVMzJtMHp6ckExWEpzVjhyQWE0TmZ0Q25PSVR1ZUExbXp3OE1yQkVMUUdaLVkxSU1NYlFCSmRrRk9fZXp6dmpnUXhrV3ZuOGV5SVc0T3hNWVFGeXcwY25UU3pxYlJtMS1OVGh3VmIyWG45SEJ4MkY0WnhxaGc0eXhiSHN6YkRJU3lyMVB4TEhNdzZnRS1HQ3lWRWliSkw?oc=5","src":"The Times of India","at":"18 Jul, 19:57"},{"title":"IT powers Indian shares to weekly gains; Reliance, bank earnings eyed","url":"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbGF0TVI5MFFQVjZIYVVVZHQyMU5tUWlJLTFUZ2lwNVhwV0F5bVg5UUJLN2o3UTZiRFotcS0xVUUtX0dQRVN2d2lZZ1B2a1A4SW85aXcyV2VveW5leEdZUXJvZXplV0lTX1FzU3BBaHJacG1UNGNWbnFlUlpLY1BFaHctQVhSWkZuS05WZUpBSHNMUFR6czJid3liTU1ZOUFCNFpwMFdRXzI4dw?oc=5","src":"Reuters","at":"17 Jul, 07:50"},{"title":"Apple regains top spot as world’s most valuable company","url":"https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2ttMFRUekdHdWRSYzZRM0lvd2ZiYUhHMmhLNmctSzFZOG5hTEtWUnMxRTZIVks4bnIyY3Fpd0pKN2dBZ0tOT25LNUU1RGtyZkJHNVdHYU42dzJCLU00MWhNbTVJNE0xZ3ZneE5BVm81UGdKb2s1WDNra1Q5TW41c3RGeFhub2dXSlVKcm13Zk5HQnBJMEFzUlZETGdEb2_SAaQBQVVfeXFMTWNtUGhJQklCVUlJMUhPbGxOUzNGa3ZQUzFMRjZ2QXNRYjR2MXBFNFcyN0NVdjlJSlpWaEhWQTNxUnRDQ1dUT19RUjE1R2hkdjZiQ3F5ZjB3WEZ1ZVQxNzdkcDdObFAzd3dxVTlYVTREbkJoTTZfWjllN3lmcmVQSUhjUEgzWGl5UGc1SG8wQnI5cDUxMWZ6VGd3dG9aTTVRUm1HQ3I?oc=5","src":"Al Jazeera","at":"18 Jul, 22:28"},{"title":"Consumer panel fines SpiceJet for ‘deploying dark patterns on its booking platform’","url":"https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZDNneGd6YWxER2phYUMtZkpQbGtvYWpwSXhITXNicEF4UG5oZVZvTG9NY3VYeDBJOFZjWjc4OGRCQkNfRG9uMEFWcVE5bks5dXZpczlHYlQwZlFzR0E5NlFTQk9LdTR4TWtnVmFCUUNCXzZZX3UzSG43ZUZVSVJhZFFLYjR1d1g4WXhUYzJyRDdIM04xRTBWLUREVWFJRWZZSzNVUjhQV1pCTkllbXVYTDdvbk5xQVRDT0NjOWFtSHlWSXFwbzFGWXl4dE5LZ3pHQU5YR2JaMlpIcDlhMUluQjlCUC03S29aODU2dldJaHFWR3N5ZDF6b3VySdIBgAJBVV95cUxQQ0hLQVNpeHJmbXRDeHltM0o5VkVIMHF5Wkp3ZlFRSTNXTW9ueXllMzBxay1zaFNGSTFlY1hJQmZjNGg4Tm81ZFNGQnVhbm5hb1Q1dkFNbGF0b2hFZC1peUpvNmxudmJLN2gwNlpZMHJReG05Sl92cU1kczRvQWpsRDVpcjAwWUYtejlZMUd6V0UzeVE2Vk5qRTBRNmp0cW04N2t2QTd3RXExWDVjTVVtX1l1ZVRPWXBnYXhpQjJmNVBNN0hMNE1Gd2VYcGhzTnpQNGxHVlpsTXFiZDBTRjdQWjJ4Vl9Dc0RBMms3bGlDS3Y3b1RIR1U3QTZ5UVo0MGpm?oc=5","src":"The Times of India","at":"18 Jul, 19:14"},{"title":"Reliance Retail Q1: Strong demand across categories drives revenue growth","url":"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUVdzNkJhQm9iano3MGxkbHYzUGVqazVVdFNuUXhEempIWDdmTzJaMUZDcE9QVTdnamRYRjM5OU5FNmtDU3lNQnZ6a3lHcERlLXVEbXVvMTkwWmJCQm5STlhnXzRick9Jcmd4SkJETVV2YmIyMWRwRlMza0E5ajVTbFRYVmZhMXByS2t3eW1iTnhrcHR4ZXc4Nkl6LVRNZWQ1SkZlNWkzcV8zSUZYdXlWOHF0Rm1VdVcyQzVzQkdhX1R6ODJaNmcxQdIBzgFBVV95cUxQNVhac0VnbGpfRWo1a2ZaT0RQYjFmVkRUZ3Zweks5LUtldzN2OFlsa2I4Y2Q3VWJLZ25femVYNmUzRFlQYjdCVTljN1JBNktIQkVLRE1Idk10TkItVDVhUnpJb1BkX29NNTVzdkthVlR6bmhmTVlJSnFOdHBTOHRCTU4xczRjR21lRE14UHB4emZCMG5tVkg0bFZWSmNpZ2NUOFdaVlcxTEdheC1FQlBMZW9Nd0gtd1QwNTJ3U2U0Rmpuck1wMnFOY1VUWVVXQQ?oc=5","src":"Moneycontrol.com","at":"18 Jul, 19:44"},{"title":"Google Pixel and Nothing are the fastest-growing smartphone brands in India","url":"https://news.google.com/rss/articles/CBMijAFBVV95cUxNYU1YVmdWV1MxMFJfazR4TVJVbFpvdmZwVWkxSndTNTBITlkzTGVaTEF4d3RHUmpBRmpRUXFBcGhyNVRuaGtxMUpyUnZHbnVnbVJpb1pSWFJVbm9nZlZXSGVpWEd4cFc5eUl2YlJUa1NMU0IxR1B6cGVKbFNDU29WMFd6LWI3a21yZXZqTw?oc=5","src":"9to5Google","at":"18 Jul, 18:45"}]},{"tag":"Share Market","items":[{"title":"Sensex ends nearly 1,000 points up: 3 reasons why stock market jumped today","url":"https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSkEtaWhKU1dqTTR4OFppUEp2b1RPXzFlTWxrNWo5ZXA1OGZDY0ZOUkNmXzIyVjg1ZnJSYW5fTl9HakVkQ21yV0lDclRMUUVERWhlcS1XZDdkYWk5UmthdEduNFAzNTNxOVB2R05zQy1Xdl9xenVmQWJQT2l0SzRULTZULVpZbm1EdWxDcFBidkN2OFk3eUtyUFFqWk9tZDUzcVVVcDRNME9uelRXVUxYODQ1Uk04Q0hGczhuTU1oTS1ZT1J5eC13dmZmd3hHOWRTRkZ5NXk0eXNBZ0Vra2RyRk41UW5VVXJjTi1Hdi1IM25jTmo5UVYySdIB_gFBVV95cUxOcjlQMGc2cklBY21tTUU3VVBweDBwNFlyYTdyRTlCNUVpMzBqRGhWeEFmTXZhamc5VFZ3cFA2b01MMkFwY3NwdHN3dEVINk82ZUtZZ1hrQTZac0liQWZRNGpIVGFQTVlGSFh3eS03U3lKbDJJWjZyOGhUQTBEVV9YclgtT0dZYXNzbzI2dUpQcGNrbk5YQ19KTk1jOXVmOUxfUXhfejlKQlUxVkxKUXRWbmk5MXZLdjU4UmZKSmpCa3U0aVVGU1ZiSHJGaU82TmJFeGJOa2xRcEFvVFhLemVkdXM1ejZSNFlhMjRQNWtJd05oQ0J6RnpVSmQ3dmdRdw?oc=5","src":"India Today","at":"17 Jul, 15:26"},{"title":"Sensex, Nifty surged nearly 4% following announcement of ceasefire agreement between Washington and Tehran","url":"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVZNa0dvVmRZbGMwalItYmxmSzh4Q1d2NUZUWDlfWTloTjgyRzk2YjBYclMycDhOWE5PR3lBWG1mbXUxaUd3eHgzTF9XMjlqcEdWZU9qN3oyTXVJWThuM3I5ZVNibk9YaVM0bHFOY3RfV0t2Z2ZoZzlKR3NLbFVma2dtcTgwd00t?oc=5","src":"News On AIR","at":"17 Jul, 14:46"},{"title":"Stock market rally: Sensex rises over 750 points, Nifty50 crosses 24,250 - top reasons for rise","url":"https://news.google.com/rss/articles/CBMiiAJBVV95cUxOZHpSdE9iR2ttOFBRQ3BGWFNLcVlzd0dRb0Y3Q0wtbDFhYzl4cmpHamZMbngwekQ0Yzh3VTY3V05rN0dsUzU5Y1A5YnpyaWVGeW9PeHMwUzZWUXpEZExaOGowSnFSb1V0SDg4eXd1Rk53cWFRS1FKcTVNVTN6V1lMa0lJSXpPdWNHWEM5S3dkYTN5SzUyYUVIUU0wR0tfMDNSeGlnNEVabUM3cTdlc3R5enE2UjRwSHhLalhEY0FOV09CaGNXMTVfSmN0d3pXSWJ1TE96RVlpQ2RkNkEyajBHQ1ItNG9VX0hwSk5wVzdpbjdKcFRCZ3IyOUl2Y1pzc1J4RmFlVzA2TmPSAY4CQVVfeXFMT3Rua21Ga3FIVXJqVHlLU1pGQ0plb09XVFh5R2RQMVUzUVVsSHRvNWkybS1EamdueF90Y3otYkZVOUNyNTZ5aHE0QWdReTlDYzh3ZTQyZXRDX2lSR1l4clNrMzZSY29yeVRzd016MzhCTkpqZnpuQk42aHFKeWJIWHJPdFp2Um1jVmdUNGJSWktNdGJJcGlBWEhHRUhBZUxwR1BieEJRYU92aURqUDhYcXBSRDV5T2RPV0paUzhrcS1zSmlwdHpzQ3d6T3pYaWJzSUpLank1Z1g2TTgtSkxaNXJMVTZ0Zmp4bzBKbUgxb0VaNThWeDZ6Y3dLUWZyb3o1dzBSYzdTU1I5bExPR2N3?oc=5","src":"The Times of India","at":"17 Jul, 11:38"},{"title":"Stock Market Crash Today: Nifty Below 24,000, Sensex Tumbles 770 Points; Know Why Market is Falling?","url":"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRzBPOS01UFRINHRsbm1MWlR3ek4zQlVrLTdla3V4azFMRFhnY01fOEtoRURaamxBREJ1LW81WmpWZjh1d2RHeEQwR0YxbnhXTFhodG4yMk1zR1M4bGlHTXpwTEVmcmFadEVaV3RpN2VUMHNZcmFiZ2VSNkNoWGU5ZVBIdUJNeFoyTFdaUnFOZzdMU1VuXzc2ZGh0R1NFRXdWaXdFMFhIRkFWQTZEYjhXcVYtUDlQODE1aEV6OExjV0pvUURaQ2VPTWhDYVFIcndBNzFNc2Jodw?oc=5","src":"Goodreturns","at":"18 Jul, 23:50"},{"title":"Stock markets surge on buying in blue-chips; Sensex jumps 965 points","url":"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV2x5aWZJcTJPeXR2c20xSW9SbmwxSThDakxDYnVnakFKV1JRX1FjQzRSek9RVVpYUFhxRjk2QVBxTHZ5a2lKQWp6MUJqYzNPNmVGQ1c4a3lOMmxzV1MwX283bklnRVNmQVN0cFRScXB5MHlTVFp2N1JVTVhJRFFSZnd2bHV2QkxodkVBTHNCTkJKTjNBaUxNZGk1bnBHNi1QWTVHd29nUTRiRTk2TXNIdE14UENEN2pweVpxYXNhYVRZNk11dVdETdIBzwFBVV95cUxOZGJDTVZvajQxaTdtX3JWYzVhcFdVRGJzclFyOHlBcy12dGc3bndwNXByR01Hd2RtYUROblZTdk9SOXhEVGlJQm5qUEhnYXl5WTAxT0VtVkp5RnFhVVo2REpYaHhmRy1wV2dVX1BxU21Mcm5zZk43WGluTUpEOS1lc0x6YVA5dkdJaWJMZ2Nsam5pS3BXQTdxc3czVDE2QXBlOThaV2dCSThZVXA3Qm1xZ2E4R3BuMFQ2MUhsc211STFWMXUtOHZDQ2gxWTBtZTQ?oc=5","src":"The Hindu","at":"17 Jul, 17:21"},{"title":"Sensex Soars Nearly 1,000 Pts, Nifty Reclaims 24,300 as Earnings Lift IT, Financial Stocks Despite Global Tensions","url":"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMVR5Qkg3bHFMNDQxQU1qU3ZmdXN6SFNNT2l6Z3VxSjdRT25DakZyUHU2V24wRmwzREVEa0JuZDd6WU5KTTA3RTVjYnZSNUNhRjREdjJlT0ota05JeXBuUlViV2RMWlMzeUpJdkJqSTRuTjBxT1lrMlloX2hiWHlfeDdvdDl1dlhwd3phb1Q0NTVUS3BUQS0zRlEzOVUtYS1JRnZZOHFPNm05VTBaQ2FiWkQ0ejllenBVaTJVSUtONE9mWlRNSkRVMUdGaVVPQzZFZEdaMw?oc=5","src":"The Indian Awaaz","at":"18 Jul, 21:21"}]},{"tag":"Sports","items":[{"title":"West Indies legend Sir Garfield Sobers passes away","url":"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYVBidzlwMkotSHZDTERxSk80ZUp0akhkUi1mOEdvWk5aVzR5WVU5ckhEWEY0bW10OWkyeTUwQjdMVUFzOE0wUkd4UGUxTlpIOWx0eUo2SFhWOTdPdmJJR2RUY2JEYTdNcHRXSi1Rak9UMDEzNXc2YUdrU0ZmYTc1SUVfWEJtS01KMkpZ?oc=5","src":"ICC","at":"18 Jul, 00:15"},{"title":"BCCI rules out Rohit retirement at Lord's","url":"https://news.google.com/rss/articles/CBMijgFBVV95cUxNVnJsTzgtbXM4Y3hCbFhHbTkyX0RoVDhVV0FDdnFQb3o0R1ZGRVVyVDhRN1BfM0pmT2hHU1ZnaTYyNWxDNWVsQU80WG8xd0R5cGN2blR6alVuMEZyYnBBay1Yb2RBS054MG1QX3pkM3hGbXVmSEZZRjAwejBWSERTOEVZR0ZCSjJnVklJZnFn?oc=5","src":"Cricbuzz","at":"18 Jul, 00:35"},{"title":"FIFA World Cup: 10 things to know before Spain-Argentina final in New York","url":"https://news.google.com/rss/articles/CBMirAFBVV95cUxQNlhCbFEyNWxqRVpBdFRFZWhFRFlOYTBfcDl3SjFpUHV4Q1VzQ01DNnlYNGQtVXNPX0ljendfV2lRNXNQRS1FN1paa3hnUEExXzJpZjU2aFZBV3FkLVlUdlA5cW1WNFJjbzBDQl9CeGpqZERic2dCVTBqNkdRdHJXM1pxVmN1aThzSWtfNlYxMy1oUmdNd3Z1S2VUYjdkQWY0ckk3YTFxME9FejBm0gGyAUFVX3lxTFBWaXJPOWpCSjlQajdzbGhkVG1SbElWYVBKcTZlLURXVURmM2d1dk5nRVFjMEpEcFk2UnBrZ3pyZW8wZmhrU2RkdkJXbEtDTVpNZXc4Y1lGWFhSWi1UWGdqUXcwa1dKU3QtVlBLVGRzdDFWRzhJUThKOEpmeTBVdkdwcE8zRldKUkRfNmlUS3FjU2R2dFpQNUZjSnZGNndXYndlSzNrVmhVSmk2VVQyV2RCTkE?oc=5","src":"Al Jazeera","at":"17 Jul, 15:31"},{"title":"Buoyant Zimbabwe eye series win against depleted Bangladesh","url":"https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmhFZ21UNlQyWG5qeHg5Uy1KaGJCdUJFNG9IY3AzT0lsSzFBWHNBTGRfOGp4blFjbTA1UTdaZmJlUUtNU1g2WGo4TnZPc2lsWXBtRXQ3dEdYR0FRaDVXcUQ3YU1fZlhWTEIzOTBNSGNwcEhGZkRzaUFEVDN4TUp4UFVnVW9acmxGeklhQUNwcnJ1UHdDZTZUTTlCM1lwYmZSaEp5WTc3Y3NsRUk4WU15VXpoUTMwVjAwMDFxeS1B?oc=5","src":"Cricinfo","at":"17 Jul, 05:59"},{"title":"Chennai Grand Masters 2: Firouzja Beats Gukesh To Take 1-Point Lead","url":"https://news.google.com/rss/articles/CBMid0FVX3lxTE5zTkdNcGJMdkNTdGxyUlRsOGZad0ZBS0IxUFZKSWM1RTVsbDd6TWluaGZ5UVhFT1BQQmU4RElqUG02cmRDR2hteFdadlJicnhSVk0xbnd5dVRKMl9PbC1xa3dzMHJlRTBNSWJLeHpxWHoxaGs1bFc0?oc=5","src":"Chess.com","at":"18 Jul, 20:18"},{"title":"Sri Lanka arrests T20 team co-owner Manjot Kalra over match-fixing","url":"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaWlacVUyekNGQ3JiQ2U3ejJ5U3Z0ZTNWZ3ROa05xYTNoS0ZEN1piYXpMNlExTGxvSGh4ZkxMS0hhLUk1Q2N6bHJXTmc4U0lvUjNGR3N3eHY4bjJuVmY3ZEJkUU1BVmNlOHFQaHFPVVVBNERZdUhHV013NDRzQlA5X25CRFdiV2x3dUx3NTZkVF9wOVk2RUYyTndnY0hHam5WbGhsQXQ0Wk4tVUVrMDJYSzdNTU13ZE9adnVMZFFJOWFtN2PSAcoBQVVfeXFMT0l6WXRpUGZ2U05TbE9lZXFLZjFYbmdHX0xoUVlkeDVqU2tuTzc2WmlUNjhxaW9VSVFWZUZIbVJYYnJoVHhpU24zeTRxc192UWlXclRVbDQ0eTN2M1NRMmphaUxFSER4VFNBVG1nZmJaMUF2WE9EMUc1RXM5OThqYnVzZVdoNHlUU29vQ2FCY3paZTF5OWY5V2t1TmFEb2haNHV3OWlCMHdzVnhFVk9fV0FhY3F2ekhsNnMxNG1sd1VvZFpEVnVNRUlNUQ?oc=5","src":"The Hindu","at":"17 Jul, 15:45"}]},{"tag":"Tech","items":[{"title":"Oppo cuts OnePlus from North America and Europe, and Realme from China","url":"https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXhmQVEwTVpTcnNmdXM5cXRnTTh0d3A5OGpPWndtalpnUVFoX05FTkRiMUFFUTB3OFlXRDdTdC1WSUt0aThFazBmNXJWUl9qVWRvSDZKcnY4MngzYTVRZDZ3eTVUMWRPSnhhWnpfUVlpWjJSWDg2MDVoTEduRDFsYWJDX1pvWDdOSjM4N0xmTDRSZUVibXc?oc=5","src":"digitimes","at":"17 Jul, 13:11"},{"title":"Kodak just launched a compact film camera for the same price as the viral Charmera – and it’s full frame","url":"https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcXM0bV9PMFNuNUIyYnBZU05nRmZmM041eTBuN0wxT0l0WTVPTzNIN2R5c2JZWXg5Tmt3QWZELVA3aEdzRHh0ekR2SkJxbW9qME5LVDZjT3ZRWHlQZXBLSldyaGpTT0ZiM0djMnQ3Z2hCZm15Zm5VbGVOcF9YRkxGNlRTNXVGSVFIWlp4eUZBUUZnVFA3QXpFbFdybEh4NDlFbzdwelNpb0VPdlNSOVZwVVF6bFlLblg4RmRRTzhLd1hKM0tVWUpDQ0ZKcXRkeFJsSG1fSEN4T3dhYlVxaHZscWRsRExxLTEyUDU1V3p3?oc=5","src":"Digital Camera World","at":"17 Jul, 18:21"},{"title":"New proof for the iPhone 18 Pro having a variable aperture camera surfaces - GSMArena.com news","url":"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ1licjFBUTVWYXdHcnpIa3k1dzlyNzYzNXVYVTJ3NDVWUklVVkRCV1o5WDhfY3R4N050Ym1xMGZadGRQZ09zUUwyYVNLOW82ODd0ZkNFU1J1V01BbHJBUlllZ0dTWEJDZEdGcWpVSnhBWVp0Q0c0U0Z1M1BxM21rRlZRamt3NDRsaDZvejcyUURDUVpJeHNHRFc0cnRXUmJVUl81eWVKellDN2FSTE5XYjQyZ2dLLXZrUlpxcUc0VzNyRm5PdF9KcWRQb3A2bWNrQ1HSAc4BQVVfeXFMTmtLZlJsU3U0TjNiU2NNOTVHdG1pTkkxZ1hyb0dmU0FJSWV5YXppSnh5d1BvLW4xcGgzT29OUHI1UHB3a1F5ODMtd0dRakRyN3VYWmtHRVRUdE1NMDhqNXJKV0J4eDV0b1RVMUF2YWZCNGZMaTBpVWJEdDZ2b3FHSlhIVVFZdGIxeWpCX2NySDFxbnlmTGVCVnFGbERZOWFEVnExTGFGT2VmZXEyZG9LR1dOazRSVnBhdXcxZHNfTmNNUWZTazhobGxobVVUQlE?oc=5","src":"GSMArena.com","at":"18 Jul, 21:30"},{"title":"Samsung Music Studio Series Brings Stunning Wi-Fi Speakers to India From ₹27,900","url":"https://news.google.com/rss/articles/CBMid0FVX3lxTE10OGJBMWJUcktuM0JYN3gzdXZraUw0ZndXMWQwQmFGTUxvdUFQbXRCNXVVNTZVdENFUlFjeGRPN0d2bGl3bEtxZk5mVGhuMlFlRXJPQjQwV1N1YnIxdnNhMUpJN3dHbFRKVXpEWEloWmlnMmgtcTNZ?oc=5","src":"Techgenyz","at":"17 Jul, 15:45"},{"title":"There will be a vanilla Poco X8 after all, HyperOS source code suggests - GSMArena.com news","url":"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMklRTGRoVFNCckhRYU1kbER5YUp2UkR1X0RrVVpaYnNsZWh5d3RpU19IM21EVS0xS0ZIWnFmZllGc01yU0NwTkRBWnpPa0N0RjJZR1NYY1BEcTJwTHpoZFpvelhwRmFNRWZsdG41QzV4a01rVGt3MF9mYl8wbWltRTRVM1ZtcjJN0gGEAUFVX3lxTE9TV2NHZWtxVHRvY2tqT0I2cWQ3U2xHY3JSUkhIWEFpTXJWOGZJaFFGN29hWjFybEJqSTR4dktiZVhoc3kwbW5BeVlhclc4cWYzenEtVXNsWHpaYVpzNHRMU1pfM0szZGxwMXFrenc3NVZ1MHV2NEszRlB0ZFM3Y3Y3b25jMQ?oc=5","src":"GSMArena.com","at":"17 Jul, 15:20"},{"title":"Apple's Back To School promo is live — score a free gift card worth up to $150","url":"https://news.google.com/rss/articles/CBMie0FVX3lxTE9EWXN5X2szd1lxSFVqbVR2UjNUemhpcjlKNE0yOTMtU2E3NEZEREk3VFpWYnd6NHIyMFVfZVF0ZkpyMlBwaWFRZEtSTF8xZDhHZFpJLXJHNGp2bDBHSGtGbEd4ZnpxdWNxYnZ4WEZ1OUd3QXV1eTNmdWhESQ?oc=5","src":"Mashable","at":"18 Jul, 22:22"}]},{"tag":"AI","items":[{"title":"'Technology Must Serve People, Not the Other Way Around' - UN Secretary-General at the World AI Conference","url":"https://news.google.com/rss/articles/CBMiugFBVV95cUxQaFNtZ0VQRzJvT3JXN2dEdExTQzNVdzNocDRJTTduSmp5QVJ4N0xBLXZCdUgwX05raVRHT0tMWVBJSF9ISmx5QmIzV3ozWTZxRHV3SFhzUnJERUNZU19EQUpUTFFKSmZQY2NWYjJlYml1MGlPN0RFZExKV0ktYWUyUXRlQzI1NUlQczNUaEJZWHM0ZTF3Qy1KOTlySnk1djVnVmFRbGpucEpUVjdWUUNmTEdRODk1by1TaHc?oc=5","src":"United Nations Sustainable Development Group","at":"18 Jul, 22:05"},{"title":"China’s Xi Jinping launches new AI alliance: What is it?","url":"https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlU0UE9IRjBrSkVJbDhpVlptQmRGRE9RV0dqLW04UjVoRU8yV041QmYyZVZ6bXNVaFkyQ205WUVCWnZObHdWNzl6ek5qVHFoV1UydkF1RlZ6RzBJTXBvcm5YYmlMdHN6ZFpsamFJbFk4Y21qSjBickc4THh2ajFOdDFIVWZyMUpRd2xlMTJ4SEVfbzRXR3daYUdn0gGfAUFVX3lxTFBxeFFLYTdKYXBrVDU2R3ZKNUR3aVc4aVFGTWw4VUtmanM5ZWd2cFlSRkI0bjZoSUJsY1VkR1drdFJBTmRVdTlWRDV5ajNQaHZ4MkFYQmRHZFdHeEVhMWlaT3Z5UGgxd3VpZWQtR1NyXzJvYzVkOTFnYlRreXdzRmo5aU4xQnl3bVctUHF6UHpLak0zSVN3WmthS01aOTdWYw?oc=5","src":"Al Jazeera","at":"18 Jul, 19:20"},{"title":"Artificial Intelligence in Cardiology: Applications in Diagnosis and Risk Prediction","url":"https://news.google.com/rss/articles/CBMivwFBVV95cUxQZ0Z1Q0RkQUNDeU1tOEdOaVpDM3IzbXE0Vjl4Q3pfS1dxSmpTQVlKX1J5RmdTVXVBb2I0OGZ0MTdQeEdSWjFUcWhfUzlJd0E0VWltdXBtcWNOZWdUYlZLcUN1NVJDeENFZkZpQmFYQ0N6aHNkLVhtSV9hRU56MXNCMkNuWHZvbGhGblo5VzB3SU92WWYtZ29NRk12X19pb0hZN3RCZ2I4cFNYVG03S1dCVlRaVVN2X1BaeXFzZU5SOA?oc=5","src":"Cureus","at":"17 Jul, 17:48"},{"title":"Introducing Mobile Layout for Amazon Quick dashboards","url":"https://news.google.com/rss/articles/CBMiogFBVV95cUxQOE9DRXpIQ21iR1B3dTA1bnlEMkRuMHJ2b1hzWUlzYUtfSFU1UFNoakZ6Rk9zTmp6cXA4WGlHUVRwSmVKUFJwWGtyWXdVejFTdzZyaUZ1QmNhRGp4Z09vVHdURGZPSVhZWFI0MTBmeGFlclNaTDVhcENTaTNiQ1N2VUVRZ2NEcTlYRWs5X0pQeUhmN0hoZXd2cU92S0oyWU5RbFE?oc=5","src":"Amazon Web Services (AWS)","at":"18 Jul, 22:43"},{"title":"Artificial Intelligence in Pharmacy Practice: Enhancing Efficiency and Clinical Decision-Making","url":"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMU9TdlJKWE1ZTGxaMHBNNy1oSVpOY1N0MGUwaU9TWmJxVVdUSW56U3RUNHZWUHkyTmlBSlJxVS1ucG1wcURwYVhCclF0STAycXFFVFpZd3U0VDZ0Tm1fd2JpNmt0aHFRcnplcHdoa0ZVMnVEaU84cXFvZkxXa3ZKenllU1FSR084ZE14cTF5YXAwQ3hsRjNEd19kN21GSXR4SFNUNFpBa3lUQWJDazlYMmZlZmZmRFplSGNhQkx6TGhzSkppV0hDbg?oc=5","src":"Pharmacy Times","at":"18 Jul, 19:18"},{"title":"Secretary-General of ASEAN attends the 2026 World Artificial Intelligence Conference","url":"https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXZ5Q194V1hJdFBfYUxFMGFTWm1ORzV5YlZwRUdGbTBXT1dHVmIyVklTYTllakN2UzRESTBGUXFLV1ptbDAzc003cl9HWTlKS2lDOVFhT1loS0NJRk41YXp3dG1kQmVLMkhIRko0VWRQek1WUTgyakNZeUZLN2ZxNnk5WHh4QmZBN1pXS3VJZUdDbVlubG9XMTlIRmt0ZC1YdFJwV1B3?oc=5","src":"ASEAN Main Portal","at":"17 Jul, 16:01"}]},{"tag":"Economy","items":[{"title":"RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9%","url":"https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5","src":"News On AIR","at":"18 Jul, 23:56"},{"title":"West Asia crisis, uncertain monsoon major risks for growth: RBI Governor","url":"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUnhwN3ZZYWI1SGNWaW5uNnlwRGhjTjd0ZC1nZkc3ZTBkM2d6Qy1hNERNcTh3QUhYSFhuNXp3SjU3dnRCLS1ZYXdnYm1xMko5dXU3ZDlvcXp3T0VmN1BvbTJDaVlleS1LMk1YUHJ4dlpfUkhmWnVyZ2JYdjQyLTcxa29SYXN4akFYN2N1akVsdjFDcVV6QkR5OGNubEdTcGpkY3Btd29MbC1tTWZnZWtXVk03aTNhMXVIUXRKV0tuTEdwamZWTE9iOVRiRk5maGJqYnFF0gHTAUFVX3lxTE5SeHA3dllhYjVIY1Zpbm42eXBEaGNON3RkLWdmRzdlMGQzZ3pDLWE0RE1xOHdBSFhIWG41endKNTd2dEItLVlhd2dibXEySjl1dTdkOW9xendPRWY3UG9tMkNpWWV5LUsyTVhQcnh2Wl9SSGZadXJnYlh2NDItNzFrb1Jhc3hqQVg3Y3VqRWx2MUNxVXpCRHk4Y25sR1NwamRjcG13b0xsLW1NZmdla1dWTTdpM2ExdUhRdEpXS25MR3BqZlZMT2I5VGJGTmZoYmpicUU?oc=5","src":"The Hindu","at":"18 Jul, 22:16"},{"title":"Macros strong, but weak rains, war can hit growth: RBI Guv Sanjay Malhotra","url":"https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNTRwdllGNHJWMFljQWM3U3JSX1B2UzVoUGNoZF9McDA1bGVHTWlOR1REQXF2NHVfVHhKR19PbHRmNnE2OHo1NHI0RUxfdjY3UDdRWWpqNzE1eEFJcDlzRXQ5R2JFdFluYjhqYXp4RUpMZExhUEVGQ1VMTVJuZ19DdzFmSVpwamRNM2lGUVJFLWZES1J1RF96S2NBUmdfSDhrMkpNVEo0bnlUSUJPdWlCZEhYQzlBX05MWEJ6alBnNkZreUV6dW56ZjRZM1B1ZVdWcUxxMEY4ZFNJZjlUQk9WcG5XNnpCVk9mNjRtaS11Y9IB6AFBVV95cUxQRENTUEd0eF9fd2JkV2p3WW50cXFZYl9FSURGTHFOZTFuZHY0US1BcFVaTnpFV05BekZVX00wRWp3MXlKUWQ4MkVCdnpoajZtY2tPWTNBWXo5VTNydDFWZ0JRVWpTcVI2cVJwTkZYQU1PRV9Qallib2U0U1FKLUdvTld5UG4yWlc0am10QllIZlpBbUs2TEtPYndOM1NmVkUyd0lOYzBXN2drM2Yya1lnTTRjR2M1X0JFQ2ZEVi1VV0NGN1IxbC04RFktdUJWN2dWRW9mbkdEYjVvT3h3ZlVDSWU0UjlwbWhJ?oc=5","src":"The Economic Times","at":"18 Jul, 01:02"},{"title":"RBI Governor Sees West Asia Tensions, Weak Monsoon As Major Economic Risks","url":"https://news.google.com/rss/articles/CBMiuAFBVV95cUxORVF2ZEtLdWhRX3VibVR6cVhzb2daTVgwOHVwcTczYTJ5Uy1rclRUb3pWcTBDc2lERExCZ0xoU0lpYTNFdXZpUzNZZzdsbkZXUzVuTU9sdWhpUjE0OXFkcy1ZSFhGRjZIZXZqNmFoVDd3RUd5QnRRdDJ2bmE4emU0VVBKMm1ZZE1vOGZVcURrZTJDeFBZbHE5Z2FyLW9MVXlvQkZsWHFnVDMzZ0xOMUc4VTNfV2lUZG9T?oc=5","src":"BW Businessworld","at":"18 Jul, 19:41"},{"title":"RBI Governor Backs India’s Growth Outlook, Flags West Asia Crisis & Weak Monsoon As Major Risks","url":"https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNU5iMnNLdGRZRWNIRUZFb0xId0JXa3FXQkdSS3pPUGxmZUJhWVpROUpYaVVESDdfTTBHM2ZobDV2enRlSWZJMkFfb1hOSEVxcDV6MVU1dWhRMGF1U2VXRmt2dWFOcDFOU1lxSkczbnppZklQM2l6cE5RWnk4b1ZLN0o5QlRyb2wyUWxuYW5DeVViRTJaSlFXTnpQTkVmbl9odjZJekRjc2pEZjVWWGZiZWFrNjdkbVlPbjVONE5HUUlHUXhLNTJaZ3BnalVJSzU4cUHSAdIBQVVfeXFMTzVOYjJzS3RkWUVjSEVGRW9MSHdCV2txV0JHUkt6T1BsZmVCYVlaUTlKWGlVREg3X00wRzNmaGw1dnp0ZUlmSTJBX29YTkhFcXA1ejFVNXVoUTBhdVNlV0ZrdnVhTnAxTlNZcUpHM256aWZJUDNpenBOUVp5OG9WSzdKOUJUcm9sMlFsbmFuQ3lVYkUyWkpRV056UE5FZm5faHY2SXpEY3NqRGY1VlhmYmVhazY3ZG1ZT241TjROR1FJR1F4SzUyWmdwZ2pVSUs1OHFB?oc=5","src":"Free Press Journal","at":"17 Jul, 18:20"},{"title":"RBI Governor Flags Two Big Inflation Risks; One Could Hit Every Household Soon","url":"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdXh2TS0tNmNhSzY0RGFXajFkdHg2MmFUa3JUQ05KcGlmNEJieUZySmZ6RDh0clFkdkVFb2RUem9vX2hSNnZXaWNJTDI3ZTFPYjZmRGZMYmNSSmpBbnNFWmhoVTF1N1QwVXdiZFRFem1kb0Nac0Q2ZnNUYVpvd2FCR3BxVE1BcUZjeERkb0dabFhhdGtPaFRrbmZ4eEVHREFLZXg5X3E2bGNkTDl2RmFDeVM2dWpieXE3a3Z0bzI5VDQwbEJfd1ZMSTY4STJmMUU2ekZwa2RZR0MxbzNNT0dtSzBWNNIB6AFBVV95cUxOOU1yX2ZwYVNrRW9zLVVzcUJSTHNyY05XVDJ6QjIzM2ZWYU5kcVlWUHlpREEteG53VTZXMENRYTQ2MGRQb21jWV9WQVIySmFaQWFZMmJxUzhrbmxZczJXR19jX05rVEQ1QzFMQ1NqaFprLU8wMURqa2hNN3Y5NGFKM2RGMGJDWXgwV1BrMzNKTHREUmM1d0ZBWV9LYW9UYTJNb3o5SzdZcnNKSnNrY2c1MndoMzBUelZ5VzJqbEU5cGFpbHUwTWVxWEJUa0RZMjlick5MYnVqWU9Pb0lGUFFfeGt4STQyNHdT?oc=5","src":"Times Now","at":"17 Jul, 12:56"}]},{"tag":"Politics","items":[{"title":"Lok Sabha resumes discussion on 3 bills to provide reservation to women in Lower House and State Assemblies","url":"https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWlJVQmhHUnlDNGN2X3pyREJDZTR3VEtFel9HN0FPLXNnUXhaVTJhQTBLSGNnb2dOWEQxU1plS1U1aE5kbnVBV1R5a1R6Z0dIcm16YksweFl4SGd1elBSYUtWcGVFRU1MbUxRclIzN01IU09saG4tbVFmM3NONVpoZEZfbTE0UV9UMDJ0enY0Qml6bFoxMlpuR2ZZc0hnSmY3clJRNzZKNGw4QUVTQmJQZzZMNWtOUzhPUVlBWnJ0eDVwRUdzQTNVODUxYUtMWW5YZ0g1X21kVXVWeWZPR3A3VlRia28?oc=5","src":"News On AIR","at":"17 Jul, 13:51"},{"title":"Massive Madurai Rally Vows to Defeat Draconian FCRA Amendments","url":"https://news.google.com/rss/articles/CBMiogFBVV95cUxON29EYlNCRGRiZ0xpdnpZUm5va05TRFBMaW1CZUwtOG9sUlNIdEl1TW14bHd0bFFvdzd2VFJ6Y2NkUGotM3d3Ty12Nlo2NV9SMUd0TFQta29pVjNNc0lyVFhfQ0xxUTl0VXJ6d19sZVlxRXA2dmVCVGFGRW94Q3lnbTNhQ2xWOWdCTE1NdHg5cVM1ZHZCZHl2a0lRcVh3dXhiS1E?oc=5","src":"Peoples Democracy","at":"18 Jul, 23:59"},{"title":"Rahul Gandhi as LOP by Democratic Precedent, is a Prime Minister in Waiting","url":"https://news.google.com/rss/articles/CBMitAFBVV95cUxOV0p0V1dVWEoxZHd5VmZFVDQxWS1NVDBTX2FDU3Q0OGRWd2FJeF9Uc0t0R243Qms0Y0Z5MHdBcmtZdmVfZlJPc09lak5iRGtTTFBsMlpvNGFoNGlSb3BOVmV1a2NQRjUzd0JRNUozaHU0aUR3LUlnbWNqYlpydHNPNHhjUzFfUHM5aE1SMEdFSFZ4UnBLVWVoWnpKMUx3c3dFel93T1VmQ2daVmN1bmE5bDh0Sl8?oc=5","src":"Rising Kashmir","at":"18 Jul, 00:36"},{"title":"India: New foreign funding rules tighten control over civil society and undermine the right to freedom of association","url":"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbXlCNFNTTktIdVlMYko3Qjl1VXZWTGEtTExLWjNILUh3cVlLbS1Ec1pINnh3VFhmTHJ0SVo5NUIxUXM4NHZkdGdNdS1CeGNsbTd2emFUeW9xYzZKRlZScjFuY0FZVFpEb3RsT1NoZ0VZcWJ6a0Y3bHA1dXJ4V3RUMmxyZ0JvWF9MdFF5RWt0UU94TE9sZlI5ZVhpYk0wVHZzS2pScmxFWV9raThiVXRMWjVxUkFwUVNVc2ppWlVlUVVNTkk?oc=5","src":"Amnesty International","at":"17 Jul, 13:30"},{"title":"Government to Push 7 Bills in Monsoon Session, Focus on Legacy Laws","url":"https://news.google.com/rss/articles/CBMiogFBVV95cUxPSnNtX2lUS251RU9hdGRFdDJGeXBpZDdVN0psXzJIdkdObTdjX0swb1NpOGpTbVZvM0h2bGpJYXo0VmdoVXNPVlg2VDMzOFFTZVF0VmFMaklWVzYtSDA3ZzNmMFJlbFhVREw5MkRYOENPazExOE1HbWdNWTZpVGtXM2JLOW93bkgwcllRLVQyMEsxNzJPSVRGWWJpdWVGR1Rrcmc?oc=5","src":"Open Magazine","at":"17 Jul, 09:50"},{"title":"Will govt answer on Manipur, foreign policy? Gaurav Gogoi ahead of Monsoon Session","url":"https://news.google.com/rss/articles/CBMi2wFBVV95cUxORC1meDlrbVRRLXNjMnpLU1h6ODJKQVFNYlJOMlhGX3UwM2stYmUybW9naUR0eFMtWDVFSWxna1NDTUdUQ2plMHVURm42OG1GaUEzeHpRaU1NTTlHdDFGTnZmbWtNd2M1SFF1YlpyakdJNXJPanZFNEVGQ3RmVDNSem94cUtDa0Y0WlQ1aGlZNFNSTGN6S1cyNklJZmxsNlJ4andYVThUYjA5bG5HWk9BTFctazNoSWNfeHdWbm1qU2FxYlcxMTZJQU1oV2RfNkJtS2l1SnFBeFNyaWvSAdsBQVVfeXFMTkQtZng5a21UUS1zYzJ6S1NYejgySkFRTWJSTjJYRl91MDNrLWJlMm1vZ2lEdHhTLVg1RUlsZ2tTQ01HVENqZTB1VEZuNjhtRmlBM3h6UWlNTU05R3QxRk52Zm1rTXdjNUhRdWJacmpHSTVyT2p2RTRFRkN0ZlQzUnpveHFLQ2tGNFpUNWhpWTRTUkxjektXMjZJSWZsbDZSeGp3WFU4VGIwOWxuR1pPQUxXLWszaEljX3h3Vm5talNhcWJXMTE2SUFNaFdkXzZCbUtpdUpxQXhTcmlr?oc=5","src":"India Today NE","at":"17 Jul, 14:39"}]},{"tag":"Jobs","items":[{"title":"Workers are entering the era of the forever layoff, where companies keep cutting small groups of employee","url":"https://news.google.com/rss/articles/CBMi4AJBVV95cUxNOS16ZFhTOVBiVGZ5SkNsVlVoY29TRnRWNXNuMzBJOWdPa3JNMWFUNEU3OGR1WDdZc0R5dFo0eTQwR0t4T3Zhd1JmenRaal91ckpLdFc3Ym84bUN2QW1WaWlhZ0tCSkkyUlU0OFNrcTVNcTdTbnVPQ3hJbmhpWTdEVlNBaUlPcmNjenRsTGs1VjluYjRjZGUxa0Z6REU1RXBLb3NxZmhHSWtpUkZvT0Z4Nm5kb2cySFNxNkRPREc3WnNQRWc1VElZaml0bXBzT2c4UVVnWnNxdXlwVmE0ODV3Zk9ESEI0N1RPXzlfcm1tcmVidGNtTGR2LXNTUDFoN0xXSm1BY0ViMThRblFQc0RBcTJwUEttblYyWDhvbFdxdTMwcFNUS3JRQnNFZHhLOHBOeEJUWWNnckRYR2t4eXVtVTlfcGMtZGc4OVdacHdRX2R5VTNEMEprVzdlQ0N5N0F50gHmAkFVX3lxTE5BLWFZd0hWb3FVa2x0UVl5WGZwSy1RMkNfa1JBeHQzSE0zMlR2TkhtWlBLb2l5akoyZFc3RTlxQzJzSUtGZnl5ZEF0a2FMbDJVQzU3QlFCaV9TM3hwNVhvaktjbVQ3LVg4SDNkaFF3SHRIa0VjWXlQNVQ4NXNRbmx4OEk3TmNWUl96am9nYmVEcmx3MTE0RXBoenh5ZlpWY1ZMcFNIWGVWQXExc1ItRUNaSU5FZmxCdTFlZEc1S09vdFY4ZVlTZjRXQ1N5WkhMcHk3LXVScjBhWExmTXUyYkJnUVNQemJmQm5ZQU9UUjJTdmQ3czFKU2xoQVpNR0EzZ2JNODZvZHRqbDRPc3VWejRhS0VXZG1Yc0Q1dkl3ZkJtVUVpcWZ6VDBsVlVlalJJbEQ5S2l1TmZhSDZoZVgtWUZ6WFdMNVZDV1ZiMFI2b0pIMEYzMlJ3MHZlTWxKeVdGOHowM0YtYVE?oc=5","src":"The Times of India","at":"17 Jul, 13:41"},{"title":"Companies laying off staff this year include Meta, Amazon, and Verizon — see the list","url":"https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUtSVkJCN0tBeHVpR3owbi1YTzFyVHNOZlBWOWt4empJQ29tTnpBQ1ZjbEIySlZ3YnhWN3pLRTRocTdLTURIaXo3RmJqY3RKeHlOc1kxbHBSQ0NSM0NHamVZWjNPOWpKRlpkVEprdW1EQ0RVSW52TEtGem95bDlHVVcyUHg?oc=5","src":"Business Insider","at":"18 Jul, 23:43"},{"title":"Wells Fargo layoffs: Bank cuts 79,000 jobs in 6 years, says AI will drive more workforce reductions","url":"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYTFIV2I0RDg2RkdpQUNPYjg1R0pPZkhEOVhkblg5T0NpQWZ4aHdFVXpUUzc3Q2E3aFQ5bjNBQlVvWjZ5bU5xQ25BMHlxZGR1eDFmbU5rd1hrRzdmbF93LUhEWkt3UmhBWmw1MFNxMi1BdWYwdExTNTZ0REZyY3kwUkRlX3d2bjQ1SzJwMVVlRjU5MDJFNEZNdV9QZUFKVGl5d2RZeTdCTWtPaENMLWNGVWRaQTBJLThMeWNKakJOYjRoT0tibTVqRG1JVUtIWk9GQ2VZNkx4b07SAd4BQVVfeXFMT19QZURubDRBR3JEUjd5LWNWNllKMDhXT1AwWXRPNGczM2RGZWVndkRXcXhPRy15NENFMFlJTFMxbFNhdzBRRmluWmM5aXdSNWo1b2cxaHFYTlZwWVdMeDJQdlhlRFhfTFRnbkJ4OTF3T2tKWHhTNTBhR2xfV0JPaVBCZlBzaHRvVW8tX0N3RDNnV3djeks1NTIyRFVlLWQwQ25URFNTVl9MTDRZTkQ5Vms0VjhWOW5QSDFqYnFyckdnTE9fdFRwSVFfc0dGM0Vqc0l3VkgzTmVFLUZseXlB?oc=5","src":"Firstpost","at":"17 Jul, 15:50"},{"title":"Read what 4,500 Google employees are demanding from CEO Sundar Pichai as tech layoffs mount: Guaranteed severance, no performance quotas, and the option to…","url":"https://news.google.com/rss/articles/CBMilgJBVV95cUxOd2ZNaGxXbzNRRnViWjF5SVhwNzkzWWhGZVRrVzdKM21RT2pRejdFUkM5TUV0bWM3YWlsM1FXdDFJaFhsYXFSZm5rT2hMRWJpWWJhd3lKOEpwcUdkYVVKSDd6N1Y0LXM3MHhfUk9ZWDZBckNvTGJOdDFoWEhFcENZeENIVS10OUsxeDhPN3ZOM2laTzRVNGZjY1BoWlY5enBLX2NBOFcyS011LVBwQWlFTlN5dmNINkF4VXRYTzVEQlBRNklZTVBQeEU1R3MxTVczMkcyUmxRRWZ2dEpkSTFMRVdNWm9LNFhJYzI5anl2eFZPcGQzdmxMQmUxUEsyckNRSVhzVDUwbzBGaVhKY29uVWJvYnIwUQ?oc=5","src":"IndiaIPO","at":"18 Jul, 21:33"},{"title":"Google employees rally for stronger job security amid ongoing tech layoffs","url":"https://news.google.com/rss/articles/CBMipwFBVV95cUxQaFB5WnZOazJjZk1NcmIzT0V4SjR0WEJOeVZ3VjIyeVZ0bjFxbG44WElkeU13VTNMNzd6dnJ1bHlrZ2J4QXdHZXFqZVU0ZWpTczFjMUNvdGgydEZscnpmZjV2MGY1VlU5WWhwSGtqVXdwVGNpb2F4dHhqUFBhVjlITUpDTHpXaVJsZzlnQnJTMWp0M2l1UDh1OGp2NkZmblZ6V3BJNEVTRQ?oc=5","src":"HR Katha","at":"17 Jul, 16:45"},{"title":"Uttarakhand Leads with India's First 'Agniveer Employment Cell'","url":"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQUlpaGZrSF9namNQUjBLM011RTllWjdxV0NtekR1X015a0EyMGNzWlJWd3ZraWtpVFFLVGxUemdULWN6aEtyN2o3LXppQVZ2UXZRanpfbkg4UUVDcE82S2xzZjVQMUR5Z3psXzcyOUJEa0xFU0s1RWoyT2hpaE1sbk1PM3VIdkV6LW40T2tHZm9MdFl4a1N0R2xBdi1FWkhwY1otU2Rob1VCTnNNR3NqYmdRd1p0bEN5NF9z0gG7AUFVX3lxTFBBSWloZmtIX2dqY1BSMEszTXVFOWVaN3FXQ216RHVfTXlrQTIwY3NaUlZ3dmtpa2lUUUtUbFR6Z1QtY3poS3I3ajctemlBVnZRdlFqel9uSDhRRUNwTzZLbHNmNVAxRHlnemxfNzI5QkRrTEVTSzVFajJPaGloTWxuTU8zdUh2RXotbjRPa0dmb0x0WXhrU3RHbEF2LUVaSHBjWi1TZGhvVUJOc01Hc2piZ1F3WnRsQ3k0X3M?oc=5","src":"Devdiscourse","at":"18 Jul, 23:10"}]},{"tag":"Crime","items":[{"title":"India signs Mutual Legal Assistance Agreement on Criminal Matters with Nepal","url":"https://news.google.com/rss/articles/CBMipAFBVV95cUxPcGtCeDhiUEtLTnVJd3BPZnVOdno4aHhXSGNiOFpaYndTQzNwQ0tTeDYwYWhfUWJNNDVMVnRHUjJ1eXY3MnJ6WVRESWsyUFFhYkdJc0hpc19STC1manRtWkVKSElKaWIzRkN3Y3ZDYXQ4SWt5c0daOF9xQm8zY29RZWdLQ3AxSy0tTFJNRnliRnNfdHBOU3Rhb1otVVZLSDBONjJ0Mg?oc=5","src":"News On AIR","at":"17 Jul, 16:45"},{"title":"BPR&D To Showcase Successful Investigations To Create National Model For Speedy Justice","url":"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNR2hGaU9zWlplWW5yVURvWGh3WEp2OGYwZzBMRGNLcTdUdzN5dDk2aXdtWC11LWpRQ1RnV3VnWkpzRnVOV1FEWHdsVnhhNUpBbjczUmtDSTdLZjNUZEVuOU5uQUhZVGRhQ3ZDdXBrVDZuVGNXaXBpUFo2Z0IwLU02SGZpbzFQWllHdEpGVVNFTVdfMnhvXzhXZXAwS0VnZnA2TUxoNWxhWVkzV19CXzNpeGN2N0lnUmlUVGE5UzgxbkI0dDdjakRUc1BVeWRYTHlmM3VF0gHYAUFVX3lxTE5LZXNZdTQya3ZQVW9SdFZ6UktiT2lqZ04tc2Jfd0NTbE5VZ2JWMDBOaGJvQ21TbGJTdVRjVGs4RUhqTEJLbVFOZjJKLV9ZNmlMNV9ka2Rid2FrdjE3SU5MdTl5NzAwZlFubzBPeVctR003VVh1akNEakxTN3dTamZaQnQwdWVsbk0yNm1QVXJJbUVTTEU2MGZtZkFaNnRhd1licWFfSG1XS0Z6ZUdTTVFydC1hZXc0XzBpR04yR2NTbDd1LUpuZkJPWl9RRHI1QWo0Si1ZMmpzSA?oc=5","src":"ETV Bharat","at":"17 Jul, 14:47"},{"title":"Govt Establishes JK4C To Combat Cyber Crimes Across J&K","url":"https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTdiQmxUdFFGRjQzSXJPUHQ3VEpoakFCcTktY1dSbmhIUWpIRG0yUlozSWpyS2x5akRFQWdaQTFLMUNXcV9KUVoxTUZqcW5udlJsVzZyS2VMS1RraXM1c3E2MS1FQmdUNjBpQTg5SkpDT3hFZWZKdWhPbk1qYUdzZWQtMXBCcFItUlVaQjRyMA?oc=5","src":"Kashmir Life","at":"18 Jul, 22:54"},{"title":"'No proof, no facts': Former envoy Sanjay Verma on Nijjar case as US indictment clears India","url":"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQzYyaXl5WWhvak9IblloanNJc2c5UTdwYS1YZEF5cXEwN2QxeXNsV1lwMGNpa2d1NWJmNEpzZGt3N0MxbjhHOXFkNXIzQllfZUUyWEp5QmV0Y3NsYkpNaENmYVVDNjVtUWhqTUhjYWdGa0tkMUI1MUE0ZGotT1dnWUhIbHd4M2luUTduaHliTjR4S3NTLUNNMW1kRG9lSlN1R2VCcmlWZ01wSlZEOW9hNjdLQkVQZUdDWU1kRHVCMGdKb2s0SkZpakRPZmJlZVJIdm1QeFVibDU2V0tLYzNJOXdlUkNwcEsyd0pCNNIB8gFBVV95cUxPMThTTnpaZUppZkFTYTRnRTE1WmR6TWpZdHdJTTZIcWhQalZZUkllR1VvakYtWWdXUUVjTUJpaEc1MFU1MVNBcGwwR1E0SG15bjhORGc2V3k2TFRjQWlqNFUxUUt4Qm9nXzVXN0tNTG9IUEotS1dTRF9WbTRXN1hmdXpmT2pWLU9OalFRMHFiVWRNTkVsNWRIZ3BsUmcxdnZyeFVaX1FzQllMWmJWU2ZSWm5kRDBRWUdsN3VxMDh2QTZPaEk1M3Ezd1NiTkxNYWZRRG55SXF2b2ZrZHNfSEVLQmRTbjE0RkI1WU8ySXhsMlBQdw?oc=5","src":"The Times of India","at":"17 Jul, 15:58"},{"title":"Senior RCMP officer’s ’no evidence’ comment about India seems to contradict past statements","url":"https://news.google.com/rss/articles/CBMikwFBVV95cUxPVFhhbXRuNm5RS0wweVZTYnBDN2c2TUt5dFJlNDUxb1I3Ml9RQTB2a2hhZzJYSkxnbE03MTlDbk13WGNONXhrenhMNUJwRHVxcEdOWERHYU02WkctU1FkUWhnYnhzbWNQZHJLMDhyQWRadG5ndm9lc3pOclZDS1VpTTFUOURYbUQ5WXlFM0JoRW1TRHc?oc=5","src":"Radio-Canada","at":"18 Jul, 00:07"},{"title":"JK govt approves dedicated Cyber Crime Coordination Centre","url":"https://news.google.com/rss/articles/CBMimAFBVV95cUxNOXVRa1lHMVFqcGRsMFBRRm1XeGVpR3hjcXhRVzV2bmx2eXo5RGdFb093b3NpMmtkVWVaSWE5ZVBHVGw5RUhtdzRhZUxZSVlia20td2duRWZwTUN3VFk5NXlJRTZZUkpuOXFyaS1fUDhTeUNUTEhYT2ZrT3ZGRXppM19CZE9ZRHZPbzNEc211b0dhbFR6ZjJRQdIBngFBVV95cUxOS2JNaWk0eXJFTHl1YUktcnJqbGtYcWhJd3ZSVjdHaUZHNzl5b1VJekkzX05NbnZJaE1DUE9LakptSjQwWFc5ckRIX3lEdHJXaVJ5N1pxSGRTVnE0Q3VsVkxEb1ZqbDh3cERmQi1YMGJCWGhSVm91UXc5RENmQmprQnZOZUpoeUtBWTF5ejI4ZWl4Zm5PMUdhRUJxcDNydw?oc=5","src":"ThePrint","at":"18 Jul, 23:17"}]},{"tag":"World","items":[{"title":"US attacks southern Iran, as Tehran hits Gulf countries: What’s the latest?","url":"https://news.google.com/rss/articles/CBMisgFBVV95cUxNUTFnRml2MU4ya1M2Z3lhU3FoaFRNbE56LVA2VzVnMlVsd2lTUllEa3BzTWdHUEktRkxmbGlTeDZ6U2h0eFJObWdGZW9iS21SaWRhaDlrQUVLN0FsY19jX2JmaFdYckd4aXljQWVQMm4xNWZaZklVNG9McDkwbTBGVnc4Znp4azY3VW01QjkyYnNpRTFfSEc3SkoxM0ZJRjdhUmhtSWZGN3l2alo5UFZrZ01R0gG3AUFVX3lxTFBoS1ZZaWFWcjlZSHI1Y3dqT21LMmd2VVZWcjNaSzUzLWJmRm10RndvUGRWZnN6UUdqci0waE1ydXlIVEZHZXJuMEVaTlFfQlh2TnA3TmZpdE1hTmJGRjNoZEQwc3E3U0E3Sm52RXBRU1A4U05DcElaQVh2RC1xS2VfdGlma2pHTmZ0TktjckhyaVpESDNmaDZFanlveTdGTWlRdGZTWEtOeHFJX2pWc3R0cjhoRm1Zcw?oc=5","src":"Al Jazeera","at":"17 Jul, 13:45"},{"title":"Andy Burnham elected new Labour leader, to be appointed U.K. PM on July 20","url":"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ1R1M0ZjUmF4NENSSDA4c3JyZjBTa3UxVTFtcnVqVmxvbVBQbXhhRlE3NEtMVjZBaDRPSlFqVFBnVWRxNy1IV05Nc3ZaSUZUVUlUNVJUaDJlQ244LVpEZExPTHhLdF9vblNGbEZZUThRWThZejl4T1JoWFFWaDRsalVweFRuRXVQc1ZpWGYwMV9BQ05uUUZzUGpya3ZZamN2OVg4X1haLTBlN1Rwd3Q1bUp1MnVpelFsVUhBdkphSWnSAccBQVVfeXFMTXl1RFhmWWVHVTJ6aU1rR2IyWTNIUWtmS0R6U0VDaUhIYXFEY0xSMVFHRHJMWUJpdEpRUEZLZVBUdUhqc0pYWWVQWmVjSmlPZXh4Sjd3ZkZCY1JiNVlBUWd2c3BwUUZRUlNiTFRHcnZubjZIUFZmSFo5c3A3NkhFa3RBVUpGck1NUmEtSTRqMFVBdTNxdkM3QnlLSTFYbE4tZDRTQmkta05rZld6Y2VuMl9BOGkyaV9jZzZndnpQQW5qRlpHOGZnTQ?oc=5","src":"The Hindu","at":"17 Jul, 17:06"},{"title":"\"We Don't Want Them\": Trump Set To Replace Immigrant Truckers With Veterans","url":"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWN2U29nSng5LUFoaktnSTA3NzRVNWNwRGt4STZsZXhxUEZMY0pOeWJ3OUJhMXROQUtrUWQtU0NNVUZiUWVyQ05IN0dOOFYzTjRNMGZxVVFHSjlmbXhjOVRscE5mM0t2blR1cWdJeVlvRUJlYUxUaGx2Wks3ck5NWThqRXRGSHZxRzVOc1c3RVFlQkVGQXJOeTZkRi1EbEdnU3cyRjRwdlpmallIcTZBTGRvNWFiUXk1MmFB0gHDAUFVX3lxTE5oZDhpeWdfSzRhLW9jQVZvQmZyd0ZJNVEtSUdjZ0lOTkhMckdKQmc4TFpkR1Z4TjdhVEkyaUFVdDJaMmdWTmRsVXRvWDhZUXY1bE1xOWN1bExTaVV4eFNwVTZmeEpNVFIwOTBtYlNXZWF4VEFLN1hkN1ZUTXBhV2pXLVk0cHVzZVRRLXNUa05YNVlyakt6WTFSYUtzLU84S0IwaE1qR1ZLRG9qVDVPTm5HdWR6Y25sWGVRVlFvemJLY0NWYw?oc=5","src":"NDTV","at":"18 Jul, 00:22"},{"title":"\"Trying To Survive\": Indians, Others Hit As Iran War Triggers Dubai Job Crisis","url":"https://news.google.com/rss/articles/CBMitgFBVV95cUxPY1BaX1JzNlBWOHZlQVg2SS14TzVPTllmRE1sYlJkNzFrQWw4V0RZeDVqMXlhR1Nfbld3Ykg0ei1hM1gxa3kybm9vWVBxUnhGRFA2Z3h4Yl90aWRuVlZoR2Z0VThPWERjb2dPaXcySF9rcndrTUpYWXlDOGdNc0F1N0F4ODA0QW5meG82My1yWmhJeE90SUZhMklWeU5hWU1xSWk5Yzh3YVI3UW1zZW80WUpyVVhod9IBvgFBVV95cUxOUmpyUXhHY0VLSXlwaFBTaWZBTFpxdEJKZ2N0cjUtRGlKZDFaS3JzcGVNLWZnMTNZMVFERld4bGQxajhKNmZFdG1EbEpad3Fyb2NFWTRYX3V0NHdhR2ZHSXBTUFFLUlpVWUYxQjRpandRQ2xrbG1NUmdTSVVUbkN5YVNZS01LLW1iWDdVYmFiMUdPWG94Z1VRa0VkVGp5a2RZMDRnUjM2QkFzaF81VXVJLWxpNmVySFgtaENqdUxB?oc=5","src":"NDTV","at":"18 Jul, 21:28"},{"title":"Watch: Buildings Shake, People Evacuate As Powerful Earthquake Jolts Mexico, Guatemala","url":"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSlVvOFBLbjZiVDhkTWdPLUVjU0dVSGxaOXl5dTY4ZG9jSTdBV3VNcF9TbXVjLW41WUNhcWNJTG1FM3NRend0RWs3ZXAwSjZackpoRktZUUpGcjhtQl9BUUI4YU54WTVCZzl3NUg4d2VTWlcxVWI2djdnOGppZDJDNjlTMHJXLXl0RWNTa0pLM0lfb3M1OEhma21JTUpBSEdtZ3hBd0QyQljSAa4BQVVfeXFMTkVtdDY2SU04VkMxZ1FFNjVMWXQxVVBRMjZ0TU8xNHh6Q0NQazdPdjRyZGhySjloRkdSdUhVTlpBME1wZHk3ek9QR2s1LUVGSklZOGNYdW9zY2ZuYlJlR0NPMzNKUWZaa2liT0pPdDlhSHFnWmRCTWNMOUg5V2Vjb2U5aS0tZ09YSnZxVnhnS1BpTTV0bklaVUhPVVBNRHhnMXpsNHFuWEpZdFYyLUNn?oc=5","src":"News18","at":"18 Jul, 21:19"},{"title":"Avoid deploying Indian sailors on vessels moving via Strait of Hormuz: DGMA to shipping companies","url":"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQX0dtWW5sRmpjTXRYTnh1cTBaZTJRdDlIbGo1RTFCQ1VOdmtiRS1qZVhkenNLaXkzaW04cUduYVFUVEN1a1c3OHh2cUhHdzVVNVVsOFBKQzdVdTF3OGJfNTlzU2JXT0RUbWYxWU9FSjFwMGc3QU0yd2ROSFlpd0ZPR2RUTlV1MlV4aElQSU1MSmE2TFd1bFNNd25jQnN3S3BEMi1ISlh5R3h5bkxEZHFRUDNiV1QySUU1OVpnUTg2T3lWTDczU241eHhjbmFIZFVIemcwX2gxbmlQS3ZTS2FjZHpsalhYYlNyWEow?oc=5","src":"The Hindu","at":"17 Jul, 03:03"}]},{"tag":"For You","items":[{"title":"Integration with Lakeflow Jobs: How to Orchestrate Snowflake Queries & Slack Alerts","url":"https://news.google.com/rss/articles/CBMi3wNBVV95cUxNVUpXeEZsbEJ1MHZPWjhwM3JtMG0xbF9rQm1vOGtTSTQ0TFMxdFo3TXU0TGJrX0NVakNYYUdTdHJBZmNCNDZGR0JmV3Nqcm4xZXJoMjBvMmZLY1hmU0o4UHNmV2txb3h4bmJMMi1vaE1Sa0pGcng3enBVQjV3V2x3WHdMd3dKWWJyd3NQX1htX0RJQ0lBdTZFTEVYREt3eml5Q0NUVlFfek1Bd3RCUEZvSlRFOC1ISk5wZklVNjFIbWlBeUh2cGZTcGVHSEx3Y0ZLaGRmRDBIbXFJNFdjRUhweW9ILXM2V0JlZ2JSOHlKREhqdnZLSDlDc3ZBT25QdFBrb3RRVDdBczhsRm9pbG1UTXg5VWEtVmhGLXFKSnFvYUJENEZLVU5rYkhZVFo2akpGeklYRHExcHd1Mno4V1h0bEQ5Vjk3NllIMG90ZXdQckMyMm1jNm9nM0pTWWlWV3V1SWpzeTdqWG5mcFZyTng5RHZCWDJCbWFrVDhiNWdGdTFIUWgwZmN6MTNzNnZSN0ZoTGZ2RDJERURIZk1YLWlfREk3dkpXV2JZamtjMTE2UHNaMWpxV2otYWVPcjBpdDBuV0hfSWZpMS1JZ1BxNDJfZXRQQ2NLTWgzbkd1MkQ0aw?oc=5","src":"Databricks","at":"17 Jul, 03:19"},{"title":"\"Snowflake Rival\" Databricks Completes $3 Billion Strategic Financing: Valuation Surges to $188 Billion as AI Data Platform Value Continues to be Reassessed","url":"https://news.google.com/rss/articles/CBMiY0FVX3lxTFBtcTN2cW82bm56NDVObUhxUklCc1JiQW5tSS1YMHZOa25aOHVyNTNxVmNWdzRFOGlPWFF0M0p6V2lHVzlfcDVxTzRPR3lUNEJ1Q2lLd3ZjLXQxV0xfRXdBM3hnb9IBY0FVX3lxTFBtcTN2cW82bm56NDVObUhxUklCc1JiQW5tSS1YMHZOa25aOHVyNTNxVmNWdzRFOGlPWFF0M0p6V2lHVzlfcDVxTzRPR3lUNEJ1Q2lLd3ZjLXQxV0xfRXdBM3hnbw?oc=5","src":"Bitget","at":"17 Jul, 15:41"},{"title":"Batch Inference Performance: A Cross-Platform Comparison","url":"https://news.google.com/rss/articles/CBMijAFBVV95cUxPNmpTWUhHaEhlNHVKbmpKT2duWFZrbDJYSEYwam1peElwbUpsSWVVVnFyeTdiRWhwUG9EWjFickNxZ3pKOW0xLUFCRWZ6bXNvbUw4WlJhcHNIRGZlb19yMXJrTlBlblY3MXdCX21pVjFBb0xxcDZ3M2RCaURDWWFMNmZxbHFMZm9tNVdJTg?oc=5","src":"Snowflake","at":"17 Jul, 04:17"},{"title":"Databricks Is Now Worth $188 Billion. Its Next Move Could Reshape Enterprise AI","url":"https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUJoYzdYT1JrM29yWkNCYmRnbmNDT29VaUhpbnpuYUV1X0ZNcTdDRHlkMWJvZ3EwNk9YMUhfUEVacmxfMDlFYkJoZTdkTm1BbF9ydTlyQ2x6YkNNTkdUM2hjZlVjMVVxN2xKeHI0M29fUEtrZHF1NThfMnFzREdCdXRXeko5Tmd6OWp6WjBVZWR2dUg1V215emFBVE1ObnlhYUdGVVRjOEdmUGpQeVhabXZVbS1Vdw?oc=5","src":"inc.com","at":"18 Jul, 23:35"},{"title":"Databricks raises $3 billion at $188 billion valuation, with Coatue leading its second round of 2026","url":"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUmFCRDhvVURPakstSXc2bzRPazZWdGgya1c0YU4yS3EtMDRwRDhNNWlIUzBjM0MxMS1DT1UtOXh4d1kxTFlRZkE5aHI5eTNGQ0xtM1o1djQtOXFvUFpNbmNGMHBqT1JaN3o3SUYtRzQxUjlHcHc1czIwVS1vNjVLN1g4OUVaSFE1SWx4TVE3WGhYaTdySlM4T21xdW50STZBb0kxSl91SHkxbTZjTTR3WDdqejkxSi1tZU1IMmc0eDBGT2xkOWxKbHFVcUR4T2huMEJQYlFrb1FrSzJ5RDF0dGtrSVM0WWlUSGxtTDZHOElWUQ?oc=5","src":"MarketScale","at":"18 Jul, 20:45"},{"title":"Databricks hits $188 Billion Valuation as AI Demand Surges","url":"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdERLbFRmcVM3UlJkTkYyV3RHdmlNcE44REp5U29vY0F0RHJ1dEJoTHVfdjBJM0NVc29Zc2ZxVTcxdEJ0MUxuQm15T25Ca3IyZDFSTG1Uc2Q2NWE5RjFNM3luVm5DYVA5d2tHdDFtSllGTmVROVBZV0FMQzZhQXN0Z3JJTzc2NFJDbTRj?oc=5","src":"Lapaas Voice","at":"17 Jul, 10:55"}]}],"gk":[{"t":"ISRO launched 104 satellites in one rocket","teaser":"A world record in 2017, from a single PSLV flight.","more":"Most were tiny foreign 'nanosatellites' — proof of ISRO's reputation as the world's budget-friendly, reliable launcher. India was also first to reach Mars orbit on its first attempt (Mangalyaan, 2014) — at a cost less than the movie Gravity."},{"t":"India's Constitution is the world's longest","teaser":"Adopted 26 Nov 1949, in force 26 Jan 1950.","more":"B.R. Ambedkar chaired the drafting committee. It borrowed deliberately: parliamentary system from Britain, fundamental rights from the US, directive principles from Ireland, emergency provisions from Germany. Jan 26 was chosen because Congress declared 'Purna Swaraj' on that date in 1930."},{"t":"The RBI was born in 1935","teaser":"India's central bank predates independence by 12 years.","more":"Set up under the RBI Act 1934 based on the Hilton Young Commission, it was privately owned until nationalisation in 1949. It issues currency, sets the repo rate, regulates banks, and manages the rupee — its first governor was Osborne Smith; C.D. Deshmukh was the first Indian governor."},{"t":"1991: the year India's economy changed","teaser":"A balance-of-payments crisis forced liberalisation.","more":"With forex reserves down to weeks of imports, PM Narasimha Rao and FM Manmohan Singh dismantled the licence raj, devalued the rupee, cut tariffs and opened doors to foreign investment. Nearly every big private-sector story since — IT, telecom, startups — traces to this pivot."},{"t":"Why the monsoon happens","teaser":"Land heats faster than sea — wind follows.","more":"By June the subcontinent's landmass is much hotter than the Indian Ocean, creating a low-pressure zone that pulls moisture-laden winds northeast. They break on the Western Ghats and Himalayas as rain. About 70% of India's annual rainfall arrives in these four months, which is why a 'bad monsoon' moves inflation, farm incomes and even elections."},{"t":"Ashoka: the emperor who renounced war","teaser":"His wheel sits at the centre of the tricolour.","more":"After the bloody Kalinga war (~261 BCE), Mauryan emperor Ashoka embraced Buddhism and spread edicts on rock pillars across the subcontinent. The Ashoka Chakra on India's flag and the Lion Capital national emblem both come from his pillars at Sarnath."},{"t":"The two World Wars, datelined","teaser":"1914–18 and 1939–45 — the second killed ~70–85 million.","more":"WWI started with an assassination in Sarajevo and ended empires (Ottoman, Austro-Hungarian, Russian Tsar). WWII began with Germany invading Poland and ended with atomic bombs on Hiroshima and Nagasaki. Over 2.5 million Indian soldiers served in WWII — the largest volunteer army in history."},{"t":"Why the UN exists","teaser":"Founded 1945 by 51 countries so WWIII never happens.","more":"Headquartered in New York, its Security Council has five veto-holding permanent members: US, UK, France, Russia, China. India is a founding member and the largest cumulative contributor of UN peacekeeping troops, but its long push for a permanent Security Council seat remains unresolved."},{"t":"The Berlin Wall fell in 1989","teaser":"One night in November ended Europe's clearest Cold War symbol.","more":"Built in 1961 to stop East Germans fleeing to the capitalist West, the wall cut Berlin in two for 28 years. Its fall on 9 November 1989 triggered German reunification within a year and previewed the Soviet collapse of 1991."},{"t":"What NATO is","teaser":"A military pact where attacking one member means attacking all.","more":"Founded 1949, the North Atlantic Treaty Organization's Article 5 collective-defence clause has been invoked once — after 9/11. It expanded eastward after the Cold War, which Russia cites among grievances behind the Ukraine conflict. India is not a member and stays formally non-aligned."}],"gkMore":[{"t":"The EU in one card","teaser":"27 countries, one market, 20 sharing the euro.","more":"Born from post-WWII efforts to bind France and Germany economically so they'd never fight again, the European Union lets goods, services, money and people move freely across members. Brexit (2020) made the UK the only country ever to leave."},{"t":"Why there's an International Date Line","teaser":"Cross it westward and you skip a day.","more":"The Earth has 24 time zones; somewhere the calendar must flip. The line zigzags through the Pacific to avoid splitting countries. Fly Delhi to San Francisco and you can land at an earlier local time than you took off — the date line gives the day back."},{"t":"GST: one nation, one tax (2017)","teaser":"It replaced a maze of central and state levies.","more":"The Goods and Services Tax merged excise, VAT, service tax and more into one destination-based tax with slabs (0/5/12/18/28%). It made interstate commerce dramatically simpler — trucks no longer queue at state borders for tax checks — and every invoice feeds a single national IT backbone."},{"t":"ISRO's Chandrayaan-3 moment","teaser":"In 2023 India became the first to land near the lunar south pole.","more":"After Chandrayaan-2's lander crashed in 2019, ISRO's Vikram lander touched down softly on 23 August 2023 — making India the fourth country to soft-land on the Moon and the first at the south polar region, where ice deposits could support future missions. Mission cost: roughly ₹615 crore, less than many Hollywood films."},{"t":"ARPANET: the internet's grandfather","teaser":"The first message in 1969 was meant to be 'LOGIN' — it crashed at 'LO'.","more":"A US defence research network connecting four universities grew into the internet after TCP/IP became its common language in 1983. The web (websites, URLs, browsers) came later — invented by Tim Berners-Lee at CERN in 1989 as a layer on top of the internet."},{"t":"Moore's Law","teaser":"Chip transistor counts doubled roughly every two years for 50 years.","more":"Intel co-founder Gordon Moore's 1965 observation became the tech industry's metronome — it's why phones outpower old supercomputers. Physical limits have slowed it, which is partly why the industry pivoted to specialised chips (GPUs, AI accelerators) instead of just faster general processors."},{"t":"Why Silicon Valley is 'silicon'","teaser":"The chip element, not the software.","more":"The Santa Clara Valley earned the name in the 1970s from silicon semiconductor makers like Fairchild and Intel. Software, internet and AI giants came in later waves. Bengaluru earned the 'India's Silicon Valley' tag through the 1990s IT services boom — Infosys and Wipro, not chips."},{"t":"How vaccines work","teaser":"A harmless preview teaches your immune system the enemy's face.","more":"Vaccines present a dead, weakened, or fragment version of a pathogen (or, in mRNA vaccines, instructions to build one protein of it), so your body develops antibodies without the disease. Smallpox — which killed ~300 million people in the 20th century alone — became the first disease ever eradicated, in 1980."},{"t":"Plate tectonics built the Himalayas","teaser":"India is still crashing into Asia at ~5 cm a year.","more":"Around 50 million years ago the Indian plate slammed into the Eurasian plate; the crumple zone is the Himalayas, still rising a few millimetres yearly. The same collision makes the region earthquake-prone — the reason Delhi sits in seismic zone IV."},{"t":"Why the sky is blue","teaser":"Air scatters blue light more than red.","more":"Sunlight contains all colours; molecules in the atmosphere scatter shorter (bluer) wavelengths far more — called Rayleigh scattering. At sunset, light travels through more air, the blue scatters away before reaching you, leaving reds and oranges."}],"learn":[{"title":"Bulls, bears, and the names","teaser":"Horns toss up; paws swipe down.","body":["Bull market: sustained rise (+20% from a low). Bear: sustained fall (−20% from a high). The likely origin is the animals' attack styles, plus an old proverb about selling the bearskin before catching the bear — betting on a fall.","March 2020's COVID crash was a three-month bear phase; the recovery after was a textbook bull run. 'Bullish on X' simply means expecting X to rise."]},{"title":"Market cap, and why price ≠ size","teaser":"A ₹5,000 stock can be a smaller company than a ₹500 one.","body":["Market capitalisation = share price × number of shares. MRF's famous ₹1+ lakh share price makes it nowhere near India's biggest company; Reliance's much cheaper shares multiply across far more of them.","Caps define categories — large (top 100), mid (101–250), small (rest) by SEBI's rules — which matters because mutual funds are mandated to buy within their category. A stock crossing a cap boundary mechanically gains or loses buyers."]},{"title":"Percentiles: how analysts avoid lying","teaser":"p50, p90, p99 — the shape of reality, not one number.","body":["An average API response of 200ms hides that 1% of users wait 4 seconds. p50 (median) shows the typical case, p90 the bad day, p99 the disaster tail. Same for delivery times, load times, ticket resolution.","Reporting reflex: any latency, wait-time or money metric deserves at least p50 + p90. If someone gives you only the mean, they're either new or hiding the tail."]},{"title":"The 1962 war India doesn't celebrate","teaser":"A month-long border war with China reshaped Indian defence policy.","body":["In October 1962 Chinese forces advanced across the disputed Himalayan border (Aksai Chin, NEFA — today's Arunachal), overwhelming underprepared Indian positions before declaring a unilateral ceasefire. Nehru's reputation never fully recovered.","The war triggered India's military modernisation and its tilt toward Soviet arms, and the unresolved Line of Actual Control remains the flashpoint behind standoffs like Galwan 2020."]},{"title":"P/E ratio: the market's price tag","teaser":"How many years of profit you're paying for one share.","body":["Price-to-Earnings = share price ÷ earnings per share. A P/E of 25 means you pay ₹25 for every ₹1 of annual profit. High P/E signals the market expects fast growth (or the stock is expensive); low P/E signals slow growth expectations (or a bargain).","It's only meaningful against context: the company's own history, its sector average, and growth rate. Indian IT often trades at 20–30; PSU banks far lower. A 'cheap' stock with shrinking profits is usually cheap for a reason."]},{"title":"Correlation is not causation","teaser":"The most important sentence in analytics.","body":["Ice cream sales and drownings rise together — summer causes both. When two metrics move together, there are always four possibilities: A causes B, B causes A, something else causes both, or coincidence. Dashboards show correlation; only controlled experiments or careful causal analysis show causation.","Practical BI reflex: before reporting 'X drove Y', ask what else changed in the same window — a campaign, a price change, seasonality, a tracking change. The last one bites analysts most often."]},{"title":"Mean vs median: which lies less?","teaser":"One billionaire in a room makes the 'average' person rich.","body":["The mean (sum ÷ count) is dragged by outliers; the median (middle value) isn't. Average income sounds impressive when a few earn crores; median income tells you what the typical person makes. Same for ticket sizes, session times, order values.","Rule of thumb: for skewed data (money, wait times, engagement), report the median or percentiles. If mean and median differ a lot, that gap itself is a finding — your distribution has a long tail worth investigating."]},{"title":"Opportunity cost","teaser":"The real cost of anything is what you gave up to get it.","body":["Spending ₹15 lakh on a car isn't just ₹15 lakh — it's also the ~₹47 lakh that money could become in 10 years at 12%. Every choice of time or money silently declines the alternatives. Economists call the best foregone alternative the opportunity cost.","It reframes decisions: a 'free' three-hour meeting costs the work you'd have shipped. An okay job offer costs the better one you stopped searching for. Comparing against 'doing nothing' is almost always the wrong baseline."]}]};
-window.EMBED_SKILLS={
-"tracks":[
-{"id":"sql","name":"SQL","icon":"🗃","levels":[
- {"name":"Beginner","lessons":[
-  {"id":"sql-b1","title":"SELECT, WHERE, ORDER BY","concept":"Every query answers: which columns (SELECT), from which table (FROM), which rows (WHERE), in what order (ORDER BY). SQL executes FROM → WHERE → SELECT → ORDER BY — knowing this order explains most beginner errors, like why you can't use a SELECT alias inside WHERE.","example":"Used-car marketplace: find recent premium leads.","code":"SELECT lead_id, city, budget\nFROM leads\nWHERE budget > 800000\n  AND created_at >= '2026-07-01'\nORDER BY budget DESC\nLIMIT 20;","tryit":"Write a query for: the 10 cheapest Maruti cars listed this month, showing car_id, model, price.","quiz":[
-   {"q":"Why does WHERE price_bucket = 'High' fail when price_bucket is an alias created in SELECT?","opts":["Aliases must be uppercase","WHERE runs before SELECT, so the alias doesn't exist yet","Strings can't be compared in WHERE","It needs GROUP BY"],"a":1,"why":"Logical execution order is FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY. The alias is born in SELECT — after WHERE has already run.","approach":"Repeat the expression in WHERE, or wrap the query in a subquery/CTE and filter outside."},
-   {"q":"ORDER BY with no direction specified sorts…","opts":["Descending","Randomly","Ascending","By primary key"],"a":2,"why":"ASC is the default in every major database.","approach":"Always write ASC/DESC explicitly in shared code — intent beats defaults."}]},
-  {"id":"sql-b2","title":"GROUP BY, aggregates, HAVING","concept":"GROUP BY collapses rows sharing a value into one row per group; aggregates (COUNT, SUM, AVG, MIN, MAX) summarise each group. WHERE filters rows before grouping; HAVING filters groups after. Rule: every non-aggregated column in SELECT must appear in GROUP BY.","example":"Leads per city, keeping only serious markets.","code":"SELECT city, COUNT(*) AS leads,\n       AVG(budget) AS avg_budget\nFROM leads\nGROUP BY city\nHAVING COUNT(*) >= 100\nORDER BY leads DESC;","tryit":"Get average selling price and cars sold per fuel_type in July, only for fuel types with 50+ sales.","quiz":[
-   {"q":"COUNT(*) vs COUNT(phone) — the difference?","opts":["None","COUNT(phone) is faster always","COUNT(*) counts all rows; COUNT(phone) skips NULL phones","COUNT(*) includes deleted rows"],"a":2,"why":"COUNT(column) counts non-NULL values only — a common source of silently wrong metrics.","approach":"Use COUNT(*) for row counts; COUNT(col) deliberately when you mean 'rows where col exists'."}]},
-  {"id":"sql-b3","title":"JOINs without fear","concept":"INNER JOIN keeps only matching rows from both tables; LEFT JOIN keeps all left rows and fills NULLs where the right side has no match. The most damaging beginner bug: a LEFT JOIN quietly becomes an INNER JOIN when you filter the right table in WHERE instead of ON.","example":"All leads with their (optional) test drives.","code":"SELECT l.lead_id, t.drive_date\nFROM leads l\nLEFT JOIN test_drives t\n  ON t.lead_id = l.lead_id\n AND t.status = 'completed';\n-- putting t.status in WHERE would drop\n-- every lead with no test drive!","tryit":"Count leads that never booked a test drive (hint: LEFT JOIN + WHERE t.lead_id IS NULL).","quiz":[
-   {"q":"A LEFT JOIN B returns 1,000 rows; A has 800 rows. What happened?","opts":["Impossible","B has duplicate matches for some A rows","Rows were dropped","LEFT JOIN adds B's unmatched rows"],"a":1,"why":"Joins multiply: one A row matching three B rows becomes three rows. Row explosion after a join = duplicate keys on the right side.","approach":"Before joining, verify grain: SELECT key, COUNT(*) FROM B GROUP BY key HAVING COUNT(*)>1."}]}]},
- {"name":"Intermediate","lessons":[
-  {"id":"sql-i1","title":"CTEs & subqueries","concept":"A CTE (WITH block) names an intermediate result so you build logic in readable steps — filter first, aggregate second, rank third. Anything a subquery does, a CTE does more readably; chained CTEs are the standard shape of real analyst SQL.","example":"City conversion rates, step by step.","code":"WITH sold AS (\n  SELECT city, COUNT(*) n_sold\n  FROM orders GROUP BY city\n), leads AS (\n  SELECT city, COUNT(*) n_leads\n  FROM leads GROUP BY city\n)\nSELECT l.city,\n       1.0*s.n_sold/l.n_leads AS conv\nFROM leads l JOIN sold s USING(city)\nORDER BY conv DESC;","tryit":"Using two CTEs, compute month-wise average order value and month-wise refund rate in one result.","quiz":[
-   {"q":"Main advantage of CTEs over nested subqueries?","opts":["Always faster","Readable, named, reusable steps","They create indexes","They persist to disk"],"a":1,"why":"Performance is usually identical (optimizers inline both); the win is maintainability and debuggability — you can test each step alone.","approach":"Name CTEs by what they contain (monthly_sales), not step1/step2."}]},
-  {"id":"sql-i2","title":"CASE & conditional aggregation","concept":"CASE WHEN is SQL's if/else. Its superpower is inside aggregates: SUM(CASE WHEN … THEN 1 ELSE 0 END) counts a condition per group — letting one query produce a whole pivot-style summary instead of five separate queries.","example":"One-query funnel by city.","code":"SELECT city,\n  COUNT(*) leads,\n  SUM(CASE WHEN stage='test_drive' THEN 1 ELSE 0 END) AS drives,\n  SUM(CASE WHEN stage='sold' THEN 1 ELSE 0 END) AS sold\nFROM leads\nGROUP BY city;","tryit":"Build a query returning, per month: total orders, share of orders paid by 'loan', share above ₹5L.","quiz":[
-   {"q":"AVG(CASE WHEN sold=1 THEN 1.0 ELSE 0 END) computes…","opts":["Count of sold","The conversion rate","Always 0 or 1","A syntax error"],"a":1,"why":"The average of a 1/0 flag is exactly the proportion of 1s — the cleanest rate idiom in SQL.","approach":"Use 1.0 (not 1) to force decimal division in engines that do integer math."}]},
-  {"id":"sql-i3","title":"Dates, cohorts & retention shape","concept":"Real analysis lives on time: DATE_TRUNC('month', ts) buckets timestamps; date arithmetic builds cohort ages. A cohort query groups users by first-activity month, then measures behaviour N months later — the backbone of retention and repeat-purchase analysis.","example":"Month-1 repeat rate by signup cohort.","code":"WITH firsts AS (\n  SELECT user_id,\n         DATE_TRUNC('month', MIN(order_at)) cohort\n  FROM orders GROUP BY user_id\n)\nSELECT f.cohort, COUNT(DISTINCT o.user_id) m1_buyers\nFROM firsts f\nJOIN orders o ON o.user_id=f.user_id\n AND DATE_TRUNC('month', o.order_at) = f.cohort + INTERVAL '1 month'\nGROUP BY f.cohort;","tryit":"Compute weekly active leads (distinct lead_id per ISO week) for the last 8 weeks.","quiz":[
-   {"q":"Why prefer DATE_TRUNC over GROUP BY EXTRACT(MONTH …)?","opts":["It's shorter","EXTRACT merges the same month across different years","TRUNC is indexed","No difference"],"a":1,"why":"EXTRACT(MONTH) returns 1–12, so July 2025 and July 2026 collapse into one bucket. DATE_TRUNC keeps year+month distinct.","approach":"Bucket with DATE_TRUNC; use EXTRACT only for seasonality questions on purpose."}]}]},
- {"name":"Advanced","lessons":[
-  {"id":"sql-a1","title":"Window functions","concept":"Window functions compute across related rows without collapsing them: ROW_NUMBER ranks within a partition, LAG looks at the previous row, SUM() OVER builds running totals. Anywhere you think 'per group, but keep the rows', you want a window, not a GROUP BY.","example":"Latest status row per lead — the classic dedupe.","code":"SELECT * FROM (\n  SELECT l.*, ROW_NUMBER() OVER (\n    PARTITION BY lead_id\n    ORDER BY updated_at DESC) rn\n  FROM lead_events l\n) t WHERE rn = 1;","tryit":"Using LAG, compute month-over-month % change in city-level sales.","quiz":[
-   {"q":"ROW_NUMBER vs RANK on ties?","opts":["Identical","RANK gives ties the same number and skips ahead; ROW_NUMBER never ties","ROW_NUMBER skips numbers","RANK is random"],"a":1,"why":"Scores 90,90,80 → RANK 1,1,3; ROW_NUMBER 1,2,3 (tie broken arbitrarily unless ORDER BY disambiguates).","approach":"Deduping → ROW_NUMBER with a deterministic ORDER BY. Leaderboards → RANK/DENSE_RANK."},
-   {"q":"Which needs a window function?","opts":["Total sales by city","Each order alongside its city's average order value","Count of orders","Max price overall"],"a":1,"why":"'Each row + its group's aggregate' = AVG(...) OVER (PARTITION BY city). GROUP BY would collapse the orders.","approach":"Keep rows + add group context → window. Collapse to one row per group → GROUP BY."}]},
-  {"id":"sql-a2","title":"Why queries are slow","concept":"Most slow analyst queries do one of: scan far more rows than needed (missing partition/date filter), explode rows via a bad join, or sort huge sets (ORDER BY/DISTINCT on millions of rows). EXPLAIN shows the plan; the fix is usually filter earlier, join on keys, aggregate before joining.","example":"On Snowflake/BigQuery-style warehouses, filtering by the partition/cluster column (usually date) is the single biggest cost lever — SELECT * over a year costs ~365× a day's scan.","code":"-- bad: join then filter\nSELECT ... FROM big_events e\nJOIN users u ON u.id=e.user_id\nWHERE e.event_date = CURRENT_DATE;\n-- better: filter/aggregate first\nWITH today AS (\n  SELECT * FROM big_events\n  WHERE event_date = CURRENT_DATE)\nSELECT ... FROM today t\nJOIN users u ON u.id=t.user_id;","tryit":"Take your slowest saved query, run EXPLAIN, and identify: scanned rows, join order, and any sort step.","quiz":[
-   {"q":"A dashboard query got 10× slower after adding one JOIN. First thing to check?","opts":["Database is down","Join key duplicates causing row explosion","Font rendering","Too many columns"],"a":1,"why":"Fan-out is the usual culprit: the joined table has many rows per key, multiplying the working set.","approach":"Check the joined table's grain; pre-aggregate it to one row per key in a CTE before joining."}]},
-  {"id":"sql-a3","title":"Star schemas & modeling","concept":"Warehouses model data as fact tables (events/transactions: one row per order) surrounded by dimension tables (descriptive: customer, car, city, date). Facts are long and numeric; dims are wide and textual. BI tools are built for this shape — it's why your Power BI models want it too.","example":"orders_fact (order_id, car_id, customer_id, date_id, amount) joined to dim_car (car_id, brand, model, fuel), dim_customer, dim_date. A 'sales by brand by quarter' query touches one fact + two small dims.","code":"SELECT d.quarter, c.brand,\n       SUM(f.amount) sales\nFROM orders_fact f\nJOIN dim_car c USING(car_id)\nJOIN dim_date d USING(date_id)\nGROUP BY 1,2;","tryit":"Sketch fact/dim tables for FASTag recharges: what's the fact grain, and which 4 dimensions matter?","quiz":[
-   {"q":"'One row per order line' is the fact table's…","opts":["Index","Grain","Partition","Schema"],"a":1,"why":"Grain = what exactly one row represents. Every modeling decision and every metric definition hangs off it.","approach":"State the grain in the table's name or docs; refuse to add columns that break it."}]}]}]},
-{"id":"python","name":"Python","icon":"🐍","levels":[
- {"name":"Beginner","lessons":[
-  {"id":"py-b1","title":"Variables, lists, dicts","concept":"Python's two workhorse containers: lists (ordered, index by position) and dicts (key→value lookups). Analysts live in dicts-of-lists and lists-of-dicts — every JSON API response is exactly that.","example":"A lead as a dict; a day's leads as a list of dicts.","code":"lead = {\"city\": \"Gurugram\",\n        \"budget\": 900000}\nleads = [lead, {\"city\": \"Noida\",\n                \"budget\": 500000}]\nbig = [l for l in leads\n       if l[\"budget\"] > 600000]\nprint(len(big))  # 1","tryit":"Given a list of price ints, build a new list with 18% GST added to each (list comprehension).","quiz":[
-   {"q":"leads[0][\"city\"] returns…","opts":["Error","'Gurugram'","['Gurugram']","The whole dict"],"a":1,"why":"Index the list first (row), then the dict key (field) — same mental model as table[row][column].","approach":"Use .get(\"city\") when a key might be missing to avoid KeyError."}]},
-  {"id":"py-b2","title":"Loops & functions","concept":"Functions turn repeated analysis steps into named, testable units — the difference between a script you fear and one you reuse. Default arguments, early returns, and f-strings cover 90% of daily needs.","example":"One function to bucket any budget.","code":"def bucket(amount, high=800000):\n    if amount >= high:\n        return \"premium\"\n    return \"standard\"\n\nfor l in leads:\n    print(f\"{l['city']}: {bucket(l['budget'])}\")","tryit":"Write monthly_growth(vals) returning a list of % changes between consecutive values.","quiz":[
-   {"q":"What does a function return with no return statement?","opts":["0","'' empty string","None","Error"],"a":2,"why":"Python functions implicitly return None — the classic cause of mysterious 'None' in output.","approach":"Always return explicitly in analysis helpers; None propagating into math throws later, not here."}]}]},
- {"name":"Intermediate","lessons":[
-  {"id":"py-i1","title":"pandas: filter, group, join","concept":"pandas is SQL in Python: df[mask] ≈ WHERE, groupby().agg() ≈ GROUP BY, merge() ≈ JOIN. The mental leap is vectorization — operate on whole columns at once, never loop over rows.","example":"City summary in four lines.","code":"import pandas as pd\ndf = pd.read_csv(\"leads.csv\")\nhot = df[df.budget > 8e5]\nout = (hot.groupby(\"city\")\n      .agg(leads=(\"lead_id\",\"count\"),\n           avg_budget=(\"budget\",\"mean\")))\nprint(out.sort_values(\"leads\"))","tryit":"Load two CSVs (orders, refunds) and compute refund rate per month using merge + groupby.","quiz":[
-   {"q":"Idiomatic pandas for 'rows where city is Delhi AND budget>5L'?","opts":["df.loc[df.city=='Delhi' and df.budget>5e5]","df[(df.city=='Delhi') & (df.budget>5e5)]","for row in df: …","df.filter('Delhi')"],"a":1,"why":"Boolean masks combine with & | (bitwise), each condition parenthesised; Python's 'and' fails on Series.","approach":"Complex filters → build named masks first: is_delhi = df.city.eq('Delhi'); df[is_delhi & is_big]."}]},
-  {"id":"py-i2","title":"Cleaning messy data","concept":"Real files arrive broken: mixed types, stray spaces, duplicate rows, NULLs. The standard pass: fix dtypes (to_datetime, to_numeric), strip/normalise strings, drop_duplicates with an explicit subset, then decide NULL policy per column — never a blanket fillna(0).","example":"A crash-course cleanup.","code":"df[\"price\"] = pd.to_numeric(\n  df.price.astype(str).str.replace(\",\",\"\"),\n  errors=\"coerce\")\ndf[\"city\"] = df.city.str.strip().str.title()\ndf = df.drop_duplicates(subset=[\"lead_id\"])\nmissing = df.price.isna().mean()\nprint(f\"{missing:.1%} prices missing\")","tryit":"Given a phone column with '+91', spaces and dashes mixed in, produce clean 10-digit strings and count invalid ones.","quiz":[
-   {"q":"Why is fillna(0) on price usually wrong?","opts":["Slow","0 becomes a real price and poisons averages/minimums","NaN is prettier","It drops rows"],"a":1,"why":"A missing price isn't a free car. AVG, MIN, and 'cheapest listing' all silently corrupt.","approach":"Keep NaN and use skipna behaviour, or impute deliberately (median by segment) and flag imputed rows."}]}]},
- {"name":"Advanced","lessons":[
-  {"id":"py-a1","title":"EDA & quick charts","concept":"Exploratory Data Analysis is a checklist, not art: shape and dtypes → describe() → missingness → distributions (hist) → relationships (groupby, scatter) → time trends. Ten minutes of EDA prevents ten days of wrong dashboards.","example":"The 6-line profile.","code":"print(df.shape, df.dtypes, sep=\"\\n\")\nprint(df.describe(include=\"all\"))\nprint(df.isna().mean().sort_values())\ndf.price.hist(bins=40)\ndf.groupby(df.created.dt.month).size().plot()","tryit":"Profile any CSV you use at work: rows, % missing per column, top 5 categories of each text column, price histogram.","quiz":[
-   {"q":"Mean price ₹6.2L, median ₹4.1L. The distribution is…","opts":["Symmetric","Left-skewed","Right-skewed with expensive outliers","Broken data"],"a":2,"why":"Mean dragged above median = long right tail (a few very expensive cars).","approach":"Report median + percentiles for money columns; investigate the tail separately."}]},
-  {"id":"py-a2","title":"Automation & APIs","concept":"The analyst force-multiplier: a script that pulls data (requests.get on an API), transforms it (pandas), and writes output (CSV/Sheet/DB) — scheduled to run without you. Add retries, timeouts, and logging; a silent broken cron is worse than none.","example":"Skeleton of every data-pull script.","code":"import requests, pandas as pd\nr = requests.get(url, timeout=30)\nr.raise_for_status()\ndf = pd.DataFrame(r.json()[\"rows\"])\ndf.to_csv(\"daily_leads.csv\", index=False)\nprint(f\"wrote {len(df)} rows\")","tryit":"Write a script that reads this app's data.json from your GitHub Pages URL and prints today's headline count per tag.","quiz":[
-   {"q":"Why call r.raise_for_status()?","opts":["Speeds up requests","Turns HTTP errors (403/500) into visible exceptions instead of silently parsing an error page","Required by law","Retries automatically"],"a":1,"why":"Without it, a failed API call returns error HTML/JSON that your parser mangles into garbage data downstream.","approach":"Fail loudly at the boundary; log status + first 200 chars of body on failure."}]}]}]},
-{"id":"powerbi","name":"Power BI","icon":"📊","levels":[
- {"name":"Beginner","lessons":[
-  {"id":"pbi-b1","title":"Import, model, relate","concept":"Power BI's flow: Get Data → clean in Power Query (M) → model relationships → write measures (DAX) → visualise. The model view is where dashboards are won: single-direction, one-to-many relationships from dimension tables into fact tables.","example":"Load orders (fact) + car master and date table (dims); relate dim_car[car_id] 1→* orders[car_id]. Now one 'brand' slicer filters everything.","code":"","tryit":"Rebuild one Excel report you maintain as: one fact query + two dim queries, related in model view — no merged mega-table.","quiz":[
-   {"q":"Where should row-level cleanup (split columns, fix types, remove rows) happen?","opts":["DAX measures","Power Query (M), before the model","In the visual","SQL only, never BI"],"a":1,"why":"Power Query shapes data once at refresh; DAX recalculates at every interaction. Cleanup in DAX = slow visuals.","approach":"Rule: shape in Power Query (or upstream SQL), calculate business logic in DAX."}]},
-  {"id":"pbi-b2","title":"Visuals that don't lie","concept":"Chart choice is grammar: trends → line, comparison → bar, composition at a point → stacked/100%, distribution → histogram, relationship → scatter. Slicers filter pages; drill-through jumps to a detail page carrying context. Avoid pies beyond 3 slices and dual axes without labels.","example":"A sales page: KPI cards (sales, orders, AOV) on top, monthly trend line, city bar chart, and a drill-through to order-level detail per city.","code":"","tryit":"Take one crowded report page you own and cut it to: 3 KPI cards, 2 charts, 1 slicer. Note what you removed and why.","quiz":[
-   {"q":"Best visual for 'sales trend across 18 months for 3 cities'?","opts":["Pie per month","Clustered bars ×18","Line chart, one line per city","Table"],"a":2,"why":"Lines show trend and comparison simultaneously; 18 bar clusters are unreadable; pies can't show time.","approach":"If lines cross confusingly, use small multiples (one mini-line per city)."}]}]},
- {"name":"Intermediate","lessons":[
-  {"id":"pbi-i1","title":"DAX: CALCULATE & filter context","concept":"Every DAX measure evaluates inside a filter context (the slicers/rows/columns acting on it). CALCULATE is the only function that changes that context — add filters, remove them (ALL), or keep some (ALLEXCEPT). Understand this and DAX stops being magic.","example":"Share of city in total sales.","code":"Total Sales = SUM(orders[amount])\nAll City Sales = CALCULATE(\n  [Total Sales], ALL(dim_city))\nCity Share = DIVIDE(\n  [Total Sales], [All City Sales])","tryit":"Write a measure 'Premium Sales' = sales where price > 8L, that still respects the user's city and month slicers.","quiz":[
-   {"q":"ALL(dim_city) inside CALCULATE does what?","opts":["Deletes the city table","Removes any city filter for that measure, so it computes the grand total","Selects all visuals","Sorts cities"],"a":1,"why":"ALL strips the city filter from the context — the standard denominator trick for shares and % of total.","approach":"% of total pattern: DIVIDE(measure, CALCULATE(measure, ALL(dim)))."}]},
-  {"id":"pbi-i2","title":"Time intelligence","concept":"MTD/YTD/vs-last-month all require a proper date dimension: a continuous date table marked as 'date table', related to the fact. Then TOTALYTD, DATEADD, SAMEPERIODLASTYEAR work. Without it, time intelligence silently misbehaves on gaps.","example":"Month-over-month growth.","code":"Sales LM = CALCULATE([Total Sales],\n  DATEADD(dim_date[date], -1, MONTH))\nMoM % = DIVIDE(\n  [Total Sales] - [Sales LM],\n  [Sales LM])","tryit":"Add YTD sales and MoM% to your main report; validate MoM against two months you can hand-check.","quiz":[
-   {"q":"Why does your calendar table need every date, even no-sale days?","opts":["Looks complete","DATEADD/YTD need continuous dates to shift periods correctly","Power BI requires 365 rows","For weekends"],"a":1,"why":"Time functions navigate the date table itself; gaps make 'same period last year' land on missing rows and return blanks.","approach":"Generate with CALENDAR(MINDATE, MAXDATE) or a dates table in SQL; mark as date table."}]}]},
- {"name":"Advanced","lessons":[
-  {"id":"pbi-a1","title":"Star schema in the model","concept":"Import mode + star schema is the performance default: narrow fact, small dims, single-direction filters. Avoid bi-directional relationships (ambiguity, slowness) and snowflaking dims into chains. One date dim can play many roles (order date, delivery date) via inactive relationships + USERELATIONSHIP.","example":"Orders fact with order_date and delivery_date both relating to dim_date — one active, one inactive; a 'Delivered Sales' measure activates the second with USERELATIONSHIP.","code":"Delivered Sales = CALCULATE(\n [Total Sales],\n USERELATIONSHIP(\n  orders[delivery_date],\n  dim_date[date]))","tryit":"Audit your model view: list every bi-directional arrow and justify or fix each one.","quiz":[
-   {"q":"Main risk of bi-directional relationships everywhere?","opts":["Bigger file","Ambiguous filter paths and wrong totals under some slicer combos","Slower refresh only","None, it's default"],"a":1,"why":"Multiple filter paths between tables can contradict; the engine picks one and your totals quietly change meaning.","approach":"Default single direction; use bi-directional only for many-to-many bridges you've reasoned through."}]},
-  {"id":"pbi-a2","title":"Performance & refresh","concept":"Slow report? Diagnose in order: too many visuals per page → heavy DAX (iterators over big tables) → wide imported columns you never use → DirectQuery where import would do. Performance Analyzer shows per-visual timings. Incremental refresh keeps big fact tables fresh without full reloads.","example":"A 3M-row orders table refreshed daily: incremental refresh loads only the last 3 days' partition; the report drops from 40-min to 2-min refresh.","code":"","tryit":"Run Performance Analyzer on your slowest page; record the top 2 visuals by DAX time and one fix each.","quiz":[
-   {"q":"First lever when a single page takes 12s to render?","opts":["Buy a bigger laptop","Reduce visual count / simplify the heaviest DAX visual (check Performance Analyzer)","Switch everything to DirectQuery","Remove the date table"],"a":1,"why":"Each visual fires queries; pages with 20+ visuals or an iterator-heavy matrix dominate render time.","approach":"Measure first (Performance Analyzer), then fix the top offender — don't guess."}]}]}]},
-{"id":"tableau","name":"Tableau","icon":"📈","levels":[
- {"name":"Beginner","lessons":[
-  {"id":"tb-b1","title":"Dimensions, measures, marks","concept":"Tableau splits fields into dimensions (slice: city, brand) and measures (aggregate: sales, count). Drag to Rows/Columns to define the grid; the Marks card (colour, size, label, detail) encodes more fields. Blue pills = discrete headers, green = continuous axes — that colour explains most 'why does it look like this' confusion.","example":"Sales by city bar chart: city → Rows, SUM(sales) → Columns, fuel_type → Colour. Three drags, done.","code":"","tryit":"Recreate one Excel chart in Tableau in under 5 minutes: one dimension, one measure, one colour encoding.","quiz":[
-   {"q":"A green pill on Columns creates…","opts":["Discrete column headers","A continuous axis","A filter","An error"],"a":1,"why":"Green = continuous → axis; blue = discrete → headers. Same field can often be either — right-click to convert.","approach":"Dates especially: discrete YEAR/MONTH parts vs continuous truncated dates give different charts on purpose."}]}]},
- {"name":"Intermediate","lessons":[
-  {"id":"tb-i1","title":"LOD expressions","concept":"Level-of-Detail expressions compute at a grain you choose, ignoring the view's grain: {FIXED [customer]: MIN([order_date])} gives each customer's first order date on every row. FIXED ignores view filters (mostly), INCLUDE/EXCLUDE adjust relative to the view — FIXED covers 90% of real uses.","example":"New vs repeat revenue: flag = [order_date] = {FIXED [customer_id]: MIN([order_date])} → colour by flag.","code":"{FIXED [customer_id] :\n  MIN([order_date])}","tryit":"Build 'share of city in national sales' using {FIXED : SUM(sales)} as denominator.","quiz":[
-   {"q":"Why does a plain SUM(sales)/SUM(sales) always show 100%?","opts":["Bug","Both sums evaluate at the same view grain, so they're equal in every cell","Needs integers","Wrong chart type"],"a":1,"why":"Numerator and denominator share the view's context. The denominator must be pinned to a coarser grain — exactly what a FIXED LOD does.","approach":"Percent-of-total = measure / {FIXED : SUM(measure)} (or table calcs when layout-relative is fine)."}]},
-  {"id":"tb-i2","title":"Dashboards & actions","concept":"A dashboard is sheets + interactivity: filter actions (click a city bar → all sheets filter to it), highlight actions, and parameter controls (user-chosen metric or threshold). Design mobile-fit containers, 3–5 sheets max, filters top-left where eyes start.","example":"Exec view: KPI row, trend line, city map; clicking a city filters the trend — one filter action, no visible filter dropdowns.","code":"","tryit":"Add one filter action to an existing dashboard replacing two dropdown filters; time how much faster a question gets answered.","quiz":[
-   {"q":"Parameter vs filter — key difference?","opts":["Same thing","A parameter is a single user-chosen value usable inside calculations; a filter subsets data directly","Parameters are faster always","Filters allow one value only"],"a":1,"why":"Parameters feed formulas (switch metric, set threshold); filters cut rows. Combined, they make one sheet act like five.","approach":"Metric-switcher pattern: parameter [Choose Metric] + CASE calculation using it."}]}]},
- {"name":"Advanced","lessons":[
-  {"id":"tb-a1","title":"Performance & calc hygiene","concept":"Slow workbooks: too many quick filters (each queries the source), high-cardinality dimensions on detail, row-level calcs that belong upstream, and live connections doing warehouse work per click. Extracts + aggregating before Tableau + fewer filters fix most of it.","example":"A 12-filter dashboard on a live 50M-row connection → move to an extract aggregated to day×city×brand, 4 filters + 1 action: loads in 2s instead of 45s.","code":"","tryit":"Open your slowest workbook's Performance Recording; identify the single longest query and whether an extract or upstream aggregate would kill it.","quiz":[
-   {"q":"Cheapest big win for a slow live-connection dashboard?","opts":["More RAM","Switch to an extract (possibly pre-aggregated)","More dashboards","Remove colour"],"a":1,"why":"Extracts move query cost to refresh time and Tableau's engine is optimized for them; users stop hammering the warehouse per click.","approach":"Extract at the coarsest grain the dashboard truly needs — not raw rows."}]}]}]},
-{"id":"agile","name":"Agile","icon":"🔁","levels":[
- {"name":"Beginner","lessons":[
-  {"id":"ag-b1","title":"Agile vs waterfall, and Scrum's cast","concept":"Waterfall plans everything upfront; agile ships small increments and corrects course from feedback. Scrum: a Product Owner (orders the backlog by value), a Scrum Master (removes blockers, guards process), and the Development Team. Work happens in fixed-length sprints (usually 2 weeks) producing something usable.","example":"Your dashboard request flow is agile in miniature: stakeholders ask, you ship a v1 in days, feedback reshapes v2 — instead of a 3-month 'perfect' spec.","code":"","tryit":"Map your current project: who acts as PO (prioritises), who unblocks, what's the 'increment' you ship each week?","quiz":[
-   {"q":"Who decides the order of the product backlog?","opts":["Scrum Master","The loudest stakeholder","Product Owner","The developers"],"a":2,"why":"The PO owns value-ordering; the team owns how much fits a sprint and how it's built.","approach":"As an analyst, feed the PO data on impact — that's how your items climb the backlog."}]},
-  {"id":"ag-b2","title":"Ceremonies & artifacts","concept":"Four ceremonies: sprint planning (choose sprint backlog), daily stand-up (15 min: progress/plan/blockers), review (demo to stakeholders), retrospective (improve the process). Artifacts: product backlog, sprint backlog, increment. Everything else is optional decoration.","example":"Good stand-up line: 'Funnel dashboard: city drill-through done; today DAX for MoM; blocked on prod schema access — need Vikas.' Twenty seconds, complete.","code":"","tryit":"Write tomorrow's stand-up update in exactly three lines: yesterday / today / blockers.","quiz":[
-   {"q":"The retrospective is about…","opts":["Demoing features","Blaming misses","How the team works — process improvements for next sprint","Planning next quarter"],"a":2,"why":"Review inspects the product; retro inspects the process. Teams that skip retros repeat the same friction forever.","approach":"Bring one data point to retros ('we spent 30% of sprint on ad-hoc pulls') — analysts make retros concrete."}]}]},
- {"name":"Intermediate","lessons":[
-  {"id":"ag-i1","title":"User stories & acceptance criteria","concept":"A story frames work by outcome: 'As a <role>, I want <thing>, so that <value>.' Acceptance criteria make 'done' testable. For analysts this is gold for dashboard requests — it forces stakeholders to state the decision the dashboard serves.","example":"'As a retail head, I want daily city-level conversion with a 7-day trend, so that I can rebalance inventory weekly.' AC: refreshes by 8am; matches finance numbers ±1%; loads <5s.","code":"","tryit":"Rewrite your last vague request ('need a sales report') as a story with 3 acceptance criteria.","quiz":[
-   {"q":"Best acceptance criterion?","opts":["'Dashboard should be good'","'Data must be accurate'","'Shows MTD sales by city, matches finance report ±1%, refreshed by 8:00 IST'","'Use blue theme'"],"a":2,"why":"Testable, specific, has a pass/fail. The others are vibes.","approach":"Each AC should be checkable by someone else without asking you."}]}]},
- {"name":"Advanced","lessons":[
-  {"id":"ag-a1","title":"Flow metrics: velocity, burndown, Kanban","concept":"Velocity = story points completed per sprint (planning aid, never a performance KPI). Burndown charts show remaining work vs time. Kanban skips sprints: continuous flow with WIP limits; its metrics — cycle time and throughput — often fit analyst/support work better than Scrum.","example":"A BI team with constant ad-hoc requests fits Kanban: a WIP limit of 3 exposes overload instantly; cycle time per request becomes your SLA evidence.","code":"","tryit":"Track your own cycle time for one week: request arrival → delivered. The distribution will surprise you.","quiz":[
-   {"q":"Why is comparing two teams' velocities meaningless?","opts":["It's illegal","Points are relative estimates calibrated within each team, not a shared unit","Velocity measures quality","Sprints differ in length"],"a":1,"why":"A '5' in one team is a '13' in another; velocity only forecasts that same team's capacity.","approach":"Use velocity for planning conversations; use cycle time/throughput when stakeholders want speed evidence."}]}]}]},
-{"id":"interview","name":"Interview Prep","icon":"🎯","levels":[
- {"name":"Foundation","lessons":[
-  {"id":"iv-1","title":"'Tell me about yourself' — the 90-second version","concept":"Interviewers use this to decide what to probe next, so you control the map. Structure: current role and scale (one line) → 2 quantified wins (one line each) → why this role/company (one line). Under 90 seconds, no childhood, no hobbies, end pointing at the job.","example":"'I'm a Business Analyst at a used-car marketplace, working as the data/BI analyst for a product pod. Two things I'm proud of: consolidating event tracking across a platform migration for our payments flows, and building the daily-insights reporting our pod leadership reads each morning. I'm looking for a role where the analytics work is deeper on the modeling side — which is what drew me to this one.'","code":"","tryit":"Write your version, read it aloud with a timer. Cut until it's under 90 seconds. Every claim must survive a follow-up 'tell me more'.","quiz":[
-   {"q":"The main job of your 'tell me about yourself' answer?","opts":["Cover your full CV chronologically","Set the 2-3 topics you WANT to be probed on","Show personality","Explain gaps"],"a":1,"why":"Interviewers follow the threads you hand them. A rambling answer hands them random threads; a structured one hands them your strongest.","approach":"End each win with a number — numbers are the threads interviewers pull."}]},
-  {"id":"iv-2","title":"SQL rounds: the five questions that keep coming","concept":"Analyst SQL interviews recycle five patterns: latest-row-per-entity (ROW_NUMBER), second-highest (DENSE_RANK or OFFSET), month-over-month change (LAG), funnel conversion (conditional aggregation), and duplicate detection (GROUP BY HAVING COUNT>1). Master these cold — typed, not just recognised.","example":"'Get each customer's most recent order' — the single most-asked analyst SQL question in India right now.","code":"SELECT * FROM (\n  SELECT o.*, ROW_NUMBER() OVER(\n    PARTITION BY customer_id\n    ORDER BY order_at DESC) rn\n  FROM orders o) t\nWHERE rn=1;","tryit":"Without looking anything up, write all five patterns against an imaginary orders(customer_id, order_at, amount, status) table. Check yourself against the SQL track lessons.","quiz":[
-   {"q":"Interviewer: 'why ROW_NUMBER not GROUP BY here?'","opts":["ROW_NUMBER is faster","GROUP BY can't return the full row — it collapses; window functions keep every column","They're identical","GROUP BY is deprecated"],"a":1,"why":"GROUP BY customer_id + MAX(order_at) loses the rest of the row; joining back is clumsy. Window functions answer 'whole row per group' directly.","approach":"Say the reason BEFORE writing code — interviewers score the reasoning, not just the syntax."}]},
-  {"id":"iv-3","title":"The dashboard case round","concept":"'Design a dashboard for the city operations head' is a thinking test, not a drawing test. The winning order: 1) clarify the DECISION the user makes weekly, 2) derive 3-5 metrics from that decision, 3) state grain and refresh, 4) sketch layout (KPIs top, trend middle, drill bottom), 5) name one metric you'd refuse to add and why.","example":"For a used-car city head: decision = where to rebalance inventory and staffing. Metrics: leads→sale conversion by city, inventory aging buckets, days-to-sale trend, refund/RTO rate as guardrail. Refresh daily 8am; grain city × day.","code":"","tryit":"Pick any manager you know. Write their weekly decision in one sentence, then the 4 metrics that serve it. If a metric doesn't change the decision, cut it.","quiz":[
-   {"q":"Best FIRST sentence in a dashboard case?","opts":["'I'd use Power BI'","'What decision will the user make with this, and how often?'","'I'd add filters for city and date'","'Dark theme or light?'"],"a":1,"why":"Tools and filters are downstream. Anchoring on the decision shows senior thinking and makes every later choice defensible.","approach":"Literally memorise the question — it's the highest-value sentence in any BI interview."}]}]},
- {"name":"Advanced","lessons":[
-  {"id":"iv-4","title":"Product sense & guesstimates","concept":"Marketplace analyst interviews test metric instinct: know a north star (e.g. successful transactions), the funnel to it (visits→leads→inspections→listings→sales), and guardrails (refunds, NPS, time-to-sale). Guesstimates ('how many used cars sell monthly in Gurugram?') score your structure: population → segment → rate → sanity-check, stated aloud.","example":"Gurugram guesstimate: ~2M households → ~60% own cars (~1.2M cars) → cars change hands every ~6 years → ~200K/year → ~17K/month across all channels; organised platforms maybe 15-20% → 2.5-3.5K/month. Numbers can be off — the structure can't.","code":"","tryit":"Do 'how many test drives happen daily in your city?' out loud, writing each assumption. Then vary one assumption ±50% and see if the conclusion changes.","quiz":[
-   {"q":"What do interviewers actually grade in a guesstimate?","opts":["Closeness to the true number","Speed","Explicit assumptions, clean structure, and a sanity check","Confidence"],"a":2,"why":"They know you don't know the number. They're watching whether your decomposition is logical and whether you check your own answer.","approach":"Always end with a sanity check: 'that implies X per day, which feels right because…'"}]},
-  {"id":"iv-5","title":"Behavioral rounds: STAR without the fluff","concept":"Prepare 4 stories: a win with numbers, a failure you fixed, a conflict you resolved, a deadline you rescued. Tell each as Situation (1 line), Task (1 line), Action (3-4 lines, 'I' not 'we'), Result (number + lesson). If you use AI tools at work, own it as leverage — 'AI drafts, I verify and own the output' — never hide it, never overstate your unaided level.","example":"Failure story shape: 'A metric I shipped double-counted refunds (S). I owned the correction (T). I traced it to a join fan-out, fixed the grain, added a reconciliation check against finance (A). Numbers matched within 0.5% and the check now runs weekly (R).'","code":"","tryit":"Write all four stories in exactly 8 lines each. Practice the failure one most — it's where candidates either build trust or lose it.","quiz":[
-   {"q":"The most common STAR mistake?","opts":["Too short","Spending 80% on Situation and saying 'we' throughout the Action","Too many numbers","Ending with the result"],"a":1,"why":"Interviewers need YOUR actions. Long context + team credit leaves them unable to score you.","approach":"One line of context, then 'I did X, I did Y' — and a numeric result."},
-   {"q":"Asked about a skill you're intermediate at (say DAX), best answer?","opts":["Claim advanced — fake it","'Intermediate: I do X and Y solo, use references/AI for Z, and here's a recent example' ","Change the subject","Say you'll learn it"],"a":1,"why":"Verification exists — inflated claims collapse in the technical round. Calibrated honesty with a concrete example reads as senior.","approach":"Honesty + evidence + trajectory ('currently deepening Z') beats bravado every time."}]},
-  {"id":"iv-6","title":"Your questions, their offer","concept":"Your questions signal your level. Ask about the data stack's pain points, how metric definitions are governed, and what the last analyst who succeeded here did differently. On comp: never name a number first if avoidable — ask for the band; if forced, give a researched range anchored high-but-defensible, and negotiate total comp (fixed, variable, ESOP, review cycle), not just CTC.","example":"Strong closer: 'What's the messiest data problem this team owns right now, and is fixing it part of this role?' — it signals you expect real work and have seen mess before.","code":"","tryit":"Write your 3 closing questions and your comp range with one line of evidence for it (market data for your city/experience). Rehearse saying the range without flinching.","quiz":[
-   {"q":"Recruiter asks current salary + expected in the first call. Best move?","opts":["Refuse rudely","Inflate current salary","Share expectation as a range anchored to market data; deflect current comp politely if possible","Say 'as per company norms'"],"a":2,"why":"'As per norms' surrenders leverage; inflating current comp is verifiable and disqualifying. A researched expectation range is safe and strong.","approach":"'Based on the scope and market, I'm targeting X–Y total comp; I'm flexible for the right role' — then stop talking."}]}]}]}
-]};
+window.EMBED_DATA={
+ "generatedAt": "2026-07-18T09:11:07.807Z",
+ "label": "18 Jul, 09:11 IST",
+ "markets": {
+  "indices": [
+   {
+    "name": "Sensex",
+    "g": "SENSEX:INDEXBOM",
+    "price": 78151.45,
+    "chg": 964.58,
+    "pct": 1.25,
+    "spark": [
+     77186.87,
+     78151.45
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Nifty 50",
+    "g": "NIFTY_50:INDEXNSE",
+    "price": 24334.3,
+    "chg": 261.55,
+    "pct": 1.09,
+    "spark": [
+     24072.75,
+     24334.3
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Bank Nifty",
+    "g": "NIFTY_BANK:INDEXNSE",
+    "price": 58521.4,
+    "chg": 939.15,
+    "pct": 1.63,
+    "spark": [
+     57582.25,
+     58521.4
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Nifty IT",
+    "g": "NIFTY_IT:INDEXNSE",
+    "price": 29226.6,
+    "chg": 504,
+    "pct": 1.75,
+    "spark": [
+     28722.6,
+     29226.6
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "USD/INR",
+    "g": "USD-INR",
+    "price": 96.29,
+    "chg": -0.24,
+    "pct": -0.25,
+    "spark": [
+     96.53,
+     96.2855
+    ],
+    "fx": true,
+    "ok": true
+   },
+   {
+    "name": "Brent $",
+    "g": "BZW00:NYMEX",
+    "price": 83.04,
+    "chg": 2.27,
+    "pct": 2.81,
+    "spark": [
+     80.77,
+     83.04
+    ],
+    "fx": true,
+    "ok": true
+   },
+   {
+    "name": "Gold $",
+    "g": "GCW00:COMEX",
+    "price": 4023,
+    "chg": 30.9,
+    "pct": 0.77,
+    "spark": [
+     3992.1,
+     4023
+    ],
+    "fx": true,
+    "ok": true
+   },
+   {
+    "name": "Silver $",
+    "g": "SIW00:COMEX",
+    "price": 56.22,
+    "chg": 0.03,
+    "pct": 0.06,
+    "spark": [
+     56.19,
+     56.22
+    ],
+    "fx": true,
+    "ok": true
+   }
+  ],
+  "sectors": [
+   {
+    "name": "Auto",
+    "g": "NIFTY_AUTO:INDEXNSE",
+    "price": 27099.75,
+    "chg": 332.2,
+    "pct": 1.24,
+    "spark": [
+     26767.55,
+     27099.75
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Bank",
+    "g": "NIFTY_BANK:INDEXNSE",
+    "price": 58521.4,
+    "chg": 939.15,
+    "pct": 1.63,
+    "spark": [
+     57582.25,
+     58521.4
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "IT",
+    "g": "NIFTY_IT:INDEXNSE",
+    "price": 29226.6,
+    "chg": 504,
+    "pct": 1.75,
+    "spark": [
+     28722.6,
+     29226.6
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Pharma",
+    "g": "NIFTY_PHARMA:INDEXNSE",
+    "price": 25645,
+    "chg": -363.05,
+    "pct": -1.4,
+    "spark": [
+     26008.05,
+     25645
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "FMCG",
+    "g": "NIFTY_FMCG:INDEXNSE",
+    "price": 48748.7,
+    "chg": 340.7,
+    "pct": 0.7,
+    "spark": [
+     48408,
+     48748.7
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Energy",
+    "g": "NIFTY_ENERGY:INDEXNSE",
+    "price": 39277,
+    "chg": -68.8,
+    "pct": -0.17,
+    "spark": [
+     39345.8,
+     39277
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Metal",
+    "g": "NIFTY_METAL:INDEXNSE",
+    "price": 12436.95,
+    "chg": -58.95,
+    "pct": -0.47,
+    "spark": [
+     12495.9,
+     12436.95
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Realty",
+    "g": "NIFTY_REALTY:INDEXNSE",
+    "price": 918.7,
+    "chg": 12.55,
+    "pct": 1.38,
+    "spark": [
+     906.15,
+     918.7
+    ],
+    "fx": false,
+    "ok": true
+   }
+  ],
+  "global": [
+   {
+    "name": "Dow Jones",
+    "g": ".DJI:INDEXDJX",
+    "price": 52146.42,
+    "chg": -406.55,
+    "pct": -0.77,
+    "spark": [
+     52552.97,
+     52146.42
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Nasdaq",
+    "g": ".IXIC:INDEXNASDAQ",
+    "price": 25520.24,
+    "chg": -361.7,
+    "pct": -1.4,
+    "spark": [
+     25881.94,
+     25520.24
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "S&P 500",
+    "g": ".INX:INDEXSP",
+    "price": 7457.69,
+    "chg": -76.08,
+    "pct": -1.01,
+    "spark": [
+     7533.77,
+     7457.69
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Nikkei 225",
+    "g": "NI225:INDEXNIKKEI",
+    "price": 64141.12,
+    "chg": -2694.42,
+    "pct": -4.03,
+    "spark": [
+     66835.54,
+     64141.12
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Hang Seng",
+    "g": "HSI:INDEXHANGSENG",
+    "price": 24562.24,
+    "chg": -446.36,
+    "pct": -1.78,
+    "spark": [
+     25008.6,
+     24562.24
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "FTSE 100",
+    "g": "UKX:INDEXFTSE",
+    "price": 10600.37,
+    "chg": 28.13,
+    "pct": 0.27,
+    "spark": [
+     10572.24,
+     10600.37
+    ],
+    "fx": false,
+    "ok": true
+   }
+  ],
+  "vix": {
+   "name": "India VIX",
+   "g": "INDIA_VIX:INDEXNSE",
+   "price": 13.15,
+   "chg": 0.27,
+   "pct": 2.08,
+   "spark": [
+    12.88,
+    13.15
+   ],
+   "fx": false,
+   "ok": true
+  },
+  "etf": [
+   {
+    "name": "Nifty BeES",
+    "g": "NIFTYBEES:NSE",
+    "price": 276.6,
+    "chg": 2.61,
+    "pct": 0.95,
+    "spark": [
+     273.99,
+     276.6
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Bank BeES",
+    "g": "BANKBEES:NSE",
+    "price": 605.5,
+    "chg": 8.41,
+    "pct": 1.41,
+    "spark": [
+     597.09,
+     605.5
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Nifty Next 50",
+    "g": "JUNIORBEES:NSE",
+    "price": 775.98,
+    "chg": -1,
+    "pct": -0.13,
+    "spark": [
+     776.98,
+     775.98
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Gold BeES",
+    "g": "GOLDBEES:NSE",
+    "price": 115.83,
+    "chg": -0.64,
+    "pct": -0.55,
+    "spark": [
+     116.47,
+     115.83
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Silver BeES",
+    "g": "SILVERBEES:NSE",
+    "price": 205.2,
+    "chg": -1.64,
+    "pct": -0.79,
+    "spark": [
+     206.84,
+     205.2
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "Nasdaq 100",
+    "g": "MON100:NSE",
+    "price": 332.9,
+    "chg": -0.71,
+    "pct": -0.21,
+    "spark": [
+     333.61,
+     332.9
+    ],
+    "fx": false,
+    "ok": true
+   }
+  ],
+  "mf": [
+   {
+    "name": "UTI Nifty 50 Index",
+    "cat": "Index",
+    "ok": false
+   },
+   {
+    "name": "Parag Parikh Flexi Cap",
+    "cat": "Flexi Cap",
+    "ok": false
+   },
+   {
+    "name": "SBI Large Cap",
+    "cat": "Large Cap",
+    "nav": 105.19,
+    "pct": 0.71,
+    "date": "17-07-2026",
+    "ok": true
+   },
+   {
+    "name": "HDFC Mid Cap",
+    "cat": "Mid Cap",
+    "nav": 229.28,
+    "pct": -0.13,
+    "date": "17-07-2026",
+    "ok": true
+   },
+   {
+    "name": "Axis Small Cap",
+    "cat": "Small Cap",
+    "nav": 132.3,
+    "pct": -0.7,
+    "date": "17-07-2026",
+    "ok": true
+   },
+   {
+    "name": "Axis ELSS Tax Saver",
+    "cat": "ELSS · 80C",
+    "nav": 109.86,
+    "pct": 0.52,
+    "date": "17-07-2026",
+    "ok": true
+   }
+  ],
+  "watchlist": [
+   {
+    "name": "Reliance",
+    "g": "RELIANCE:NSE",
+    "price": 1328.8,
+    "chg": 32.2,
+    "pct": 2.48,
+    "spark": [
+     1296.6,
+     1328.8
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 22.3
+   },
+   {
+    "name": "TCS",
+    "g": "TCS:NSE",
+    "price": 2266,
+    "chg": 65,
+    "pct": 2.95,
+    "spark": [
+     2201,
+     2266
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 16.5
+   },
+   {
+    "name": "HDFC Bank",
+    "g": "HDFCBANK:NSE",
+    "price": 820.8,
+    "chg": 12.5,
+    "pct": 1.55,
+    "spark": [
+     808.3,
+     820.8
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 16.7
+   },
+   {
+    "name": "Infosys",
+    "g": "INFY:NSE",
+    "price": 1094.2,
+    "chg": 11.8,
+    "pct": 1.09,
+    "spark": [
+     1082.4,
+     1094.2
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 15.3
+   },
+   {
+    "name": "ICICI Bank",
+    "g": "ICICIBANK:NSE",
+    "price": 1454,
+    "chg": 35.8,
+    "pct": 2.52,
+    "spark": [
+     1418.2,
+     1454
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 19.4
+   },
+   {
+    "name": "SBI",
+    "g": "SBIN:NSE",
+    "price": 1043.2,
+    "chg": 12,
+    "pct": 1.16,
+    "spark": [
+     1031.2,
+     1043.2
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 11.4
+   },
+   {
+    "name": "Bharti Airtel",
+    "g": "BHARTIARTL:NSE",
+    "price": 1908,
+    "chg": -13.8,
+    "pct": -0.72,
+    "spark": [
+     1921.8,
+     1908
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 43
+   },
+   {
+    "name": "L&T",
+    "g": "LT:NSE",
+    "price": 3817.9,
+    "chg": 42.3,
+    "pct": 1.12,
+    "spark": [
+     3775.6,
+     3817.9
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 32.7
+   },
+   {
+    "name": "Tata Motors",
+    "g": "TMPV:NSE",
+    "price": 335.5,
+    "chg": 3.7,
+    "pct": 1.12,
+    "spark": [
+     331.8,
+     335.5
+    ],
+    "fx": false,
+    "ok": true
+   },
+   {
+    "name": "M&M",
+    "g": "M%26M:NSE",
+    "price": 3178.9,
+    "chg": 61.1,
+    "pct": 1.96,
+    "spark": [
+     3117.8,
+     3178.9
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 20.8
+   },
+   {
+    "name": "Maruti Suzuki",
+    "g": "MARUTI:NSE",
+    "price": 13824,
+    "chg": 41,
+    "pct": 0.3,
+    "spark": [
+     13783,
+     13824
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 29.6
+   },
+   {
+    "name": "ITC",
+    "g": "ITC:NSE",
+    "price": 280.5,
+    "chg": 1.15,
+    "pct": 0.41,
+    "spark": [
+     279.35,
+     280.5
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 17
+   },
+   {
+    "name": "HUL",
+    "g": "HINDUNILVR:NSE",
+    "price": 2140,
+    "chg": 41.6,
+    "pct": 1.98,
+    "spark": [
+     2098.4,
+     2140
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 47.3
+   },
+   {
+    "name": "Sun Pharma",
+    "g": "SUNPHARMA:NSE",
+    "price": 1934,
+    "chg": -16.1,
+    "pct": -0.83,
+    "spark": [
+     1950.1,
+     1934
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 41.8
+   },
+   {
+    "name": "Bajaj Finance",
+    "g": "BAJFINANCE:NSE",
+    "price": 1055.3,
+    "chg": 17.7,
+    "pct": 1.71,
+    "spark": [
+     1037.6,
+     1055.3
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 34.6
+   },
+   {
+    "name": "Adani Ent",
+    "g": "ADANIENT:NSE",
+    "price": 3155,
+    "chg": 3.6,
+    "pct": 0.11,
+    "spark": [
+     3151.4,
+     3155
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 42.4
+   }
+  ],
+  "gainers": [
+   {
+    "name": "TCS",
+    "g": "TCS:NSE",
+    "price": 2266,
+    "chg": 65,
+    "pct": 2.95,
+    "spark": [
+     2201,
+     2266
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 16.5
+   },
+   {
+    "name": "ICICI Bank",
+    "g": "ICICIBANK:NSE",
+    "price": 1454,
+    "chg": 35.8,
+    "pct": 2.52,
+    "spark": [
+     1418.2,
+     1454
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 19.4
+   },
+   {
+    "name": "Reliance",
+    "g": "RELIANCE:NSE",
+    "price": 1328.8,
+    "chg": 32.2,
+    "pct": 2.48,
+    "spark": [
+     1296.6,
+     1328.8
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 22.3
+   },
+   {
+    "name": "HUL",
+    "g": "HINDUNILVR:NSE",
+    "price": 2140,
+    "chg": 41.6,
+    "pct": 1.98,
+    "spark": [
+     2098.4,
+     2140
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 47.3
+   },
+   {
+    "name": "M&M",
+    "g": "M%26M:NSE",
+    "price": 3178.9,
+    "chg": 61.1,
+    "pct": 1.96,
+    "spark": [
+     3117.8,
+     3178.9
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 20.8
+   }
+  ],
+  "losers": [
+   {
+    "name": "Sun Pharma",
+    "g": "SUNPHARMA:NSE",
+    "price": 1934,
+    "chg": -16.1,
+    "pct": -0.83,
+    "spark": [
+     1950.1,
+     1934
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 41.8
+   },
+   {
+    "name": "Bharti Airtel",
+    "g": "BHARTIARTL:NSE",
+    "price": 1908,
+    "chg": -13.8,
+    "pct": -0.72,
+    "spark": [
+     1921.8,
+     1908
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 43
+   }
+  ],
+  "breadth": {
+   "up": 14,
+   "total": 16
+  },
+  "trending": false,
+  "ipo": [
+   {
+    "title": "Millworks Technologies IPO Date, Price, Allotment Details",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KaUxqN3p0VElWaXVBMzdtNk5GNmZUZl9seTMxN0kyRUdTMmFKMzR6NjBIQXktTWtsQU5XMDczZmozUFp0MmY2WXhKYUc2Sko4X3YxMnVqRGRDMUk?oc=5",
+    "src": "IPO Watch",
+    "at": "18 Jul, 13:37"
+   },
+   {
+    "title": "SBI Funds Management IPO GMP surges to 16% ahead of market debut",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2t5Wk93U3pwY0Y1cW81S1ctRkFEX0Yyc1AwZmJkYmlDekZab2R5MG0xbWpLQ241MEJtdHVlQW1xcnVfTlh2SHJ3dHZna3dIOFNGeGRmakxrRlBNUzFySjlma204Q3M3QXRhRDdFNU1LYjF0OTlQR19aRE5BRlJUVHAxSjByMEhUUTFPNExrVjNncVBCWVJZMlR4dHdqWXVLS0dvbENWOVZJeU1QeWxQQ0RzNS1Za01aTng1RmZn0gG-AUFVX3lxTFA3a3laT3dTenBjRjVxbzVLVy1GQURfRjJzUDBmYmRiaUN6RlpvZHkwbTFtaktDbjUwQm10dWVBbXFydV9OWHZIcnd0dmdrd0g4U0Z4ZGZqTGtGUE1TMXJKOWZrbThDczdBdGFEN0U1TUtiMXQ5OVBHX1pETkFGUlRUcDFKMHIwSFRRMU80TGtWM2dxUEJZUlkyVHh0d2pZdUtLR29sQ1Y5Vkl5TVB5bFBDRHM1LVlrTVpOeDVGZmc?oc=5",
+    "src": "Fortune India",
+    "at": "18 Jul, 10:47"
+   },
+   {
+    "title": "IPO calendar: 5 IPOs opening for subscription to keep investors busy; SBI Funds among 4 listings scheduled",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQakpqQkRNSThDY05vOWJKSTZWV0ItTmxOQWM4SWFVSVl4Wm4yaEtGN0xSdEo0MVpYM3pNYVFqWFJ0TXQ0U3Roekw4dXhOTC1aT0R3VjAwSm1UUk9CazJTcng1c01hOGZXbFdFRW1nc19qNE9XWmVaSzJGQ1JvdlNEMk5NcjMwRk9EMW0tZEx6TnE1ZGw3Zjduekx6dDMyUnY4MURKc3Rkc1hxYVJTYkM5dk41TFFoVEQ3akc4WTZkN2M0ZGxOU3lmbXFzcVhPaDRwdjE5VTVjNE50enpBSzRUOS1QcHFHTG1JQ3ZxanlidXpOTUU1cm1qcW5nbVNFNW55amwtWHVfc9IBjAJBVV95cUxNeHdkSzdlY2hFYy1VWm13UGljUGszLVNpaUI3Yk9kYnhadF8zOGxrUmw4Y3JZUTNaYVVrM1JnSm05RzQ2MjVmeUpYSEZHZUNhNnp5SGVhQmxuWlNpLVVZYW4tOC13UGlRaXVKWnh2OEQ2aFN4cHY0WEtCSFpyNGw2VlZMTUM0b19NUEo1bjJjOEZSRVc2TE9UcEpEWUlaanJadzBJM3FmM28tcUY0cHVrdkpXVGQxTDFydlBQOEFDYkk3RzQ2MWpiWi1NenlTcEVxTGlFckdUWVdXUHFsRGlNRTljdlZGdmh3aEczRGlRTE1IT2dWNkJCQm91c1BPMndTZXFYOTBaeWUyRk5G?oc=5",
+    "src": "The Economic Times",
+    "at": "18 Jul, 10:17"
+   },
+   {
+    "title": "SBI Funds IPO Allotment Status: How To Check Status On BSE, NSE & KFin Tech; Live GMP, Listing Date",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOa094eGpWMXpPdTBNUmVLWVZkLVkzSWJGRldLYlBZSFRSOVp4a2NsVTJnc3R3X3ZtOFFsTUZvQW9kUm53UjRxNFVDV0RkYzYzbWdSckRzZmFFVFRCRWMwX1NqdTJQUVl2U3M1VlV0Wm40elMyQS1kOG05LXZYcTQ3SVZ1S2JvV1lhb0NpMnRlUnJMQmxqVS1mdFNSWHR4TzY0OVV6UTB1NF9qUEFRQUN2M2pRaXkxdHZJb0JGV2pjOWpCTmhBa0VzLXZibFItaXc3ZGs0Q0I1elJIOTDSAeYBQVVfeXFMT1dISUo0YWVlTjRlWVRmZFdTaFVoVVJpSDlESFVVTXFKMXdORjZveEpXRjJlVGZVUkRGSTNoRlJabmVBdW1SdjJZeERlQTRLa1psLWRYTjlRWG4zYUpWbE1OZTB6N3gwTFhMQjhsT05fMjlmQmZrQnRlT2JUcVFkejNRcldYbW5veUlZOG9ZWUtIV0EybGdRLTZWUEllaDlOSlJBZE9XNUdaelEzem1PR3IzeTZQRkszdDdrZTZ6VjZSNW9CdEdtN0FYSVZEM0hDTlc0Z1E4a2pzZ2V0QnJfNDh2ZnRndWc?oc=5",
+    "src": "Goodreturns",
+    "at": "18 Jul, 13:38"
+   },
+   {
+    "title": "SBI Funds IPO closes 41.66x subscribed, GMP signals 16% gain",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWXpUcjNHUENaakZEQXpqc1NTVHJXNW5KUzJFYU85aXJkd1J2RDIxV0ZyakRsY2JhTm12RnQ4aUp1R0drOEZZdTMtV3RSWGNQeWdrZlFjeWJwXzN5S2lyTTNVZ3k5SEZLRVBDSlN1SmdfNFZ0TnF1QkFLOWkzMjFVZVV4anBmQjdKMmhiOTNwQXlpT01mc1FuY3JsaVlfbHZYcWFSa3FuU081bmhpcjZIc05TLUVLWmxVeUNqWGlsdVhOTmMyRlVra2g2eHdPQko1RGxueUwxZHpHOUlad1JxaG5pUW5wMFp0QXNPZWwtQ2RSdw?oc=5",
+    "src": "MSN",
+    "at": "18 Jul, 19:39",
+    "f": {
+     "sub": "41.66x subscribed"
+    }
+   },
+   {
+    "title": "Millworks Technologies IPO Allotment Out: Check Your Status, GMP, Listing Price Prediction",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNenJmd05vRFNSRXVqcG1WVmJWckZpN1dEczZ3bVY0emVFM0NCeGtCTFNjZUZBTFBvVE44RXRTWENuamlfbnJ6SHpxZkhYaEJIVGc5RmJQMmtwdEx0X2xDaC02b0d0XzNvdVFvdkoxYWQ4dnBPeEswd3IzdzRGRW45RWFrZk9mRnpBVi10RllHeXRnQjFpZEVDbVduRXhYOWJPN29vTDY0elYtVVdybjBjUlFyYUwxN3RyaDF0SjdhU2o2NU5kY29QWnc5NFZEYVFYRlRoendHcWd0TUppeWVhYWFhMDJfQdIB5gFBVV95cUxNenJmd05vRFNSRXVqcG1WVmJWckZpN1dEczZ3bVY0emVFM0NCeGtCTFNjZUZBTFBvVE44RXRTWENuamlfbnJ6SHpxZkhYaEJIVGc5RmJQMmtwdEx0X2xDaC02b0d0XzNvdVFvdkoxYWQ4dnBPeEswd3IzdzRGRW45RWFrZk9mRnpBVi10RllHeXRnQjFpZEVDbVduRXhYOWJPN29vTDY0elYtVVdybjBjUlFyYUwxN3RyaDF0SjdhU2o2NU5kY29QWnc5NFZEYVFYRlRoendHcWd0TUppeWVhYWFhMDJfQQ?oc=5",
+    "src": "News18",
+    "at": "18 Jul, 10:45"
+   },
+   {
+    "title": "Metalic Technoforge IPO Date, Price Band, GMP, Subscription & Allotment",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWRkk0YjN3R1ByVXhaamZZakU0eVhROFdEeVJVemJTdENuZ2lZc3psbVhXRDd4OEw5TGZ5SDgyaVliT0lDN1VZd2dnLXlldTBmMkY2ZnUtZzJaQWdURk8zZWVSRjF3bGhL?oc=5",
+    "src": "India IPO",
+    "at": "17 Jul, 17:33"
+   },
+   {
+    "title": "SBI Funds Management IPO Allotment Date: Check Status, GMP And Listing Timeline",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd1dnWHd2bE9RVHZEVURZTnNhY3ByTTBmbTVyZHp2WGZVOW92MlQ3YTMwMjlxalNKSVYzeE5GeVRuTWM4MTlKcEVzMldqNk1XS0NrN0I3cUtyUVhBc3VpYkVLZE1Hdi03MmxFbk5YMFBKWTFkbEY1VWFRR242VXp2VDEydVo5VzNyYzZxbFJjMXlDWmNwLTdpX0ItZ01rdElEM2dMLVZaMnhidUZleHZYbmYzRURkSk1H0gHGAUFVX3lxTE5JdnBwNkdjNmhDRXJuVS1vREtJWWZ4VWVUNXRvcnhJd1Z5ZEFuNEVGajZpWEhCcERYU3VUbkVHcFNZMDF4LThQYS1fOFkwSXo4RjdfbVZmbnVhbDhvYmYxdS1HS003Ri0wN2lxZmY2dnFodGp2ZHdBNUZiekNLZE5Wby0xVWtEOEpMMjZoSzAyWVdxdDd6SmZhRzBCdmRhemM2Nm14QVNkZ1ZmaE10OXVHdXhReUpkMU01N3dzZ3hqWTdLVlRqZw?oc=5",
+    "src": "outlookbusiness.com",
+    "at": "17 Jul, 14:55"
+   },
+   {
+    "title": "Xtranet Technologies announces IPO dates for launch next week. Check details",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYVl5NWlEMy0zRk8zRktIM1lMa0xkeWdFblBENUVVZzdrTmxNU2poeXNKTzZaWW9VR19MenZpX2l2NURuOW02bG1lVFFZSklJMUZjSHdXVHhWbHJOdGtjLWIxRFl5amtxTS1qd3Z1bzhubTFwS24wbE0xSkkyby02NzdRS21CWDNVSVRkQmpkc09GNzlqMGpncm1rY3M3TzZIY2tzQl9QVElUMWhKQ2FzZnNRano3X3BpM0VfZXJGUDgyU0ROaDRpckNOVUVuVVFmMjViS18tYXVuM0JxWDZ6NtIB5gFBVV95cUxQMGxhOUpuZ1FqdmdDczE0dUNxVW54LWpzSk5CWjRsbll0Sm5pZExzYVNmbXcwNUIweVNiT2gzRkdtOURLQk9xelNjbHNJYlFrd0tHT2ZDcVpoczM4dDNiWEg5YVlnQlhma0NiVDV6RU81RG5iSWtvT2RGRWFTNnFKQnV0azcyVWN3eUMxaVNDWm1yRnRMdzl6NWJXZXFUS3JLNFlTOFJyMElkOEFQa2g1clhFWjExeGdyRkp5Q0N2VjhZVWhjdlA0QVNKWmVUWUFXZUVkQURwQV93NUdodUtVbzFkeV8tQQ?oc=5",
+    "src": "The Economic Times",
+    "at": "18 Jul, 10:44"
+   },
+   {
+    "title": "Indo-MIM IPO GMP, Price, Allotment, Profit Estimate 2026",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55TEYwUHlYaUIxTFJNYnFfNTU1aVZEM05hV0I3V055d2ROYW5TZTlDVnRKZEUzamtTXzJzTWZpMjBPTGdmdG1zS1V0dUR3VXg1NFVTYlNfMmV6U3pSckdjVVJYbHFMcmsyemc?oc=5",
+    "src": "IPO Central",
+    "at": "18 Jul, 12:28"
+   }
+  ],
+  "insights": [
+   "Breadth: 14/16 stocks up — broadly bullish today",
+   "Top mover: TCS +2.95%",
+   "Weakest: Sun Pharma -0.83%",
+   "Hot sector: IT +1.75% · Cold: Pharma -1.4%",
+   "5/8 sectors green today",
+   "Nifty 50 up 1.09% — bullish session",
+   "Rich valuations: HUL P/E 47.3",
+   "India VIX 13.15 — moderate volatility",
+   "Global cues: FTSE 100 +0.27%, Nikkei 225 -4.03%"
+  ],
+  "context": [
+   "Broad buying today — most large-caps rose. Broad-based rallies are generally healthier than a narrow one led by 1–2 heavyweights.",
+   "Money rotated into IT and out of Pharma. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
+   "India VIX is low (13.15) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+  ]
+ },
+ "news": [
+  {
+   "tag": "Business",
+   "title": "Reliance Industries Q1 earnings: Net profit falls 22% to ₹20,946 crore; EBITDA rises 11%",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWDJRSU1jUVBOQjIxYWxLRzJaR2FqalZjcUlkaEZaVmRjRFA4bVZUWlZzNHRJcmR3RFdRN0c4djlRSnFzWVBqUkhxNlI0MXZhM2Y4bzZJODVZMGlfMzVNRE5BbXc1SWtYVy0wQWx5T2tucTIyaG9KcTRySktFcEkxd1RRUlpTNURhNTk3Q2JoNk5UTGNtTFJqNDZqQ3Z3eXozZEhobXBmVXFPM2Joc3VmaXY5aldnbTQwZ2pTZ21MRXhQLUlFNlhTeDJrS1pvSGlZSWVuMUJ2MEFqZnRT?oc=5",
+   "src": "Upstox",
+   "at": "18 Jul, 19:34"
+  },
+  {
+   "tag": "Share Market",
+   "title": "Weekly market wrap: NIFTY50, SENSEX rise 1%; NIFTY IT jumps over 4%; check top gainers and losers",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMzhvdWtoRi0tM01zNEJiU3RBUjR2em83eXU0YkNPbjVhOVVtMmRvcnJ3T0FnZFlmV2hiN091YkpkMHVQMjJBd3BMa2VqVWdxUUhpNXRnbGVyZ0NVT0hDXzNNanFLQm9kang0emFJSzduU0ZtdGZudlBpU2pwLWxZUEtlTW00WE9HWnZrSjZialBES3VmcjRJSWNFNHFpMjdnRFh3eTBkek5MRko3dUxXeFhPQy1BcmM5Rnpob2FUQThZMlBCM1pTSVIwVlVwUTBMVWM0U0l5ZGNDYnZSa0llRkpRczRSUQ?oc=5",
+   "src": "Upstox",
+   "at": "18 Jul, 12:42"
+  },
+  {
+   "tag": "Share Market",
+   "title": "Sensex ends nearly 1,000 points up: 3 reasons why stock market jumped today",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSkEtaWhKU1dqTTR4OFppUEp2b1RPXzFlTWxrNWo5ZXA1OGZDY0ZOUkNmXzIyVjg1ZnJSYW5fTl9HakVkQ21yV0lDclRMUUVERWhlcS1XZDdkYWk5UmthdEduNFAzNTNxOVB2R05zQy1Xdl9xenVmQWJQT2l0SzRULTZULVpZbm1EdWxDcFBidkN2OFk3eUtyUFFqWk9tZDUzcVVVcDRNME9uelRXVUxYODQ1Uk04Q0hGczhuTU1oTS1ZT1J5eC13dmZmd3hHOWRTRkZ5NXk0eXNBZ0Vra2RyRk41UW5VVXJjTi1Hdi1IM25jTmo5UVYySdIB_gFBVV95cUxOcjlQMGc2cklBY21tTUU3VVBweDBwNFlyYTdyRTlCNUVpMzBqRGhWeEFmTXZhamc5VFZ3cFA2b01MMkFwY3NwdHN3dEVINk82ZUtZZ1hrQTZac0liQWZRNGpIVGFQTVlGSFh3eS03U3lKbDJJWjZyOGhUQTBEVV9YclgtT0dZYXNzbzI2dUpQcGNrbk5YQ19KTk1jOXVmOUxfUXhfejlKQlUxVkxKUXRWbmk5MXZLdjU4UmZKSmpCa3U0aVVGU1ZiSHJGaU82TmJFeGJOa2xRcEFvVFhLemVkdXM1ejZSNFlhMjRQNWtJd05oQ0J6RnpVSmQ3dmdRdw?oc=5",
+   "src": "India Today",
+   "at": "17 Jul, 15:26"
+  },
+  {
+   "tag": "Sports",
+   "title": "Spain captain Rodri says team must raise level vs. Argentina",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZFVDS1k1V2YxbmRQZXRXdElUc1Byb0FyM1BhR1U1dGVISGFYRTdkWjc3anZQRnhFc20tWExUVWU5bFN4TVJQdWc3SThPUWFDR1ZORVFPYnU5RjlQWVh3MF9HRUlwUExqRDZrdkh2UE9BcjlRNkpjNTg2cElKaWVST3dmVlNvdjZucUhZMkhKZnV2VlVm?oc=5",
+   "src": "espn.in",
+   "at": "18 Jul, 06:14"
+  },
+  {
+   "tag": "Tech",
+   "title": "Oppo cuts OnePlus from North America and Europe, and Realme from China",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXhmQVEwTVpTcnNmdXM5cXRnTTh0d3A5OGpPWndtalpnUVFoX05FTkRiMUFFUTB3OFlXRDdTdC1WSUt0aThFazBmNXJWUl9qVWRvSDZKcnY4MngzYTVRZDZ3eTVUMWRPSnhhWnpfUVlpWjJSWDg2MDVoTEduRDFsYWJDX1pvWDdOSjM4N0xmTDRSZUVibXc?oc=5",
+   "src": "digitimes",
+   "at": "17 Jul, 13:11"
+  },
+  {
+   "tag": "AI",
+   "title": "Nobel Laureates sign Rome Declaration on Nuclear Weapons and AI",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUWlNempPcFlwelVwU2lCdVpJVi1lNTllb3VqbVl1eDZZcGtQSTlTdTllSndDSXV5SkNhaGVXVTB6eGpuNTFGSUpBd0NYYUZCa09lbGN4UWJWUUtfRml3N0sxTjZoYW9YaDZkZGVPWkVMcXM2dVRDRUduS0lsM3N5bGJwSzFlTVM0WDZJdGtHSWRwQng3SXNzbWFhMGY4SEl4RThvdWVoanNFZVVmbFBEMFJsLTM?oc=5",
+   "src": "Vatican News",
+   "at": "18 Jul, 10:30"
+  },
+  {
+   "tag": "AI",
+   "title": "Artificial intelligence for supply chain advantage",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUHZzZHByNndlWFlhWlFYck5QNWNhZU52MTF4VENkR19NTHFYNVlDSFJQYnlOOWdoS3ZnYW5qRVpDZVZvU2d5MEtwcHFCc2hnVG5ueUJNaFJNdFV0QmFhVVNDWTN6NVlSY241MHFIam00ZktzanFwNTRnZk9zZGMzbGRZSmpxUkwzcjBtWm5rQ3MxamJ0VmRkVHZn?oc=5",
+   "src": "Today's Medical Developments",
+   "at": "18 Jul, 10:30"
+  },
+  {
+   "tag": "Economy",
+   "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9%",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
+   "src": "News On AIR",
+   "at": "18 Jul, 13:14"
+  },
+  {
+   "tag": "Politics",
+   "title": "Delimitation not just an INDIA bloc issue, concerns our Constitutional framework’ says Congress’ K.C. Venugopal",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONVRRQjk4cWViamo5WFprVjB6Q1dQVk5CY2xWYmM3bFEwd3RfU1FKV0lISFdzWFBvUlFZb0pSRE9HRC1RSmdmNFM3WlpzY2FfR0RIdTAycHBHSjIwVnF0cU13UHBQLWp5QnExMEtTeU5IY0lpUzhpSTg4NU5qQ2FpbzdCUzA2SGN6MDc2eThoSUFYZmZab2NSNzZxQzFfN1UybFdCMzdpc3ZPbHI1Sklid0RpemZTZzNlWjJrN2RZS2pLUkt0eWNiQ2dfclNvU2lkaEg0Z2FoYTZ3MEtDVk5uRmNodEE1UDI2bG03XzhXQkhudlBSZk5rdtIB_wFBVV95cUxPeDVON0JscG5nTXFFSC1GdGgtakRsTExtUlJQeEo2RlZkTzZENG1XbWFOSWhNYnFSdTNHemZ3dUpHZG9EdjExME1ZdGZyaGxDckZNX2ZkU05nODNSZ2d1SHlQaXVWWXl2QWhQOExnVHlIRUZ1dU55Nmg0eTIwbHJmU0NURy10RTVCcndsNFNoRy1LTE5QZ25CQXhHOWlDd1dIRkVVcFNNa21WdTVTNkRTTHNnNWc4bzYyVEZrMTNJNTNrblNoU1BRaWlza2lXNDRVcVQ0bEcxdXBMRzZ4WnNQczNjUG5hZlN6aVNqdzlnRTNhcGNqakxveDFXMGI1S2s?oc=5",
+   "src": "The Hindu",
+   "at": "18 Jul, 14:33"
+  },
+  {
+   "tag": "Jobs",
+   "title": "Iran War Hits Dubai Jobs, Indian Workers Face Layoffs And Pay Cuts",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdlFiNU10YzdSOGNBSnZLbzhWQmdNRkplXzlzZ2dEQ2JZQ1VKSEN3T0x0eEF3d1hIQ2lGUVBXVjRxeExHaHVNT3c2OUVScDItZ2x6N3BoS201dDhwN3BRQW85U0UxZ3pXd09uam1YUE1iLVhXYThtU1h1anRnTjJ6MGlYNGJQM290T3ViS1U2WEtuNk9adnVWOExjOHZ5WUd4Ynp6Z0tUOVFFMm1h0gG6AUFVX3lxTE8xS3ZqWEpaSFdUUnhVVVpIUFRHeDBncVBSLTVWOEdNTkZ6TVdhb1dTMGcwVXd3aGVSR2pPZ2VqVGVFekhTRVcxMDROMGlsd0JpS2JMT2kxOXFCNE5PQ09oS0k3YWFWZ3otenJsVWdRNHNGSk5HSFBGc3NGV3VJSTR5dllnOG9PZHV3ZjM4RG1RaDd4QTRFMEdjc2JzelE4dm9tbTh0ZHdNZ2lBNWR3ZU1YODRrTVVTeEhSdw?oc=5",
+   "src": "Outlook India",
+   "at": "18 Jul, 12:55"
+  },
+  {
+   "tag": "Crime",
+   "title": "Real-time information exchange mechanism needed in cyber crimes: MP HC | SCC Times",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRXJ5dE0zT1FQLWNQWWFVN0szMkttRVljeTNNbDFtVlNvcU1WRVU1dU8xczdJX3ZqcVgweGMzMThDOUxNc0F1cUVITzlzdkVLZGNKNk9sN2VCVm5GM3NrdG51V1AtcDVkamJpQjhtNUYyZ2F5eTV3ZzJFdTdkX2NRV25pX01WREZhLWJSLVNUTWkyZjQ4dWU5R1FlLXFJS1hJS0h0RF9TY0VfV0lMaV9Ya0ZDR05lWXlL?oc=5",
+   "src": "SCC Online",
+   "at": "18 Jul, 12:00"
+  },
+  {
+   "tag": "World",
+   "title": "West Asia war LIVE: Iran claims strikes on U.S. targets in Kuwait, Jordan",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQQ1hWa1VOQ05Kb0gyNnRDXzVUYWo2WnVYUm1vLVVrQXNraTVWRFByUTJzekhxdmpkSlJ2bmlCY2FyeDl6aVpyY0FlRzE3aU1fZnRiQ3EwZWg3aFN0TDZ6WWpNVnUxNV9DM1lyU3ZTQ2toVTN4b1VydzNyak9kaUZsbzMwZlRvWFNOZklwQ0xaU0FGSll2cmFmNWxZUWVxWHB2MjNQYkxwd2s0eko3SGFSZXhSTFNQTEFPczdXaTV6TlJBUVowako3UmJDWVl2b0o4cmxreGhXSXBpN21IcDJtbEJHYS1JOXlha1NqRUhNSkdRMk1JRVMtd1diVdIBggJBVV95cUxNeFJEZ2NyQmFhcTZYQ25nZkgxYkt4VE0tU0tJclMwYlZTQWZKVUxhQ2hGa190aGNOU3VTY19lTFQ5Q1JQcTgtb0RfMk1vRTU5dEtQRXduVmpSdnI1SG5NT0o2ZEpHNXlaS2JYNUs0dVplSWhhOG9nNWttUEhnMHctTnQ4OXZENk93QnJyWk5TOHE3RV9id2JSOEtqeFhWaW5rcDJacUVvM05BaEhiMHR1MXBodjUxYU9kcndtZmVPSHY1Ym00MlZDc000UnAwNFhHLVN3aEtLbzFzYm5jZTdWeWVWZGwteXBya2xiMUxHVUlXY0lsSnB0WkV5d1V2clBLT3c?oc=5",
+   "src": "The Hindu",
+   "at": "18 Jul, 11:13"
+  },
+  {
+   "tag": "For You",
+   "title": "Exavalu Expands Global Delivery Engine in India with New Kolkata Facility",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2wzVEFrVThrVEU4RktBWjdhaU90MGlwX3BBUHNHMXdiQU1vYXA2S2FDWUJDR0tTeGtVVjlYR3RwdTh5RFZibkktZzhoN0JhUjNGR3YtTmRIX0dzY3N2SXNVcjFVRW1ndG96bmhSSlhBOWxRSFpFdFlLWEV1WXkwS2EybWF6VC1yajh5X1JDWVpDWkl1eWhQNGtrOS1OZXpmbGJTYW4wazMtUFJvZEoyM1JnQnA1UkVVN0wzZ2ctNzNGZw?oc=5",
+   "src": "ANI News",
+   "at": "18 Jul, 10:03"
+  }
+ ],
+ "browse": [
+  {
+   "tag": "Business",
+   "items": [
+    {
+     "title": "Reliance Industries Q1 earnings: Net profit falls 22% to ₹20,946 crore; EBITDA rises 11%",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWDJRSU1jUVBOQjIxYWxLRzJaR2FqalZjcUlkaEZaVmRjRFA4bVZUWlZzNHRJcmR3RFdRN0c4djlRSnFzWVBqUkhxNlI0MXZhM2Y4bzZJODVZMGlfMzVNRE5BbXc1SWtYVy0wQWx5T2tucTIyaG9KcTRySktFcEkxd1RRUlpTNURhNTk3Q2JoNk5UTGNtTFJqNDZqQ3Z3eXozZEhobXBmVXFPM2Joc3VmaXY5aldnbTQwZ2pTZ21MRXhQLUlFNlhTeDJrS1pvSGlZSWVuMUJ2MEFqZnRT?oc=5",
+     "src": "Upstox",
+     "at": "18 Jul, 19:34"
+    },
+    {
+     "title": "Axis Bank Q1 profit rises 23% to Rs 7,114 crore; NII grows 8%, asset quality improves",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORWl6R0JMMkY4WUpSbzhoRjM4cnlVeGdKWS02a0ZIbFhXaHc3LTBGWTNDcXRqZlctMDhsSGs5SU9yOWdnRGRVenBEMkNJS0NoZld6al9iUnRTX0N5VVBmMlNiR2Frc3NacHJTaDNLRnBVV0s5QzBEZ0NqQkFYWTRHSTNSWnBHQldhVDVOVkFNcDgtR0M4QnB4YWV3ZFFYejBxMnJPci1IRmxjTEI0LXRrMENaSmpDQkNZYTFHcTZONTIwdGFjcE9CY2dsdG9tQjRpYlBvSDBjbmxZWDBvSkRFYdIB5gFBVV95cUxOT0J0MTNqem9jM1BUOWRWbmloMlJpc19OOHFORk9hN1R6YXlTb0J4c2d5dDNqRXdTcDdfMnZLUHpBT0QzS0FhRDE1bGJXWHljWE9RY09zMmJRNlM1Z3JwVUxpNGMzV1QtNzktNDJlRUdXUGt3d3lOb1ZoOEh0R0x5ajUyV0tIbmtXekRvbWY4LTUwUzNtQlRVVzBjeEdIZVZuRV9HRHFzOTBLdkhCeXVRWWcxb1NpUU00bHA4RmJBMzkyczJkam1Kc2pNUURjQVFlc0FpTm44dHZqQ2IwbGdWNWVRNjc5QQ?oc=5",
+     "src": "Moneycontrol.com",
+     "at": "18 Jul, 12:00"
+    },
+    {
+     "title": "Apple regains top spot as world’s most valuable company",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM2ttMFRUekdHdWRSYzZRM0lvd2ZiYUhHMmhLNmctSzFZOG5hTEtWUnMxRTZIVks4bnIyY3Fpd0pKN2dBZ0tOT25LNUU1RGtyZkJHNVdHYU42dzJCLU00MWhNbTVJNE0xZ3ZneE5BVm81UGdKb2s1WDNra1Q5TW41c3RGeFhub2dXSlVKcm13Zk5HQnBJMEFzUlZETGdEb2_SAaQBQVVfeXFMTWNtUGhJQklCVUlJMUhPbGxOUzNGa3ZQUzFMRjZ2QXNRYjR2MXBFNFcyN0NVdjlJSlpWaEhWQTNxUnRDQ1dUT19RUjE1R2hkdjZiQ3F5ZjB3WEZ1ZVQxNzdkcDdObFAzd3dxVTlYVTREbkJoTTZfWjllN3lmcmVQSUhjUEgzWGl5UGc1SG8wQnI5cDUxMWZ6VGd3dG9aTTVRUm1HQ3I?oc=5",
+     "src": "Al Jazeera",
+     "at": "18 Jul, 22:28"
+    },
+    {
+     "title": "Consumer panel fines SpiceJet for ‘deploying dark patterns on its booking platform’",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZDNneGd6YWxER2phYUMtZkpQbGtvYWpwSXhITXNicEF4UG5oZVZvTG9NY3VYeDBJOFZjWjc4OGRCQkNfRG9uMEFWcVE5bks5dXZpczlHYlQwZlFzR0E5NlFTQk9LdTR4TWtnVmFCUUNCXzZZX3UzSG43ZUZVSVJhZFFLYjR1d1g4WXhUYzJyRDdIM04xRTBWLUREVWFJRWZZSzNVUjhQV1pCTkllbXVYTDdvbk5xQVRDT0NjOWFtSHlWSXFwbzFGWXl4dE5LZ3pHQU5YR2JaMlpIcDlhMUluQjlCUC03S29aODU2dldJaHFWR3N5ZDF6b3VySdIBgAJBVV95cUxQQ0hLQVNpeHJmbXRDeHltM0o5VkVIMHF5Wkp3ZlFRSTNXTW9ueXllMzBxay1zaFNGSTFlY1hJQmZjNGg4Tm81ZFNGQnVhbm5hb1Q1dkFNbGF0b2hFZC1peUpvNmxudmJLN2gwNlpZMHJReG05Sl92cU1kczRvQWpsRDVpcjAwWUYtejlZMUd6V0UzeVE2Vk5qRTBRNmp0cW04N2t2QTd3RXExWDVjTVVtX1l1ZVRPWXBnYXhpQjJmNVBNN0hMNE1Gd2VYcGhzTnpQNGxHVlpsTXFiZDBTRjdQWjJ4Vl9Dc0RBMms3bGlDS3Y3b1RIR1U3QTZ5UVo0MGpm?oc=5",
+     "src": "The Times of India",
+     "at": "18 Jul, 19:14"
+    },
+    {
+     "title": "Stock Market Highlights, Sensex Today: Sensex Closes 964 Points Higher, Tech Stocks Rally",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT203ZjIyMUNrSFY2Q2U4VkQ5YUVNT0k3RzhlYkZ0Ul85YzF6Q3BiWlNTMXhtQ2NNWVJ2dlJGbjVFcFBwYy1wX1dFWGFERkpaQjBXaXpjVFd4S3J2b181ZVQxOXh3WEh6VUh6WVIwWXBRVF9paW5pbm0wSDBxbUo1WDJXcmx3RE9XT0FSdjJMOU5SOUZWY0ZZNEpNMW9kcGtIcm5oV1hxTV9HSVozN1psRVdLdXAtelI5Y3NRLW5qU1hiTFVKUGhWUU1XQTPSAdQBQVVfeXFMTU1wTjlEdDlZMVQ5dGhQaWpnbFgyQjAzQXlsQ3docFhQSkhISlJ4WTRDbnJWMnJJdjVESC1uMVJtRm1MakI1aWxoX240aHdBLW03MEZsYXdLaGVVS0VCSkJIaUlJd1BidVZvMEhkcVk5V2NkVW50eVpnYTNIVXIwS1BXb2JPaWE4TG5XYmZjbldYY0lwLXFMOGtoemdQUDd4Um13Z2N3WVZKT1JqRDAwdXV3Ri1vWHBERmlLaXMteXRnWDVjV0JmRGRhZEVKZTlvYTB6ZGY?oc=5",
+     "src": "NDTV",
+     "at": "17 Jul, 15:35"
+    },
+    {
+     "title": "JSW Steel Q1 Results: Profit Plunges Nearly 72%, Revenue Falls; Margins Expand",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc19GTmstalIwSkNtUTk2VXJPT09tcUtIX0hVallLV1VLNEFkcXZwalExWi1iY1NXYURsOVBhYkt5cVA2MGowamU1TTdjSVhsWVgxdGdLYk1TZ0U5YXFJZTFvYVJ4M0RTSjkzUmlWTUxQcl8xWGpFUWtrRURJUzBFS3RfLUV6UlpCN0c5YUF1RnJveG1kb1ZjU2dJM1lDcUhaU2NfbDlyMV8tSTd5RzF6S3pMTTZ2M01xNDBkQWE3Rk3SAcgBQVVfeXFMTmUtXzQ1eWMydGpWOHgxSjhCY1lZRzRaSC1xOFQ1YU42aHZubUpieFA5NGpRVjVCUUxXT1NrbWNkaVlYUWtUQjhnLU85Y2pha3M2M2czR3B4U0tySWZTRGE3ank3WGZWQi1lWmsxak5iTkhZbmNCUF9SV0tUTUM5bGw1dzJvSGRLdW95cUpBOGZTRmJISUhpUnNBLVdkTVVxb2w4bFBvbEZXUTMzNFJ6VjdBTVkwVm5QVnlfQlVmVjZrWG9VNFNTVTA?oc=5",
+     "src": "NDTV Profit",
+     "at": "17 Jul, 15:00"
+    }
+   ]
+  },
+  {
+   "tag": "Share Market",
+   "items": [
+    {
+     "title": "Weekly market wrap: NIFTY50, SENSEX rise 1%; NIFTY IT jumps over 4%; check top gainers and losers",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMzhvdWtoRi0tM01zNEJiU3RBUjR2em83eXU0YkNPbjVhOVVtMmRvcnJ3T0FnZFlmV2hiN091YkpkMHVQMjJBd3BMa2VqVWdxUUhpNXRnbGVyZ0NVT0hDXzNNanFLQm9kang0emFJSzduU0ZtdGZudlBpU2pwLWxZUEtlTW00WE9HWnZrSjZialBES3VmcjRJSWNFNHFpMjdnRFh3eTBkek5MRko3dUxXeFhPQy1BcmM5Rnpob2FUQThZMlBCM1pTSVIwVlVwUTBMVWM0U0l5ZGNDYnZSa0llRkpRczRSUQ?oc=5",
+     "src": "Upstox",
+     "at": "18 Jul, 12:42"
+    },
+    {
+     "title": "Sensex ends nearly 1,000 points up: 3 reasons why stock market jumped today",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSkEtaWhKU1dqTTR4OFppUEp2b1RPXzFlTWxrNWo5ZXA1OGZDY0ZOUkNmXzIyVjg1ZnJSYW5fTl9HakVkQ21yV0lDclRMUUVERWhlcS1XZDdkYWk5UmthdEduNFAzNTNxOVB2R05zQy1Xdl9xenVmQWJQT2l0SzRULTZULVpZbm1EdWxDcFBidkN2OFk3eUtyUFFqWk9tZDUzcVVVcDRNME9uelRXVUxYODQ1Uk04Q0hGczhuTU1oTS1ZT1J5eC13dmZmd3hHOWRTRkZ5NXk0eXNBZ0Vra2RyRk41UW5VVXJjTi1Hdi1IM25jTmo5UVYySdIB_gFBVV95cUxOcjlQMGc2cklBY21tTUU3VVBweDBwNFlyYTdyRTlCNUVpMzBqRGhWeEFmTXZhamc5VFZ3cFA2b01MMkFwY3NwdHN3dEVINk82ZUtZZ1hrQTZac0liQWZRNGpIVGFQTVlGSFh3eS03U3lKbDJJWjZyOGhUQTBEVV9YclgtT0dZYXNzbzI2dUpQcGNrbk5YQ19KTk1jOXVmOUxfUXhfejlKQlUxVkxKUXRWbmk5MXZLdjU4UmZKSmpCa3U0aVVGU1ZiSHJGaU82TmJFeGJOa2xRcEFvVFhLemVkdXM1ejZSNFlhMjRQNWtJd05oQ0J6RnpVSmQ3dmdRdw?oc=5",
+     "src": "India Today",
+     "at": "17 Jul, 15:26"
+    },
+    {
+     "title": "Sensex, Nifty surged nearly 4% following announcement of ceasefire agreement between Washington and Tehran",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVZNa0dvVmRZbGMwalItYmxmSzh4Q1d2NUZUWDlfWTloTjgyRzk2YjBYclMycDhOWE5PR3lBWG1mbXUxaUd3eHgzTF9XMjlqcEdWZU9qN3oyTXVJWThuM3I5ZVNibk9YaVM0bHFOY3RfV0t2Z2ZoZzlKR3NLbFVma2dtcTgwd00t?oc=5",
+     "src": "News On AIR",
+     "at": "17 Jul, 14:46"
+    },
+    {
+     "title": "Stock Market Crash Today: Nifty Below 24,000, Sensex Tumbles 770 Points; Know Why Market is Falling?",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRzBPOS01UFRINHRsbm1MWlR3ek4zQlVrLTdla3V4azFMRFhnY01fOEtoRURaamxBREJ1LW81WmpWZjh1d2RHeEQwR0YxbnhXTFhodG4yMk1zR1M4bGlHTXpwTEVmcmFadEVaV3RpN2VUMHNZcmFiZ2VSNkNoWGU5ZVBIdUJNeFoyTFdaUnFOZzdMU1VuXzc2ZGh0R1NFRXdWaXdFMFhIRkFWQTZEYjhXcVYtUDlQODE1aEV6OExjV0pvUURaQ2VPTWhDYVFIcndBNzFNc2Jodw?oc=5",
+     "src": "Goodreturns",
+     "at": "18 Jul, 23:50"
+    },
+    {
+     "title": "Stock markets surge on buying in blue-chips; Sensex jumps 965 points",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV2x5aWZJcTJPeXR2c20xSW9SbmwxSThDakxDYnVnakFKV1JRX1FjQzRSek9RVVpYUFhxRjk2QVBxTHZ5a2lKQWp6MUJqYzNPNmVGQ1c4a3lOMmxzV1MwX283bklnRVNmQVN0cFRScXB5MHlTVFp2N1JVTVhJRFFSZnd2bHV2QkxodkVBTHNCTkJKTjNBaUxNZGk1bnBHNi1QWTVHd29nUTRiRTk2TXNIdE14UENEN2pweVpxYXNhYVRZNk11dVdETdIBzwFBVV95cUxOZGJDTVZvajQxaTdtX3JWYzVhcFdVRGJzclFyOHlBcy12dGc3bndwNXByR01Hd2RtYUROblZTdk9SOXhEVGlJQm5qUEhnYXl5WTAxT0VtVkp5RnFhVVo2REpYaHhmRy1wV2dVX1BxU21Mcm5zZk43WGluTUpEOS1lc0x6YVA5dkdJaWJMZ2Nsam5pS3BXQTdxc3czVDE2QXBlOThaV2dCSThZVXA3Qm1xZ2E4R3BuMFQ2MUhsc211STFWMXUtOHZDQ2gxWTBtZTQ?oc=5",
+     "src": "The Hindu",
+     "at": "17 Jul, 17:21"
+    },
+    {
+     "title": "Markets log best day in over a month on Reliance, HDFC Bank gains",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNG9RaFJtOEtqbGJsbGNmUU9FTGZmcEh6YzZrcm8zWGs3MmRiVGJuSFJjWVBvMDlzRENIODE2YmRMYy1DdkxCeUM2NC0ydUQ4dXFsV1JmYnlfNW9jZHZtaHJqWEhIU1BnUFNFYjZmQTh2bTZQNFNhZTdEemd2eXFmamRMblctdHlDcHo2eGpNblpUWHJzZzZLdHQwQ0xjQTdtN1JRdDVMQWNydHF0d2Q3RGFtdnY1MGJTZDJWMmZQSUZ2bHJXZGRtMVZscTdpcE9hMXJB0gHYAUFVX3lxTE9zbWl6cnRqYXN3Vld5RDRqenpRUzI4Nk8xZGtqUGhQazNqa1NCaGRDTmx3WFpwOENXUDFkV1lJQWlwazRvdVNkNUlKWGVuM3dHX19RR0k1TWpYTUNwNkpNZndoSFNTUG5veXdOczYzeXdFNFprVEZ3Nk1LM2N5NlVrZmVVazlUbDZZNFkwQ0EwaHRKNkhMV0VXbWpHbDdnVTM0Y29BS1RuVGxwS2dpN0NSazhYMk1SOUU3bkdwb3VRdHl6VEhnWnJJeXBXNzJGVUdBOWRLNTRtTg?oc=5",
+     "src": "Business Standard",
+     "at": "18 Jul, 19:39"
+    }
+   ]
+  },
+  {
+   "tag": "Sports",
+   "items": [
+    {
+     "title": "Spain captain Rodri says team must raise level vs. Argentina",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZFVDS1k1V2YxbmRQZXRXdElUc1Byb0FyM1BhR1U1dGVISGFYRTdkWjc3anZQRnhFc20tWExUVWU5bFN4TVJQdWc3SThPUWFDR1ZORVFPYnU5RjlQWVh3MF9HRUlwUExqRDZrdkh2UE9BcjlRNkpjNTg2cElKaWVST3dmVlNvdjZucUhZMkhKZnV2VlVm?oc=5",
+     "src": "espn.in",
+     "at": "18 Jul, 06:14"
+    },
+    {
+     "title": "France vs England – World Cup third-place playoff: Prediction, kickoff",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmtMUzVaZEY0SWhUSFlnY1Blckl0Z0hKU0VwdTlLZGFzaDNJOEhHNjh1NVlSSnBHdkpDOUtJa2hnQW5DX0Uxdy1QVExBeUVqa1VzU1ozeldjc19rcmUxSnR6YWx1UUE2VlBHYmlqakc5WnRSYmhVWE9KZVpMclc3TVVGdl9XMnBzdHFNeXp1czJodm0zVlhoVGJYbWFvNXBKd0d1Y01BQVhMeHptNkd1OEFn0gG3AUFVX3lxTE5IUVJvNEc4aWs0Tl9EbWpwVGFYVWFfeTN0S093SVI5Wmt5MldiTXc5TlZGSjdTYVJjYXZ5dVB6SVJoVUVha0dDanhiUFRwbGFCaUhWaThQcWNndzAzUGRDRU9DR1ByTU9LcHYyM01EWW95VEdyN2lsenBtdDJtdE85R3pmaF9ZZjJGd1hJamhqLTRNTjF2YXYzdzNrOFNSUXd1V2RHTHFjVml2TGl1Sno1dEVkV0pySQ?oc=5",
+     "src": "Al Jazeera",
+     "at": "18 Jul, 20:12"
+    },
+    {
+     "title": "PV Sindhu breaks Chen Yufei jinx, becomes first Indian woman to reach Japan Open final",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONDE1WEZZdGJMRjRQWXJyOS1fRlp4TUZWcEs2ZXpMM0M1bUwxOTF2ZHJvZy03bjBrdnhYY1IzU2FTVFB0cUFJMHU1T3YxdEJHRVFpWDlLNUpNY2hLRmNIU2NXeFJMaDdSRFlRSUloeWwyMEh3dlBJcnBPbGhYZWs4YThMU1dTY1F5bzNIa0xiSlF2Rmw3Sko4d2MzY3hLWDBsMmdFX3I5VG5qUjRGdUJHSzJyVGNvSklPaTlfb2N1OXFPVWVNVkFna01UMXJwSWJabGJaaEtiaC1WVTB4UGZRYmhBQlQwdWxob3BjVWRVTEx0NXJsdEY0?oc=5",
+     "src": "The Times of India",
+     "at": "18 Jul, 11:22"
+    },
+    {
+     "title": "BCCI rules out Rohit retirement at Lord's",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ0pNejRkeGNzV0VVVF96SktwckRuVXctQklILVk1N3dvcDBHYlZjN1l2ZkJYTVIzanVtcmRtdlhfTHk3VDM3NUl4ZFFqRWxWb25aSGE1b3MxQWNLc3FGOHA3aVZqMEtPdmg4ZHNnUWFoendhaHdGc3puNVZJSXRqcWd2cWFIdTRmdzJ0TUpDV3BVb0hxLUZ1bVdRUldPdw?oc=5",
+     "src": "Cricbuzz",
+     "at": "18 Jul, 00:35"
+    },
+    {
+     "title": "‘He is pure history’: Scaloni pays tribute to Messi before World Cup final",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY1AtWWd3ZWxTOUowRy02VXZpQktPOG5WWVd0OElsUGdLWGtIV2gxUE10MnBYQ0k4N1hCdm8wVzlIcWdRZlozRnF2VUpmYzMzNFo5OWxpa3FJbzZydTFPYTk5Y3hTMmJ5bjQzYThTTUdCaGtZTWtJLVhZSFRmRXRnOG1uRkcyekpCTW1jU2VYNTRMMkp1VmdkMGRJLWZpcm9EMldjRg?oc=5",
+     "src": "The Guardian",
+     "at": "18 Jul, 06:24"
+    },
+    {
+     "title": "West Indies legend Sir Garfield Sobers passes away",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYVBidzlwMkotSHZDTERxSk80ZUp0akhkUi1mOEdvWk5aVzR5WVU5ckhEWEY0bW10OWkyeTUwQjdMVUFzOE0wUkd4UGUxTlpIOWx0eUo2SFhWOTdPdmJJR2RUY2JEYTdNcHRXSi1Rak9UMDEzNXc2YUdrU0ZmYTc1SUVfWEJtS01KMkpZ?oc=5",
+     "src": "ICC",
+     "at": "18 Jul, 00:23"
+    }
+   ]
+  },
+  {
+   "tag": "Tech",
+   "items": [
+    {
+     "title": "Oppo cuts OnePlus from North America and Europe, and Realme from China",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXhmQVEwTVpTcnNmdXM5cXRnTTh0d3A5OGpPWndtalpnUVFoX05FTkRiMUFFUTB3OFlXRDdTdC1WSUt0aThFazBmNXJWUl9qVWRvSDZKcnY4MngzYTVRZDZ3eTVUMWRPSnhhWnpfUVlpWjJSWDg2MDVoTEduRDFsYWJDX1pvWDdOSjM4N0xmTDRSZUVibXc?oc=5",
+     "src": "digitimes",
+     "at": "17 Jul, 13:11"
+    },
+    {
+     "title": "New proof for the iPhone 18 Pro having a variable aperture camera surfaces - GSMArena.com news",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ1licjFBUTVWYXdHcnpIa3k1dzlyNzYzNXVYVTJ3NDVWUklVVkRCV1o5WDhfY3R4N050Ym1xMGZadGRQZ09zUUwyYVNLOW82ODd0ZkNFU1J1V01BbHJBUlllZ0dTWEJDZEdGcWpVSnhBWVp0Q0c0U0Z1M1BxM21rRlZRamt3NDRsaDZvejcyUURDUVpJeHNHRFc0cnRXUmJVUl81eWVKellDN2FSTE5XYjQyZ2dLLXZrUlpxcUc0VzNyRm5PdF9KcWRQb3A2bWNrQ1HSAc4BQVVfeXFMTmtLZlJsU3U0TjNiU2NNOTVHdG1pTkkxZ1hyb0dmU0FJSWV5YXppSnh5d1BvLW4xcGgzT29OUHI1UHB3a1F5ODMtd0dRakRyN3VYWmtHRVRUdE1NMDhqNXJKV0J4eDV0b1RVMUF2YWZCNGZMaTBpVWJEdDZ2b3FHSlhIVVFZdGIxeWpCX2NySDFxbnlmTGVCVnFGbERZOWFEVnExTGFGT2VmZXEyZG9LR1dOazRSVnBhdXcxZHNfTmNNUWZTazhobGxobVVUQlE?oc=5",
+     "src": "GSMArena.com",
+     "at": "18 Jul, 21:30"
+    },
+    {
+     "title": "Samsung Music Studio Series Brings Stunning Wi-Fi Speakers to India From ₹27,900",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10OGJBMWJUcktuM0JYN3gzdXZraUw0ZndXMWQwQmFGTUxvdUFQbXRCNXVVNTZVdENFUlFjeGRPN0d2bGl3bEtxZk5mVGhuMlFlRXJPQjQwV1N1YnIxdnNhMUpJN3dHbFRKVXpEWEloWmlnMmgtcTNZ?oc=5",
+     "src": "Techgenyz",
+     "at": "17 Jul, 15:45"
+    },
+    {
+     "title": "Lava Virat V1 and Virat V1 5G's specs revealed, launch rescheduled - GSMArena.com news",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPemFmQzJOODBPS3Rvb1A5LXpteTVuVzlhQXZJNElodXJlM0c5ZTZhVU9NajY5enc5VkE4SVdENUFHcUdGa1MtUDhTLTFKWVRINENZQlhRNWhyc3dVZ2t3Ymp4LVZBZjZQa242MU00RlR5djBBRkt4NUtSZUx2N3h6THJENDUxNTNtbHFF0gGHAUFVX3lxTFB2WngzRzhJb2o1UkNyRlJIbENCWllVd1dKbUJ6MGJ5d0ZtREpodEZGZXVRS1cyc0xzTUt1R3lYVGJ0YVNibHRJTHdoNGlkMXU0cWxsb0ktYUlDalFIUEkxOXRGUzlrUTBHd3ZNc0d6aGk0eWRzZEpSWFB3MFhnTnllUnlwUkZINA?oc=5",
+     "src": "GSMArena.com",
+     "at": "18 Jul, 18:30"
+    },
+    {
+     "title": "Motorola Edge 70 Max: The Android Phone Built to Last All Day",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcEpXN00wWjRUOUdnUGRWUG1paGpPZjBQTTNTaVBveVdnRm9yTjFKbkxWNVl4bFBQY1NGa3ltVnlwODBXNzhQa000U2FaekxIRjNVZVZSLXIyRW9SMkFlLXRneUYyS3YwdEU0cmJpZHdoM09lSGRQUWgtLXhmOHJQbzJoaUk3ZldCMEJjSVp4Q1hRM2w1Z1hFY21PdFFtMlI3RFJ3?oc=5",
+     "src": "TechRepublic",
+     "at": "18 Jul, 03:35"
+    },
+    {
+     "title": "Apple Back to School Sale 2026: AirPods 4 for Rs. 2,000, Major Discounts on MacBook Air and iPad Pro",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcER2RERWdGZmT3hGZ256M2hzM0tob1piSzlCU1BnTFJTVGUzcHY3Y2d3enVpNFVRTEpEWGdhX1Q1WWtKbmZVNU9yanZnMzZWemlDOWlwUWtmanJHWkh4ZlVLUTNONHhiSElzNk42VDl6c0t1bXQzS1F1dlY5YjV5NzhvazlLZjF4SXcwSzNFM2ZmQUw2alc5SWFIX2dBOWhpblVTdGY5Z1ZETUozb1hRZUxjT2ozQy1RVUY5WEhGb0d0RUhUY1ZFdlNTTW8?oc=5",
+     "src": "Mashable India",
+     "at": "17 Jul, 11:29"
+    }
+   ]
+  },
+  {
+   "tag": "AI",
+   "items": [
+    {
+     "title": "Nobel Laureates sign Rome Declaration on Nuclear Weapons and AI",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUWlNempPcFlwelVwU2lCdVpJVi1lNTllb3VqbVl1eDZZcGtQSTlTdTllSndDSXV5SkNhaGVXVTB6eGpuNTFGSUpBd0NYYUZCa09lbGN4UWJWUUtfRml3N0sxTjZoYW9YaDZkZGVPWkVMcXM2dVRDRUduS0lsM3N5bGJwSzFlTVM0WDZJdGtHSWRwQng3SXNzbWFhMGY4SEl4RThvdWVoanNFZVVmbFBEMFJsLTM?oc=5",
+     "src": "Vatican News",
+     "at": "18 Jul, 10:30"
+    },
+    {
+     "title": "Artificial intelligence for supply chain advantage",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUHZzZHByNndlWFlhWlFYck5QNWNhZU52MTF4VENkR19NTHFYNVlDSFJQYnlOOWdoS3ZnYW5qRVpDZVZvU2d5MEtwcHFCc2hnVG5ueUJNaFJNdFV0QmFhVVNDWTN6NVlSY241MHFIam00ZktzanFwNTRnZk9zZGMzbGRZSmpxUkwzcjBtWm5rQ3MxamJ0VmRkVHZn?oc=5",
+     "src": "Today's Medical Developments",
+     "at": "18 Jul, 10:30"
+    },
+    {
+     "title": "Integrating omics and artificial intelligence in pediatric environmental health: tools, challenges, and cohort-based insights",
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5lVzBXeDFmWFk0cUdpTnZzLXFwYkV2elh4bXMxNFhxai1jcmtHNl9xbEdWX0VESXNQcmpRM2trcldVNWVkblJmVVJlUDB1YmNIMExDbmFHYXluUkdLbi1n?oc=5",
+     "src": "Nature",
+     "at": "18 Jul, 11:55"
+    },
+    {
+     "title": "Who pays for Electrification and Artificial Intelligence?",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXZFTFZHeTFEdng5NGNJeEVqNXJUdVctOXMzZ0VXdnhYbGFXSlI2S00tdm15bWRNRWtGdGNkc1JnZWtvcjBwTFNDakZ1bWRQRVZtdnZaUVBKRjRNRDRqSk9yaWNBZmFyVktnTFVmb0RfUFIwN182Ry1lb0o3RkNOajJBcm5qTGFkclotNGt4dm1RVjVhaXd4SkI0cXN0MmhVeThHaFAtcVFNN25x?oc=5",
+     "src": "Investing.com",
+     "at": "18 Jul, 07:49"
+    },
+    {
+     "title": "Pope's encyclical is a call for prevention of AI-driven nuclear warfare, say Nobel laureates",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZnBNdmZ5RmJkdFFKTGZPWnRhdDhkUlNsdV90V0ZCZ0paNEpGVlN2Si1sR09Jdi1xcHpkeHFVaGVvUW43RHRFS3JWczhYcHp6dmEya3JKME1aQWxhSjhmNEJ2NUtSZXBCSzZLUHF6RmJvaEF3OWRUdUZMdTB5RG56bU52MDZDVi02blB0akk2SjdvNEZURTQ3dnFjeGNzQU4tRk5IbFBYamdDNnlfZGdPU2tyNlVLYmNvUzdIdC1vWTdSRUHSAcMBQVVfeXFMUGZwTXZmeUZiZHRRSkxmT1p0YXQ4ZFJTbHVfdFdGQmdKWjRKRlZTdkotbEdPSXYtcXB6ZHhxVWhlb1FuN0R0RUtyVnM4WHB6enZhMmtySjBNWkFsYUo4ZjRCdjVLUmVwQks2S1BxekZib2hBdzlkVHVGTHUweURuem1OdjA2Q1YtNm5QdGpJNko3bzRGVEU0N3ZxY3hjc0FOLUZOSGxQWGpnQzZ5X2RnT1NrcjZVS2Jjb1M3SHQtb1k3UkVB?oc=5",
+     "src": "ucanews.com",
+     "at": "18 Jul, 11:57"
+    },
+    {
+     "title": "Universities of future: Artificial intelligence and the death of the degree",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTDl0Yi1tM1lOTHI3VDdTWUs4U3RvM2Q4TmhUcnpvYm5pSmJNYjcwWUZQOXpnVzFSNTNXSGFHMkZidm5sWmFjVWRYYUNIdDZ4ak5qMmtBNWV4TlFfTTZhdWZpR0k5aHFyYU9HR19qdldJVGVXNFg1TWJJeXVUQVFtdlM2RzZ4SFlRdHFDa1dtcEFIX0hzYXphTXdxSzUwUGdyV1JN0gGwAUFVX3lxTE9xWHZ4Um9SVFA0UXNqSGJ3NnBkazk2V2s5UnJtOUNSRGxQVEJXdlMzVi1JUXNhdUVYeVQtYTRNMkhPM0RvMWtyTHB0RkhLbjItbE9xVUtaeDdGV004b1FTcUtEWENsZVlkTV9IVGJDTDF5QUx5bzdxQnRONGhQRTF6MDZMVldYVWRzUm12Z0xHY2hTWlcxb2JJTThjSWI4VFhJay1aN082WUllQzBRdnlu?oc=5",
+     "src": "DT Next",
+     "at": "18 Jul, 08:19"
+    }
+   ]
+  },
+  {
+   "tag": "Economy",
+   "items": [
+    {
+     "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9%",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
+     "src": "News On AIR",
+     "at": "18 Jul, 13:14"
+    },
+    {
+     "title": "West Asia crisis, uncertain monsoon major risks for growth: RBI Governor",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUnhwN3ZZYWI1SGNWaW5uNnlwRGhjTjd0ZC1nZkc3ZTBkM2d6Qy1hNERNcTh3QUhYSFhuNXp3SjU3dnRCLS1ZYXdnYm1xMko5dXU3ZDlvcXp3T0VmN1BvbTJDaVlleS1LMk1YUHJ4dlpfUkhmWnVyZ2JYdjQyLTcxa29SYXN4akFYN2N1akVsdjFDcVV6QkR5OGNubEdTcGpkY3Btd29MbC1tTWZnZWtXVk03aTNhMXVIUXRKV0tuTEdwamZWTE9iOVRiRk5maGJqYnFF0gHTAUFVX3lxTE5SeHA3dllhYjVIY1Zpbm42eXBEaGNON3RkLWdmRzdlMGQzZ3pDLWE0RE1xOHdBSFhIWG41endKNTd2dEItLVlhd2dibXEySjl1dTdkOW9xendPRWY3UG9tMkNpWWV5LUsyTVhQcnh2Wl9SSGZadXJnYlh2NDItNzFrb1Jhc3hqQVg3Y3VqRWx2MUNxVXpCRHk4Y25sR1NwamRjcG13b0xsLW1NZmdla1dWTTdpM2ExdUhRdEpXS25MR3BqZlZMT2I5VGJGTmZoYmpicUU?oc=5",
+     "src": "The Hindu",
+     "at": "18 Jul, 22:16"
+    },
+    {
+     "title": "Macros strong, but weak rains, war can hit growth: RBI Guv Sanjay Malhotra",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRENTUEd0eF9fd2JkV2p3WW50cXFZYl9FSURGTHFOZTFuZHY0US1BcFVaTnpFV05BekZVX00wRWp3MXlKUWQ4MkVCdnpoajZtY2tPWTNBWXo5VTNydDFWZ0JRVWpTcVI2cVJwTkZYQU1PRV9Qallib2U0U1FKLUdvTld5UG4yWlc0am10QllIZlpBbUs2TEtPYndOM1NmVkUyd0lOYzBXN2drM2Yya1lnTTRjR2M1X0JFQ2ZEVi1VV0NGN1IxbC04RFktdUJWN2dWRW9mbkdEYjVvT3h3ZlVDSWU0UjlwbWhJ0gHoAUFVX3lxTFBEQ1NQR3R4X193YmRXandZbnRxcVliX0VJREZMcU5lMW5kdjRRLUFwVVpOekVXTkF6RlVfTTBFancxeUpRZDgyRUJ2emhqNm1ja09ZM0FZejlVM3J0MVZnQlFValNxUjZxUnBORlhBTU9FX1BqWWJvZTRTUUotR29OV3lQbjJaVzRqbXRCWUhmWkFtSzZMS09id04zU2ZWRTJ3SU5jMFc3Z2szZjJrWWdNNGNHYzVfQkVDZkRWLVVXQ0Y3UjFsLThEWS11QlY3Z1ZFb2ZuR0RiNW9PeHdmVUNJZTRSOXBtaEk?oc=5",
+     "src": "The Economic Times",
+     "at": "18 Jul, 01:02"
+    },
+    {
+     "title": "RBI Governor Sees West Asia Tensions, Weak Monsoon As Major Economic Risks",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORVF2ZEtLdWhRX3VibVR6cVhzb2daTVgwOHVwcTczYTJ5Uy1rclRUb3pWcTBDc2lERExCZ0xoU0lpYTNFdXZpUzNZZzdsbkZXUzVuTU9sdWhpUjE0OXFkcy1ZSFhGRjZIZXZqNmFoVDd3RUd5QnRRdDJ2bmE4emU0VVBKMm1ZZE1vOGZVcURrZTJDeFBZbHE5Z2FyLW9MVXlvQkZsWHFnVDMzZ0xOMUc4VTNfV2lUZG9T?oc=5",
+     "src": "BW Businessworld",
+     "at": "18 Jul, 19:41"
+    },
+    {
+     "title": "RBI Governor Backs India’s Growth Outlook, Flags West Asia Crisis & Weak Monsoon As Major Risks",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNU5iMnNLdGRZRWNIRUZFb0xId0JXa3FXQkdSS3pPUGxmZUJhWVpROUpYaVVESDdfTTBHM2ZobDV2enRlSWZJMkFfb1hOSEVxcDV6MVU1dWhRMGF1U2VXRmt2dWFOcDFOU1lxSkczbnppZklQM2l6cE5RWnk4b1ZLN0o5QlRyb2wyUWxuYW5DeVViRTJaSlFXTnpQTkVmbl9odjZJekRjc2pEZjVWWGZiZWFrNjdkbVlPbjVONE5HUUlHUXhLNTJaZ3BnalVJSzU4cUHSAdIBQVVfeXFMTzVOYjJzS3RkWUVjSEVGRW9MSHdCV2txV0JHUkt6T1BsZmVCYVlaUTlKWGlVREg3X00wRzNmaGw1dnp0ZUlmSTJBX29YTkhFcXA1ejFVNXVoUTBhdVNlV0ZrdnVhTnAxTlNZcUpHM256aWZJUDNpenBOUVp5OG9WSzdKOUJUcm9sMlFsbmFuQ3lVYkUyWkpRV056UE5FZm5faHY2SXpEY3NqRGY1VlhmYmVhazY3ZG1ZT241TjROR1FJR1F4SzUyWmdwZ2pVSUs1OHFB?oc=5",
+     "src": "Free Press Journal",
+     "at": "17 Jul, 18:20"
+    },
+    {
+     "title": "West Asia conflict, monsoon uncertainty biggest risks to economy",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONFRsZjhpRXU5WlZLazVHVjVWZ21qUGs1RUZIOC1oaDQ4bzhkR1lVUDA0RE8waVdyUU9xVUNNZjdSRUd6cHl3d1h2dHdlUkZ2NlgzOTB2SEMxbU1GYkFvem9tZzZzRDJkelJoUjNtNTdyUzNtZUJOZWh1ZWFlVlFNcUM4QktOQlp4WE1HN21TX08xQ1RGTVFWV2NoaG1aZUY3aVd3b0N1Vk4?oc=5",
+     "src": "BizzBuzz",
+     "at": "18 Jul, 22:13"
+    }
+   ]
+  },
+  {
+   "tag": "Politics",
+   "items": [
+    {
+     "title": "Delimitation not just an INDIA bloc issue, concerns our Constitutional framework’ says Congress’ K.C. Venugopal",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxONVRRQjk4cWViamo5WFprVjB6Q1dQVk5CY2xWYmM3bFEwd3RfU1FKV0lISFdzWFBvUlFZb0pSRE9HRC1RSmdmNFM3WlpzY2FfR0RIdTAycHBHSjIwVnF0cU13UHBQLWp5QnExMEtTeU5IY0lpUzhpSTg4NU5qQ2FpbzdCUzA2SGN6MDc2eThoSUFYZmZab2NSNzZxQzFfN1UybFdCMzdpc3ZPbHI1Sklid0RpemZTZzNlWjJrN2RZS2pLUkt0eWNiQ2dfclNvU2lkaEg0Z2FoYTZ3MEtDVk5uRmNodEE1UDI2bG03XzhXQkhudlBSZk5rdtIB_wFBVV95cUxPeDVON0JscG5nTXFFSC1GdGgtakRsTExtUlJQeEo2RlZkTzZENG1XbWFOSWhNYnFSdTNHemZ3dUpHZG9EdjExME1ZdGZyaGxDckZNX2ZkU05nODNSZ2d1SHlQaXVWWXl2QWhQOExnVHlIRUZ1dU55Nmg0eTIwbHJmU0NURy10RTVCcndsNFNoRy1LTE5QZ25CQXhHOWlDd1dIRkVVcFNNa21WdTVTNkRTTHNnNWc4bzYyVEZrMTNJNTNrblNoU1BRaWlza2lXNDRVcVQ0bEcxdXBMRzZ4WnNQczNjUG5hZlN6aVNqdzlnRTNhcGNqakxveDFXMGI1S2s?oc=5",
+     "src": "The Hindu",
+     "at": "18 Jul, 14:33"
+    },
+    {
+     "title": "Lok Sabha rejects Opposition’s resolution seeking removal of Speaker Om Birla with a voice vote",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTVlpdXM0NFJ4MXlQYS1wU2JDTVdUMWZ1WkR1Xy1GSnBKbUJVQVZGRUQtVVdKbVFXZ2JqeTdlUHBEQUZiNFN2cFhlbS1kal9IQVI4ZXlUUUpSOHJfRFh6ejQwV1FkYnl0WG9ZMF9BZVlBU2M0dGUxci0wOTRjcDA0VEdUWi1UdlJXNXZvY1IxYS1ZNy13V1E?oc=5",
+     "src": "News On AIR",
+     "at": "18 Jul, 06:30"
+    },
+    {
+     "title": "An eroded Parliament",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZVI0R3NwNE4zTEtDRXpoRzNDMndhVlViTTNvay1FS19aNG5LcXNHcVB2cndJU3pIUHhsNXJDb2RpekN2RlhleDlGbDdnTTdycGFnU0NkNzhvcF9vSmZRN0U4QUhPZzJSQm1vRTYwU1J2QzBLQkNkN2FOdmdwb0ZzR19tMG5FNE9oTmhPZm9ZdGxtdGpoRGxzVkw1Y1ZrYndidkplUlI4R0QwTUtVQ25teTBHTW1raUcyczRsbFdWRzlPYVRwbzMtaWpsaVFZeDBEaU55ZXdYRXIyS05RQlVsMUVNNk5WRzVEbkhN0gHrAUFVX3lxTE5lUjRHc3A0TjNMS0NFemhHM0Myd2FWVWJNM29rLUVLX1o0bktxc0dxUHZyd0lTekhQeGw1ckNvZGl6Q3ZGWGV4OUZsN2dNN3JwYWdTQ2Q3OG9wX29KZlE3RThBSE9nMlJCbW9FNjBTUnZDMEtCQ2Q3YU52Z3BvRnNHX20wbkU0T2hOaE9mb1l0bG10amhEbHNWTDVjVmtid2J2SmVSUjhHRDBNS1VDbm15MEdNbWtpRzJzNGxsV1ZHOU9hVHBvMy1pamxpUVl4MERpTnlld1hFcjJLTlFCVWwxRU02TlZHNURuSE0?oc=5",
+     "src": "Telegraph India",
+     "at": "18 Jul, 09:05"
+    },
+    {
+     "title": "Global Civil society groups urge Indian government to repeal repressive amendments to NGO foreign-funding rules",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTzR0YWlrVW85eUoycktidjNORFhvTHQ2eWNNVjVEbDBFNmZPNjZjc0lTYUdSRTVQQ3pSclg5ZDFJbGVhbDA5Ukc2VTl3ZlRXMDZDdE92YURzOWZkQTJhdGRYLW0zVXRzOEpTcjRVNWhsUnZacDh0alBHZ3YtaE1EaWJ2blEwb0hkZm9XSnNsaFB5OVRRbFNYTjFQWFlxY1BMSTAwY0tiMXNkN05RelAxMDFhN3cyU1lsbmExNFh3MUtDOW1CXzVWLTlCT0dZbDZJdExCRTZyS3NTZUxTcG1aSlJR?oc=5",
+     "src": "Countercurrents",
+     "at": "18 Jul, 14:14"
+    },
+    {
+     "title": "JPC seeks to temper higher education bill",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcjRNSngyWnZ6TmFJaW5EM0lCbFp4SWJySzBDdmtPRzJGQ1NGeW5VcXllWlBYWVAwc2NpamxKdURpeXVaeU1GWTZqdFliM3VPSWFkeHl1NUJERVhpZmRFMG9sZmY2cWN3RDBfU2xpNDhVVmVJdTFFaW5kdkhYMDhhbk42QzdrUFZjOVRDTWxYekpSeE5UZ3pZ0gGkAUFVX3lxTE03QnpRODkxaHdMZE9qYWxtbGZTaFNTRHZVb3NDdGtWc3hvREJzelBzUlE5MEp3WkJpLUJXYmYyeERkVEpVTW5oQVljRXYwdG1fVDRYNEN0LVVYZkdPOEY3Q2JVakJjUV8ybDRDSkVsUzgxbGtBUUJ1LVNoR2ZTUVh5dENkUXBLSU1jQmVpRk9XdkMxeEJOcHp0NEtwejdZejhia1d3?oc=5",
+     "src": "The New Indian Express",
+     "at": "18 Jul, 07:33"
+    },
+    {
+     "title": "Massive Madurai Rally Vows to Defeat Draconian FCRA Amendments",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON29EYlNCRGRiZ0xpdnpZUm5va05TRFBMaW1CZUwtOG9sUlNIdEl1TW14bHd0bFFvdzd2VFJ6Y2NkUGotM3d3Ty12Nlo2NV9SMUd0TFQta29pVjNNc0lyVFhfQ0xxUTl0VXJ6d19sZVlxRXA2dmVCVGFGRW94Q3lnbTNhQ2xWOWdCTE1NdHg5cVM1ZHZCZHl2a0lRcVh3dXhiS1E?oc=5",
+     "src": "Peoples Democracy",
+     "at": "18 Jul, 23:59"
+    }
+   ]
+  },
+  {
+   "tag": "Jobs",
+   "items": [
+    {
+     "title": "Iran War Hits Dubai Jobs, Indian Workers Face Layoffs And Pay Cuts",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdlFiNU10YzdSOGNBSnZLbzhWQmdNRkplXzlzZ2dEQ2JZQ1VKSEN3T0x0eEF3d1hIQ2lGUVBXVjRxeExHaHVNT3c2OUVScDItZ2x6N3BoS201dDhwN3BRQW85U0UxZ3pXd09uam1YUE1iLVhXYThtU1h1anRnTjJ6MGlYNGJQM290T3ViS1U2WEtuNk9adnVWOExjOHZ5WUd4Ynp6Z0tUOVFFMm1h0gG6AUFVX3lxTE8xS3ZqWEpaSFdUUnhVVVpIUFRHeDBncVBSLTVWOEdNTkZ6TVdhb1dTMGcwVXd3aGVSR2pPZ2VqVGVFekhTRVcxMDROMGlsd0JpS2JMT2kxOXFCNE5PQ09oS0k3YWFWZ3otenJsVWdRNHNGSk5HSFBGc3NGV3VJSTR5dllnOG9PZHV3ZjM4RG1RaDd4QTRFMEdjc2JzelE4dm9tbTh0ZHdNZ2lBNWR3ZU1YODRrTVVTeEhSdw?oc=5",
+     "src": "Outlook India",
+     "at": "18 Jul, 12:55"
+    },
+    {
+     "title": "Read what 4,500 Google employees are demanding from CEO Sundar Pichai as tech layoffs mount: Guaranteed severance, no performance quotas, and the option to…",
+     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOd2ZNaGxXbzNRRnViWjF5SVhwNzkzWWhGZVRrVzdKM21RT2pRejdFUkM5TUV0bWM3YWlsM1FXdDFJaFhsYXFSZm5rT2hMRWJpWWJhd3lKOEpwcUdkYVVKSDd6N1Y0LXM3MHhfUk9ZWDZBckNvTGJOdDFoWEhFcENZeENIVS10OUsxeDhPN3ZOM2laTzRVNGZjY1BoWlY5enBLX2NBOFcyS011LVBwQWlFTlN5dmNINkF4VXRYTzVEQlBRNklZTVBQeEU1R3MxTVczMkcyUmxRRWZ2dEpkSTFMRVdNWm9LNFhJYzI5anl2eFZPcGQzdmxMQmUxUEsyckNRSVhzVDUwbzBGaVhKY29uVWJvYnIwUQ?oc=5",
+     "src": "India IPO",
+     "at": "18 Jul, 11:47"
+    },
+    {
+     "title": "Companies laying off staff this year include Meta, Amazon, and Verizon — see the list",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUtSVkJCN0tBeHVpR3owbi1YTzFyVHNOZlBWOWt4empJQ29tTnpBQ1ZjbEIySlZ3YnhWN3pLRTRocTdLTURIaXo3RmJqY3RKeHlOc1kxbHBSQ0NSM0NHamVZWjNPOWpKRlpkVEprdW1EQ0RVSW52TEtGem95bDlHVVcyUHg?oc=5",
+     "src": "Business Insider",
+     "at": "18 Jul, 08:02"
+    },
+    {
+     "title": "US judge refuses to block Meta layoffs despite AI discrimination lawsuit by workers",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPd3pTTWN6N2NrXzlsTVJGeHRJNVV1Vkd3VHMtWEtwWUpCWjdJYlNYRjl0ZVRRNVVFRm1uRl9XV0lhaUpuUlc1WTZrV01ISFNlRjlHMmhPOFY1bEwxQkVqUmNKczFaSDBpN1M0RlZSQThyMjVqN3hnc2dZSGZEMWt2RjN4V25Sd0hjT2pENi0wWnBUUXpQV1htOFBzUlhIcThmYmgyVmd6ekR3dDEyUE1IdFNJUXdzT1RUcU5KZklWVTRUVUdNYWQwMzRIN19mYjNvTDIwTk9OUlRqNUFhanIyWGZQQWhKZzhYNmlldzI3TXBOOG9oY29LcG1QUHDSAfwBQVVfeXFMT3d6U01jejdja185bE1SRnh0STVVdVZHd1RzLVhLcFlKQlo3SWJTWEY5dGVUUTVVRUZtbkZfV1dJYWlKblJXNVk2a1dNSEhTZUY5RzJoTzhWNWxMMUJFalJjSnMxWkgwaTdTNEZWUkE4cjI1ajd4Z3NnWUhmRDFrdkYzeFduUndIY09qRDYtMFpwVFF6UFdYbThQc1JYSHE4ZmJoMlZnenpEd3QxMlBNSHRTSVF3c09UVHFOSmZJVlU0VFVHTWFkMDM0SDdfZmIzb0wyME5PTlJUajVBYWpyMlhmUEFoSmc4WDZpZXcyN01wTjhvaGNvS3BtUFBw?oc=5",
+     "src": "Telegraph India",
+     "at": "18 Jul, 23:55"
+    },
+    {
+     "title": "Wells Fargo layoffs: Bank cuts 79,000 jobs in 6 years, says AI will drive more workforce reductions",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYTFIV2I0RDg2RkdpQUNPYjg1R0pPZkhEOVhkblg5T0NpQWZ4aHdFVXpUUzc3Q2E3aFQ5bjNBQlVvWjZ5bU5xQ25BMHlxZGR1eDFmbU5rd1hrRzdmbF93LUhEWkt3UmhBWmw1MFNxMi1BdWYwdExTNTZ0REZyY3kwUkRlX3d2bjQ1SzJwMVVlRjU5MDJFNEZNdV9QZUFKVGl5d2RZeTdCTWtPaENMLWNGVWRaQTBJLThMeWNKakJOYjRoT0tibTVqRG1JVUtIWk9GQ2VZNkx4b07SAd4BQVVfeXFMT19QZURubDRBR3JEUjd5LWNWNllKMDhXT1AwWXRPNGczM2RGZWVndkRXcXhPRy15NENFMFlJTFMxbFNhdzBRRmluWmM5aXdSNWo1b2cxaHFYTlZwWVdMeDJQdlhlRFhfTFRnbkJ4OTF3T2tKWHhTNTBhR2xfV0JPaVBCZlBzaHRvVW8tX0N3RDNnV3djeks1NTIyRFVlLWQwQ25URFNTVl9MTDRZTkQ5Vms0VjhWOW5QSDFqYnFyckdnTE9fdFRwSVFfc0dGM0Vqc0l3VkgzTmVFLUZseXlB?oc=5",
+     "src": "Firstpost",
+     "at": "17 Jul, 15:50"
+    },
+    {
+     "title": "Google employees rally for stronger job security amid ongoing tech layoffs",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaFB5WnZOazJjZk1NcmIzT0V4SjR0WEJOeVZ3VjIyeVZ0bjFxbG44WElkeU13VTNMNzd6dnJ1bHlrZ2J4QXdHZXFqZVU0ZWpTczFjMUNvdGgydEZscnpmZjV2MGY1VlU5WWhwSGtqVXdwVGNpb2F4dHhqUFBhVjlITUpDTHpXaVJsZzlnQnJTMWp0M2l1UDh1OGp2NkZmblZ6V3BJNEVTRQ?oc=5",
+     "src": "HR Katha",
+     "at": "17 Jul, 16:45"
+    }
+   ]
+  },
+  {
+   "tag": "Crime",
+   "items": [
+    {
+     "title": "Real-time information exchange mechanism needed in cyber crimes: MP HC | SCC Times",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRXJ5dE0zT1FQLWNQWWFVN0szMkttRVljeTNNbDFtVlNvcU1WRVU1dU8xczdJX3ZqcVgweGMzMThDOUxNc0F1cUVITzlzdkVLZGNKNk9sN2VCVm5GM3NrdG51V1AtcDVkamJpQjhtNUYyZ2F5eTV3ZzJFdTdkX2NRV25pX01WREZhLWJSLVNUTWkyZjQ4dWU5R1FlLXFJS1hJS0h0RF9TY0VfV0lMaV9Ya0ZDR05lWXlL?oc=5",
+     "src": "SCC Online",
+     "at": "18 Jul, 12:00"
+    },
+    {
+     "title": "Lawrence Bishnoi indictment | A diplomatic off-ramp",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNXhnbzZUN1NWdF9EX1UxbnNuc2t5R1VIaDBmWjB1ZDV1alR2S0lkdXVEZzFKVnZQWlU2M2dadzd0NV8yZ1RjUzQ2R0dCb2Zyd0tURWZLa0pwMEJmY1FzUTZkeElNVjhJV0JkT3VhaTFfS1pqN1Q0Qy1NcDd5MDFEc09TTHZzdjdvb1hfb1RKZFB1eVZFbHZPNThvS3pJTDgzUWZLSnliNllERzNQdXFac09NT0hVUzA1V3VkT1FDODNjdWtSMnfSAcsBQVVfeXFMT0w0bVVDZ0R5SDB1bC1PdENzd3oyanZzcGplNzFlMEtsM0c2R0lOdGp2RmxEV3dCaHVwcnA5OFpGYUVYWm5nTFFTSjNnRFQxcWltT1pZQkx2bjBFcTgyaHRMYS1pVldUM3ozYVhxUkZ5QmQtZk5vRWFzaFkyb2VDVTVWSGRTOXdYb29zaFlGa0E1Vk81aTlKN2tkYVFRQmdmZFpTUi1aVXFJNFU1ZjR5S0RtcHZWUzlsRVV1VnRrUzV2TnFPN1RfdUZCZzA?oc=5",
+     "src": "India Today",
+     "at": "18 Jul, 13:25"
+    },
+    {
+     "title": "India signs Mutual Legal Assistance Agreement on Criminal Matters with Nepal",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcGtCeDhiUEtLTnVJd3BPZnVOdno4aHhXSGNiOFpaYndTQzNwQ0tTeDYwYWhfUWJNNDVMVnRHUjJ1eXY3MnJ6WVRESWsyUFFhYkdJc0hpc19STC1manRtWkVKSElKaWIzRkN3Y3ZDYXQ4SWt5c0daOF9xQm8zY29RZWdLQ3AxSy0tTFJNRnliRnNfdHBOU3Rhb1otVVZLSDBONjJ0Mg?oc=5",
+     "src": "News On AIR",
+     "at": "17 Jul, 16:45"
+    },
+    {
+     "title": "CB-CID arrests key accused linked to Cambodia cyber slavery case from Bengaluru airport",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdzUzbWUxUF9KR21Dc2tRUzVES0xYRThjUFdmOWdhckRkSDljVzVYdlZBLUFxTUpRWnJpZTJpN3VWWWsxaU51Ukpzb1BSbDEySVNuMU9WNWpYNThydi1uVzdFU3d6N0xCY0JNTVhQazZ0clItMld4YmQ5b3YyNzVpbHBIdHZLS2pMZWNGOWZWdHM4aHJXTFRPOU5HTWtsWTBMVFlrcDNFT0xNZzFsZ1IwbklvZGN4SHVBMEw4LXgzNWQ4d9IBzwFBVV95cUxObjBvSVRoeXVfLVZYb0lUakt4Z1pKbFBoOGlQcDBXcE1JX295Q3RvUnZPd0tCVV9XOXk2aldIMkZkWjkxLTBRUnRDLTVIbXhKOXFGRUdtNHQ4amM3d1BQTnNtNWhldU50QUp0czR3RVZnSE9hYVlHRm9zdUlYeFBWa1E2eG92ZGtiejBJZDVmUmw2RzZMcWlSZXVZUHJNWnFSU2pXN0QwVnBqZS1ubHpaM0plZDlwQVdfWEJ0U281WW10TTJxaFIxS21nejZaZ28?oc=5",
+     "src": "DT Next",
+     "at": "18 Jul, 08:23"
+    },
+    {
+     "title": "Punjab police suspends, arrests inspector after FBI indictment in extortion case",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeWUtYnNTbXJUVVdWVExtNUN6RXc5ME1EaFpvZkJNVl9EUU0zc2V5SlRYRW1IVUxKRkJ3TXdkVHYxWlo4OGpTUllXUTREU3pyTlIwMFMzeW4wNDdFZXJ3V0d5MzdkQkJhdWFTc29vSzdsX29jSHRqVnpEbTUxWTBOT25VVVp4TzRwdzllSGVfamZEa3Y2UHdYRzVUOGFtaFoxaFJ0a1ZlZTdqR3ZPaEJuYzFLOVpQX09heUdUQzVnMlZrMmFMTW1kZXNn0gHXAUFVX3lxTFBhVVRvMnpYbEhOMW1tRHZIeEhPV3NuamhzM2ZHWHdMYWMxa0haQkU3N1NsMUZWZ25URDZyTzdBMXlGU3VuRWZtTF8zNkxSNm9kcUVRSzVnUXdiREpXcGpJODVFeUluNndRLW9TMGZZaXl1c2JZbFJSdHl2b1BYeWplZ1ZfWV9GVUJ6dW5vd29FNU1zNHJrWlFSRGlKQWJHOHpHbDdZbWtGbEVoS0JJU28tbmhTLWhsZTltV2VLcW4zRmFVNk5aZmdsVGxnVkxtUm5yVUZYV1dz?oc=5",
+     "src": "The New Indian Express",
+     "at": "18 Jul, 14:10"
+    },
+    {
+     "title": "BPR&D To Showcase Successful Investigations To Create National Model For Speedy Justice",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNR2hGaU9zWlplWW5yVURvWGh3WEp2OGYwZzBMRGNLcTdUdzN5dDk2aXdtWC11LWpRQ1RnV3VnWkpzRnVOV1FEWHdsVnhhNUpBbjczUmtDSTdLZjNUZEVuOU5uQUhZVGRhQ3ZDdXBrVDZuVGNXaXBpUFo2Z0IwLU02SGZpbzFQWllHdEpGVVNFTVdfMnhvXzhXZXAwS0VnZnA2TUxoNWxhWVkzV19CXzNpeGN2N0lnUmlUVGE5UzgxbkI0dDdjakRUc1BVeWRYTHlmM3VF0gHYAUFVX3lxTE5LZXNZdTQya3ZQVW9SdFZ6UktiT2lqZ04tc2Jfd0NTbE5VZ2JWMDBOaGJvQ21TbGJTdVRjVGs4RUhqTEJLbVFOZjJKLV9ZNmlMNV9ka2Rid2FrdjE3SU5MdTl5NzAwZlFubzBPeVctR003VVh1akNEakxTN3dTamZaQnQwdWVsbk0yNm1QVXJJbUVTTEU2MGZtZkFaNnRhd1licWFfSG1XS0Z6ZUdTTVFydC1hZXc0XzBpR04yR2NTbDd1LUpuZkJPWl9RRHI1QWo0Si1ZMmpzSA?oc=5",
+     "src": "ETV Bharat",
+     "at": "17 Jul, 14:47"
+    }
+   ]
+  },
+  {
+   "tag": "World",
+   "items": [
+    {
+     "title": "West Asia war LIVE: Iran claims strikes on U.S. targets in Kuwait, Jordan",
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQQ1hWa1VOQ05Kb0gyNnRDXzVUYWo2WnVYUm1vLVVrQXNraTVWRFByUTJzekhxdmpkSlJ2bmlCY2FyeDl6aVpyY0FlRzE3aU1fZnRiQ3EwZWg3aFN0TDZ6WWpNVnUxNV9DM1lyU3ZTQ2toVTN4b1VydzNyak9kaUZsbzMwZlRvWFNOZklwQ0xaU0FGSll2cmFmNWxZUWVxWHB2MjNQYkxwd2s0eko3SGFSZXhSTFNQTEFPczdXaTV6TlJBUVowako3UmJDWVl2b0o4cmxreGhXSXBpN21IcDJtbEJHYS1JOXlha1NqRUhNSkdRMk1JRVMtd1diVdIBggJBVV95cUxNeFJEZ2NyQmFhcTZYQ25nZkgxYkt4VE0tU0tJclMwYlZTQWZKVUxhQ2hGa190aGNOU3VTY19lTFQ5Q1JQcTgtb0RfMk1vRTU5dEtQRXduVmpSdnI1SG5NT0o2ZEpHNXlaS2JYNUs0dVplSWhhOG9nNWttUEhnMHctTnQ4OXZENk93QnJyWk5TOHE3RV9id2JSOEtqeFhWaW5rcDJacUVvM05BaEhiMHR1MXBodjUxYU9kcndtZmVPSHY1Ym00MlZDc000UnAwNFhHLVN3aEtLbzFzYm5jZTdWeWVWZGwteXBya2xiMUxHVUlXY0lsSnB0WkV5d1V2clBLT3c?oc=5",
+     "src": "The Hindu",
+     "at": "18 Jul, 11:13"
+    },
+    {
+     "title": "Iran's Guards say two oil tankers explode after hitting mines in Hormuz",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDEzUjBkLXRKZzBxRDRqaF9IOW5RTlZScS12cXBaeEppeXl1UVkxamRnSHIxaVhJUEg5eko0Wm1ka3oxNUJjeElmTFVWbnc5ZFhKRVc5Yzk0a0xwVzNabmpvaDFDd1lvVE5vVVczOVY1Qmp4Nk42WFNNQ01HNkM2RzhpbFhtX2tHNnRkdnFxQWJIME43ZjlwX0RrS0tSWmJwX2hJVzlIM0J3SEJOMzhqWUREQm9WVU10eUlfWHZQQzlVaXpuUjREYjZOdDhlSFnSAdYBQVVfeXFMTm9GaThGZTRuYmI2eEI0cnlxa0lsX0lEVTQ4Zkd3QTk0a1ZGcVNwQ1VtX204RWNwY2VRQUdfY3ZMTmNOMkpuVlMwTEpEU3ItQ0Q1aXgyV25Nd0gxeTRaLXNzZGZCc0daTkVlaGNiWHNqSjE3TTlqMDV0ekp6XzJqTHhQejBiM3gwS0NDTDl5UWNUZVFBWkhuYndNdEcxM3hhT1JLSk52dzUzYy1ycG9RMXJYUmNpNUZJbVMtQkMwUThsak84YVhQUnRLWlZMRmRXbG85dmRMUQ?oc=5",
+     "src": "The Hindu",
+     "at": "18 Jul, 06:57"
+    },
+    {
+     "title": "Who is the pro-Taliban maulana challenging Asim Munir: Drop uniform, join politics",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNak9BNDZlRXAzSk85NUNpRjgxQnJRQ2t4ZnB3UENjemFhMHE5dGxCTFlFTFpmRV8yY1BhdHNxZGZDS0o1Rmpwdng0Tm10UEdQb3ZwNkFCNjVLb3dUZHJFQm9FaGt0UUJKSmVkdWZvU1dyYlYwbXBUaVg5b3RSN3EzTFdFUXp2NHhSQWloT0lXSFVFc1pmcmJhVDBBaDVMWWRqLURTcUpXZDZCaTFvcVNRdnBCNTlQRHoxRFVZLWdZNnRhQUxqNGNVc1RBTk5FSjhXVUVqUDhZNmM0MWfSAeABQVVfeXFMTlZBeThRTk5xaUJXLUF2emJZckVpUGpMdGRVWWpGYy1KUlFXNXRqSU9rNnpaSzhsZzZud0JrNXp4Y1BQaDY1UDBJR0ZtZFlXS2dkaVVYcGh3ZU1iN09ZdW93S1hhZ3ZYQm1tWkVKS1R0NEdfVWdaSmpBVTRMRW4xLVZNYlZpN3k5Qk1SdlVvZDlnUDdEUF9ldEhCdHNNbFRXWHF1SlFKa3Naalo0VzlmTkRscWVNOWxtZHRiOTdkWU1jTDlfR1l1Z2dHR05qeHhWZmVPOUlTN01FYWdteWZ4QjU?oc=5",
+     "src": "India Today",
+     "at": "18 Jul, 07:06"
+    },
+    {
+     "title": "US Student Visa Rules Tightened: Here's What It Means For Indian Students",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdFB6Ni0xeXlJSG1TTVRZSVo5MVVMYTFDbGVPTHpvZ0Q4ckFpbWs1NWtTV2Y1X2pJbkpYei13Y3RFOHRfNUoxTzFFRW5NektXY2JyLTZraHBYeDUwSW9BR1hGb25FSUNtS2VyeHNoekhaalRNeGFLTzlpOFlGX2FJbjFoTW45MFlQenltVEhpSEx6aDZmVU0wS0NsWHMwNGVJdFJsYW5QaTJ1TmI5ZFJxOGFqRdIBuwFBVV95cUxQVVJKU3p3dXVlZmhwa1JZZFdCcU04VmdZemkxVjdOTUtUNWhLTkIyejFFVWROSVZCajE2eFFrWk9MVFRoV3ZXZTNKSE12U0s2emtZLWdTbHlsa0hKaUhIMzVleUcyd2NFclY0MFdsN1NZVXVTRDc3NUdHZjFBaHVVeDU0RnZtOFhHYzA2R0RmdnJXYzZYSlBhWlZFTFdKZGpZSFpVYmdDNTZ2bkFuTXMtS1cxeUkzcEdlcEpF?oc=5",
+     "src": "NDTV",
+     "at": "18 Jul, 20:02"
+    },
+    {
+     "title": "US wants to penalise buyers of Russian oil with 100% tariffs. Here's what it means for India and China",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONVZjZkJudzNTVXpyc3JXVjluOVlOeUs0aU1VUVJEMVRSdHByMmhLYjhpaTNYR0lkYkhlQzg2NXdHNTJRRDAwdGhxVFIyOEhWR2pDUmdQTUMteXpvdlMxSW5teENiTFgwcXFjNkJWcTluRGtqT2dyWERTSGlwMElYbW5iX2IxVWYtdENUWXFtbWtyNVg5RVlzWnNNeU5YRk9wZUxqWWgzQ0Q4SnFkNkRRS1k0Qk92Z3VIak5WZkYwS3FOb1BvSnJBOHNwNGhFa2c4MUVVdDFTUDczYjZPQjR5b24xcU1EMW1BazZSY05B0gHzAUFVX3lxTE5iYUZ0bnh3bGNWcl9JNW1tMVNaLTdHRW9kLUJaTWg4U1RGbHcxcjNINUp2anFQUVRkeUFpX1BZSmxIUkdLa0htLWtrUWdwQU9CSE5Td0lFVGlGc3RneGVxY2pkQWdKLWgxR2otc0x3eGp0ZUY2YnhCUm5TYTBzVFRuVkJlMzJoSWRtS3dhbUFXNFdvYUVoWnhUMlhzc1lrYmlpX1Y0RXhsWkZ1YnlvZkdpdmM2WWcyZVd6Wk9XVnV0amctamd3MEREd3BmQjhGaV9GSFhGVGlyTzZ6ZmcxWHp0elRWZzYxU2s3blpnS29SZFN6bw?oc=5",
+     "src": "Moneycontrol.com",
+     "at": "17 Jul, 18:03"
+    },
+    {
+     "title": "Oil tankers face ‘worst case scenario’ in Hormuz as Iran steps up attacks on ships, maritime risk CEO says",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR3kxY3d1RFhkZzVjOTQ2Z3otdTdoVDF2Q0dJRjM4TjF3ZWxUMkhaWmQzd0l2b3cwMVNPSWRtT0ZlSEpMcGwzaDExOUlRTDlEcnJOSlR2UEN5NTgteTRmLXJkTWVQdUc4bGVNVVZ1b0dwWEJPZ20tbDZpcFpJaHB2X0Q4RWUxOGdkQTlEV0QxQ3FMZ9IBlwFBVV95cUxOblJfNENqNmVYSkNySDVMVFdzSjA2WGx6NlhOTi1LeDA4TFhrZ19MUnowZkN3SXJNMjk3bXFJQlUwMXRYTHI5N0t5MFVDcDM3bEp1cUdwcHk4NTlsQng5S2tGX0lqQzI1bl93UDNITEEtODB2dVp1OENMZXl2c2lJbUpGNEREWWRZWUFwdlZZdWdVOGJ5RlJn?oc=5",
+     "src": "Forex Factory",
+     "at": "18 Jul, 00:26"
+    }
+   ]
+  },
+  {
+   "tag": "For You",
+   "items": [
+    {
+     "title": "Exavalu Expands Global Delivery Engine in India with New Kolkata Facility",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2wzVEFrVThrVEU4RktBWjdhaU90MGlwX3BBUHNHMXdiQU1vYXA2S2FDWUJDR0tTeGtVVjlYR3RwdTh5RFZibkktZzhoN0JhUjNGR3YtTmRIX0dzY3N2SXNVcjFVRW1ndG96bmhSSlhBOWxRSFpFdFlLWEV1WXkwS2EybWF6VC1yajh5X1JDWVpDWkl1eWhQNGtrOS1OZXpmbGJTYW4wazMtUFJvZEoyM1JnQnA1UkVVN0wzZ2ctNzNGZw?oc=5",
+     "src": "ANI News",
+     "at": "18 Jul, 10:03"
+    },
+    {
+     "title": "IE University strengthens India ties with IIT Bombay tie-up; eyes wider AI, tech collab",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbUlfeGtQQUkzOWQ5N2xPQnpQZlJFN2E5UkU1TUgwRnpnOVd1ZzEyaENRMGdBZ3BQVjhCRDNPcGNndGdPekxhajZrbklzU2JnbUFSUTZuX2Y2S2FkNUpKaUREMmxlZE82SUZGb3dJSnVJUlFUdFJkUElFVm9UVVBBSkw2STF5M1RYRVpvc2ltdXlyemR3R2lrdmlGWmdFWUEtNzY3UEpUd1lHZ1MyTFRtejE4aURVR1BNQnBGMDdlSVRvZ2Q1OG9ETTI5ekY0VDhlTHhQT2JvcEkzYmdXVmZvN1VVSjM4OW1lLWxhaTRoWQ?oc=5",
+     "src": "Education Times",
+     "at": "18 Jul, 09:02"
+    },
+    {
+     "title": "Snowflake unveils $448 million pay plan for CEO tied to ambitious stock targets",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPYl9GZWthUmFQTHY4QUZFWDRCTlI4MzYxUVRkU2s1OWE2RHVqblg2OVlWcF9qQnVUT1p1cXVMWnd1VzQ0TnIwR1BEMS1fRnh5OG1zR0pvb2NMQmM3b2xmM3JyYkZzbTdXS0ZVbVBSaHdFTVVDOEVSd0Vfd0VGVTRoS3BJYlhfcnMxNHpwUk01X0NiZFFVYy1QeHFfak84NWhQNnBVM2lDSjExOW51RnZYTEU4elVZU00yLTctYkZLZWZFVXhWSE5qOG9RMlRCWEsxcWk2b2FOZzFXZl9ER3djM3RNUDNvaXFx0gHoAUFVX3lxTE9iX0Zla2FSYVBMdjhBRkVYNEJOUjgzNjFRVGRTazU5YTZEdWpuWDY5WVZwX2pCdVRPWnVxdUxad3VXNDROcjBHUEQxLV9GeHk4bXNHSm9vY0xCYzdvbGYzcnJiRnNtN1dLRlVtUFJod0VNVUM4RVJ3RV93RUZVNGhLcEliWF9yczE0enBSTTVfQ2JkUVVjLVB4cV9qTzg1aFA2cFUzaUNKMTE5bnVGdlhMRTh6VVlTTTItNy1iRktlZkVVeFZITmo4b1EyVEJYSzFxaTZvYU5nMVdmX0RHd2MzdE1QM29pcXE?oc=5",
+     "src": "Indiatimes",
+     "at": "18 Jul, 08:03"
+    },
+    {
+     "title": "AI Will Not Diminish IT Services, Their Role Will Become More Important: Anand Mahindra",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTjBIUFFsdlpaSjI5WjJUSWlkUlZuNFNhaEdjSV90aTJKbFg0bFhLbW43a215WF8yZUVZdk9GbzJ1am9JOEE0R0ljX2EzNXhGYTFIWHY2V3Rpa3FDalBzeGNDem9wX3VtNGNuN1FpNmJzeWpmQ0dFeDFjb3BQVE43UFFESlQ5R2JoaXUxeWxGMjhuSHZmeExDLXhGSDdkbUZuRHZVZXR5WTFFYUpwRUNycw?oc=5",
+     "src": "Lapaas Voice",
+     "at": "18 Jul, 10:42"
+    },
+    {
+     "title": "CBIC Chairman reviews container scanning infrastructure at Kolkata Port, engages Trade on Budget 2026 Customs Reforms",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUXhTT3RwU09oSWREbGp5OUVuVVVfRDhSQ1JvMDdQUTFYdXNiUUlBNXl4UHBicWFHdVBGbFBhaFhSOTZsQUdBTDFnVldMOXYyUzNKUWxOdTJEUnp4QlpPMXREallqZFdFbzJzOUUtOVZFa2EyNGJUb3BxSWlfcXFKWHZnNUJyZWxocjdBUEg3ZW1pUnBVdEpscDJCd0luVW5KNWRUTDl2bEpsblNwMm5PWFJDaDgzQ3B3NHd6cEpHT1JLNDB0UDgtS0hNWnZxTFVaODlxbWg0YmgwVFZRekZYVC1KSy15WDBlN3pr?oc=5",
+     "src": "India Shipping News",
+     "at": "18 Jul, 08:51"
+    },
+    {
+     "title": "Reliance’s Campa Posts Rs 2,900 Cr Sales in Q1 FY27, Gains Double-Digit Market Share",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTmxyeUxHN2JBZFlPY3BuWDNwUjEzNWJvS0k3d2tnUzdDSEtPM0pQMmd0bFhZUWFFVWpOQjJ0emhxNG84cDZxUDhVRUwzQThKdmlxdUVPdlczN2lWSFBRX19fcWJLNV9QbVhKTjJIM0UydnFFc3F6QnNhSmQyV184bnRRdzk5QmhIRFFla08xSHZIZHY5d2YxeTN5QUkwQV9rMU5LTXduM25QMlN6T1dhWGJ0bHg?oc=5",
+     "src": "Indian Retailer",
+     "at": "18 Jul, 11:41"
+    }
+   ]
+  }
+ ],
+ "gk": [
+  {
+   "t": "Moore's Law",
+   "teaser": "Chip transistor counts doubled roughly every two years for 50 years.",
+   "more": "Intel co-founder Gordon Moore's 1965 observation became the tech industry's metronome — it's why phones outpower old supercomputers. Physical limits have slowed it, which is partly why the industry pivoted to specialised chips (GPUs, AI accelerators) instead of just faster general processors."
+  },
+  {
+   "t": "Why Silicon Valley is 'silicon'",
+   "teaser": "The chip element, not the software.",
+   "more": "The Santa Clara Valley earned the name in the 1970s from silicon semiconductor makers like Fairchild and Intel. Software, internet and AI giants came in later waves. Bengaluru earned the 'India's Silicon Valley' tag through the 1990s IT services boom — Infosys and Wipro, not chips."
+  },
+  {
+   "t": "How vaccines work",
+   "teaser": "A harmless preview teaches your immune system the enemy's face.",
+   "more": "Vaccines present a dead, weakened, or fragment version of a pathogen (or, in mRNA vaccines, instructions to build one protein of it), so your body develops antibodies without the disease. Smallpox — which killed ~300 million people in the 20th century alone — became the first disease ever eradicated, in 1980."
+  },
+  {
+   "t": "Plate tectonics built the Himalayas",
+   "teaser": "India is still crashing into Asia at ~5 cm a year.",
+   "more": "Around 50 million years ago the Indian plate slammed into the Eurasian plate; the crumple zone is the Himalayas, still rising a few millimetres yearly. The same collision makes the region earthquake-prone — the reason Delhi sits in seismic zone IV."
+  },
+  {
+   "t": "Why the sky is blue",
+   "teaser": "Air scatters blue light more than red.",
+   "more": "Sunlight contains all colours; molecules in the atmosphere scatter shorter (bluer) wavelengths far more — called Rayleigh scattering. At sunset, light travels through more air, the blue scatters away before reaching you, leaving reds and oranges."
+  },
+  {
+   "t": "Black holes, minus the mystery",
+   "teaser": "Gravity so strong that light can't leave.",
+   "more": "When a massive star collapses, its gravity can warp space so severely nothing escapes past the 'event horizon'. They're detected by their effect on nearby matter. The first-ever photo of one (M87*, 2019) took a telescope network the size of Earth."
+  },
+  {
+   "t": "The Suez Canal shortcut",
+   "teaser": "It saves ships ~7,000 km between Europe and Asia.",
+   "more": "Opened in 1869 through Egypt, it carries about 12% of global trade. When one ship (Ever Given) wedged sideways for six days in 2021, it blocked ~$10 billion of goods per day — a live demo of how fragile supply chains are."
+  },
+  {
+   "t": "Mughals to the British, compressed",
+   "teaser": "1526 Panipat → 1757 Plassey → 1857 Revolt → 1947.",
+   "more": "Babur founded Mughal rule in 1526; it peaked under Akbar and Aurangzeb. The East India Company's victory at Plassey (1757) began company rule; after the 1857 revolt, the British Crown took direct control ('the Raj') until independence in 1947."
+  },
+  {
+   "t": "What the Non-Aligned Movement was",
+   "teaser": "India's Cold War stance: neither US bloc nor Soviet bloc.",
+   "more": "Co-founded by Nehru, Egypt's Nasser and Yugoslavia's Tito in 1961, NAM let newly independent nations avoid picking sides. In practice India tilted toward Soviet defence supplies after the 1962 China war and 1971 US support for Pakistan."
+  },
+  {
+   "t": "The 1947 Partition, in numbers",
+   "teaser": "~10–15 million displaced; up to a million dead.",
+   "more": "British India split into India and Pakistan along the hastily drawn Radcliffe Line, published two days after independence. It remains one of history's largest forced migrations and the root of the Kashmir dispute and three India-Pakistan wars (1947, 1965, 1971 — the last creating Bangladesh)."
+  }
+ ],
+ "gkMore": [
+  {
+   "t": "Tiny 'water bears' can survive the vacuum of space",
+   "teaser": "Nearly indestructible microscopic animals.",
+   "more": "Tardigrades, or water bears, are half-millimetre creatures that can endure being boiled, frozen near absolute zero, dried out for years, and even exposed to the vacuum and radiation of open space. They manage it by curling into a shrivelled, near-dead state called cryptobiosis. Scientists have revived specimens after decades in deep freeze."
+  },
+  {
+   "t": "Most global trade is still priced in US dollars",
+   "teaser": "A legacy of a deal struck in 1944.",
+   "more": "After World War II, the 1944 Bretton Woods agreement pegged major currencies to the US dollar, which was itself convertible to gold. Even after that gold link ended in 1971, the dollar remained the world's dominant reserve and trade currency, especially for oil — the so-called petrodollar. This gives the US enormous financial leverage, which rivals increasingly try to reduce."
+  },
+  {
+   "t": "The Rule of 72 tells you when your money doubles",
+   "teaser": "Just divide 72 by the interest rate.",
+   "more": "Compound interest means you earn returns on your past returns, so money snowballs over time. A handy shortcut, the Rule of 72, estimates how long an investment takes to double: divide 72 by the annual return. At 8% a year, money doubles in about nine years — which is why starting early beats investing large sums late."
+  },
+  {
+   "t": "The first webcam was invented to watch a coffee pot",
+   "teaser": "Cambridge scientists were tired of empty pots.",
+   "more": "In 1991, researchers at Cambridge University pointed a camera at a coffee pot so they could check from their desks whether it was full before walking over. Connected to the web in 1993, it became the world's first webcam. The famous 'Trojan Room coffee pot' was switched off in 2001 and auctioned online."
+  },
+  {
+   "t": "The QWERTY keyboard was built to prevent jams",
+   "teaser": "It deliberately separates the letters you type together.",
+   "more": "The QWERTY layout was designed in the 1870s for mechanical typewriters, spacing common letter pairs far apart so the metal typebars were less likely to clash and jam. When typewriters gave way to computers, the mechanical reason disappeared, but the layout was far too entrenched to replace. Faster designs like Dvorak exist, but never caught on."
+  },
+  {
+   "t": "The Kumbh Mela is the largest human gathering on Earth",
+   "teaser": "Tens of millions converge at India's sacred rivers.",
+   "more": "The Hindu Kumbh Mela, held on a rotating cycle at sites like Prayagraj, draws the biggest crowds of people anywhere on the planet. On peak days tens of millions bathe at the river confluence, and the temporary tent city grows so vast it shows up clearly in satellite images. UNESCO recognises it as intangible cultural heritage of humanity."
+  },
+  {
+   "t": "One poet wrote the national anthems of two countries",
+   "teaser": "Rabindranath Tagore's words open India and Bangladesh.",
+   "more": "Rabindranath Tagore, the first non-European to win the Nobel Prize in Literature (1913), wrote both India's national anthem, 'Jana Gana Mana,' and Bangladesh's, 'Amar Shonar Bangla.' No one else has authored the anthems of two sovereign nations. Sri Lanka's anthem is also widely believed to have been inspired by him."
+  },
+  {
+   "t": "Antarctica is the largest desert on Earth",
+   "teaser": "A desert is about dryness, not heat.",
+   "more": "A desert is defined by how little precipitation it receives, not by temperature. By that measure Antarctica — vast, frozen and extremely dry — is the world's largest desert, bigger than the Sahara. Parts of its interior have seen no rain or snow for millions of years, making them some of the driest places on the planet."
+  },
+  {
+   "t": "India has 28 states and 8 union territories",
+   "teaser": "States have their own governments; UTs are run by the centre.",
+   "more": "The newest state is Telangana (2014, carved from Andhra Pradesh). Delhi and Puducherry are special UTs with their own assemblies. Jammu & Kashmir became a UT in 2019. Largest state by area: Rajasthan; by population: Uttar Pradesh (~240 million — more people than most countries)."
+  },
+  {
+   "t": "The national anthem takes 52 seconds",
+   "teaser": "Jana Gana Mana, written by Rabindranath Tagore.",
+   "more": "Tagore wrote it in Bengali in 1911; it was adopted as the anthem in 1950. He also wrote Bangladesh's anthem — the only person whose songs are two countries' anthems. Vande Mataram (by Bankim Chandra Chatterjee) is the national song, which has equal status but no time rule."
+  }
+ ],
+ "learn": [
+  {
+   "title": "How governments borrow — and why bond yields matter",
+   "teaser": "A government IOU that moves the whole economy.",
+   "body": [
+    "Governments almost always spend more than they collect in taxes, and they cover the gap by borrowing — mainly by issuing bonds. A bond is essentially an IOU: investors lend the government money today in exchange for regular interest payments and the return of their principal on a fixed future date. Governments are usually seen as safe borrowers, so their bonds set a baseline 'risk-free' rate against which almost everything else in finance is priced.",
+    "The key number is the yield — the effective annual return a buyer earns. Yields rise when investors demand more compensation, for instance if they expect higher inflation or doubt the government's ability to repay, and they fall when investors seek safety. Crucially, bond prices and yields move in opposite directions: when demand pushes a bond's price up, its yield falls. Because central banks also buy and sell government bonds to influence the money supply, this market sits at the heart of the financial system.",
+    "For a country like India, these dynamics shape everyday life. The government's fiscal deficit — how much it borrows each year — affects how much credit is left for private businesses and what interest rates households pay. Credit-rating agencies judge the risk of sovereign debt, and their verdicts can raise or lower a nation's borrowing costs. Watching the 10-year government bond yield is one of the quickest ways to read the market's mood about an economy's future."
+   ]
+  },
+  {
+   "title": "How the US dollar became the world's money",
+   "teaser": "The quiet source of American power.",
+   "body": [
+    "In July 1944, with World War II still raging, delegates from 44 nations met at Bretton Woods in the United States to design the postwar financial order. They agreed to peg their currencies to the US dollar, which alone remained convertible to gold at a fixed price. The US, holding most of the world's gold and its strongest economy, became the anchor of the global system, and institutions like the International Monetary Fund and World Bank were born there.",
+    "In 1971, facing pressure on its gold reserves, the US ended the dollar's convertibility to gold, and the fixed-rate system collapsed into today's world of floating currencies. Yet the dollar did not lose its crown. It remained the currency in which oil and most commodities were priced, the main reserve that central banks hold, and the default medium for international trade and finance — a position reinforced by the depth and reliability of American markets.",
+    "This 'exorbitant privilege' gives the United States extraordinary leverage: it can borrow cheaply, run large deficits, and impose financial sanctions that ripple worldwide, because so much global activity flows through the dollar. Rival powers, including China and members of the BRICS grouping, have sought to reduce this dependence, but no clear alternative has yet emerged at anything near the same scale."
+   ]
+  },
+  {
+   "title": "1947: independence, Partition, and a subcontinent redrawn",
+   "teaser": "Freedom and tragedy arrived together.",
+   "body": [
+    "At the stroke of midnight on 14–15 August 1947, British India won independence — but it was simultaneously split into two nations, India and Pakistan. The decision to partition along broadly religious lines had been taken hastily amid rising communal tension and British eagerness to leave. A British lawyer, Cyril Radcliffe, who had never before visited India, was given just weeks to draw the boundary line dividing Punjab and Bengal.",
+    "What followed was one of the largest and most violent human migrations in history. Some 15 million people crossed the new borders in both directions, Hindus and Sikhs moving into India and Muslims into Pakistan, often in terror. Estimates of the dead from the accompanying communal violence range from several hundred thousand to well over a million, with countless women abducted and families torn apart.",
+    "The legacy still shapes South Asia today. Sardar Vallabhbhai Patel led the enormous task of integrating hundreds of princely states into the new India, but the fate of Jammu and Kashmir was left unresolved, sowing a dispute that has triggered wars and endures to this day. Partition remains a defining trauma and reference point in the politics of India, Pakistan and, after 1971, Bangladesh."
+   ]
+  },
+  {
+   "title": "The Cold War: how two superpowers divided the world",
+   "teaser": "Decades of rivalry without direct battle.",
+   "body": [
+    "After World War II, the world split into two hostile camps: the capitalist West led by the United States, and the communist bloc led by the Soviet Union. From roughly 1947 to 1991, these superpowers waged a 'cold' war — a rivalry fought not through direct combat between them, which nuclear weapons made unthinkable, but through an arms race, espionage, propaganda, and a race to the Moon. The threat of mutual annihilation loomed constantly, coming closest to reality in the 1962 Cuban Missile Crisis.",
+    "Instead of fighting each other head-on, the superpowers backed opposing sides in 'proxy' conflicts across the globe, from Korea and Vietnam to Afghanistan. Newly independent nations were pressured to pick a side. India, under Jawaharlal Nehru, helped lead the Non-Aligned Movement, seeking to chart an independent path and give the decolonising world a collective voice apart from either bloc.",
+    "The Cold War ended when the Soviet system, strained economically and politically, collapsed — symbolised by the fall of the Berlin Wall in 1989 and the dissolution of the USSR in 1991. That ushered in a brief 'unipolar' moment of American dominance. Today's world is increasingly described as multipolar, with the rise of China and the return of great-power competition echoing, in new forms, the old contest."
+   ]
+  },
+  {
+   "title": "Plate tectonics: why continents move and mountains rise",
+   "teaser": "The ground beneath you is slowly drifting.",
+   "body": [
+    "Earth's rigid outer shell is not a single solid layer but a jigsaw of about a dozen large plates that float on the hot, slowly flowing rock of the mantle beneath. These plates creep across the surface at roughly the speed your fingernails grow — a few centimetres a year. Over millions of years, that imperceptible motion rearranges the entire face of the planet, opening oceans and raising mountain ranges.",
+    "What happens at plate boundaries shapes the world's geology. Where plates collide, crust is crumpled upward into mountains; where they pull apart, molten rock rises to form new seafloor; and where they grind past each other, stress builds and releases as earthquakes. The Pacific 'Ring of Fire,' a belt of volcanoes and quakes, traces exactly such boundaries.",
+    "India offers one of the most dramatic examples. The Indian landmass was once part of a southern supercontinent, Gondwana, and drifted thousands of kilometres north before slamming into Asia around 50 million years ago. That collision pushed up the Himalayas — and because India is still pressing northward, the mountains continue to rise and the region remains seismically active."
+   ]
+  },
+  {
+   "title": "Natural selection: the simple idea behind life's diversity",
+   "teaser": "How blind variation builds astonishing design.",
+   "body": [
+    "Charles Darwin's theory of evolution by natural selection rests on a surprisingly simple mechanism. Within any population, individuals vary, and some of that variation is inherited by their offspring. When a particular trait helps individuals survive and reproduce in their environment, it becomes more common over generations, while unhelpful traits fade. Given enough time, this gradual filtering can transform species and produce structures as intricate as the eye.",
+    "A common misunderstanding is that evolution is purely random. Mutation, which supplies the raw variation, is random — but selection is not. It consistently favours whatever works better in a given setting, giving evolution direction without any need for a designer. All living things, from bacteria to blue whales, share common ancestry, a fact now confirmed in exquisite detail by comparing their DNA.",
+    "Evolution is not just history; it happens around us in real time. Bacteria evolving resistance to antibiotics, and viruses mutating into new variants, are natural selection playing out within human lifetimes — and a serious practical challenge for medicine. Understanding the process helps explain not only where the diversity of life came from, but why some of our most powerful drugs steadily lose their punch."
+   ]
+  },
+  {
+   "title": "Einstein's relativity, in plain language",
+   "teaser": "Time and space are not the fixed backdrop we assume.",
+   "body": [
+    "In 1905, Albert Einstein published his theory of special relativity, built on a startling premise: the speed of light is the same for every observer, no matter how fast they are moving. To keep that true, something else has to give — and what gives is our commonsense idea that time and space are absolute. A clock on a fast-moving spacecraft genuinely ticks slower than one at rest, an effect called time dilation. The same theory yields the most famous equation in science, E=mc², showing that mass and energy are interchangeable.",
+    "A decade later, Einstein extended these ideas into general relativity, a new theory of gravity. Instead of a mysterious force pulling objects together, gravity is reimagined as the bending of spacetime by mass and energy. A massive body like the Sun warps the space around it, and planets simply follow the straightest possible paths through that curved geometry. This picture predicted phenomena that seemed outlandish at the time, including black holes and ripples in spacetime called gravitational waves.",
+    "These are not just abstractions. The GPS in your phone must correct for relativistic effects, because clocks on orbiting satellites run at a slightly different rate than clocks on the ground; ignore relativity and navigation would drift off by kilometres within a day. Gravitational waves, predicted in 1915, were directly detected for the first time in 2015, a century later — a stunning confirmation of Einstein's vision."
+   ]
+  },
+  {
+   "title": "DNA: the four-letter code that builds every living thing",
+   "teaser": "A molecular instruction manual written in chemistry.",
+   "body": [
+    "Inside almost every cell of every living organism is DNA, a long molecule shaped like a twisted ladder — the famous double helix. The information it carries is written in an alphabet of just four chemical 'letters,' known by the initials A, T, G and C. The precise order of these letters along the strand spells out instructions, much as sequences of letters spell out words and sentences. Stretches of this code called genes act as recipes for building proteins, the molecular machines that run our bodies.",
+    "The scale is remarkable in both directions. The human genome contains roughly three billion letters and around 20,000 genes, yet we share the overwhelming majority of our DNA with other humans and a surprisingly large fraction with creatures as different as mice, bananas and yeast — a direct signature of shared ancestry. The Human Genome Project, completed in 2003, first read out the entire human sequence, opening a new era of biology and medicine.",
+    "Understanding this code has become one of the most powerful tools in science. Sequencing DNA helps diagnose disease, trace ancestry and track outbreaks, while gene-editing technologies like CRISPR now allow scientists to rewrite specific letters of the code with precision. That power raises profound possibilities — curing inherited diseases — alongside serious ethical questions about how far we should go in editing the blueprint of life."
+   ]
+  }
+ ]
+};
+window.EMBED_SKILLS={"tracks":[{"id":"personal-finance","name":"Personal Finance","icon":"💰","blurb":"Budgeting, credit, loans, insurance & tax — the money skills school skipped.","levels":[{"name":"Beginner","lessons":[{"id":"personal-finance-b1","title":"Your Money's Blueprint: The 50/30/20 Rule and Your Emergency Fund"},{"id":"personal-finance-b2","title":"Borrowing Smart: CIBIL Score, EMI Math, and Good vs Bad Debt"},{"id":"personal-finance-b3","title":"Protection First: Term Life and Health Insurance Done Right"},{"id":"personal-finance-b4","title":"Keep More, Lose Nothing: Tax Regimes, 80C, and UPI Safety"}]},{"name":"Intermediate","lessons":[{"id":"personal-finance-i1","title":"Every Rupee Gets a Job: The 50/30/20 Budget and Your Emergency Fund"},{"id":"personal-finance-i2","title":"Borrowing Smart: Your CIBIL Score, EMI Math, and Good vs Bad Debt"},{"id":"personal-finance-i3","title":"Taxes Decoded: Old vs New Regime and the 80C Toolkit (FY 2025-26)"},{"id":"personal-finance-i4","title":"Protecting Your Money: Term and Health Insurance, and UPI Safety"}]},{"name":"Advanced","lessons":[{"id":"personal-finance-a1","title":"Cash-Flow Architecture: Beyond 50/30/20 to a System That Compounds"},{"id":"personal-finance-a2","title":"EMI Mathematics, the Prepayment Playbook, and Your CIBIL Engine"},{"id":"personal-finance-a3","title":"The Tax-Optimised Salary: Old vs New Regime and the 80C/ELSS/PPF/NPS Toolkit"},{"id":"personal-finance-a4","title":"Engineering Your Downside: Term + Health Cover and UPI Fraud Defense"}]}]},{"id":"investing","name":"Investing & Wealth","icon":"📈","blurb":"Compounding, SIPs, funds and asset allocation done right.","levels":[{"name":"Beginner","lessons":[{"id":"investing-b1","title":"The Eighth Wonder: Compounding and the Rule of 72"},{"id":"investing-b2","title":"SIP vs Lumpsum: The Salaried Investor's Superpower"},{"id":"investing-b3","title":"Funds Decoded: NAV, Expense Ratio, and Index vs Active"},{"id":"investing-b4","title":"Your First Portfolio: Allocation, Rebalancing, and 80C Building Blocks"}]},{"name":"Intermediate","lessons":[{"id":"investing-i1","title":"Compounding, the Rule of 72, and Real vs Nominal Returns"},{"id":"investing-i2","title":"SIP vs Lumpsum, Rupee-Cost Averaging, and Goal-Based Investing"},{"id":"investing-i3","title":"Active Funds vs Index/ETF: NAV, Expense Ratio, and Direct vs Regular"},{"id":"investing-i4","title":"Asset Allocation, Rebalancing, and Tax-Smart Buckets (ELSS, PPF, NPS)"}]},{"name":"Advanced","lessons":[{"id":"investing-a1","title":"Nominal, Real, CAGR and XIRR: the four numbers that actually decide your wealth"},{"id":"investing-a2","title":"SIP vs Lumpsum, the rupee-cost-averaging myth, and how STP splits the difference"},{"id":"investing-a3","title":"The 1% that quietly eats a quarter of your corpus: TER, NAV, Direct vs Regular and tracking error"},{"id":"investing-a4","title":"Asset allocation, rebalancing bands and tax-smart goal buckets: ELSS, PPF and NPS"}]}]},{"id":"stock-market","name":"Stock Market","icon":"📊","blurb":"How markets really work, and how to read a stock.","levels":[{"name":"Beginner","lessons":[{"id":"stock-market-b1","title":"What Actually Happens When You Buy One Share"},{"id":"stock-market-b2","title":"Price Is Not Value: Market Cap and the P/E Ratio"},{"id":"stock-market-b3","title":"Reading a Company: Financials, Fundamental vs Technical"},{"id":"stock-market-b4","title":"Reading the Whole Market: Indices, Flows, IPOs and Your Own Brain"}]},{"name":"Intermediate","lessons":[{"id":"stock-market-i1","title":"Market Cap vs Price: Why a ₹50 Stock Can Be 'Costlier' Than a ₹5,000 One"},{"id":"stock-market-i2","title":"The P/E Ratio: How to Tell If You're Overpaying for Earnings"},{"id":"stock-market-i3","title":"FIIs, DIIs, and the Daily Tug-of-War That Moves the Nifty"},{"id":"stock-market-i4","title":"IPOs, Grey Market Premium, and Your Own Worst Enemy"}]},{"name":"Advanced","lessons":[{"id":"stock-market-a1","title":"Why a Low P/E Isn't 'Cheap': Valuation Past the Headline Multiple"},{"id":"stock-market-a2","title":"Reading Financials Like an Analyst: Cash, Returns, and Red Flags"},{"id":"stock-market-a3","title":"Plumbing and Flows: How Orders Fill and Who Really Moves the Market"},{"id":"stock-market-a4","title":"Don't Be Exit Liquidity: IPOs, GMP, and the Behavioural Traps"}]}]},{"id":"economics","name":"Economics & Macro","icon":"🏛️","blurb":"Inflation, GDP, the RBI and the rupee — what actually moves the economy.","levels":[{"name":"Beginner","lessons":[{"id":"economics-b1","title":"The Silent Tax: Inflation and India's CPI"},{"id":"economics-b2","title":"GDP, Growth and the Business Cycle"},{"id":"economics-b3","title":"The Repo Rate: How RBI Steers Your EMI"},{"id":"economics-b4","title":"The Rupee, Oil and the Current Account"}]},{"name":"Intermediate","lessons":[{"id":"economics-i1","title":"Inflation & CPI: the number that quietly taxes your salary"},{"id":"economics-i2","title":"The repo rate: how one number in Mumbai reaches your EMI"},{"id":"economics-i3","title":"GDP, growth & the business cycle: is the economy actually getting bigger?"},{"id":"economics-i4","title":"The rupee, the current account & the oil-rate ripple"}]},{"name":"Advanced","lessons":[{"id":"economics-a1","title":"The Monetary Transmission Mechanism: How a Repo-Rate Cut Actually Reaches Your EMI"},{"id":"economics-a2","title":"Reading Inflation Like the RBI: CPI, Core, Base Effects, and the Real Rate That Actually Matters"},{"id":"economics-a3","title":"The External Sector Decoded: Balance of Payments, the Impossible Trinity, and Why Oil Moves the Rupee"},{"id":"economics-a4","title":"Fiscal vs Monetary, and the Business Cycle: Who Steers the Economy, and How Growth Is Really Measured"}]}]},{"id":"sql","name":"SQL & Data","icon":"🗃️","blurb":"Analyst-grade SQL, from SELECT to window functions.","levels":[{"name":"Beginner","lessons":[{"id":"sql-b1","title":"The Six Words That Run the Show: SELECT, WHERE, ORDER BY & the Logical Order Nobody Tells You"},{"id":"sql-b2","title":"From Rows to Insight: GROUP BY, Aggregates & the HAVING vs WHERE Divide"},{"id":"sql-b3","title":"JOINs Demystified: INNER, LEFT, RIGHT, FULL — and the LEFT-JOIN Filter Trap That Ruins Reports"},{"id":"sql-b4","title":"NULL: The Silent Saboteur of Every Report"}]},{"name":"Intermediate","lessons":[{"id":"sql-i1","title":"The Order SQL Really Runs: WHERE, GROUP BY, HAVING & the NULL Traps"},{"id":"sql-i2","title":"Joining Without Losing Rows: JOIN Types, the LEFT-JOIN Filter Trap & UNION vs UNION ALL"},{"id":"sql-i3","title":"Think in Steps: CTEs, Subqueries & EXISTS (and the NOT IN NULL Landmine)"},{"id":"sql-i4","title":"Window Functions: Ranking, LAG/LEAD, Running Totals & Cohorts"}]},{"name":"Advanced","lessons":[{"id":"sql-a1","title":"Window Functions: See the Row and the Whole Crowd at Once"},{"id":"sql-a2","title":"The LEFT JOIN Filter Trap and Choosing the Right JOIN"},{"id":"sql-a3","title":"CTEs, Subqueries, and EXISTS: Structuring Thought in SQL"},{"id":"sql-a4","title":"Logical Order, Star Schema, and Writing Queries That Scale"}]}]},{"id":"python","name":"Python for Analysts","icon":"🐍","blurb":"Pandas, cleaning and automation for real analysis.","levels":[{"name":"Beginner","lessons":[{"id":"python-b1","title":"Your First Three Containers: Variables, Lists, and Dicts"},{"id":"python-b2","title":"Loops and Functions: Stop Doing the Same Thing 40 Times"},{"id":"python-b3","title":"pandas in Anger: Filter, Group, Join, and Why You Never Loop"},{"id":"python-b4","title":"Messy Data to Trustworthy Insight: Cleaning Plus an EDA Checklist"}]},{"name":"Intermediate","lessons":[{"id":"python-i1","title":"Filter, Group, Join: The Three Verbs That Run 80% of Analytics"},{"id":"python-i2","title":"Vectorization: Why the Loop You Wrote Runs 100x Too Slow"},{"id":"python-i3","title":"Cleaning Messy Data: Dtypes, NULLs, and Duplicates Without Fooling Yourself"},{"id":"python-i4","title":"From EDA Checklist to Automated Pull: Charts and APIs That Save You Hours"}]},{"name":"Advanced","lessons":[{"id":"python-a1","title":"Think in Columns, Not Rows: Vectorized Filter, Group, Join"},{"id":"python-a2","title":"Taming Messy Data: dtypes, NULLs, and De-duplication"},{"id":"python-a3","title":"The 2-Minute EDA Checklist and Charts That Answer Questions"},{"id":"python-a4","title":"Automation and APIs: Pull Data with requests, Safely"}]}]},{"id":"bi","name":"Power BI & Tableau","icon":"📈","blurb":"Data models, DAX filter context, and visuals that don’t lie.","levels":[{"name":"Beginner","lessons":[{"id":"bi-b1","title":"From Raw Data to a Star: How Power BI Actually Thinks"},{"id":"bi-b2","title":"Measure vs Calculated Column, and the Magic of SUMX"},{"id":"bi-b3","title":"CALCULATE: The One Function That Bends Filters (plus Time Intelligence)"},{"id":"bi-b4","title":"Tableau in a Day: Dimensions, Measures, LOD FIXED and Dashboards"}]},{"name":"Intermediate","lessons":[{"id":"bi-i1","title":"Model First: Star Schemas and the Measure-vs-Column Decision"},{"id":"bi-i2","title":"CALCULATE, Filter Context, and Iterators: How DAX Actually Thinks"},{"id":"bi-i3","title":"Time Intelligence, Visual Choice, and Keeping Reports Fast"},{"id":"bi-i4","title":"Tableau Fluency: Dimensions vs Measures, FIXED LOD, and Actions"}]},{"name":"Advanced","lessons":[{"id":"bi-a1","title":"CALCULATE and Filter Context: The Engine Room of DAX"},{"id":"bi-a2","title":"Time Intelligence That Actually Works: YTD, MTD and Year-over-Year"},{"id":"bi-a3","title":"Iterators and a Model That Flies: SUMX, Measures vs Columns, and Star-Schema Performance"},{"id":"bi-a4","title":"Tableau LOD Expressions and Dashboards That Talk Back: FIXED and Actions"}]}]},{"id":"excel","name":"Excel & Sheets","icon":"📊","blurb":"Formulas, lookups, pivots, Power Query — spreadsheet mastery.","levels":[{"name":"Beginner","lessons":[{"id":"excel-b1","title":"Cell References: Relative vs Absolute ($)"},{"id":"excel-b2","title":"Core Formulas: SUM, IF, COUNTIF, SUMIF, IFERROR"},{"id":"excel-b3","title":"Lookups: VLOOKUP, XLOOKUP and INDEX-MATCH"},{"id":"excel-b4","title":"Cleaning Data & Pivot Tables: From Messy to Report"}]},{"name":"Intermediate","lessons":[{"id":"excel-i1","title":"The Dollar Sign That Saves Your Weekend: References & Core Formulas"},{"id":"excel-i2","title":"Stop Scrolling: VLOOKUP, XLOOKUP & INDEX-MATCH"},{"id":"excel-i3","title":"Messy In, Clean Out: Text, Dates & Data Cleaning"},{"id":"excel-i4","title":"From Rows to Decisions: Pivot Tables, Power Query & Dashboards"}]},{"name":"Advanced","lessons":[{"id":"excel-a1","title":"Lookups that never break: INDEX-MATCH, XLOOKUP & two-way lookups"},{"id":"excel-a2","title":"Power Query: clean and reshape messy data without formulas"},{"id":"excel-a3","title":"Pivot tables, calculated fields, slicers & a live dashboard"},{"id":"excel-a4","title":"Dynamic arrays, LET/LAMBDA & light automation"}]}]},{"id":"statistics","name":"Statistics","icon":"📐","blurb":"The stats an analyst actually uses — and the traps.","levels":[{"name":"Beginner","lessons":[{"id":"statistics-b1","title":"Mean, Median & Percentiles: Which 'Average' Is Lying to You?"},{"id":"statistics-b2","title":"Correlation vs Causation: Why Ice Cream Doesn't Cause Drowning"},{"id":"statistics-b3","title":"Sampling & Bias: How 500 People Can Speak for a Billion"},{"id":"statistics-b4","title":"A/B Testing & p<0.05: Proving a Change Actually Worked"}]},{"name":"Intermediate","lessons":[{"id":"statistics-i1","title":"Mean, Median, Percentiles: Why the 'Average' Lies About Salaries"},{"id":"statistics-i2","title":"Skew, Distributions, and the Shape Your Data Is Actually In"},{"id":"statistics-i3","title":"Correlation vs Causation, Confounders, and Simpson's Paradox"},{"id":"statistics-i4","title":"A/B Testing, Confidence Intervals, and Base Rates Without Fooling Yourself"}]},{"name":"Advanced","lessons":[{"id":"statistics-a1","title":"The p-value Trap: Peeking, Power, and Why Your A/B Test Lies"},{"id":"statistics-a2","title":"Simpson's Paradox: When Every Segment Wins but the Total Loses"},{"id":"statistics-a3","title":"Base Rates and the Cancer Test That's 90% Wrong"},{"id":"statistics-a4","title":"Confidence Intervals and Regression: Reading the Uncertainty, Not Just the Point"}]}]},{"id":"product","name":"Product Analytics","icon":"📦","blurb":"Metrics, funnels, retention, A/B — analyst → product.","levels":[{"name":"Beginner","lessons":[{"id":"product-b1","title":"The vocabulary of a product analyst: active users, activation, retention, churn"},{"id":"product-b2","title":"The AARRR pirate funnel and choosing a North Star Metric"},{"id":"product-b3","title":"Cohorts, retention curves and reading a product dashboard"},{"id":"product-b4","title":"Experiment and prioritise: A/B testing, RICE/ICE, and telling the data story"}]},{"name":"Intermediate","lessons":[{"id":"product-i1","title":"Product Metrics & Choosing a North Star"},{"id":"product-i2","title":"The AARRR Funnel, Event Tracking & Cohort Retention"},{"id":"product-i3","title":"A/B Testing Products: Sample Size, Guardrails & Peeking"},{"id":"product-i4","title":"From Metrics to Decisions: RICE/ICE, Dashboards & Data Storytelling"}]},{"name":"Advanced","lessons":[{"id":"product-a1","title":"Retention, Cohorts & the Stickiness Ratio: Reading Survival Curves Like a PM"},{"id":"product-a2","title":"The AARRR Funnel & Choosing a North-Star Metric That Can't Be Gamed"},{"id":"product-a3","title":"A/B Testing for Products: Sample Size, Peeking, Guardrails & Novelty"},{"id":"product-a4","title":"From Event Instrumentation to Boardroom: RICE Prioritisation & the Data Story"}]}]},{"id":"ai-tech","name":"AI & Tech Literacy","icon":"🤖","blurb":"How LLMs, the cloud and the internet actually work.","levels":[{"name":"Beginner","lessons":[{"id":"ai-tech-b1","title":"What an LLM Really Is: A Machine That Guesses the Next Word"},{"id":"ai-tech-b2","title":"Why AI Sounds Confident When It's Wrong — and How to Fix It"},{"id":"ai-tech-b3","title":"How Machines Learn — and How Chatbots Grow Arms (Agents & Tools)"},{"id":"ai-tech-b4","title":"The Invisible Machinery: DNS, Cloud, Chips — and Using AI Without Losing Your Data or Your Integrity"}]},{"name":"Intermediate","lessons":[{"id":"ai-tech-i1","title":"How an LLM Actually Thinks: Next-Token Prediction, Tokens & the Context Window"},{"id":"ai-tech-i2","title":"Why AI Confidently Makes Things Up — and How to Catch It"},{"id":"ai-tech-i3","title":"Prompting Well and RAG: Feeding the Model the Right Context"},{"id":"ai-tech-i4","title":"AI Agents, Tool Use, and Using AI as Honest Leverage"}]},{"name":"Advanced","lessons":[{"id":"ai-tech-a1","title":"Inside the Machine: Why an LLM is a Next-Token Prediction Engine (and Why It Hallucinates)"},{"id":"ai-tech-a2","title":"Context, RAG, and Grounding: How to Make an LLM Cite Your Data Instead of Guessing"},{"id":"ai-tech-a3","title":"From Chatbot to Agent: Tool Use, the ReAct Loop, and Where It Breaks"},{"id":"ai-tech-a4","title":"The Stack Beneath the Magic: ML Basics, the Cloud, Chips, and Your Privacy"}]}]},{"id":"business","name":"Business & Strategy","icon":"♟️","blurb":"Unit economics, moats and how companies actually make money.","levels":[{"name":"Beginner","lessons":[{"id":"business-b1","title":"Read Any Business in 5 Minutes: The Model and the P&L"},{"id":"business-b2","title":"Does Growth Actually Make Money? Unit Economics (CAC, LTV, Payback)"},{"id":"business-b3","title":"The Leaky Bucket: Retention Metrics and the Power of Pricing"},{"id":"business-b4","title":"Why Some Companies Win: Five Forces, Moats and Thinking Tools"}]},{"name":"Intermediate","lessons":[{"id":"business-i1","title":"Unit Economics: Does Each Customer Actually Make You Money?"},{"id":"business-i2","title":"Reading a P&L: Gross Margin vs Net Margin, and Where the Money Leaks"},{"id":"business-i3","title":"Porter's Five Forces and Moats: Why Some Profits Survive and Others Evaporate"},{"id":"business-i4","title":"Retention, Churn and Cohorts: The Quiet Math That Decides Who Wins"}]},{"name":"Advanced","lessons":[{"id":"business-a1","title":"Unit Economics That Actually Hold: CAC, LTV, Payback and the Contribution-Margin Trap"},{"id":"business-a2","title":"Reading a P&L Like an Operator: Gross Margin, Contribution, and Where the Money Actually Leaks"},{"id":"business-a3","title":"Where Profits Hide: Porter's Five Forces and the Anatomy of a Moat"},{"id":"business-a4","title":"Pricing, Value Capture, and Thinking From First Principles"}]}]},{"id":"career","name":"Career Growth","icon":"🚀","blurb":"Skills that compound, plus the meta-game of getting ahead.","levels":[{"name":"Beginner","lessons":[{"id":"career-b1","title":"Compounding Skills and the T-Shaped Advantage"},{"id":"career-b2","title":"LinkedIn and Networking Without the Cringe"},{"id":"career-b3","title":"Salary Negotiation: CTC, BATNA, and Getting Paid Fairly"},{"id":"career-b4","title":"Reviews, Feedback, and Building Your Promotion Case"}]},{"name":"Intermediate","lessons":[{"id":"career-i1","title":"Skill Stacks and the T-Shaped Career: How to Become Rare and Valuable"},{"id":"career-i2","title":"Salary Negotiation Without Fear: Anchors, BATNA, and the Total-Comp View"},{"id":"career-i3","title":"Winning Your Promotion: Build the Case Before the Committee Does"},{"id":"career-i4","title":"Working With AI as a Force Multiplier — Not a Crutch or a Threat"}]},{"name":"Advanced","lessons":[{"id":"career-a1","title":"Career capital: building skills that compound (and a moat AI can't erode)"},{"id":"career-a2","title":"Personal brand, LinkedIn, and networking that isn't cringe"},{"id":"career-a3","title":"Salary negotiation: total comp, leverage, and the number that isn't on the offer letter"},{"id":"career-a4","title":"The promotion case, performance reviews, and knowing when to switch"}]}]},{"id":"communication","name":"Communication","icon":"🗣️","blurb":"Think clearly, tell the story, land the message.","levels":[{"name":"Beginner","lessons":[{"id":"communication-b1","title":"BLUF: Put the Bottom Line Up Front"},{"id":"communication-b2","title":"The Minto Pyramid: Structure Thinking Before You Write"},{"id":"communication-b3","title":"Storytelling with Data: Make the Number Land"},{"id":"communication-b4","title":"STAR Stories and Difficult Conversations"}]},{"name":"Intermediate","lessons":[{"id":"communication-i1","title":"The Pyramid Principle: Lead With the Answer"},{"id":"communication-i2","title":"BLUF & the Executive Summary: Say It First"},{"id":"communication-i3","title":"Storytelling With Data: One Message Per Slide"},{"id":"communication-i4","title":"Difficult Conversations: Feedback That Lands (SBI + Crucial Conversations)"}]},{"name":"Advanced","lessons":[{"id":"communication-a1","title":"The Minto Pyramid: Answer First, Then Defend It"},{"id":"communication-a2","title":"BLUF and the Executive Summary: Writing for People Who Won't Read Past Line One"},{"id":"communication-a3","title":"Storytelling with Data: Turning a Chart into a Decision"},{"id":"communication-a4","title":"Difficult Conversations and Stakeholder Management: Being Heard When Stakes Are High"}]}]},{"id":"scrum","name":"Agile & Scrum","icon":"🔁","blurb":"Sprints, ceremonies, user stories, velocity, Kanban.","levels":[{"name":"Beginner","lessons":[{"id":"scrum-b1","title":"Agile vs Waterfall & the Agile Manifesto"},{"id":"scrum-b2","title":"The Scrum Framework: Roles, Events & Artifacts"},{"id":"scrum-b3","title":"User Stories, INVEST, Story Points & Velocity"},{"id":"scrum-b4","title":"Burndown/Burnup, Kanban, WIP & the Analyst's Role"}]},{"name":"Intermediate","lessons":[{"id":"scrum-i1","title":"Agile vs Waterfall & the Agile Manifesto"},{"id":"scrum-i2","title":"The Scrum Framework: Roles, Events & Artifacts"},{"id":"scrum-i3","title":"User Stories, Acceptance Criteria (INVEST) & Sizing with Story Points"},{"id":"scrum-i4","title":"Velocity, Burndown/Burnup, Kanban & the Data Analyst in an Agile Team"}]},{"name":"Advanced","lessons":[{"id":"scrum-a1","title":"Waterfall, Agile & the Manifesto: Choosing the Right Battle"},{"id":"scrum-a2","title":"The Scrum Machine: Accountabilities, Events & Commitments"},{"id":"scrum-a3","title":"User Stories, INVEST, Story Points & Velocity"},{"id":"scrum-a4","title":"Kanban, Flow Metrics & the Data Analyst on an Agile Team"}]}]},{"id":"productivity","name":"Habits & Productivity","icon":"⚡","blurb":"Evidence-based focus, habits, energy and decisions.","levels":[{"name":"Beginner","lessons":[{"id":"productivity-b1","title":"The Habit Loop: Cue, Routine, Reward"},{"id":"productivity-b2","title":"Habit Stacking: Building New Habits on Old Ones"},{"id":"productivity-b3","title":"Deep Work and Beating Procrastination"},{"id":"productivity-b4","title":"Prioritisation with the Eisenhower Matrix"}]},{"name":"Intermediate","lessons":[{"id":"productivity-i1","title":"Engineer the Habit Loop, Then Stack It"},{"id":"productivity-i2","title":"Deep Work and the Real Reason You Procrastinate"},{"id":"productivity-i3","title":"Timeboxing and the Eisenhower Matrix"},{"id":"productivity-i4","title":"Energy Management: Sleep, Ultradian Rhythms, and Avoiding Burnout"}]},{"name":"Advanced","lessons":[{"id":"productivity-a1","title":"Deep Work and the Hidden Tax of Context Switching"},{"id":"productivity-a2","title":"Procrastination Is Mood Repair, Not Laziness"},{"id":"productivity-a3","title":"Manage Energy, Not Just Time: Circadian and Ultradian Rhythms"},{"id":"productivity-a4","title":"Deciding Under Uncertainty: Expected Value, Reversibility, and Premortems"}]}]},{"id":"gk","name":"GK & Current Affairs","icon":"🌍","blurb":"India & the world: polity, history, geography, science, institutions.","levels":[{"name":"Beginner","lessons":[{"id":"gk-b1","title":"The Constitution & the Preamble: India's Operating System"},{"id":"gk-b2","title":"India on the Map: Latitude, the Standard Meridian & the Tropic of Cancer"},{"id":"gk-b3","title":"The Freedom Struggle: A Timeline You Can Recall in 60 Seconds"},{"id":"gk-b4","title":"The Economy's Guardians: RBI, SEBI & NITI Aayog"}]},{"name":"Intermediate","lessons":[{"id":"gk-i1","title":"The Constitution's Architecture: Rights, Directives & Basic Structure"},{"id":"gk-i2","title":"The Freedom Struggle: From Petitions to Mass Satyagraha"},{"id":"gk-i3","title":"Who Regulates What: RBI, SEBI & NITI Aayog"},{"id":"gk-i4","title":"The Post-War World Order: UN, Bretton Woods, WTO & the G20"}]},{"name":"Advanced","lessons":[{"id":"gk-a1","title":"The Basic Structure Doctrine: The Limit on Parliament's Power to Amend"},{"id":"gk-a2","title":"How the RBI Sets Interest Rates: Flexible Inflation Targeting and the MPC"},{"id":"gk-a3","title":"The Post-1945 Global Order: UN, Bretton Woods, WTO and the G20"},{"id":"gk-a4","title":"India in Space: Chandrayaan-3, Aditya-L1 and Lagrange Points"}]}]},{"id":"interview","name":"Interview Prep","icon":"🎯","blurb":"Data/analyst interviews, cracked — with the lines, the probes and the gotchas.","levels":[{"name":"Beginner","lessons":[{"id":"interview-b1","title":"The Narrative Round: 90-Second Pitch, STAR, and the AI Question"},{"id":"interview-b2","title":"The SQL Screen: The 5 Patterns Interviewers Reuse"},{"id":"interview-b3","title":"Power BI, DAX Filter Context, and the Dashboard Case Round"},{"id":"interview-b4","title":"Product Sense, Guesstimates, Smart Questions, and Salary Negotiation"}]},{"name":"Intermediate","lessons":[{"id":"interview-i1","title":"Your 90-Second Story, STAR & the AI-Honesty Question"},{"id":"interview-i2","title":"The 5 SQL Patterns Interviewers Reuse"},{"id":"interview-i3","title":"DAX Filter Context & the Dashboard Case Round"},{"id":"interview-i4","title":"Product Sense, Guesstimates, Smart Questions & Negotiation"}]},{"name":"Advanced","lessons":[{"id":"interview-a1","title":"The 90-Second Pitch, STAR Stories & the AI Question"},{"id":"interview-a2","title":"The Five SQL Patterns Interviewers Reuse"},{"id":"interview-a3","title":"Power BI, DAX Filter Context & the Dashboard Case Round"},{"id":"interview-a4","title":"Guesstimates, Product Sense, Smart Questions & Salary"}]}]}]};

@@ -1,67 +1,706 @@
 {
-  "gk": [
-    {"t":"India has 28 states and 8 union territories","teaser":"States have their own governments; UTs are run by the centre.","more":"The newest state is Telangana (2014, carved from Andhra Pradesh). Delhi and Puducherry are special UTs with their own assemblies. Jammu & Kashmir became a UT in 2019. Largest state by area: Rajasthan; by population: Uttar Pradesh (~240 million — more people than most countries)."},
-    {"t":"The national anthem takes 52 seconds","teaser":"Jana Gana Mana, written by Rabindranath Tagore.","more":"Tagore wrote it in Bengali in 1911; it was adopted as the anthem in 1950. He also wrote Bangladesh's anthem — the only person whose songs are two countries' anthems. Vande Mataram (by Bankim Chandra Chatterjee) is the national song, which has equal status but no time rule."},
-    {"t":"There are 7 continents and 5 oceans","teaser":"Asia is the largest continent; the Pacific the largest ocean.","more":"Order by size: Asia, Africa, North America, South America, Antarctica, Europe, Australia. The five oceans: Pacific, Atlantic, Indian, Southern, Arctic. The Pacific alone is bigger than all land on Earth combined."},
-    {"t":"Light takes ~8 minutes from the Sun to Earth","teaser":"When you see the Sun, you see it 8 minutes in the past.","more":"Light travels ~300,000 km per second; the Sun is ~150 million km away. From the Moon, light takes just 1.3 seconds. The nearest star beyond the Sun, Proxima Centauri, is 4.2 light YEARS away — meaning you see it as it was 4 years ago."},
-    {"t":"The Indian rupee symbol ₹ arrived only in 2010","teaser":"Designed by D. Udaya Kumar, blending Devanagari 'Ra' and Latin 'R'.","more":"Before 2010 India wrote 'Rs.' like several other countries. The horizontal lines represent the tricolour and the equality sign — a nod to economic balance. Only a handful of currencies have unique symbols: $, €, £, ¥, ₹."},
-    {"t":"Mount Everest grows ~4 mm every year","teaser":"At 8,849 m it's the world's highest point — and still rising.","more":"The India-Eurasia plate collision keeps pushing it up. Its official height was revised in 2020 jointly by Nepal and China. The first confirmed summit: Edmund Hillary and Tenzing Norgay, 29 May 1953."},
-    {"t":"India's independence and republic days differ by purpose","teaser":"15 Aug 1947 = freedom; 26 Jan 1950 = our own Constitution.","more":"Independence Day marks the end of British rule. Republic Day marks the Constitution coming into force, making India a republic with its own head of state instead of the British monarch. That's why Republic Day has the grand parade — it celebrates the state India built for itself."},
-    {"t":"A cheque and a demand draft are not the same","teaser":"A cheque can bounce; a DD is prepaid so it cannot.","more":"A cheque instructs YOUR bank to pay and fails if your balance is short. A demand draft is bought from the bank upfront — the bank itself guarantees payment. That's why institutions ask for DDs for fees. Both are fading as UPI handles 80%+ of India's retail digital payments."},
-    {"t":"The Olympics happen every 4 years — mostly","teaser":"Summer and Winter Games alternate every 2 years.","more":"Cancelled only by the World Wars (1916, 1940, 1944) and delayed once by COVID (Tokyo 2020 held in 2021). India's first Olympic medal as an independent nation: hockey gold, 1948 London — beating Britain in Britain a year after independence."},
-    {"t":"Why a year has 365 days and a leap year 366","teaser":"Earth's orbit takes 365.25 days — the calendar catches up every 4 years.","more":"The extra quarter-day is banked and added as Feb 29. Century years skip it unless divisible by 400 (2000 yes, 2100 no) because the true figure is 365.2422, not exactly 365.25. Without this, seasons would drift through the calendar."},
-    {"t":"The seven wonders include the Taj Mahal","teaser":"Chosen by a global vote of 100 million people in 2007.","more":"The 'New 7 Wonders': Taj Mahal, Great Wall of China, Petra (Jordan), Christ the Redeemer (Brazil), Machu Picchu (Peru), Chichén Itzá (Mexico), and the Colosseum (Rome). Of the original ancient wonders, only the Great Pyramid of Giza still stands."},
-    {"t":"Bank interest: simple vs compound","teaser":"Simple pays on the principal; compound pays on interest too.","more":"₹1 lakh at 10% simple = ₹10,000 every year, flat. Compound = ₹10,000 the first year, ₹11,000 the next, and so on — because interest joins the principal. Fixed deposits compound quarterly, which is why their 'effective yield' is a bit higher than the headline rate."},
-    {"t":"India has 22 official languages","teaser":"Listed in the Constitution's Eighth Schedule — Hindi isn't the 'national' language.","more":"Hindi is an official language of the Union alongside English; no language is legally 'national'. The 22 include Bengali, Telugu, Marathi, Tamil, Urdu, Gujarati and Sanskrit. India has 120+ languages with 10,000+ speakers each — the world's most multilingual large country."},
-    {"t":"Why the sea is salty but rivers are not","teaser":"Rivers carry tiny amounts of salt to the sea — and the sea never drains.","more":"Rainwater dissolves minute quantities of minerals from rocks into rivers. Rivers flow to the sea, where water evaporates but salt stays behind, concentrating over billions of years. Rivers taste fresh only because their salt keeps moving on instead of accumulating."},
-    {"t":"ISRO launched 104 satellites in one rocket","teaser":"A world record in 2017, from a single PSLV flight.","more":"Most were tiny foreign 'nanosatellites' — proof of ISRO's reputation as the world's budget-friendly, reliable launcher. India was also first to reach Mars orbit on its first attempt (Mangalyaan, 2014) — at a cost less than the movie Gravity."},
-    {"t":"India's Constitution is the world's longest","teaser":"Adopted 26 Nov 1949, in force 26 Jan 1950.","more":"B.R. Ambedkar chaired the drafting committee. It borrowed deliberately: parliamentary system from Britain, fundamental rights from the US, directive principles from Ireland, emergency provisions from Germany. Jan 26 was chosen because Congress declared 'Purna Swaraj' on that date in 1930."},
-    {"t":"The RBI was born in 1935","teaser":"India's central bank predates independence by 12 years.","more":"Set up under the RBI Act 1934 based on the Hilton Young Commission, it was privately owned until nationalisation in 1949. It issues currency, sets the repo rate, regulates banks, and manages the rupee — its first governor was Osborne Smith; C.D. Deshmukh was the first Indian governor."},
-    {"t":"1991: the year India's economy changed","teaser":"A balance-of-payments crisis forced liberalisation.","more":"With forex reserves down to weeks of imports, PM Narasimha Rao and FM Manmohan Singh dismantled the licence raj, devalued the rupee, cut tariffs and opened doors to foreign investment. Nearly every big private-sector story since — IT, telecom, startups — traces to this pivot."},
-    {"t":"Why the monsoon happens","teaser":"Land heats faster than sea — wind follows.","more":"By June the subcontinent's landmass is much hotter than the Indian Ocean, creating a low-pressure zone that pulls moisture-laden winds northeast. They break on the Western Ghats and Himalayas as rain. About 70% of India's annual rainfall arrives in these four months, which is why a 'bad monsoon' moves inflation, farm incomes and even elections."},
-    {"t":"Ashoka: the emperor who renounced war","teaser":"His wheel sits at the centre of the tricolour.","more":"After the bloody Kalinga war (~261 BCE), Mauryan emperor Ashoka embraced Buddhism and spread edicts on rock pillars across the subcontinent. The Ashoka Chakra on India's flag and the Lion Capital national emblem both come from his pillars at Sarnath."},
-    {"t":"The two World Wars, datelined","teaser":"1914–18 and 1939–45 — the second killed ~70–85 million.","more":"WWI started with an assassination in Sarajevo and ended empires (Ottoman, Austro-Hungarian, Russian Tsar). WWII began with Germany invading Poland and ended with atomic bombs on Hiroshima and Nagasaki. Over 2.5 million Indian soldiers served in WWII — the largest volunteer army in history."},
-    {"t":"Why the UN exists","teaser":"Founded 1945 by 51 countries so WWIII never happens.","more":"Headquartered in New York, its Security Council has five veto-holding permanent members: US, UK, France, Russia, China. India is a founding member and the largest cumulative contributor of UN peacekeeping troops, but its long push for a permanent Security Council seat remains unresolved."},
-    {"t":"The Berlin Wall fell in 1989","teaser":"One night in November ended Europe's clearest Cold War symbol.","more":"Built in 1961 to stop East Germans fleeing to the capitalist West, the wall cut Berlin in two for 28 years. Its fall on 9 November 1989 triggered German reunification within a year and previewed the Soviet collapse of 1991."},
-    {"t":"What NATO is","teaser":"A military pact where attacking one member means attacking all.","more":"Founded 1949, the North Atlantic Treaty Organization's Article 5 collective-defence clause has been invoked once — after 9/11. It expanded eastward after the Cold War, which Russia cites among grievances behind the Ukraine conflict. India is not a member and stays formally non-aligned."},
-    {"t":"The EU in one card","teaser":"27 countries, one market, 20 sharing the euro.","more":"Born from post-WWII efforts to bind France and Germany economically so they'd never fight again, the European Union lets goods, services, money and people move freely across members. Brexit (2020) made the UK the only country ever to leave."},
-    {"t":"Why there's an International Date Line","teaser":"Cross it westward and you skip a day.","more":"The Earth has 24 time zones; somewhere the calendar must flip. The line zigzags through the Pacific to avoid splitting countries. Fly Delhi to San Francisco and you can land at an earlier local time than you took off — the date line gives the day back."},
-    {"t":"GST: one nation, one tax (2017)","teaser":"It replaced a maze of central and state levies.","more":"The Goods and Services Tax merged excise, VAT, service tax and more into one destination-based tax with slabs (0/5/12/18/28%). It made interstate commerce dramatically simpler — trucks no longer queue at state borders for tax checks — and every invoice feeds a single national IT backbone."},
-    {"t":"ISRO's Chandrayaan-3 moment","teaser":"In 2023 India became the first to land near the lunar south pole.","more":"After Chandrayaan-2's lander crashed in 2019, ISRO's Vikram lander touched down softly on 23 August 2023 — making India the fourth country to soft-land on the Moon and the first at the south polar region, where ice deposits could support future missions. Mission cost: roughly ₹615 crore, less than many Hollywood films."},
-    {"t":"ARPANET: the internet's grandfather","teaser":"The first message in 1969 was meant to be 'LOGIN' — it crashed at 'LO'.","more":"A US defence research network connecting four universities grew into the internet after TCP/IP became its common language in 1983. The web (websites, URLs, browsers) came later — invented by Tim Berners-Lee at CERN in 1989 as a layer on top of the internet."},
-    {"t":"Moore's Law","teaser":"Chip transistor counts doubled roughly every two years for 50 years.","more":"Intel co-founder Gordon Moore's 1965 observation became the tech industry's metronome — it's why phones outpower old supercomputers. Physical limits have slowed it, which is partly why the industry pivoted to specialised chips (GPUs, AI accelerators) instead of just faster general processors."},
-    {"t":"Why Silicon Valley is 'silicon'","teaser":"The chip element, not the software.","more":"The Santa Clara Valley earned the name in the 1970s from silicon semiconductor makers like Fairchild and Intel. Software, internet and AI giants came in later waves. Bengaluru earned the 'India's Silicon Valley' tag through the 1990s IT services boom — Infosys and Wipro, not chips."},
-    {"t":"How vaccines work","teaser":"A harmless preview teaches your immune system the enemy's face.","more":"Vaccines present a dead, weakened, or fragment version of a pathogen (or, in mRNA vaccines, instructions to build one protein of it), so your body develops antibodies without the disease. Smallpox — which killed ~300 million people in the 20th century alone — became the first disease ever eradicated, in 1980."},
-    {"t":"Plate tectonics built the Himalayas","teaser":"India is still crashing into Asia at ~5 cm a year.","more":"Around 50 million years ago the Indian plate slammed into the Eurasian plate; the crumple zone is the Himalayas, still rising a few millimetres yearly. The same collision makes the region earthquake-prone — the reason Delhi sits in seismic zone IV."},
-    {"t":"Why the sky is blue","teaser":"Air scatters blue light more than red.","more":"Sunlight contains all colours; molecules in the atmosphere scatter shorter (bluer) wavelengths far more — called Rayleigh scattering. At sunset, light travels through more air, the blue scatters away before reaching you, leaving reds and oranges."},
-    {"t":"Black holes, minus the mystery","teaser":"Gravity so strong that light can't leave.","more":"When a massive star collapses, its gravity can warp space so severely nothing escapes past the 'event horizon'. They're detected by their effect on nearby matter. The first-ever photo of one (M87*, 2019) took a telescope network the size of Earth."},
-    {"t":"The Suez Canal shortcut","teaser":"It saves ships ~7,000 km between Europe and Asia.","more":"Opened in 1869 through Egypt, it carries about 12% of global trade. When one ship (Ever Given) wedged sideways for six days in 2021, it blocked ~$10 billion of goods per day — a live demo of how fragile supply chains are."},
-    {"t":"Mughals to the British, compressed","teaser":"1526 Panipat → 1757 Plassey → 1857 Revolt → 1947.","more":"Babur founded Mughal rule in 1526; it peaked under Akbar and Aurangzeb. The East India Company's victory at Plassey (1757) began company rule; after the 1857 revolt, the British Crown took direct control ('the Raj') until independence in 1947."},
-    {"t":"What the Non-Aligned Movement was","teaser":"India's Cold War stance: neither US bloc nor Soviet bloc.","more":"Co-founded by Nehru, Egypt's Nasser and Yugoslavia's Tito in 1961, NAM let newly independent nations avoid picking sides. In practice India tilted toward Soviet defence supplies after the 1962 China war and 1971 US support for Pakistan."},
-    {"t":"The 1947 Partition, in numbers","teaser":"~10–15 million displaced; up to a million dead.","more":"British India split into India and Pakistan along the hastily drawn Radcliffe Line, published two days after independence. It remains one of history's largest forced migrations and the root of the Kashmir dispute and three India-Pakistan wars (1947, 1965, 1971 — the last creating Bangladesh)."},
-    {"t":"Why leap years exist","teaser":"Earth's year is 365.2422 days — the calendar has to catch up.","more":"Adding Feb 29 every four years overcorrects slightly, so century years skip it unless divisible by 400 (2000 was a leap year; 2100 won't be). Without leap years, seasons would drift — in ~700 years, June would be winter in Delhi."},
-    {"t":"How elections pick India's President","teaser":"You don't vote for President — MPs and MLAs do.","more":"India's President is elected by an electoral college of elected MPs and state MLAs, with votes weighted by population. Real executive power sits with the PM and council of ministers; the President's key discretionary moments come in hung parliaments and constitutional crises."},
-    {"t":"What a recession technically is","teaser":"Two straight quarters of shrinking GDP is the common shorthand.","more":"Economists actually judge by depth, duration and breadth of decline across jobs, income, output and sales. India's COVID quarter (Apr–Jun 2020, GDP −24%) was its sharpest recorded contraction; the 2008 global crisis, by contrast, only slowed India's growth without shrinking it."},
-    {"t":"The Olympics' 1,500-year gap","teaser":"Ancient games ran ~776 BCE to 393 CE; revived 1896.","more":"The ancient Greek games honoured Zeus at Olympia until a Roman emperor banned pagan festivals. Frenchman Pierre de Coubertin revived them in Athens in 1896. India's first individual gold came only in 2008 — Abhinav Bindra, shooting."},
-    {"t":"Why DNA is called a blueprint","teaser":"Four letters — A, T, G, C — spell out every living thing.","more":"DNA is a molecule storing instructions to build proteins; genes are its meaningful sentences. Humans share ~99.9% of DNA with each other and ~60% with bananas. The 2003 Human Genome Project read all 3 billion letters; today a genome can be sequenced in hours."},
-    {"t":"Compound interest, the eighth wonder","teaser":"Money earning money on the money it already earned.","more":"₹1 lakh at 12% becomes ₹3.1 lakh in 10 years and ₹9.6 lakh in 20 — the growth accelerates because each year's interest joins the principal. The 'rule of 72': divide 72 by the interest rate to estimate doubling time. At 12%, money doubles every ~6 years."}
-  ],
-  "learn": [
-    {"title":"P/E ratio: the market's price tag","teaser":"How many years of profit you're paying for one share.","body":["Price-to-Earnings = share price ÷ earnings per share. A P/E of 25 means you pay ₹25 for every ₹1 of annual profit. High P/E signals the market expects fast growth (or the stock is expensive); low P/E signals slow growth expectations (or a bargain).","It's only meaningful against context: the company's own history, its sector average, and growth rate. Indian IT often trades at 20–30; PSU banks far lower. A 'cheap' stock with shrinking profits is usually cheap for a reason."]},
-    {"title":"Correlation is not causation","teaser":"The most important sentence in analytics.","body":["Ice cream sales and drownings rise together — summer causes both. When two metrics move together, there are always four possibilities: A causes B, B causes A, something else causes both, or coincidence. Dashboards show correlation; only controlled experiments or careful causal analysis show causation.","Practical BI reflex: before reporting 'X drove Y', ask what else changed in the same window — a campaign, a price change, seasonality, a tracking change. The last one bites analysts most often."]},
-    {"title":"Mean vs median: which lies less?","teaser":"One billionaire in a room makes the 'average' person rich.","body":["The mean (sum ÷ count) is dragged by outliers; the median (middle value) isn't. Average income sounds impressive when a few earn crores; median income tells you what the typical person makes. Same for ticket sizes, session times, order values.","Rule of thumb: for skewed data (money, wait times, engagement), report the median or percentiles. If mean and median differ a lot, that gap itself is a finding — your distribution has a long tail worth investigating."]},
-    {"title":"Opportunity cost","teaser":"The real cost of anything is what you gave up to get it.","body":["Spending ₹15 lakh on a car isn't just ₹15 lakh — it's also the ~₹47 lakh that money could become in 10 years at 12%. Every choice of time or money silently declines the alternatives. Economists call the best foregone alternative the opportunity cost.","It reframes decisions: a 'free' three-hour meeting costs the work you'd have shipped. An okay job offer costs the better one you stopped searching for. Comparing against 'doing nothing' is almost always the wrong baseline."]},
-    {"title":"How IPOs actually work","teaser":"A private company sells shares to the public for the first time.","body":["The company hires investment banks to set a price band, files a prospectus (DRHP) with SEBI, and collects bids. Retail investors apply in lots; oversubscribed issues allot by lottery. On listing day the stock starts trading — sometimes far above or below issue price.","Listing 'pops' make headlines, but the base rate is sobering: many hyped IPOs trade below issue price within a year (India's 2021 tech-IPO batch is the classic case). Reading where the money goes — fresh growth capital vs early investors cashing out — tells you a lot."]},
-    {"title":"A/B testing in five sentences","teaser":"Split users randomly, change one thing, measure the difference.","body":["Random assignment makes the two groups statistically identical except for your change, so any outcome gap is caused by it — this is the cleanest causation tool in product work. The catch is sample size: small tests 'win' by luck constantly.","Standard practice: decide the metric and minimum effect before launching, run a significance check (p < 0.05 convention), and beware peeking early — checking daily and stopping at the first 'significant' result inflates false positives dramatically."]},
-    {"title":"Why the Sensex is called the Sensex","teaser":"'Sensitive Index' — 30 big BSE stocks standing in for the market.","body":["It tracks 30 of the largest, most-traded companies on the Bombay Stock Exchange, Asia's oldest (1875). Base value: 100 in 1978–79 — so ~77,000 means those stocks are worth roughly 770× their 1979 level. The Nifty 50 is the NSE's 50-stock equivalent.","Index composition changes over time — laggards get dropped, risers added — which builds in survivorship: the index isn't the same 30 companies your grandfather's Sensex had."]},
-    {"title":"What the repo rate actually does","teaser":"RBI's lending rate to banks — the master dial for every EMI.","body":["Banks borrow from RBI at the repo rate. Raise it and all credit gets costlier, cooling spending and inflation; cut it and money cheapens, boosting growth. The Monetary Policy Committee resets it every two months against a 4% (±2%) CPI target.","Transmission is the catch: banks pass rate cuts to depositors fast and to borrowers slowly. That lag — and how much of a cut actually reaches your home loan — is what analysts fight about after every MPC meeting."]},
-    {"title":"What GDP measures — and misses","teaser":"Everything produced in a year; nothing about who gets it.","body":["GDP is the market value of final goods and services produced in a period. India's ~$4 trillion ranks among the world's largest — but per capita it ranks far lower, divided across 1.4 billion people.","It ignores unpaid work, inequality and environmental damage, and a hospital bill raises GDP the same as a festival. '7% growth' means output grew — not that everyone is 7% better off."]},
-    {"title":"How India measures inflation","teaser":"CPI prices a fixed basket a typical household buys.","body":["Food is nearly half of India's CPI basket, so vegetable prices swing the headline number. '6% inflation' means the basket costs 6% more than a year ago. RBI's legal mandate: keep it at 4%, within 2–6%.","WPI tracks wholesale prices businesses pay each other; the two can diverge sharply. For personal finance, your true inflation depends on your basket — education and health have outpaced CPI for years."]},
-    {"title":"What an LLM actually is","teaser":"A next-word predictor trained on most of the written internet.","body":["Models like GPT, Gemini and Claude predict the next token; at sufficient scale that absorbs grammar, facts, reasoning patterns and code. Chat behaviour comes from fine-tuning with human feedback afterward.","Two limits follow: hallucination (fluent but wrong — they optimise plausibility, not truth) and frozen knowledge (they know training data, not today) unless given search or documents. Every 'AI made this up' story traces to the first; every 'AI doesn't know X' to the second."]},
-    {"title":"Why oil moves everything","teaser":"A fifth of world supply ships through one strait near Iran.","body":["Crude feeds transport, plastics, fertiliser and power — an oil spike is a tax on the whole economy. The Strait of Hormuz chokepoint is why Gulf tensions instantly lift Brent.","India imports 85%+ of its crude: costlier oil widens the trade deficit, weakens the rupee, and lifts CPI. That chain — Gulf headline → rupee → your petrol pump → RBI's next rate call — is worth internalising."]},
-    {"title":"Bulls, bears, and the names","teaser":"Horns toss up; paws swipe down.","body":["Bull market: sustained rise (+20% from a low). Bear: sustained fall (−20% from a high). The likely origin is the animals' attack styles, plus an old proverb about selling the bearskin before catching the bear — betting on a fall.","March 2020's COVID crash was a three-month bear phase; the recovery after was a textbook bull run. 'Bullish on X' simply means expecting X to rise."]},
-    {"title":"Market cap, and why price ≠ size","teaser":"A ₹5,000 stock can be a smaller company than a ₹500 one.","body":["Market capitalisation = share price × number of shares. MRF's famous ₹1+ lakh share price makes it nowhere near India's biggest company; Reliance's much cheaper shares multiply across far more of them.","Caps define categories — large (top 100), mid (101–250), small (rest) by SEBI's rules — which matters because mutual funds are mandated to buy within their category. A stock crossing a cap boundary mechanically gains or loses buyers."]},
-    {"title":"Percentiles: how analysts avoid lying","teaser":"p50, p90, p99 — the shape of reality, not one number.","body":["An average API response of 200ms hides that 1% of users wait 4 seconds. p50 (median) shows the typical case, p90 the bad day, p99 the disaster tail. Same for delivery times, load times, ticket resolution.","Reporting reflex: any latency, wait-time or money metric deserves at least p50 + p90. If someone gives you only the mean, they're either new or hiding the tail."]},
-    {"title":"The 1962 war India doesn't celebrate","teaser":"A month-long border war with China reshaped Indian defence policy.","body":["In October 1962 Chinese forces advanced across the disputed Himalayan border (Aksai Chin, NEFA — today's Arunachal), overwhelming underprepared Indian positions before declaring a unilateral ceasefire. Nehru's reputation never fully recovered.","The war triggered India's military modernisation and its tilt toward Soviet arms, and the unresolved Line of Actual Control remains the flashpoint behind standoffs like Galwan 2020."]}
-  ]
+ "gk": [
+  {
+   "t": "India has 28 states and 8 union territories",
+   "teaser": "States have their own governments; UTs are run by the centre.",
+   "more": "The newest state is Telangana (2014, carved from Andhra Pradesh). Delhi and Puducherry are special UTs with their own assemblies. Jammu & Kashmir became a UT in 2019. Largest state by area: Rajasthan; by population: Uttar Pradesh (~240 million — more people than most countries)."
+  },
+  {
+   "t": "The national anthem takes 52 seconds",
+   "teaser": "Jana Gana Mana, written by Rabindranath Tagore.",
+   "more": "Tagore wrote it in Bengali in 1911; it was adopted as the anthem in 1950. He also wrote Bangladesh's anthem — the only person whose songs are two countries' anthems. Vande Mataram (by Bankim Chandra Chatterjee) is the national song, which has equal status but no time rule."
+  },
+  {
+   "t": "There are 7 continents and 5 oceans",
+   "teaser": "Asia is the largest continent; the Pacific the largest ocean.",
+   "more": "Order by size: Asia, Africa, North America, South America, Antarctica, Europe, Australia. The five oceans: Pacific, Atlantic, Indian, Southern, Arctic. The Pacific alone is bigger than all land on Earth combined."
+  },
+  {
+   "t": "Light takes ~8 minutes from the Sun to Earth",
+   "teaser": "When you see the Sun, you see it 8 minutes in the past.",
+   "more": "Light travels ~300,000 km per second; the Sun is ~150 million km away. From the Moon, light takes just 1.3 seconds. The nearest star beyond the Sun, Proxima Centauri, is 4.2 light YEARS away — meaning you see it as it was 4 years ago."
+  },
+  {
+   "t": "The Indian rupee symbol ₹ arrived only in 2010",
+   "teaser": "Designed by D. Udaya Kumar, blending Devanagari 'Ra' and Latin 'R'.",
+   "more": "Before 2010 India wrote 'Rs.' like several other countries. The horizontal lines represent the tricolour and the equality sign — a nod to economic balance. Only a handful of currencies have unique symbols: $, €, £, ¥, ₹."
+  },
+  {
+   "t": "Mount Everest grows ~4 mm every year",
+   "teaser": "At 8,849 m it's the world's highest point — and still rising.",
+   "more": "The India-Eurasia plate collision keeps pushing it up. Its official height was revised in 2020 jointly by Nepal and China. The first confirmed summit: Edmund Hillary and Tenzing Norgay, 29 May 1953."
+  },
+  {
+   "t": "India's independence and republic days differ by purpose",
+   "teaser": "15 Aug 1947 = freedom; 26 Jan 1950 = our own Constitution.",
+   "more": "Independence Day marks the end of British rule. Republic Day marks the Constitution coming into force, making India a republic with its own head of state instead of the British monarch. That's why Republic Day has the grand parade — it celebrates the state India built for itself."
+  },
+  {
+   "t": "A cheque and a demand draft are not the same",
+   "teaser": "A cheque can bounce; a DD is prepaid so it cannot.",
+   "more": "A cheque instructs YOUR bank to pay and fails if your balance is short. A demand draft is bought from the bank upfront — the bank itself guarantees payment. That's why institutions ask for DDs for fees. Both are fading as UPI handles 80%+ of India's retail digital payments."
+  },
+  {
+   "t": "The Olympics happen every 4 years — mostly",
+   "teaser": "Summer and Winter Games alternate every 2 years.",
+   "more": "Cancelled only by the World Wars (1916, 1940, 1944) and delayed once by COVID (Tokyo 2020 held in 2021). India's first Olympic medal as an independent nation: hockey gold, 1948 London — beating Britain in Britain a year after independence."
+  },
+  {
+   "t": "Why a year has 365 days and a leap year 366",
+   "teaser": "Earth's orbit takes 365.25 days — the calendar catches up every 4 years.",
+   "more": "The extra quarter-day is banked and added as Feb 29. Century years skip it unless divisible by 400 (2000 yes, 2100 no) because the true figure is 365.2422, not exactly 365.25. Without this, seasons would drift through the calendar."
+  },
+  {
+   "t": "The seven wonders include the Taj Mahal",
+   "teaser": "Chosen by a global vote of 100 million people in 2007.",
+   "more": "The 'New 7 Wonders': Taj Mahal, Great Wall of China, Petra (Jordan), Christ the Redeemer (Brazil), Machu Picchu (Peru), Chichén Itzá (Mexico), and the Colosseum (Rome). Of the original ancient wonders, only the Great Pyramid of Giza still stands."
+  },
+  {
+   "t": "Bank interest: simple vs compound",
+   "teaser": "Simple pays on the principal; compound pays on interest too.",
+   "more": "₹1 lakh at 10% simple = ₹10,000 every year, flat. Compound = ₹10,000 the first year, ₹11,000 the next, and so on — because interest joins the principal. Fixed deposits compound quarterly, which is why their 'effective yield' is a bit higher than the headline rate."
+  },
+  {
+   "t": "India has 22 official languages",
+   "teaser": "Listed in the Constitution's Eighth Schedule — Hindi isn't the 'national' language.",
+   "more": "Hindi is an official language of the Union alongside English; no language is legally 'national'. The 22 include Bengali, Telugu, Marathi, Tamil, Urdu, Gujarati and Sanskrit. India has 120+ languages with 10,000+ speakers each — the world's most multilingual large country."
+  },
+  {
+   "t": "Why the sea is salty but rivers are not",
+   "teaser": "Rivers carry tiny amounts of salt to the sea — and the sea never drains.",
+   "more": "Rainwater dissolves minute quantities of minerals from rocks into rivers. Rivers flow to the sea, where water evaporates but salt stays behind, concentrating over billions of years. Rivers taste fresh only because their salt keeps moving on instead of accumulating."
+  },
+  {
+   "t": "ISRO launched 104 satellites in one rocket",
+   "teaser": "A world record in 2017, from a single PSLV flight.",
+   "more": "Most were tiny foreign 'nanosatellites' — proof of ISRO's reputation as the world's budget-friendly, reliable launcher. India was also first to reach Mars orbit on its first attempt (Mangalyaan, 2014) — at a cost less than the movie Gravity."
+  },
+  {
+   "t": "India's Constitution is the world's longest",
+   "teaser": "Adopted 26 Nov 1949, in force 26 Jan 1950.",
+   "more": "B.R. Ambedkar chaired the drafting committee. It borrowed deliberately: parliamentary system from Britain, fundamental rights from the US, directive principles from Ireland, emergency provisions from Germany. Jan 26 was chosen because Congress declared 'Purna Swaraj' on that date in 1930."
+  },
+  {
+   "t": "The RBI was born in 1935",
+   "teaser": "India's central bank predates independence by 12 years.",
+   "more": "Set up under the RBI Act 1934 based on the Hilton Young Commission, it was privately owned until nationalisation in 1949. It issues currency, sets the repo rate, regulates banks, and manages the rupee — its first governor was Osborne Smith; C.D. Deshmukh was the first Indian governor."
+  },
+  {
+   "t": "1991: the year India's economy changed",
+   "teaser": "A balance-of-payments crisis forced liberalisation.",
+   "more": "With forex reserves down to weeks of imports, PM Narasimha Rao and FM Manmohan Singh dismantled the licence raj, devalued the rupee, cut tariffs and opened doors to foreign investment. Nearly every big private-sector story since — IT, telecom, startups — traces to this pivot."
+  },
+  {
+   "t": "Why the monsoon happens",
+   "teaser": "Land heats faster than sea — wind follows.",
+   "more": "By June the subcontinent's landmass is much hotter than the Indian Ocean, creating a low-pressure zone that pulls moisture-laden winds northeast. They break on the Western Ghats and Himalayas as rain. About 70% of India's annual rainfall arrives in these four months, which is why a 'bad monsoon' moves inflation, farm incomes and even elections."
+  },
+  {
+   "t": "Ashoka: the emperor who renounced war",
+   "teaser": "His wheel sits at the centre of the tricolour.",
+   "more": "After the bloody Kalinga war (~261 BCE), Mauryan emperor Ashoka embraced Buddhism and spread edicts on rock pillars across the subcontinent. The Ashoka Chakra on India's flag and the Lion Capital national emblem both come from his pillars at Sarnath."
+  },
+  {
+   "t": "The two World Wars, datelined",
+   "teaser": "1914–18 and 1939–45 — the second killed ~70–85 million.",
+   "more": "WWI started with an assassination in Sarajevo and ended empires (Ottoman, Austro-Hungarian, Russian Tsar). WWII began with Germany invading Poland and ended with atomic bombs on Hiroshima and Nagasaki. Over 2.5 million Indian soldiers served in WWII — the largest volunteer army in history."
+  },
+  {
+   "t": "Why the UN exists",
+   "teaser": "Founded 1945 by 51 countries so WWIII never happens.",
+   "more": "Headquartered in New York, its Security Council has five veto-holding permanent members: US, UK, France, Russia, China. India is a founding member and the largest cumulative contributor of UN peacekeeping troops, but its long push for a permanent Security Council seat remains unresolved."
+  },
+  {
+   "t": "The Berlin Wall fell in 1989",
+   "teaser": "One night in November ended Europe's clearest Cold War symbol.",
+   "more": "Built in 1961 to stop East Germans fleeing to the capitalist West, the wall cut Berlin in two for 28 years. Its fall on 9 November 1989 triggered German reunification within a year and previewed the Soviet collapse of 1991."
+  },
+  {
+   "t": "What NATO is",
+   "teaser": "A military pact where attacking one member means attacking all.",
+   "more": "Founded 1949, the North Atlantic Treaty Organization's Article 5 collective-defence clause has been invoked once — after 9/11. It expanded eastward after the Cold War, which Russia cites among grievances behind the Ukraine conflict. India is not a member and stays formally non-aligned."
+  },
+  {
+   "t": "The EU in one card",
+   "teaser": "27 countries, one market, 20 sharing the euro.",
+   "more": "Born from post-WWII efforts to bind France and Germany economically so they'd never fight again, the European Union lets goods, services, money and people move freely across members. Brexit (2020) made the UK the only country ever to leave."
+  },
+  {
+   "t": "Why there's an International Date Line",
+   "teaser": "Cross it westward and you skip a day.",
+   "more": "The Earth has 24 time zones; somewhere the calendar must flip. The line zigzags through the Pacific to avoid splitting countries. Fly Delhi to San Francisco and you can land at an earlier local time than you took off — the date line gives the day back."
+  },
+  {
+   "t": "GST: one nation, one tax (2017)",
+   "teaser": "It replaced a maze of central and state levies.",
+   "more": "The Goods and Services Tax merged excise, VAT, service tax and more into one destination-based tax with slabs (0/5/12/18/28%). It made interstate commerce dramatically simpler — trucks no longer queue at state borders for tax checks — and every invoice feeds a single national IT backbone."
+  },
+  {
+   "t": "ISRO's Chandrayaan-3 moment",
+   "teaser": "In 2023 India became the first to land near the lunar south pole.",
+   "more": "After Chandrayaan-2's lander crashed in 2019, ISRO's Vikram lander touched down softly on 23 August 2023 — making India the fourth country to soft-land on the Moon and the first at the south polar region, where ice deposits could support future missions. Mission cost: roughly ₹615 crore, less than many Hollywood films."
+  },
+  {
+   "t": "ARPANET: the internet's grandfather",
+   "teaser": "The first message in 1969 was meant to be 'LOGIN' — it crashed at 'LO'.",
+   "more": "A US defence research network connecting four universities grew into the internet after TCP/IP became its common language in 1983. The web (websites, URLs, browsers) came later — invented by Tim Berners-Lee at CERN in 1989 as a layer on top of the internet."
+  },
+  {
+   "t": "Moore's Law",
+   "teaser": "Chip transistor counts doubled roughly every two years for 50 years.",
+   "more": "Intel co-founder Gordon Moore's 1965 observation became the tech industry's metronome — it's why phones outpower old supercomputers. Physical limits have slowed it, which is partly why the industry pivoted to specialised chips (GPUs, AI accelerators) instead of just faster general processors."
+  },
+  {
+   "t": "Why Silicon Valley is 'silicon'",
+   "teaser": "The chip element, not the software.",
+   "more": "The Santa Clara Valley earned the name in the 1970s from silicon semiconductor makers like Fairchild and Intel. Software, internet and AI giants came in later waves. Bengaluru earned the 'India's Silicon Valley' tag through the 1990s IT services boom — Infosys and Wipro, not chips."
+  },
+  {
+   "t": "How vaccines work",
+   "teaser": "A harmless preview teaches your immune system the enemy's face.",
+   "more": "Vaccines present a dead, weakened, or fragment version of a pathogen (or, in mRNA vaccines, instructions to build one protein of it), so your body develops antibodies without the disease. Smallpox — which killed ~300 million people in the 20th century alone — became the first disease ever eradicated, in 1980."
+  },
+  {
+   "t": "Plate tectonics built the Himalayas",
+   "teaser": "India is still crashing into Asia at ~5 cm a year.",
+   "more": "Around 50 million years ago the Indian plate slammed into the Eurasian plate; the crumple zone is the Himalayas, still rising a few millimetres yearly. The same collision makes the region earthquake-prone — the reason Delhi sits in seismic zone IV."
+  },
+  {
+   "t": "Why the sky is blue",
+   "teaser": "Air scatters blue light more than red.",
+   "more": "Sunlight contains all colours; molecules in the atmosphere scatter shorter (bluer) wavelengths far more — called Rayleigh scattering. At sunset, light travels through more air, the blue scatters away before reaching you, leaving reds and oranges."
+  },
+  {
+   "t": "Black holes, minus the mystery",
+   "teaser": "Gravity so strong that light can't leave.",
+   "more": "When a massive star collapses, its gravity can warp space so severely nothing escapes past the 'event horizon'. They're detected by their effect on nearby matter. The first-ever photo of one (M87*, 2019) took a telescope network the size of Earth."
+  },
+  {
+   "t": "The Suez Canal shortcut",
+   "teaser": "It saves ships ~7,000 km between Europe and Asia.",
+   "more": "Opened in 1869 through Egypt, it carries about 12% of global trade. When one ship (Ever Given) wedged sideways for six days in 2021, it blocked ~$10 billion of goods per day — a live demo of how fragile supply chains are."
+  },
+  {
+   "t": "Mughals to the British, compressed",
+   "teaser": "1526 Panipat → 1757 Plassey → 1857 Revolt → 1947.",
+   "more": "Babur founded Mughal rule in 1526; it peaked under Akbar and Aurangzeb. The East India Company's victory at Plassey (1757) began company rule; after the 1857 revolt, the British Crown took direct control ('the Raj') until independence in 1947."
+  },
+  {
+   "t": "What the Non-Aligned Movement was",
+   "teaser": "India's Cold War stance: neither US bloc nor Soviet bloc.",
+   "more": "Co-founded by Nehru, Egypt's Nasser and Yugoslavia's Tito in 1961, NAM let newly independent nations avoid picking sides. In practice India tilted toward Soviet defence supplies after the 1962 China war and 1971 US support for Pakistan."
+  },
+  {
+   "t": "The 1947 Partition, in numbers",
+   "teaser": "~10–15 million displaced; up to a million dead.",
+   "more": "British India split into India and Pakistan along the hastily drawn Radcliffe Line, published two days after independence. It remains one of history's largest forced migrations and the root of the Kashmir dispute and three India-Pakistan wars (1947, 1965, 1971 — the last creating Bangladesh)."
+  },
+  {
+   "t": "Why leap years exist",
+   "teaser": "Earth's year is 365.2422 days — the calendar has to catch up.",
+   "more": "Adding Feb 29 every four years overcorrects slightly, so century years skip it unless divisible by 400 (2000 was a leap year; 2100 won't be). Without leap years, seasons would drift — in ~700 years, June would be winter in Delhi."
+  },
+  {
+   "t": "How elections pick India's President",
+   "teaser": "You don't vote for President — MPs and MLAs do.",
+   "more": "India's President is elected by an electoral college of elected MPs and state MLAs, with votes weighted by population. Real executive power sits with the PM and council of ministers; the President's key discretionary moments come in hung parliaments and constitutional crises."
+  },
+  {
+   "t": "What a recession technically is",
+   "teaser": "Two straight quarters of shrinking GDP is the common shorthand.",
+   "more": "Economists actually judge by depth, duration and breadth of decline across jobs, income, output and sales. India's COVID quarter (Apr–Jun 2020, GDP −24%) was its sharpest recorded contraction; the 2008 global crisis, by contrast, only slowed India's growth without shrinking it."
+  },
+  {
+   "t": "The Olympics' 1,500-year gap",
+   "teaser": "Ancient games ran ~776 BCE to 393 CE; revived 1896.",
+   "more": "The ancient Greek games honoured Zeus at Olympia until a Roman emperor banned pagan festivals. Frenchman Pierre de Coubertin revived them in Athens in 1896. India's first individual gold came only in 2008 — Abhinav Bindra, shooting."
+  },
+  {
+   "t": "Why DNA is called a blueprint",
+   "teaser": "Four letters — A, T, G, C — spell out every living thing.",
+   "more": "DNA is a molecule storing instructions to build proteins; genes are its meaningful sentences. Humans share ~99.9% of DNA with each other and ~60% with bananas. The 2003 Human Genome Project read all 3 billion letters; today a genome can be sequenced in hours."
+  },
+  {
+   "t": "Compound interest, the eighth wonder",
+   "teaser": "Money earning money on the money it already earned.",
+   "more": "₹1 lakh at 12% becomes ₹3.1 lakh in 10 years and ₹9.6 lakh in 20 — the growth accelerates because each year's interest joins the principal. The 'rule of 72': divide 72 by the interest rate to estimate doubling time. At 12%, money doubles every ~6 years."
+  },
+  {
+   "t": "India defined zero as a number",
+   "teaser": "Not just a placeholder for nothing — a number you can calculate with.",
+   "more": "Many cultures used a symbol for 'nothing,' but the 7th-century mathematician Brahmagupta was the first to treat zero as a number in its own right, writing rules for adding, subtracting and multiplying with it. Combined with the Indian decimal place-value system, this idea travelled through the Arab world to Europe and became the foundation of modern arithmetic. It is why we can write 1,000,000 without inventing a new symbol for every power of ten."
+  },
+  {
+   "t": "India has the world's longest written constitution",
+   "teaser": "It began with 395 articles — and keeps growing.",
+   "more": "When it came into force on 26 January 1950, the Constitution of India had 395 articles, 22 parts and 8 schedules, making it the lengthiest national constitution ever written. Its framers borrowed selectively from abroad — the parliamentary system from Britain, fundamental rights from the US, directive principles from Ireland. Decades of amendments have since pushed it well past 470 articles and 12 schedules."
+  },
+  {
+   "t": "Drafting India's constitution took nearly three years",
+   "teaser": "2 years, 11 months and 18 days of debate.",
+   "more": "The Constituent Assembly, chaired by Rajendra Prasad with B. R. Ambedkar heading the drafting committee, worked from December 1946 to November 1949 — 2 years, 11 months and 18 days. The final document was not printed but written out by hand in flowing calligraphy by Prem Behari Narain Raizada, and illustrated by artists from Shantiniketan. Members debated it almost line by line."
+  },
+  {
+   "t": "Sikkim was an independent kingdom until 1975",
+   "teaser": "India's 22nd state was once ruled by a monarch.",
+   "more": "For centuries Sikkim was ruled by the Namgyal dynasty of Chogyals. After a 1975 referendum abolished the monarchy, it merged with India to become the 22nd state. Today it is India's least populous state and, in 2016, became the country's first fully organic-farming state."
+  },
+  {
+   "t": "The shortest war in history lasted under 40 minutes",
+   "teaser": "Britain versus Zanzibar, 1896 — over before lunch.",
+   "more": "On 27 August 1896, Britain bombarded the Sultan's palace in Zanzibar after a disputed succession. Resistance collapsed in roughly 38 to 45 minutes, making it the shortest recorded war in history. Around 500 of the Sultan's defenders were killed or wounded; the only British casualty was a single injured sailor who later recovered."
+  },
+  {
+   "t": "Cleopatra lived closer to the Moon landing than to the pyramids",
+   "teaser": "The Great Pyramid was already ancient in her lifetime.",
+   "more": "The Great Pyramid of Giza was built around 2560 BCE. Cleopatra died in 30 BCE — over 2,500 years later. The 1969 Moon landing was under 2,000 years after her death, so she lived chronologically nearer to Apollo 11 than to the pyramid-builders. Ancient Egypt spanned so much time that 'ancient' meant something even to the ancients."
+  },
+  {
+   "t": "Oxford University is older than the Aztec Empire",
+   "teaser": "Lectures were running before Tenochtitlan existed.",
+   "more": "Teaching at Oxford dates back to at least 1096. The Aztec capital Tenochtitlan was founded around 1325, more than two centuries later. So when Aztec priests were laying the first stones of their island city, English students had already been studying at Oxford for generations."
+  },
+  {
+   "t": "Honey never spoils",
+   "teaser": "Archaeologists have found edible honey thousands of years old.",
+   "more": "Honey's very low moisture and high acidity make it hostile to bacteria, and bees add an enzyme that releases tiny amounts of hydrogen peroxide. Sealed properly, it can last practically forever. Pots of honey recovered from ancient Egyptian tombs were reportedly still preserved after millennia."
+  },
+  {
+   "t": "Bananas are slightly radioactive",
+   "teaser": "Thank the potassium — but you'd need millions to worry.",
+   "more": "Bananas are rich in potassium, a small fraction of which is the naturally radioactive isotope potassium-40. The dose is so tiny that scientists half-jokingly measure trivial radiation exposure in 'banana equivalent doses.' You would have to eat millions in one sitting for it to be dangerous — and your own body already contains radioactive potassium."
+  },
+  {
+   "t": "A day on Venus is longer than its year",
+   "teaser": "It spins slower than it orbits the Sun.",
+   "more": "Venus rotates so slowly that a single spin takes about 243 Earth days, while it completes one orbit of the Sun in about 225 Earth days. That means its day is longer than its year. Stranger still, Venus spins backwards compared with most planets, so there the Sun would rise in the west."
+  },
+  {
+   "t": "A teaspoon of a neutron star would weigh billions of tonnes",
+   "teaser": "The densest matter known to science.",
+   "more": "When a massive star collapses, its core can be crushed into a neutron star — an object the size of a city but heavier than the Sun. Matter is packed so tightly that a sugar-cube-sized piece would weigh billions of tonnes on Earth. A single teaspoon would outweigh Mount Everest many times over."
+  },
+  {
+   "t": "An octopus has three hearts and blue blood",
+   "teaser": "Two hearts feed the gills, one feeds the body.",
+   "more": "Two of an octopus's hearts pump blood through the gills, while the third circulates it to the rest of the body. Its blood is blue because it uses copper-based hemocyanin, rather than iron-based hemoglobin, to carry oxygen — which works better in cold, low-oxygen water. The main heart even stops beating when the octopus swims, which is why they often prefer to crawl."
+  },
+  {
+   "t": "The world's first stock exchange opened in Amsterdam",
+   "teaser": "The Dutch East India Company sold the first public shares.",
+   "more": "In 1602 the Dutch East India Company (VOC) became the first firm to issue tradable shares to the public, and the Amsterdam exchange grew up around trading them. It pioneered ideas we still use daily — shares, dividends and speculation. It also witnessed some of the earliest recorded short selling and market bubbles."
+  },
+  {
+   "t": "History's worst inflation doubled prices every 15 hours",
+   "teaser": "Hungary, 1946 — money became wallpaper.",
+   "more": "In mid-1946 Hungary's pengő suffered the most extreme hyperinflation ever recorded, with prices roughly doubling every 15 hours. The state issued a banknote worth 100 quintillion pengő, the highest denomination ever put into circulation. The currency was scrapped and replaced by the forint, which Hungary still uses today."
+  },
+  {
+   "t": "Russia spans 11 time zones",
+   "teaser": "When its west wakes, its far east is already asleep.",
+   "more": "Russia is so wide that it covers 11 time zones — more than any other single continuous stretch of land. When it is morning in Kaliningrad in the west, it is already evening in Kamchatka on the Pacific coast. France, counting its scattered overseas territories, technically touches even more zones, but Russia's are all contiguous."
+  },
+  {
+   "t": "The Dead Sea is Earth's lowest exposed land",
+   "teaser": "Its shore sits over 400 metres below sea level.",
+   "more": "The surface of the Dead Sea lies more than 430 metres below sea level, the lowest dry land on the planet, and it keeps dropping roughly a metre a year. It is nearly ten times saltier than the ocean — so dense that swimmers float effortlessly. Almost nothing lives in it, which is how it earned its name."
+  },
+  {
+   "t": "Mount Everest is still growing",
+   "teaser": "The Indian plate keeps pushing it higher.",
+   "more": "The Himalayas rose when the Indian tectonic plate collided with Asia, and that collision is still underway. Everest gains a few millimetres each year as the plates keep pressing together. Earthquakes can nudge its height up or down, one reason it has been remeasured over time — now officially about 8,849 metres."
+  },
+  {
+   "t": "The first computer 'bug' was a real insect",
+   "teaser": "A moth got trapped in a 1947 machine.",
+   "more": "In 1947, operators of the Harvard Mark II computer found a moth stuck in a relay, causing a malfunction. They taped it into the logbook with the note 'first actual case of bug being found.' The pioneering programmer Grace Hopper helped popularise the tale, cementing 'debugging' in the language — though engineers had loosely used 'bug' for faults even earlier."
+  },
+  {
+   "t": "Computing power has doubled roughly every two years",
+   "teaser": "Moore's Law shaped the entire digital age.",
+   "more": "In 1965 Intel co-founder Gordon Moore observed that the number of transistors on a chip was doubling about every two years, and the industry turned that observation into a roadmap. This relentless doubling is why today's smartphone vastly outmuscles the computers that guided Apollo 11 to the Moon. The pace is finally slowing as transistors shrink toward the size of a few atoms."
+  },
+  {
+   "t": "The internet's first message was 'lo'",
+   "teaser": "The system crashed mid-word in 1969.",
+   "more": "In October 1969, researchers tried to send the word 'LOGIN' between two computers on ARPANET, the internet's ancestor. The network crashed after just two letters, so the first message ever transmitted was 'lo.' They fixed it within the hour, and the full link soon worked — the humble start of a technology that now connects billions."
+  },
+  {
+   "t": "Bluetooth is named after a Viking king",
+   "teaser": "And its logo secretly spells his initials.",
+   "more": "Bluetooth is named after Harald 'Bluetooth' Gormsson, a 10th-century Danish king who united warring tribes — just as the technology unites different devices. Its logo combines the Younger Futhark runes for his initials, H and B. The king's nickname supposedly came from a dead, bluish-grey tooth."
+  },
+  {
+   "t": "Five countries can veto any UN Security Council decision",
+   "teaser": "A single 'no' can block the world.",
+   "more": "The UN Security Council has five permanent members — the US, UK, France, Russia and China — each able to veto any substantive resolution. This structure, fixed after World War II, means one great power can halt collective action. India, Japan, Germany and Brazil have long campaigned for permanent seats, so far without success."
+  },
+  {
+   "t": "Asia's oldest stock exchange is in Mumbai",
+   "teaser": "It began under a banyan tree in the 1850s.",
+   "more": "The Bombay Stock Exchange traces its roots to brokers who gathered under a banyan tree in the 1850s and formally organised in 1875, making it Asia's oldest stock exchange. Alongside the National Stock Exchange, it anchors one of the world's largest equity markets by number of listed companies. Its benchmark, the Sensex, is India's most-watched market barometer."
+  },
+  {
+   "t": "The Tropic of Cancer cuts through eight Indian states",
+   "teaser": "It roughly divides India into north and south.",
+   "more": "The Tropic of Cancer, at about 23.5 degrees north, passes through eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. It marks the northernmost latitude where the Sun can appear directly overhead. Places on this line see the Sun at its zenith around the June solstice."
+  },
+  {
+   "t": "India wrote a manual on statecraft 2,300 years ago",
+   "teaser": "Chanakya's Arthashastra predates Machiavelli by millennia.",
+   "more": "Around the 4th century BCE, the strategist Chanakya (Kautilya) helped Chandragupta Maurya build the vast Mauryan Empire and wrote the Arthashastra, a detailed treatise on economics, diplomacy, taxation and espionage. It is startlingly frank about the uses of power, predating Machiavelli's The Prince by roughly 1,800 years. Lost for centuries, the text was rediscovered in 1905."
+  },
+  {
+   "t": "The Great Wall of China isn't visible from space",
+   "teaser": "The naked-eye claim is a stubborn myth.",
+   "more": "Contrary to popular belief, the Great Wall cannot be seen from space with the unaided eye — it is very long but only a few metres wide, blending into the surrounding terrain. Astronauts have confirmed they cannot pick it out from orbit without help. City lights and airport runways are far easier to spot from the International Space Station."
+  },
+  {
+   "t": "The Sahara is nearly the size of the United States",
+   "teaser": "The world's largest hot desert.",
+   "more": "The Sahara covers about 9 million square kilometres, roughly the area of the United States or China. Yet it is not the biggest desert overall — Antarctica, a frozen desert, is larger. The Sahara was green with lakes and grassland just a few thousand years ago, and will likely turn green again as Earth's orbit slowly shifts."
+  },
+  {
+   "t": "Sunlight takes about eight minutes to reach Earth",
+   "teaser": "You always see the Sun as it was, never as it is.",
+   "more": "Light travels at about 300,000 kilometres per second, but the Sun is so distant that its light takes roughly 8 minutes and 20 seconds to arrive. If the Sun vanished, we would keep seeing and feeling it for those eight minutes. Light from the next-nearest star takes over four years to reach us."
+  },
+  {
+   "t": "You are literally made of stardust",
+   "teaser": "The atoms in your body were forged inside stars.",
+   "more": "Almost every element heavier than hydrogen — the carbon in your cells, the oxygen you breathe, the iron in your blood — was created inside stars and flung out when they died. Those atoms drifted through space, gathered to form our Sun and planets, and eventually became you. As astronomer Carl Sagan put it, we are 'star stuff.'"
+  },
+  {
+   "t": "Tiny 'water bears' can survive the vacuum of space",
+   "teaser": "Nearly indestructible microscopic animals.",
+   "more": "Tardigrades, or water bears, are half-millimetre creatures that can endure being boiled, frozen near absolute zero, dried out for years, and even exposed to the vacuum and radiation of open space. They manage it by curling into a shrivelled, near-dead state called cryptobiosis. Scientists have revived specimens after decades in deep freeze."
+  },
+  {
+   "t": "Most global trade is still priced in US dollars",
+   "teaser": "A legacy of a deal struck in 1944.",
+   "more": "After World War II, the 1944 Bretton Woods agreement pegged major currencies to the US dollar, which was itself convertible to gold. Even after that gold link ended in 1971, the dollar remained the world's dominant reserve and trade currency, especially for oil — the so-called petrodollar. This gives the US enormous financial leverage, which rivals increasingly try to reduce."
+  },
+  {
+   "t": "The Rule of 72 tells you when your money doubles",
+   "teaser": "Just divide 72 by the interest rate.",
+   "more": "Compound interest means you earn returns on your past returns, so money snowballs over time. A handy shortcut, the Rule of 72, estimates how long an investment takes to double: divide 72 by the annual return. At 8% a year, money doubles in about nine years — which is why starting early beats investing large sums late."
+  },
+  {
+   "t": "The first webcam was invented to watch a coffee pot",
+   "teaser": "Cambridge scientists were tired of empty pots.",
+   "more": "In 1991, researchers at Cambridge University pointed a camera at a coffee pot so they could check from their desks whether it was full before walking over. Connected to the web in 1993, it became the world's first webcam. The famous 'Trojan Room coffee pot' was switched off in 2001 and auctioned online."
+  },
+  {
+   "t": "The QWERTY keyboard was built to prevent jams",
+   "teaser": "It deliberately separates the letters you type together.",
+   "more": "The QWERTY layout was designed in the 1870s for mechanical typewriters, spacing common letter pairs far apart so the metal typebars were less likely to clash and jam. When typewriters gave way to computers, the mechanical reason disappeared, but the layout was far too entrenched to replace. Faster designs like Dvorak exist, but never caught on."
+  },
+  {
+   "t": "The Kumbh Mela is the largest human gathering on Earth",
+   "teaser": "Tens of millions converge at India's sacred rivers.",
+   "more": "The Hindu Kumbh Mela, held on a rotating cycle at sites like Prayagraj, draws the biggest crowds of people anywhere on the planet. On peak days tens of millions bathe at the river confluence, and the temporary tent city grows so vast it shows up clearly in satellite images. UNESCO recognises it as intangible cultural heritage of humanity."
+  },
+  {
+   "t": "One poet wrote the national anthems of two countries",
+   "teaser": "Rabindranath Tagore's words open India and Bangladesh.",
+   "more": "Rabindranath Tagore, the first non-European to win the Nobel Prize in Literature (1913), wrote both India's national anthem, 'Jana Gana Mana,' and Bangladesh's, 'Amar Shonar Bangla.' No one else has authored the anthems of two sovereign nations. Sri Lanka's anthem is also widely believed to have been inspired by him."
+  },
+  {
+   "t": "Antarctica is the largest desert on Earth",
+   "teaser": "A desert is about dryness, not heat.",
+   "more": "A desert is defined by how little precipitation it receives, not by temperature. By that measure Antarctica — vast, frozen and extremely dry — is the world's largest desert, bigger than the Sahara. Parts of its interior have seen no rain or snow for millions of years, making them some of the driest places on the planet."
+  }
+ ],
+ "learn": [
+  {
+   "title": "P/E ratio: the market's price tag",
+   "teaser": "How many years of profit you're paying for one share.",
+   "body": [
+    "Price-to-Earnings = share price ÷ earnings per share. A P/E of 25 means you pay ₹25 for every ₹1 of annual profit. High P/E signals the market expects fast growth (or the stock is expensive); low P/E signals slow growth expectations (or a bargain).",
+    "It's only meaningful against context: the company's own history, its sector average, and growth rate. Indian IT often trades at 20–30; PSU banks far lower. A 'cheap' stock with shrinking profits is usually cheap for a reason."
+   ]
+  },
+  {
+   "title": "Correlation is not causation",
+   "teaser": "The most important sentence in analytics.",
+   "body": [
+    "Ice cream sales and drownings rise together — summer causes both. When two metrics move together, there are always four possibilities: A causes B, B causes A, something else causes both, or coincidence. Dashboards show correlation; only controlled experiments or careful causal analysis show causation.",
+    "Practical BI reflex: before reporting 'X drove Y', ask what else changed in the same window — a campaign, a price change, seasonality, a tracking change. The last one bites analysts most often."
+   ]
+  },
+  {
+   "title": "Mean vs median: which lies less?",
+   "teaser": "One billionaire in a room makes the 'average' person rich.",
+   "body": [
+    "The mean (sum ÷ count) is dragged by outliers; the median (middle value) isn't. Average income sounds impressive when a few earn crores; median income tells you what the typical person makes. Same for ticket sizes, session times, order values.",
+    "Rule of thumb: for skewed data (money, wait times, engagement), report the median or percentiles. If mean and median differ a lot, that gap itself is a finding — your distribution has a long tail worth investigating."
+   ]
+  },
+  {
+   "title": "Opportunity cost",
+   "teaser": "The real cost of anything is what you gave up to get it.",
+   "body": [
+    "Spending ₹15 lakh on a car isn't just ₹15 lakh — it's also the ~₹47 lakh that money could become in 10 years at 12%. Every choice of time or money silently declines the alternatives. Economists call the best foregone alternative the opportunity cost.",
+    "It reframes decisions: a 'free' three-hour meeting costs the work you'd have shipped. An okay job offer costs the better one you stopped searching for. Comparing against 'doing nothing' is almost always the wrong baseline."
+   ]
+  },
+  {
+   "title": "How IPOs actually work",
+   "teaser": "A private company sells shares to the public for the first time.",
+   "body": [
+    "The company hires investment banks to set a price band, files a prospectus (DRHP) with SEBI, and collects bids. Retail investors apply in lots; oversubscribed issues allot by lottery. On listing day the stock starts trading — sometimes far above or below issue price.",
+    "Listing 'pops' make headlines, but the base rate is sobering: many hyped IPOs trade below issue price within a year (India's 2021 tech-IPO batch is the classic case). Reading where the money goes — fresh growth capital vs early investors cashing out — tells you a lot."
+   ]
+  },
+  {
+   "title": "A/B testing in five sentences",
+   "teaser": "Split users randomly, change one thing, measure the difference.",
+   "body": [
+    "Random assignment makes the two groups statistically identical except for your change, so any outcome gap is caused by it — this is the cleanest causation tool in product work. The catch is sample size: small tests 'win' by luck constantly.",
+    "Standard practice: decide the metric and minimum effect before launching, run a significance check (p < 0.05 convention), and beware peeking early — checking daily and stopping at the first 'significant' result inflates false positives dramatically."
+   ]
+  },
+  {
+   "title": "Why the Sensex is called the Sensex",
+   "teaser": "'Sensitive Index' — 30 big BSE stocks standing in for the market.",
+   "body": [
+    "It tracks 30 of the largest, most-traded companies on the Bombay Stock Exchange, Asia's oldest (1875). Base value: 100 in 1978–79 — so ~77,000 means those stocks are worth roughly 770× their 1979 level. The Nifty 50 is the NSE's 50-stock equivalent.",
+    "Index composition changes over time — laggards get dropped, risers added — which builds in survivorship: the index isn't the same 30 companies your grandfather's Sensex had."
+   ]
+  },
+  {
+   "title": "What the repo rate actually does",
+   "teaser": "RBI's lending rate to banks — the master dial for every EMI.",
+   "body": [
+    "Banks borrow from RBI at the repo rate. Raise it and all credit gets costlier, cooling spending and inflation; cut it and money cheapens, boosting growth. The Monetary Policy Committee resets it every two months against a 4% (±2%) CPI target.",
+    "Transmission is the catch: banks pass rate cuts to depositors fast and to borrowers slowly. That lag — and how much of a cut actually reaches your home loan — is what analysts fight about after every MPC meeting."
+   ]
+  },
+  {
+   "title": "What GDP measures — and misses",
+   "teaser": "Everything produced in a year; nothing about who gets it.",
+   "body": [
+    "GDP is the market value of final goods and services produced in a period. India's ~$4 trillion ranks among the world's largest — but per capita it ranks far lower, divided across 1.4 billion people.",
+    "It ignores unpaid work, inequality and environmental damage, and a hospital bill raises GDP the same as a festival. '7% growth' means output grew — not that everyone is 7% better off."
+   ]
+  },
+  {
+   "title": "How India measures inflation",
+   "teaser": "CPI prices a fixed basket a typical household buys.",
+   "body": [
+    "Food is nearly half of India's CPI basket, so vegetable prices swing the headline number. '6% inflation' means the basket costs 6% more than a year ago. RBI's legal mandate: keep it at 4%, within 2–6%.",
+    "WPI tracks wholesale prices businesses pay each other; the two can diverge sharply. For personal finance, your true inflation depends on your basket — education and health have outpaced CPI for years."
+   ]
+  },
+  {
+   "title": "What an LLM actually is",
+   "teaser": "A next-word predictor trained on most of the written internet.",
+   "body": [
+    "Models like GPT, Gemini and Claude predict the next token; at sufficient scale that absorbs grammar, facts, reasoning patterns and code. Chat behaviour comes from fine-tuning with human feedback afterward.",
+    "Two limits follow: hallucination (fluent but wrong — they optimise plausibility, not truth) and frozen knowledge (they know training data, not today) unless given search or documents. Every 'AI made this up' story traces to the first; every 'AI doesn't know X' to the second."
+   ]
+  },
+  {
+   "title": "Why oil moves everything",
+   "teaser": "A fifth of world supply ships through one strait near Iran.",
+   "body": [
+    "Crude feeds transport, plastics, fertiliser and power — an oil spike is a tax on the whole economy. The Strait of Hormuz chokepoint is why Gulf tensions instantly lift Brent.",
+    "India imports 85%+ of its crude: costlier oil widens the trade deficit, weakens the rupee, and lifts CPI. That chain — Gulf headline → rupee → your petrol pump → RBI's next rate call — is worth internalising."
+   ]
+  },
+  {
+   "title": "Bulls, bears, and the names",
+   "teaser": "Horns toss up; paws swipe down.",
+   "body": [
+    "Bull market: sustained rise (+20% from a low). Bear: sustained fall (−20% from a high). The likely origin is the animals' attack styles, plus an old proverb about selling the bearskin before catching the bear — betting on a fall.",
+    "March 2020's COVID crash was a three-month bear phase; the recovery after was a textbook bull run. 'Bullish on X' simply means expecting X to rise."
+   ]
+  },
+  {
+   "title": "Market cap, and why price ≠ size",
+   "teaser": "A ₹5,000 stock can be a smaller company than a ₹500 one.",
+   "body": [
+    "Market capitalisation = share price × number of shares. MRF's famous ₹1+ lakh share price makes it nowhere near India's biggest company; Reliance's much cheaper shares multiply across far more of them.",
+    "Caps define categories — large (top 100), mid (101–250), small (rest) by SEBI's rules — which matters because mutual funds are mandated to buy within their category. A stock crossing a cap boundary mechanically gains or loses buyers."
+   ]
+  },
+  {
+   "title": "Percentiles: how analysts avoid lying",
+   "teaser": "p50, p90, p99 — the shape of reality, not one number.",
+   "body": [
+    "An average API response of 200ms hides that 1% of users wait 4 seconds. p50 (median) shows the typical case, p90 the bad day, p99 the disaster tail. Same for delivery times, load times, ticket resolution.",
+    "Reporting reflex: any latency, wait-time or money metric deserves at least p50 + p90. If someone gives you only the mean, they're either new or hiding the tail."
+   ]
+  },
+  {
+   "title": "The 1962 war India doesn't celebrate",
+   "teaser": "A month-long border war with China reshaped Indian defence policy.",
+   "body": [
+    "In October 1962 Chinese forces advanced across the disputed Himalayan border (Aksai Chin, NEFA — today's Arunachal), overwhelming underprepared Indian positions before declaring a unilateral ceasefire. Nehru's reputation never fully recovered.",
+    "The war triggered India's military modernisation and its tilt toward Soviet arms, and the unresolved Line of Actual Control remains the flashpoint behind standoffs like Galwan 2020."
+   ]
+  },
+  {
+   "title": "What inflation really is — and why a little is healthy",
+   "teaser": "Rising prices aren't always bad news.",
+   "body": [
+    "Inflation is the general rise in the prices of goods and services over time, which quietly erodes the purchasing power of money — the same 100 rupees buys less next year than it does today. It is measured using price indices such as the Consumer Price Index (CPI), which tracks a representative basket of household spending. In India, the Reserve Bank of India is legally tasked with keeping CPI inflation around 4%, within a tolerance band of 2% to 6%.",
+    "Inflation has two broad drivers. 'Demand-pull' inflation happens when too much money chases too few goods, often after rapid growth or heavy money-printing. 'Cost-push' inflation comes from rising input costs, such as a spike in crude oil that raises transport and manufacturing prices across the board. A mild, steady rate of inflation is actually considered healthy: it nudges people to spend and invest rather than hoard cash.",
+    "The real danger lies at the extremes. Deflation — falling prices — can be worse than mild inflation, because people delay purchases expecting things to get cheaper, stalling the economy, while debts become heavier in real terms. At the other end, hyperinflation can destroy a currency entirely. This is why central banks watch inflation obsessively and adjust interest rates to keep it in a narrow, predictable range."
+   ]
+  },
+  {
+   "title": "What actually happens when you buy a share",
+   "teaser": "You're buying a small slice of a real company.",
+   "body": [
+    "A share is a unit of ownership in a company. When a business wants to raise money to grow, it can sell ownership stakes to the public through an Initial Public Offering (IPO). After that, those shares trade between investors on stock exchanges such as the BSE and NSE in India. The price of a share at any moment reflects the collective judgement of buyers and sellers about the company's future profits.",
+    "Because tracking thousands of individual companies is hard, markets use indices — the Sensex and Nifty in India, or the S&P 500 in the US — which bundle major stocks into a single number that summarises overall market mood. Prices move constantly on earnings reports, economic news, interest-rate changes and plain sentiment. Over the long run, stock markets have historically outpaced inflation, but they can be brutally volatile over months or even years.",
+    "At its best, the stock market is a machine for channelling ordinary people's savings into productive enterprise, and for letting them share in the growth of the economy. But shares carry real risk — companies can fail, and prices can fall sharply. This is why long horizons, diversification, and low-cost index funds are the standard advice for most individual investors rather than betting on single stocks."
+   ]
+  },
+  {
+   "title": "GDP: the number that rules economics — and its blind spots",
+   "teaser": "It measures output, not wellbeing.",
+   "body": [
+    "Gross Domestic Product (GDP) is the total market value of all goods and services produced within a country over a given period, usually a year or a quarter. It is the headline measure of an economy's size, and its growth rate is watched closely by governments, investors and voters. India is among the world's largest economies by total GDP, though its GDP per person — the total divided by population — remains far lower than that of rich nations.",
+    "The trouble is that GDP was never designed to measure how well people are actually living. It counts activity regardless of whether it improves lives: cleaning up an oil spill or rebuilding after a disaster adds to GDP, while unpaid housework and caregiving, which have enormous real value, are left out entirely. It also says nothing about how income is distributed, so a country can post strong growth while most of the gains flow to a small elite.",
+    "Because of these blind spots, economists supplement GDP with other measures. The Human Development Index blends income with health and education; other indicators try to account for inequality or environmental damage. GDP remains indispensable as a quick gauge of economic size and momentum, but a curious observer should treat it as one dashboard dial among many, not the whole picture."
+   ]
+  },
+  {
+   "title": "How central banks steer an economy with one main lever",
+   "teaser": "The interest rate is the economy's thermostat.",
+   "body": [
+    "A central bank — the Reserve Bank of India at home, the Federal Reserve in the US — is the institution that manages a nation's money. Its most powerful tool is the benchmark interest rate, in India called the repo rate, which is the rate at which it lends to commercial banks. Changing this rate ripples out to the interest on home loans, business credit and savings across the whole economy.",
+    "The logic is like a thermostat. When inflation runs too hot, the central bank raises rates, making borrowing costlier, cooling spending and investment, and easing price pressure. When the economy is sluggish, it cuts rates to make credit cheap and encourage activity. Central banks also manage the money supply, hold the country's foreign-exchange reserves, oversee the banking system, and act as a 'lender of last resort' during financial panics.",
+    "This power comes with hard trade-offs. Fighting inflation with high rates can slow growth and raise unemployment, so central bankers are constantly balancing competing risks. That is also why their independence from short-term political pressure is prized: governments facing elections are tempted to keep money cheap, but a credible, independent central bank can make the unpopular choices needed to keep prices stable over the long run."
+   ]
+  },
+  {
+   "title": "Why starting to invest early beats investing a lot",
+   "teaser": "Time is the most powerful force in finance.",
+   "body": [
+    "Compound interest is often called the eighth wonder of the world, and for good reason. When you invest, you earn returns not just on your original money but also on all the returns it has already generated. Over short periods this looks unremarkable, but over decades it snowballs dramatically — the growth curve bends sharply upward as the gains start generating their own gains.",
+    "This is why time matters more than the size of your contributions. Someone who invests a modest amount every month starting in their twenties can end up with far more than someone who invests much larger sums but only begins in their forties, simply because the early money had more years to compound. In India, Systematic Investment Plans (SIPs) into equity mutual funds are a popular way to harness this, though what really matters is investing regularly and staying invested through the ups and downs.",
+    "The same force works in reverse and can quietly ruin people. High-interest debt — credit-card balances, some personal loans — compounds against you just as relentlessly, so an unpaid balance can balloon. The practical takeaways are simple but powerful: start early, keep costs and needless debt low, focus on real returns after inflation, and let time do the heavy lifting."
+   ]
+  },
+  {
+   "title": "How governments borrow — and why bond yields matter",
+   "teaser": "A government IOU that moves the whole economy.",
+   "body": [
+    "Governments almost always spend more than they collect in taxes, and they cover the gap by borrowing — mainly by issuing bonds. A bond is essentially an IOU: investors lend the government money today in exchange for regular interest payments and the return of their principal on a fixed future date. Governments are usually seen as safe borrowers, so their bonds set a baseline 'risk-free' rate against which almost everything else in finance is priced.",
+    "The key number is the yield — the effective annual return a buyer earns. Yields rise when investors demand more compensation, for instance if they expect higher inflation or doubt the government's ability to repay, and they fall when investors seek safety. Crucially, bond prices and yields move in opposite directions: when demand pushes a bond's price up, its yield falls. Because central banks also buy and sell government bonds to influence the money supply, this market sits at the heart of the financial system.",
+    "For a country like India, these dynamics shape everyday life. The government's fiscal deficit — how much it borrows each year — affects how much credit is left for private businesses and what interest rates households pay. Credit-rating agencies judge the risk of sovereign debt, and their verdicts can raise or lower a nation's borrowing costs. Watching the 10-year government bond yield is one of the quickest ways to read the market's mood about an economy's future."
+   ]
+  },
+  {
+   "title": "How the US dollar became the world's money",
+   "teaser": "The quiet source of American power.",
+   "body": [
+    "In July 1944, with World War II still raging, delegates from 44 nations met at Bretton Woods in the United States to design the postwar financial order. They agreed to peg their currencies to the US dollar, which alone remained convertible to gold at a fixed price. The US, holding most of the world's gold and its strongest economy, became the anchor of the global system, and institutions like the International Monetary Fund and World Bank were born there.",
+    "In 1971, facing pressure on its gold reserves, the US ended the dollar's convertibility to gold, and the fixed-rate system collapsed into today's world of floating currencies. Yet the dollar did not lose its crown. It remained the currency in which oil and most commodities were priced, the main reserve that central banks hold, and the default medium for international trade and finance — a position reinforced by the depth and reliability of American markets.",
+    "This 'exorbitant privilege' gives the United States extraordinary leverage: it can borrow cheaply, run large deficits, and impose financial sanctions that ripple worldwide, because so much global activity flows through the dollar. Rival powers, including China and members of the BRICS grouping, have sought to reduce this dependence, but no clear alternative has yet emerged at anything near the same scale."
+   ]
+  },
+  {
+   "title": "1947: independence, Partition, and a subcontinent redrawn",
+   "teaser": "Freedom and tragedy arrived together.",
+   "body": [
+    "At the stroke of midnight on 14–15 August 1947, British India won independence — but it was simultaneously split into two nations, India and Pakistan. The decision to partition along broadly religious lines had been taken hastily amid rising communal tension and British eagerness to leave. A British lawyer, Cyril Radcliffe, who had never before visited India, was given just weeks to draw the boundary line dividing Punjab and Bengal.",
+    "What followed was one of the largest and most violent human migrations in history. Some 15 million people crossed the new borders in both directions, Hindus and Sikhs moving into India and Muslims into Pakistan, often in terror. Estimates of the dead from the accompanying communal violence range from several hundred thousand to well over a million, with countless women abducted and families torn apart.",
+    "The legacy still shapes South Asia today. Sardar Vallabhbhai Patel led the enormous task of integrating hundreds of princely states into the new India, but the fate of Jammu and Kashmir was left unresolved, sowing a dispute that has triggered wars and endures to this day. Partition remains a defining trauma and reference point in the politics of India, Pakistan and, after 1971, Bangladesh."
+   ]
+  },
+  {
+   "title": "The Cold War: how two superpowers divided the world",
+   "teaser": "Decades of rivalry without direct battle.",
+   "body": [
+    "After World War II, the world split into two hostile camps: the capitalist West led by the United States, and the communist bloc led by the Soviet Union. From roughly 1947 to 1991, these superpowers waged a 'cold' war — a rivalry fought not through direct combat between them, which nuclear weapons made unthinkable, but through an arms race, espionage, propaganda, and a race to the Moon. The threat of mutual annihilation loomed constantly, coming closest to reality in the 1962 Cuban Missile Crisis.",
+    "Instead of fighting each other head-on, the superpowers backed opposing sides in 'proxy' conflicts across the globe, from Korea and Vietnam to Afghanistan. Newly independent nations were pressured to pick a side. India, under Jawaharlal Nehru, helped lead the Non-Aligned Movement, seeking to chart an independent path and give the decolonising world a collective voice apart from either bloc.",
+    "The Cold War ended when the Soviet system, strained economically and politically, collapsed — symbolised by the fall of the Berlin Wall in 1989 and the dissolution of the USSR in 1991. That ushered in a brief 'unipolar' moment of American dominance. Today's world is increasingly described as multipolar, with the rise of China and the return of great-power competition echoing, in new forms, the old contest."
+   ]
+  },
+  {
+   "title": "Plate tectonics: why continents move and mountains rise",
+   "teaser": "The ground beneath you is slowly drifting.",
+   "body": [
+    "Earth's rigid outer shell is not a single solid layer but a jigsaw of about a dozen large plates that float on the hot, slowly flowing rock of the mantle beneath. These plates creep across the surface at roughly the speed your fingernails grow — a few centimetres a year. Over millions of years, that imperceptible motion rearranges the entire face of the planet, opening oceans and raising mountain ranges.",
+    "What happens at plate boundaries shapes the world's geology. Where plates collide, crust is crumpled upward into mountains; where they pull apart, molten rock rises to form new seafloor; and where they grind past each other, stress builds and releases as earthquakes. The Pacific 'Ring of Fire,' a belt of volcanoes and quakes, traces exactly such boundaries.",
+    "India offers one of the most dramatic examples. The Indian landmass was once part of a southern supercontinent, Gondwana, and drifted thousands of kilometres north before slamming into Asia around 50 million years ago. That collision pushed up the Himalayas — and because India is still pressing northward, the mountains continue to rise and the region remains seismically active."
+   ]
+  },
+  {
+   "title": "Natural selection: the simple idea behind life's diversity",
+   "teaser": "How blind variation builds astonishing design.",
+   "body": [
+    "Charles Darwin's theory of evolution by natural selection rests on a surprisingly simple mechanism. Within any population, individuals vary, and some of that variation is inherited by their offspring. When a particular trait helps individuals survive and reproduce in their environment, it becomes more common over generations, while unhelpful traits fade. Given enough time, this gradual filtering can transform species and produce structures as intricate as the eye.",
+    "A common misunderstanding is that evolution is purely random. Mutation, which supplies the raw variation, is random — but selection is not. It consistently favours whatever works better in a given setting, giving evolution direction without any need for a designer. All living things, from bacteria to blue whales, share common ancestry, a fact now confirmed in exquisite detail by comparing their DNA.",
+    "Evolution is not just history; it happens around us in real time. Bacteria evolving resistance to antibiotics, and viruses mutating into new variants, are natural selection playing out within human lifetimes — and a serious practical challenge for medicine. Understanding the process helps explain not only where the diversity of life came from, but why some of our most powerful drugs steadily lose their punch."
+   ]
+  },
+  {
+   "title": "Einstein's relativity, in plain language",
+   "teaser": "Time and space are not the fixed backdrop we assume.",
+   "body": [
+    "In 1905, Albert Einstein published his theory of special relativity, built on a startling premise: the speed of light is the same for every observer, no matter how fast they are moving. To keep that true, something else has to give — and what gives is our commonsense idea that time and space are absolute. A clock on a fast-moving spacecraft genuinely ticks slower than one at rest, an effect called time dilation. The same theory yields the most famous equation in science, E=mc², showing that mass and energy are interchangeable.",
+    "A decade later, Einstein extended these ideas into general relativity, a new theory of gravity. Instead of a mysterious force pulling objects together, gravity is reimagined as the bending of spacetime by mass and energy. A massive body like the Sun warps the space around it, and planets simply follow the straightest possible paths through that curved geometry. This picture predicted phenomena that seemed outlandish at the time, including black holes and ripples in spacetime called gravitational waves.",
+    "These are not just abstractions. The GPS in your phone must correct for relativistic effects, because clocks on orbiting satellites run at a slightly different rate than clocks on the ground; ignore relativity and navigation would drift off by kilometres within a day. Gravitational waves, predicted in 1915, were directly detected for the first time in 2015, a century later — a stunning confirmation of Einstein's vision."
+   ]
+  },
+  {
+   "title": "DNA: the four-letter code that builds every living thing",
+   "teaser": "A molecular instruction manual written in chemistry.",
+   "body": [
+    "Inside almost every cell of every living organism is DNA, a long molecule shaped like a twisted ladder — the famous double helix. The information it carries is written in an alphabet of just four chemical 'letters,' known by the initials A, T, G and C. The precise order of these letters along the strand spells out instructions, much as sequences of letters spell out words and sentences. Stretches of this code called genes act as recipes for building proteins, the molecular machines that run our bodies.",
+    "The scale is remarkable in both directions. The human genome contains roughly three billion letters and around 20,000 genes, yet we share the overwhelming majority of our DNA with other humans and a surprisingly large fraction with creatures as different as mice, bananas and yeast — a direct signature of shared ancestry. The Human Genome Project, completed in 2003, first read out the entire human sequence, opening a new era of biology and medicine.",
+    "Understanding this code has become one of the most powerful tools in science. Sequencing DNA helps diagnose disease, trace ancestry and track outbreaks, while gene-editing technologies like CRISPR now allow scientists to rewrite specific letters of the code with precision. That power raises profound possibilities — curing inherited diseases — alongside serious ethical questions about how far we should go in editing the blueprint of life."
+   ]
+  },
+  {
+   "title": "The greenhouse effect and a warming planet",
+   "teaser": "The physics is old; the scale is new.",
+   "body": [
+    "Earth stays warm enough for life because certain gases in the atmosphere — carbon dioxide, methane, water vapour — let sunlight in but trap some of the heat the planet radiates back out, like a blanket. This natural greenhouse effect is essential; without it, Earth would be a frozen ball. The problem is not the effect itself but its intensification: by burning coal, oil and gas, humanity has raised atmospheric carbon dioxide to levels not seen in millions of years.",
+    "The result is a measurable warming of the planet — roughly 1.2 degrees Celsius above pre-industrial levels so far — which sounds small but reshapes the climate system. It means more frequent and intense heatwaves, droughts and heavy downpours, rising sea levels as ice melts and oceans expand, and disruption to weather patterns. For India, one of the gravest risks is to the monsoon, on which agriculture and water supplies for over a billion people depend.",
+    "In response, nearly all nations signed the 2015 Paris Agreement, pledging to limit warming well below 2 degrees. Countries have set 'net-zero' targets — the point at which they add no more greenhouse gases than they remove — with India aiming for 2070 while rapidly expanding solar and wind power. The central challenge of the coming decades is to keep growing economies and lifting people out of poverty while steeply cutting emissions."
+   ]
+  },
+  {
+   "title": "How the Green Revolution changed India's food story",
+   "teaser": "From famine fears to grain surpluses.",
+   "body": [
+    "In the 1960s, India faced a food crisis. Its population was growing fast, harvests were poor, and the country depended on imported grain and food aid to stave off famine. The turning point came with the Green Revolution: the introduction of new high-yielding varieties of wheat and rice, developed by scientists including Norman Borlaug and, in India, M. S. Swaminathan, combined with chemical fertilisers, pesticides, and expanded irrigation.",
+    "The impact was transformative. States like Punjab, Haryana and western Uttar Pradesh became the nation's breadbaskets, grain output soared, and within a couple of decades India moved from the brink of famine to self-sufficiency, and eventually to being a food exporter. It is widely credited with saving millions from hunger and giving the young nation a foundation of food security.",
+    "But the revolution carried real costs that are now pressing concerns. Intensive irrigation has drained groundwater to alarming depths in the northwest; heavy fertiliser and pesticide use has degraded soils and polluted water; and the focus on a few staple crops narrowed diets and cropping diversity. The benefits were also unevenly spread across regions. India's current challenge is a 'second' revolution — one that sustains high yields while repairing the environmental damage of the first."
+   ]
+  },
+  {
+   "title": "What happens when you load a web page",
+   "teaser": "The elegant plumbing beneath every click.",
+   "body": [
+    "When you type an address and hit enter, your request does not travel as one continuous stream. Instead, the data is broken into small chunks called packets, each individually addressed and sent off across the network. Guided by a family of rules known as TCP/IP, these packets hop from router to router — often taking different paths — and are reassembled in the correct order at the destination. There is no central controller directing traffic; the system is deliberately decentralised.",
+    "Two pieces of infrastructure make this feel instant. The Domain Name System (DNS) acts like the internet's phone book, translating a human-friendly name like a website's address into the numerical IP address computers actually use to find each other. And most intercontinental traffic does not go by satellite but through a web of fibre-optic cables lying on the ocean floor, carrying data between continents at nearly the speed of light.",
+    "This architecture is a direct inheritance from the internet's origins in ARPANET, which was designed so that data could reroute around damaged nodes and keep flowing. That resilience is why the network scales so gracefully and rarely goes fully dark. Every web page you open is the product of thousands of these tiny packets racing across the planet and back, usually in a fraction of a second."
+   ]
+  },
+  {
+   "title": "The AI shift: what large language models actually do",
+   "teaser": "Powerful pattern machines, not digital minds.",
+   "body": [
+    "The recent wave of artificial intelligence is driven by large language models (LLMs) — the technology behind modern AI chatbots. At their core, these systems are trained on vast quantities of text and learn to do something deceptively simple: predict the next word in a sequence. By doing this billions of times over enormous datasets, they absorb the statistical patterns of language, along with a great deal of the knowledge encoded in that text, and can then generate fluent, often strikingly useful responses.",
+    "It helps to be clear about what this is and isn't. An LLM does not 'understand' the world the way a person does, nor does it look up facts in a database. It generates plausible continuations based on patterns, which is why it can be articulate and helpful but also confidently wrong — producing 'hallucinations,' or inheriting biases present in its training data. The breakthrough that made today's models possible was a neural-network design called the transformer, introduced in 2017, combined with vast computing power.",
+    "The economic and social implications are still unfolding. AI is already reshaping how people write, code, research and create, and it poses particular questions for economies like India's, with its large services and IT sector. The realistic near-term picture is less science-fiction robot and more a powerful general-purpose tool — one that amplifies human work, demands new skills, and requires care about accuracy, fairness and appropriate use."
+   ]
+  },
+  {
+   "title": "Why tiny chips decide global power",
+   "teaser": "The most important industry most people never think about.",
+   "body": [
+    "Semiconductors — the microchips inside phones, cars, appliances, weapons and data centres — have become the foundation of the modern economy. What makes them geopolitically explosive is how extraordinarily concentrated their production is. The most advanced chips are manufactured by a handful of firms, above all Taiwan's TSMC, and the ultra-precise machines needed to etch them are made by essentially one company, ASML in the Netherlands, while much of the cutting-edge design comes from the United States.",
+    "This means no single country can make a leading-edge chip alone; the supply chain is a globally interdined web with critical choke points. That fragility became painfully visible during the shortages of 2021, when a shortfall of chips idled car factories worldwide. It has also turned semiconductors into a central front in the rivalry between the United States and China, with export controls on advanced chips and chipmaking equipment used as tools of statecraft.",
+    "Taiwan's dominance in particular gives the island outsized strategic importance and adds a dangerous edge to tensions over its status. Governments have responded by pouring money into building domestic chip factories, or 'fabs,' to reduce their dependence — including India, which is courting fabrication and assembly plants as part of its push to become a manufacturing hub. In the coming decades, who makes the world's chips may matter as much as who controls its oil once did."
+   ]
+  }
+ ]
 }

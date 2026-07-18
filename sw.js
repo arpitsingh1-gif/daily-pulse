@@ -1,6 +1,6 @@
 // Daily Pulse service worker — shell cache-first, data network-first.
-const VER = 'dp-v6';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'data/skills-bank.json', 'data/embed.js'];
+const VER = 'dp-v14';
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'data/skills-index.json', 'data/embed.js'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VER).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -25,14 +25,15 @@ self.addEventListener('fetch', (e) => {
     );
     return;
   }
-  if (url.pathname.endsWith('/data/data.json')) {
-    // network-first: fresh data when online, cached data offline
+  // Data + learning content: NETWORK-FIRST so refreshes and new lessons propagate immediately;
+  // fall back to cache offline.
+  if (url.pathname.endsWith('/data/data.json') || url.pathname.endsWith('/data/skills-index.json') || url.pathname.includes('/data/skills/')) {
     e.respondWith(
       fetch(e.request).then((r) => {
         const copy = r.clone();
-        caches.open(VER).then((c) => c.put('data/data.json', copy));
+        caches.open(VER).then((c) => c.put(e.request, copy));
         return r;
-      }).catch(() => caches.match('data/data.json'))
+      }).catch(() => caches.match(e.request, { ignoreSearch: true }))
     );
     return;
   }
