@@ -46,3 +46,11 @@ jobs:
           git add data/data.json data/embed.js
           git diff --staged --quiet || git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+      - name: Alert phone if the refresh failed
+        if: failure()
+        run: |
+          curl -s -H "Title: Daily Pulse refresh FAILED" -H "Tags: rotating_light" -H "Priority: high" \
+            -d "The data refresh workflow failed at $(date -u +'%Y-%m-%d %H:%M UTC'). Open the Actions tab to see which step broke." \
+            "ntfy.sh/${NTFY_TOPIC}" || true
+        env:
+          NTFY_TOPIC: arpit-daily-pulse-x7k93q
