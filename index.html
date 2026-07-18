@@ -433,6 +433,12 @@
   function aiBtn(label,fn){return '<button class="aibtn" data-ai="'+(aiStore.push(fn)-1)+'">✦ '+esc(label)+'</button>';}
   function wireAI(root){$$('.aibtn[data-ai]',root).forEach(function(b){if(b._w)return;b._w=1;
     b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var f=aiStore[+b.dataset.ai];if(f)askAI(typeof f==='function'?f():f);});});}
+  function cramPrompt(c,r,j){ var isArpit=/arpit/i.test(myName());
+    var bg=isArpit?'Use my saved career context (the arpit-career-context skill) for my background, projects and honesty rules.':'Ask me to paste my resume/background if you need it.';
+    return 'Act as my interview coach. Research '+c+' on the web, then build my interview cram pack in this 9-section format as a clear, structured document with headings and tables:\n'
+      +'1) Company snapshot (what they do, funding, scale)\n2) Culture & stability — an honest read (Glassdoor, recent news)\n3) The JD mapped to my evidence, with a fit rating out of 10 and my gaps\n4) Smart questions to ask them\n5) SQL revision — the patterns they will test, with interview lines and the likely probes\n6) Power BI / analytics revision\n7) My projects as STAR stories\n8) Likely questions with how to answer\n9) Night-before checklist.\n'
+      +bg+'\nRole: '+(r||'(infer from the company)')+'.\nJob description: '+(j||'(none provided — infer typical requirements)'); }
+  function cramGo(prompt){ window.open((LLM[myLLM()]||LLM.claude)(String(prompt||'').slice(0,1950)),'_blank','noopener'); vibe(10); bump('ai_used',1,true); track('cram_pack',{}); }
   function briefingPrompt(){return 'Give me my personal daily briefing for today. Using my connected Gmail, Slack and Google Calendar, summarise concisely and prioritised:\n1) Important or unread emails needing my reply (sender + one-line why).\n2) Slack messages where I am @mentioned or DMed (who/where + gist).\n3) Today\'s meetings with times and a one-line prep note each.\nPut anything urgent at the very top. If you cannot access these, tell me exactly what to connect.';}
 
   /* ===== live client data ===== */
@@ -473,10 +479,14 @@
     {id:'ai',label:'AI Studio',ico:'<path d="M12 3v3M12 18v3M5 12H2M22 12h-3"/><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/><path d="M6.3 6.3l1.5 1.5M16.2 16.2l1.5 1.5M17.7 6.3l-1.5 1.5M7.8 16.2l-1.5 1.5"/>'}];
   $('#nav').innerHTML=TABS.map(function(t){return '<button data-tab="'+t.id+'"><svg viewBox="0 0 24 24">'+t.ico+'</svg>'+t.label+'</button>';}).join('');
   function doRender(id){ ({home:renderHome,markets:renderMarkets,news:renderNews,learn:renderLearn,ai:renderAI,you:renderYou}[id]||function(){})(); }
-  function setTab(id){ tab=id;store.set('tab',id);track('tab_view',{tab:id});
+  function setTab(id){
+    if(id==='learn'&&tab==='learn'&&typeof sView!=='undefined'&&sView&&sView.mode!=='tracks'){ sView={mode:'tracks'}; } // re-tap Learn pops to catalog
+    tab=id;store.set('tab',id);track('tab_view',{tab:id});
     $$('nav button').forEach(function(b){b.classList.toggle('on',b.dataset.tab===id);});
     function swap(){ $$('.tabpage').forEach(function(p){p.classList.toggle('on',p.id==='page-'+id);}); doRender(id); window.scrollTo(0,0); }
-    if(document.startViewTransition)document.startViewTransition(swap);else swap(); vibe(4); }
+    if(document.startViewTransition){ try{ var vt=document.startViewTransition(swap);
+      ['ready','finished','updateCallbackDone'].forEach(function(k){ if(vt&&vt[k]&&vt[k].catch)vt[k].catch(function(){}); }); }catch(e){ swap(); } } else swap();
+    vibe(4); }
   $('#nav').addEventListener('click',function(e){var b=e.target.closest('button');if(b)setTab(b.dataset.tab);});
   $('#avaBtn').addEventListener('click',function(){setTab('you');});
   $('#titleBtn').addEventListener('click',function(){setTab('home');});
@@ -805,16 +815,31 @@
       +'</div>';
     var packHtml=PACKS.map(function(g){return '<div class="catrow">'+esc(g.icon)+' '+esc(g.cat)+'</div><div class="packgrid">'
       +g.items.map(function(it,ii){return '<div class="pack" data-c="'+esc(g.cat)+'" data-ii="'+ii+'"><div class="pi">'+esc(it.i)+'</div><div class="pt">'+esc(it.t)+'</div><div class="pd">'+esc(it.d)+'</div><div class="arrow">'+(it.fill?'Fill & ask':'Ask')+' ↗</div></div>';}).join('')+'</div>';}).join('');
+    var cramCard='<div class="card"><h2>🎯 Interview cram pack <span class="chip go">researched</span></h2>'
+      +'<div style="font-size:13px;color:var(--ink2);margin-bottom:11px">Enter a role &amp; JD → your AI researches the company and builds a full cram pack: snapshot, culture, a JD-to-you fit rating /10, SQL/Power BI revision, STAR stories, likely Q&amp;A, and a night-before checklist.</div>'
+      +'<button class="bigbtn grad" id="cramBtn">Build my cram pack</button></div>';
     $('#page-ai').innerHTML='<div class="card aihero"><h2>✦ AI Studio <span class="chip v">via '+esc(LLM_NAMES[myLLM()])+'</span></h2>'
       +'<div style="font-size:13px;color:var(--ink2);margin-bottom:10px">Ready-made prompts that open your AI with everything filled in — just hit enter.</div>'
       +'<div class="askbox"><input type="text" id="askAny" placeholder="Ask anything…"><button class="askgo" id="askAnyGo">Ask</button></div></div>'
-      +briefCard+packHtml;
+      +briefCard+cramCard+packHtml;
     $('#askAnyGo').addEventListener('click',function(){var v=$('#askAny').value.trim();if(v)askAI(v);});
     $('#askAny').addEventListener('keydown',function(e){if(e.key==='Enter'){var v=$('#askAny').value.trim();if(v)askAI(v);}});
     $$('.pack',$('#page-ai')).forEach(function(el){el.addEventListener('click',function(){var g=PACKS.filter(function(x){return x.cat===el.dataset.c;})[0];var it=g.items[+el.dataset.ii];vibe(6);if(it.fill)fillSheet(it);else askAI(it.p());});});
     var bs=$('#briefSetup');if(bs)bs.addEventListener('click',openBriefSetup);
     var be=$('#briefEdit');if(be)be.addEventListener('click',openBriefSetup);
+    var cbtn=$('#cramBtn');if(cbtn)cbtn.addEventListener('click',openCram);
     wireAI($('#page-ai'));
+  }
+  function openCram(){ var p=store.get('prep',{c:'',r:'',j:''});
+    openSheet('<h3>🎯 Interview cram pack</h3><div style="font-size:12.5px;color:var(--ink3);margin-bottom:12px">Opens in '+esc(LLM_NAMES[myLLM()])+' — it researches the company and writes the pack.</div>'
+      +'<input type="text" id="cramC" placeholder="Company (e.g. RupeeRedee)" value="'+esc(p.c||'')+'" style="margin-bottom:9px">'
+      +'<input type="text" id="cramR" placeholder="Role (e.g. Data Analyst)" value="'+esc(p.r||'')+'" style="margin-bottom:9px">'
+      +'<textarea id="cramJ" placeholder="Paste the job description (optional)">'+esc(p.j||'')+'</textarea>'
+      +'<button class="bigbtn grad" id="cramGoBtn" style="margin-top:12px">Build with '+esc(LLM_NAMES[myLLM()])+' ↗</button>');
+    setTimeout(function(){var el=$('#cramC');if(el)el.focus();},80);
+    $('#cramGoBtn').addEventListener('click',function(){var c=$('#cramC').value.trim(),r=$('#cramR').value.trim(),j=$('#cramJ').value.trim();
+      if(!c){toast('Add the company name first');return;}
+      store.set('prep',{c:c,r:r,j:j}); closeSheet(); cramGo(cramPrompt(c,r,j)); });
   }
   function openBriefSetup(){ openSheet('<h3>Set up your briefing</h3>'
     +'<div style="font-size:13.5px;color:var(--ink2);line-height:1.6">This is a <b>one-time</b> setup. After this, it\'s a single tap each day.<br><br>'
