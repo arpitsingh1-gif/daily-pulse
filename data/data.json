@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-22T07:20:51.481Z",
- "label": "22 Jul, 12:50 IST",
+ "generatedAt": "2026-07-22T07:40:48.377Z",
+ "label": "22 Jul, 13:10 IST",
  "markets": {
   "indices": [
    {
@@ -32,12 +32,12 @@
    {
     "name": "Bank Nifty",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 57183.3,
-    "chg": -652.05,
-    "pct": -1.13,
+    "price": 57073.8,
+    "chg": -761.55,
+    "pct": -1.32,
     "spark": [
      57835.35,
-     57183.3
+     57073.8
     ],
     "fx": false,
     "ok": true
@@ -45,12 +45,12 @@
    {
     "name": "Nifty IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 28736.3,
-    "chg": -248.1,
-    "pct": -0.86,
+    "price": 28527.55,
+    "chg": -456.85,
+    "pct": -1.58,
     "spark": [
      28984.4,
-     28736.3
+     28527.55
     ],
     "fx": false,
     "ok": true
@@ -125,12 +125,12 @@
    {
     "name": "Bank",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 57183.3,
-    "chg": -652.05,
-    "pct": -1.13,
+    "price": 57073.8,
+    "chg": -761.55,
+    "pct": -1.32,
     "spark": [
      57835.35,
-     57183.3
+     57073.8
     ],
     "fx": false,
     "ok": true
@@ -138,12 +138,12 @@
    {
     "name": "IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 28736.3,
-    "chg": -248.1,
-    "pct": -0.86,
+    "price": 28527.55,
+    "chg": -456.85,
+    "pct": -1.58,
     "spark": [
      28984.4,
-     28736.3
+     28527.55
     ],
     "fx": false,
     "ok": true
@@ -298,10 +298,10 @@
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
    "price": 13.03,
-   "chg": 0.42,
+   "chg": 0.43,
    "pct": 3.37,
    "spark": [
-    12.61,
+    12.6,
     13.03
    ],
    "fx": false,
@@ -483,16 +483,16 @@
    {
     "name": "Infosys",
     "g": "INFY:NSE",
-    "price": 1056.6,
-    "chg": -16.9,
-    "pct": -1.57,
+    "price": 1047.2,
+    "chg": -26.3,
+    "pct": -2.45,
     "spark": [
      1073.5,
-     1056.6
+     1047.2
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.8
+    "pe": 14.7
    },
    {
     "name": "ICICI Bank",
@@ -553,12 +553,12 @@
    {
     "name": "Tata Motors",
     "g": "TMPV:NSE",
-    "price": 330.25,
-    "chg": -3.55,
-    "pct": -1.06,
+    "price": 328.55,
+    "chg": -5.25,
+    "pct": -1.57,
     "spark": [
      333.8,
-     330.25
+     328.55
     ],
     "fx": false,
     "ok": true
@@ -722,6 +722,20 @@
   ],
   "losers": [
    {
+    "name": "Infosys",
+    "g": "INFY:NSE",
+    "price": 1047.2,
+    "chg": -26.3,
+    "pct": -2.45,
+    "spark": [
+     1073.5,
+     1047.2
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 14.7
+   },
+   {
     "name": "SBI",
     "g": "SBIN:NSE",
     "price": 1022.7,
@@ -736,18 +750,17 @@
     "pe": 11.2
    },
    {
-    "name": "Infosys",
-    "g": "INFY:NSE",
-    "price": 1056.6,
-    "chg": -16.9,
+    "name": "Tata Motors",
+    "g": "TMPV:NSE",
+    "price": 328.55,
+    "chg": -5.25,
     "pct": -1.57,
     "spark": [
-     1073.5,
-     1056.6
+     333.8,
+     328.55
     ],
     "fx": false,
-    "ok": true,
-    "pe": 14.8
+    "ok": true
    },
    {
     "name": "ICICI Bank",
@@ -776,20 +789,6 @@
     "fx": false,
     "ok": true,
     "pe": 41.9
-   },
-   {
-    "name": "HDFC Bank",
-    "g": "HDFCBANK:NSE",
-    "price": 752.25,
-    "chg": -9.2,
-    "pct": -1.21,
-    "spark": [
-     761.45,
-     752.25
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 14.7
    }
   ],
   "breadth": {
@@ -817,16 +816,22 @@
     "at": "22 Jul, 00:32"
    },
    {
-    "title": "Caliber Mining & Logistics IPO allotment date today. GMP, steps to check allotment status on BSE, NSE, KFin Tech",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZzI4d3ZfSVE4WXUwRlNTMFRqbXRXeklhVk1rb3BkdTIzUm92c1RFVW80Y1UxMnEyWDRIczhRbkJ3S0c4RkJiaHFEQzd5bTFWZU5Jem9YXy0wUDdnX3o0RHdwa05qZzFYWHpnbk9MVHdhM2x5d0EzcVl2QUgyMDZvbWFlY0Fnb0pkS1hYSElYeDcwcnFDY19YQ3RuMkFpNVlLcFNVczhDNDU4RkZVbnpqeld4QWtZbWhYWndoV0ZLQk5ITU11TnhpanVBS2JnNjg4YUdlQlVDcEZwT2ladnpaaVNIdzRkeG9DeUxNVHMxYVNNbVpjWE5SaEV30gH_AUFVX3lxTFBHWlB0U1BNeHdjd0Rudzl2U0JFaUhTYzhhWXdnVE1jOTJEUWJvZG5UeGVfcnBOekR1eGw4N3JrdF9VTzFsTzYwWTNhSVRadkJHSFRDYTR4OV9QYThlenFKQjJqUENWQ3BTZ1dYMFFXUXN1VVZ5N2s0ZkZoMXNQcnhpdFo3OWZOb04yd1YzVEJEMm5VcVJidVRXM3NVa2w0ajRiR2V0RTBzVHhJaURZYV9iT2tSOFZyVWZXOGJGZEtDZi1kSGlkNVNuQkJmZkhacGNGSjlibmprY2l6TXU5Q09wUVhzeU1HS1ZEX0RQYTFXS2laakRISlJSeXpGeWxuQQ?oc=5",
+    "title": "Cube Highways Trust InvIT IPO opens today; check latest GMP, subscription status, review, key details",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOX2lBcWhSelhGRnphWnh1anZSRVNYZVdaSlhwMEFHcFJZUExzQkdIQmZpdVVTbFRGTmVOZDhIYVF2RGlIZGhySllRcXhtRnlZdkhLTVg3b1dFSXlTXzZSMl9aSDFRcW42YjlOaHU0ZEFkZDFGcEhnZ0k1RzhHUXI3X2FRYWN1a09GeDRfN0ZpRzNqZURQaTRqLXJFZmMzdjRqQ3RqMk9vOExSck93eGRHQlU2ZFNDNGRFR3FCWVJRclBsUU9TMWc0Q3VMNjZrbjlVRWdFd2l5Unl1RTBsenZJaDR0WmpoOVBwQVJLM0FTallndW5EcTRnY2h0WVp6TG_SAYQCQVVfeXFMUFhOOWR2SWhhMThpaS1HV1lEYXRZb1hFcm42Z3FSaTZaNzNSZmwzQkZ3VkZ3ZG5kVHpYSHA2cGpmQ1NwQVhQM0VsNnhtZC1pdE9FY3VPMHVVYWN1WFNKRV9JSTFIcTJ5WlhQTlA1Ui1VZWFmSTBRcFJXb1BnM25jSG1OZ2hWa0gxaGpERkVkSG4yQTB3M3pjSEhEOTlUX1F5TVZPWE9EczNEVkdlUXpIZmhubUhKeDVqSWR1Z25zRWZtb1dLUnpKNC1xTk1DbkZPYV9ObURRSTBIMVU5b21lamp1OVRybGowS2UwRkNLYll6Z0ZQbDdiYU1haDItRVY5Y3hzRDc?oc=5",
     "src": "livemint.com",
-    "at": "22 Jul, 11:19"
+    "at": "22 Jul, 12:36"
    },
    {
     "title": "Lohia Corp IPO Opens July 23: Latest GMP Signals 9% Listing Premium",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZVZGM21PWC02RDJNNElybDFCalZDTzROY0ZNZllIS2tYUDgya0RQbkV2c3Ftd3JiNThfYWl1bzF0N1FCMFQ1SXlaQ18tTFFSaEhZZlFmMnZwWVd6c1V6WlVRUmdidHl0ZmpvY1VybkFEYlI4LXFHaVF6ZHVxRnBMMTBUajViS1ZDdnpsZzZyUkxzX3dUb0tSWHU1VzF1MTVJWVlJSHRzNjlIN3N5bVZtQWc4ZWVnektnOHFjd0FvbnUwUm_SAcMBQVVfeXFMUGVWRjNtT1gtNkQyTTRJcmwxQmpWQ080TmNGTWZZSEtrWFA4MmtEUG5FdnNxbXdyYjU4X2FpdW8xdDdRQjBUNUl5WkNfLUxRUmhIWWZRZjJ2cFlXenNVelpVUVJnYnR5dGZqb2NVcm5BRGJSOC1xR2lRemR1cUZwTDEwVGo1YktWQ3Z6bGc2clJMc193VG9LUlh1NVcxdTE1SVlZSUh0czY5SDdzeW1WbUFnOGVlZ3pLZzhxY3dBb251MFJv?oc=5",
     "src": "NDTV Profit",
     "at": "22 Jul, 09:38"
+   },
+   {
+    "title": "Caliber Mining & Logistics IPO allotment today; GMP hints at 17% listing gain. Here's how to check your st",
+    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNOGlUVS05WkJzS1hzeUdaMmlKb1pzTEZfRHV2cFhHNVRQWEhveFhPWFRFYk14RmczUmxOcTQ2cl9fNnhvUU9vOVJZX1Q1QVpGbmNBcjEyQ1VkUUdwNE1VczNWcUpDYXBkWHVyQzdnWENoODlSUEs5SFhwU3ctX29Qc1JBdlliTk5kUVRXNzBPeDB4TjMyLVByd004d1hwWGFPMkR5ZW11WU1JMmxPaVNNRTZaY0duR0JaNWlieXRqelNfcVQ4REVJeE1zc3EwalZhZ216X3lkXzc1dlNQd1E4QjZXd2I3UzVleTBkeVJsUGl3eXJBQVN3bi00TEFtbnd3V0ZQTUU2WdIBjAJBVV95cUxNSGh0b1ZvTU9GRjRuekpCQ1J5SlV2dzV6YXc2ZGt1NWhCYjR1YWQyaUVpejZDRmpEWU1KbzBXbWJ0NWR3ZzNVWnBwZUFfX2lsQ1NZS3lBa0l3Ul9tWU9HQ2xJLUZMbTNrdkRWTkotN29ULWh5djloYmd1N0RvRi1Bd0pZb2NYaHpTTzZaQjMzMFZvQkpyNGRpYWt1UHpOQm02dERuQjZ4UUktQWVPYzVGcmxhWXA4RkR5Y2VJWW1ZRVhEWlVNcUg1bGZJd25WMWxvalplWWdyNGlPOGQxZlhmUk5qZEwxMlNXcFQ2eEtZb3JiRFN6Nm44Q0lLcFd5VUdjaVlnQ3FwaUQwT1Jp?oc=5",
+    "src": "The Economic Times",
+    "at": "22 Jul, 07:36"
    },
    {
     "title": "SBI Funds Management IPO Date, Price Band, GMP, Subscription & Allotment",
@@ -851,18 +856,12 @@
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9vSWV5azRGVzVjMkpPZXRnZ0NZMDNTR05mLUN4T0t4RmU3WkFtTGx3ZXFRbV9laTVDUnp2bURQVzdGb3VRbWQyNw?oc=5",
     "src": "IPO Watch",
     "at": "22 Jul, 08:18"
-   },
-   {
-    "title": "Bondada Engineering board to consider dividend, main board migration",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUQ0SGJSY3JmMllHYU5HNE52bVNmM0hucmJEaExPUWF3Nk1jRUZMNEo1NkhKQjJLS3dVRnRnbDJYVkFVUjBpc01YZ3hDZXBkNXEzSzRveUVPcjgtSE15STVlRTFPaFNkdDVjbHg2T01LTnVqUHBFeTRJTk0wN3FJWmRZTEVKMVVtVW8zR1J0UjlocTZlbVg3d0JFekkxY19GVGhZd3JKUXRWbHhoRGo5SnlJQ1hWbmZFMDlJNmN2NzZ5dw?oc=5",
-    "src": "scanx.trade",
-    "at": "21 Jul, 13:42"
    }
   ],
   "insights": [
    "Breadth: 4/16 stocks up — broadly weak today",
    "Top mover: HUL +0.65%",
-   "Weakest: SBI -2.08%",
+   "Weakest: Infosys -2.45%",
    "Hot sector: FMCG +0.53% · Cold: Realty -2.33%",
    "2/8 sectors green today",
    "Nifty 50 down 0.76% — bearish session",
@@ -956,17 +955,17 @@
   },
   {
    "tag": "World",
-   "title": "Indian-Origin Doctor Jailed In US For Recording Hospital Staff In Restroom",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUnBRQXA3cmpsNnY4M2hwS3ZWYW14VThXOGF2TkczRi1QOUs5Y1RlSW1jQm1NdXNMOVV4UjZjSTFTb1JQUGxyaUg3eUtITkQwekstUGlrZUktbzRmWmszWU0wbE01d0JhX0tzWXpNX3B0cG10eGhaNU1YWGl4UGxVV09jdmk5OVVCbjZGeTlUQWNRU0hQbHJmdEdqM1V1ZUV6SUU5bzVLZ1VJTl8tQzY1Z0FmSHE3ejBoWTFBYnJiMzhBZXE1MVlxTDBuMNIB0wFBVV95cUxOTzM3T093MmpPSFJmOHhTeldHRWxVSXZTWnVEc0xfMWRHNWw2akFZNWhBMk92bFBTYU1lU0Y5OFVPZG4tODE3MjNTVnlxWXlGWTR6dEQ1STRoYm1wVWpUYXAxVnVmTzRUdFBLUkpfTUJtV1hpLU15bmR4dlR4QWVIS0dTLVhBc1IzcG8zOHNKRUdTLWpVWnhGenZFd1VLMDdLSlB5eFptOTJjbWg4WDlteFRzTHZKYmg2VnQ2eENjd2JfMFVqOGNNaHZKNFRhVUdpNEgw?oc=5",
-   "src": "NDTV",
-   "at": "22 Jul, 11:40"
+   "title": "Mamdani Says New York Doesn’t Have Authority to Arrest Netanyahu",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmZFR3ZsM0M2NDVBcEJJQTVfZ0ZIR1oyMTNFVXhEV3M0MlUtdXg0LUhmMUJsTUpINXlzUUVlZHMtWkVYNjUtTjNsR0hTN1h6WW52bFBFeWpkdzlEcHVpXzhJMDVwQll0bUNsSkk4ZjVTdk0tM3NjX1VJT0NNYWZvV3Y4S2RSYnpBM1cwWUJ2T3Y2SU1tQ0JmYjF3clFaSFZRR3dhaFBqaW9tLTA3cXBz?oc=5",
+   "src": "WSJ",
+   "at": "22 Jul, 09:29"
   },
   {
    "tag": "For You",
-   "title": "Ford Officials Meet Tamil Nadu CM to Accelerate Manufacturing Restart in India",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQXBkaGJQV0VwdXB0ZEdTeVFTRHFaaWkwZFcxR1RYYU5sdEdDYVNtNXBwMnFaNDhLdURGMnozQkxucEItc1VIb242ZTdwWVFWYWlodXN4OEJPUWRwbGhFdEw4ZFltZjFSN2VLODZlMFpCOG5fT21iTFlDRjBNcThJaVM1aDhXTUNMZ0wxS0lxem5haW0tb3NkY0VoSFI2VEpKNzZYcnJqaGl4VE80VU9jLQ?oc=5",
-   "src": "Autopunditz",
-   "at": "22 Jul, 08:55"
+   "title": "PLI-Auto scheme draws ₹44,326 cr investment",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFhEUjFGTzlyWTZJbkwwYm5DUVlTX3pEM0w2UHhkX3RPajBSZVJpcmFEQUduV3NwRnJtbmJWc2lkcGpaLWxVR0d5Zk5KTnlTcEo2UlBHMlZkdnpESUlic19neUFlVUVSekZ1TE9xdHF2eGZ1RFNydXg3cER3aXBuT1pUclJQYlZfOG5zTWFJeDVKVHRnVGpsUEJyS09rdw?oc=5",
+   "src": "Construction Week India",
+   "at": "22 Jul, 09:56"
   }
  ],
  "browse": [
@@ -992,16 +991,16 @@
      "at": "21 Jul, 07:59"
     },
     {
-     "title": "Trade setup for July 22: Can NIFTY50 defend 20 EMA on Wednesday?",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTHljUTJKOGV4NExrY2dXNWhvbl96WFd1dzNVRW5qelRBT2RVTXJKb1M2N1lqeXpLaTRmbjgyeDliczREQ3BLamZaY0JGUDZfYzVoV1djRy1HeW5fUmpiRER6TFVudGVnQl95MWJIZU1XbUF0b3pyYWxnSjVZZ3RreDBpLVM0eGlXZW52ZkZvUVk2ZE5MUzAwOHNkVTJEVW1ILXJfaElTc1dRS2l1OGFndG1XTUFfdFlib0NQQ0xkWVo?oc=5",
-     "src": "Upstox",
-     "at": "22 Jul, 08:23"
-    },
-    {
      "title": "Semicon India 1.0 vs 2.0: What's new in the govt's ₹1.27 trillion plan?",
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRVo2MVNMUXkwbTdTZUcxOURzSVFOUE8yZHdzem5RNHNiRTFvaUVZWWxuU1FSUEN1a0p0X21SR0JjTjFhaUd2WEhvT2l4ZUw1V0xpRWlrSFhXNWVWUldaQjYyYnl0VlFQbVVlS1NwQlFnUWdfbkdtZmpwZzBwN2FrdFVYUGVpNVlnM1ByaHMwM2Z4ZHpMcHRvcUdiSUwzbUxjYkRkZ2Fla0NpM1BVc2NqcmJkUGVyVmhRQ3hYbUVWVdIBxAFBVV95cUxNb1ExLUlUZjMxYXV4eEVTLXhtMV90SThNWURHXzJiVlFaLTBIdDNXLXpJaG9HY2ZVQmJ6TGdHRFprQWhBZVctQTd4cUpwU3pFN0x6Rl84aWZnYmtoaFR1TW80MG9fRHM0c0R5X1o2Y2JlZ3NyelM4YnR5TVJoN0Q2N3YyZnNxUC1FM0c1Zjl6VUtzUkstY3BNaDdxTGdfSERQZWozQ2NsaTVWZjVBSHB5cExIU0pTWTU2VGszZHRYcG9HaUt3?oc=5",
      "src": "Business Standard",
      "at": "22 Jul, 09:07"
+    },
+    {
+     "title": "Bira 91 founder Ankur Jain steps down after settlement with lenders, investors",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUWNhR29VMXdKcjc0SFRJc0dSQ2gzU214Vndvb2VtOURPU1UxR01pazNPckVXWHM3c2xwdDY5b0Q4TlFLUElzQ3NsNHlaSy13NjZFSVZEM0ROUU11X2JUU3kxRTRFV3FKalhlZXhGWjVVd1MyUVJYX1JCdDNyelpRci1ibXVSZ2h6a0ZhUzRoSWJJcW9UWW1IWGJKOFk0MllPZDUwMXRYSGVzZ185WUVFb3lB0gGyAUFVX3lxTFBRY2FHb1Uxd0pyNzRIVElzR1JDaDNTbXhWd29vZW05RE9TVTFHTWlrM09yRVdYczdzbHB0NjlvRDhOUUtQSXNDc2w0eVpLLXc2NkVJVkQzRE5RTXVfYlRTeTFFNEVXcUpqWGVleEZaNVV3UzJRUlhfUkJ0M3J6WlFyLWJtdVJnaHprRmFTNGhJYklxb1RZbUhYYko4WTQyWU9kNTAxdFhIZXNnXzlZRUVveUE?oc=5",
+     "src": "Entrackr",
+     "at": "22 Jul, 09:34"
     },
     {
      "title": "‘Unprecedented’: OpenAI says AI models autonomously hacked another company",
@@ -1115,12 +1114,6 @@
      "at": "21 Jul, 14:11"
     },
     {
-     "title": "Moto Pad 70 Groove India Launch Set for July 31, 9-Speaker JBL Audio, 12.1-inch 120Hz Display Confirmed",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR3p0Z2dHZnVxUFZLVkxHeThPUHZJVDFwLWIwYktoWjEyR29rUURDNFowS21JZXZsYlhBbzJ5bnQwaXdvaFlKRmMxbS1OT0FzUU5JTl9uS2NuYkY0SGxFeFBxVEJBQjBOVmhHYVJ1eG1aWk5SUWREa2s5d2N6RUNHazBpYV9tYXdxN3ZBdko5TFRaQ2c1SnE1V3M3TXVLUk9ZWFo4LWV0M2VOa3NMMnYxaTVtNE9lSzRWenlXd1ZMcVc3b3dBTk1wWW1YQko?oc=5",
-     "src": "My Mobile India",
-     "at": "21 Jul, 12:56"
-    },
-    {
      "title": "OnePlus 16 India Launch Scrapped: A Sharp Blow for Fans",
      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oUktaYkllVGdQb0hEdjg0ZHdQaGRHTVp0OTFtS1NZaWpqNlc3eHZnS1M4Nnk0aTh0VXFSLTE5alY4VGtDZ1dzYWZpUklOenA2bThiX0Y4YnRrS2lJQi1zVGR0V01DX2c?oc=5",
      "src": "Techgenyz",
@@ -1131,6 +1124,12 @@
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYVFjelIzQjRaQzBtTTVOOEducnZoMS12bTh2LXowRE9wd3ZzMlVZelN3RlRuSWliSmhSdlRWTXM4QUlOcV9LRmZBOF92RllFNU1sYXJZenlGZ0NvM3dkLVVlUUd1OXBGLXJkM1NmcEItOThaMDR0cllOd0c4NTYxWVpEemh5VklITXBsYjN2Z9IBiwFBVV95cUxPR0tRR3YzYVl0MXBMRUpJSUtGRHMwbzVHWXZ5M1NFX3dSNWI0SzRLRlFOeVpZd1FDLTg3NmJPVGp4V08yUzQ0OFA1SV9DQ2dXelFWZDNFVHNIeUdrZkxuSlEwbnFPT3NpRDFaa28zRnVzZUh0ekxyX0NGSmNsWTNHRnprTnU4QVVrZXE4?oc=5",
      "src": "GSMArena.com",
      "at": "21 Jul, 20:11"
+    },
+    {
+     "title": "Redmi Watch 6 active and Redmi Watch 6 Lite leak brings specs, images, and pricing - GSMArena.com news",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbm5IaGxYT3FaWFUxWEN0TzQ0M2VWUXJMcFBRd1BmQmFVRm5Tajc2TzBQUTdEYW5tS0I5dnhJOFhtQjZnRlZOdXJtQlF4SUJTenpWRU9pYkViY2pzeVFBSzRKSzFGX0lycVlJNXlhblBHVlFhNDAtbkswZEthQnNxeENiZDRuSHkzQlR5QkZLVEtYS0VheWdReUxUZDZ3UFVxOGQ5dVAzT0JSSHZvTzNYZzIzMGw0MmlvMmF4btIBuAFBVV95cUxQbXJIZG8yTDczTlR3OXctaWo0bkhYT1Q0MHF5a2FkeGlJN3BvaEJVSXp6cDFzT01uMU1lNzNUYUxxSThaZHNOcy16V3ZSUWFZSzZBQ09nOGF2cFNJdHY0YndzekRfWWs4ZFVnaHdlV2ZrNGpSLTlUMDZiMVRPMldmZ0pXTUQ1WGloX204Z09paWp1cTVCTkRQY0RIc1JwR1NiYTU5SU9JNjNGWGp4X25USUpmekZRa0JV?oc=5",
+     "src": "GSMArena.com",
+     "at": "20 Jul, 22:11"
     }
    ]
   },
@@ -1156,12 +1155,6 @@
      "at": "22 Jul, 00:50"
     },
     {
-     "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUFZ1S2FPMDVBX1ROcHpWa2VoZG5mdWE0dFhSMVhlek8wRFZ1MzBGMjIzVXg1YzhzN3FqWHlzUnpVdXhBSWUxLUdub3ZhNFdqUnB2cFIzTVYtZzBmM01Ud2JLV1IwVGQ5ckEwRkNMeElPZkVRNWk0cjQ5ZHZPUGNjdjl0NXhLTmZGQkEyMGdaSnpPQjREcUJZX0o5aFBhVDU5bUViXzVfSVFZT0xQUy1nbkgzczRJdw?oc=5",
-     "src": "The Guardian",
-     "at": "22 Jul, 03:40"
-    },
-    {
      "title": "AI models breached Hugging Face's system during capability test: OpenAI",
      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQS3JUeDhqS2hXdHZIWkp0Qm1YR0dXQnEwRDhjcVRYZzBSWFNVSDluZGJVU3l2OEFPbThFS2pxU19QSlBkUGg1a0dadDRET0EzTFZhckFvWXNRTXFBd3RWZE5oUGVRTDJSTUpXb2JRcGZqeWd6OUpRUXVRVWFXVV94UGtjTDBMR0pFYjdHazlwVkR4QndtTjZuRDFkMmEzVEtWVU9pVWlTeUtKSmlBcmhrdFk2aUpuQ212NXZiVE02azIyVmhsYzBHYzg2SHU2bmRtRGxxWVJKcjFPeHdOMm1IaXZYRmhoejRHSGJ3Yzh6OW3SAfYBQVVfeXFMTkZpX3lvSm1ESkJZYm05eHJndXhPZ1FHU2lKVGtjLWI1eTNiTXlpZHVPdGcxWjVsUzhmaDg5Z2tNVEFsc0k5dlpMT0NuM3hKd0taY1NsR1VJT1psam1oY19yRlFjSTU3ajZBdGM0N1RINFU3ZlVCQnEzZTMzOFlPOGFNSkNxNXgySFpYbDhoazltdmtfdnRRb0VwWUQxNE1zdzJseUFBRHFtQzJmSGV5SVVJRFBEUnBIZkNQcmlFYlVjRTFZcXlzS09HQXl4SW51cGRxYzFjR0d1akp5bjV6OXlPMWxCRjdEdW52Nk9ET242SXZDNkFB?oc=5",
      "src": "Business Standard",
@@ -1172,6 +1165,12 @@
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOVVYNE03a010VWhCTDdPOXQzOG93M1ljX2xZbHh2ck56QnRvUi11NWlXVWZsX3psVmlrQXFlNVpNN1B5dWozbWhzREVWeEZ4VUxMUzA4OXZxaVZndFVwVklPSExWak94dUNqZFRIa2ZEZHQyTG9jSXJxTl9URnFzU0pha2NBM3F2VkFvUE5YWlhCb21iMks2Ql82T0dvYWZoUTZ4WUNsVi1kMi1QakptSTZwdnN3bFhLMGttSUF1dHFyS1d6a1E?oc=5",
      "src": "South China Morning Post",
      "at": "22 Jul, 09:00"
+    },
+    {
+     "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUFZ1S2FPMDVBX1ROcHpWa2VoZG5mdWE0dFhSMVhlek8wRFZ1MzBGMjIzVXg1YzhzN3FqWHlzUnpVdXhBSWUxLUdub3ZhNFdqUnB2cFIzTVYtZzBmM01Ud2JLV1IwVGQ5ckEwRkNMeElPZkVRNWk0cjQ5ZHZPUGNjdjl0NXhLTmZGQkEyMGdaSnpPQjREcUJZX0o5aFBhVDU5bUViXzVfSVFZT0xQUy1nbkgzczRJdw?oc=5",
+     "src": "The Guardian",
+     "at": "22 Jul, 03:40"
     }
    ]
   },
@@ -1185,16 +1184,16 @@
      "at": "21 Jul, 23:24"
     },
     {
-     "title": "Rupee, stocks cement India's top spot in Mint's Emerging Markets Tracker in June",
-     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxObnYyalFJVjVoRmFIbjR2ZVhLZVI2dHhpQ0pEVURheVkzSVJYX2ZSQlJlQzgxUFZkT3FJZjlNM0FBRUtPQ2hGalVaVjl0VnVhZjE5QzRCekFtRlh2eU81anBaNmJFUnlpX1JXVmtCMVpEWmZHRkhwSVZtVWVEenhrYk12OTRpV0didm5ZQUJtQ28yU1hNSUljcWFfcWljaUhFVnY3cmRJbEhSX1pGOXJ0bzVWZ19YdXE5NTB2dmlVempmb1VYZTN2V1czQ040RkhHRmc2djFfYmM5b2xUN1NTaGJ5dy1yYjR5cndhd0t5enlSTkNFTEQybDdhMzJSQdIB_gFBVV95cUxObnYyalFJVjVoRmFIbjR2ZVhLZVI2dHhpQ0pEVURheVkzSVJYX2ZSQlJlQzgxUFZkT3FJZjlNM0FBRUtPQ2hGalVaVjl0VnVhZjE5QzRCekFtRlh2eU81anBaNmJFUnlpX1JXVmtCMVpEWmZHRkhwSVZtVWVEenhrYk12OTRpV0didm5ZQUJtQ28yU1hNSUljcWFfcWljaUhFVnY3cmRJbEhSX1pGOXJ0bzVWZ19YdXE5NTB2dmlVempmb1VYZTN2V1czQ040RkhHRmc2djFfYmM5b2xUN1NTaGJ5dy1yYjR5cndhd0t5enlSTkNFTEQybDdhMzJSQQ?oc=5",
-     "src": "livemint.com",
-     "at": "22 Jul, 10:01"
-    },
-    {
      "title": "China, weak monsoon, AI boom: 10 trends investors should watch in H2 2026",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbVdCbzMwdExPak1TdHFJR3p1TWpoWElwM2VZRzRlUFhmUzRlZFdoUnNZemxta3NJZVBDeUI5OFlSTGJORkxsNFRoWUN1TEY4N3dnejNZM183SS15aHFpM203aVpMS1AxV3pwZzZsTWxvX3lENzBjWVpMLUxJS216Sm9OSEdtak9jb0k1WVVUSTZ3SUl6QktMa3FseXlzRS1JQ1FZZjdNb2ZVTUk0VktvclR4eTZUSVc0QWRaVnMzeE42MkJmTDhNNE5xbHpBbW5lRkZ5SXhkNlF1NzR5bGpseVE2d9IB6AFBVV95cUxPbkhfc2Jvc3hpOFRBWkdGY3NDQS1MM1kxS2EwMmxpUUJJX19vc09tMmpvWFZHNmRqb29wUmp1SGpNSFd5NkEtOXI3bFFFZXVBbGwzLU1WdnR2czRYRnVBNlIyVVdXUjI2SFVLUjJmODhJSHNPblNtY0dNS0ZySmxiaU04cmFqZkd3bUg0N2xJdzhOUnE1cTg2NTJaV3daeTg5cEVCbnhIUlF2X3FlS25OVGpvS2YwX2s5Z0lBYk0xc1N4Sm9aWnJsaEpzV3pWMkxhZXJBU2gwakpwMjdneGoxcG5pNWV1WE5T?oc=5",
      "src": "Business Standard",
      "at": "22 Jul, 08:55"
+    },
+    {
+     "title": "Rupee, stocks cement India's top spot in Mint's Emerging Markets Tracker in June",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxObnYyalFJVjVoRmFIbjR2ZVhLZVI2dHhpQ0pEVURheVkzSVJYX2ZSQlJlQzgxUFZkT3FJZjlNM0FBRUtPQ2hGalVaVjl0VnVhZjE5QzRCekFtRlh2eU81anBaNmJFUnlpX1JXVmtCMVpEWmZHRkhwSVZtVWVEenhrYk12OTRpV0didm5ZQUJtQ28yU1hNSUljcWFfcWljaUhFVnY3cmRJbEhSX1pGOXJ0bzVWZ19YdXE5NTB2dmlVempmb1VYZTN2V1czQ040RkhHRmc2djFfYmM5b2xUN1NTaGJ5dy1yYjR5cndhd0t5enlSTkNFTEQybDdhMzJSQdIB_gFBVV95cUxObnYyalFJVjVoRmFIbjR2ZVhLZVI2dHhpQ0pEVURheVkzSVJYX2ZSQlJlQzgxUFZkT3FJZjlNM0FBRUtPQ2hGalVaVjl0VnVhZjE5QzRCekFtRlh2eU81anBaNmJFUnlpX1JXVmtCMVpEWmZHRkhwSVZtVWVEenhrYk12OTRpV0didm5ZQUJtQ28yU1hNSUljcWFfcWljaUhFVnY3cmRJbEhSX1pGOXJ0bzVWZ19YdXE5NTB2dmlVempmb1VYZTN2V1czQ040RkhHRmc2djFfYmM5b2xUN1NTaGJ5dy1yYjR5cndhd0t5enlSTkNFTEQybDdhMzJSQQ?oc=5",
+     "src": "livemint.com",
+     "at": "22 Jul, 10:01"
     },
     {
      "title": "RBI Governor Sees West Asia Tensions, Weak Monsoon As Major Economic Risks",
@@ -1332,10 +1331,10 @@
      "at": "22 Jul, 00:24"
     },
     {
-     "title": "Cyber crime cases cross 1 lakh in 2024; J&K records 114, Ladakh one: MHA",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2N0Ml9oT2xHemZLaEpiZ2lvbU80SEtrdFlWRGVJLU9wX3FPWkxwZlJndFNXMW5DNHFVUU5Hc3l2ako0N1pCZHpHcmRvd3pvd3pPWi1nNEJqV3F5eW02Wk1TV2pIR2ZaOEhMTldXTGt3Y0w3MWRITnRjc0xGMC1qSHk4MjgxSWk1SzVQQU1JRF9CNHh4OTRsaU5Pbl94SnE2SHgwUU5qR3liN2psSEdyM0JPZVpzY1dtMy1MSEhwNnNJM0ItSEtGWm5B?oc=5",
-     "src": "Kashmir News Observer",
-     "at": "21 Jul, 22:11"
+     "title": "FBI Issues Wanted Notice for Indian National Harmanveer Singh in Cross-Border Drug Trafficking Case",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWU5aa0pTdWZLRThaeGEtRGVLLWxCZC1tdUZUYU9CdGpBOU5Iekl1OVl6eGR0d3VwRGQxNVdQREhualcyZm84SFRXa042MDE2R1NFMG1LSTlRZTFBclFNdVNRQ211SnFQNWd3V1E2M0s2OTEwUm81dGxER3hhZm1HSHo1MjlXNzd1Mkg2akhRSFRsdFJ4ZnJHclU0YkFFZ3ZsZk5oSW9hVEhldw?oc=5",
+     "src": "Daily Pioneer",
+     "at": "22 Jul, 05:56"
     }
    ]
   },
@@ -1343,16 +1342,28 @@
    "tag": "World",
    "items": [
     {
-     "title": "Indian-Origin Doctor Jailed In US For Recording Hospital Staff In Restroom",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUnBRQXA3cmpsNnY4M2hwS3ZWYW14VThXOGF2TkczRi1QOUs5Y1RlSW1jQm1NdXNMOVV4UjZjSTFTb1JQUGxyaUg3eUtITkQwekstUGlrZUktbzRmWmszWU0wbE01d0JhX0tzWXpNX3B0cG10eGhaNU1YWGl4UGxVV09jdmk5OVVCbjZGeTlUQWNRU0hQbHJmdEdqM1V1ZUV6SUU5bzVLZ1VJTl8tQzY1Z0FmSHE3ejBoWTFBYnJiMzhBZXE1MVlxTDBuMNIB0wFBVV95cUxOTzM3T093MmpPSFJmOHhTeldHRWxVSXZTWnVEc0xfMWRHNWw2akFZNWhBMk92bFBTYU1lU0Y5OFVPZG4tODE3MjNTVnlxWXlGWTR6dEQ1STRoYm1wVWpUYXAxVnVmTzRUdFBLUkpfTUJtV1hpLU15bmR4dlR4QWVIS0dTLVhBc1IzcG8zOHNKRUdTLWpVWnhGenZFd1VLMDdLSlB5eFptOTJjbWg4WDlteFRzTHZKYmg2VnQ2eENjd2JfMFVqOGNNaHZKNFRhVUdpNEgw?oc=5",
-     "src": "NDTV",
-     "at": "22 Jul, 11:40"
+     "title": "Mamdani Says New York Doesn’t Have Authority to Arrest Netanyahu",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNmZFR3ZsM0M2NDVBcEJJQTVfZ0ZIR1oyMTNFVXhEV3M0MlUtdXg0LUhmMUJsTUpINXlzUUVlZHMtWkVYNjUtTjNsR0hTN1h6WW52bFBFeWpkdzlEcHVpXzhJMDVwQll0bUNsSkk4ZjVTdk0tM3NjX1VJT0NNYWZvV3Y4S2RSYnpBM1cwWUJ2T3Y2SU1tQ0JmYjF3clFaSFZRR3dhaFBqaW9tLTA3cXBz?oc=5",
+     "src": "WSJ",
+     "at": "22 Jul, 09:29"
+    },
+    {
+     "title": "Saudi Arabia slams Houthi blockade: How will rest of the world be impacted?",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaWo0WVBKeWthRXMwS1o4WkNGczVUbXZtMFFzUzV2Rm9YSU11VG9FN29LdVRKdzZTbUxvSnZ0UTFrdVJkUkxPS05KMG5kQjgweG9BRTBYbGsteTZ6X0tZU2xQQ19LMzJFRlZFdUtuQTduWVdkaHVPV09BNmJtdnR0UklXQjVEWWNzcDV3QjlLS2IyQmZmN0w1T19QZWhFckdqSXdVbG0zYndlcHNiY0psb014WEbSAboBQVVfeXFMTmpOM1VOR2k3SkhQNmpWT2lJaUpLcnpnOTNkYmY1YUpMMkNGZWcwTzllNng3LURDTTBjak1UeUk3T1F3MXBSOFZ4WktnX3hHNk1MZkwxYlVXLUFTWXNWQ1Ntb1RNaHNjNU9HdmNTblcxNWZhNHEyaG1CSHF2dktRZEJSS05UZzc5TlFwVmZyQ0hDRGIzVFBoY1c4RUh1VkV0WXZBSl9DcHE4MjhrLTk3cXNXdWc4NmpuX0Zn?oc=5",
+     "src": "Al Jazeera",
+     "at": "21 Jul, 20:18"
     },
     {
      "title": "Trump says the United States is 'not finished' with Iran",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWGdIQV9EcnVveTBSTVNVbXpjV2M4a1gzUXRRSldqNXpaSnJqd3ZuRmNMbFRxb1lGVlFGdzRoNWJrV3Rja24wSG5rMVBJTzk4OW80cU45SU1EVUNPenU5ZzRxNENwUVBuaUxfQmUxTUVGRnQ2SUlGUnkyckIwcVdQZzROdExHa0pYVG8yODJkOVp1UzRp?oc=5",
      "src": "DW.com",
      "at": "22 Jul, 06:29"
+    },
+    {
+     "title": "Indian-Origin Doctor Jailed In US For Recording Hospital Staff In Restroom",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUnBRQXA3cmpsNnY4M2hwS3ZWYW14VThXOGF2TkczRi1QOUs5Y1RlSW1jQm1NdXNMOVV4UjZjSTFTb1JQUGxyaUg3eUtITkQwekstUGlrZUktbzRmWmszWU0wbE01d0JhX0tzWXpNX3B0cG10eGhaNU1YWGl4UGxVV09jdmk5OVVCbjZGeTlUQWNRU0hQbHJmdEdqM1V1ZUV6SUU5bzVLZ1VJTl8tQzY1Z0FmSHE3ejBoWTFBYnJiMzhBZXE1MVlxTDBuMNIB0wFBVV95cUxOTzM3T093MmpPSFJmOHhTeldHRWxVSXZTWnVEc0xfMWRHNWw2akFZNWhBMk92bFBTYU1lU0Y5OFVPZG4tODE3MjNTVnlxWXlGWTR6dEQ1STRoYm1wVWpUYXAxVnVmTzRUdFBLUkpfTUJtV1hpLU15bmR4dlR4QWVIS0dTLVhBc1IzcG8zOHNKRUdTLWpVWnhGenZFd1VLMDdLSlB5eFptOTJjbWg4WDlteFRzTHZKYmg2VnQ2eENjd2JfMFVqOGNNaHZKNFRhVUdpNEgw?oc=5",
+     "src": "NDTV",
+     "at": "22 Jul, 11:40"
     },
     {
      "title": "Pakistan asks US for $10bn lifeline to shore up struggling economy: Report",
@@ -1365,18 +1376,6 @@
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3JQYVpxcnh1dGNzdGNWc28xTVhicmJ1R2JJRVRKMGEwYkdjTmc1WUVXN25rSlMtZ1NjN3JhcGliWWtxLWwxcm1GNV9ON2U0X0dSMG95VzRjaGUxYlBYU1RjdzdwLW9kWk9yaU00WlNyaFV1WkZ3aHRKektkeU1EZGRXZlY3UnM3aGJ0T1l4SFFBUWNKSTE1TlpLUW82M0FldEhZbVI1c1RMVy05OTIyNTliTVhQLXFZVUptVEd2b2thTm_SAcgBQVVfeXFMTXdIZUNvVjJja0VMcjVRWkZRb1A0dXRBYzNaSm1pWVc5dEVlNUhYZ2p5ekJMNk5ZdG01RUhPM0luQWFjMlZfd3ZkM2IzbV9tbnZ6anhhRFZINGNZa3UtcGl5b1Ffd2ZsTThBMTNkRkNwdnBPN3VNQ0tIc01Mb0piRUhWRDc1MS0wRUg4d1ZVR2RreTJ6Qi1EMkpMcUxJeGJKSzJDM1YxUGpVRVFHajFWanZhMXZqUVQ3TElISS1mN2VaUHM4X01GdVA?oc=5",
      "src": "Moneycontrol.com",
      "at": "22 Jul, 07:08"
-    },
-    {
-     "title": "Saudi Arabia slams Houthi blockade: How will rest of the world be impacted?",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaWo0WVBKeWthRXMwS1o4WkNGczVUbXZtMFFzUzV2Rm9YSU11VG9FN29LdVRKdzZTbUxvSnZ0UTFrdVJkUkxPS05KMG5kQjgweG9BRTBYbGsteTZ6X0tZU2xQQ19LMzJFRlZFdUtuQTduWVdkaHVPV09BNmJtdnR0UklXQjVEWWNzcDV3QjlLS2IyQmZmN0w1T19QZWhFckdqSXdVbG0zYndlcHNiY0psb014WEbSAboBQVVfeXFMTmpOM1VOR2k3SkhQNmpWT2lJaUpLcnpnOTNkYmY1YUpMMkNGZWcwTzllNng3LURDTTBjak1UeUk3T1F3MXBSOFZ4WktnX3hHNk1MZkwxYlVXLUFTWXNWQ1Ntb1RNaHNjNU9HdmNTblcxNWZhNHEyaG1CSHF2dktRZEJSS05UZzc5TlFwVmZyQ0hDRGIzVFBoY1c4RUh1VkV0WXZBSl9DcHE4MjhrLTk3cXNXdWc4NmpuX0Zn?oc=5",
-     "src": "Al Jazeera",
-     "at": "21 Jul, 20:18"
-    },
-    {
-     "title": "French parliament backs social media ban for children under 15",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa0JnMFRoc19wNlFndnQ1NU9kazRFWEJqVFljTkFrUmFxd0ZpLTBiUGNvTV9qdjJEejVPd3J4bE1oY0Q1R3FRY2U0MHA4QTctNlZib2E1dWFPdDBWdlpuVzhuUVZhSGVjRHFBZVROVzJqbXRzVlFyaUhkMmhaMFo0eFpoN3NxbDFiOXBVdTdTOEw3YUtDSFBqd2JMbFZmeU1PVkE?oc=5",
-     "src": "Reuters",
-     "at": "22 Jul, 00:48"
     }
    ]
   },
@@ -1384,16 +1383,16 @@
    "tag": "For You",
    "items": [
     {
-     "title": "Ford Officials Meet Tamil Nadu CM to Accelerate Manufacturing Restart in India",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQXBkaGJQV0VwdXB0ZEdTeVFTRHFaaWkwZFcxR1RYYU5sdEdDYVNtNXBwMnFaNDhLdURGMnozQkxucEItc1VIb242ZTdwWVFWYWlodXN4OEJPUWRwbGhFdEw4ZFltZjFSN2VLODZlMFpCOG5fT21iTFlDRjBNcThJaVM1aDhXTUNMZ0wxS0lxem5haW0tb3NkY0VoSFI2VEpKNzZYcnJqaGl4VE80VU9jLQ?oc=5",
-     "src": "Autopunditz",
-     "at": "22 Jul, 08:55"
-    },
-    {
      "title": "PLI-Auto scheme draws ₹44,326 cr investment",
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaFhEUjFGTzlyWTZJbkwwYm5DUVlTX3pEM0w2UHhkX3RPajBSZVJpcmFEQUduV3NwRnJtbmJWc2lkcGpaLWxVR0d5Zk5KTnlTcEo2UlBHMlZkdnpESUlic19neUFlVUVSekZ1TE9xdHF2eGZ1RFNydXg3cER3aXBuT1pUclJQYlZfOG5zTWFJeDVKVHRnVGpsUEJyS09rdw?oc=5",
      "src": "Construction Week India",
      "at": "22 Jul, 09:56"
+    },
+    {
+     "title": "Ford Officials Meet Tamil Nadu CM to Accelerate Manufacturing Restart in India",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQXBkaGJQV0VwdXB0ZEdTeVFTRHFaaWkwZFcxR1RYYU5sdEdDYVNtNXBwMnFaNDhLdURGMnozQkxucEItc1VIb242ZTdwWVFWYWlodXN4OEJPUWRwbGhFdEw4ZFltZjFSN2VLODZlMFpCOG5fT21iTFlDRjBNcThJaVM1aDhXTUNMZ0wxS0lxem5haW0tb3NkY0VoSFI2VEpKNzZYcnJqaGl4VE80VU9jLQ?oc=5",
+     "src": "Autopunditz",
+     "at": "22 Jul, 08:55"
     },
     {
      "title": "Volkswagen and JSW Test an Old Formula in India’s Auto Sector",
@@ -1414,10 +1413,10 @@
      "at": "22 Jul, 11:00"
     },
     {
-     "title": "PLI‑auto generates Rs 44,326 crore investment, 67,820 jobs: Minister",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM0R1RGs0YWFiMTlHdkU0NzRNV1NoeThRMlJYWTU3S0s2WVNQRGtoaXE5OGpVWFFyazBqMjFEYTd3ZERaZHNZdS1HQUkzNXhIaGZoTjlkM0tyVGNjSjNEZHowNEpmNUFYYVlsVmFDTEZGeUlfSW9DRGZpYm9lS2MxWllJb1RCVko3SFJkNU9hTEFHY2RpYU1IRVhCblhOODA1Z3pOZWtqdE1LdXMzdmhwbVNR?oc=5",
-     "src": "thehawk.in",
-     "at": "22 Jul, 10:44"
+     "title": "The Future of AI-Driven Mobility in India",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80QmRPbC1CUFk1VGZRY1U0RWJJYnRTc1NZSGpudzdNbGJnWTNyYmlMUzF5R3J4T0lac1RVNnkwMS04U2tfVUExcmxpY0FrcjZTSXJleXI3Z2FQVnFxRlhxTldPenl2Vm9vX1FZ?oc=5",
+     "src": "ARC Advisory Group",
+     "at": "21 Jul, 17:30"
     }
    ]
   }
