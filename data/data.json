@@ -1,419 +1,390 @@
 {
- "generatedAt": "2026-07-29T16:01:24.001Z",
- "label": "29 Jul, 21:31 IST",
+ "generatedAt": "2026-07-29T16:20:59.380Z",
+ "label": "29 Jul, 21:50 IST",
  "markets": {
   "indices": [
    {
     "name": "Sensex",
     "g": "SENSEX:INDEXBOM",
-    "price": 76755.05,
-    "chg": -715.06,
-    "pct": -0.92,
+    "price": 77654.6,
+    "chg": 888.68,
+    "pct": 1.16,
     "spark": [
-     77470.11,
-     76755.05
+     76765.92,
+     77654.6
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty 50",
     "g": "NIFTY_50:INDEXNSE",
-    "price": 23996.25,
-    "chg": -191.45,
-    "pct": -0.79,
+    "price": 24250.2,
+    "chg": 264.85,
+    "pct": 1.1,
     "spark": [
-     24187.7,
-     23996.25
+     23985.35,
+     24250.2
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank Nifty",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 57126.8,
-    "chg": -708.55,
-    "pct": -1.23,
+    "price": 57205.9,
+    "chg": 450.3,
+    "pct": 0.79,
     "spark": [
-     57835.35,
-     57126.8
+     56755.6,
+     57205.9
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 28549.85,
-    "chg": -434.55,
-    "pct": -1.5,
+    "price": 31123.1,
+    "chg": 704.75,
+    "pct": 2.32,
     "spark": [
-     28984.4,
-     28549.85
+     30418.35,
+     31123.1
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 96.53,
-    "chg": -0.03,
-    "pct": -0.03,
+    "price": 95.8,
+    "chg": -0.06,
+    "pct": -0.06,
     "spark": [
-     96.56,
-     96.5261
+     95.86,
+     95.7986
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 85.7,
-    "chg": 0.84,
-    "pct": 0.99,
+    "price": 83.31,
+    "chg": 4.56,
+    "pct": 5.79,
     "spark": [
-     84.86,
-     85.7
+     78.75,
+     83.31
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4127.4,
-    "chg": -24.5,
-    "pct": -0.59,
+    "price": 4070.8,
+    "chg": -27.8,
+    "pct": -0.68,
     "spark": [
-     4151.9,
-     4127.4
+     4098.6,
+     4070.8
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 59.9,
-    "chg": -0.4,
-    "pct": -0.67,
+    "price": 57.12,
+    "chg": -0.41,
+    "pct": -0.71,
     "spark": [
-     60.3,
-     59.9
+     57.53,
+     57.12
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "sectors": [
    {
     "name": "Auto",
     "g": "NIFTY_AUTO:INDEXNSE",
-    "price": 27329.65,
-    "chg": 49.05,
-    "pct": 0.18,
+    "price": 27825.95,
+    "chg": -17.95,
+    "pct": -0.06,
     "spark": [
-     27280.6,
-     27329.65
+     27843.9,
+     27825.95
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 57126.8,
-    "chg": -708.55,
-    "pct": -1.23,
+    "price": 57205.9,
+    "chg": 450.3,
+    "pct": 0.79,
     "spark": [
-     57835.35,
-     57126.8
+     56755.6,
+     57205.9
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 28549.85,
-    "chg": -434.55,
-    "pct": -1.5,
+    "price": 31123.1,
+    "chg": 704.75,
+    "pct": 2.32,
     "spark": [
-     28984.4,
-     28549.85
+     30418.35,
+     31123.1
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Pharma",
     "g": "NIFTY_PHARMA:INDEXNSE",
-    "price": 25752.25,
-    "chg": -340.6,
-    "pct": -1.31,
+    "price": 26373.35,
+    "chg": 374.5,
+    "pct": 1.44,
     "spark": [
-     26092.85,
-     25752.25
+     25998.85,
+     26373.35
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FMCG",
     "g": "NIFTY_FMCG:INDEXNSE",
-    "price": 49233.8,
-    "chg": 316.6,
-    "pct": 0.65,
+    "price": 49690.65,
+    "chg": 809.45,
+    "pct": 1.66,
     "spark": [
-     48917.2,
-     49233.8
+     48881.2,
+     49690.65
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Energy",
     "g": "NIFTY_ENERGY:INDEXNSE",
-    "price": 39435.65,
-    "chg": -151.6,
-    "pct": -0.38,
+    "price": 38180.55,
+    "chg": 5.75,
+    "pct": 0.02,
     "spark": [
-     39587.25,
-     39435.65
+     38174.8,
+     38180.55
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Metal",
     "g": "NIFTY_METAL:INDEXNSE",
-    "price": 12562.85,
-    "chg": -60.45,
-    "pct": -0.48,
+    "price": 12686.8,
+    "chg": 286.55,
+    "pct": 2.31,
     "spark": [
-     12623.3,
-     12562.85
+     12400.25,
+     12686.8
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Realty",
     "g": "NIFTY_REALTY:INDEXNSE",
-    "price": 903,
-    "chg": -24.35,
-    "pct": -2.63,
+    "price": 918.45,
+    "chg": -3,
+    "pct": -0.33,
     "spark": [
-     927.35,
-     903
+     921.45,
+     918.45
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "global": [
    {
     "name": "Dow Jones",
     "g": ".DJI:INDEXDJX",
-    "price": 52218.58,
-    "chg": -6.06,
-    "pct": -0.01,
+    "price": 51839.43,
+    "chg": -907.89,
+    "pct": -1.72,
     "spark": [
-     52224.64,
-     52218.58
+     52747.32,
+     51839.43
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq",
     "g": ".IXIC:INDEXNASDAQ",
-    "price": 25690.9,
-    "chg": -146.31,
-    "pct": -0.57,
+    "price": 24535.59,
+    "chg": -341.32,
+    "pct": -1.37,
     "spark": [
-     25837.21,
-     25690.9
+     24876.91,
+     24535.59
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "S&P 500",
     "g": ".INX:INDEXSP",
-    "price": 7498.96,
-    "chg": -10.24,
-    "pct": -0.14,
+    "price": 7352.08,
+    "chg": -76.7,
+    "pct": -1.03,
     "spark": [
-     7509.2,
-     7498.96
+     7428.78,
+     7352.08
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nikkei 225",
     "g": "NI225:INDEXNIKKEI",
-    "price": 66795.84,
-    "chg": 680.24,
-    "pct": 1.03,
+    "price": 61434.19,
+    "chg": -930.73,
+    "pct": -1.49,
     "spark": [
-     66115.6,
-     66795.84
+     62364.92,
+     61434.19
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Hang Seng",
     "g": "HSI:INDEXHANGSENG",
-    "price": 25106.92,
-    "chg": 214.26,
-    "pct": 0.86,
+    "price": 25807.92,
+    "chg": 497.07,
+    "pct": 1.96,
     "spark": [
-     24892.66,
-     25106.92
+     25310.85,
+     25807.92
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FTSE 100",
     "g": "UKX:INDEXFTSE",
-    "price": 10716.97,
-    "chg": 131.06,
-    "pct": 1.24,
+    "price": 10908.41,
+    "chg": 37.39,
+    "pct": 0.34,
     "spark": [
-     10585.91,
-     10716.97
+     10871.02,
+     10908.41
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 13.29,
-   "chg": 0.69,
-   "pct": 5.5,
+   "price": 12.01,
+   "chg": -0.56,
+   "pct": -4.42,
    "spark": [
-    12.6,
-    13.29
+    12.57,
+    12.01
    ],
    "fx": false,
-   "ok": true,
-   "stale": true
+   "ok": true
   },
   "etf": [
    {
     "name": "Nifty BeES",
     "g": "NIFTYBEES:NSE",
-    "price": 273.44,
-    "chg": -1.69,
-    "pct": -0.61,
+    "price": 275.6,
+    "chg": 2.07,
+    "pct": 0.76,
     "spark": [
-     275.13,
-     273.44
+     273.53,
+     275.6
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank BeES",
     "g": "BANKBEES:NSE",
-    "price": 592.68,
-    "chg": -6.87,
-    "pct": -1.15,
+    "price": 591.6,
+    "chg": 4.06,
+    "pct": 0.69,
     "spark": [
-     599.55,
-     592.68
+     587.54,
+     591.6
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty Next 50",
     "g": "JUNIORBEES:NSE",
-    "price": 778.56,
-    "chg": -5.87,
-    "pct": -0.75,
+    "price": 783.5,
+    "chg": 3.92,
+    "pct": 0.5,
     "spark": [
-     784.43,
-     778.56
+     779.58,
+     783.5
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold BeES",
     "g": "GOLDBEES:NSE",
-    "price": 119.12,
-    "chg": 1.39,
-    "pct": 1.18,
+    "price": 116.89,
+    "chg": 0.06,
+    "pct": 0.05,
     "spark": [
-     117.73,
-     119.12
+     116.83,
+     116.89
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver BeES",
     "g": "SILVERBEES:NSE",
-    "price": 212.9,
-    "chg": 0.67,
-    "pct": 0.32,
+    "price": 206.5,
+    "chg": 0.3,
+    "pct": 0.15,
     "spark": [
-     212.23,
-     212.9
+     206.2,
+     206.5
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq 100",
     "g": "MON100:NSE",
-    "price": 323.44,
-    "chg": 0.63,
-    "pct": 0.2,
+    "price": 315.36,
+    "chg": -3.1,
+    "pct": -0.97,
     "spark": [
-     322.81,
-     323.44
+     318.46,
+     315.36
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "mf": [
@@ -423,8 +394,7 @@
     "nav": 168.71,
     "pct": -0.04,
     "date": "28-07-2026",
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Parag Parikh Flexi Cap",
@@ -471,418 +441,336 @@
    {
     "name": "Reliance",
     "g": "RELIANCE:NSE",
-    "price": 1284,
-    "chg": -19.7,
-    "pct": -1.51,
+    "price": 1277.1,
+    "chg": 9.4,
+    "pct": 0.74,
     "spark": [
-     1303.7,
-     1284
+     1267.7,
+     1277.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 23.3,
-    "stale": true
+    "pe": 23.1
    },
    {
     "name": "TCS",
     "g": "TCS:NSE",
-    "price": 2207,
-    "chg": -14.1,
-    "pct": -0.63,
+    "price": 2440,
+    "chg": 42,
+    "pct": 1.75,
     "spark": [
-     2221.1,
-     2207
+     2398,
+     2440
     ],
     "fx": false,
     "ok": true,
-    "pe": 16,
-    "stale": true
+    "pe": 17.7
    },
    {
     "name": "HDFC Bank",
     "g": "HDFCBANK:NSE",
-    "price": 753.9,
-    "chg": -7.55,
-    "pct": -0.99,
+    "price": 748.3,
+    "chg": 12.9,
+    "pct": 1.75,
     "spark": [
-     761.45,
-     753.9
+     735.4,
+     748.3
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.7,
-    "stale": true
+    "pe": 14.6
    },
    {
     "name": "Infosys",
     "g": "INFY:NSE",
-    "price": 1052,
-    "chg": -21.5,
-    "pct": -2,
+    "price": 1153.5,
+    "chg": 47.8,
+    "pct": 4.32,
     "spark": [
-     1073.5,
-     1052
+     1105.7,
+     1153.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.7,
-    "stale": true
+    "pe": 15.6
    },
    {
     "name": "ICICI Bank",
     "g": "ICICIBANK:NSE",
-    "price": 1439.7,
-    "chg": -23.4,
-    "pct": -1.6,
+    "price": 1437.8,
+    "chg": 7,
+    "pct": 0.49,
     "spark": [
-     1463.1,
-     1439.7
+     1430.8,
+     1437.8
     ],
     "fx": false,
     "ok": true,
-    "pe": 18.6,
-    "stale": true
+    "pe": 18.6
    },
    {
     "name": "SBI",
     "g": "SBIN:NSE",
-    "price": 1025,
-    "chg": -19.4,
-    "pct": -1.86,
+    "price": 1014,
+    "chg": 0.8,
+    "pct": 0.08,
     "spark": [
-     1044.4,
-     1025
+     1013.2,
+     1014
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.2,
-    "stale": true
+    "pe": 11.1
    },
    {
     "name": "Bharti Airtel",
     "g": "BHARTIARTL:NSE",
-    "price": 1948,
-    "chg": -0.4,
-    "pct": -0.02,
+    "price": 1946,
+    "chg": 44.2,
+    "pct": 2.32,
     "spark": [
-     1948.4,
-     1948
+     1901.8,
+     1946
     ],
     "fx": false,
     "ok": true,
-    "pe": 43.9,
-    "stale": true
+    "pe": 43.9
    },
    {
     "name": "L&T",
     "g": "LT:NSE",
-    "price": 3818,
-    "chg": -28.6,
-    "pct": -0.74,
+    "price": 3927,
+    "chg": 95,
+    "pct": 2.48,
     "spark": [
-     3846.6,
-     3818
+     3832,
+     3927
     ],
     "fx": false,
     "ok": true,
-    "pe": 32.7,
-    "stale": true
+    "pe": 33.6
    },
    {
     "name": "Tata Motors",
     "g": "TMPV:NSE",
-    "price": 327.75,
-    "chg": -6.05,
-    "pct": -1.81,
+    "price": 329.7,
+    "chg": 5.3,
+    "pct": 1.63,
     "spark": [
-     333.8,
-     327.75
+     324.4,
+     329.7
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "M&M",
     "g": "M%26M:NSE",
-    "price": 3173.4,
-    "chg": -28.3,
-    "pct": -0.88,
+    "price": 3228,
+    "chg": -43.2,
+    "pct": -1.32,
     "spark": [
-     3201.7,
-     3173.4
+     3271.2,
+     3228
     ],
     "fx": false,
     "ok": true,
-    "pe": 20.8,
-    "stale": true
+    "pe": 21.2
    },
    {
     "name": "Maruti Suzuki",
     "g": "MARUTI:NSE",
-    "price": 13545,
-    "chg": -52,
-    "pct": -0.38,
+    "price": 13929,
+    "chg": 127,
+    "pct": 0.92,
     "spark": [
-     13597,
-     13545
+     13802,
+     13929
     ],
     "fx": false,
     "ok": true,
-    "pe": 29,
-    "stale": true
+    "pe": 29.8
    },
    {
     "name": "ITC",
     "g": "ITC:NSE",
-    "price": 280.8,
-    "chg": -0.2,
-    "pct": -0.07,
+    "price": 286.1,
+    "chg": 1.45,
+    "pct": 0.51,
     "spark": [
-     281,
-     280.8
+     284.65,
+     286.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 17,
-    "stale": true
+    "pe": 17.3
    },
    {
     "name": "HUL",
     "g": "HINDUNILVR:NSE",
-    "price": 2157,
-    "chg": 14.5,
-    "pct": 0.68,
+    "price": 2120,
+    "chg": 97.3,
+    "pct": 4.81,
     "spark": [
-     2142.5,
-     2157
+     2022.7,
+     2120
     ],
     "fx": false,
     "ok": true,
-    "pe": 47.7,
-    "stale": true
+    "pe": 46.9
    },
    {
     "name": "Sun Pharma",
     "g": "SUNPHARMA:NSE",
-    "price": 1944,
-    "chg": -17.9,
-    "pct": -0.91,
+    "price": 1987.5,
+    "chg": 10.8,
+    "pct": 0.55,
     "spark": [
-     1961.9,
-     1944
+     1976.7,
+     1987.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 42,
-    "stale": true
+    "pe": 43
    },
    {
     "name": "Bajaj Finance",
     "g": "BAJFINANCE:NSE",
-    "price": 1056.1,
-    "chg": -13.1,
-    "pct": -1.23,
+    "price": 1050.1,
+    "chg": 1.7,
+    "pct": 0.16,
     "spark": [
-     1069.2,
-     1056.1
+     1048.4,
+     1050.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 34.6,
-    "stale": true
+    "pe": 34.4
    },
    {
     "name": "Adani Ent",
     "g": "ADANIENT:NSE",
-    "price": 3148,
-    "chg": -34.7,
-    "pct": -1.09,
+    "price": 3025,
+    "chg": 22.7,
+    "pct": 0.76,
     "spark": [
-     3182.7,
-     3148
+     3002.3,
+     3025
     ],
     "fx": false,
     "ok": true,
-    "pe": 42.3,
-    "stale": true
+    "pe": 40.6
    }
   ],
   "gainers": [
    {
     "name": "HUL",
     "g": "HINDUNILVR:NSE",
-    "price": 2157,
-    "chg": 14.5,
-    "pct": 0.68,
+    "price": 2120,
+    "chg": 97.3,
+    "pct": 4.81,
     "spark": [
-     2142.5,
-     2157
+     2022.7,
+     2120
     ],
     "fx": false,
     "ok": true,
-    "pe": 47.7,
-    "stale": true
+    "pe": 46.9
+   },
+   {
+    "name": "Infosys",
+    "g": "INFY:NSE",
+    "price": 1153.5,
+    "chg": 47.8,
+    "pct": 4.32,
+    "spark": [
+     1105.7,
+     1153.5
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 15.6
+   },
+   {
+    "name": "L&T",
+    "g": "LT:NSE",
+    "price": 3927,
+    "chg": 95,
+    "pct": 2.48,
+    "spark": [
+     3832,
+     3927
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 33.6
+   },
+   {
+    "name": "Bharti Airtel",
+    "g": "BHARTIARTL:NSE",
+    "price": 1946,
+    "chg": 44.2,
+    "pct": 2.32,
+    "spark": [
+     1901.8,
+     1946
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 43.9
+   },
+   {
+    "name": "TCS",
+    "g": "TCS:NSE",
+    "price": 2440,
+    "chg": 42,
+    "pct": 1.75,
+    "spark": [
+     2398,
+     2440
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 17.7
    }
   ],
   "losers": [
    {
-    "name": "Infosys",
-    "g": "INFY:NSE",
-    "price": 1052,
-    "chg": -21.5,
-    "pct": -2,
+    "name": "M&M",
+    "g": "M%26M:NSE",
+    "price": 3228,
+    "chg": -43.2,
+    "pct": -1.32,
     "spark": [
-     1073.5,
-     1052
+     3271.2,
+     3228
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.7,
-    "stale": true
-   },
-   {
-    "name": "SBI",
-    "g": "SBIN:NSE",
-    "price": 1025,
-    "chg": -19.4,
-    "pct": -1.86,
-    "spark": [
-     1044.4,
-     1025
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 11.2,
-    "stale": true
-   },
-   {
-    "name": "Tata Motors",
-    "g": "TMPV:NSE",
-    "price": 327.75,
-    "chg": -6.05,
-    "pct": -1.81,
-    "spark": [
-     333.8,
-     327.75
-    ],
-    "fx": false,
-    "ok": true,
-    "stale": true
-   },
-   {
-    "name": "ICICI Bank",
-    "g": "ICICIBANK:NSE",
-    "price": 1439.7,
-    "chg": -23.4,
-    "pct": -1.6,
-    "spark": [
-     1463.1,
-     1439.7
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 18.6,
-    "stale": true
-   },
-   {
-    "name": "Reliance",
-    "g": "RELIANCE:NSE",
-    "price": 1284,
-    "chg": -19.7,
-    "pct": -1.51,
-    "spark": [
-     1303.7,
-     1284
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 23.3,
-    "stale": true
+    "pe": 21.2
    }
   ],
   "breadth": {
-   "up": 1,
+   "up": 15,
    "total": 16
   },
   "trending": false,
-  "ipo": [
-   {
-    "title": "Indo-MIM IPO GMP, Grey Market Premium Today",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jU3lHRU9BdDFmYnBZN3Znc2JySHBpd1V5bUR4LUJsVVpWS184UU1DT2FtWlUyX1lyc1BCLURHUHFHbFNSazJRa1VyTmtRVG5zWkcxZGlJbDlEejlRQkR0bWpMR2pxUzI3?oc=5",
-    "src": "IPO Watch",
-    "at": "29 Jul, 17:01"
-   },
-   {
-    "title": "GV Electricals IPO: GMP, Date, Price Band, Allotment & Review",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xYklYYzRHNF9tZEdEemRzcVlaZjY0LWZ0Rmg4a1VCdlFGUkZuU2FPeUZrYzVReWRuREo4a2ozUzFXRS1GT0N2SFNMV2REaExibmdSLXFLT21Ha21VSGFpbw?oc=5",
-    "src": "IndiaIPO",
-    "at": "29 Jul, 18:16"
-   },
-   {
-    "title": "MV Electrosystems IPO: GMP signals a 25% listing pop; date, price, other key details in 10 points",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUUtKcF9TMERNRVVhaEptNmEzS1RsXzV1Z3pIWGdObGtJWWhFUmpkOXlHNEV3VVpLMEFkMW16b0xobGZ6cXlMZWg0bzlEeEtMUzJkYzJudnd1NF9mcmlsZEhwYlRlZkFQbkk4UmJ5WlhIQ3E3Mnd6SThfM2x3bDYteFhLdUxDRFJFWEthdjZuckt3UDFKQXdScllKc21lMDFuU2RBSWhRRFFoeGxsMGlJMmFYNzFRcFp5WHE1ajdJZFBPNW15bzhlSTlWZnVMcmhRR0c0aWJDbnlyV1hxQzI0dWtDcw?oc=5",
-    "src": "TradingView",
-    "at": "29 Jul, 15:04"
-   },
-   {
-    "title": "Juniper Green Energy IPO GMP Today: Date, Price, and Listing Date",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ud2RaQ0I1d0FXSzNBRHRzMUFVYV92VmkyYTB3REZDVjYySWJGQ2VDY0std09PMU8zZjBqWXpNRmpUWnBLT1F6UW9LQW9HdUY0NFR0Snp1RTVodkZIYTZHZE85UWh0WWdGczV6QmhB?oc=5",
-    "src": "Sahi",
-    "at": "29 Jul, 10:40"
-   },
-   {
-    "title": "H.R. Hygiene Products IPO Day 1: Subscription status at 13; check, GMP, price band and key details",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSjl3eWV4MkVCTUxIdU5xSjJOWGNNMGFScE85MExPRzBFWTlLZFpzMmdkWGROdWFFUnExcTdoZVlaOU8tS3pES0g0MWJTMHotMmJFeEgzOWVUSlBlcFk0UHdZT2h1V1dFX1V1b2hTaVpMNDFUY19KbzdtWi1ldk9ZNjZsWUhjOWl0SDFCd1A3Y1BBSUdzZDFMUW9Hb3VZRXZNVExsbjRoUFNWVUN2VURPZXRrYTFsR0lrcVMxOGVOY1VxQkZiTXlVMEZoZFdNc0ZfOTVzdmdNeG1OVWxQM21CTmE3UjhaS2x3QjQydTN1M3pjaW5kTTkwQ9IB_gFBVV95cUxPSGxIVWxEZlFHSzNCc0JDS2JkcWNvcmR0Y2xTWW9mWEE5X25vc0prOGt0YVhmUFhtZmVDendMU3djakQxUW1BWWZ3NC1GSGxVenNvTEZqazNaOW0zQWJDeFdQTWgyM3JMYWlSVFdoWkhtMjlLemxhaXJ4LU9leUlNdnRIVFY3SlF3cXpkbXFrNjVSc084RTNuNXBZU21Lc1V5SF92WEVvS095U2FfWF9BbDFzYXBUUXpJVGZ2UE12QWtabTFEanlCT09kOERLRWFHVzFrUkN0bjF2ZUJPQnBGdFByRGhOVTlrZ25vM0JpUElyMVBObWxUblV3OEFGUQ?oc=5",
-    "src": "The Economic Times",
-    "at": "29 Jul, 11:10"
-   },
-   {
-    "title": "Indo-MIM IPO: Check latest GMP, subscription status, and other details",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSG5uUERmMUZHd2RFdTd0Sk1KN3dOMU5FckV3b01QTW05c01RSWJfdlRuUHZHNW0tdGl1VTZ4cENiMzJydkVpOHdzc1publBTOFBra3pIRFZmM2VFMVpDSG5HNEVYQ0pCRmttX0UydGR6c1I0TEtqMmNPXzYtdzhYZ2ZxdHYySzMwTUhBT3BUOFNUZTBwekFybWtIcEZWQnRvZThnSkwxV2JPMHhwWU4wazgxbUZtQWV5amxKdkRmcW9PNWYtVGphYmtJQU1qZE8zSkV4TkFzUi1RTUdxcVHSAeMBQVVfeXFMTUM1aUhfaDlkd0NIdmtnd3NVZDBKN2o0VF9fV1F4eUZuZldqVDV5NVlIa09USm5PRmNEOWRiZTBUc0YyMVd2eFh6RGFsS3F6SFJNOEFtRTJVazZMS3VYdGZ3VzhtbEQ4X3hhOERKUERSWVlTLWFtNmZ0dnM4OE5hRDkySktpWGVubEhaa2l4bjg1RUFaUGgzUGxCRU1lcE4tVmxCV2ZlNnVqSDhSUVRSUm5zTy1BMlNUWHhyR0NieU4xc28xazZZdzMwOC0yT1RQWGI4S0RmUHJPTHg3M0dHa0hqWTQ?oc=5",
-    "src": "livemint.com",
-    "at": "29 Jul, 10:53"
-   },
-   {
-    "title": "Manipal Health IPO subscribed 15% on opening day; GMP at 2%, should you apply?",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcDNkOWlLUGJmbFBYUDhHRFFvWGx1b2ZELUIxa3poRGJLMHRoQS1MYkt0Z0RXZTd0cUF6Mm5pbm1GZ0U3R1dtS2s0eVZPeWRsck1WSVlYSGVCQ09hei1oa2UtM01TNWRVT0VpZDBUbUh2WmpiYTlZX1RKenNqRDFtSXQ5RmFWN0dZMktQbHBuUTRvcDNXVTlaVTE4cV81YUtNajU1NDZWdXVucE5MbG0tZWI4cHRoVW4ybUtmQdIBwgFBVV95cUxNMnpVSjlDcGxLZ1ZabFlCZ0VNT2djTzhwMnVkTVZjaUtyLWVSU3hvZ1hzdkZ0c2hqOF9VeDR0OFZ4QUVKNi1acEZadlJ1eUpGSDJfX3MyM2hjYlJCcDFnLVQzakZwNkJwWnFtLS14ckwwX2RjMkdiSEJxVjhWdjR2RFdyWlZ4WFl6WUIxMlFOQWlSU3hUUFBsZ01hSFlhTkNnN3RYR0t0MnlLMUJkSENVSEk0S3A4Q3ZDZ2JoLWF0Z3NOQQ?oc=5",
-    "src": "Moneycontrol.com",
-    "at": "29 Jul, 10:52"
-   },
-   {
-    "title": "Manipal Health IPO GMP Falls As Rs 9,275 Crore Issue Opens For Subscription Today",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOXZfRnY3OWxsSll5cWVDT01aTkduR3pCQS10UGI0TzN2UnRwbzdGaFVxSG82QXBsSXgwMW83ckM3QkNnOVVYZDNHNlU3TEN4YjNmRk1YeWhQSjNpeEVpNE9xUnR3Vld5a0VHY1VfTjlSN2gzVjljNVZ3M3NPUC0wc2tBbHBuZEVkbFNtTjFURng0ZEZEXzFraUtaYWF4dzFYcEg5UjFzUUozN3d4WFdCUlJFOG8wLXY4QnlaZWlMNi1jMkc5ZE1z0gHPAUFVX3lxTE1KMTlGZkVVVFVhTzVnQjRiYWt3M05aTnVNY0lQRDBYWmRLYTk4Q2Q3NW5nX1BITS1YZDF2U3l3QXpER294TmpDXzhUeGx6OEtpSnVzTmdTNWFkUVhMT3d5ZGJGUXJFYmt0cDJTREMySVAxRmZzSVRoNDF1Z1NUZVpyeXNNN0N4Ny1vQ1QxV2dwbUNQQ041WEYxUi1DWk92dDdLM29vaVpDaDZYNlVseVRoTVFnNWtuZ0dGVHNRNW9tSTZITFltblh6bjFCRUFWOA?oc=5",
-    "src": "NDTV Profit",
-    "at": "29 Jul, 10:00"
-   },
-   {
-    "title": "IPO Monsoon Is Here! 12+ Mainboard IPOs Set To Raise ₹25,000 Cr In August",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wQjd5LTdNeThIODNsNTNkVERXSExaM2ZPYnBYWmJDSU5rVXV3RVNveFRZQjlmcFdvWlFVYlFNa3RlSEZaX0tSY29YSlMtX1VMYl9JODZUOGphUm1kX2sxMUNBQ3lTX3hHenUzdmFpS2Q4QQ?oc=5",
-    "src": "IPO Central",
-    "at": "29 Jul, 16:36"
-   },
-   {
-    "title": "Aegeus Technologies IPO GMP, Price, Allotment, Profit Estimate 2026",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fWnVNdkY4QXZMbjZKRW1CNXVicnVURGpwbkhZaHZ5aFdnRGYyMXY0U09Qd2ZjcVNhVUtOeWg1NFYxNTFhUDFnVm1IbkVGSmxsU0hHSnJSX3AzOEpCeFA5VUYzQnY1QmN3Y25zZVhyeV9vWkU5?oc=5",
-    "src": "IPO Central",
-    "at": "29 Jul, 13:34"
-   }
-  ],
+  "ipo": [],
   "insights": [
-   "Breadth: 1/16 stocks up — broadly weak today",
-   "Top mover: HUL +0.68%",
-   "Weakest: Infosys -2%",
-   "Hot sector: FMCG +0.65% · Cold: Realty -2.63%",
-   "2/8 sectors green today",
-   "Nifty 50 down 0.79% — bearish session",
-   "Rich valuations: HUL P/E 47.7",
-   "India VIX 13.29 — moderate volatility",
-   "Global cues: FTSE 100 +1.24%, Nasdaq -0.57%"
+   "Breadth: 15/16 stocks up — broadly bullish today",
+   "Top mover: HUL +4.81%",
+   "Weakest: M&M -1.32%",
+   "Hot sector: IT +2.32% · Cold: Realty -0.33%",
+   "6/8 sectors green today",
+   "Nifty 50 up 1.1% — bullish session",
+   "Rich valuations: HUL P/E 46.9",
+   "India VIX 12.01 — calm markets",
+   "Global cues: Hang Seng +1.96%, Dow Jones -1.72%"
   ],
   "context": [
-   "Broad selling today — most large-caps fell. Down days are exactly when disciplined SIP investors keep buying units cheaper.",
-   "Money rotated into FMCG and out of Realty. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (13.29) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "Broad buying today — most large-caps rose. Broad-based rallies are generally healthier than a narrow one led by 1–2 heavyweights.",
+   "Money rotated into IT and out of Realty. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
+   "India VIX is low (12.01) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
