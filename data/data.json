@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-14T00:31:02.807Z",
- "label": "14 Aug, 06:01 IST",
+ "generatedAt": "2026-08-14T00:40:47.409Z",
+ "label": "14 Aug, 06:10 IST",
  "markets": {
   "indices": [
    {
@@ -59,11 +59,11 @@
     "name": "USD/INR",
     "g": "USD-INR",
     "price": 95.4,
-    "chg": 0.06,
-    "pct": 0.06,
+    "chg": 0,
+    "pct": 0,
     "spark": [
-     95.34,
-     95.4015
+     95.4,
+     95.4018
     ],
     "fx": true,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4413.9,
-    "chg": -6.5,
-    "pct": -0.15,
+    "price": 4394.8,
+    "chg": -25.6,
+    "pct": -0.58,
     "spark": [
      4420.4,
-     4413.9
+     4394.8
     ],
     "fx": true,
     "ok": true
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 64.69,
-    "chg": -0.3,
-    "pct": -0.47,
+    "price": 64.5,
+    "chg": -0.49,
+    "pct": -0.76,
     "spark": [
      64.99,
-     64.69
+     64.5
     ],
     "fx": true,
     "ok": true
@@ -231,12 +231,12 @@
    {
     "name": "Nasdaq",
     "g": ".IXIC:INDEXNASDAQ",
-    "price": 26803.03,
+    "price": 26803.02,
     "chg": 214.54,
     "pct": 0.81,
     "spark": [
-     26588.49,
-     26803.03
+     26588.48,
+     26803.02
     ],
     "fx": false,
     "ok": true
@@ -257,12 +257,12 @@
    {
     "name": "Nikkei 225",
     "g": "NI225:INDEXNIKKEI",
-    "price": 68308.59,
-    "chg": 784.53,
-    "pct": 1.16,
+    "price": 69458.72,
+    "chg": 1150.13,
+    "pct": 1.68,
     "spark": [
-     67524.06,
-     68308.59
+     68308.59,
+     69458.72
     ],
     "fx": false,
     "ok": true
@@ -278,7 +278,8 @@
      25396.51
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "FTSE 100",
@@ -887,7 +888,7 @@
    "Nifty 50 down 0.16% — flat session",
    "Rich valuations: Adani Ent P/E 47.7",
    "India VIX 11.42 — calm markets",
-   "Global cues: Nikkei 225 +1.16%, FTSE 100 -0.56%"
+   "Global cues: Nikkei 225 +1.68%, FTSE 100 -0.56%"
   ],
   "context": [
    "A mixed, stock-specific day with no clear index direction — the kind of day where individual names matter more than the headline number.",
@@ -898,10 +899,10 @@
  "news": [
   {
    "tag": "Business",
-   "title": "The battle for control of India’s $280bn Tata Group",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkF3QVo3OENTTi1aLWt4LXNNWk5tZUFGb0d2MDNfbUNiSU5ucmlscUtVTHlDNzNtTmF2UmdRQnlya0tEdTNkb3pNbzFKQkI2REVtTWxLMnByLTA1RkdfME0yMm0xZmttX19WTWRnQUJvT21zLUZLWUdLaHQ2YUxZRjRaS2k?oc=5",
-   "src": "Financial Times",
-   "at": "13 Aug, 10:20"
+   "title": "Noel Tata, TV Narendran: Who could take Chandrasekaran's mantle at Tata Sons? | India News",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNR3pGUVlHa2M4QkxtNFNzblZJUHY1Z1B1VXFkaUI3SXBPQkdmSHZ2dmlEUXptYjNIOGlXeEN0WU5xd1JNdjZYb0s0OHZLUElGQUowVXBOVG1pM2FOV1RWcGFzYWhPMXpaVC1VV2RlWHlmZUlQWGxGTnJxMGlFTTN2a3FGeFhqdEJUa3Y3YkwwZWhRRnNjUjNOX3BXdlhZMHBqb2gxWVhxNkJiZHNVUHl3MWEyT1ltVUsyMlNPYWRhaXM1aU5rWUVmeXNDbnVKOUNVQWswd2lkZm9MMkZsVS1ISTJkcjIyQTRfSlUtVjZCSXdZdHR5SE5rRGluMzXSAYICQVVfeXFMUEd2RE5lcjVKUHk1NXBqWkM0WGowRllxcG1Xb1NaSUpWLWh5NzhMMEVzOWVESXhuWTNkaFlDblZpSE9LbF9QNXczZV9YVTlpdTZHMUhOTFVLQzd4eF9qbTI4S0h5dzZNT0NQRnVyOGZNeGdlTkFqUjVMNXlva2hhbnZwMWladW9Qb2o1UERLTkRyczRtRF9kcU1FMXdXdXRpcE5HUm5EUlA2MGRPU1NFRFdaY0kxaFU2WFlrZjktbWlTVTZjRnhkVzFDZFo3NXlCYUtSRGJKSVIwaGp4U0FRQllBbFJ4UmxoMF8xX1RLR1ZKX3ZBUkpnRDFiN24zX0NYNTN3?oc=5",
+   "src": "Hindustan Times",
+   "at": "13 Aug, 23:11"
   },
   {
    "tag": "Share Market",
@@ -919,10 +920,10 @@
   },
   {
    "tag": "Sports",
-   "title": "Gautam Gambhir and Shubman Gill urged to be ‘clear in messaging’ with Sarfaraz Khan: ‘That way, he won’t waste time' | Cricket",
-   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRnlZMDIwdTRoRmpKalZqRDZfSXhWM1RFUWtLRHZuSnZpblliVkRwSy0xanRHMDhaMmwwbjg2TkwteU1JUUgtN2RlOWoxbEdiNTJhWVZSYlhMLTF2OFNtM1VzZ3BZN0J5M1VDNkt6cDNnYjRrUXZEaElqTnNYdzdvNnVvVTRrYk9NTHRIczRkb29QV0tFSmlCTnVnaEFPeVBFTDFybFBUajhpa2pycVNndldzV2JVUmxBTW1MVi1qSlhJY1FYMDVqTGpWSXRxQWt5M2ppVVQ4VVl5M09BQ0I5aXlfZTJ6MGNKMFBhRW1xU3FMQWJ4dDA0UlNJdkhfT3fSAYQCQVVfeXFMTlVZLVRWTGdISkdOOVp1NG52UHhOeE9iSkZ6TnFyNjJiQ1B1QTdNYXhvSERQRTJHX2ExdkR2WVNscVZEaE82dk5iaXlUWHl4X1RkSW5PUngzX1B3TzVHcU5YWm51aFJmWUJZRFVidjlBX05uNTBaa2p1U0RsRlVvM3ItSFJkVllONVVuNTNETnRvTHVPSFFzOC1UWG1GYXJmOW0wMWNoUjhjbE9DTEJOS0NtcDZMem14aTF0aDNFdUYzX1pyb1FJdmxfU1lKZjk4QUYzT0tQemZZOUV1YTk1X082MXJsVER2cVZaVks4c0dfemJ1UnJrYXlZTHhEY1ZQaUE5QUE?oc=5",
-   "src": "Hindustan Times",
-   "at": "13 Aug, 18:17"
+   "title": "A series of unknowns as once familiar Sri Lanka and India face off",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNHcxVWNvbHBRSFY3UEtoU2pvQTVBa1RNblNmMGdvbE01bGJDckhDZGlPSTZyRUZFN2R3eThJaGZPSm56SkFWQUlyR05fSFM4enlkYlNveWRrX0wwTC1iS0l0UjNFbmNWc0tlUV9qN2dhU3lvbEFncUNQUm1uRnNVN0J4OVlkVkN1N2ljT1RUekxibHV5Nmg2R3FWdFVJMzVSSnBjSUpSNVo3eW5rS0t2Q1RkaXlOQdIBxwFBVV95cUxQamhxMDJ0OU44YU5Ueng5OVp0ck11bG5rU01yYTYtU1dFMU9EZFRlQm5uQUx0NEF1aFlkcHNuVkF4TWE5RGU4Vk4yMGw0RGhWamRfZFRCOTVxS1VOVkZEdlR4US1nbUVkT2xOOE1kYTA0cXBTZUlfRm8tbnVhb3BoNWo3SUZrWU1CX01pT28zdExLT1cwUklYVFJDU2VrSFM4V0FxSFZ4bHZkb0lDeXBnS3c3N2tDeGk5QTZRQ1BQMnlIOVF1NVlj?oc=5",
+   "src": "Cricinfo",
+   "at": "13 Aug, 23:52"
   },
   {
    "tag": "Tech",
@@ -993,10 +994,16 @@
    "tag": "Business",
    "items": [
     {
-     "title": "The battle for control of India’s $280bn Tata Group",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkF3QVo3OENTTi1aLWt4LXNNWk5tZUFGb0d2MDNfbUNiSU5ucmlscUtVTHlDNzNtTmF2UmdRQnlya0tEdTNkb3pNbzFKQkI2REVtTWxLMnByLTA1RkdfME0yMm0xZmttX19WTWRnQUJvT21zLUZLWUdLaHQ2YUxZRjRaS2k?oc=5",
-     "src": "Financial Times",
-     "at": "13 Aug, 10:20"
+     "title": "Noel Tata, TV Narendran: Who could take Chandrasekaran's mantle at Tata Sons? | India News",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNR3pGUVlHa2M4QkxtNFNzblZJUHY1Z1B1VXFkaUI3SXBPQkdmSHZ2dmlEUXptYjNIOGlXeEN0WU5xd1JNdjZYb0s0OHZLUElGQUowVXBOVG1pM2FOV1RWcGFzYWhPMXpaVC1VV2RlWHlmZUlQWGxGTnJxMGlFTTN2a3FGeFhqdEJUa3Y3YkwwZWhRRnNjUjNOX3BXdlhZMHBqb2gxWVhxNkJiZHNVUHl3MWEyT1ltVUsyMlNPYWRhaXM1aU5rWUVmeXNDbnVKOUNVQWswd2lkZm9MMkZsVS1ISTJkcjIyQTRfSlUtVjZCSXdZdHR5SE5rRGluMzXSAYICQVVfeXFMUEd2RE5lcjVKUHk1NXBqWkM0WGowRllxcG1Xb1NaSUpWLWh5NzhMMEVzOWVESXhuWTNkaFlDblZpSE9LbF9QNXczZV9YVTlpdTZHMUhOTFVLQzd4eF9qbTI4S0h5dzZNT0NQRnVyOGZNeGdlTkFqUjVMNXlva2hhbnZwMWladW9Qb2o1UERLTkRyczRtRF9kcU1FMXdXdXRpcE5HUm5EUlA2MGRPU1NFRFdaY0kxaFU2WFlrZjktbWlTVTZjRnhkVzFDZFo3NXlCYUtSRGJKSVIwaGp4U0FRQllBbFJ4UmxoMF8xX1RLR1ZKX3ZBUkpnRDFiN24zX0NYNTN3?oc=5",
+     "src": "Hindustan Times",
+     "at": "13 Aug, 23:11"
+    },
+    {
+     "title": "India's trade portfolio: Deficit widens 31.5% to $15bn in July; electronics exports surge 11-fold",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWVJ5bUNTZktUZ19ud2RHXy1DckJ5RVp0dkF4V09LLVNPU3p0NXp5ZUZHMjJ1cmR4QmhZX2JKcHVyQ19BMnM4d2x3V1dhZENndjhOd2N1V2JGSG9FUXlJaXVSdENoQUxUYlJwcl9INnloVm4wakRNdDFwTzR1WVN1VktCMEdFaVM0WkVJeDNpUmZJS0JHcXVQWnJLZDFlOGN2d1pYS01nb2FPSFB0UnY1S1JUdktrTzR5WTkzMHBfQjV5WFlFSWk3WGpZd1FCcWNPVVg1YjNZM3Yxalhvd3BWVkZIRWZJQlR2NllLMlVidlpXSzVEWUhUQ1IyQ2x2M3dZM3lQUm1CTWNBQQ?oc=5",
+     "src": "The Times of India",
+     "at": "13 Aug, 16:34"
     },
     {
      "title": "Tata Motors PV Q1 Results: Profit Slumps 80% Even As Revenue Rises To Nearly Rs 96,000 Crore",
@@ -1005,10 +1012,10 @@
      "at": "13 Aug, 16:08"
     },
     {
-     "title": "India's trade portfolio: Deficit widens 31.5% to $15bn in July; electronics exports surge 11-fold",
-     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWVJ5bUNTZktUZ19ud2RHXy1DckJ5RVp0dkF4V09LLVNPU3p0NXp5ZUZHMjJ1cmR4QmhZX2JKcHVyQ19BMnM4d2x3V1dhZENndjhOd2N1V2JGSG9FUXlJaXVSdENoQUxUYlJwcl9INnloVm4wakRNdDFwTzR1WVN1VktCMEdFaVM0WkVJeDNpUmZJS0JHcXVQWnJLZDFlOGN2d1pYS01nb2FPSFB0UnY1S1JUdktrTzR5WTkzMHBfQjV5WFlFSWk3WGpZd1FCcWNPVVg1YjNZM3Yxalhvd3BWVkZIRWZJQlR2NllLMlVidlpXSzVEWUhUQ1IyQ2x2M3dZM3lQUm1CTWNBQQ?oc=5",
-     "src": "The Times of India",
-     "at": "13 Aug, 16:34"
+     "title": "Aditya Birla Group levies royalty on Grasim, Hindalco, Novelis for brand use from June 2026",
+     "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMFNsMjRZWDNHeVJzSUlZS2lpa1htajRQVzBYclpFd3NXdFJDOGExejdSRWRKaXoyb3FkZXlqUWpRUkV3eFg1SHRnbHY5RGRldXlYSktoLTRKUFlIVVVBcVJjUjZ5RnRPS0xhRVhxLW9JaGNFOXBjeEhWRVAxSF9oZlJqemlZZ1lkdE1LNDJGeFUwSEJ2ZUZoaGJQczFEV0RSNVNEVEg3TVpkTndWMkRzbGlmYWQ5Z2ExWTE0ZVlCYl9ic1o0UzlFVjBTOVYzMFdrMVJFMWhJZVJ6SWdoZDNkQThLUWNoZ1VvZTZ0TVlIakNuOFR6QlI3aVpEcEstcHlfaldv0gGIAkFVX3lxTE1FNFpMM0libnBrTm05TEZpNnkxRnZaRTY2TWIwQTZjZ0tSZFR0cnY3Y0xZS2cyYUhveFhDcmRrMVZrTmY1ek8xY3gzLWMtaTc0SnVrTi0yUWI3dkdSTnU5R3d1TGtfcUE0X3dtUHNuaGxRV2FkZjFuTFhmVW55NGd2QkdqMllfREFGbTZmc2ZnVGNZUk1MdDVRVlhoOW5iZjQ4YkNWUTdjZW1OSkI5TDlUTTMzaHNwNG1Zei05aGNPUHNCSFV0N3ZKMmRPbmF0UEg1NFc3dGdZN0xLVWlveEtEdFNXdTlFaWNsN2RObXpJT3JMUzR0bWhLTjJtckluemM5VnIxdlM0bg?oc=5",
+     "src": "The Economic Times",
+     "at": "13 Aug, 21:39"
     },
     {
      "title": "Stock Market Close: Sensex snaps 2-day losing streak, gains 114 pts; Nifty ends at 24,396",
@@ -1021,12 +1028,6 @@
      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbjBodk9xLVRMUkx4TmhSS0VHMldYUlFvekFqMm9XWmczbUNiQjZjaGhpZGZKTVNvbzVPQTNnSUh4RHZYejdUelJNQUFEd3lSenNlOGJvMmVWT1dERnlMcHRfV1k3TnhRM0NoTk1rdmpGNDJqZFA2YlRGZ1RSY0tDWUdMa2dEdnFWTERQLXNjdGtDTENCbVVibjlPeTVBN0hmSFF6NlRVTWp6MFlSZ2NrQzVuWFlHdm13dTFPR2h0UkFUenU3VC1NMnBfOFRweUFac2V3TWJRN0dBaDDSAeIBQVVfeXFMT3pnVTVlTGI1TzlZRnptRzBNMDdhTDBlVWhEZlVJa2Q0eU9fTDdpTnFod2N4QTVpd1RHMS1BTVpaYlFqVF90ZVZOMG8xOEItR0VKMmpfRWRSckRiUEo5WXlXMGdNTGtBNllVaWZvOVExVmtncG9FTFM0UDlFQlZRLXV0clZqSi1kOTRyeFE1NHFvS2lzM2k0NVREUW02WjAwd1VkZk1YR2pNUEstSkEtTG9qWmF2QllXWU1TTG1VVlFlVEpLc3NTRGhsNUY3dHgzc1k3QWxnYVNaOVFIV1VOcnRLQQ?oc=5",
      "src": "The Hindu",
      "at": "13 Aug, 18:47"
-    },
-    {
-     "title": "L&T, Coal India, 18 others bid for Centre's Rs 7,280-cr rare earth magnet scheme",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTzdrUmtsYXB4S3JLUEpyYzlQY1VVR1pIbFBuNWxyVGNxMWNMeGFrZmU1RFJZbnU4emtvVklVc015elRHYU1MaDUzNmlHTndPWHBUa3Zad2JNS0NaTkstc3V0MUJKUGZKZDIxWkdvT2Y4OXE3MXk5VTljUTNtQ01Gc2E4NFYyMVBKcjltZ1N4djFxNEFDTm5rQlZMSnFIXzFzd0g5aEN4R1MyNnBUZzU0bURvU2lrTmg1R1RLOUR2OWtURTNLb3l3S0FEVjY4bjMydDQ1VUdoX3plZldkUkHSAeMBQVVfeXFMUDBVSG1WbTFORWthVGZobUd3OHNmLU0yOHFjNWgxREdfMTdHRjgzYl8yLUg4RERkMkVyTHBfYVpOYkxFTjRyOHhCSEl1ay0yUjdqR3hMT2xLVTJjc1c3RW5fSnF4Sk1fOEFuajl0eDRFaC11ZkZpODljaEtXeWVFMm83enFkaEoxZDlUenlIQ09hTEJQTkZhUmh0ZTdNN1dqU0F6QWtTTHZpTXNmODlQX0xmZUdMN2NpVGpyVldKQXB2MDhRaDlDMHZrLWRlT0l2a1VEemNWZU1BSk9VSElWeEJUeVU?oc=5",
-     "src": "Moneycontrol.com",
-     "at": "13 Aug, 19:30"
     }
    ]
   },
@@ -1052,6 +1053,12 @@
      "at": "13 Aug, 17:29"
     },
     {
+     "title": "Aditya Infotech Q1 Results | VA Tech Wabag Q1 Results | Top Buzzing Stocks Today",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbGxyVFM2R0p2bWJ5WUNRRnZKZnJDZEs0akJIb19wWlZZQk5zeUZ0a2NadndqeTllVmpnZ19HNkVHNWhKSHNsTXFzcXZBU040S1I2anZkWDhvOUhmbG5reF9nbmMyckRqbVZwYTFoWWZaWndkRjhvY0x2UW1McHlGOGpDd0s3cWtjQUE3a05mSGZqZExST0wyaGJuQWN5SVlCcm5nUXlxd3ppNmw4VW03anFwc3NzZlQyYXBlUmRoc2dSM2dxU0dCWUkwaHlRMng2LTJ2bg?oc=5",
+     "src": "Equitymaster",
+     "at": "14 Aug, 06:00"
+    },
+    {
      "title": "NIFTY 50 (^NSEI) charts, data and news",
      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzMDFPYmQwMHZmVkNqVkJEMWtweEQ5TmRPaVFhaDVOWV9jd0dkbGZ4TUFZLTVkY2U2ZElNUWx1czJqVEhPT09Vd19taTRJd0FPbXo2RGdn?oc=5",
      "src": "Yahoo Finance Singapore",
@@ -1062,12 +1069,6 @@
      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaVhOYnNPb2dFcnluMkdDMHF2T1Z0R2p2ZlV5MmxmLTVZU3ZLcG1Td084MjVpNC13MWtYdGQ2Q1E2dnE2Ykc4VDhvTkR3LWhrbHZ5V1oydlNFWng0TVpFNWRHUjVxbzVJQndOb0NOTUtreTVjUVlmVjVKYWxrVVBSLUVkSGdQOU5MMkNlNWVpSHdnNzlkUUphZXprUHBScFdyckZURFN2Si1NS2xnaHhBSEV4MWRFcUxBOWhjTUc0ckYzN25wdUJNZU9VZHNEQk56MGRsMHFFLUszY29FUDRmdHRQZ0lSb05obWkwR2t1TTBFYnI4bGtSNVFNLTVXOXc?oc=5",
      "src": "Liquide Blog",
      "at": "13 Aug, 16:56"
-    },
-    {
-     "title": "Sensex climbs 100 points, Nifty 50 ends below 24,400; US-Iran uncertainty keeps investors cautious",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNS05NOXZSZUtZTEVuUlI4TTRJWTdLWHhoUHNhVkVjNGFLNWQ3el8tdzFfX212MlhLUFdGT0w4UWFsM2o0RVhXNko4WnVhalRKUUdNYThId3R5d3NIYnJuOGFySkhvcWVRWGxscV9nNXNIV1JfTDVhcEdiRm1BS015d1dJdHVhd1NFaTYtbjJqTXlnOFRUdUJ1dldUbU5XN2FzTk9vRVE1ZHhud1lQOExMblo1ZkJJem9xd1RBc2ZVbmItVTNoNE1YSjhmTmxqNjJjMk12QWJHY2lFa3FDVldmOTR6WHlRMllCbU9EZi1QSnNQX0NOazJtMtIB_gFBVV95cUxQUFZMeHNKeDJTODZrV1BGSjJ1OTBWMFNDV1dZaEV1QUpJLU83NmFIODBHT3J1RWplcU1jcGdrWVUzUkZDaE9FbnlRRjJiZlJ5Nm9FZzlPam5hbk5KRXl5VEdfT21RdXAxcWc2NW1BdjhxbDBybXhjQjU3cWwxeDctQXNpbEZUNVdaSTg1ZnpRVlZNdHZiX0NuazVlLW1Hb25NN3lOYVdib25NSFRIM2RhNFY0a2drMFRocS0tQkVLMkFUM2JLSDBaVEJpY0pGUmM1dnJ6WFIzeFM3NWNMcThuT1pfTG4tNXRBaDYyd24xWjFNdTdqRWI2OU9kYUs4UQ?oc=5",
-     "src": "livemint.com",
-     "at": "13 Aug, 15:36"
     }
    ]
   },
@@ -1075,28 +1076,22 @@
    "tag": "Sports",
    "items": [
     {
+     "title": "A series of unknowns as once familiar Sri Lanka and India face off",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNHcxVWNvbHBRSFY3UEtoU2pvQTVBa1RNblNmMGdvbE01bGJDckhDZGlPSTZyRUZFN2R3eThJaGZPSm56SkFWQUlyR05fSFM4enlkYlNveWRrX0wwTC1iS0l0UjNFbmNWc0tlUV9qN2dhU3lvbEFncUNQUm1uRnNVN0J4OVlkVkN1N2ljT1RUekxibHV5Nmg2R3FWdFVJMzVSSnBjSUpSNVo3eW5rS0t2Q1RkaXlOQdIBxwFBVV95cUxQamhxMDJ0OU44YU5Ueng5OVp0ck11bG5rU01yYTYtU1dFMU9EZFRlQm5uQUx0NEF1aFlkcHNuVkF4TWE5RGU4Vk4yMGw0RGhWamRfZFRCOTVxS1VOVkZEdlR4US1nbUVkT2xOOE1kYTA0cXBTZUlfRm8tbnVhb3BoNWo3SUZrWU1CX01pT28zdExLT1cwUklYVFJDU2VrSFM4V0FxSFZ4bHZkb0lDeXBnS3c3N2tDeGk5QTZRQ1BQMnlIOVF1NVlj?oc=5",
+     "src": "Cricinfo",
+     "at": "13 Aug, 23:52"
+    },
+    {
      "title": "Gautam Gambhir and Shubman Gill urged to be ‘clear in messaging’ with Sarfaraz Khan: ‘That way, he won’t waste time' | Cricket",
      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRnlZMDIwdTRoRmpKalZqRDZfSXhWM1RFUWtLRHZuSnZpblliVkRwSy0xanRHMDhaMmwwbjg2TkwteU1JUUgtN2RlOWoxbEdiNTJhWVZSYlhMLTF2OFNtM1VzZ3BZN0J5M1VDNkt6cDNnYjRrUXZEaElqTnNYdzdvNnVvVTRrYk9NTHRIczRkb29QV0tFSmlCTnVnaEFPeVBFTDFybFBUajhpa2pycVNndldzV2JVUmxBTW1MVi1qSlhJY1FYMDVqTGpWSXRxQWt5M2ppVVQ4VVl5M09BQ0I5aXlfZTJ6MGNKMFBhRW1xU3FMQWJ4dDA0UlNJdkhfT3fSAYQCQVVfeXFMTlVZLVRWTGdISkdOOVp1NG52UHhOeE9iSkZ6TnFyNjJiQ1B1QTdNYXhvSERQRTJHX2ExdkR2WVNscVZEaE82dk5iaXlUWHl4X1RkSW5PUngzX1B3TzVHcU5YWm51aFJmWUJZRFVidjlBX05uNTBaa2p1U0RsRlVvM3ItSFJkVllONVVuNTNETnRvTHVPSFFzOC1UWG1GYXJmOW0wMWNoUjhjbE9DTEJOS0NtcDZMem14aTF0aDNFdUYzX1pyb1FJdmxfU1lKZjk4QUYzT0tQemZZOUV1YTk1X082MXJsVER2cVZaVks4c0dfemJ1UnJrYXlZTHhEY1ZQaUE5QUE?oc=5",
      "src": "Hindustan Times",
      "at": "13 Aug, 18:17"
     },
     {
-     "title": "'Not any individual, however big a name': Sunil Gavaskar's strong message ahead of Sri Lanka Tests",
-     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNRHJmUXcwdnJSR3V3NDUyQjFmTktsbHY0UXZxc0ZVTUh5NzlCS1phSi1vcUxPYUptd1RXb3JQVi01Y2ZsbzhTQVdqeHJubjZxbnZKZDRqMVFtWmpRSFBYQ09mTEVjaFJBN21FWWV6NFk3UUNmVlM3S2JqQWw5YU1HZVlsTzFDTGF4SkczM2R0MEZEQ3NQRm5zU095NVhZc1FSWVY2bkJPVDFhekpYTUgyM09iQk1MMlUtYW5JWGxLSVlLZDhGZXZvUjRJdklnZXBWdkVuWHpjeDRFRmxZRUZoRy1pMGE5cDJvU2ZGcnFlRG5PX0RySHl1b2JEMzJ5TmJQR002OEFB?oc=5",
-     "src": "The Times of India",
-     "at": "13 Aug, 09:56"
-    },
-    {
      "title": "Hasan Mahmud and the day Bangladesh beat Australia at their own game",
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVNiTGdvNkQwX1hqT2x5YUs0UFFqejc2UmVrLTZIMUlNOW5rSWI4RnlGdjRjVHA3eWV1eERRNEdoNVd4WmdrakIyck5KRk1ScFRadGdoZk1sUW1EXzVvaFp5dElRUFJqT1Vyaks3bFN6ZTR0LWIzal9ZVVRMTVFILXdHakREUW4xa242MmNIc2VxNUt2SDhZQ3FTVk1wYU1PQUlzaG1NckV2aFZLUGphY3lOTQ?oc=5",
      "src": "Cricbuzz",
      "at": "13 Aug, 22:14"
-    },
-    {
-     "title": "Esports World Cup: Lazavik Ousts Nepomniachtchi, Joins Arjun, Nihal, Niemann In Quarterfinals",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oVTl0TWlPdjlTcjQ5azRaTkY3MHUwZXVKQWoyNEZkVlRJbWxEZHNiZmMwZmdtbHpaTXp4ZzNJSmZfbHdCNFA0eF9OU1U1S2JrenJPVHdmZEY3SHE4cE00cTBOYjZQRjl1T0g4b2JvUGhseXVleUxERmNSaG8?oc=5",
-     "src": "Chess.com",
-     "at": "13 Aug, 23:33"
     },
     {
      "title": "Match Predictions: Tamil Nadu Premier League 26 - VIDA Kovai Kings v Nellai Royal Kings - Trichy Grand Cholas v IDream Tiruppur Tamizhans - August 13",
@@ -1109,6 +1104,12 @@
      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPbExsQmszRzBSMzNvQlp0U20xZTRVTFMxNVpaQlloRXl0Y2tpSGlYX3ljWEZQQV9CNXpQSHZGX0phenJwdHVFajJOeG1mYU05RVRCTzdxVG9xVkIxMWRDOGNpaFQtWW1oX19ES1RHeHhWSEtIaDRRYi1sT3BmSUVCa1FwNmZ3NS1jNXhvX3BnUU5TTjF0cjdKTzZ6ZjdraXVQZzdiMXFwTW5pNG1WSzZZdXZkWkxDMjZDTklYUC1SV1l0c2VfZjEtTkNsZUhDdk9fc1RYVlBjYVppWjctc2FjMTZ6bUhoOEtGdDBwQ1M0bHMyMVF2Q2dEektoY1hvZw?oc=5",
      "src": "The Times of India",
      "at": "13 Aug, 10:52"
+    },
+    {
+     "title": "Esports World Cup: Lazavik Ousts Nepomniachtchi, Joins Arjun, Nihal, Niemann In Quarterfinals",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oVTl0TWlPdjlTcjQ5azRaTkY3MHUwZXVKQWoyNEZkVlRJbWxEZHNiZmMwZmdtbHpaTXp4ZzNJSmZfbHdCNFA0eF9OU1U1S2JrenJPVHdmZEY3SHE4cE00cTBOYjZQRjl1T0g4b2JvUGhseXVleUxERmNSaG8?oc=5",
+     "src": "Chess.com",
+     "at": "13 Aug, 23:33"
     }
    ]
   },
@@ -1368,6 +1369,12 @@
      "at": "14 Aug, 00:46"
     },
     {
+     "title": "UK records hottest day of year as temperature crosses 38°C in west London",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQekdfRWQ5NGtnV2daNUYtZ2lFbUdUbTZSdVVKTEV2ZjkwRVIxaUUzR25MeVk1cUh6eU9uU2J3Y2l0RkwzN3hTUEZlUzhEeTM2cHVzWDNhSDI1TEhYZ1JhX0gyeEpHcDYzNEkzdmJpVHZiNmdNY3dFX19mdXdSZ1c5SmVSU2o3Z0FfSldMNEp1ZjNzd05MQVFTc2hYNDdZS3hVQWgyeDVtaERRRi1uMmpaMlVvcTlRa2hqT0hFVjNJVEZHdEk5eVZVUmlZNk9YLWZneWl0WWM1ckVSOUHSAeABQVVfeXFMTjZpTTRucWxmNjBvSGJCWWtRQ3NxVHJWNmJfU2tjbUlETjdVR2lsU0lVZU1CaHdLOXd5Qk5YRGZsbGdGa1VxeE9mb2IwTnhFWEZHckJnQ0pTelFxcXRBcndFbmo0MUR0b3lFMmZqRVpRckU5MVVTc2VKdFJaTWt3ZU11aGRSaW5wWDk2TGpja0s1ejB1VHZEUEoxeGx6WGdfNHI0djNPMWlwcWREc2E1Z0JQS2RoblVQV1k0Q2c3eWZyRzV2MGlmS0JIa0JYc2stMjdvUDVwNTgxUm10LXAwRUc?oc=5",
+     "src": "The Times of India",
+     "at": "14 Aug, 00:25"
+    },
+    {
      "title": "Gautam Rangarajan, former Indian diplomat’s son and BBC exec appointed U.K. PM’s Adviser",
      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSHdIQlJmaHJoMkI0QnU4b1hiVDFpN2xoRnk1WmFzbEVRRl9QM0pTVGFPbU9SUjgtZmF0SjRNdGNmYnNuc3pONUR4ZDZHbzFpZEMtSE1SVHljTmVtUlUtcWZWc19taXo5QkNUV0FuWjVPNmFPZU5rNFJKNW8xMHBSS0hvbTg3d0wzemN4aG1MVk0tTkgtQ2F2N21qWVJzc19sMGV5QXpIbUVDclEycWlrSnZiTGZURmtoa1RDRWlDWUxBd3RVVHh0ZUZKSW16b2lmaVUwYThGdzYySC00X2JtR9IB5wFBVV95cUxNLU9Xa2tza05STVp5c0pneHcyUW9haHFZRXJUVXBLYWFGckdoSWZhTHJlRHZXTlRjTGt2UXhhTHQ3a25wc0FhNnFpWkdEdDc2UjZITElfbjdfRVNKZFpidzJpT21kekJlbUhncTRDN0hQdzBKdXAxTTNRRWtSWGcxbVNWUFNrVTdqRXhYenhpckpwZ1JwWVlVTk5DWFBpOVNYS3BFczNGclBkajhyLXJCNGtQeS1VR1BlZENhcHpTRlBvVE1Ucjl1YVlMZ0tuRFhSMFpIMm4talJmYktBNjRzVllReU92b3c?oc=5",
      "src": "The Hindu",
@@ -1390,12 +1397,6 @@
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQajctYTRuZFhvS1pCeG5LUVdvWEFxVFV1X2ZPc0x6N0J6S1lCNy1Kb2JwS19ReTU5c1BfVGh6ckRLRkdDTnJSZ1dGSGliQ2RKNkF5d1BGYkZuWkY5X1hLdFpQSGVNSk1TLXQxb19XTW1zOFhpelVrYkM2anh4cGowS1VuUnF4ZlFqSnhjbzc2VjdlSlgzNkNkYWVzdmlMRmFLejFjbNIBqgFBVV95cUxQWUloZTREQnl1R25VUzhNN1FjTTR2dTRGUlJjQVdyWG5iQjlsWmNlMkZENWE0NEhIa2hPRXMtVU5IOGkweHBhN1QyY3ZvREdkNFBIZm1UV0RldFg3TEU3TXhsN0pMdFNSRHMwYTBDWW5QOVNCQXRxM1VpTWdkNzZoM3k5MHdkZzhfY2xnWUJPZFgzaTJJWExxdE9DWmVFZ2RCdzUzMWRkbjJlZw?oc=5",
      "src": "Al Jazeera",
      "at": "13 Aug, 12:07"
-    },
-    {
-     "title": "West Asia war LIVE: Iran rejects Trump claims of U.S. control over Strait of Hormuz as ‘lies’",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclhjRDk5UWR6UkZvVnQzZ0JxVE94UldRbU9ycWRneEtzSEcwc0JQbXZxS3o3R3FXWGZpbUhTLXV5MXBOaUYwRE1sZHJ1bmhoTEdGem9Nc3FkVTVTQ0Zlbks1MVgwX0x5aTRiQTNQVWlQVHRRWW5tT2Y5czhVVlNWcUNkeUlTNkdQWXJwT2ZmeER1QkF4TVZELUFIbTNUTW45VTNldHB6YUFtTnVaaDdVbVdja0NCMjlDWXhtaTc2QTE1eHR40gHLAUFVX3lxTE5TeTV0aXMyMmViN0NRT3BoVW5vc2Jua0FNSGFkZE8ydmJ1QWY4LWtmZW4wc3Rzc0FBNHJtRG9hZ2JKR3FHZnZLWWVQWm50Ny1SSnMtMVg3NXBEcVpmSVZnS09WNVNXLUtPbk1uUFJPM0F5ZXZaSWpZSHlUb0hCQTRWY0lKT2N2XzFEOUdKQklVZmJhY1B0V2ZSaWw3VXJYbGFaX3RuMmFWcUY1eDAzYVVKdFkyU0tZd1Q2MmRUcVk1d09WSTZabVd2TWxB?oc=5",
-     "src": "The Hindu",
-     "at": "13 Aug, 21:07"
     }
    ]
   },
