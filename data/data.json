@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-14T18:12:39.206Z",
- "label": "14 Aug, 23:42 IST",
+ "generatedAt": "2026-08-14T18:31:09.926Z",
+ "label": "15 Aug, 00:01 IST",
  "markets": {
   "indices": [
    {
@@ -58,12 +58,12 @@
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 95.64,
-    "chg": 0.24,
-    "pct": 0.25,
+    "price": 95.63,
+    "chg": 0.23,
+    "pct": 0.24,
     "spark": [
      95.4,
-     95.6446
+     95.6327
     ],
     "fx": true,
     "ok": true
@@ -71,12 +71,12 @@
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 84.05,
-    "chg": 0.72,
-    "pct": 0.86,
+    "price": 84.12,
+    "chg": 0.79,
+    "pct": 0.95,
     "spark": [
      83.33,
-     84.05
+     84.12
     ],
     "fx": true,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4439.4,
-    "chg": 19,
-    "pct": 0.43,
+    "price": 4436.7,
+    "chg": 16.3,
+    "pct": 0.37,
     "spark": [
      4420.4,
-     4439.4
+     4436.7
     ],
     "fx": true,
     "ok": true
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 65.03,
-    "chg": 0.04,
-    "pct": 0.06,
+    "price": 64.99,
+    "chg": -0.01,
+    "pct": -0.01,
     "spark": [
-     64.99,
-     65.03
+     65,
+     64.99
     ],
     "fx": true,
     "ok": true
@@ -218,12 +218,12 @@
    {
     "name": "Dow Jones",
     "g": ".DJI:INDEXDJX",
-    "price": 53723.28,
-    "chg": -116.71,
-    "pct": -0.22,
+    "price": 53774.25,
+    "chg": -65.74,
+    "pct": -0.12,
     "spark": [
      53839.99,
-     53723.28
+     53774.25
     ],
     "fx": false,
     "ok": true
@@ -231,12 +231,12 @@
    {
     "name": "Nasdaq",
     "g": ".IXIC:INDEXNASDAQ",
-    "price": 26683.69,
-    "chg": -119.33,
-    "pct": -0.45,
+    "price": 26687.99,
+    "chg": -115.03,
+    "pct": -0.43,
     "spark": [
      26803.02,
-     26683.69
+     26687.99
     ],
     "fx": false,
     "ok": true
@@ -244,12 +244,12 @@
    {
     "name": "S&P 500",
     "g": ".INX:INDEXSP",
-    "price": 7781.45,
-    "chg": -17.54,
+    "price": 7781.97,
+    "chg": -17.02,
     "pct": -0.22,
     "spark": [
      7798.99,
-     7781.45
+     7781.97
     ],
     "fx": false,
     "ok": true
@@ -258,10 +258,10 @@
     "name": "Nikkei 225",
     "g": "NI225:INDEXNIKKEI",
     "price": 68713.8,
-    "chg": 405.21,
+    "chg": 405.2,
     "pct": 0.59,
     "spark": [
-     68308.59,
+     68308.6,
      68713.8
     ],
     "fx": false,
@@ -297,12 +297,12 @@
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 11.31,
+   "price": 11.3,
    "chg": -0.11,
    "pct": -0.99,
    "spark": [
-    11.42,
-    11.31
+    11.41,
+    11.3
    ],
    "fx": false,
    "ok": true
@@ -478,7 +478,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.2
+    "pe": 14.2,
+    "stale": true
    },
    {
     "name": "Infosys",
@@ -717,7 +718,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.2
+    "pe": 14.2,
+    "stale": true
    }
   ],
   "losers": [
@@ -825,6 +827,12 @@
     "at": "14 Aug, 19:30"
    },
    {
+    "title": "LEAP India shares list at 4% premium over IPO price on NSE",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ2hBQkk1czVvZ3E5a2lrWW85b0o4S2RGdllLeC1UYWJPTzZMb2tMVGt1Vm1CZjV2TkxUVHhWOFhJSi1pNkI5WkRnVElaOElwUkxQOU1TSkpXeUhOaFc3bVlKYWxIQ19DR0dBR1hjZVQxM195VFk4NDZmUVZ1RG44bS1zNFI1bTNyc0hBUHlMaGViOGZwWXBPemNOWjJQRUhXNGRaN01jSnVDWWdqb3k1LWh1MFRObk9aWEHSAb8BQVVfeXFMT0lPZllyb2o0YlRRNkhPUjhoZjRfUE5GQ0pYY3k0aS0tN1BGWkt2Z3JiMVlaM29PWlEwWGJqWXJ5cThYTFhVMDNCOXl5Qm5xMjd6amI0TTF6bzEyUUNtM2xhTVk2MjFLT3lTZ1l6UHJjRUc1ek1Gd2JDU1ZOeFFBY0htVWpfclhOeVJDalhob3VwTVBEN2JVcXNIXzZjV0Q0azFJXzdzSHBOclVXc050ZHFHR0FJM3pPMkVpVVVyR1E?oc=5",
+    "src": "Moneycontrol.com",
+    "at": "14 Aug, 09:56"
+   },
+   {
     "title": "Ashish Kacholia-owned Credent Connect N Care IPO booked 3.04x so far on Day 2; Check 10 key things to know",
     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZ1pOdmZBMEl2Q0JUOGY4MTZpSTh5d0NfTzNjcTZ2U1FuMFBqMS1zWUJxaS1kaktPOWtjVklrQmpnVEpQUUtEN2lxMnJuT3VtbjluUXdhakpmb1FGM3pQVjBHS2FydjNmUVNNMkZCeS1BeEhTRDZuUG80UkVqcEN5SnZCNVN2MjNFZFN1VWlTMm1uOWRLSVhrNHZBQmpNN2xpWFR1M3pQZkhVeWxkTUdoR3FiWUNhMXlPcGNWOW9aZmxNYjRlaV9EWGtMYWgxajJUbDNWXzIxNVVQdXRzVUJUR0ZpLXgzbTR3aGoyOWJXMUVRSUpsQ0pxZ1dWNNIBgAJBVV95cUxPb0NGVVh4SXBVUHpwaFkwbUZGVTNoQ2p5bjh1ODZFRmpQT2p6SzBUaGJ2ZS1vUXZzZGh0bG5OQXVCSmV2RVJMMGtDRWQ4QnV3a0k1aWxjY25GajE1Vmdzb01UTWVBQVg4elBVMUtkanBDSFpVQXhiT3czVm1LT3BXQUxZYjRYcnMwdU8wcWRwY0VFWS1jbkZnWjRmb0lhSHpYNnJlZmtNbGEwUl8xSERfZDhsRTRzVml3c2tCTkswS29iX3BLSmZJUHN6MkE3bjZMVUhnRVA1S0N2T3l3STlhRmpDOUczRW9DWjZGZWRyaHoyT0dTN2l3ek1BODN4M1hj?oc=5",
     "src": "livemint.com",
@@ -844,12 +852,6 @@
     "f": {
      "sub": "99.3x subscribed"
     }
-   },
-   {
-    "title": "Molbio Diagnostics IPO listing in focus: GMP signals nearly 20% listing pop ahead of debut on Monday",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcTQxNUVrQV9xN3lmamVadV9VZDZlVFpSNHo4UGIxazRXbkpISGR2a0FDcGJzRkd5ZS1jb2I4VTNuU280bUN3TTVzUTdwaDNWdkNLVkMxTzk2VmNxTGJQNVh1eDVJNVdraVBYRFJKVjN6NUJ5Vm1UcVlpSk04QU9BRFNTMjNKOVRVOERwc3ZRdERYbVZVU3hLbDZfbzBRSmhSdWpUWXZ6NmRudVJrekF2V1BKcVFuSjRaVkVZel9sNE92NTdia2NsYk4tcWdRUmZOQ3lBZXNqb01lVHREOW1IWnUtbGlZOG9rSVHSAe8BQVVfeXFMTnR3cDc2LW1VcDJ1MzdrTl9Jc3N6MzM3NzZUalc2V0p3ZDR2TGxjcDc3UmNraFdXXzBGblhpOU5Nb005ZFY3UDZkYlN3MTY0SXBVdU95QWZ3dDI1Q3k4QkVWblY3Rk9ZaFlBclNjdURza3VrVER1UkFYazBsYkI2akwwb2RZVUtzQkE4N010TFMtaFdsZkYzTUlNWjI3YnlHbE9QSEpYT2MydnpkdHp4UFQzRU9KamJoWG5kbUtDblBRcGN1b3F4UmtiY2lwSy1DeUNReE1RblhtUHYzdVhNNGJTeTlhbmVXMGN4THlhWVU?oc=5",
-    "src": "livemint.com",
-    "at": "14 Aug, 12:04"
    },
    {
     "title": "Shiprocket IPO: Last Day to Apply Today 14 Aug 2026",
@@ -872,22 +874,22 @@
    "0/8 sectors green today",
    "Nifty 50 down 0.12% — flat session",
    "Rich valuations: Adani Ent P/E 49",
-   "India VIX 11.31 — calm markets",
+   "India VIX 11.3 — calm markets",
    "Global cues: Nikkei 225 +0.59%, Hang Seng -1.1%"
   ],
   "context": [
    "Broad selling today — most large-caps fell. Down days are exactly when disciplined SIP investors keep buying units cheaper.",
    "Money rotated into Bank and out of Pharma. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (11.31) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "India VIX is low (11.3) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
   {
    "tag": "Business",
-   "title": "RBI to prematurely end FCNR(B) swap facility, deposits allowed till Aug 31",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLVZ5SGVoTjZpQkJEMDdISVA3YmNSYjR5eHR5UGhueF9TXzBfNzlTZzRMeVhsQjRZTTI1Zjk5b080QzhIRy0tSG4ycGpKZzUwZmpUQzAzMzRBQlY5VmtZQ0hxekR2U2tzWFRJeGVJckZONkZZWHZoNEZKaWw0XzdDY2pZOF9zS21ib1lWQjRDSFdRbkxmbFpsenZVeXVadGhxUVJjeDRtT3NJdUJzdU0ydVNKODNJRzNBNGRHcE1jUll4LUxFdmpQNkJrcU1xczRHNXRSU0stdUTSAd4BQVVfeXFMTXNQU0h1V1hQbW40cXFpS09jSGVtbXhPRlBRYzhHYlVqN1NFTXVVU0JwVmw3enFwU3FBV1dVNVZSaE5WekQyRE5FX0Z3cmtaS3JwbmItTWdJWDhZc1VCUzYycHctaVU0cEY4Ykd6bkVXSTgyTDNGUUM5VEtmWnBLa1NLZE1FVWFremoxcWJhZ2Utb1FxODduSzN2ZkNnZ2JVRUdxQnhMN1pCaGhDdVFtY1REYUdlUm0zUUlKdm03Nms1ZFdZZWduVjZWdHJHcmItLXZCUVFsVktlQy1yN1hR?oc=5",
+   "title": "Stock Market Close: Sensex sheds 71 pts; Nifty settles at 24,366; Consumer Durables shares shine",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOT3hNYmJ1b2plaHBHRGVHaXJ1dlNCS3lFU2FJam9vYnpxQVJmWmE2MWR6UmlJNUxDOExQTE5uUzRuaEdjOTVxcWZmLXQtSC1xZUlUSkVSb1hLRThSRWpZNzF2VzZnSk1sOE9XeG4tZVZLV2xwRFgxaVhUWjFQajRKc1ljakh2NDFrRE9TVFZDZE9qZVU2N2YzQl9QVExDREE3WVF2WXRPWTRZWG5iV1BHOVk2amRiVXZXMFAyZjhDSlR4YXZrUnFXa3J2MV9DNi1zX21PVV93OGtpT0puOVJtVF9mV295cFRSVkJuM3BKejFJVjJqWW14Qk1NMl9CVE5KeTVnWGVmNDZ5bW9Sc3JnRzJpNm1IN3VlRnfSAZ8CQVVfeXFMTndFY3RrMTJVMk9RcGJfQWFxR19wMEtwZ2dlT3NuS0tuZUhWUUpMTXV0UDVfUzZBTzA3d0hJVWs3NnZtbnEzNjlzOW9GUHpsYWRpYUNEd1d0SHRmcG1kajJBOWNwY1gyWlIzRkJWSHRSWi1UTjNFT29YT1FNT1N4SDI1VnNPaWZRbjlxYnM3TnlldlVZOTA5bDg0X0hvY1NaM1BBcWhST2djZUxhWEhCMDI0Wmw2OWxWQURpVkhsTXRMME1SZjMxc2RmZVN5WUxudEVxUTRaYU82TmxnUFB0TVlZZkY5OVpQZGpRdHpiS2RFbkEwTEtHZVZrVXh5LXRsRW81UWtDd1lMWk93bllCY1hUVUJzZ3JsRTEwa1RoMlE?oc=5",
    "src": "Business Standard",
-   "at": "14 Aug, 18:10"
+   "at": "14 Aug, 15:46"
   },
   {
    "tag": "Share Market",
@@ -906,7 +908,7 @@
   {
    "tag": "Sports",
    "title": "India look for a fresh wave to crash Test shores in Galle",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWxEUElQclA3RnZ0c1MxMUhTOGZDeFpZdzQyUDRVVXVLVTM3SFlGMnhwdlNzTWU1Wm5pQUJ5azduSUR5LWd0WVNhZm8xQUtTemFLa0dVSEcxZWxCZ1pwaGVqQUlhX0dOOG5ZVXo5MVFQSVlwU2xMZG40TkV3VmhBV3hUNDdiQWtoRmlnemRHMmQ1dkpTUTE3S281VktueFZ6VUpPMmtpeVA0cDk2cnYzREFzUU0?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNHo3WTlJR3QzOHhTcUdKby1nMjNJckN3Ulp2SkdkeWFkR2xSUk1Pd3YtQ0NHalpJVmVndnFCMHlNZFVaTGRGc3JJbEJtVkV4TGoxMjZRdTNSSnVnSkdPazFoeUdUVWc2Y3AtZ1JyRzY1cE9pNkNHSW00YjJnY3FXcHdIR3pHNjhsMWJhcUNHWjlLUzlUTHJaclRNcDQwZ3BXZlh6UQ?oc=5",
    "src": "Cricbuzz",
    "at": "14 Aug, 16:25"
   },
@@ -968,10 +970,10 @@
   },
   {
    "tag": "For You",
-   "title": "AI Could Reshape Indian Jobs: Is Bitcoin a Hedge Against India’s Next Employment Shock?",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdjkzQmE0blhTQ2I0YzRfWk1FZ21HZ1JQSnVLMWF6V1JCOGUtNjc5VHJ4c2wyWXB5bWNIbnBVQkUyOFF3ZnNNNG1EY2d4ZDF6bzZWdEw0TEp0Q2ZVbnc3aHBzUjRHb2ptNS02NGZVT1Bmd0ZNWDJSWkc0R3NrSUpfbDRIUFFvdVotd3Qza0l4LVN1elpzMmZWYV9pX2tiZjBEaXZSZ1dSNDI2WmJtNksxeXhvUWFMbEt1VkNRXy00Yw?oc=5",
-   "src": "CryptoRank",
-   "at": "14 Aug, 19:59"
+   "title": "Commodity costs remain Q2 watchpoint for auto OEMs despite strong Q1",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlJqMVNPTFlFVFFSVXFtM1QzcUxkdXRjOUxsaEJnNktjUWx1Zi1RMVdrNXhEdG02NzhoVEtnZXpvQ3daUWVIUnk5S0tVblI3X1J3V0FRb1NzQUtrNnpHVWt2YjNOcXprczZXV1JaY0k0LVJReWUyanAtbVlXc2J1elB2V2xPd0pURUc1cUZQM00zTUlLbXZFbWF4RVhfSjhLY01MTGxGWHJBNmNfMndQSE5lTUotcUV3dC1uS3J2YlF0ZkhQcXQ1aWJsamozNDdya24tTtIB1AFBVV95cUxOZlJqMVNPTFlFVFFSVXFtM1QzcUxkdXRjOUxsaEJnNktjUWx1Zi1RMVdrNXhEdG02NzhoVEtnZXpvQ3daUWVIUnk5S0tVblI3X1J3V0FRb1NzQUtrNnpHVWt2YjNOcXprczZXV1JaY0k0LVJReWUyanAtbVlXc2J1elB2V2xPd0pURUc1cUZQM00zTUlLbXZFbWF4RVhfSjhLY01MTGxGWHJBNmNfMndQSE5lTUotcUV3dC1uS3J2YlF0ZkhQcXQ1aWJsamozNDdya24tTg?oc=5",
+   "src": "ET Auto",
+   "at": "14 Aug, 15:16"
   }
  ],
  "browse": [
@@ -979,10 +981,16 @@
    "tag": "Business",
    "items": [
     {
-     "title": "RBI to prematurely end FCNR(B) swap facility, deposits allowed till Aug 31",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLVZ5SGVoTjZpQkJEMDdISVA3YmNSYjR5eHR5UGhueF9TXzBfNzlTZzRMeVhsQjRZTTI1Zjk5b080QzhIRy0tSG4ycGpKZzUwZmpUQzAzMzRBQlY5VmtZQ0hxekR2U2tzWFRJeGVJckZONkZZWHZoNEZKaWw0XzdDY2pZOF9zS21ib1lWQjRDSFdRbkxmbFpsenZVeXVadGhxUVJjeDRtT3NJdUJzdU0ydVNKODNJRzNBNGRHcE1jUll4LUxFdmpQNkJrcU1xczRHNXRSU0stdUTSAd4BQVVfeXFMTXNQU0h1V1hQbW40cXFpS09jSGVtbXhPRlBRYzhHYlVqN1NFTXVVU0JwVmw3enFwU3FBV1dVNVZSaE5WekQyRE5FX0Z3cmtaS3JwbmItTWdJWDhZc1VCUzYycHctaVU0cEY4Ykd6bkVXSTgyTDNGUUM5VEtmWnBLa1NLZE1FVWFremoxcWJhZ2Utb1FxODduSzN2ZkNnZ2JVRUdxQnhMN1pCaGhDdVFtY1REYUdlUm0zUUlKdm03Nms1ZFdZZWduVjZWdHJHcmItLXZCUVFsVktlQy1yN1hR?oc=5",
+     "title": "Stock Market Close: Sensex sheds 71 pts; Nifty settles at 24,366; Consumer Durables shares shine",
+     "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOT3hNYmJ1b2plaHBHRGVHaXJ1dlNCS3lFU2FJam9vYnpxQVJmWmE2MWR6UmlJNUxDOExQTE5uUzRuaEdjOTVxcWZmLXQtSC1xZUlUSkVSb1hLRThSRWpZNzF2VzZnSk1sOE9XeG4tZVZLV2xwRFgxaVhUWjFQajRKc1ljakh2NDFrRE9TVFZDZE9qZVU2N2YzQl9QVExDREE3WVF2WXRPWTRZWG5iV1BHOVk2amRiVXZXMFAyZjhDSlR4YXZrUnFXa3J2MV9DNi1zX21PVV93OGtpT0puOVJtVF9mV295cFRSVkJuM3BKejFJVjJqWW14Qk1NMl9CVE5KeTVnWGVmNDZ5bW9Sc3JnRzJpNm1IN3VlRnfSAZ8CQVVfeXFMTndFY3RrMTJVMk9RcGJfQWFxR19wMEtwZ2dlT3NuS0tuZUhWUUpMTXV0UDVfUzZBTzA3d0hJVWs3NnZtbnEzNjlzOW9GUHpsYWRpYUNEd1d0SHRmcG1kajJBOWNwY1gyWlIzRkJWSHRSWi1UTjNFT29YT1FNT1N4SDI1VnNPaWZRbjlxYnM3TnlldlVZOTA5bDg0X0hvY1NaM1BBcWhST2djZUxhWEhCMDI0Wmw2OWxWQURpVkhsTXRMME1SZjMxc2RmZVN5WUxudEVxUTRaYU82TmxnUFB0TVlZZkY5OVpQZGpRdHpiS2RFbkEwTEtHZVZrVXh5LXRsRW81UWtDd1lMWk93bllCY1hUVUJzZ3JsRTEwa1RoMlE?oc=5",
      "src": "Business Standard",
-     "at": "14 Aug, 18:10"
+     "at": "14 Aug, 15:46"
+    },
+    {
+     "title": "Indian bank deposits jump by $115 billion over three fortnights to record high",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYmpzN3l3RHUyTzBOOHU2cXFaVTJMOVhkTExHcWc5UHpSVnFaa2lNWE8ya0FtWmYwX2d0aHFhQWFiWkFRU3VsRUhBaU9zTGpycjNnZzhnV01ody1HMkFkQ0U1N1pZMFlza25UTHprNTdkWE9QUEJXRG9zWk1KWnJSN2lQcjB0ZWpPWTQ0RnRLbDZJUVJ2ZUFEYlhEdzVxVkVEV283aUFOWmF4VVViejNSVFVvQkJVQ2VMczZrQWgwdw?oc=5",
+     "src": "Reuters",
+     "at": "13 Aug, 16:22"
     },
     {
      "title": "India's Reliance to partner with Rolls-Royce on combat engine for fighter jets",
@@ -991,15 +999,9 @@
      "at": "14 Aug, 21:05"
     },
     {
-     "title": "Stock Market Highlights, Sensex Today: Sensex, Nifty Settle Flat Amid Mixed Global Cues",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYmVKQkMyVi13MG1oN2pCUmpZSXRaVktHcWc4dHJvM3ZsVlZzaVZUYzladUNvaGtQMFVBNE0xSHBOZHI2VUZYeHExVWctUU93alphdEZvbVRCeEFHd2hOampZLU4yeV9JVldZZlRhMFhXZEw5NmthVXlmbndNU1RQOWhmNEpVcFFMcEZDZnphZHZKT3JWVy0zZ0xtSzl3MS0xLVZVd1g1UmhHQlVYVzdTdmhlenFnT0xfdkFVMzVfdEo5RnFPMkVrNXVPWlkxZ9IB1gFBVV95cUxQNlJzNmtJemRyN1d2cEZMMklJemhwdDFvbmpIQ2tEMmc1WHc2anBhbTdsY1A5VUZXYkcyQ0NDTnJPa2tPcjNXcklwX2ExM0FHUmZ0VFViRDdaSHJGWGdZcG5zM1JQckFDUm1FX252YmptbGlrT3NSdTBaQXBic3A2VEg0WF80aUxsQ1F0X0FWMUN2NGk3R3JnRWFwY2RjMFV3bU1hRWc4MlROblp1elJwUmVEQ0FkV2tpUTN5Y05Jb1VTbFhwaDBYUUV6d2FPbzdQelpuR1lB?oc=5",
-     "src": "NDTV",
-     "at": "14 Aug, 15:35"
-    },
-    {
      "title": "SAT allows Zee Entertainment's upcoming capital raise but SEBI's market ban to continue",
      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUjFpZV9Yd2VtNXhMLTk4YVJYVXVwVGhYUi1QT3NzUmM4RlIzbm11T3d2WGQ3aE41WGJ1ODdBUGdlR183MnZQSi1MTWszNGpRY19MeEh2WTNadEw3S3k4YllKUU9Gdkx3ZlptVWJGSEcxMnVZOHdVUVVjRDB6ZVV2NFNPX2p3aFRyNHhFQmtLSFlrVFNmeWMzTkRYbHlTdDExLUJiMnI3ejlucnVxYTdSc1lVU0dpQTNoazVxamFGRzJXWVN3QlRkdg?oc=5",
-     "src": "barandbench.com",
+     "src": "Bar and Bench",
      "at": "14 Aug, 12:03"
     },
     {
@@ -1038,16 +1040,16 @@
      "at": "14 Aug, 07:28"
     },
     {
-     "title": "Stock Market Today: Gift Nifty To Trump Tariffs — Five Key Factors That May Drive Sensex, Nifty 50 on August 14",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR2ZJYzBIRHhIckhzTW4ySFpDRldFNkozVm1YMzZnQXlFZGd0clVOR215aS1sbGFZeEU5WjdxSzBaSzRkTU9CS1pEb1UtYVp1bkhTTkFMaVRYVG9odmZPNnh1c3JYOFgxY0JmWlhwd2lULWFPY3NNSzVQZXlaa2tkcDV4cEUtRi02dFlDT1lsVi1TdmxZQ2dKNHBZZzBkTUJqb3pBaFh5a2lBdU8ycy1XS21rNUdYeXlNZXVDTlBrYTJwQkktbDZYRkRwZUg3aEUwak8zc2RUOUxsLVlCdUdCYWdvcnJ6d9IB7gFBVV95cUxNQ0JzVVNUcUxHbzdObVExemhRYW9BbFNqNmtxTC1Ra09hQko3d01JSnhPRlZrb2cza1pkUFlCdE1MWlZQN1hkMXRaQTI0ajV0YkNxUXZXb2JQZTNwQlFWSFNYc0ZmY2YySzlIOF9WMmwyUm5NZmdJa1BnaXNSOExPOXJqaDA2VE1nWjVkeFZXU2dqZmEybFpQdXZaZW9DaVJZWXU3a3Q4clEtcXI3dHREWnp1QzFDdFdQdjRIWEl6aHhSNWFrNW9yYjZVbXA5b2FVMl9GVGZhcWlpR0pZTXpCRnhaT0M5NDkzTE5OWmFR?oc=5",
-     "src": "NDTV Profit",
-     "at": "14 Aug, 06:43"
-    },
-    {
      "title": "Aug 14: Sensex, Nifty End Lower as Early Losses Ease; WPI Inflation Stays Elevated at 9.78%",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSlE2OElMbXlWcVFSd0l4ekdmUkdRT1FJV3p2Y09QUUZLekh1MDdUYVNzTHRwTjlZRkNLaUMtUS1XX2stdUJhODA1Mk9JYVNpVVpZbGwxTTFpSjJpYU15Y1BFWm0wc3ZidloydGJMVmJPSkQwd2VvOGJHQnM5MjR3UjI4SDdfM1c4NTNONFRmZl85MTlBWTZ1dk56ck0weE5lR1Y5TWVpbjFoMVNFZkpBeEt3Um9mZw?oc=5",
      "src": "The Indian Awaaz",
      "at": "14 Aug, 21:57"
+    },
+    {
+     "title": "Stock Market Today: Gift Nifty To Trump Tariffs — Five Key Factors That May Drive Sensex, Nifty 50 on August 14",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR2ZJYzBIRHhIckhzTW4ySFpDRldFNkozVm1YMzZnQXlFZGd0clVOR215aS1sbGFZeEU5WjdxSzBaSzRkTU9CS1pEb1UtYVp1bkhTTkFMaVRYVG9odmZPNnh1c3JYOFgxY0JmWlhwd2lULWFPY3NNSzVQZXlaa2tkcDV4cEUtRi02dFlDT1lsVi1TdmxZQ2dKNHBZZzBkTUJqb3pBaFh5a2lBdU8ycy1XS21rNUdYeXlNZXVDTlBrYTJwQkktbDZYRkRwZUg3aEUwak8zc2RUOUxsLVlCdUdCYWdvcnJ6d9IB7gFBVV95cUxNQ0JzVVNUcUxHbzdObVExemhRYW9BbFNqNmtxTC1Ra09hQko3d01JSnhPRlZrb2cza1pkUFlCdE1MWlZQN1hkMXRaQTI0ajV0YkNxUXZXb2JQZTNwQlFWSFNYc0ZmY2YySzlIOF9WMmwyUm5NZmdJa1BnaXNSOExPOXJqaDA2VE1nWjVkeFZXU2dqZmEybFpQdXZaZW9DaVJZWXU3a3Q4clEtcXI3dHREWnp1QzFDdFdQdjRIWEl6aHhSNWFrNW9yYjZVbXA5b2FVMl9GVGZhcWlpR0pZTXpCRnhaT0M5NDkzTE5OWmFR?oc=5",
+     "src": "NDTV Profit",
+     "at": "14 Aug, 06:43"
     },
     {
      "title": "Sensex Today Ends 71 Points Lower | Nifty below 24,400 | ONGC & Hindalco Among Top Losers",
@@ -1062,15 +1064,9 @@
    "items": [
     {
      "title": "India look for a fresh wave to crash Test shores in Galle",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWxEUElQclA3RnZ0c1MxMUhTOGZDeFpZdzQyUDRVVXVLVTM3SFlGMnhwdlNzTWU1Wm5pQUJ5azduSUR5LWd0WVNhZm8xQUtTemFLa0dVSEcxZWxCZ1pwaGVqQUlhX0dOOG5ZVXo5MVFQSVlwU2xMZG40TkV3VmhBV3hUNDdiQWtoRmlnemRHMmQ1dkpTUTE3S281VktueFZ6VUpPMmtpeVA0cDk2cnYzREFzUU0?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNHo3WTlJR3QzOHhTcUdKby1nMjNJckN3Ulp2SkdkeWFkR2xSUk1Pd3YtQ0NHalpJVmVndnFCMHlNZFVaTGRGc3JJbEJtVkV4TGoxMjZRdTNSSnVnSkdPazFoeUdUVWc2Y3AtZ1JyRzY1cE9pNkNHSW00YjJnY3FXcHdIR3pHNjhsMWJhcUNHWjlLUzlUTHJaclRNcDQwZ3BXZlh6UQ?oc=5",
      "src": "Cricbuzz",
      "at": "14 Aug, 16:25"
-    },
-    {
-     "title": "AUS vs BAN, Darwin Test: Tanzid Hasan Tamim vindicates selection gamble with historic ton",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSXFVQzRHNk1IZE9zbklBYk5fUFpZZFJVUFNmX2dEeUpqcVktTDhNckRKUW5CVk5jU292LWlnY2p6ZnZCSm9kN0k5QUhNbVBVLVd0TVN4SXRzQUdQNl8tYmJtWGV0OExxSVJiSWVwdFlfUkwyODAwUGVHSlV0OWpSQ3dXRjdQRGxveXhzZzFrd2tSR0FNMFczdlN2ZkdzNzZ3clVJVnp4U0FlMUp4MlE?oc=5",
-     "src": "Cricbuzz",
-     "at": "14 Aug, 14:35"
     },
     {
      "title": "India batter ruled out of Asia Cup and Asian Games",
@@ -1081,8 +1077,14 @@
     {
      "title": "BREAKING: Ranji Trophy-capped TNPL player fined Rs 1 lakh by BCCI’s ACSU",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQTlURWl6cllEVUpQTUZyRjRRdTUyb201M2FkSmVxV1JOUkNaRzZlclZ6UEJIWkRfTDEzMEU0OGF1dDVCQlB0eEFmbHZRb0c2NllBczdaa3Vrczg3bkpkT2xXYXNMT1pWYURDeVFnZUFtLWZaX25UODVaeDZsNWUxSXA2c3N1WmUtc2E3YXMtWXhSYmd6Y1Y5RUcwZzNVNUhHQ3RGNkNLX1ZjZGVRek9KUmRiNFA0cGtReFdVbtIBwwFBVV95cUxNY1NMTnBZeGtCRmN3RElZd2g4aDN6WmtyZzNGNjl0M3hzd1BCcmhYT3kzaHdpTG14UzMtZzlCQnhwdlVkbkZsOEdud0lwWUV6MlNnNWZNcGtzejNma19FQVp4a2FKdm85RG1RTHlWSFB1MzlrS1h2eGJ0X1hTb3JYZGVwSFNmTXAwY0dWRXdVOXZoU1JZdnA5TUtLZ0hhMW14OFhhWkZueXVHZlh0TV91M3JFT3VmOUtvNmpkM2JRQTctTnM?oc=5",
-     "src": "indianexpress.com",
+     "src": "The Indian Express",
      "at": "14 Aug, 20:04"
+    },
+    {
+     "title": "AUS vs BAN, Darwin Test: Tanzid Hasan Tamim vindicates selection gamble with historic ton",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSXFVQzRHNk1IZE9zbklBYk5fUFpZZFJVUFNmX2dEeUpqcVktTDhNckRKUW5CVk5jU292LWlnY2p6ZnZCSm9kN0k5QUhNbVBVLVd0TVN4SXRzQUdQNl8tYmJtWGV0OExxSVJiSWVwdFlfUkwyODAwUGVHSlV0OWpSQ3dXRjdQRGxveXhzZzFrd2tSR0FNMFczdlN2ZkdzNzZ3clVJVnp4U0FlMUp4MlE?oc=5",
+     "src": "Cricbuzz",
+     "at": "14 Aug, 14:35"
     },
     {
      "title": "‘This could be my last World Cup’: Manpreet Singh eyes title to end India’s 51-year wait",
@@ -1093,7 +1095,7 @@
     {
      "title": "‘Anything can happen’ - Enzo Maresca talks Rodri’s future amid Barcelona links",
      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUTgtMnN0SHJLYnA0Y0llVEJ0V2hxWVk0OU9JUllvbWZrZlAzVHYtUXJzZ2FWRG00dEJWR19XSmtlSlBKV0k4NVZzQ1FTdG02VlVyakIwUC1ZS3R5WnNxRHRNLWNzZEpEWWRrc2h2R1pHN2pKd2c2LU9SWlNBajgxaWxubk9HOEdvN2c1QjJyYmtqWnVrdURXR3lQTFY1MHdZOWg2UXFselBQQVpEYm5KYmVoYlp1UjRpdmNMY2gxUndFYUt3alBUVFZYckdDbmw4c1J2M3h6X1BGRHQwVUpz?oc=5",
-     "src": "barcablaugranes.com",
+     "src": "Barca Blaugranes",
      "at": "14 Aug, 15:44"
     }
    ]
@@ -1108,34 +1110,34 @@
      "at": "14 Aug, 17:06"
     },
     {
-     "title": "Samsung Officially Launches Galaxy Z Fold8 Ultra, Fold8, Flip8, Watch Ultra2 and Watch9 in Australia",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTmtLQy1LbnZqcm5qclNvN2pOYlAtSE1wRGQ0XzVwYkkwUi1fazdkc3RUNU9MZUp3azlMcXRDNXZteHhLRzM3WElEQVp3ZFVSOTU5ZkdjdkVVOHVsWVdFUVBRTzFSam1FS2FrTEtEU2tDTEJnVThXUVBTeGQzMDd4UkIxRzYyTFNZY1psaWdvY2h6QXhzZmUwWDgwQ295a3JJUk5fOG1HOWIzMVViX2FKdDg0dzRhNTB2TEFuZWxwSTctT016aXFERUp3?oc=5",
-     "src": "TNGlobal",
-     "at": "14 Aug, 13:26"
-    },
-    {
-     "title": "Here's a quick look at Google's new Pixel 11 series, Pixel Watch 5, and Fitbit Air - GSMArena.com news",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZlJxSE55dmVONkoycG14aEsxXzgyLW9nSWYtcUVFVzctTDlWRmlHZnN5WXYweTlQZ3ZBU1gtOVZrWUthSHZnT24zMEJQWWhmZFJtT2pMUDV0cnB4WkZsRlVza3lTbFdOcWV2dDdhVGpWQzZIbnF2RUo4UDdidlNLTUhrbE5vQ3BtQm1pcV9xZ3BHMDNMS1BucktoNV9HUWxqcXphOEV3ZlR1ZlJ5U3JuNENHeXJ1a05IRVHSAbYBQVVfeXFMUDNlWkRQc0pVOG1YR0I3bUVqZjBqakdjTl95REY5NzdWcjVDa1ltQ3ZqOUdqbzFCNDQtOXhvUmFHYXVLWFp4T3B2YzRNYmxRNFBMQzVmYmdvWFlhMkotaXo4eW1INkNGVjBfNG1XSHU4V05NM0JOdndjWUctQ3VBRWFPcU5Md2E1bTNCM0NFcElNUU9fNURoYkJYOEd3YUpidnNoS2JLdzFqanpsVGVpNjdXMzdnaFE?oc=5",
-     "src": "GSMArena.com",
-     "at": "14 Aug, 21:21"
-    },
-    {
      "title": "Google launches Gemini 3.7 Flash with stronger coding and AI agent skills",
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVGNVV1E4WExNcHhkRlVBZjRrWE1EVEVKZGNaem5WcjN2QU1zU05PYmlpeGlsNHF0d0xtNFotZ0pvMXlRcFBRUXJQT1pkVmJLZmpqQmJQMVp6alhoSUwyY1F1cDlmdWNKMzlRMjdLQ0M3cmRha1JPZi1VS25HeVl6Y3lhdms5dHMtblpBZENNMXQ3YUhrOWNlcjN2V2xFU3hZck5veTlRZFpFbE4ySmZBY0M5T05WRzg?oc=5",
      "src": "t2ONLINE",
      "at": "14 Aug, 19:11"
     },
     {
-     "title": "Motorola launches Moto G Max with Snapdragon processor",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWQ2X1NkUkZFbWNoS3k1SXB0TTdGdHVFaVlKejA0cm1uRG1rWENjbWlNeEc0ajd4ZFpmLU1yajRpQmdxSnl6WW1ZeVNnejdnS19IaGtKdXhiMV85Q3BjenhZRXp4RkdKV1VSbk5QZGhwdVVZbWVyRlNDY3VxLUZSR1BNbEl0c0tsdlczaWdEcGlTRnNjbloxbUljdnd5X2tqM0JzZ3lZaXJzVm5DVWd1SGtjaEY5QVRINjdBeWJTRHBFd1N6WnfSAcwBQVVfeXFMT0k5aGtTYWlEUTJ3VGYxR1pWVG9SUUpsdTYwMnpHOGVxd1dGWnhpcWFOMVJmeHp2ekE1QXV3SW9pTDNxV0d0b2VBbE9JU21adVRITnRGNWhNbHl3YkFTcGZCcEQ2WDhTWVhneHZMSEFMbnRFUjJIMzhNcG9CYXpjU21GTFBWaHpQMUM1NTl4Wi1rRHlYeGlfYWdzam1hazFTcW5JR3BIZlZFSzh3ZlNHY3hIRmQtdkxiZ1EwSWdKQ1NkVDdEUS1pNHotTEdQ?oc=5",
-     "src": "The Hindu",
-     "at": "14 Aug, 12:34"
+     "title": "Google's Tensor G6 inside the Pixel 11 series isn't a 2nm chip - GSMArena.com news",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Mek1UVUZ3ZFVPZkhEM0lNbUhOSm5DZEZuNkljQW1RaGk2T1VuTGFFTUlJZUdoVUhYR3AxSERHTDFrR1FKWmFORE1fRldBSXpsYmhfOThjM05US1B6ckUwRWJyOVdpZUlNelNYUFJobGpLWDTSAW9BVV95cUxQWUpTSGFhbDRLQ0h1a1o4dWEteXdZQXktYnZCdkFkX0F4cGVRRHhvZ0IwbXk3TlpqbnA4SkN1RE1zbVNmMzRwbGpHbEhNWTdncGdVdjI2WFpraTRNb2FCamV6cjkxWFlzUUNWdTdsYlE?oc=5",
+     "src": "GSMArena.com",
+     "at": "14 Aug, 14:12"
     },
     {
-     "title": "iPhone 18 Delay to 2027 Just Got Another Supplier Confirmation",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZEhFLTltbjBUWHRmdG9tUDZSUE1fOVZIcnRiNUdOTm1tbFVxVkFvN3M3REhncllPZHNrR2NYM3Ntdm41UHByZGlHOS00SVpjOVM3TWxmMndOOGkzYUp3RW5UbWpSbjk2cE8wT3BraUo4YXl5TVNTOGdmWlIwb3RKanl5OFU2VjBadVFleFZSMENxNXBSUHBjbFVOb3hHWS1lSDBVNlFHTWozT1pM?oc=5",
-     "src": "Android Headlines",
-     "at": "14 Aug, 17:02"
+     "title": "Samsung Officially Launches Galaxy Z Fold8 Ultra, Fold8, Flip8, Watch Ultra2 and Watch9 in Australia",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTmtLQy1LbnZqcm5qclNvN2pOYlAtSE1wRGQ0XzVwYkkwUi1fazdkc3RUNU9MZUp3azlMcXRDNXZteHhLRzM3WElEQVp3ZFVSOTU5ZkdjdkVVOHVsWVdFUVBRTzFSam1FS2FrTEtEU2tDTEJnVThXUVBTeGQzMDd4UkIxRzYyTFNZY1psaWdvY2h6QXhzZmUwWDgwQ295a3JJUk5fOG1HOWIzMVViX2FKdDg0dzRhNTB2TEFuZWxwSTctT016aXFERUp3?oc=5",
+     "src": "TNGlobal",
+     "at": "14 Aug, 13:26"
+    },
+    {
+     "title": "Motorola Launches moto g max, the Most Complete Smartphone Featuring a Luxury Satin Finish With Pantone™ Curated Colours, Segments Leading 50MP Sony LYTIA™ 600 Camera System, Snapdragon® 6s Gen 4 Performance, and Massive 7000mAh Bat",
+     "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQZWI4bERVd1hJQkRnWHRiRzVYYTNiZm5hdDZDUDJ0UnBEbUVFQnNZT3hLWEd6R3E1c2RQb1hYLS1rRER0M19ZVXpzNXU3MWtkb0d2bFJWclFNaXRkb0NtU3ltV2dBa1gyLWM3VlpBRV9hVDJ2b1h2QUk5Q0h1TDRCNHhfbm1rcGhIVWlkYmdXQUpvQl9sMHdLSWoxTWxNalp2a0dfMURDeVFSMjZFN0JiOWtIZTZiYnYxbmlYR0ZzVHVpeTZYV2Jvd0ZrU0dkX2dwc3gwS0tBMWYwbFVlZEctQWdMSmR1QlFiTzhGdk04TUpHUzctVEd1dHM4Z0pqZHBUb29sZTIwWEhhWWxGanFfRFVjUjdJYVBEVGU1RWVjNnBJdlRRSF8yOW56TGtiUmFJTFoyNHZGcHV6Z9IBvwJBVV95cUxPWTZCMWpxY0hUeEFweEJUUVZMa3hxMHVKcUE5eldwTDh6ZE9aTERPbk9vcHgtWVdEbFlwbVhtY1VzZnR1YmhVTzhWalhzbGdPX2pmdEJ2Y3dtQU5xRVhiY1pmR3Z0OU0zS1JwdS0xY2llX2wzeE1penFjSFV3a0llOWFYM0x3amNFQkxZTDZoYTkzdU84QUFmSlhoaUlqU3NhVXUtdE0yX2RxTHhEaHd2N2F1ZHNZUTR5M1NJdjhuVTFhY3dfRFc4Y3pwTmVRTjFxRndlZ2JQSldfcEt5ZFBpZkN3clVoa3QwQ3lQMFhObDdtQUFJVG42bW43bXgyWmpnaFJoSjJjZVpvbXk5RWxKbDFFNjZaU1lyeWlfV0NaalZYdFdBVDZGYk1zbVNoNjlYWDE4Y1pFZ1lkQW9HWHJR?oc=5",
+     "src": "TheWire.in",
+     "at": "14 Aug, 17:07"
+    },
+    {
+     "title": "Lamborghini’s flagship Revuelto levels up with SV trim",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSE0yRkgxLXdRZ2g1UEUzVi1nSGxBQkU2TjJPOGhtRUkyNkNMSml4MlJueUZJd3d6RmtsdmliLWpXNDNyREdMcEFwOFpWNlVSNXp6OVVNZWh5ZHhKbEtFUEs3dk4zMG8wblI1Q2NwUEE0Q3FzTEg4b01XamxrOWpJMHlhUWhhc0laMnczMEp1OWpjUQ?oc=5",
+     "src": "The Verge",
+     "at": "14 Aug, 23:30"
     }
    ]
   },
@@ -1280,7 +1282,7 @@
     {
      "title": "Experienced tech professionals see stronger demand despite layoffs: Toptal report",
      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcnBFdnVRX2dVSThRcEgwaXNRaGZwZjVtTDVEbWZ1VnFmNjZ3dElEMmpmbThzdzBqQkdVUWhjREpER2ZkNDY4MXItT1FpZ2dlS3pvOEdvN1pmb2h0MWxqYjJQZEpsZ3ZFakUtT3R3cnNOV242eFdrRWlnVTF1bWpGZUdSSDR1YWl4RHJkZnRQMk1JWkZUdHd3d2hma2FsMXl6Y2dERG16VmNpSXRtUGdSNlVhUjEtNi1rQU9hVWg3TDVnQmZHRk1vZm9pQ3NHd05nM0NjM0Z0OUpIdXpITlBPbzlpQ25taTVtckpMWnAxeEjSAfcBQVVfeXFMTzlLRS1YR1RGaUlQOE1TcXFHT2JScDZrQkVCXzByYTFqX0RDMzVoaEFBQll5VkhscTBxM2lNVGtmT1hBQWJYMGxocS1oTGxBbkZqbUNDdVNzWGZBNnZEdkdjS210QUw1OGpGOEpTS2tuZlZNTGJRcXNPVGdIY2xSUnFWN0NnM3UtdzN6TVVSWWNkWVpZRUpvTWxNd19GczAwU0VudG5zV2xpVFBPeUt2TUw0UGtNbmJyWmR1eGxzcW9zSV9tU2lncldYb1NPbGFwVURFV1NiUEY1MnU4c1V1WWN4OEVQU0JYVjdydHhHZDJXX2RHeVRHYw?oc=5",
-     "src": "indianexpress.com",
+     "src": "The Indian Express",
      "at": "14 Aug, 14:53"
     },
     {
@@ -1292,7 +1294,7 @@
     {
      "title": "AI may reshape Indian jobs, but physical work could offer some protection, Goldman Sachs says",
      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQVjZ4ZC1vOG1ub1ZNRkZGejNJLWt3TVBsNk5VeTBXNldsam83cG04cTREN1VldEw1dVNaUk0tVUZOYll1ZmVTaUJEazNTTVB2VlhMRDR3c3o0YnltWFBOdE5mTTVJWjlIUjRDaWsxdDQ3akRfNUtVOFpXc3BNWENkbjc4ZWJjVDRRYzBxU0F6QlNOeDhZckNuT2NneHlKa01Dd09VakRWQm5fSkpDQ3l1dUtVdEg1QUpqMEFLeGpLYWxEc1R6ZDdXTGFTV3R6azhLc3NOendJemR3bGIxbDIwMVVKWWg3eTdGeUsyS2ozVF9XRlllVmRzcEFaRVZRRWVVMWVLSGVFU3FpMUnSAZACQVVfeXFMTXZubGJ5X3ZNRUZwU1BabklVay1ONFpMSERubDlsMUJWTlNrMHViNnNqby1qdEltU0tvTjRXU2Qtc196bF9QS2dSQlptTWFTZ3Nsc2xoMGtMcHJvZ3IxdkZoTnc5QmNnSW8zZUI3d21aUFlLSkpCUmZLTTNpdHV2V1ZGY0N4TFZFa0NXSGk4ck55cXpDOURKZkNLa1A1LWtiZlNWR0pSMnlOQ0NWbDl6eU05cmkySllpVjVzV2tvMk10a2VOUTh6bGxnbnlBTHM4bVZWZkFVa2pGd055Q3lkV0poZHVXM1J5dk5iaFNzQXJsVDRNMThlNUV2V0I3T3c2S1ZwY2RxdlJNd0wwTE5sc3E?oc=5",
-     "src": "Business Today",
+     "src": "businesstoday.in",
      "at": "14 Aug, 15:49"
     },
     {
@@ -1320,14 +1322,14 @@
     },
     {
      "title": "SC upholds quashing of criminal charges against CM Naidu in Amaravati land pooling case",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNU1rZ0ZSb0JJZ1UzanRMQVlYY29TeTU1Z2JjczkxVlRMS1V3YzJZY2NJNF9uVnM5blVrLWtpMTJfQUtIY2R5eERHMVVic1NRSlhNZGRzendFdzZraVZzSXVONTRYTmljcFZ3UkJUM01CRzFVYW8zcTM1QjZHNV83SWRoRGIteWF2RVFvQTZub1Z2VVdZLWhDUlBLV2RfMWJtQS1mQUZ6em1VTHVyRXo1azZROU44QW9QV1QycUl4NVVMMVBHRjU0OFJiNk4?oc=5",
-     "src": "thenewsminute.com",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQM1JyUTRPUmVlbzNPUnNRX196eVhFa1hTSGRFOTRUQVlYeGhjY2J6d0x0UGJmZ1FzVUZobjNtNk5fSHpJQ3d1aGxUSUo5bndSQ0NFV2hCX2hlQnhBVEdaU1dhVnVmcl9RRXF1aEx2MHFaVXoxMlNtSDdSTGV4WmpuRG5WRlNBN0tNcll6X2djMm5kblhGbWlobXNfQjRXVzBrZF9EQS1pQ2daeTlxTlJuNXNpeElMN2k0YURVdTlfNTlDUGxKSzhfNTRaSzRuR2kzaURaeE1RRkFBdw?oc=5",
+     "src": "The News Minute",
      "at": "14 Aug, 16:42"
     },
     {
      "title": "19 years after Pardhi activist’s custodial death, SIT formed to re-investigate case",
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPalkwX3QxZkNKZlN3V2J6Ml9vNm5oUWU5OVpqdjF6RFZ6MEhFcXZvdlo0TUwzMEp0MmgtLTk2OXZKc3JKU284ektEYmc3WnhfOFdLQkdFQTY5V2xBaGxOdUpxcUpvdjllM1kzQ0ZJalVTUmN1aDJzdHRLaGlqYXprdUVTdkROOC0teW5KWTlUM0JqNnpOemlRVlJ3X2x3bHpRU2pvVWstaHZUbjRMdGhfQ3RwaWt0U283c2JIalFPMHVNWHotMWh1WWFQUzhiVjNVdVdF0gHaAUFVX3lxTE9SenEwb2NVNU9FdEw5b2dnT0I1Y0NveG1qLWNqZHBDYnBKVFJCMm5CSXhic1RBYmxPcXRpQUd6Z2hKeVZwSXlGaXNkazU2Q3BzTXFzeHVLdTBuZWlZM294SkR3VnpxdkloMFVXWFZpbmF4ZjlZNXR1dEdiMm9LNjIwak1zVkNEM3ZiM2lRR0dtSzF3MTJqV1ZoU1hkeUhnZ2lfVURxRXhHQjI5TEl1S1FSVGZiNlZPbWNVXzRydS1JVzM4TWJZV2lCY3BkV0hHbDhQUGJkSjdKMURB?oc=5",
-     "src": "indianexpress.com",
+     "src": "The Indian Express",
      "at": "14 Aug, 14:08"
     },
     {
@@ -1354,12 +1356,6 @@
      "at": "14 Aug, 08:19"
     },
     {
-     "title": "Prichard Colon dies from boxing injury that resulted in 221-day coma",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTU1SZUxUaXpzSjZYTURlXzVKYUNDWWUwQlcwS3IteHBmNTJGcUZhWXFMUEVnNURqMjFEQk9ZZ0haaGFMMXFvejFBOWtOSS0xZnU1Z2lmeVBuS3kyTGxjRXVvVXZQWXVpbDdHSHROZ2F4bHgyajY3TVNySjZPZDFReDJGejYtUmZ6dkFQWm9GM096ZFdCWE9GVDQxZGkwQnlJSkk0WS00Yy1NZ0FlNWFQZWZGYmU2WEHSAbwBQVVfeXFMUEl6RE5uYmxrdkZxNFRON3ZFanVVeW5RdkdWUy1zdGxYNl9zckZyZjJSMEZDNnA1cE5aYzRYWDlzV0tmY2hDczRJa2g3bmNZdlMzTWdTT1JXSVowUEVIX0tZVVA3OE9LMjUwV2d6QWFvTVE1TTM3LThIeHhyaXdSMzdHb3pIRDRIZ0JOTUtRXzJHOEJDS05IeDRJQS1ZdnpVaERaMHpQaEVMN2ZpZ3ZDbzAzejdqODNZVFVMTUo?oc=5",
-     "src": "Al Jazeera",
-     "at": "14 Aug, 12:46"
-    },
-    {
      "title": "India in U.S. crosshairs again — White House report cites countries ‘enabling’ China’s tariff evasions",
      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPazlGY3lVWkVnTFk0VFZvYnJzbDZOR1dTc0xYc0RIal9Cd19XY3hSVWtEM3FkWHdNZ05zNlczRnBmeUNtdEZOVGw4Y04wa3RMb0UwYjBXXzJZblN3dlZhZ1JLQkpYam1kQURNVTI2OWljT1llbUhLT1VqMzBKUkRPZ3kzQ2Q4aWxoQkx0Zkx4UFdFS3dRaFNKYnNtb2NLdGh4ZlcwYWhOeWhsSzRrUVhCdklFcTlXelotMk9KSFp2VFFkcWNyTzQ3dzdwZ0N1WnlBSGxnMUx5b2hZUDk4cnhfc3VoNmVtSlZY0gHvAUFVX3lxTE9kYkRGWTNUSU92ZTF6REpZMW5hdk45Um5CakpXbzBYcVZRMUh3T2hJaGducGl0em1vYVhzY2pOQnRrdnB2UnYtWG0tWW05NFIxZUN4YkdpX1p2WngwVnctZGZHc1VBc0xiRFBGTUdrUlJVQm9kTEN0c3FsNjdTaHp2RG8xc2RVWTVPOXA3cHplWUlzMkxVXzZ2NW9fLVRwZ3VQbS1sRTJBTEtlRGc5TEk3S3NCVW9kQUt6Z0hwSDZ6T1hUV2ZNNnZYczZjMVlYOW1DUm5idlhtVFVnMHBGYWFKX05BTC1xaHBFSjBybmNN?oc=5",
      "src": "The Hindu",
@@ -1372,16 +1368,22 @@
      "at": "14 Aug, 21:39"
     },
     {
-     "title": "Reform UK's Nigel Farage to avoid election count against Count Binface",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcXhaR1BaTkNVbC1FZDJuVlp6MDhWSE81U0NHYlB2SElhdUNYTU1oaXhaZ3hOMkdrNWo4VTFSMjlMWWZjMFJqc19KdzAxdXdWTnk2cDVha1VOYWxmRFRGZXFhQlRiMWJVb3FWVG5TMUt5N1JVdEptaldHZ3JZeFNLbU9UM2tXdUZMZi1wU1VyMXItRHI0NjNUODk5V0JNYWRLOVhpdUE0a1BkS1c0M3c4NzlwUHZvRmlkOVJ5dzNlMA?oc=5",
-     "src": "Reuters",
-     "at": "14 Aug, 09:18"
+     "title": "Trump And Musk Have Now Turned Their Bitter Feud Into A $100 Million Alliance",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeVNnTjlFZnAtTS0tMFppTHY2UFcwMUdSWlJyTWxMRlktMFlwUXdXQkVlRkJqSm1fWUowcDQ5Q1NkWTlzVGNidmI4aTNNUHBmOC1YTzNBQU1TT2JyWWhRQXdCei1ZM1RhV3BHaUlWU0MyUUhZaXVySHR4UGRNLWlLRm53QnluQktlV2lLNGJtZUZPZUtpMnczT041LS1VRGM3WXVQcTJjeEN1dDJPcHU4OEdFVmlCUkFqM1pSYkpfcHE0aTRUMVlaSNIB0AFBVV95cUxQVjdlUXJSQ2FOR2FzYUw1enBCenJoRUZ3ekk3S0tFMzZ0ejhjLU1FSF9qWUlaTk5yaV9xTlF2UjFsaXpqMk00UFBsWXN1NTlaNW5GUzFKekJhaWRoVHR2dHNkWEEtdUtBMjB6dk9UQlNoSFUzVVBuTmMxa2V5ZHVvYTJfSXc4eVpTREpjZHhFbVZWRDRJV0toNWVUcHF3cmFUT21KbDZ3dnFOYWZEQ2dPd1BmZGk3VURiVUJOTi1fWmluRHMzMThONndZZlh0OEhR?oc=5",
+     "src": "NDTV",
+     "at": "14 Aug, 19:37"
     },
     {
      "title": "Sniper, knife, missile threats: Israel warned US of alleged Iran plot to assassinate Donald Trump",
      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcktJSHBaUDl5YnBjX0Y0c3ZMM3RvR0VjZHFoYkViTW9GdXN5UXRoaGpKY2JuWVpkMmhzbFFWYjg3RkdMVGlFU3EwWmp2ZkdVZ3d6TVF2ejdaWnMwaEhoY1QxZURDdktQQy14N2JJVVh5VEN0NnpaMFNXa09Ta0dqYkFhMkpWb3hiejcwaG51RnhmVU05UVdqWTFDd2pSdUxnNWVDX1FLWjBjX21QMXNLcGlBeGVrUndIbVBNd0ZjcXI4WG02RGM4TktCa3oxYlBva2hHWVRob05OdC10c2JULURYZU5sSWxTbVJURy1RRWZFa196Y2Jlcw?oc=5",
      "src": "The Times of India",
      "at": "14 Aug, 08:38"
+    },
+    {
+     "title": "The Lindsay Clancy Trial: A Timeline Of Everything That Has Happened So Far",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNzNCclNhM2l3ZWw0WmJwRWxPSHdTQVN2Q3ZaVHg3M3hqbnB5RGtSNUZvQXFZOTB1cGo1X0w0dHNBSE9xcTJhR0VEaDRVTFJuS0pfMjJwR3dnbzJiRjBuWl94RW9NZkwta1dkck0yVmx3czk4Y0ZCSFdVWEN2YVZZWHZySHY?oc=5",
+     "src": "marieclaire.com.au",
+     "at": "13 Aug, 07:28"
     }
    ]
   },
@@ -1389,213 +1391,214 @@
    "tag": "For You",
    "items": [
     {
-     "title": "AI Could Reshape Indian Jobs: Is Bitcoin a Hedge Against India’s Next Employment Shock?",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdjkzQmE0blhTQ2I0YzRfWk1FZ21HZ1JQSnVLMWF6V1JCOGUtNjc5VHJ4c2wyWXB5bWNIbnBVQkUyOFF3ZnNNNG1EY2d4ZDF6bzZWdEw0TEp0Q2ZVbnc3aHBzUjRHb2ptNS02NGZVT1Bmd0ZNWDJSWkc0R3NrSUpfbDRIUFFvdVotd3Qza0l4LVN1elpzMmZWYV9pX2tiZjBEaXZSZ1dSNDI2WmJtNksxeXhvUWFMbEt1VkNRXy00Yw?oc=5",
-     "src": "CryptoRank",
-     "at": "14 Aug, 19:59"
+     "title": "Commodity costs remain Q2 watchpoint for auto OEMs despite strong Q1",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlJqMVNPTFlFVFFSVXFtM1QzcUxkdXRjOUxsaEJnNktjUWx1Zi1RMVdrNXhEdG02NzhoVEtnZXpvQ3daUWVIUnk5S0tVblI3X1J3V0FRb1NzQUtrNnpHVWt2YjNOcXprczZXV1JaY0k0LVJReWUyanAtbVlXc2J1elB2V2xPd0pURUc1cUZQM00zTUlLbXZFbWF4RVhfSjhLY01MTGxGWHJBNmNfMndQSE5lTUotcUV3dC1uS3J2YlF0ZkhQcXQ1aWJsamozNDdya24tTtIB1AFBVV95cUxOZlJqMVNPTFlFVFFSVXFtM1QzcUxkdXRjOUxsaEJnNktjUWx1Zi1RMVdrNXhEdG02NzhoVEtnZXpvQ3daUWVIUnk5S0tVblI3X1J3V0FRb1NzQUtrNnpHVWt2YjNOcXprczZXV1JaY0k0LVJReWUyanAtbVlXc2J1elB2V2xPd0pURUc1cUZQM00zTUlLbXZFbWF4RVhfSjhLY01MTGxGWHJBNmNfMndQSE5lTUotcUV3dC1uS3J2YlF0ZkhQcXQ1aWJsamozNDdya24tTg?oc=5",
+     "src": "ET Auto",
+     "at": "14 Aug, 15:16"
     },
     {
-     "title": "'LinkedIn Time Travel': 20% Users Retroactively Edit Past Jobs—And AI Is A Top Addition",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbzdDYkpKRlQ0Nl9PWTFDNWpjanlqY0drZ2RBdF9rcldyUnF5dkNqcDlqZGVGbGU0SDdPRzhKQzRlV1V0aWU2RFloTkNaNjAyekp5WjlkYmo0WU1iMGJOUlUzSXJlSmFOVWx4MHdsdlRwUDVBakJmSF9QaWE1M2dyWjNvMmNobDZLWGNSR2FaVWhVSUlDdi00WHE3Ti1WZkthSVFsQzlhdUZSeGJIMWVaMFJoY3h0WVoyYnN2WGJ4ZC00bHN3a0NHM3hR0gHSAUFVX3lxTFBETjdPeWtBLS1jaTVXSTFsR09ZUmE3ODMzZnZUVkFIYnB0bWkyVl96bjdJYzN0Q0FXNkhNNUJnUElhaTViZFM5Q3ZucnZqNUhMVVhLVFZoaGNrQWpONWJfWWJ1VHVlYmo0SXlFNnFFMXd6WlpYbkc5T1RFcF8teUxMblIzNXFuMlVOMExyYXZsdFdkV3M0N05uUTBVLTBUODdvckF3Q3M5YTJqVmZ1U2NneTRNM2tuVWcwUjVkbEh1NWE5bTA2WGJpZUc0bFlrSjNBZw?oc=5",
-     "src": "NDTV Profit",
-     "at": "14 Aug, 21:33"
+     "title": "India’s battery mismatch: materials boom, cell lag - why it matters",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM3RwMjNhR2Z6WWZvcC1TX1p5ajJOak5GM3Y4RWtBSjN2ZHRmSWtkU24zVkcwczNGQXFrSy11dXZOMmxRakkwT3VHVWt6dHlGdzhlYVI2aVROeWZyNUh0bXVNTHA3M3dDQjZaZGNrUXFJbkdPZzVuY0cxMnk5ZHJ1ODloNjIxdGJsZy1GSmNaRWczdFJKYkpOdzlTY3FEOWNHeUtyQVJ1d093b0xDS3A3TUh0ejdGU2N6bjZndWExSXU2MDBQUmFOc1ZB?oc=5",
+     "src": "Automotive Manufacturing Solutions",
+     "at": "14 Aug, 21:09"
     },
     {
-     "title": "Smaller cities outpace tier-1 in job creation: Report",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT24zMTFPZnhPaXRiSEVnVk8wSE1qOThJQllaR0pwTDlJcFZzVExMUWVhZkdtdWFraU05N182QWRLZlVtLXVobFJZZWx2Q1VxUG5sRmZERTVuVzFHYkxIbENVMzlSOUxJczNaS0gxQ0RqWVRIOVBfbk5Qd2FkQWJJSTZJby1RTjVIWDFfZXNzT1dWRDIxajBPRWxEelJnM3pEUzZETGhRVDk4bUgtOU4xeVByT1pBeGNpcGhQbzBnQnVvbnJhYjNF0gHAAUFVX3lxTE90RkdTTkNWX1k5T2ZSc2VPOW94MVNBZ1l1SE56VGlWbkg0ZFpjS0ZwelB3NUo3OGszTkJWMm5VLXVkbFNJcFIzTzVaWUFoLU1NTWluLTFOSkdHdDhVeEpsOGsxYVJDN3hyWUV6M2hEUTlvekwxQll5UEdhcjJ6MDBGTUxtVl9QRzhmX3pFN3hEOEhBVmc2Zkp0MUhFQlFydWdVT3AzSEswanEwOERQcDVTbzhZU3ZJSHN5eGtjLXl5WQ?oc=5",
-     "src": "The Economic Times",
-     "at": "14 Aug, 14:39"
+     "title": "India's passenger vehicle market registrations up 15.4% in July 2026, as SUVs dominate",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcFNuRjktN2psUDYza25qMWh6NTRDM3loNXg4TlNrM0Nsc0JtX3pCQmRjOGl0SUVwbHNlckljNDRZV3hSM09HbVVmc3h3T0VEem9senhTMXlLd3RVenRIam9jRTBSOTEyMm9LSF9VUUpZWTFfMk1odjhnQUlOc1psdmxyTDIyRGFSRWxLTWFYVkozTTBQdm5tOWF5UWN1cTQtbjhj0gGzAUFVX3lxTE03TFNZVDZkUElzYlEyZWdEbk5jVnNmNllvektlYjdUYzNjelA0QVdRaTAyTDg3cm9rM29wLUc4Rks5NnJnM1hqenlYY19UYllDSlRMY1I5SU9ZcEpueFNnQkxzbmFRaHBjSHlXNWdpX2JmMHFyRXhQY0Z1WGlVb292TTRHX3lqakUzbVNUU0hmUC1tOHFYRlUyUXJVOVBZN1BwY3RmQjV4NnlyMV9BVVJLcjdn?oc=5",
+     "src": "JATO",
+     "at": "14 Aug, 00:42"
     },
     {
-     "title": "Laid off techie applies for 700 jobs, fails to land new role",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSHk4Q0Nza005OGswakZ5VTRMaldMaHNBTmJnYzE1WXNfVUpCQ1lkcDBfRl9aWmNWaWFZTzctS1VuWmdmM0E2bmJLdTd6THZqdDV5OEQ2dEwxU3dGMWxwNnQwRkNFZnI2cVp5ZlRMNDVpNzNpTlRHeVFjNWgweFZ2bFZIenBJNWZta2o0NTgzQzBfUVp0M1ZKMXRod2RhTVhqTDBxTTFoVlVNQmJ2XzdZdE04VXZWZWZtRVhSYdIBwgFBVV95cUxNSHdsTkhlRmg4ZFJSNmZwbDhjYUhmRGZQckxhOENVbTNlaGwxeUlBMHBpUTFIX1BRcFAyNTFncGxycXcyUlM5SVo0ZG1uYVFxM0hWVXM1cFExVUMyUU5laTM0U3Bxa0MyT0RxUUNzcmhTaThocjd2RUtfTlNTWUZRUThJUmVuZ19Wcm9xN1RuMFRLcHFKVTN0S1Bwd1pWLVhMX0VoRnBMVkNKby1xeVU4LURKX1pCdHFqNXB6NU5zZmE0Zw?oc=5",
-     "src": "India Today",
-     "at": "14 Aug, 11:24"
+     "title": "China carmakers turn to exports as domestic sales slump deepens",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNXhoREVmcUFyZ3FTdnY2dUtkaWE3SklDM0ZJYjQxT2xtRWpQWHlFVTQ4LWxlZnZXRjNfLVZCeFlMSnBCWGVqQXpkX1ZXZWRBY0hKcEk2eUJYbkRhZEhYWTNmdGd5NEF4bVEzckFtdjVVYzh6b19aeUxEbnhwbzlEclhDSE50QUhXRWRoMGNZZi1uY1dGdjVIU2ZiamRYX1dvWUI3OXk3LXFFUlRsU0l0YkxJZmVWeWdCcDlCdzFIMmhHTHdYN1NCQkJzRGZQQdIBzgFBVV95cUxNNXhoREVmcUFyZ3FTdnY2dUtkaWE3SklDM0ZJYjQxT2xtRWpQWHlFVTQ4LWxlZnZXRjNfLVZCeFlMSnBCWGVqQXpkX1ZXZWRBY0hKcEk2eUJYbkRhZEhYWTNmdGd5NEF4bVEzckFtdjVVYzh6b19aeUxEbnhwbzlEclhDSE50QUhXRWRoMGNZZi1uY1dGdjVIU2ZiamRYX1dvWUI3OXk3LXFFUlRsU0l0YkxJZmVWeWdCcDlCdzFIMmhHTHdYN1NCQkJzRGZQQQ?oc=5",
+     "src": "ET Auto",
+     "at": "14 Aug, 18:33"
     },
     {
-     "title": "Bharat@79 Report by apna India’s Employment Map Is Moving Beyond Traditional Hubs",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcjRnWU9IbjRMa0ZZR1RVMEdpYmdpV3E1ZVRKbzM2dHI2cVpuTDctSXp4TGo4Zmd3ZThmeEE2cmFSdjlULTBQcjk1TUQza3dmZDlWOTJKUHhNNUFiUG5BbjNMV1BWNTJ4dklWMks0N2JXbFpXTGFDUUVGbWxHUnVYbC1VWHhLQU55WFJLc3p5b1l1N0dMVzhTbkptcmNqWDhfdnd4RlFNS1ZuVF85RXlJV1ZxUXFCQllhd3E4MtIBvAFBVV95cUxPcjRnWU9IbjRMa0ZZR1RVMEdpYmdpV3E1ZVRKbzM2dHI2cVpuTDctSXp4TGo4Zmd3ZThmeEE2cmFSdjlULTBQcjk1TUQza3dmZDlWOTJKUHhNNUFiUG5BbjNMV1BWNTJ4dklWMks0N2JXbFpXTGFDUUVGbWxHUnVYbC1VWHhLQU55WFJLc3p5b1l1N0dMVzhTbkptcmNqWDhfdnd4RlFNS1ZuVF85RXlJV1ZxUXFCQllhd3E4Mg?oc=5",
-     "src": "SMEStreet",
-     "at": "14 Aug, 12:58"
+     "title": "How Speed and Local Production Could Rebuild Audi India",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTJZbGZWX3RWdzZmQmhodkNscmpQaF9zdk05RE1ZYWZMY2x1aE5hYllXTk50SXd1c21SNjlkeGloWGppZVFmT040MU1Lb1plNEZaVS1YQ0lnbnhRR0x6NjI2S2pxMUwtQVctYkdUT05wby1QYWVyYTlrVERXdE5KZDVSaWlLT0hPSl95TWRUczFjWG1pNTVzZFhHZGnSAaQBQVVfeXFMT2Z3bjRrcTBpaDM4NWNXYkwzajAwT0oyZnRXUDBVNWNDN25aVnNkWmJTdUhSaHVNdmdZcWw1WENtUWdyN1BUNk5YV1lPd2J1NHZ6U1ZOS0RBSzAzY3VOYXF4aFAxcTZYcklDZWo2dUpoUVBrV3hmbl9lRUNBNlRSU1dKUVpRTnZBV3ZLb2lSTEJ1NlZyQVM5N0tTTG53bWszZGx2WVU?oc=5",
+     "src": "Autocar Professional",
+     "at": "14 Aug, 11:40"
     },
     {
-     "title": "India at 80: A young nation faces an ageing South and a job-hungry North",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMjA5a21jQnZ6cGxRU3hEcWIxVFJvTl94bHBpYlNCTExvRElLQU5MMkpiWE93Ymlxd3RoUEZpRUtZck9qSWVPUC16aXFfb1czRzh3TGFkY2pfbXl4ektRQnBmejZDMHBtZlZ5U01BaDlqbTdDMjByQmU4LWRITURfeWZlOE9VOWU0enhLTDdSZGtCX3UwMWdCbEVLcmFZOTl4Q2lsYzVMMHAwb2tNS0tUZnNQcTR4SjNQ0gG-AUFVX3lxTE9fRmtETWNtaGFmY2tpcFF6LVNGd2xjSkRvTGpHQ3o2QjN2SldnYjFaNzdySE1uUGFXZ21XM0t2R1dQYVpjUHF5a0FuczljV2xOUm5WdTJkbXhiRGJNQmFxMC1xZFBZZ2RMWHRfSmR4VFhGbEh6emRvUjR6U2hNb0Fsa1hsYlZmTm9mQk1XMVlISVNjTlRvcG1GaEJrSGNQUXlBeEZNRGxzU3BjbHFMRV9fMk40ci1icUZ2bHVLcEE?oc=5",
-     "src": "Firstpost",
-     "at": "14 Aug, 15:49"
+     "title": "How VW's crisis could reshape the global car industry",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdzRlazBhVXd4RnFmSXZtNmtseXFRUFEwLVNFTXZMUUM1bm1ucklWejg0N20wcFd2VTFodm9faUl4WDk0bWVLc1pHUTBGSEtBdmFsanlFYkk2cUhOU0VwWGstSkJXc283ZzJFYlN4TE5zWG93SlRDUWZNU0JYY3Y1eUdfd1cwTGVJOUJoTkEwNFhTMGM?oc=5",
+     "src": "dw.com",
+     "at": "14 Aug, 09:54"
     }
    ]
   }
  ],
  "gk": [
   {
-   "t": "Honey never spoils",
-   "teaser": "Archaeologists have found edible honey thousands of years old.",
-   "more": "Honey's very low moisture and high acidity make it hostile to bacteria, and bees add an enzyme that releases tiny amounts of hydrogen peroxide. Sealed properly, it can last practically forever. Pots of honey recovered from ancient Egyptian tombs were reportedly still preserved after millennia."
+   "t": "Bluetooth is named after a Viking king",
+   "teaser": "And its logo secretly spells his initials.",
+   "more": "Bluetooth is named after Harald 'Bluetooth' Gormsson, a 10th-century Danish king who united warring tribes — just as the technology unites different devices. Its logo combines the Younger Futhark runes for his initials, H and B. The king's nickname supposedly came from a dead, bluish-grey tooth."
   },
   {
-   "t": "Bananas are slightly radioactive",
-   "teaser": "Thank the potassium — but you'd need millions to worry.",
-   "more": "Bananas are rich in potassium, a small fraction of which is the naturally radioactive isotope potassium-40. The dose is so tiny that scientists half-jokingly measure trivial radiation exposure in 'banana equivalent doses.' You would have to eat millions in one sitting for it to be dangerous — and your own body already contains radioactive potassium."
+   "t": "Five countries can veto any UN Security Council decision",
+   "teaser": "A single 'no' can block the world.",
+   "more": "The UN Security Council has five permanent members — the US, UK, France, Russia and China — each able to veto any substantive resolution. This structure, fixed after World War II, means one great power can halt collective action. India, Japan, Germany and Brazil have long campaigned for permanent seats, so far without success."
   },
   {
-   "t": "A day on Venus is longer than its year",
-   "teaser": "It spins slower than it orbits the Sun.",
-   "more": "Venus rotates so slowly that a single spin takes about 243 Earth days, while it completes one orbit of the Sun in about 225 Earth days. That means its day is longer than its year. Stranger still, Venus spins backwards compared with most planets, so there the Sun would rise in the west."
+   "t": "Asia's oldest stock exchange is in Mumbai",
+   "teaser": "It began under a banyan tree in the 1850s.",
+   "more": "The Bombay Stock Exchange traces its roots to brokers who gathered under a banyan tree in the 1850s and formally organised in 1875, making it Asia's oldest stock exchange. Alongside the National Stock Exchange, it anchors one of the world's largest equity markets by number of listed companies. Its benchmark, the Sensex, is India's most-watched market barometer."
   },
   {
-   "t": "A teaspoon of a neutron star would weigh billions of tonnes",
-   "teaser": "The densest matter known to science.",
-   "more": "When a massive star collapses, its core can be crushed into a neutron star — an object the size of a city but heavier than the Sun. Matter is packed so tightly that a sugar-cube-sized piece would weigh billions of tonnes on Earth. A single teaspoon would outweigh Mount Everest many times over."
+   "t": "The Tropic of Cancer cuts through eight Indian states",
+   "teaser": "It roughly divides India into north and south.",
+   "more": "The Tropic of Cancer, at about 23.5 degrees north, passes through eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. It marks the northernmost latitude where the Sun can appear directly overhead. Places on this line see the Sun at its zenith around the June solstice."
   },
   {
-   "t": "An octopus has three hearts and blue blood",
-   "teaser": "Two hearts feed the gills, one feeds the body.",
-   "more": "Two of an octopus's hearts pump blood through the gills, while the third circulates it to the rest of the body. Its blood is blue because it uses copper-based hemocyanin, rather than iron-based hemoglobin, to carry oxygen — which works better in cold, low-oxygen water. The main heart even stops beating when the octopus swims, which is why they often prefer to crawl."
+   "t": "India wrote a manual on statecraft 2,300 years ago",
+   "teaser": "Chanakya's Arthashastra predates Machiavelli by millennia.",
+   "more": "Around the 4th century BCE, the strategist Chanakya (Kautilya) helped Chandragupta Maurya build the vast Mauryan Empire and wrote the Arthashastra, a detailed treatise on economics, diplomacy, taxation and espionage. It is startlingly frank about the uses of power, predating Machiavelli's The Prince by roughly 1,800 years. Lost for centuries, the text was rediscovered in 1905."
   },
   {
-   "t": "The world's first stock exchange opened in Amsterdam",
-   "teaser": "The Dutch East India Company sold the first public shares.",
-   "more": "In 1602 the Dutch East India Company (VOC) became the first firm to issue tradable shares to the public, and the Amsterdam exchange grew up around trading them. It pioneered ideas we still use daily — shares, dividends and speculation. It also witnessed some of the earliest recorded short selling and market bubbles."
+   "t": "The Great Wall of China isn't visible from space",
+   "teaser": "The naked-eye claim is a stubborn myth.",
+   "more": "Contrary to popular belief, the Great Wall cannot be seen from space with the unaided eye — it is very long but only a few metres wide, blending into the surrounding terrain. Astronauts have confirmed they cannot pick it out from orbit without help. City lights and airport runways are far easier to spot from the International Space Station."
   },
   {
-   "t": "History's worst inflation doubled prices every 15 hours",
-   "teaser": "Hungary, 1946 — money became wallpaper.",
-   "more": "In mid-1946 Hungary's pengő suffered the most extreme hyperinflation ever recorded, with prices roughly doubling every 15 hours. The state issued a banknote worth 100 quintillion pengő, the highest denomination ever put into circulation. The currency was scrapped and replaced by the forint, which Hungary still uses today."
+   "t": "The Sahara is nearly the size of the United States",
+   "teaser": "The world's largest hot desert.",
+   "more": "The Sahara covers about 9 million square kilometres, roughly the area of the United States or China. Yet it is not the biggest desert overall — Antarctica, a frozen desert, is larger. The Sahara was green with lakes and grassland just a few thousand years ago, and will likely turn green again as Earth's orbit slowly shifts."
   },
   {
-   "t": "Russia spans 11 time zones",
-   "teaser": "When its west wakes, its far east is already asleep.",
-   "more": "Russia is so wide that it covers 11 time zones — more than any other single continuous stretch of land. When it is morning in Kaliningrad in the west, it is already evening in Kamchatka on the Pacific coast. France, counting its scattered overseas territories, technically touches even more zones, but Russia's are all contiguous."
+   "t": "Sunlight takes about eight minutes to reach Earth",
+   "teaser": "You always see the Sun as it was, never as it is.",
+   "more": "Light travels at about 300,000 kilometres per second, but the Sun is so distant that its light takes roughly 8 minutes and 20 seconds to arrive. If the Sun vanished, we would keep seeing and feeling it for those eight minutes. Light from the next-nearest star takes over four years to reach us."
   },
   {
-   "t": "The Dead Sea is Earth's lowest exposed land",
-   "teaser": "Its shore sits over 400 metres below sea level.",
-   "more": "The surface of the Dead Sea lies more than 430 metres below sea level, the lowest dry land on the planet, and it keeps dropping roughly a metre a year. It is nearly ten times saltier than the ocean — so dense that swimmers float effortlessly. Almost nothing lives in it, which is how it earned its name."
+   "t": "You are literally made of stardust",
+   "teaser": "The atoms in your body were forged inside stars.",
+   "more": "Almost every element heavier than hydrogen — the carbon in your cells, the oxygen you breathe, the iron in your blood — was created inside stars and flung out when they died. Those atoms drifted through space, gathered to form our Sun and planets, and eventually became you. As astronomer Carl Sagan put it, we are 'star stuff.'"
   },
   {
-   "t": "Mount Everest is still growing",
-   "teaser": "The Indian plate keeps pushing it higher.",
-   "more": "The Himalayas rose when the Indian tectonic plate collided with Asia, and that collision is still underway. Everest gains a few millimetres each year as the plates keep pressing together. Earthquakes can nudge its height up or down, one reason it has been remeasured over time — now officially about 8,849 metres."
+   "t": "Tiny 'water bears' can survive the vacuum of space",
+   "teaser": "Nearly indestructible microscopic animals.",
+   "more": "Tardigrades, or water bears, are half-millimetre creatures that can endure being boiled, frozen near absolute zero, dried out for years, and even exposed to the vacuum and radiation of open space. They manage it by curling into a shrivelled, near-dead state called cryptobiosis. Scientists have revived specimens after decades in deep freeze."
   }
  ],
  "gkMore": [
   {
-   "t": "India's Constitution is the world's longest",
-   "teaser": "Adopted 26 Nov 1949, in force 26 Jan 1950.",
-   "more": "B.R. Ambedkar chaired the drafting committee. It borrowed deliberately: parliamentary system from Britain, fundamental rights from the US, directive principles from Ireland, emergency provisions from Germany. Jan 26 was chosen because Congress declared 'Purna Swaraj' on that date in 1930."
+   "t": "ARPANET: the internet's grandfather",
+   "teaser": "The first message in 1969 was meant to be 'LOGIN' — it crashed at 'LO'.",
+   "more": "A US defence research network connecting four universities grew into the internet after TCP/IP became its common language in 1983. The web (websites, URLs, browsers) came later — invented by Tim Berners-Lee at CERN in 1989 as a layer on top of the internet."
   },
   {
-   "t": "The RBI was born in 1935",
-   "teaser": "India's central bank predates independence by 12 years.",
-   "more": "Set up under the RBI Act 1934 based on the Hilton Young Commission, it was privately owned until nationalisation in 1949. It issues currency, sets the repo rate, regulates banks, and manages the rupee — its first governor was Osborne Smith; C.D. Deshmukh was the first Indian governor."
+   "t": "Moore's Law",
+   "teaser": "Chip transistor counts doubled roughly every two years for 50 years.",
+   "more": "Intel co-founder Gordon Moore's 1965 observation became the tech industry's metronome — it's why phones outpower old supercomputers. Physical limits have slowed it, which is partly why the industry pivoted to specialised chips (GPUs, AI accelerators) instead of just faster general processors."
   },
   {
-   "t": "1991: the year India's economy changed",
-   "teaser": "A balance-of-payments crisis forced liberalisation.",
-   "more": "With forex reserves down to weeks of imports, PM Narasimha Rao and FM Manmohan Singh dismantled the licence raj, devalued the rupee, cut tariffs and opened doors to foreign investment. Nearly every big private-sector story since — IT, telecom, startups — traces to this pivot."
+   "t": "Why Silicon Valley is 'silicon'",
+   "teaser": "The chip element, not the software.",
+   "more": "The Santa Clara Valley earned the name in the 1970s from silicon semiconductor makers like Fairchild and Intel. Software, internet and AI giants came in later waves. Bengaluru earned the 'India's Silicon Valley' tag through the 1990s IT services boom — Infosys and Wipro, not chips."
   },
   {
-   "t": "Why the monsoon happens",
-   "teaser": "Land heats faster than sea — wind follows.",
-   "more": "By June the subcontinent's landmass is much hotter than the Indian Ocean, creating a low-pressure zone that pulls moisture-laden winds northeast. They break on the Western Ghats and Himalayas as rain. About 70% of India's annual rainfall arrives in these four months, which is why a 'bad monsoon' moves inflation, farm incomes and even elections."
+   "t": "How vaccines work",
+   "teaser": "A harmless preview teaches your immune system the enemy's face.",
+   "more": "Vaccines present a dead, weakened, or fragment version of a pathogen (or, in mRNA vaccines, instructions to build one protein of it), so your body develops antibodies without the disease. Smallpox — which killed ~300 million people in the 20th century alone — became the first disease ever eradicated, in 1980."
   },
   {
-   "t": "Ashoka: the emperor who renounced war",
-   "teaser": "His wheel sits at the centre of the tricolour.",
-   "more": "After the bloody Kalinga war (~261 BCE), Mauryan emperor Ashoka embraced Buddhism and spread edicts on rock pillars across the subcontinent. The Ashoka Chakra on India's flag and the Lion Capital national emblem both come from his pillars at Sarnath."
+   "t": "Plate tectonics built the Himalayas",
+   "teaser": "India is still crashing into Asia at ~5 cm a year.",
+   "more": "Around 50 million years ago the Indian plate slammed into the Eurasian plate; the crumple zone is the Himalayas, still rising a few millimetres yearly. The same collision makes the region earthquake-prone — the reason Delhi sits in seismic zone IV."
   },
   {
-   "t": "The two World Wars, datelined",
-   "teaser": "1914–18 and 1939–45 — the second killed ~70–85 million.",
-   "more": "WWI started with an assassination in Sarajevo and ended empires (Ottoman, Austro-Hungarian, Russian Tsar). WWII began with Germany invading Poland and ended with atomic bombs on Hiroshima and Nagasaki. Over 2.5 million Indian soldiers served in WWII — the largest volunteer army in history."
+   "t": "Why the sky is blue",
+   "teaser": "Air scatters blue light more than red.",
+   "more": "Sunlight contains all colours; molecules in the atmosphere scatter shorter (bluer) wavelengths far more — called Rayleigh scattering. At sunset, light travels through more air, the blue scatters away before reaching you, leaving reds and oranges."
   },
   {
-   "t": "Why the UN exists",
-   "teaser": "Founded 1945 by 51 countries so WWIII never happens.",
-   "more": "Headquartered in New York, its Security Council has five veto-holding permanent members: US, UK, France, Russia, China. India is a founding member and the largest cumulative contributor of UN peacekeeping troops, but its long push for a permanent Security Council seat remains unresolved."
+   "t": "Black holes, minus the mystery",
+   "teaser": "Gravity so strong that light can't leave.",
+   "more": "When a massive star collapses, its gravity can warp space so severely nothing escapes past the 'event horizon'. They're detected by their effect on nearby matter. The first-ever photo of one (M87*, 2019) took a telescope network the size of Earth."
   },
   {
-   "t": "The Berlin Wall fell in 1989",
-   "teaser": "One night in November ended Europe's clearest Cold War symbol.",
-   "more": "Built in 1961 to stop East Germans fleeing to the capitalist West, the wall cut Berlin in two for 28 years. Its fall on 9 November 1989 triggered German reunification within a year and previewed the Soviet collapse of 1991."
+   "t": "The Suez Canal shortcut",
+   "teaser": "It saves ships ~7,000 km between Europe and Asia.",
+   "more": "Opened in 1869 through Egypt, it carries about 12% of global trade. When one ship (Ever Given) wedged sideways for six days in 2021, it blocked ~$10 billion of goods per day — a live demo of how fragile supply chains are."
   },
   {
-   "t": "What NATO is",
-   "teaser": "A military pact where attacking one member means attacking all.",
-   "more": "Founded 1949, the North Atlantic Treaty Organization's Article 5 collective-defence clause has been invoked once — after 9/11. It expanded eastward after the Cold War, which Russia cites among grievances behind the Ukraine conflict. India is not a member and stays formally non-aligned."
+   "t": "Mughals to the British, compressed",
+   "teaser": "1526 Panipat → 1757 Plassey → 1857 Revolt → 1947.",
+   "more": "Babur founded Mughal rule in 1526; it peaked under Akbar and Aurangzeb. The East India Company's victory at Plassey (1757) began company rule; after the 1857 revolt, the British Crown took direct control ('the Raj') until independence in 1947."
   },
   {
-   "t": "The EU in one card",
-   "teaser": "27 countries, one market, 21 sharing the euro.",
-   "more": "Born from post-WWII efforts to bind France and Germany economically so they'd never fight again, the European Union lets goods, services, money and people move freely across members. Brexit (2020) made the UK the only country ever to leave."
+   "t": "What the Non-Aligned Movement was",
+   "teaser": "India's Cold War stance: neither US bloc nor Soviet bloc.",
+   "more": "Co-founded by Nehru, Egypt's Nasser and Yugoslavia's Tito in 1961, NAM let newly independent nations avoid picking sides. In practice India tilted toward Soviet defence supplies after the 1962 China war and 1971 US support for Pakistan."
   }
  ],
  "learn": [
   {
-   "title": "The AI shift: what large language models actually do",
-   "teaser": "Powerful pattern machines, not digital minds.",
+   "title": "Why oil moves everything",
+   "teaser": "A fifth of world supply ships through one strait near Iran.",
    "body": [
-    "The recent wave of artificial intelligence is driven by large language models (LLMs) — the technology behind modern AI chatbots. At their core, these systems are trained on vast quantities of text and learn to do something deceptively simple: predict the next word in a sequence. By doing this billions of times over enormous datasets, they absorb the statistical patterns of language, along with a great deal of the knowledge encoded in that text, and can then generate fluent, often strikingly useful responses.",
-    "It helps to be clear about what this is and isn't. An LLM does not 'understand' the world the way a person does, nor does it look up facts in a database. It generates plausible continuations based on patterns, which is why it can be articulate and helpful but also confidently wrong — producing 'hallucinations,' or inheriting biases present in its training data. The breakthrough that made today's models possible was a neural-network design called the transformer, introduced in 2017, combined with vast computing power.",
-    "The economic and social implications are still unfolding. AI is already reshaping how people write, code, research and create, and it poses particular questions for economies like India's, with its large services and IT sector. The realistic near-term picture is less science-fiction robot and more a powerful general-purpose tool — one that amplifies human work, demands new skills, and requires care about accuracy, fairness and appropriate use."
+    "Crude feeds transport, plastics, fertiliser and power — an oil spike is a tax on the whole economy. The Strait of Hormuz chokepoint is why Gulf tensions instantly lift Brent.",
+    "India imports 85%+ of its crude: costlier oil widens the trade deficit, weakens the rupee, and lifts CPI. That chain — Gulf headline → rupee → your petrol pump → RBI's next rate call — is worth internalising."
    ]
   },
   {
-   "title": "Why tiny chips decide global power",
-   "teaser": "The most important industry most people never think about.",
+   "title": "Bulls, bears, and the names",
+   "teaser": "Horns toss up; paws swipe down.",
    "body": [
-    "Semiconductors — the microchips inside phones, cars, appliances, weapons and data centres — have become the foundation of the modern economy. What makes them geopolitically explosive is how extraordinarily concentrated their production is. The most advanced chips are manufactured by a handful of firms, above all Taiwan's TSMC, and the ultra-precise machines needed to etch them are made by essentially one company, ASML in the Netherlands, while much of the cutting-edge design comes from the United States.",
-    "This means no single country can make a leading-edge chip alone; the supply chain is a globally intertwined web with critical choke points. That fragility became painfully visible during the shortages of 2021, when a shortfall of chips idled car factories worldwide. It has also turned semiconductors into a central front in the rivalry between the United States and China, with export controls on advanced chips and chipmaking equipment used as tools of statecraft.",
-    "Taiwan's dominance in particular gives the island outsized strategic importance and adds a dangerous edge to tensions over its status. Governments have responded by pouring money into building domestic chip factories, or 'fabs,' to reduce their dependence — including India, which is courting fabrication and assembly plants as part of its push to become a manufacturing hub. In the coming decades, who makes the world's chips may matter as much as who controls its oil once did."
+    "Bull market: sustained rise (+20% from a low). Bear: sustained fall (−20% from a high). The likely origin is the animals' attack styles, plus an old proverb about selling the bearskin before catching the bear — betting on a fall.",
+    "March 2020's COVID crash was a three-month bear phase; the recovery after was a textbook bull run. 'Bullish on X' simply means expecting X to rise."
    ]
   },
   {
-   "title": "P/E ratio: the market's price tag",
-   "teaser": "How many years of profit you're paying for one share.",
+   "title": "Market cap, and why price ≠ size",
+   "teaser": "A ₹5,000 stock can be a smaller company than a ₹500 one.",
    "body": [
-    "Price-to-Earnings = share price ÷ earnings per share. A P/E of 25 means you pay ₹25 for every ₹1 of annual profit. High P/E signals the market expects fast growth (or the stock is expensive); low P/E signals slow growth expectations (or a bargain).",
-    "It's only meaningful against context: the company's own history, its sector average, and growth rate. Indian IT often trades at 20–30; PSU banks far lower. A 'cheap' stock with shrinking profits is usually cheap for a reason."
+    "Market capitalisation = share price × number of shares. MRF's famous ₹1+ lakh share price makes it nowhere near India's biggest company; Reliance's much cheaper shares multiply across far more of them.",
+    "Caps define categories — large (top 100), mid (101–250), small (rest) by SEBI's rules — which matters because mutual funds are mandated to buy within their category. A stock crossing a cap boundary mechanically gains or loses buyers."
    ]
   },
   {
-   "title": "Correlation is not causation",
-   "teaser": "The most important sentence in analytics.",
+   "title": "Percentiles: how analysts avoid lying",
+   "teaser": "p50, p90, p99 — the shape of reality, not one number.",
    "body": [
-    "Ice cream sales and drownings rise together — summer causes both. When two metrics move together, there are always four possibilities: A causes B, B causes A, something else causes both, or coincidence. Dashboards show correlation; only controlled experiments or careful causal analysis show causation.",
-    "Practical BI reflex: before reporting 'X drove Y', ask what else changed in the same window — a campaign, a price change, seasonality, a tracking change. The last one bites analysts most often."
+    "An average API response of 200ms hides that 1% of users wait 4 seconds. p50 (median) shows the typical case, p90 the bad day, p99 the disaster tail. Same for delivery times, load times, ticket resolution.",
+    "Reporting reflex: any latency, wait-time or money metric deserves at least p50 + p90. If someone gives you only the mean, they're either new or hiding the tail."
    ]
   },
   {
-   "title": "Mean vs median: which lies less?",
-   "teaser": "One billionaire in a room makes the 'average' person rich.",
+   "title": "The 1962 war India doesn't celebrate",
+   "teaser": "A month-long border war with China reshaped Indian defence policy.",
    "body": [
-    "The mean (sum ÷ count) is dragged by outliers; the median (middle value) isn't. Average income sounds impressive when a few earn crores; median income tells you what the typical person makes. Same for ticket sizes, session times, order values.",
-    "Rule of thumb: for skewed data (money, wait times, engagement), report the median or percentiles. If mean and median differ a lot, that gap itself is a finding — your distribution has a long tail worth investigating."
+    "In October 1962 Chinese forces advanced across the disputed Himalayan border (Aksai Chin, NEFA — today's Arunachal), overwhelming underprepared Indian positions before declaring a unilateral ceasefire. Nehru's reputation never fully recovered.",
+    "The war triggered India's military modernisation and its tilt toward Soviet arms, and the unresolved Line of Actual Control remains the flashpoint behind standoffs like Galwan 2020."
    ]
   },
   {
-   "title": "Opportunity cost",
-   "teaser": "The real cost of anything is what you gave up to get it.",
+   "title": "What inflation really is — and why a little is healthy",
+   "teaser": "Rising prices aren't always bad news.",
    "body": [
-    "Spending ₹15 lakh on a car isn't just ₹15 lakh — it's also the ~₹47 lakh that money could become in 10 years at 12%. Every choice of time or money silently declines the alternatives. Economists call the best foregone alternative the opportunity cost.",
-    "It reframes decisions: a 'free' three-hour meeting costs the work you'd have shipped. An okay job offer costs the better one you stopped searching for. Comparing against 'doing nothing' is almost always the wrong baseline."
+    "Inflation is the general rise in the prices of goods and services over time, which quietly erodes the purchasing power of money — the same 100 rupees buys less next year than it does today. It is measured using price indices such as the Consumer Price Index (CPI), which tracks a representative basket of household spending. In India, the Reserve Bank of India is legally tasked with keeping CPI inflation around 4%, within a tolerance band of 2% to 6%.",
+    "Inflation has two broad drivers. 'Demand-pull' inflation happens when too much money chases too few goods, often after rapid growth or heavy money-printing. 'Cost-push' inflation comes from rising input costs, such as a spike in crude oil that raises transport and manufacturing prices across the board. A mild, steady rate of inflation is actually considered healthy: it nudges people to spend and invest rather than hoard cash.",
+    "The real danger lies at the extremes. Deflation — falling prices — can be worse than mild inflation, because people delay purchases expecting things to get cheaper, stalling the economy, while debts become heavier in real terms. At the other end, hyperinflation can destroy a currency entirely. This is why central banks watch inflation obsessively and adjust interest rates to keep it in a narrow, predictable range."
    ]
   },
   {
-   "title": "How IPOs actually work",
-   "teaser": "A private company sells shares to the public for the first time.",
+   "title": "What actually happens when you buy a share",
+   "teaser": "You're buying a small slice of a real company.",
    "body": [
-    "The company hires investment banks to set a price band, files a prospectus (DRHP) with SEBI, and collects bids. Retail investors apply in lots; oversubscribed issues allot by lottery. On listing day the stock starts trading — sometimes far above or below issue price.",
-    "Listing 'pops' make headlines, but the base rate is sobering: many hyped IPOs trade below issue price within a year (India's 2021 tech-IPO batch is the classic case). Reading where the money goes — fresh growth capital vs early investors cashing out — tells you a lot."
+    "A share is a unit of ownership in a company. When a business wants to raise money to grow, it can sell ownership stakes to the public through an Initial Public Offering (IPO). After that, those shares trade between investors on stock exchanges such as the BSE and NSE in India. The price of a share at any moment reflects the collective judgement of buyers and sellers about the company's future profits.",
+    "Because tracking thousands of individual companies is hard, markets use indices — the Sensex and Nifty in India, or the S&P 500 in the US — which bundle major stocks into a single number that summarises overall market mood. Prices move constantly on earnings reports, economic news, interest-rate changes and plain sentiment. Over the long run, stock markets have historically outpaced inflation, but they can be brutally volatile over months or even years.",
+    "At its best, the stock market is a machine for channelling ordinary people's savings into productive enterprise, and for letting them share in the growth of the economy. But shares carry real risk — companies can fail, and prices can fall sharply. This is why long horizons, diversification, and low-cost index funds are the standard advice for most individual investors rather than betting on single stocks."
    ]
   },
   {
-   "title": "A/B testing in five sentences",
-   "teaser": "Split users randomly, change one thing, measure the difference.",
+   "title": "GDP: the number that rules economics — and its blind spots",
+   "teaser": "It measures output, not wellbeing.",
    "body": [
-    "Random assignment makes the two groups statistically identical except for your change, so any outcome gap is caused by it — this is the cleanest causation tool in product work. The catch is sample size: small tests 'win' by luck constantly.",
-    "Standard practice: decide the metric and minimum effect before launching, run a significance check (p < 0.05 convention), and beware peeking early — checking daily and stopping at the first 'significant' result inflates false positives dramatically."
+    "Gross Domestic Product (GDP) is the total market value of all goods and services produced within a country over a given period, usually a year or a quarter. It is the headline measure of an economy's size, and its growth rate is watched closely by governments, investors and voters. India is among the world's largest economies by total GDP, though its GDP per person — the total divided by population — remains far lower than that of rich nations.",
+    "The trouble is that GDP was never designed to measure how well people are actually living. It counts activity regardless of whether it improves lives: cleaning up an oil spill or rebuilding after a disaster adds to GDP, while unpaid housework and caregiving, which have enormous real value, are left out entirely. It also says nothing about how income is distributed, so a country can post strong growth while most of the gains flow to a small elite.",
+    "Because of these blind spots, economists supplement GDP with other measures. The Human Development Index blends income with health and education; other indicators try to account for inequality or environmental damage. GDP remains indispensable as a quick gauge of economic size and momentum, but a curious observer should treat it as one dashboard dial among many, not the whole picture."
    ]
   }
  ]
