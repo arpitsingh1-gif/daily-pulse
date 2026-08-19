@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-19T02:31:06.113Z",
- "label": "19 Aug, 08:01 IST",
+ "generatedAt": "2026-08-19T02:40:47.491Z",
+ "label": "19 Aug, 08:10 IST",
  "markets": {
   "indices": [
    {
@@ -58,12 +58,12 @@
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 95.78,
-    "chg": -0.03,
-    "pct": -0.04,
+    "price": 95.73,
+    "chg": -0.09,
+    "pct": -0.09,
     "spark": [
-     95.81,
-     95.7829
+     95.82,
+     95.7259
     ],
     "fx": true,
     "ok": true
@@ -71,12 +71,12 @@
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 88.16,
-    "chg": 0.75,
-    "pct": 0.86,
+    "price": 88.21,
+    "chg": 0.8,
+    "pct": 0.92,
     "spark": [
      87.41,
-     88.16
+     88.21
     ],
     "fx": true,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4391.2,
-    "chg": -29.4,
-    "pct": -0.67,
+    "price": 4411.2,
+    "chg": -9.4,
+    "pct": -0.21,
     "spark": [
      4420.6,
-     4391.2
+     4411.2
     ],
     "fx": true,
     "ok": true
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 62.76,
-    "chg": -1.28,
-    "pct": -2,
+    "price": 63.21,
+    "chg": -0.83,
+    "pct": -1.3,
     "spark": [
      64.04,
-     62.76
+     63.21
     ],
     "fx": true,
     "ok": true
@@ -211,7 +211,8 @@
      895.8
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    }
   ],
   "global": [
@@ -226,7 +227,8 @@
      53343.4
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nasdaq",
@@ -239,7 +241,8 @@
      26289.71
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "S&P 500",
@@ -252,7 +255,8 @@
      7691.76
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nikkei 225",
@@ -265,7 +269,8 @@
      66055.99
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Hang Seng",
@@ -278,7 +283,8 @@
      25343.43
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "FTSE 100",
@@ -291,7 +297,8 @@
      10728.04
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    }
   ],
   "vix": {
@@ -305,7 +312,8 @@
     11.39
    ],
    "fx": false,
-   "ok": true
+   "ok": true,
+   "stale": true
   },
   "etf": [
    {
@@ -319,7 +327,8 @@
      276.1
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Bank BeES",
@@ -332,7 +341,8 @@
      594.65
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nifty Next 50",
@@ -345,7 +355,8 @@
      805.01
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Gold BeES",
@@ -358,7 +369,8 @@
      126.45
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Silver BeES",
@@ -371,7 +383,8 @@
      221.7
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nasdaq 100",
@@ -384,7 +397,8 @@
      336.33
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    }
   ],
   "mf": [
@@ -450,7 +464,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 23.9
+    "pe": 23.9,
+    "stale": true
    },
    {
     "name": "TCS",
@@ -464,7 +479,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 16.6
+    "pe": 16.6,
+    "stale": true
    },
    {
     "name": "HDFC Bank",
@@ -478,7 +494,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.1
+    "pe": 14.1,
+    "stale": true
    },
    {
     "name": "Infosys",
@@ -492,7 +509,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.1
+    "pe": 15.1,
+    "stale": true
    },
    {
     "name": "ICICI Bank",
@@ -506,7 +524,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 18.3
+    "pe": 18.3,
+    "stale": true
    },
    {
     "name": "SBI",
@@ -520,7 +539,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.3
+    "pe": 11.3,
+    "stale": true
    },
    {
     "name": "Bharti Airtel",
@@ -534,7 +554,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 40.6
+    "pe": 40.6,
+    "stale": true
    },
    {
     "name": "L&T",
@@ -548,7 +569,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 33.7
+    "pe": 33.7,
+    "stale": true
    },
    {
     "name": "Tata Motors",
@@ -561,7 +583,8 @@
      322.8
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "M&M",
@@ -575,7 +598,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 20.8
+    "pe": 20.8,
+    "stale": true
    },
    {
     "name": "Maruti Suzuki",
@@ -589,7 +613,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 30.1
+    "pe": 30.1,
+    "stale": true
    },
    {
     "name": "ITC",
@@ -603,7 +628,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.1
+    "pe": 17.1,
+    "stale": true
    },
    {
     "name": "HUL",
@@ -617,7 +643,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 32
+    "pe": 32,
+    "stale": true
    },
    {
     "name": "Sun Pharma",
@@ -631,7 +658,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 37.3
+    "pe": 37.3,
+    "stale": true
    },
    {
     "name": "Bajaj Finance",
@@ -645,7 +673,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 33.5
+    "pe": 33.5,
+    "stale": true
    },
    {
     "name": "Adani Ent",
@@ -659,7 +688,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 48.6
+    "pe": 48.6,
+    "stale": true
    }
   ],
   "gainers": [
@@ -675,7 +705,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 20.8
+    "pe": 20.8,
+    "stale": true
    },
    {
     "name": "Reliance",
@@ -689,7 +720,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 23.9
+    "pe": 23.9,
+    "stale": true
    },
    {
     "name": "Adani Ent",
@@ -703,7 +735,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 48.6
+    "pe": 48.6,
+    "stale": true
    },
    {
     "name": "Bajaj Finance",
@@ -717,7 +750,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 33.5
+    "pe": 33.5,
+    "stale": true
    }
   ],
   "losers": [
@@ -733,7 +767,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.1
+    "pe": 15.1,
+    "stale": true
    },
    {
     "name": "Tata Motors",
@@ -746,7 +781,8 @@
      322.8
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Bharti Airtel",
@@ -760,7 +796,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 40.6
+    "pe": 40.6,
+    "stale": true
    },
    {
     "name": "TCS",
@@ -774,7 +811,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 16.6
+    "pe": 16.6,
+    "stale": true
    },
    {
     "name": "ITC",
@@ -788,7 +826,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.1
+    "pe": 17.1,
+    "stale": true
    }
   ],
   "breadth": {
@@ -839,7 +878,7 @@
    {
     "title": "Augmont Enterprises IPO to open on August 21; check price band, issue size, latest GMP, & more",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYm0wcktKemRoaUo3Q01paFN0cXRfaEx1YmZXQWJBUDNmZVJadWVIQmVVYmUtcS1aNEpuNjMtTm1aNVhkd0JzNFlGVTlVY0VnNGdRcWZjZTlkOFNMaG1mREFIanJ3aHBpckRfcnZSR042b1BlMl9adnMzOHZtSll3OFQwOEhJUzAxWmIzOGs4Vi1fV0UzMXlMeHl3VGljYU1MeFJxd3FiUEFGUzNuc0FZdkRWQk1RVF9FY3ozT3hIZDhVaWs0ZFRncmRPSklhS2tYZ3ZFazRVWUdSNWhJYVlYb0xYOEdnLTFsOE5oV1RKYnRJZ9IB9wFBVV95cUxOdUdyR2JiaXFjUU9EYXFLbTJTMDE0cVU2Z1ZVTnB5UjM1OVYyMW9KMVRGN2NoVDdNazRaTWRVb2tIUjJLZF9sdHBoZWQ3czk5bVg0SVhtUjhoTk5PMTkwaUo5anM3QmYtZ1o0QVRUeXgwR2o0dHRKNnkzemIwSWgwT3ozODY2ajRQbG9jSTJkbjRyXzR2SUpOUEZ6bkVaWlREOW5XZjRvNElPc3ZUaW1rSWd5dFlHVm1wZXA2VW9RUlFBNHFmcFQwSVJfMTg4REFobzV2Zkk1MVNSYnprcUZUUVJaaDQxa2JuTjdxZHV4VjU0aGt2UkE0?oc=5",
-    "src": "businesstoday.in",
+    "src": "Business Today",
     "at": "18 Aug, 14:54"
    },
    {
@@ -849,10 +888,10 @@
     "at": "18 Aug, 11:17"
    },
    {
-    "title": "Tempsens Instruments India IPO Date, Review, Price, Allotment Details",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vQmlpeVFWZVVmVUZJemJqNnZ1RlRsVjNoQ1ZKaU5rZ1QwZ3hvWUZpb25LRlktOGl1V0J6SGhDXzlOQWp6OXNCMVEzMzhna2VQbFhSRTJCenZkVGpYNFZzcQ?oc=5",
+    "title": "Shiprocket IPO GMP, Grey Market Premium Today",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lYW5CeFVHTlQ5UGNGUU5XOUZtSmtyUUZmU3lXRUF0RHBXVDhEVWs0ekJ3TDFVRmlsSnV4X2xJOTZzUl9kMm1VUzRyREdkV0VQZ2FaU2I5Wm5kLXA1YVV2eXdMTmNJN09vamhv?oc=5",
     "src": "IPO Watch",
-    "at": "19 Aug, 07:20"
+    "at": "19 Aug, 08:06"
    },
    {
     "title": "Multibagger IPOs of 2026: These 3 stocks have fattened investors’ portfolios; do you own any?",
@@ -895,15 +934,15 @@
   },
   {
    "tag": "Share Market",
-   "title": "Stock Market Today: Gift Nifty To US Treasury Yields — Five Key Factors That May Drive Sensex, Nifty 50 on August 19",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTGZXUHk3LTZ0OWpDWFpRZ2RKcHMwMm9YODUyU1dtX3VGLUFHWkpHcjFiOXhfbVl1TmFMVEIwSlotLVNNRFpDN3JsdmdPdWVFQTgwcEVLV19CLXNEQVltaGRYejZrNGdxSlNzVEg4eU5QVy1ZMEUtN0pWdm50T3M5ckZSQkhXMGdwZmFEbVoxUzVXYWhBb3RCNzJ3emZ3ZzVGNEkyZzlkTnRfa0RZY0VaOFBZem1KM0lZTTVyT0RwN3gxUG5temxnY2NuY0lkZm4yV2hubEZBeDhWLWVGRnJ1VEZneVJsNnl5T0xySNIB9AFBVV95cUxPdFg2dElnR0dwb1gwRjFndHhtTkdVc211QTE5Y3IxeWdEZTNEUEdrZzBCX2k2T1RudjVGOTRCb2FmMEtjOUZrQmZiOVlFT042YUNYaWsyQmpLOWNsblVXdlNLQ3EwMWNUaTZURkk3VGVQMkdCMFA0YV9yYjBRc1lERHhpaGsxbDMtSXAyZk90TzcyUHpBZFVselNFQWZ1MUdQQy0xRTdCYlBiejB1MFBBa3M3Sk5BV0hnQldIaWhzOEcyZDVReWNsaWVvYVVRWDRGUmZLYkp4am9ucGp4ZWpoU1h0MXowX2Q4c2tfbUVjTXp5N0Vy?oc=5",
-   "src": "NDTV Profit",
-   "at": "19 Aug, 06:56"
+   "title": "Closing Bell: Nifty below 24,200, Sensex falls 493 pts; IT stocks major drag",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVTc4djQtb2taWktNbVViT2NyT1dGVWl6YlZJYkM4ZmpGYm4yQWoxb1JwVGtBdVNpNGxBUnNnajFyTnNNNTdkSENFWndDcjRTZG9tLUNyQ0ZRRG8zOXVUMGdETnRPUWIyZko3T1ZEQmxxcGFXYXhPV0d4RzR2cXgzOVB3MHpacl95ckp6R1NhcEdHT29kRC1qM3VKcVZTQ3Jzd2xuWWtMSUtSWFNO?oc=5",
+   "src": "IndiaIPO",
+   "at": "19 Aug, 07:08"
   },
   {
    "tag": "Sports",
    "title": "Pant's rapid 66, Suthar's double strike tighten India's grip",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMkRVMHBxdjU0U2h4SHViQmVuWVRUVUhsTXZqU1pyeWFGanNKdDY5YW0zNFIyWE1TdzFENUZmNFliT0J6ZERXZTJXQUxaZjlXaDlkY0ViXy04SklITElWNTJOcUFESURpUkZwS1dPQUIzbEdIdkVkNl9xaWtxMWFsWWZ1SGxwVzVTTW93QkdDbXp3S2pnVDU2bmdGclpZOFYyNnZV?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaWs5RHJUMlJmY2dFUDNSdl8wTlkwOEFwX3BjWVRkUzJLR3A1RGw1Uk53QW93UndZMGdIbzlHRkxXd3F1UHRJQnp1SEhyNXRyRWI4OFJHRlV6al9YNndpOU1XN0JJOS1LTzlqc1RSemhJWkhyZk9mSnBQdUNONWhoSzBtLUlCSzBxNzJLZGR4LVp6dndBLW5WVm5pN3JlNFJuUTNBS1U2clhoQnBOb0hlVm91VmJ4YzEzdEt1VUFFWHVGODJEMGNTRzlsaW9NNGtManV6UWdmX1RnUQ?oc=5",
    "src": "Cricbuzz",
    "at": "18 Aug, 18:59"
   },
@@ -918,14 +957,14 @@
    "tag": "AI",
    "title": "Artificial intelligence boosts automated biolabs",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLTgtRTNCY0cwNHd3TGFvWXdvMzk5SmVoOXM5ZWExUEFNOXBxTWN5dkFPT3FUWE1jcU1meFcyUEcwUEVuaUpIMVBSd1haZi1pMjBlQnNjSzVhTVViMGxQWlBfby1JUGVzVTYxMEFudWt6cjdoaFhPbDhEZkZyVmdJbHc1X3pNNFNZWjBhZUkzeVA3M0kxTHlNcEU0Q2RxQWNEUnpv?oc=5",
-   "src": "Knowable Magazine",
+   "src": "knowablemagazine.org",
    "at": "19 Aug, 04:39"
   },
   {
    "tag": "AI",
    "title": "Bridging the weather and climate divide with artificial intelligence",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DbWFQZTZZSXFpZFVuS3NWU2xGaExLX294X0V0c25DUnBlemZNZXczSXVLRTJITkV5YnoyQzlYNlg1bnk0dHd2dHdxZldHSm8zNmlZM0I1YW9nM2JlWXdJ?oc=5",
-   "src": "Nature",
+   "src": "nature.com",
    "at": "18 Aug, 22:26"
   },
   {
@@ -946,7 +985,7 @@
    "tag": "Jobs",
    "title": "Amid fresh layoff reports, Oracle accused of revoking engineer’s job offer twice",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUHZzZlRKcDFtMVBfYVY5NnFjekhQTDRsOFNYOTZsMFFmU1RXZzZUcXZTLVluRlJvWTlyZUFPLUZJQzBra1gteXNGTVVUMG13ejBHUmZlMEtzc0lCSWtTNUs0TFpPdUdxVUpXTDVPOTJNc2ZJX242NTZyOGRfQ1VTZkI5OUh0ZjVuN1ZKZGhGd2wzSHgxNnFRbWIyVFJycWdGODVPWGNudEQ0eGgzTWZENVB0aU9UUmZSSDB4Uk45RXBwVnBOY2YyQVlBYw?oc=5",
-   "src": "peoplematters.in",
+   "src": "People Matters - HR News",
    "at": "19 Aug, 05:26"
   },
   {
@@ -994,10 +1033,10 @@
      "at": "19 Aug, 03:13"
     },
     {
-     "title": "Live: Nifty below 24,200 on expiry day; defence stocks in focus | Closing Bell",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZzlZWmxpNU9oVndkMUlhWlFUWmM1V01qaGtiQURhMzZuYlY3R0pTdGFVSWdTZkJEQ0FoS0Etd3J4N0VpR255M21HVkFuYlRnV3JFUDVUYngxcUhKWUV6TFFDaW9PWmZUeGo1NWJ5NXBZeHFhRkVZM2M1Q0FvNW9CM0NyelRnc05maDRYQ0oyd3IwVzVKSWdRRjhaaVlWNG03Zy02bnRpVWhFNTd0aktYLUltVHdsMzZzVmNWSDlJZjVNTEZVTVFMUHhPeWVpejYzajFRMzVR0gHbAUFVX3lxTE9Ic0dueHZFYllKUWd3ZlJUUHJoUENBdXU1VC1KajhLM0UwTkRScUZFSzNCQWFiNlVrSE9SbnBFMXhYa1RiOXNEZVhtZ3BvUXUtSVE3Z2dLbndzVS1oY1pLN1JUbjJjQjNmcHlCYW9qZ3gzRXJnYUVGcGJ0VmxTbUNMdzRqZmlWRmlrVU1jdy1ZdmJuOFAtWTk5UkJ4VmRlVFVIQ21vR2kzS29Takl6c3BmZnMwYjFLRlhwMHRreDB3bWlJRlFmLVllVjBaZC1hNHcyZWZZUUhsajFlNA?oc=5",
-     "src": "Moneycontrol.com",
-     "at": "18 Aug, 14:48"
+     "title": "Tankers U-Turn at Hormuz as Iran Tightens Its Grip",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUJGSFlVa3dtUW1qdHgwb0ZsNmpWcWxQZ19SLUVjRzF2Y3F1Y0gzZXJ2eFBTZnktOUs5RGhkcmFzNUw3cVgwZXBWZk5lUVc5SUVXZlhkNk84OURwdUZSNmg4OThSVFZlYWlWTU9jZGt2WU8tak9wMFVVc0hCQlU1VzZIXzQybS12X2dPR3VjR3NvbDQzdGIxQ3UwM1JDYjlWRW5LOTV4NV9KUdIBrwFBVV95cUxOdTdmYUxTMUJvUVpBdmszZGhwM0FvVUtTVVJibGhPUjZ2bVA0dDlKTF95T3IxN2dEXzdqcmZRUzg1MzR5YVM4WGtGb2RqQnhPWFhXd21VR2ZndFV4aUZqRVVLSV85OWk2THJkc2FsQ2tESl9VUGd2dHJZSmVzV3ltQncwX1JNRnp3RGRkMG9EZ2Mxcm8tc2l0d1JCeldYMm95WE9aODUzN1RFN1FyRGk4?oc=5",
+     "src": "Crude Oil Prices Today | OilPrice.com",
+     "at": "18 Aug, 18:00"
     },
     {
      "title": "Temasek-backed Milky Mist jumps 30% in India debut, hits $1.5 billion valuation",
@@ -1006,10 +1045,10 @@
      "at": "18 Aug, 10:09"
     },
     {
-     "title": "U.S.-Iran Tensions Push Oil Prices Higher as Diesel Margins Hit Records",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbzFoUm9QdWxNTWNkWXdSYjBZX1M0aVl4VFNGT2dHQmtLbjc2NEdrNTB6WWhrcE54UTQ2VjVJRUJRdm9qaml3STlSMnp4Z295MmQ2c2U3T3hCbUotTkFBaUpIV0JvM1NBay1FSG13ZkthSkI5WmpqenB6Z010dUxzU3diaFhPLWNselZfaHB3VktZVFFQdnVkcjFfUFlXblVuQ3c1M2ZGVm0xSm5kbVdjbUpPOUs1VW5XR0FwNHI1T2Q0UDDSAcgBQVVfeXFMUEZkSFlYWFJiYkhBREl6Qmk5Nnp0ZHBVVk1abUM1MHZTUTI5ZlJ6eENsLTJBQVdjVXdlcVgzdElJUGNxbVIyTkhzY1B1d3I2ZUk1UkE5X3dHNktRb3lDWkpkS0YyQ3FKSV9IUzVCQmNGWjBvVmp1bkxCU1daaHVTU2lfMzI2em5BcGx4TWdYOXhHVWJTWXJQRHZ5T2hJUFFuZmFqZF9VcVByMDJ5RTlMWVpDOVJjZVRQTFJ4TlNjNTRCeVFpaERiOGo?oc=5",
-     "src": "Crude Oil Prices Today | OilPrice.com",
-     "at": "18 Aug, 10:05"
+     "title": "Why India is considering sugar imports as prices hit record levels",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQjJ5clhzWUs2UzlURjlMZGpkV0FlQ1F4VzE2LVBqazVCYWZZVFBPUDFiZGlOZ29JSWc0VlA3VXpWcnkwbEZ6SGE1Q1l0Rzd2TlFWWG1vNVNRS3RWbktSNUdWS0NsQ1F2QmpfMVQ2d0tZbHVoMXp3LTI5QVlueVI2dk45aGJwZGlrXzM1Zk5LenZmRTZtMjdadk5lakY4Zk5xalNVcmJmRmhQRHBtMXZjajZBcU9fUVpxNXFMa2dOd1Q5ODY3X3U0M2JSTTIwbjU4aHBBZm9GdGtPT1drd2xLTmd3N2RrdXc?oc=5",
+     "src": "The Times of India",
+     "at": "18 Aug, 15:47"
     }
    ]
   },
@@ -1021,12 +1060,6 @@
      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQV1dsd1lGMllYS2xGcEtuVlUzOWNlbTlpaVJ1Qy12V3ctUExkX1dVWjV6RzZxSWVIWTNhS1c4QmtSRkRwOGp0a1p3Z3ludlk3QVp5ZnZKdDZTYzNhaE1HYzl1a09tenJScXFjbmVNOGpJQktCM0tjblBmZVFOZlVXVDJMNXEzVU1pYkdLbmNkbFpDcUVyejRudllPTjJ1ZWdtVXFCUG1xOV9vOE1xZGVhWGs4eDc5Sm4wOUNKejFmc3YzdVlxMDM4ODh6cXAwbS1idmlsR0Z2QUZpbWkwbzgwTkpLd0xlN1RFdkpVMU9XZGdKVXVmTWxpTld30gH_AUFVX3lxTE43QUhlb3dfVThFVUF6b2pDaTZucjNGWkhFS3hFOVRRTXoyVUZITWQ4bk0tZUtubklzQ1VjQzZqOUhqM3hRVnlxeUZOMjN5TzdVVzJZYnNHU0dBbTh5dXVGaVB0cGdqMzRLRmJWQUJSclNibk9pQ0dtbHA5dEJ2X0oyR0ZLclhlenhSVVhtYjVPdEZnNmpiZnlUc3RjbkotcFItRWRkem9KOW5YS3RFT0Rab0ZiZWdyYVVTbUNpM1FOdnVRWnFSY3IyWG1Yc2VhTGc2dm9UMkdBbHlJOHJhYjZEVWhVcl9ZQnZULVRiZUE5bGJRYm04ZXhkeGh4LTN4QQ?oc=5",
      "src": "livemint.com",
      "at": "19 Aug, 07:39"
-    },
-    {
-     "title": "Stock Market Today: Gift Nifty To US Treasury Yields — Five Key Factors That May Drive Sensex, Nifty 50 on August 19",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTGZXUHk3LTZ0OWpDWFpRZ2RKcHMwMm9YODUyU1dtX3VGLUFHWkpHcjFiOXhfbVl1TmFMVEIwSlotLVNNRFpDN3JsdmdPdWVFQTgwcEVLV19CLXNEQVltaGRYejZrNGdxSlNzVEg4eU5QVy1ZMEUtN0pWdm50T3M5ckZSQkhXMGdwZmFEbVoxUzVXYWhBb3RCNzJ3emZ3ZzVGNEkyZzlkTnRfa0RZY0VaOFBZem1KM0lZTTVyT0RwN3gxUG5temxnY2NuY0lkZm4yV2hubEZBeDhWLWVGRnJ1VEZneVJsNnl5T0xySNIB9AFBVV95cUxPdFg2dElnR0dwb1gwRjFndHhtTkdVc211QTE5Y3IxeWdEZTNEUEdrZzBCX2k2T1RudjVGOTRCb2FmMEtjOUZrQmZiOVlFT042YUNYaWsyQmpLOWNsblVXdlNLQ3EwMWNUaTZURkk3VGVQMkdCMFA0YV9yYjBRc1lERHhpaGsxbDMtSXAyZk90TzcyUHpBZFVselNFQWZ1MUdQQy0xRTdCYlBiejB1MFBBa3M3Sk5BV0hnQldIaWhzOEcyZDVReWNsaWVvYVVRWDRGUmZLYkp4am9ucGp4ZWpoU1h0MXowX2Q4c2tfbUVjTXp5N0Vy?oc=5",
-     "src": "NDTV Profit",
-     "at": "19 Aug, 06:56"
     },
     {
      "title": "Closing Bell: Nifty below 24,200, Sensex falls 493 pts; IT stocks major drag",
@@ -1041,6 +1074,12 @@
      "at": "19 Aug, 06:00"
     },
     {
+     "title": "Nifty to stay weak below 24,200 level, says MOFSL; HAL among 3 stock picks",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQVdjRnRZYVRLZ21GSEVON2Q3QUxTZjlaWjBWcWVqT0hfZHYyU19IcUV5dVE3NnFxS1lIOXhVbEhLV2hGb2YxVmc1ZWptUUZGYk1DeTNDRlJRNmZmLW0zWGtfU3VpNkZKX2R1ZDlxbDNwREhJOXpVSGpRZ253SWxtQkRkY2l5dTVmaW8zMUVpVnpYODkzY0RZUGNKcms2bkhxQkhwZ2wxNFd5M3ZWN1Z0MEtWNDkwZ1F6M0VtdGpMTTNPQ1JPT2RHeXpTQjI1UUJhMTBTOW5B?oc=5",
+     "src": "Business Standard",
+     "at": "19 Aug, 08:02"
+    },
+    {
      "title": "Sensex, Nifty surged nearly 4% following announcement of ceasefire agreement between Washington and Tehran",
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLVZNa0dvVmRZbGMwalItYmxmSzh4Q1d2NUZUWDlfWTloTjgyRzk2YjBYclMycDhOWE5PR3lBWG1mbXUxaUd3eHgzTF9XMjlqcEdWZU9qN3oyTXVJWThuM3I5ZVNibk9YaVM0bHFOY3RfV0t2Z2ZoZzlKR3NLbFVma2dtcTgwd00t?oc=5",
      "src": "News On AIR",
@@ -1049,7 +1088,7 @@
     {
      "title": "Stock Market Outlook Today, July 6: Sensex, Nifty May Stay Positive; Q1 Results, Monsoon to Drive Monday Trade",
      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQldTdmU2NVhxaW1tTmtxMW96ZUVSbnNadldpVmdIYjNqTjkzSVh0dGd5bHJBRjhEX3NyUm5Fa3BRd1IyX0xROFR4Tzl6R0hOUmxWOVR3aGJ1WGNLSTFiMHhCSnFVbzY4blQ5VTJvcGxJUGs1aW9CdzROUklneTAxZlhaRzhxSG5FMGxqc0M4cnNxNktPT2lqSlVOYUNJbWRseUJicUpNQWhubXI0cVhpOENiMjZ4QW5aWnZkdW9OcU45SVlxVWRrUmZHaW5fRmFxZXlsSm1sSQ?oc=5",
-     "src": "Goodreturns",
+     "src": "goodreturns.in",
      "at": "18 Aug, 22:09"
     }
    ]
@@ -1059,15 +1098,15 @@
    "items": [
     {
      "title": "Pant's rapid 66, Suthar's double strike tighten India's grip",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMkRVMHBxdjU0U2h4SHViQmVuWVRUVUhsTXZqU1pyeWFGanNKdDY5YW0zNFIyWE1TdzFENUZmNFliT0J6ZERXZTJXQUxaZjlXaDlkY0ViXy04SklITElWNTJOcUFESURpUkZwS1dPQUIzbEdIdkVkNl9xaWtxMWFsWWZ1SGxwVzVTTW93QkdDbXp3S2pnVDU2bmdGclpZOFYyNnZV?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaWs5RHJUMlJmY2dFUDNSdl8wTlkwOEFwX3BjWVRkUzJLR3A1RGw1Uk53QW93UndZMGdIbzlHRkxXd3F1UHRJQnp1SEhyNXRyRWI4OFJHRlV6al9YNndpOU1XN0JJOS1LTzlqc1RSemhJWkhyZk9mSnBQdUNONWhoSzBtLUlCSzBxNzJLZGR4LVp6dndBLW5WVm5pN3JlNFJuUTNBS1U2clhoQnBOb0hlVm91VmJ4YzEzdEt1VUFFWHVGODJEMGNTRzlsaW9NNGtManV6UWdmX1RnUQ?oc=5",
      "src": "Cricbuzz",
      "at": "18 Aug, 18:59"
     },
     {
-     "title": "Rodri signs for Barcelona as World Cup winner transfers from Man City",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVBwTlRUeGRBMGEzbDl0QmMwWUtSUVpCSkhfbjZaem5YdjJMS2stY1pFU0xaRHlqa3JHS01XSmo1cUpIMVpvTnNQenlfQmR0SWV3aGlhcXdvcnFLa1BMMVRzcUN3TmJ0dThMaE4tck81VXNKcXRJa29iN2xZN0ZnaTVwcWRJVURIVWtxTUN6akxBSmFoX0lFeVhaMU5ETkYzVE1TZ1pDLWRtcWJLaFU40gG0AUFVX3lxTE1qeFJ4emR0SDNqd3JlRWlZR2pNWm41OXFzampWdG1EUVpoX1h3aDc5OGZxZE1hMVVLZUdSQ19iQXJlNWVsaFNmQ1lHQUxtNE92MDlQOVVqOHdJdUtJYnp6MlNsbnNBTXVWZ2dldG9KTl9hci1jUkVBandkdGJ4TjUtSmxkbjI0NzA2N1RNQjBSQXpsdGgyY2V3Vmo4cWRyM3VKSGRqM3JkOTRNMjJWeC1YMXRTZA?oc=5",
-     "src": "Al Jazeera",
-     "at": "18 Aug, 23:43"
+     "title": "Rodri seals transfer to Barcelona after seven-year stint at Man City",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHJmMGlHTi1pSjFhc2VNbjJmRjUteENqU04zYWtpOXN2RmVyLXhfZlUwUXJET3RMaHRwVDhONVJWNGU2WEI5Q3NCZEE1YnJvZTMtY2l1dHVlWGVfY3Q2cnhCSEZNS1ptbTI5Wi1WU2tuY2ZRbU5QSjJ4VkNmLXE4N2t6bDlPOV8zUnNzZUtUbnFVWUdGYndTU3RMWmQ3NGNvd01ucHVnbHE?oc=5",
+     "src": "espn.in",
+     "at": "18 Aug, 22:10"
     },
     {
      "title": "‘Ball was on the ground’: Ex-cricketer baffled as Dhruv Jurel catch sparks controversy",
@@ -1076,22 +1115,22 @@
      "at": "19 Aug, 06:35"
     },
     {
-     "title": "TNPL 2026 Match Predictions: VIDA Kovai Kings vs Chepauk Super Gillies, Match 21 – August 18",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbjd4Y3VyTGN5bElIYVg3cGdUSkNTeFpUNDlhYU0tVXJsNGVrSzlocmR3Ymd1T0V2cUx1a0lpN0hLTEZKa3JKUHB4amUxQWQ1bU1zM2hrUTd5aXYxa0JaYzItSmtYZThnbDQzNExfYXJ4RG9ud2JsbzhWbGxCdmtzNjNUNHlTWkdjanZ3bFc2NTVEZjhwLVA4dnl3RTRRR280RG03QmdjaXN0NXJwTUdOTkpwTnZkOFBCZkhzSTV5cXRXdnNpWmJaNXhoSk0wQjF5M0w0WllqeFJBZTJOaDRscFRrdE9QZw?oc=5",
-     "src": "Cricket World",
-     "at": "17 Aug, 14:50"
+     "title": "Latest cricket news, live scores and video",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTUtLUG5XZUlzMmtXT3N4X18wemJYazE1MVpmelZOZ3pLVHViOTZDXzZNdkxadFVZZEJoRU9jczRLaU1acHo2LVV0a0hOTmktNVhIeHNqTzBPTVEtX0xFeGVQVDZrMHgxelI0LW1DQ3c1aFVxZUdDNzQzZFZsa1JLajlCeGJYdGN5RXdrdUhUX2RVYk5tMk11dE9zcWd1b0lQRUE?oc=5",
+     "src": "cricketworld.com",
+     "at": "18 Aug, 19:51"
     },
     {
-     "title": "Badminton World Championships Day 2 Highlights: Lakshya Sen, Treesa Jolly-Gayatri Gopichand Emerge Victorious",
-     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOQUxrcG4xNG85djFSQXI4SmkxUWhnUk11cmcxYVlZb290ZG9fVHA5UFBQeTJtcGhnT2dfUDJQRVk4LTJxNHBrWFZQUU1mQ0duSjZMT2NaOXhXSEdjN1FJak4xZU9hYlRsRDhBcm43S3hTNTBaaERUQW92aHJNdEliZm4wLXNKbWJjTjRXejZYMXlJNzNPVGpTVEpkOHVLcnhlLUZfcmM0RHc5NWEzQ3RYdUd5LWVnUnBZaTJUUGhST05ucUw3TWZCbHJXWnJkaVAzQUxmN3VfMldZN1VuQlRsaUIzd2tqMG1fX1U3NW05LUR6Q2xmZlptSURfM3dkSDR2UTVSM1BMcnduNUVnbS1vM0FUN0ROZw?oc=5",
-     "src": "NDTV Sports",
-     "at": "18 Aug, 19:53"
+     "title": "Badminton World Championships: Lakshya Sen survives scare in opening round",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa1NMTzVFSEpubjZ0Z3libUFsVFhiY25lazhaMHRRdF9NVi1wQ0twaGRUR2Y5VHhCUmdZeVdRbldUd24yVy1CRWxscXNEV0JzNzVHeUh1a2EtVmxqYXdiT2trY2dnS0pGWDYxT3dNYy1IQWQ2ZkZQR1pQRkxhY0p2UTRMR0llb2FIUDZoMUdVa0hkZ0hJdERTN3A5NzExaVloSkdZcFVXa3ExdTJ2ZGVFbzNKc2ZsNW1IWmVLU05SLUY3VUV6cjVLYy130gHPAUFVX3lxTFBUcC1jUDQyR1B2LXZPMVdwcE1UZEFId0xzQ011cU1FZUJselhLYVZoZVRKemJkaHhCOF94VXI1ZWk0Q3RZUGt3dGItcUVBLWU4NnFTYmZMdGFRWVBRTVc3aDljSWVhNU9LRWhmYWlyWXdEeFJ4SUt2STk3cVMxdzRYYUhDSU9VazdCOG05clN5TFg0NXBRR3BYT0NXakk2NEhGWGZCcXg4R0JicjdKVVNBaGRYTWZYb3BSTEFFVlQ0dnRYS0pydVZQMHFyel95SQ?oc=5",
+     "src": "Rediff",
+     "at": "18 Aug, 20:05"
     },
     {
-     "title": "India vs South Africa Highlights, Women's Hockey World Cup 2026: IND 6-1 RSA; Indian team improves GD",
-     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX2tzYWpCM1doZjVwRzJVWG53S0d4bjAzazRkVS02cXlCSjBiSFhqZXFTeFpCMFRIOVRHMnhYeWdoem53NlllY25GOHk4SDFpWFB4OEFVTmY3VWhFVUkwUnQ2eGd1UGpfcUIyU2FVMFhWUU83RzRiS0tnaTdwYllycTFhYldUVkJoWTJyazBJVS1NSldZSHVKZnlDc3pyWjM3UnBwM0Ffb0RJbnNIcnJLT29uQXZjbnBYTnp3dGhwSXo2b0xUUzhmNS1zN29fdXlOc3lBYdIB2wFBVV95cUxOWlM3dHJYNFFGR29xN3VTX2dSU1I2cXRKQktZWmJzbFlGbDFJOTVDb2JqcW1xWE5TWU4wUDdMSFV2VmFiQTR0UVZndFFqUWFUNEk0b3RfY01Xc1RWVFNjTk9pRk04M2Nxa05LN2gxYUhIcUd2T1l4X3ZIWGJYU29OR1Rwa3BDLXExSk9YbTdrVmVLNXZvVVZWZVhPTFJoVUlrTGY4TUg4c1ZxWU90eDU4MkVYSGhWbzdHTmdObjAzUnhDNTlSTlhZRmNRVnBOXzZrdWVXZGFsS0F5cnc?oc=5",
-     "src": "sportstar.thehindu.com",
-     "at": "18 Aug, 20:26"
+     "title": "Rishabh Pant becomes first Indian and fastest to hit 100 sixes in Test cricket",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLWZXdDd4UUV5UHBYeWwxRDZHZDdiNlJkOUtZRnI3VGlUakJzY0k2T2RRbmIyQkFEX3A5VzNJV2tubjFtSmZFSVV1S0VGa0xTbng4d25EWWhZekRpMUtvaXRncXRpUmdWbVZTdFotdHJCNE5CTFdaSXlxTmc4N3BnWFdadGJsMlF3cDAtM3o3LUU2UjR3YVc0X3VOblBENnY4OUFGRV9EdnRDMi0yYzlnRmd5R0ZBYmd6U3hMUXRYSWpESG0tNzFsaGxQM1BUeXFSQ3V3Q244NzfSAd8BQVVfeXFMUGdPZjNyZVU0X0ltdWRUaUdIUXdfZHFvVnJCZFlLbDcySWVsV3JsUmNTQm5DX0k3WFFncmZ3MDB3dzZsWmkxdzVobDN3UklqZmEtdUxrSmI2dFlEVjNUWFc3bU9RbVNvS1RrM2g1dHkxVVFZOFZhNVJtS0Y3dmQ2SFRFUzl6eFFNU1owOWMtTzZYUmxLcm8waEFxWXFTVU1Gd3M3Z0IxUHhpSXplSWNGWEU5bTc5S2QtMGlVVUNTajlPY0lVMC13U0lmaHVpNHA1cHhzMzExZlZQUkhUVUhJaw?oc=5",
+     "src": "The Hindu",
+     "at": "18 Aug, 15:06"
     }
    ]
   },
@@ -1113,7 +1152,7 @@
     {
      "title": "I tested Samsung’s ultimate folding phone – and it’s a good, not perfect, option for AV fans",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTzRqeDYyZDRKLTJaWEFzQm5HQlRvMGRQaEtwbVBGYVFuSHd2bTd4YlVhbHhCejBIZS1neUd4WW9jaVEzWUtKaUFCaWNZbUJHQ2FJbkRVYzlGYVJmZ0lkay1oTnNiMXZrOVBIWmlMYkZydng4MnVJa0N0MW55WkEwQ3BTbHh3dw?oc=5",
-     "src": "whathifi.com",
+     "src": "What Hi-Fi?",
      "at": "18 Aug, 20:08"
     },
     {
@@ -1129,10 +1168,10 @@
      "at": "18 Aug, 23:11"
     },
     {
-     "title": "GTA 6 gameplay and map leaks see DMCA strikes, as confidence grows in their legitimacy",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcTBaQnNUYV9aU0ZJYTJ6SVcyS2ZlZllQZUZMNkZyeVBtb0ptV25EUHlranlEeDlLVVkwcVZEbGxrX25UOGwxZ0FjZWJaSkNjQkptZTFUbDRtdGxxUU05Y0xQRzRZeXJTNDFFWERPdXFFYlZ4QVVyYnJRVkdqWnJ6U0tYQ2tiOHlUZUdUUzA4M0NDUldoTjNtMFY0cGJpRFZUSUo0UjctRENSN1k3eDA2eEpTeWNmZmlISjBoUzRESFJIcnkxMnYtdXl3?oc=5",
-     "src": "Notebookcheck",
-     "at": "19 Aug, 00:43"
+     "title": "Camera-equipped AirPods reportedly edge closer as marketing video turns up inside macOS Tahoe (RC)",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRVhWell1Q0szajVKamJLb0VaR3piaXpqLWtsSWlWNkZmOVV3bW9OVjRYUG1XQmVfSndjMU9KbkozT3k1akR0eUU5OUpUbjc1OE9TY25Lb29oZ3pIbTVTRllGVjVOMXJXaE9wV01LMEdKMVhKOTdmUXgteGVWYWF4N3kzbnFfSzNTUHF1VGQ5OEpFQTZkMk5pWFNDX0JBcXJsMjlQN0dyYWhfNXpuSHVHSGxLQnR0TGFVc0ZrQTNackRCM3JKbkM2UlZEdGtrVkFQTmVzbkRrTmM?oc=5",
+     "src": "t2ONLINE",
+     "at": "18 Aug, 14:44"
     }
    ]
   },
@@ -1142,13 +1181,13 @@
     {
      "title": "Artificial intelligence boosts automated biolabs",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLTgtRTNCY0cwNHd3TGFvWXdvMzk5SmVoOXM5ZWExUEFNOXBxTWN5dkFPT3FUWE1jcU1meFcyUEcwUEVuaUpIMVBSd1haZi1pMjBlQnNjSzVhTVViMGxQWlBfby1JUGVzVTYxMEFudWt6cjdoaFhPbDhEZkZyVmdJbHc1X3pNNFNZWjBhZUkzeVA3M0kxTHlNcEU0Q2RxQWNEUnpv?oc=5",
-     "src": "Knowable Magazine",
+     "src": "knowablemagazine.org",
      "at": "19 Aug, 04:39"
     },
     {
      "title": "Bridging the weather and climate divide with artificial intelligence",
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DbWFQZTZZSXFpZFVuS3NWU2xGaExLX294X0V0c25DUnBlemZNZXczSXVLRTJITkV5YnoyQzlYNlg1bnk0dHd2dHdxZldHSm8zNmlZM0I1YW9nM2JlWXdJ?oc=5",
-     "src": "Nature",
+     "src": "nature.com",
      "at": "18 Aug, 22:26"
     },
     {
@@ -1164,10 +1203,10 @@
      "at": "19 Aug, 05:00"
     },
     {
-     "title": "Artificial Intelligence - Page 2",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sS0c4V1hOYWlsMFU3bjl3M1pVb0tiZHViekFQYVdfR0JBQ1JwbjFJOXVRYkFjWFlsdEExOEdmVHJIWDYxdGJKVlkyd2g1bklZSlljNkF5Q2taYkRBbEUyLWRSaTRLdXhCNE5JbjN1NEVrOEV6SjRMSw?oc=5",
+     "title": "Artificial Intelligence",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTkFmUWdYMU1XeTgzaHBSczZtVDdEdmcxWUtzam9DanFkSmRzRWRYNUt3N01uVkZ0dkdEeno0Y1NPcEN1UFlONDgzaGd5aTVtaUQ0NjNMQTBQMUtpVzh4WlR6UlF5U2NPOEY3bXV6ZVdvanVicVRUXzd5Rks0OXFpOHltV2MtMllXbFJDMUFQWWhMMFJf?oc=5",
      "src": "Yellow.com",
-     "at": "19 Aug, 06:32"
+     "at": "19 Aug, 06:14"
     },
     {
      "title": "AI for Society opens as interdisciplinary journal covering education, governance and AI",
@@ -1205,16 +1244,16 @@
      "at": "18 Aug, 15:45"
     },
     {
+     "title": "India's economic growth to slow to 6.8% in FY27 amid West Asia crisis, El Nino impact: Re",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMExrOHV2RXlyR3dfUWpITklMRVAwaVlfV21nYXlybHc5REhJSnFqQ2ZVTW9ZNEpFWHZFNFJCYW1MMGdBQ1EtY1VwU25xdi1BWjhBcGgzUm50QVdrbEhUY0prLTNFcEVQZzd1WFVZd3FUd280aldrSWkxUEpNOW5rOXZtYThVZVduRHE1Y0JHQngxaUN2d1lxWUJ5U2hxTEk1TUZfY195MGRaRF9zQjVJVGpFbTNHcEthRmFaR1p6T3k1b2N1VDJnTmNJYTJHQXpFbkJQR01CdHYtbUdEaUhPSGNCdlplNjRnMWtZTWxRd0REUdIB9wFBVV95cUxPekNrc05tNVphbHZOV0FMRkYtOWFhSWdsZnRVaEtnbzdvOHJwS1RvNWpmRjY2S25taC0xNjZZT1VZY0EtQnhrb0tDNDV1MV9XaDI3YzV2T3NXOHNvc3RXcjRUVF9LRnhKOFFvWFRNMHBuS0FOQmRVMTVSelYwT2hzRHlOR2E0ZG9oT1d6aTk1VkpkQllONFFmczE1Rk1GOTNjUlpDQjlMY2VMa2FXc2FUYkFtYzlzcTQ5NTFTeTdOZHExWUt0VVJ2ZGtMczlPbER1cWJTRHRaQVo0RjZRTlNLSHNZMjRJMTZQT3dxdDQzdjFfTk4weVJ3?oc=5",
+     "src": "The Economic Times",
+     "at": "18 Aug, 13:24"
+    },
+    {
      "title": "Cash Stays Crucial: RBI Finds Currency Demand Difficult To Forecast Despite UPI Boom",
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQME52OFJFdk82bjJuLW5NQzEyZ3U3N0t6cUg3dWpDYWgzVGNXSS1yeDNVN1d5VkNZUl80OVJxUkV4cnZOWUQzamRVcFN0N2ZaRHc5SDU0TG9DMFVhQ0k0Y29NQnVzdDhWczJWb2QyeGtmWW9TRTM3VF9YT3lrSm9IeFljYWJWd05UNkJSWmJSaHNGdFZrN3FWbmRGa25XSXZaa1Exd3RWWFl2amhlVi1vUnFxZFE1SXZpRy1XMXhfUTBNZ0xHMnRpZ21nSlFOZ9IBzgFBVV95cUxQME52OFJFdk82bjJuLW5NQzEyZ3U3N0t6cUg3dWpDYWgzVGNXSS1yeDNVN1d5VkNZUl80OVJxUkV4cnZOWUQzamRVcFN0N2ZaRHc5SDU0TG9DMFVhQ0k0Y29NQnVzdDhWczJWb2QyeGtmWW9TRTM3VF9YT3lrSm9IeFljYWJWd05UNkJSWmJSaHNGdFZrN3FWbmRGa25XSXZaa1Exd3RWWFl2amhlVi1vUnFxZFE1SXZpRy1XMXhfUTBNZ0xHMnRpZ21nSlFOZw?oc=5",
      "src": "NDTV Profit",
      "at": "18 Aug, 17:41"
-    },
-    {
-     "title": "RBI MPC June 2026 LIVE: Repo Rate Held at 5.25%, FY27 Growth Cut to 6.6%,Inflation Raised to 5.1%",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjJEMTQ5VWtBY3NKcE5HSVpheTZtR05lVDVmN05hTnBydnAxaDRqYXBRRGdvbmlZNk45bUZsNHVGNkVFbHE5bTlZZFQ4MjRIcllvRnRtYzNRZ2hid2RoaTRINkY1S1pUVDBObkhFYUMzMHlVT3lWeER4OGRLaUNidnQxZzJRakRuc25yOF9wTjFHbHh4ZU15a3lqOXVBVEtaUnQyZUlpZ211MjhuWjRobTh2WGVHWlBfOTFsOGY2ZzBHc0I4V1ktcy1lQ0FPTTJWSjh3RV9fMjZodw?oc=5",
-     "src": "Goodreturns",
-     "at": "18 Aug, 08:27"
     }
    ]
   },
@@ -1254,7 +1293,7 @@
     {
      "title": "BS EDIT: Parliament’s democratic deficit",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYU43OU50ZnpwLUUzTkxweEdNaVc5bmhBdWFKb215Wnl3SG9YaU1QOWxBcDJDYVNQWGQwcWVmdHRZdlhoUUM2b0lWM2hsYjFWblNUbzA1MVBDako3YnozZS1BZUpkMGF5SG9jMmhkR2thZTZ4NW81bGMxVFRZN3FXSzY2UWJ5Q2xlY2prNVgxTzlNODFoRHVpamExZ2dLNE41TEHSAaIBQVVfeXFMTmFONzlOdGZ6cC1FM05McHhHTWlXOW5oQXVhSm9teVp5d0hvWGlNUDlsQXAyQ2FTUFhkMHFlZnR0WXZYaFFDNm9JVjNobGIxVm5TVG8wNTFQQ2pKN2J6M2UtQWVKZDBheUhvYzJoZEdrYWU2eDVvNWxjMVRUWTdxV0s2NlFieUNsZWNqazVYMU85TTgxaER1aWphMWdnSzRONUxB?oc=5",
-     "src": "business-standard.com",
+     "src": "Business Standard",
      "at": "18 Aug, 18:27"
     }
    ]
@@ -1265,7 +1304,7 @@
     {
      "title": "Amid fresh layoff reports, Oracle accused of revoking engineer’s job offer twice",
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUHZzZlRKcDFtMVBfYVY5NnFjekhQTDRsOFNYOTZsMFFmU1RXZzZUcXZTLVluRlJvWTlyZUFPLUZJQzBra1gteXNGTVVUMG13ejBHUmZlMEtzc0lCSWtTNUs0TFpPdUdxVUpXTDVPOTJNc2ZJX242NTZyOGRfQ1VTZkI5OUh0ZjVuN1ZKZGhGd2wzSHgxNnFRbWIyVFJycWdGODVPWGNudEQ0eGgzTWZENVB0aU9UUmZSSDB4Uk45RXBwVnBOY2YyQVlBYw?oc=5",
-     "src": "peoplematters.in",
+     "src": "People Matters - HR News",
      "at": "19 Aug, 05:26"
     },
     {
@@ -1357,16 +1396,16 @@
      "at": "18 Aug, 23:21"
     },
     {
-     "title": "US anger as Israel hits Syria airbase",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91TVJMNEJPSzMtS2t5STd4M1Ixa2lFQnMxZG4zczVCZURpWUs5TENfYlN3TlZ5czIwcWVkemoteWpiQTFmNVZTV0U4R09JRmdCWTRjZDBtOUtzejh1NkE?oc=5",
-     "src": "Arab News",
-     "at": "18 Aug, 19:37"
-    },
-    {
      "title": "‘No intention to attack North Korea’: South Korea President Lee after Donald Trump reduces US drills",
      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPamVSYVdCSzc5OU1ySXlhVGxGdk5kSFI5RkFIMmh6cWE3b1F0bTBkOXVvbkgzV2FaSGNDTHNjdXpxTlczTFUwY2pabVZGUzZoc1NFMVR3UjRMMk5DR1NlNmZyS1d5blgwRF9fZTdlRmlVb2hral9ObjN6bnQzVW45VmZPSXA4aEI1cURXbVUxTGhzRlRfRmt3SFlaeHhRT3RMT2VrMjJ4QURCRWNqdmJlSHJyS21mRHR0d3VBUjVEd2FsNDl5aHd5LXlqU09xUXFzY1Y4QlU5alk5S0xpMlZKWFhCcXlNcmJXVkpoc2R3OFRWVkF6OUQ4Ym94Mlg3cFFZTkxrNkVHTnRzMVHSAZACQVVfeXFMTy1VTjF5bDY0Skl4WGVBcnlFaXNWSnBZNW9mOEpsbS1teFZWQ3lwaktXR0lLX01KOVNQY3YzTm9lN1NOYS1LQWNaWEw1NHhjT09MMFZqaHN6b0hyOUlIeWNjU0tNR1kyVW1ONDVBVTdIWUpFUW5NVkx5VklTZGlyWHNoZWFJT2l0YnlsYXFOcE5VOUFuWHIwNF9oeDF3NDJDd2o1NHRLbGZqZEFCWFBVbVI0VzRwVlRFemFFcXlOQzFsU2ZheEZhMlc1WUU0ZEVsRUpmRjh4bFVoSUZpcHhRQV8xbWpKdFdZcXlsbWs2T0VDdXpQX3dhRTVoUGUxTnBZUFppTV9Ga3p0TVAxLVUxR1A?oc=5",
      "src": "The Times of India",
      "at": "18 Aug, 11:02"
+    },
+    {
+     "title": "Fired Ex-Ukrainian Defence Minister Calls For Wartime Elections",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYVJ2MWlFemFaYVUxaTJTTWZQT0VDUnFBc29SaUk3TG50WV9kWTZTYnFYQTBMV1MyTGN6VndybVN1MGtxX0RRVVRwQXgwdzk4MVp3Z2xfRHladENXQjl5emE2dXF6aWZpT2xzay02Q1VtekNFMU94ZnJCdDVNQ290aGNLUWRZeWQ1R0pXc19JT29lS1VZeWNqM2xuVDUwUVZHTUstY3JsdzdyZXEtTjhMTDVmcUJhejZCei1EcmJB0gHGAUFVX3lxTE41X0RDS3NlQ1IxOEkzSVNMYnAtZzV4SDZIOV9vS3BISnNfbGdyRzZMRnBxV0RwV2VEcldPcmNCX1V6TGJVTk00MzYzMmE2TGR2Nm5YX0hrLVQ2cTVfdkVqcVloSXZLN01VMURITWZNMXM1Zm8yMURrcW1QcFFiVGsyZUI0YTlkYS04ZURIYlp2VDJGOGJKNERCWW5SbFAzeUJDLXg2UnJJZVFoblVqSUdub3R0ZE9ZQkJmMTdENF9rZHhUT2ptUQ?oc=5",
+     "src": "NDTV",
+     "at": "19 Aug, 01:51"
     },
     {
      "title": "Houthis Claim Third Attack on Saudi Aramco Refinery in Two Weeks",
@@ -1375,10 +1414,10 @@
      "at": "18 Aug, 16:00"
     },
     {
-     "title": "Fired Ex-Ukrainian Defence Minister Calls For Wartime Elections",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYVJ2MWlFemFaYVUxaTJTTWZQT0VDUnFBc29SaUk3TG50WV9kWTZTYnFYQTBMV1MyTGN6VndybVN1MGtxX0RRVVRwQXgwdzk4MVp3Z2xfRHladENXQjl5emE2dXF6aWZpT2xzay02Q1VtekNFMU94ZnJCdDVNQ290aGNLUWRZeWQ1R0pXc19JT29lS1VZeWNqM2xuVDUwUVZHTUstY3JsdzdyZXEtTjhMTDVmcUJhejZCei1EcmJB0gHGAUFVX3lxTE41X0RDS3NlQ1IxOEkzSVNMYnAtZzV4SDZIOV9vS3BISnNfbGdyRzZMRnBxV0RwV2VEcldPcmNCX1V6TGJVTk00MzYzMmE2TGR2Nm5YX0hrLVQ2cTVfdkVqcVloSXZLN01VMURITWZNMXM1Zm8yMURrcW1QcFFiVGsyZUI0YTlkYS04ZURIYlp2VDJGOGJKNERCWW5SbFAzeUJDLXg2UnJJZVFoblVqSUdub3R0ZE9ZQkJmMTdENF9rZHhUT2ptUQ?oc=5",
-     "src": "NDTV",
-     "at": "19 Aug, 01:51"
+     "title": "US anger as Israel hits Syria airbase",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91TVJMNEJPSzMtS2t5STd4M1Ixa2lFQnMxZG4zczVCZURpWUs5TENfYlN3TlZ5czIwcWVkemoteWpiQTFmNVZTV0U4R09JRmdCWTRjZDBtOUtzejh1NkE?oc=5",
+     "src": "Arab News",
+     "at": "18 Aug, 19:37"
     }
    ]
   },
