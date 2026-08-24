@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-24T12:31:10.514Z",
- "label": "24 Aug, 18:01 IST",
+ "generatedAt": "2026-08-24T12:40:48.913Z",
+ "label": "24 Aug, 18:10 IST",
  "markets": {
   "indices": [
    {
@@ -58,12 +58,12 @@
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 95.74,
-    "chg": 0.04,
-    "pct": 0.04,
+    "price": 95.7,
+    "chg": 0,
+    "pct": 0,
     "spark": [
      95.7,
-     95.7376
+     95.6984
     ],
     "fx": true,
     "ok": true
@@ -71,12 +71,12 @@
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 88.48,
-    "chg": -1.51,
-    "pct": -1.68,
+    "price": 88.54,
+    "chg": -1.45,
+    "pct": -1.61,
     "spark": [
      89.99,
-     88.48
+     88.54
     ],
     "fx": true,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4702.4,
-    "chg": 21.8,
-    "pct": 0.47,
+    "price": 4718,
+    "chg": 37.4,
+    "pct": 0.8,
     "spark": [
      4680.6,
-     4702.4
+     4718
     ],
     "fx": true,
     "ok": true
@@ -226,7 +226,8 @@
      53277.01
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nasdaq",
@@ -283,12 +284,12 @@
    {
     "name": "FTSE 100",
     "g": "UKX:INDEXFTSE",
-    "price": 10831.45,
-    "chg": 14.89,
-    "pct": 0.14,
+    "price": 10813.94,
+    "chg": -2.62,
+    "pct": -0.02,
     "spark": [
      10816.56,
-     10831.45
+     10813.94
     ],
     "fx": false,
     "ok": true
@@ -297,12 +298,12 @@
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 11.53,
+   "price": 11.52,
    "chg": 0.33,
    "pct": 2.95,
    "spark": [
-    11.2,
-    11.53
+    11.19,
+    11.52
    ],
    "fx": false,
    "ok": true
@@ -818,12 +819,6 @@
     "at": "24 Aug, 13:10"
    },
    {
-    "title": "Tempsens Instruments IPO GMP, Grey Market Premium Today",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeXNzVXh6ZGxqdm9tQUxMZk1rOG1PYklkNzllTERvM0lrSzVSalllMTUzMzNIUnBrbUZJZ0lxM1FpS2VHSDdNVXRydTBaUDNZTDdGclRwZUlyQ2RzTnJ2LTZTTzBNRVl3YW1FZEw4WHk5bDBrZEdMRTBfeUthZEtQMA?oc=5",
-    "src": "IPO Watch",
-    "at": "24 Aug, 16:50"
-   },
-   {
     "title": "IPO: Share price band ₹300, GMP ₹313 - Check last date to apply, allotment and listing details",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTFRsbXp4dE9HOXBvbVpneDROX19ndXpzeFZybTVNOUV3NVJfRTM2dXlaSFN3dk95NjNNbnY2SzFtaWpsaXRMeGJYREpXczlCaW1oOUFKelNxV2JLMGNlYXhsa0QxRFJkOWc4MTM5YlF2RXFCS1M1NTh6YjdhZGFoQlJjZllDd0NKa1pEUzF1WXo0YnZ6dW1rbHVwa3dLSFY5WDVuZzFRMGlDUVFCdk1pQ2pWcUgyZ0VuSFdTaEllNkNVNnpMQi1FOXptSHF0bWZ0N0Ewelh4NEV5dG1MZVRhaU5QONIB6AFBVV95cUxQd1R5c3RCUWpFQUVOejZjY090S1VoY2gzS0ZlZ1BfYzIxNGczbEwyOHEwbFI3a0hmczA0LVduM0FPV1NzaDFNV096QlBTNWFvV1UxWk9UY09QVm1sY1VwV1N5Z0JEblVnTjBxZ2Z6X3o4RVlfamRsYlA2VEtKa0dGRjhCT2pBSEhVMUlEWVVwUklXeEQydE0yTFNIbVhvVTFlQ181OTJjOFVTNExhWEtLbXZSUnpNYjRJTUVLWHk5d0hhZkJQQWF0VUhYNFpIQnZLdFZoNUYyY01GOWtPSEcwUjkwZkx3NDBm?oc=5",
     "src": "livemint.com",
@@ -831,6 +826,12 @@
     "f": {
      "gmp": "GMP ₹313"
     }
+   },
+   {
+    "title": "Tempsens Instruments IPO GMP, Grey Market Premium Today",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeXNzVXh6ZGxqdm9tQUxMZk1rOG1PYklkNzllTERvM0lrSzVSalllMTUzMzNIUnBrbUZJZ0lxM1FpS2VHSDdNVXRydTBaUDNZTDdGclRwZUlyQ2RzTnJ2LTZTTzBNRVl3YW1FZEw4WHk5bDBrZEdMRTBfeUthZEtQMA?oc=5",
+    "src": "IPO Watch",
+    "at": "24 Aug, 15:34"
    },
    {
     "title": "Tempsens Instruments IPO Day 3: GMP signals 108% listing gain, but should you bid?",
@@ -883,13 +884,13 @@
    "5/8 sectors green today",
    "Nifty 50 down 0.14% — flat session",
    "Rich valuations: Adani Ent P/E 48.1",
-   "India VIX 11.53 — calm markets",
+   "India VIX 11.52 — calm markets",
    "Global cues: Dow Jones +0.98%, Hang Seng -1.89%"
   ],
   "context": [
    "Broad selling today — most large-caps fell. Down days are exactly when disciplined SIP investors keep buying units cheaper.",
    "Money rotated into Metal and out of Bank. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (11.53) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "India VIX is low (11.52) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
@@ -916,17 +917,17 @@
   },
   {
    "tag": "Sports",
-   "title": "Jaiswal and Asitha penalised after on-field confrontation in Colombo Test",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeEZjWmJjT3NYRGxMaEJXOWFneHF5ODZWZ0Y0aTNtcFZMOWZIUVRQTTdNcFVFMUdJY0RMaTdSS2l4SEVjZThQemZGRmo2ZjZrQnZOZTdpVzVaOHpHa3pZdkFsZ3lBeXpXUlVQX3pxOWdkWmExY2ZKTTY4NFRBWmU1RVA5aFZEVWh2aXFwTk5yMUlDQWpObGNFYlNDeFhmdXdCWkZWanFXMVM0aklwWVUzMXlzQUozSXZlQWk2V0UwSGR0b29wU2poREdKUFljejQwdV95X3AySdIB6AFBVV95cUxOZ0pHbnFEODBMREFpN0xRMW5lbjNHVUxhWnJXRG12YmVkU0JJWW5ndS1aX2RJNzYtd3M3STZhWFFvMDJSc3hNR2NPQXh4NzlrVFNWd0pTRnVZb3VETXVOT1F2NElNYy1ZeVBqa0lnNURxTUJQMzRpdFVMS3ZUM1p6UkFab1Izb2pwZDRtVjN1Y0RPZ3pfTWZ5Nkc0bm16VHBlM1FIWVZ3NjdWenl0M3AyOUFhRjlvVVg3c0RyNDZ4OVFQS0JLbGNrbllWZi1rdjJaMGVOSW5WYUNlV0swSEdVMWpQMmk3ZkZu?oc=5",
-   "src": "Cricinfo",
-   "at": "24 Aug, 15:08"
+   "title": "IND vs SL LIVE Score, 2nd Test: ICC makes Jaiswal pay for headbutt incident; rain halts India's charge in Colombo | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVTJqNWtaSHBab21OemNjeWt6TlpIbmVHTjZWdEw1bUtzOW9UUHhocWxuZW9fRk91eWRJMmlZUllGY2E3WjZOLU9BQ1YybnJMRWtRdE1vYjZsQm1hZGlXbFpReFpxUWZzWTZKZVh4N3RtSU0xd1oyc2JJSE52bzU1WVRuZDVMV2FZenZWQm5GYVZ5T0NwTlNjV2JFMXdSWW14UjZWTWRvQ0Njbk9paVpfNDFabzlnQlFqWkhhSGtmRkVfU3F4MGRCV2d6SWpqVENHUVJyaGJXLVIyM1p5dE1DOTFXZUFyenZUcGNCai04QlRwcGdaMW13dE54Q2RRd9IBgwJBVV95cUxPMzBSVnhMdXhPY211d0Q4OTJ1SkROUDhhMnBkVHZSZV94MGJ4WFRKeVg1ZVVMR29DSTBPVHlsYUhYRll1RVdSbnB4YVlUZlpqQU5CekIzVExZZFNON1RGcGJ6Nl81RDRXeDFjZ0ZwNWdycEJOclI1d3BFRjIyN29VcjhwYV9lSHB0LVVJWEIxa2FFd3dLR0MxS05OQ252Y1VjcjJLQ3pybEphN0M1SjNaVlpsdWd0bG02WmJ3X3ZqdTBpbkN0WWpCWGYyR1pMNDdhdm02eHcwdTg1WG1qZ1hocHFlU2ctMVdRYzJkV2JiWUUzSG1FVzh5V1N0eGlZSFh3MDIw?oc=5",
+   "src": "Hindustan Times",
+   "at": "24 Aug, 15:30"
   },
   {
    "tag": "Tech",
-   "title": "RGB LED vs Tandem OLED TVs: We’ve tested both and here are the differences",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS0NwTGoteGZPdFBrYzNLUWU2bWM0SHQ2enZobmoyclNIckpMTzVWaFZuWk9NVk1BUUdXempQUnlYYjdFTnh4RjhfQkcxMk1PenNyWFUzcnlaU2JEZU5LVFJXSTR2UWxNcThmcWlrekdOeXBJeFZaYkcwMGd4a3lHWkJKRW9xczdKeVo3NEpYMXV4OEtMTkZB?oc=5",
-   "src": "Yahoo Tech",
-   "at": "24 Aug, 13:00"
+   "title": "Buy the Galaxy Z Flip 8 with a storage discount and other perks in the Netherlands",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWHRGRGt4ZTZQQTFwc1FGT3lzNFFReU80eDBCbFgyemZ6Zmo1cUFYOGxaX1ZnOGYybmlnXzhuMFVEa0pydUxBdzluQ0NySHB6UkR5UmtiRDFSNDBvWm9jelN2QWNUd212OHg3WHc2WTNRajhFY2tGeW16dWN2OHFrc3BDZlNpOFMxQkRKUEdHWUFPeFFCcUM0M3BYb28zVkJzeHRmM29FZmR4M1FDVXozSUxDdFg?oc=5",
+   "src": "SamMobile",
+   "at": "24 Aug, 16:42"
   },
   {
    "tag": "AI",
@@ -937,10 +938,10 @@
   },
   {
    "tag": "AI",
-   "title": "Artificial intelligence in action: how AI agents are transforming businesses, public administrations and strategic sectors",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnFsQU5oNkJrSzl5d0p1WDFvQWJkdE53TmlJd0pOX2FWYjhxbzN4cHZka2xZZjVSd1BXd01aOXY4d1ZoTDJhRDd5bk1abHFiSGtsLUdGYmlBUUlLMUp2ZTE5eVhXenBXS1QxU2hadldxTDJ6bjhVTkprUTZ5amtqZWxQODJhbEpaRHpoS3ItRlM?oc=5",
-   "src": "telefonica.com",
-   "at": "24 Aug, 13:00"
+   "title": "Engineering the Future of Healthcare with Artificial Intelligence: Taiwan to lead the Forefront in Asia",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaF9jVGRZRktSUGV1VEY0M2Z1WERDQ3dqSUVZeWZtNkZSMGl3RGs4NVlOWlk3eGMzdEh6ZjJGN1BHZi00RXYtU2N3Zkc0ZXZ5OGpKb3pra0xSZWFhejV5Z3BsYkp1SmJQTUV0NlU4am5ITDRhVmdFRTBqUHRsNE5zZlRtVXcweGp5Zmlqd1pZTmxZM1JWa2xWdkF6Uy15b29yMVprT3hWRGdNLUQ5MWNIQldXWUliQy1BOTFULUFUYU5od1RPMV9OMTJZM3g1WFBwaXZZMEl0aFBiUWRNTHI2VGRTemVqWUJ1?oc=5",
+   "src": "BioSpectrum Asia",
+   "at": "24 Aug, 16:28"
   },
   {
    "tag": "Economy",
@@ -958,17 +959,17 @@
   },
   {
    "tag": "Jobs",
-   "title": "Microsoft engineer claims he was laid off due to age",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORmRNekgwUldYa3g1VzNxZ1IxVVFVRkpTRk05SkN6OU5heW9vcFhnSk0tdExKand3MVVkVkxZU19Wb19KeUROSl9rT2VFTW5Id2hEbHREc09QeEx4cFljanZER1ZMNjF1X0VQUjI4NW9mQlkwcHZENVBvVWtjcGg4NU9BWTNNajFvbjE1bThZb0FkVk1QaWoxNmNjZWVHLWxkS0Z4b2pKb1Q?oc=5",
-   "src": "People Matters - HR News",
-   "at": "24 Aug, 13:32"
+   "title": "AI creates more jobs than it cuts in India, but freshers are losing out, says report",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWWQ2RWFDbFEwNjdOVm9NODB5Vkc1cnl3eU1lU203eHlrdjJObi0zUGtHY1lqQWtuV2hjejl1QktoY3p6VXBqM05za3VwbTJ1aUNxY2F0b1JvNEd3TEt3dGFqWE9abUNzZmoyNjFaRHhCYTNOMXA4VkJFRmV0d2hHUUl5cFJXT3Nta2tJYUF5WGRTZ1Y5SEt0dExRVHl5LXVGZ3hHc3FMUHRxdlM5WDNrX3VlUjdzMjM2eElnQUxGMHcwX1doODc1QTNjem45UXRFejNqdUVoZ0lBQdIB3wFBVV95cUxNc2wzRlYzV3YtbGRUY0dhcXR4MWpnNXVsMDhlY0VQeS1hMXh2TW12RXNvNmxVYnpGNnlhZ2RxZTZnMU12ZWlTMDctbnVnQUZ4OUxkazBNaWUtS2hJQzN2cmJoTHdHNVF1RHdPWjlSbVB0WFpfcTl1dTFYM2diNFVmdFRmNEFVYjVTSTlsbWMzUDM1TTRTZDZhYWhMczhrX3VmYllpQlprdHZZMlpidlhSNEExUTZWZ2h3Y0tUV1BGUXdEOHpJRWpITHZGcl9KSUhxQXhBUkhRdkt3Q3VISVFF?oc=5",
+   "src": "livemint.com",
+   "at": "23 Aug, 22:52"
   },
   {
    "tag": "Crime",
-   "title": "Lucknow Man Shoots Wife Outside Her Workplace, Blames ‘‘Betrayal’’ In WhatsApp Status: What Happened Next",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVENnWGhRRktleEVTVkFzekIyMWhJT0M2anI0dEp0U2tEZEpIQUo0SGR3Rm5SVUdlZmZlZnJkS3QwaVY4UW56a3MwX21IV0VRQ3lSLURRS0ZxSW5kVWk0bkowUUl6dmNSMnZCblp3SEtiOWh1SlRnZG56em83bzVuZlFSeHM3anhRSE5YeENHSnlLOTBMaFNkbXVKbEJ0X2Fpa21JQXBLdk9Qc1F1OGhWOVpBVjFhTTY1SmJTYm10cjBJb250MjhjU3l4MTJrc2VXSFFzdER0bEZvMVZpTEtRMDB3?oc=5",
-   "src": "Brut",
-   "at": "24 Aug, 17:39"
+   "title": "India signs Mutual Legal Assistance Agreement on Criminal Matters with Nepal",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcGtCeDhiUEtLTnVJd3BPZnVOdno4aHhXSGNiOFpaYndTQzNwQ0tTeDYwYWhfUWJNNDVMVnRHUjJ1eXY3MnJ6WVRESWsyUFFhYkdJc0hpc19STC1manRtWkVKSElKaWIzRkN3Y3ZDYXQ4SWt5c0daOF9xQm8zY29RZWdLQ3AxSy0tTFJNRnliRnNfdHBOU3Rhb1otVVZLSDBONjJ0Mg?oc=5",
+   "src": "News On AIR",
+   "at": "23 Aug, 22:22"
   },
   {
    "tag": "World",
@@ -989,16 +990,22 @@
      "at": "24 Aug, 09:47"
     },
     {
+     "title": "Wall St futures under pressure ahead of Bessent briefing, Nvidia earnings",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ3NwdEl3dDVpd2U0dkR2Z2luM1lJMDIwc0xSVlRSN1dqQXVILWluNTBCMWdjeDMzSWRHWjlvMVUzMzJjTEdHQ2ItNkxyTE9SckR0VnhsazVhbUtCXzlwdjRLOEJ2dGJySGo5ZmViUnVaSjMwazRLOEgtOEFXYTZjaUxkXzRiUmZXSlBHdExjV0RKMUFlY0JtenNaLWE2RlNYenhtQk1LUTVwYmNQUUl2d2JZcEQ5YTFLS0wwajg5dm8zZUE5LVZpN3Ewbll2RGFpWWc?oc=5",
+     "src": "Investing.com",
+     "at": "24 Aug, 15:26"
+    },
+    {
      "title": "Gold Rate In Hyderabad Surge: Check Latest 22 & 24-Carat Prices",
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzd0TWF2WUpWaEE3SXdxRmd1WjQ2ZXpHc1pFSmI0bjg0MmNKMmZOTXlONy13M3UwSXBQaXhKR1VFTXRvRGlwUE8zallTUXgyUlBSa3hfc2pnSE9RQ1FMYUxiTWFNRnlicExJR3FHZkt6cUhrMHE0RUhYLS14YkVoak5Qb1dCVThrdl9VVw?oc=5",
      "src": "INDToday",
      "at": "24 Aug, 11:36"
     },
     {
-     "title": "L&T wins ultra-mega Middle East gas project worth over ₹15,000 crore",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQnZjb1VDN2ZWZ25CQXNQUjNBS3cyTVZ1V3BsR2RQSWJtVUk1UUpsMUkxZzBtS3ljMlFIMkZvekZmdzZ3aWdNUjlPVHpDVXBwTW9qa2pzczhuTkoyX2tHVV9LMmNhTGQtcUc1c2lHTGFzeDdmU3lnb2VweTFMNUhpSHV0eXQ0SHZESXBGeUpaWnp6VFBNOXNndFFYbmRHZTZtSEhCckU4QjRiRDdTSnlBTVo2Q201dE5IMExSdk9QQXlJLWVyTTU4MGxsT2ZWQ0FCTEpyaEg2UnBKYmfSAeABQVVfeXFMTXFlM3RUZFVfOS01a2oyZGxWbGJOeXBIOGxfVjFjMGlnY1FITnFxelJLZzF2aW1LT1RITnZQd1ktX2o5UWRJTFdKendyOFZ6bVdnZV9VRUhFRWRRaWNLcTYyNVBwUHFvQll5cWI5UlJjSWozS0o3RlpwUDFYb3RiRXJsSVRLODVtWW03VWlVeEF2QVpXRjZmX2M3OU1QcEwzRkVkbmdNbEIyaHBpQjVINzhyYllBaW40ajFpVHFBajFMVm9RTVR4NXRZcEFSazMtS3EtcVRTazhYaHFxRVVWUnY?oc=5",
+     "title": "Godrej Industries group signs pact to invest Rs 20,000 crore in Haryana",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUEJpTVl6T2czbUtrdlEtZEZxbWlQVnNxak9UN2N5SVFjZmdwRXpESkx3Q0VoNnpXZHRnMy1xaU9xdXp3R1pNc3BIeWw1S1FHeVpuLXpWNXdWaDRGZmJ5UVlKX3JVamREcFYzLXJ3Sl80NlhLQ21tbDN4NzZxV29BMmZfWDBiakNoRWliM2V6WDJhQlNzSThhMGZ2TmZFTzVzbVZzdHRNaXotdG12ZG5sTWZjSVVsNE1UajF3bDlEWUtueF9pSDUwSGNfcG1GZDhobDVSX2lLT2ZKLUd5UzdrQ05KTXZaOE9CbEHSAe8BQVVfeXFMTTdPSlQ2RVZZWks5cG5GemVySk13Tmdjekt1U2I2SmExc0lwVDZoLUwtZ2hUWlJOMU9DZW1uUTFFTGY1OEdZM2xudWt6d1VFSTZkOVNGMmpQb1l1YUwtdExlY1k4UkhFMG16SzNsbTZ4R01Oa2ppdFluRFhsWmJZV3ctSnRIRFc5MlhqVkszZDZrU1NmRmkycmZCd2s0YU1qX3M2WENtM3FQUWQ3My1QM2szTHJnS1k0c3U1aVhyVklHOFRBSGo2MXhtX0owRjJBRDYwRThZd3o5Z0hZU3lRam1wWEpTV2xlMXdMVktmSmc?oc=5",
      "src": "The Economic Times",
-     "at": "24 Aug, 10:01"
+     "at": "24 Aug, 13:23"
     },
     {
      "title": "Hindustan Zinc OFS In Two Weeks; Govt Eyes Rs 5,000 Crore From Stake Sale",
@@ -1011,12 +1018,6 @@
      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNWHZOazFxSUVURXBKODcwZ1IwZ285ajhRTUgwb2U0V29HOEhlMkxHdk1NNGVJYlp5Wm43el9EV2V3a2VVNzU2LVZDZzNkXzFldk9rZmRRSXc3WFhqaHd2U3ZPNlFsUF9YbGwzYm5vUTJDSXJxSEtkbUVUUlNuRlRTTFRZdlBhcFpqRkRDVUEzbjVlQ1U3NW1tWHV6TnRlcGM3Q0V6bng3WmdEMEJzNzZNdlhPUmVQeWpVc012R1M5SnYyWGlNRkF6OFZFcGVlQVNQMFN4RTlGeFJueGhFWDNjZ193ekxlRHlqSjU0bm8xc1lJRzdfck5HSjBn0gH_AUFVX3lxTE8xN25peDZuTDBJZHpOeThtOWNlT00zWWVUVHVoeDFwYVJQbDNRWi1yMlktZFR4V1dkV2Z2eEtsb3FlOEIwME1Xb0wwSkJDX0c3NHhzTXJ6ZFJaSjhndkFVd1p4VGJ0R0R2RExTaV9wZWItTVJHTG5Pb2NTbF9TRFNQdFRwM3ZoT2M2UWpkNGlveUNNanh2ZzZ6ZEQ0T09LRzVYWGt2TXdpNzIyYndVOHJQUlc0cjNyTkhUSVN6MEtCZFZZUkhrdnZWVmlnaTdGME5MeVc1Z2JIbHlpTVFHNkdrS2NIVG1YZEo2d1lJUU5UaFFuXzZGSWMyMDM3X3dDSQ?oc=5",
      "src": "livemint.com",
      "at": "24 Aug, 07:33"
-    },
-    {
-     "title": "Bank strike: Unions call nationwide shutdown over 2 key demands — 5-day work week, PLI scheme rollback; check dates here",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeEt4enQ2NkdlSjVfcGhBNHRoQURxMUhJYy10RXZxQVRGSUxic3JxQklTYnRFbG1Ia1VrYWxLZ2VVODNmWm9adlpfejIwNGQ0SmluV0xlUmpTUTl0b01iZU9tX3dKMXdGZXhIcUtEUVBDODFRYWpDcFdVc1BFVl9PZHlxbDVITXhZbkYyVmFZTnQzcGdUR0VPVUV0ZllEd0Fmc0VLSmg4MHI2cHVlSkZmcTFzdTBEVW5FbW1TXzBGeV9zeUJsUk1jdmZ1bDQ5UGVGbl9GYUxoTi1YWlVIVnh6aE1CekZSSHdFY1o1UGxpakQtYnU4dnJRY3RR0gH_AUFVX3lxTE5PcVg3N0lDUHNUeWtCNUNsWkxoMzRtT3ZweGNrVnpCejhYYV9zemJYRXMteHZCNzg3b0hoV1FudVVrbHlQT25kNFBKT21na1RiQkg2bU9ucndueklOMHFHQ2xHOF9EY3oxQ1dlWl9XaTM1dk9fYVBhSHhaaXVqazdtRTBSQmNFOXhGTEJGN01wam5FN1czcGxKMDZNNkJYaU5tTU85NnhUbjlyWWtBNUR6VEFkVmFKQ2JfUXlRUlkwYXQ4TGItakpValJ2dkhkWXRUdkNnQmJEem5QSkJLMUpER0xIaGFyM281RVFydkN4cUZBTC1Lei1vVWs4eE9Maw?oc=5",
-     "src": "livemint.com",
-     "at": "24 Aug, 08:58"
     }
    ]
   },
@@ -1036,16 +1037,16 @@
      "at": "24 Aug, 14:07"
     },
     {
-     "title": "Sensex falls 172 points, Nifty ends below 24,250 amid Iran sanctions fears",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcGREUFhuRGVoaGM2WE1YUEw2aVV1RnRzUWNwbWdMUGVId05ZMDdRZC1xUXVYckNDS3lOMlJnNVV6T0NuVDB6RmIyUnM4MVdJOEtFR09DaVhIZTZ4LTN4c2lDSG5vcWRzRk4yNFQ3dGoydy01UTg5d3FPajJibktpSEY0a014R0FuUWhtdmpPXy1pVTc0dnBQT3QxV2R6TFlsemtuUmY2QmFaODBickRFTGxnc3I4dGNwLUZxeGlmMXdtUdIBxwFBVV95cUxQeE1oLVVPWEdfVXRjOTZVV0x0WnhQaFMyNjlPQUR0bzRGYl9rT3ZXX3U2UHJvdkU0SnpHcUF1cHJkeGt0X2NMdS1nRGxuNGFVcnpYQUg2aW9hcG8wd0FpNGl4YW5uYzQtZDJiTlNSOVo2Rnp6bG8wcGV3VnVnd0dFV3hRNFpXeGlPcFVBdjhwdjZDdzI1M2VHMmk2MDNUSUZZNVJ3SDNpT215NnpwQk9BTjc4SXMtcUVsb0lwOEpJQ01vM0xLX0dv?oc=5",
-     "src": "Telegraph India",
-     "at": "24 Aug, 16:43"
-    },
-    {
      "title": "Sensex Today Ends 172 Points Lower | Nifty Below 24,250 | Bank of Baroda Down 3%",
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTklkNC04ZmlQUXo1a2g3dVBpS3JHVGljNnVQT3NCLU1TN3lkMW00TnU2OU8ySEQ2bGNIcnYwQW9wSHJnYzFUOGFwX3NmeDFvZTBTVDduLXhkU09Md3piNmRVdUVmQXFXZHNIV255Zzl6R2pHcEdlbjZyaWtEczRmbjh4VTV6YTVjcHlBeWVETEFhZjc1SFFRWTlwTVNLOGdXX3hOandsSXZvakFTaVBzcWdHOEdTdEpMc1FHRmhEMWxDU2lQamFybmxkZzhXNFVSeVAw?oc=5",
      "src": "Equitymaster",
      "at": "24 Aug, 16:11"
+    },
+    {
+     "title": "Sensex falls 172 points, Nifty ends below 24,250 amid Iran sanctions fears",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeE1oLVVPWEdfVXRjOTZVV0x0WnhQaFMyNjlPQUR0bzRGYl9rT3ZXX3U2UHJvdkU0SnpHcUF1cHJkeGt0X2NMdS1nRGxuNGFVcnpYQUg2aW9hcG8wd0FpNGl4YW5uYzQtZDJiTlNSOVo2Rnp6bG8wcGV3VnVnd0dFV3hRNFpXeGlPcFVBdjhwdjZDdzI1M2VHMmk2MDNUSUZZNVJ3SDNpT215NnpwQk9BTjc4SXMtcUVsb0lwOEpJQ01vM0xLX0dv0gHHAUFVX3lxTFB4TWgtVU9YR19VdGM5NlVXTHRaeFBoUzI2OU9BRHRvNEZiX2tPdldfdTZQcm92RTRKekdxQXVwcmR4a3RfY0x1LWdEbG40YVVyelhBSDZpb2FwbzB3QWk0aXhhbm5jNC1kMmJOU1I5WjZGenpsbzBwZXdWdWd3R0VXeFE0Wld4aU9wVUF2OHB2NkN3MjUzZUcyaTYwM1RJRlk1UndIM2lPbXk2enBCT0FONzhJcy1xRWxvSXA4SklDTW8zTEtfR28?oc=5",
+     "src": "Telegraph India",
+     "at": "24 Aug, 16:43"
     },
     {
      "title": "Sensex, Nifty fall as Iran sanctions fears keep crude worries alive",
@@ -1054,10 +1055,10 @@
      "at": "24 Aug, 16:24"
     },
     {
-     "title": "Sensex, Nifty End Lower As Banking Stocks Drag, Crude Stays Elevated",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkh3OGtqeWdnREk3ZE1nazFYZUtLRk9UbDVMRnBxU3oteElsWTZTN0JHX0hNN1hPb2FBbFN5aEtSeVVkV2wtWFVMWmJ1V3l5NFpxakxDTlY0elVvZExnaVEyNmxCLWpUUFFzcWp1ZnZ6V2QwQm91Y0c0Z1VRdzZVLWpsOGtEU3lUdXhWekZtU1FySGdXY1R6Y0NVYUFaSmw4QjhRdUliZnRRUdIBtwFBVV95cUxQemlucDAyRXFmeEhBbVQ2V2UwV3REWktlR1M4Uy12MkJPR2M5Y1pMMnpaREI3QUtFOTQwcjFKTkVTZkVzVkEtWk45UDhNNWhpWWxCV3FoNzZjSDVUaXI1Q3BMcHVXUW03bnNycVZvYW9IRHNYYzJjbzRYbGZLWlNPcExxMlRpQzZIbU1VVjZuYU9PaW5lYWxlLU41MmhSR2RBdDhYTnZvdU9OQVBLNUx6aUFxOTU1WFU?oc=5",
-     "src": "outlookbusiness.com",
-     "at": "24 Aug, 15:58"
+     "title": "India stocks lower at close of trade; Nifty 50 down 0.14%",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNkNEUWR2b0xpOXpiZmdma0Y4SWVZQS1yY1QtX0p2TFlKWTVEXzJNZVhFSnpGNm1VQ25GRy1vRVg4a3JOcXA2dmd2RUhRdnNwMmlZVVo1MzhyTmdaa3lzR3hCcFNxRVBCeWNGb2VKMXFsaGRRMXEzZ2RPRHh3Wm8xY0tCSHIwdUpnWU9ud2hkaVNmLVRZU3VocHh3Q2ZNRllzbndWSWllMkNhcDBGR183bGhPYkFHajh4aVdJ?oc=5",
+     "src": "Investing.com",
+     "at": "24 Aug, 16:00"
     }
    ]
   },
@@ -1065,22 +1066,16 @@
    "tag": "Sports",
    "items": [
     {
+     "title": "IND vs SL LIVE Score, 2nd Test: ICC makes Jaiswal pay for headbutt incident; rain halts India's charge in Colombo | Hindustan Times",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVTJqNWtaSHBab21OemNjeWt6TlpIbmVHTjZWdEw1bUtzOW9UUHhocWxuZW9fRk91eWRJMmlZUllGY2E3WjZOLU9BQ1YybnJMRWtRdE1vYjZsQm1hZGlXbFpReFpxUWZzWTZKZVh4N3RtSU0xd1oyc2JJSE52bzU1WVRuZDVMV2FZenZWQm5GYVZ5T0NwTlNjV2JFMXdSWW14UjZWTWRvQ0Njbk9paVpfNDFabzlnQlFqWkhhSGtmRkVfU3F4MGRCV2d6SWpqVENHUVJyaGJXLVIyM1p5dE1DOTFXZUFyenZUcGNCai04QlRwcGdaMW13dE54Q2RRd9IBgwJBVV95cUxPMzBSVnhMdXhPY211d0Q4OTJ1SkROUDhhMnBkVHZSZV94MGJ4WFRKeVg1ZVVMR29DSTBPVHlsYUhYRll1RVdSbnB4YVlUZlpqQU5CekIzVExZZFNON1RGcGJ6Nl81RDRXeDFjZ0ZwNWdycEJOclI1d3BFRjIyN29VcjhwYV9lSHB0LVVJWEIxa2FFd3dLR0MxS05OQ252Y1VjcjJLQ3pybEphN0M1SjNaVlpsdWd0bG02WmJ3X3ZqdTBpbkN0WWpCWGYyR1pMNDdhdm02eHcwdTg1WG1qZ1hocHFlU2ctMVdRYzJkV2JiWUUzSG1FVzh5V1N0eGlZSFh3MDIw?oc=5",
+     "src": "Hindustan Times",
+     "at": "24 Aug, 15:30"
+    },
+    {
      "title": "Jaiswal and Asitha penalised after on-field confrontation in Colombo Test",
      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeEZjWmJjT3NYRGxMaEJXOWFneHF5ODZWZ0Y0aTNtcFZMOWZIUVRQTTdNcFVFMUdJY0RMaTdSS2l4SEVjZThQemZGRmo2ZjZrQnZOZTdpVzVaOHpHa3pZdkFsZ3lBeXpXUlVQX3pxOWdkWmExY2ZKTTY4NFRBWmU1RVA5aFZEVWh2aXFwTk5yMUlDQWpObGNFYlNDeFhmdXdCWkZWanFXMVM0aklwWVUzMXlzQUozSXZlQWk2V0UwSGR0b29wU2poREdKUFljejQwdV95X3AySdIB6AFBVV95cUxOZ0pHbnFEODBMREFpN0xRMW5lbjNHVUxhWnJXRG12YmVkU0JJWW5ndS1aX2RJNzYtd3M3STZhWFFvMDJSc3hNR2NPQXh4NzlrVFNWd0pTRnVZb3VETXVOT1F2NElNYy1ZeVBqa0lnNURxTUJQMzRpdFVMS3ZUM1p6UkFab1Izb2pwZDRtVjN1Y0RPZ3pfTWZ5Nkc0bm16VHBlM1FIWVZ3NjdWenl0M3AyOUFhRjlvVVg3c0RyNDZ4OVFQS0JLbGNrbllWZi1rdjJaMGVOSW5WYUNlV0swSEdVMWpQMmk3ZkZu?oc=5",
      "src": "Cricinfo",
-     "at": "24 Aug, 15:08"
-    },
-    {
-     "title": "Dropped on 0 and 1, Devdutt Padikkal makes Sri Lanka pay with another century in Colombo",
-     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQeHl6YWJ3ZFBZUjFTNmZ1cEtoRFUxWmw0cFdRY1pDMVpMNHVZa0l2YXBjSmEyZGE3MFRsOVFISWI4YVVQLTM3djFySkNTU0dkcHU4dk5DeTR3NWRjQUVadGFDQkVmNnIxcy1EaVRqbWdYVm5mTUxwbDNDVnBQSFhVNXJqSWdhZ0RhTEpNbVF3eUliRTQtdElUeW44Nmdua1AwOUsyQW9JYTl1cXg0SmR5Z1RSdFByY1F4NDlwcVRFTDI4Qy16Q1pnTVQxQVViVm9ESnltbjRqalRnRk9NS1FoVnJkLTVyMFYzV0JqclM2cjczOXFRUWhxUFJsdFJDN0l5RmNHeXpLNlhleEVYa1NiTw?oc=5",
-     "src": "The Times of India",
-     "at": "23 Aug, 16:36"
-    },
-    {
-     "title": "Cincinnati: Coco Gauff ends title drought in style by dominating Jessica Pegula",
-     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORWw4R0lWUjVhTE5xdXdVOXFNdV9WUXRTVFI1SWpGVE5TX3hSRm9PQjhmemNOdTFiOXFUNllxQW51UlVkU3I5MkhfWF9hRWliNUZNTnVzblBuLUpZd0U1UkhjUUNWT2dOMkdqOGRXX2JXM3JyOWlWYWFQbUpibGRLTXR1Q2RQdEJpREk3eW1BUGZuWkNINHFlSndpbVoxUXZ4YWxqQjExVE5DZkFTX1pQNUtNUDFFQ2RQdEF4MjlhMDN0M0tRNmVjQjgwbnhQOWVlNFRoVnc4N3hZS3lHZUsxR3k4V2g2a01U?oc=5",
-     "src": "Tennis World USA",
-     "at": "24 Aug, 12:29"
+     "at": "24 Aug, 18:03"
     },
     {
      "title": "‘Something wrong’ - Hansi Flick talks Alejandro Balde’s future and Barcelona’s No. 9 search after Elche win",
@@ -1099,18 +1094,18 @@
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMUI2ZVY0Z21jLUFDbFcwb3pqWmItd3BrNUQ4MmZtZVJIbGVmWmJONGJCUEhfZnRoR3VISk9pdG1UU1FrS2Y0YWRfVWxKZUZNLXBrdDNvREdfcGlXeG1pQkdremJoelRIUHJfYkRHdXU5aEloN0kyS2VBTVM2aHo3UWgtMGZJaUtFVTYxVDZJejhia2VuR2VuRXVXd1FGT2RPQVVnRQ?oc=5",
      "src": "NDTV Sports",
      "at": "24 Aug, 08:39"
+    },
+    {
+     "title": "Indian Men’s Team’s slim chance of entering FIH Hockey World Cup 2026 semis depends on complex mathematics",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN2VsekFVSUhHTlAxUXhGRGRHZ2pzSEN5cHZweW1JTnhsajlTWWdmZGRCLURlNVZPQ19zTXFMUEtRV3l5Ukt3dWtDdjJTZnFEbnQ4c2w4cmdlZjNTbW9Ob3VBSmd2N1ZZSGFpMHpHNzlDbTNQVHd4andIb1JNTG9ORDlsZi1oaERPbldVWmcxTEM2Wm84aWlMejRNc3NvUElOb2ViWHl2TFNwNUFKVXZJVmxaNFRTNVFlUUJUMTJwSVVfRVF3ampjaHZ0MDhYUVBjQzhr?oc=5",
+     "src": "Hockey India",
+     "at": "23 Aug, 17:11"
     }
    ]
   },
   {
    "tag": "Tech",
    "items": [
-    {
-     "title": "RGB LED vs Tandem OLED TVs: We’ve tested both and here are the differences",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS0NwTGoteGZPdFBrYzNLUWU2bWM0SHQ2enZobmoyclNIckpMTzVWaFZuWk9NVk1BUUdXempQUnlYYjdFTnh4RjhfQkcxMk1PenNyWFUzcnlaU2JEZU5LVFJXSTR2UWxNcThmcWlrekdOeXBJeFZaYkcwMGd4a3lHWkJKRW9xczdKeVo3NEpYMXV4OEtMTkZB?oc=5",
-     "src": "Yahoo Tech",
-     "at": "24 Aug, 13:00"
-    },
     {
      "title": "Buy the Galaxy Z Flip 8 with a storage discount and other perks in the Netherlands",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWHRGRGt4ZTZQQTFwc1FGT3lzNFFReU80eDBCbFgyemZ6Zmo1cUFYOGxaX1ZnOGYybmlnXzhuMFVEa0pydUxBdzluQ0NySHB6UkR5UmtiRDFSNDBvWm9jelN2QWNUd212OHg3WHc2WTNRajhFY2tGeW16dWN2OHFrc3BDZlNpOFMxQkRKUEdHWUFPeFFCcUM0M3BYb28zVkJzeHRmM29FZmR4M1FDVXozSUxDdFg?oc=5",
@@ -1124,10 +1119,16 @@
      "at": "24 Aug, 14:02"
     },
     {
-     "title": "Garmin Fenix 9 Series Appears in Retailer Leak Ahead of August 25 Launch Event",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GWE5zUlVRSGFzNW9BUUszeDVWV3pBS3E4eS1jbTJfT1poQUtobWhEWGhoSFJVRVp3aVZBUm5QY0VTSWhtU3dleG9vb3lNem8tYUhvVHlidXNkNDdZclN0S3gzbnNsMmtqQWJLNVV3LUxJOXVrNUE?oc=5",
-     "src": "finance.biggo.com",
-     "at": "23 Aug, 23:40"
+     "title": "RGB LED vs Tandem OLED TVs: We’ve tested both and here are the differences",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS0NwTGoteGZPdFBrYzNLUWU2bWM0SHQ2enZobmoyclNIckpMTzVWaFZuWk9NVk1BUUdXempQUnlYYjdFTnh4RjhfQkcxMk1PenNyWFUzcnlaU2JEZU5LVFJXSTR2UWxNcThmcWlrekdOeXBJeFZaYkcwMGd4a3lHWkJKRW9xczdKeVo3NEpYMXV4OEtMTkZB?oc=5",
+     "src": "Yahoo Tech",
+     "at": "24 Aug, 13:00"
+    },
+    {
+     "title": "Garmin Fenix 9 retailer listing reveals three sizes and a big inReach push",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zXzlrRFBMdmo4bi00N1hRdjcxUkI4RVFpZ2hBdG15SmpfUkI5T0RwUEJyRmluT3dMV1FoSzJFYXUzSDFXdzNzV0tneEJsMTViSVZhZXg0akQ3RzNHRTV4T0NJYi1fb0t2c0hoTEdDb3FRc1lEcURoR0pVeEQ?oc=5",
+     "src": "Gadgets & Wearables",
+     "at": "23 Aug, 07:17"
     },
     {
      "title": "Gurman: Early iPhone Ultra testers praise its design, hinge and usability - GSMArena.com news",
@@ -1153,16 +1154,16 @@
      "at": "24 Aug, 17:02"
     },
     {
-     "title": "Artificial intelligence in action: how AI agents are transforming businesses, public administrations and strategic sectors",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnFsQU5oNkJrSzl5d0p1WDFvQWJkdE53TmlJd0pOX2FWYjhxbzN4cHZka2xZZjVSd1BXd01aOXY4d1ZoTDJhRDd5bk1abHFiSGtsLUdGYmlBUUlLMUp2ZTE5eVhXenBXS1QxU2hadldxTDJ6bjhVTkprUTZ5amtqZWxQODJhbEpaRHpoS3ItRlM?oc=5",
-     "src": "telefonica.com",
-     "at": "24 Aug, 13:00"
-    },
-    {
      "title": "Engineering the Future of Healthcare with Artificial Intelligence: Taiwan to lead the Forefront in Asia",
      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaF9jVGRZRktSUGV1VEY0M2Z1WERDQ3dqSUVZeWZtNkZSMGl3RGs4NVlOWlk3eGMzdEh6ZjJGN1BHZi00RXYtU2N3Zkc0ZXZ5OGpKb3pra0xSZWFhejV5Z3BsYkp1SmJQTUV0NlU4am5ITDRhVmdFRTBqUHRsNE5zZlRtVXcweGp5Zmlqd1pZTmxZM1JWa2xWdkF6Uy15b29yMVprT3hWRGdNLUQ5MWNIQldXWUliQy1BOTFULUFUYU5od1RPMV9OMTJZM3g1WFBwaXZZMEl0aFBiUWRNTHI2VGRTemVqWUJ1?oc=5",
      "src": "BioSpectrum Asia",
      "at": "24 Aug, 16:28"
+    },
+    {
+     "title": "Artificial intelligence in action: how AI agents are transforming businesses, public administrations and strategic sectors",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnFsQU5oNkJrSzl5d0p1WDFvQWJkdE53TmlJd0pOX2FWYjhxbzN4cHZka2xZZjVSd1BXd01aOXY4d1ZoTDJhRDd5bk1abHFiSGtsLUdGYmlBUUlLMUp2ZTE5eVhXenBXS1QxU2hadldxTDJ6bjhVTkprUTZ5amtqZWxQODJhbEpaRHpoS3ItRlM?oc=5",
+     "src": "telefonica.com",
+     "at": "24 Aug, 13:00"
     },
     {
      "title": "An exploratory pilot study of artificial intelligence-based instructional program for developing productive thinking skills among female King Faisal University students",
@@ -1270,12 +1271,6 @@
    "tag": "Jobs",
    "items": [
     {
-     "title": "Microsoft engineer claims he was laid off due to age",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORmRNekgwUldYa3g1VzNxZ1IxVVFVRkpTRk05SkN6OU5heW9vcFhnSk0tdExKand3MVVkVkxZU19Wb19KeUROSl9rT2VFTW5Id2hEbHREc09QeEx4cFljanZER1ZMNjF1X0VQUjI4NW9mQlkwcHZENVBvVWtjcGg4NU9BWTNNajFvbjE1bThZb0FkVk1QaWoxNmNjZWVHLWxkS0Z4b2pKb1Q?oc=5",
-     "src": "People Matters - HR News",
-     "at": "24 Aug, 13:32"
-    },
-    {
      "title": "AI creates more jobs than it cuts in India, but freshers are losing out, says report",
      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWWQ2RWFDbFEwNjdOVm9NODB5Vkc1cnl3eU1lU203eHlrdjJObi0zUGtHY1lqQWtuV2hjejl1QktoY3p6VXBqM05za3VwbTJ1aUNxY2F0b1JvNEd3TEt3dGFqWE9abUNzZmoyNjFaRHhCYTNOMXA4VkJFRmV0d2hHUUl5cFJXT3Nta2tJYUF5WGRTZ1Y5SEt0dExRVHl5LXVGZ3hHc3FMUHRxdlM5WDNrX3VlUjdzMjM2eElnQUxGMHcwX1doODc1QTNjem45UXRFejNqdUVoZ0lBQdIB3wFBVV95cUxNc2wzRlYzV3YtbGRUY0dhcXR4MWpnNXVsMDhlY0VQeS1hMXh2TW12RXNvNmxVYnpGNnlhZ2RxZTZnMU12ZWlTMDctbnVnQUZ4OUxkazBNaWUtS2hJQzN2cmJoTHdHNVF1RHdPWjlSbVB0WFpfcTl1dTFYM2diNFVmdFRmNEFVYjVTSTlsbWMzUDM1TTRTZDZhYWhMczhrX3VmYllpQlprdHZZMlpidlhSNEExUTZWZ2h3Y0tUV1BGUXdEOHpJRWpITHZGcl9KSUhxQXhBUkhRdkt3Q3VISVFF?oc=5",
      "src": "livemint.com",
@@ -1294,28 +1289,28 @@
      "at": "24 Aug, 17:44"
     },
     {
+     "title": "Microsoft engineer claims he was laid off due to age",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSHRRZUhUajdWWHJPSmxWUUU0Rm83c1lnalBYV1ZkOFRKS2Jpc0ZER3JvRkJKM0dLcDgwRmRXbVJ2RkhfdDdSZjdQcXN5MEZhUkw1aVIzcm1VTHM4NmVMemdWcTlQYXFUUVhJaEhiX0REdE1pcWMxMjFjY1FZRTk4MWxUNkZmbVI4UVlIMVAyMElMcFhFNlFQZldCb21telI5WmUxTDVJU0hhWjNCbWc?oc=5",
+     "src": "People Matters - HR News",
+     "at": "24 Aug, 09:50"
+    },
+    {
      "title": "Watch: Indian-Origin Techie's Father's Response To Layoff Goes Viral, Internet Calls It 'King Mentality'",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMTBndHhOWXRxRkJuYlNOQnhlTl9icGk0Z1d5ZkFZR01nR0k2cDZZT3BlVGRkUHlRNzRORU5MUlVSdm9aT0xUZm8yM1NHeTlvRjJycFZNdnEweUwtY0Z1RGhaYk9wZUdsNHByMnJ6VTh6aXJYY1hTRUJhR2RuVGxmVzdIVEFVQVN1Sktvczd3Zm1NbEdxWEdyQlBCQnphU0F0eTl2TC00WkZYbDloSVgyYjZheG1RbFNoblk2dlpfdTFTMHJxc0tkM0JCRUlHNm82d0HSAdoBQVVfeXFMTzZSMVVyVEFTMnUybU92Ulg5cHBxcmVfSE5TVDluN2E5NnhicEtNdVZGZjZxOUg2blM3Sl95aHUtUjY2T2xjbVZKQW5LbFA0NklBenZYUG9ZeUhDbDZWaV83RzhQTldZWERBSFhiWEYteTNlTi1lYU5TT2dUMEVDbmpIWlNpcG55S0REQjZjS0xZVVozVmpVNVpsUURxOENrQ0dCdkJDN21UUGdyamJfVHNOVFJjNDd5aVJ2TDJaVFU3Rm5zYzRTRjAzek1CanFNZjd1RFY5cmJyUmc?oc=5",
      "src": "NDTV",
      "at": "24 Aug, 10:43"
     },
     {
-     "title": "SanDisk transfers jobs from Israel to India",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOGdXZkZYLWxlT1VIdHhRN05UeDZJY2VIeE5ueUVjOWRSZ29odVhkN0t4ZVpabjhLZkFlaVdVUjZiWDJ0WWwwdVhtOTB5dUJIRWJpQ3RLWnV1ekVaUUszVkZRQV9xdVpsOUxRdncwQ2FYT2ZpekwzVV80ZTBMMWsxXzNBUTlENHk1czZfYzNra2RVYTQ?oc=5",
-     "src": "Globes - Israel Business News",
-     "at": "24 Aug, 15:49"
+     "title": "KPMG's 400-Job Scandal Shock: Firm Slashes Australia Workforce | Firstpost Live | 4K",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSF9LMWUyUlRKLWFHdmJLS2xXenB3aHctNGw5T3pRVDFYVENkYmRNZFZLZnNiTkJ0Z25sdUhXa09hZGowbW9fSTVGNG5sUVhpTXBfU2tCaE1CUW9aY3BhdU41aWhKZGF5c25TbDdpbE8wZlExNkhfX2wwcG10aEEzVnoyR2VqNHNWSFlzNl9LWnRoWE1vclUyblZtVGZHUm5nTGtKYV9PcVl2TXNtOXZydnk0WnlJeTU1b21OeEVycVAzcWV2VVRMWGhFM0VQMVU1OEtlSFFvRzB5aDTSAdsBQVVfeXFMTUhfSzFlMlJUSi1hR3ZiS0tsV3pwd2h3LTRsOU96UVQxWFRDZGJkTWRWS2ZzYk5CdGdubHVIV2tPYWRqMG1vX0k1RjRubFFYaU1wX1NrQmhNQlFvWmNwYXVONWloSmRheXNuU2w3aWxPMGZRMTZIX19sMHBtdGhBM1Z6MkdlajRzVkhZczZfS1p0aFhNb3JVMm5WbVRmR1JuZ0xrSmFfT3FZdk1zbTl2cnZ5NFp5SXk1NW9tTnhFcnFQM3FldlVUTFhoRTNFUDFVNThLZUhRb0cweWg0?oc=5",
+     "src": "Firstpost",
+     "at": "24 Aug, 13:17"
     }
    ]
   },
   {
    "tag": "Crime",
    "items": [
-    {
-     "title": "Lucknow Man Shoots Wife Outside Her Workplace, Blames ‘‘Betrayal’’ In WhatsApp Status: What Happened Next",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVENnWGhRRktleEVTVkFzekIyMWhJT0M2anI0dEp0U2tEZEpIQUo0SGR3Rm5SVUdlZmZlZnJkS3QwaVY4UW56a3MwX21IV0VRQ3lSLURRS0ZxSW5kVWk0bkowUUl6dmNSMnZCblp3SEtiOWh1SlRnZG56em83bzVuZlFSeHM3anhRSE5YeENHSnlLOTBMaFNkbXVKbEJ0X2Fpa21JQXBLdk9Qc1F1OGhWOVpBVjFhTTY1SmJTYm10cjBJb250MjhjU3l4MTJrc2VXSFFzdER0bEZvMVZpTEtRMDB3?oc=5",
-     "src": "Brut",
-     "at": "24 Aug, 17:39"
-    },
     {
      "title": "India signs Mutual Legal Assistance Agreement on Criminal Matters with Nepal",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcGtCeDhiUEtLTnVJd3BPZnVOdno4aHhXSGNiOFpaYndTQzNwQ0tTeDYwYWhfUWJNNDVMVnRHUjJ1eXY3MnJ6WVRESWsyUFFhYkdJc0hpc19STC1manRtWkVKSElKaWIzRkN3Y3ZDYXQ4SWt5c0daOF9xQm8zY29RZWdLQ3AxSy0tTFJNRnliRnNfdHBOU3Rhb1otVVZLSDBONjJ0Mg?oc=5",
@@ -1345,6 +1340,12 @@
      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdWIweDktX1Bhc3RWaDdtWTZoN2pZOURBb3JJY2lSc1hIaTJWZFNUNE9ubTVMdVI3Q3IxTDRzTTVqczJKNzQ1a3I0bG0weExmTW96QndOaEhqclBzRFJCWURXZGliQlpxeEFJR19zSlhUMHNlN3FuZElXYVhUZ1k3UE1ENDZTUTV0NDFUMkZwQ2FjRGp6bVR4eFFFSXU0UkFXVFM4MlI3YmlzX0V3eTJIdFk1UjltV09EV2FZenI0ODgzQng4NUlQTzNQODRMNU43SXN3RHg4NGYyNUJyREY1YTZLbFc4d3h3OVdIV0x4UG1FdEc1cHNHZ0pR?oc=5",
      "src": "Deccan Herald",
      "at": "24 Aug, 12:21"
+    },
+    {
+     "title": "‘Unlike any in 22 years’: Oregon sheriff describes unusual case as five deaths probed as quintuple homici",
+     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOYVFwdWRCYjBvaGtkYTRzZUdKeFlWczdQUzhRZDlKWDBHN2tiamlVVTg0dkx1SWMweXNxTW9hdTRHcG4xeXgxaDFPU2M0S3ZkMURqZ1FiYzBfSHBTeDZDVVhmOHY4UDFIY3Q5dTgwTHVySC1lODRzajBxMFBjazBvYnJXekJxTy1xUEF0WHRPNFlmQ25VallIS2dlUXNuOHV0ZWhmWkhLdkV0eE16NHVGWll5bTYxYkdsSDdtejhhWUdCODEzM1lxbGdPd0VRczlJNDA0WmxzeGxLbkFPaldOV0otTVV4MmdRbU1IaEtGb0RhRW1JcklaaENjRWhObGVHZGtDZWZB0gGLAkFVX3lxTE8tZ1ZJZ2pDejh3TXFwUUdXLWcxaEN3ZzlpbWdsQ1M5dzBvWlBZdWFQNXlzMXNJUkhYd21Ud2FoZW9Iay1QYk1QYlZ4S1RnRUVpUTJ3NFVfdVYwcVdnUHRJeXhXbWZ1b3c0S29fY3RaRlZUUUhPQkc4STZBRFptYWFQU0ZhbW1pRGFjSkFsc0haaHlEVEo4TUJPN20xeUhlX05iNFRibUM3SHFvRXREWXlBc3FNYzdUTjl3OGYwVWRHbzNNeUU5b2NsVFRKdmlnLXZWY1FsTnlqSUhmaGdsTFdfYTJURnl4TE9icEN4UHhzVml6NTJPeXRDdm10X1VNSFo2TlRvM1o3YVF1SQ?oc=5",
+     "src": "The Times of India",
+     "at": "24 Aug, 10:32"
     }
    ]
   },
@@ -1364,12 +1365,6 @@
      "at": "24 Aug, 03:24"
     },
     {
-     "title": "New Zealand to consider banning children under 16 from social media",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMFloQVg2UTg4RktIeHpoU3BpYW5OVy1ZS05JUmNfVk5WVURPNW83RHVqVGFUZ09FdHY0LW1rR3AxRzlIYmMxNFgxbnFHU3BFMDl4UXczM3hqLV9rb1pOMlB0MXNfWm0tRnhPNng0VjJxYmVEWE1hU0h6RmNFREpSYmdCNjM5dDJDMHV4WVJzVXJZdHRjeDRLcFY1enNhTFB5dG9J?oc=5",
-     "src": "The Guardian",
-     "at": "24 Aug, 10:52"
-    },
-    {
      "title": "Give Imran Khan proper medical care, cricket legends urge Pakistani gov’t",
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHduNTB4RElZaVNvUkJrcENmbEFnbEYxOTg0X3piVHhTd2pCeV9mb1JjeDhjT244TEdPMlBGMVc5STZKOUdJUkE1UVY4MUVINjdmSGhOUkdOaC1VQ21GWk5WRTNlV0U2TE5TNk9Ga2lOeUdmektGVDFoWlkxZF9wQmw1djM2aGhvdVBFdUtfTzJPRm15bnpYUi1xSFh6TmRkRUJXRktydGtMQkRyalY5Qi1rcjbSAboBQVVfeXFMTTlhY0NBdk1lSTVGZWxPRnBBVm5oSmZFbVlNTmdWa3FHekFGclhHcHpVWW1xcTUzMURaY0dRV1k1SnhyZ1hyQ0tfQjFwTXFNSjJxekJobWdTNFBaX3dKMTgxMzM5UWpxMzNyQXhiMnJ2QS1nZWUzeUp0eDk0c2hZdG02MG13LUVUaXRkYmxjeXFfWkwyYXJoWGtZc3hTNllKTjZrVjcxY1JVcjBsVlNvRzB5S3piV1dQeG53?oc=5",
      "src": "Al Jazeera",
@@ -1380,6 +1375,12 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY0lXa0lXbGMzcVFOSjljdDNQNTY4Zkg1WFJlVlY2VFJCT0FtbjR3STdaZTBfMFdiNkhpN3UxLXBTUXR1SHpFNGlSMy1YVmRBNDdYTTBuVlFOTDRJTHBZVlZ3RUFCRkwwNkFWT3hMTGEzWmFtVVFKNGt6WXBVLXQ2UUYtSGt5YmJhUTlHYzNMUzhpZUQ3UUtSYXl2a3NnRjhQMFo5cnZpV084bTdEdnNDMmt30gG3AUFVX3lxTE00UV80TGVvWWZwbkRyNWpIUklTcUxuWkNWSUp1bjRPYU1adDFZZXhQYTBMMTBjOUZQSkdDRjl4TGptT3g4Y3U4UnRxOXBmREluNEtGX3hUdDVZMFhIUFdUSE81d0tpdE84Vmp5Sm50Z1lPM2dxei1iQWFNa3RtZkJMNXdSS1AyRzBXNHczamVpUWNjTFJMNXV2aWNNM0w0NXBVWVJvY3VhR1pnRWFhSF94ZnFnUWMxcw?oc=5",
      "src": "Al Jazeera",
      "at": "24 Aug, 15:15"
+    },
+    {
+     "title": "New Zealand to introduce bill banning social media for children under 16",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONTdXSm9FWElqNHo2dUFNNVJJenhqRDBOV1RXR3N5NHhoMXN5cXZ1TTZORGxpVmhRVS1aVzFCZUoxVk9qMkM5NEF1NFRDX25fMkJycmxaZHNyemJsVkNYRGR3cGcwOXZaYnQxbE9LWUQ1UEROTF9FRDlOOU90cXRQX0ZvMllEeTh3cTBFWmozcWZvQlNmYkQ3M0lDWEttRnNqRVJVUllGS2cxVmtpdk9aNXRqa2U3R3Zua0MzMQ?oc=5",
+     "src": "Reuters",
+     "at": "24 Aug, 09:09"
     },
     {
      "title": "Iran touts regional security bloc, alternative trade to blunt US financial pressure",
