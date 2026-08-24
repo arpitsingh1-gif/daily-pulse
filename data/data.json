@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-24T20:40:51.147Z",
- "label": "25 Aug, 02:10 IST",
+ "generatedAt": "2026-08-24T20:55:50.971Z",
+ "label": "25 Aug, 02:25 IST",
  "markets": {
   "indices": [
    {
@@ -170,8 +170,7 @@
      26339.3
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FMCG",
@@ -184,8 +183,7 @@
      47527.8
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Energy",
@@ -198,8 +196,7 @@
      38335.85
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Metal",
@@ -212,8 +209,7 @@
      13381.45
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Realty",
@@ -226,52 +222,48 @@
      917.1
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "global": [
    {
     "name": "Dow Jones",
     "g": ".DJI:INDEXDJX",
-    "price": 53438.43,
-    "chg": 161.42,
-    "pct": 0.3,
+    "price": 53417.16,
+    "chg": 140.15,
+    "pct": 0.26,
     "spark": [
      53277.01,
-     53438.43
+     53417.16
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq",
     "g": ".IXIC:INDEXNASDAQ",
-    "price": 26040.29,
-    "chg": -140.16,
-    "pct": -0.54,
+    "price": 25980.19,
+    "chg": -200.26,
+    "pct": -0.76,
     "spark": [
      26180.45,
-     26040.29
+     25980.19
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "S&P 500",
     "g": ".INX:INDEXSP",
-    "price": 7659.76,
-    "chg": -14.61,
-    "pct": -0.19,
+    "price": 7652.86,
+    "chg": -21.51,
+    "pct": -0.28,
     "spark": [
      7674.37,
-     7659.76
+     7652.86
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nikkei 225",
@@ -284,8 +276,7 @@
      65528.09
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Hang Seng",
@@ -298,8 +289,7 @@
      25517.33
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FTSE 100",
@@ -312,23 +302,21 @@
      10854.32
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 11.53,
+   "price": 11.52,
    "chg": 0.33,
    "pct": 2.95,
    "spark": [
-    11.2,
-    11.53
+    11.19,
+    11.52
    ],
    "fx": false,
-   "ok": true,
-   "stale": true
+   "ok": true
   },
   "etf": [
    {
@@ -342,8 +330,7 @@
      275.9
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank BeES",
@@ -356,8 +343,7 @@
      594.8
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty Next 50",
@@ -370,8 +356,7 @@
      800.5
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold BeES",
@@ -384,8 +369,7 @@
      133.1
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver BeES",
@@ -398,8 +382,7 @@
      231.86
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq 100",
@@ -412,8 +395,7 @@
      327.98
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "mf": [
@@ -479,8 +461,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 23.6,
-    "stale": true
+    "pe": 23.6
    },
    {
     "name": "TCS",
@@ -494,8 +475,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 16.6,
-    "stale": true
+    "pe": 16.6
    },
    {
     "name": "HDFC Bank",
@@ -509,8 +489,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.2,
-    "stale": true
+    "pe": 14.2
    },
    {
     "name": "Infosys",
@@ -524,8 +503,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.3,
-    "stale": true
+    "pe": 15.3
    },
    {
     "name": "ICICI Bank",
@@ -539,8 +517,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 18.3,
-    "stale": true
+    "pe": 18.3
    },
    {
     "name": "SBI",
@@ -554,8 +531,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.1,
-    "stale": true
+    "pe": 11.1
    },
    {
     "name": "Bharti Airtel",
@@ -569,8 +545,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 40.5,
-    "stale": true
+    "pe": 40.5
    },
    {
     "name": "L&T",
@@ -584,8 +559,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 33.9,
-    "stale": true
+    "pe": 33.9
    },
    {
     "name": "Tata Motors",
@@ -598,8 +572,7 @@
      313.55
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "M&M",
@@ -613,8 +586,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 20.7,
-    "stale": true
+    "pe": 20.7
    },
    {
     "name": "Maruti Suzuki",
@@ -628,8 +600,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 29.8,
-    "stale": true
+    "pe": 29.8
    },
    {
     "name": "ITC",
@@ -643,8 +614,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 16.9,
-    "stale": true
+    "pe": 16.9
    },
    {
     "name": "HUL",
@@ -658,8 +628,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 31.8,
-    "stale": true
+    "pe": 31.8
    },
    {
     "name": "Sun Pharma",
@@ -673,8 +642,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 37.9,
-    "stale": true
+    "pe": 37.9
    },
    {
     "name": "Bajaj Finance",
@@ -688,8 +656,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 33.1,
-    "stale": true
+    "pe": 33.1
    },
    {
     "name": "Adani Ent",
@@ -703,8 +670,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 48.1,
-    "stale": true
+    "pe": 48.1
    }
   ],
   "gainers": [
@@ -720,8 +686,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.3,
-    "stale": true
+    "pe": 15.3
    },
    {
     "name": "Sun Pharma",
@@ -735,8 +700,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 37.9,
-    "stale": true
+    "pe": 37.9
    },
    {
     "name": "HUL",
@@ -750,8 +714,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 31.8,
-    "stale": true
+    "pe": 31.8
    },
    {
     "name": "Maruti Suzuki",
@@ -765,8 +728,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 29.8,
-    "stale": true
+    "pe": 29.8
    },
    {
     "name": "HDFC Bank",
@@ -780,8 +742,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 14.2,
-    "stale": true
+    "pe": 14.2
    }
   ],
   "losers": [
@@ -797,8 +758,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 33.1,
-    "stale": true
+    "pe": 33.1
    },
    {
     "name": "Tata Motors",
@@ -811,8 +771,7 @@
      313.55
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "SBI",
@@ -826,8 +785,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.1,
-    "stale": true
+    "pe": 11.1
    },
    {
     "name": "TCS",
@@ -841,8 +799,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 16.6,
-    "stale": true
+    "pe": 16.6
    },
    {
     "name": "Reliance",
@@ -856,8 +813,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 23.6,
-    "stale": true
+    "pe": 23.6
    }
   ],
   "breadth": {
@@ -873,6 +829,12 @@
     "at": "24 Aug, 21:58"
    },
    {
+    "title": "Sumax Engineering IPO Date, Price Band, GMP, Subscription & Allotment",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ocW11aWpTcnh2U2c2Yk5yN2tTRElMSmx4NFFMR1NBMWljclBQTldOSE9JX0hqbTU5TEt6ZDNYd1lfQUNFQzZKc0o2N21YbWducUtQcFpKWVh6WDIwYWR5d3JJLWVDdw?oc=5",
+    "src": "IndiaIPO",
+    "at": "25 Aug, 01:35"
+   },
+   {
     "title": "IPO: Share price band ₹300, GMP ₹313 - Check last date to apply, allotment and listing details",
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTFRsbXp4dE9HOXBvbVpneDROX19ndXpzeFZybTVNOUV3NVJfRTM2dXlaSFN3dk95NjNNbnY2SzFtaWpsaXRMeGJYREpXczlCaW1oOUFKelNxV2JLMGNlYXhsa0QxRFJkOWc4MTM5YlF2RXFCS1M1NTh6YjdhZGFoQlJjZllDd0NKa1pEUzF1WXo0YnZ6dW1rbHVwa3dLSFY5WDVuZzFRMGlDUVFCdk1pQ2pWcUgyZ0VuSFdTaEllNkNVNnpMQi1FOXptSHF0bWZ0N0Ewelh4NEV5dG1MZVRhaU5QONIB6AFBVV95cUxQd1R5c3RCUWpFQUVOejZjY090S1VoY2gzS0ZlZ1BfYzIxNGczbEwyOHEwbFI3a0hmczA0LVduM0FPV1NzaDFNV096QlBTNWFvV1UxWk9UY09QVm1sY1VwV1N5Z0JEblVnTjBxZ2Z6X3o4RVlfamRsYlA2VEtKa0dGRjhCT2pBSEhVMUlEWVVwUklXeEQydE0yTFNIbVhvVTFlQ181OTJjOFVTNExhWEtLbXZSUnpNYjRJTUVLWHk5d0hhZkJQQWF0VUhYNFpIQnZLdFZoNUYyY01GOWtPSEcwUjkwZkx3NDBm?oc=5",
     "src": "livemint.com",
@@ -886,12 +848,6 @@
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWGVxUnBfa3h4R1pXaVA5VVhibDZGdzc4YUlCcnMzY3BzRURLbGpHQTBleC1LdWJGRWVjMVJSSENmVGlGRkRQZlBZc29PMUgwcnFsWHoyUEJYaVQ3b2w3MUJ5cFQ2R1I1S2tDNzV5WG1pbmlLWl81RE1XM1l4UXFFYXliLWk1Z2hvemkxRTJUeWVORkhBS3pXX3NobXF4UXRNZ3JJc0xKRDFFb1NWTEdrbTd6RWRxWDNpSEQ1OU55NHM4Z1VXQjFfTjBROHROU2FCS2RTUXpHcWNPeFpQX19tZnMzdFNKTjgzY3Z0SjNoUHB4d9IB9wFBVV95cUxQcTJtOGxwYXF1Y1BMUGVORDhiZ1NnSTlHdWs5eFJuOHBTYW1uUXhoYjgtTnZyT1NITlh2YjF0YjF4ZUctVW95UllTTjh6cEZWRlNXblQybzk5OXJxc0ZFUXJ5a3pLU2JTSmJyc3VuZlBJb1p2R01GdkZQaFRWVTBFVERQS1pLR2VOUDkyaE50R3VDY1dfWnVUb3FjTF9uazVZMG9XUGxBX25FVkhjT0I0NkctN2VndFhJSDNJcnpTQ2pYRWpfdzNIX25vUnJQdENDNGVTTWlyU3Bhc2ZBSFZlbkpHOFVlYUN6V2NOVkc2dVA4Z0g1MEdF?oc=5",
     "src": "India Today",
     "at": "24 Aug, 13:24"
-   },
-   {
-    "title": "Paluck Technologies IPO Date, Price Band, GMP, Subscription & Allotment",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pRnYyNERCTnk0dFVhaWI5SDRMMkdHMTd5YW9YZ2RCTTBJZjJVTmx1dy1USW1nVlV4WXBHQUR6c2g3NlFISDR0aDZqaDJrTDV0bUFTdTZ6dEFjVF9wWUx5UTV5bDBfSEh4?oc=5",
-    "src": "IndiaIPO",
-    "at": "24 Aug, 12:56"
    },
    {
     "title": "Tempsens Instruments IPO subscribed 184x on Day 3; GMP signals strong listing gains",
@@ -941,13 +897,13 @@
    "5/8 sectors green today",
    "Nifty 50 down 0.14% — flat session",
    "Rich valuations: Adani Ent P/E 48.1",
-   "India VIX 11.53 — calm markets",
+   "India VIX 11.52 — calm markets",
    "Global cues: FTSE 100 +0.35%, Hang Seng -1.89%"
   ],
   "context": [
    "Broad selling today — most large-caps fell. Down days are exactly when disciplined SIP investors keep buying units cheaper.",
    "Money rotated into Metal and out of Bank. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (11.53) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "India VIX is low (11.52) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
@@ -974,17 +930,17 @@
   },
   {
    "tag": "Sports",
-   "title": "Jurel ton, early SL wickets rubber-stamp India's dominance in Colombo Test",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd0F4VFB3MnJTRHdDWldacWtJRU02Q2hvVEhVYjhvVWU3bkhjd1ZsZlNweTNyeFM3OTlMMm81YThfdVdSN0F4SHBlazJPYmlvQ3ZaSFJiQUxoMG5SY2ZxRUpyQ1didjJEZGFnOHlUcnZPT3EyNV9ITF9MSGtubUVlUHgwZjdvbzRRMzdZNV9pUEUxNHNEdnBLQ2t1TUZNdk0zV2ttbl8ycVZEbHNDQVBWd2ZvU3hQWG90YXR2SzRwSlhMajZYWG1WSQ?oc=5",
-   "src": "Cricbuzz",
-   "at": "24 Aug, 21:48"
+   "title": "India vs Argentina Highlights, Men's Hockey World Cup 2026: IND 3-5 ARG; Harmanpreet and Co. knocked out",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTkxSdFZXcTNqQW5mbkxWUHBEVmFLUkdFamNnVV9jQnVkUXY0dndfN042TEFVQW83bjQ2cUljajIxMnZsUjhQZ3BnTjA3b1BkME0zMnpSSXVnUDg5bUlGQkhBaUJvdnhUTHgwR0EtUjF6XzRBOU41UmxNTWlYdV82ZDh1YWh3NklDYllqTzVzbEttUVlsSnF3NkFDRXBOM1pWd1piLWljeE5SLUYzbEN3a3phUXFWNllEUGxFNVc1LVctMUhXN29WLXdhWlY3dWlmeGNoZmRn0gHcAUFVX3lxTFBqbk1yTTllTndZVk1sbUlMekpEU3hIdTl0YjZ3b1F2ZC1qLVNoUEx0d25IYjRkZThYQ1RlaTU1OGtHaDlfdjVHRXpvb080RlY0VGZkLWVrMGpyWHBRRDhMOTdqZkxFVVBlcW1vRWprVjhtR3l3amdrV05TTWNybUZHN205NE9ibjNzSDhwX2tFaHNad2NnYkx0ejZGVlhVSkoyd2lJbGx5OVNGaUZrcWVoQlpvcllZWGZDMFJCMVliT1l2Vzl5QjU1N2hrNDRoVUZRTTExRzhMZHgySE4?oc=5",
+   "src": "Sportstar",
+   "at": "24 Aug, 20:01"
   },
   {
    "tag": "Tech",
-   "title": "Garmin Fenix 9 Pro said to feature brand-new titanium unibody design and larger display",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOc1J0X3dFdXVndDJfZWpFempnQ1FXZWxSNWI0a2lMYlBCNVQ5WjRmci1QQUQzV2RuczFQYVlxWU5SQjQ5Q1RyRXRYZ2VGUHZHYmxDQmxXU0VsMzBWLU91akgyNjc4UEtLdEdab0NWUXlfVVlrSkpvLWtHU3BpUlpyV0t1LU1BMHNKYTRPVDJ2X0FseXlEenlIdkdGZzRaNDhYYXN0enRvNWhPYVZLY2hId21UbXA2eWltR1ZMa3ktbndUbFRhMjhBSk5NTUs?oc=5",
+   "title": "Garmin Fenix 9 (Pro) leaks in pictures, including AMOLED and solar MiP versions",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWktZX0d1WWVONEFPVTA3NXdlb3h6VlZjVXVFbmZtR1g0c0Q0dmVuN1MwMGt1dnU3bVNjMERFNHJHcUdqQTBockYxQmFRUWk1enBXdUQ0VGRBR0hMcXlrOV82aktvQTdJRENrUmJsTU5YTjhldXhXd1R0dHJEX096aHZsdEo5TGczS04zU19uV0IzNWZxWTlkVUVXcXZobzNkbWlzMFk3ZGxSY3Z4VFdCTWx6cVVjSUVIYlNObTJR?oc=5",
    "src": "Notebookcheck",
-   "at": "24 Aug, 18:46"
+   "at": "25 Aug, 00:10"
   },
   {
    "tag": "AI",
@@ -1030,10 +986,10 @@
   },
   {
    "tag": "World",
-   "title": "'Sever Every Economic Lifeline': US Announces Explosive Sanctions Against Iran",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamdXZlVCZnhYamhPb3A1a3hBOGdXU2ZHMFF1ODFwbHdyRk5ySnNuSllLOUtaOW5yMnVRYkdaZlF0emM4NEI5bUp1bzMtMlg3TWNDNjBZMkxWVHRxX1c4azF5N2JIcFJvU0pxVWxVSFJxc2JwNWszZWZlQlFaZEJIR3NDWGhLdkdJWGlYdkVxM1JyMnJlRmxybWxsZTJ3dDF5aHhWcHlMX2xYbUdPcGZVWjM2YjJQUjVSLWVRa2hlVF8?oc=5",
-   "src": "NDTV",
-   "at": "24 Aug, 22:50"
+   "title": "Iran’s rial currency hits new record low as U.S. prepares to announce more sanctions",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYWVsM0Jxa3dEXzFFVGV5elM1NHFWZGVxSmY1NTNxOTJyQjJuR1EzWGZrM010YTlYaFYxekdHSkctVGltY1hUdGUtZTlJbTY0ek1rVHYtQkxLaHQ3b3VtNVRub2M5eC1EcWFaTEI2a3c5aHYyT0VSQXpDSEV3bXo1WWo2aEJJVTJ6cm5uY0NOS0FZT1dYYUhGU05TOEVtSHljQ3NLWlYzbEJ2YkhfckhMVExUWmpGMjJjZlJFcE5LaUh3OUFPNEs2WEl0TUdoMDVqM29HdHdtMVlpaHdSbkHSAeQBQVVfeXFMUDRtNW9FNVdEZ3U4TU1Fb2FVR3BnenpMVXFROXZJdDM2VUpKc2cxZVJncGphNnBSUFBlYTd3YnhsOUxRTHZhUUpsZzhmQ0tmdWxKVjY3SVNTUFdKVVpKUHNfQ3Z4dTNSbnJrUzJsNXhUb2UyQ1kyYkhwYXFmQzFsR1haeFFHWndaeHN1MmdjMER1S2lQemhIZF9kT254czQyeWFMTldLRzVHV0RINWFzc3NuQ3lRaVpaaW8yQ04yRzROUGVra01TbERwanM5aTlFc084QTV4THRSV3RZNTFlSFRkNGg3?oc=5",
+   "src": "The Hindu",
+   "at": "24 Aug, 17:07"
   }
  ],
  "browse": [
@@ -1045,12 +1001,6 @@
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQi1WcUl5Q0FFRlRFVDN5TmtYV3dBUHpvYUhCRDJkSHdJNXotcnNMUjNMS1ljQ0VWMHJTbXQzRlZZUm91Q09oSXozRW5LZmc2V0dSdS01cVRMb3pseW0zNVUyc3RtMXJpckVVVV9yc1FDZngwV2tfaE83UWJKVnlnNHZxYVIzNG9yRzB2M0pfZ3dTa3BuWHc?oc=5",
      "src": "Reuters",
      "at": "24 Aug, 19:15"
-    },
-    {
-     "title": "One of America's biggest investor, 'Big Short' Michael Burry has dumped all his Alibaba stock and is buyi",
-     "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPb0RGZ0pPOWctZ0cyWmZiT29JRWQ0bEV4elM0QU1xbkFZSnhPbjRPWlV4VEpyX3RMSGhQMTktQVN5YXhVMWxOZ01DaUctSXZDMFh3OEhBWVF0THFmNWhGcndfV3RsMkRtenlOZ1dZUGU4dS1uYzRWZGJnWWc0cDFqcFlWNHlweVdwcUctTmxLSjRqNTJJMUxTTVNQalduN1VhcWRlamlaNXpCWDFGM1ZDbVBNT19CZmJzMHNoRDFWZkhabzhTYUxlWmRQTG5ZWjh5MlJ2Z2FZWXdqcHE0M1RKX2s1c2V5eS02UjUtZnRBYk1Td25TYU41UnVHaHR5TFVIVlJPcnJBTnU0SUEyTWx4SG1kX2VFRlNUWWpnTmMtbXJZaUR1UmJ2cExGQlpfZHFuV3pB0gG4AkFVX3lxTE81MTdYalYxY010QWlPNkVRUTNsdmpZaGdtbVZVbjMxNUdDb0dINkFjbnBoaGc0X0RkbGZJVkFFSEE1T0F2X0p2QklIV0R1bGNSVnI4ZTBCY1V1eWdFMVdKX3NOZmdnZnFrbGFLMGI1N1hscGNRa0lrYlF2QkNraklTU2R3aUVfQnh3bEVpc0k1VlVzUGVjVGlib1JpY0lFRkVpUkVSV0tEbkxWVEl1SWhnaFFvdDBLR1VkcTlieWdqNC1yRXpYdm40ZFZ4NS1VYk5TSzdQT29KY3g4VXNjRUxpZEFvTXVjLTdhdnBoZldsR3hPekRPMEJoN3pKdjZXLUFUYWVSd1I0RXpSSUp1MF9OTnZnUFVqYUowRl9NejZEVWFNQmk3dVI5S3JRSURUVl95TEdUZDRsSg?oc=5",
-     "src": "The Times of India",
-     "at": "24 Aug, 15:24"
     },
     {
      "title": "SoftBank sells Rs 2,888 crore worth shares in Lenskart; Societe Generale, Goldman Sachs, Motilal Oswal...",
@@ -1074,7 +1024,13 @@
      "title": "After exit, will former Tata Sons chief Chandrasekaran get a place in Modi Cabinet?",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZGdacWNMWWI4RElRLXA1aWo3bDBXRGJaLTZJVWxKUWNTTW5UcHpNa2J5dkgtdmoxYjVIeEdVMGZJbmx5aDlvS2RqdFJNTW00Q2dnYUoyaTlKYVBPV1RadnM4NVBwVVdZQmVDX0tybXBMczhJQk11Y3dsWlBhdXpXUVdYX1NQUnk2QnZJWklSRXVDZ0NhdnFzYjdLRHNyMnQ0SmpEWjdONWJMY1hoQl9XQld4V0RBSDdOZS1tVQ?oc=5",
      "src": "Whispers in the Corridors",
-     "at": "24 Aug, 23:13"
+     "at": "25 Aug, 02:13"
+    },
+    {
+     "title": "One of America's biggest investor, 'Big Short' Michael Burry has dumped all his Alibaba stock and is buyi",
+     "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPb0RGZ0pPOWctZ0cyWmZiT29JRWQ0bEV4elM0QU1xbkFZSnhPbjRPWlV4VEpyX3RMSGhQMTktQVN5YXhVMWxOZ01DaUctSXZDMFh3OEhBWVF0THFmNWhGcndfV3RsMkRtenlOZ1dZUGU4dS1uYzRWZGJnWWc0cDFqcFlWNHlweVdwcUctTmxLSjRqNTJJMUxTTVNQalduN1VhcWRlamlaNXpCWDFGM1ZDbVBNT19CZmJzMHNoRDFWZkhabzhTYUxlWmRQTG5ZWjh5MlJ2Z2FZWXdqcHE0M1RKX2s1c2V5eS02UjUtZnRBYk1Td25TYU41UnVHaHR5TFVIVlJPcnJBTnU0SUEyTWx4SG1kX2VFRlNUWWpnTmMtbXJZaUR1UmJ2cExGQlpfZHFuV3pB0gG4AkFVX3lxTE81MTdYalYxY010QWlPNkVRUTNsdmpZaGdtbVZVbjMxNUdDb0dINkFjbnBoaGc0X0RkbGZJVkFFSEE1T0F2X0p2QklIV0R1bGNSVnI4ZTBCY1V1eWdFMVdKX3NOZmdnZnFrbGFLMGI1N1hscGNRa0lrYlF2QkNraklTU2R3aUVfQnh3bEVpc0k1VlVzUGVjVGlib1JpY0lFRkVpUkVSV0tEbkxWVEl1SWhnaFFvdDBLR1VkcTlieWdqNC1yRXpYdm40ZFZ4NS1VYk5TSzdQT29KY3g4VXNjRUxpZEFvTXVjLTdhdnBoZldsR3hPekRPMEJoN3pKdjZXLUFUYWVSd1I0RXpSSUp1MF9OTnZnUFVqYUowRl9NejZEVWFNQmk3dVI5S3JRSURUVl95TEdUZDRsSg?oc=5",
+     "src": "The Times of India",
+     "at": "24 Aug, 15:24"
     }
    ]
   },
@@ -1123,16 +1079,16 @@
    "tag": "Sports",
    "items": [
     {
-     "title": "Jurel ton, early SL wickets rubber-stamp India's dominance in Colombo Test",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd0F4VFB3MnJTRHdDWldacWtJRU02Q2hvVEhVYjhvVWU3bkhjd1ZsZlNweTNyeFM3OTlMMm81YThfdVdSN0F4SHBlazJPYmlvQ3ZaSFJiQUxoMG5SY2ZxRUpyQ1didjJEZGFnOHlUcnZPT3EyNV9ITF9MSGtubUVlUHgwZjdvbzRRMzdZNV9pUEUxNHNEdnBLQ2t1TUZNdk0zV2ttbl8ycVZEbHNDQVBWd2ZvU3hQWG90YXR2SzRwSlhMajZYWG1WSQ?oc=5",
-     "src": "Cricbuzz",
-     "at": "24 Aug, 21:48"
-    },
-    {
      "title": "India vs Argentina Highlights, Men's Hockey World Cup 2026: IND 3-5 ARG; Harmanpreet and Co. knocked out",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTkxSdFZXcTNqQW5mbkxWUHBEVmFLUkdFamNnVV9jQnVkUXY0dndfN042TEFVQW83bjQ2cUljajIxMnZsUjhQZ3BnTjA3b1BkME0zMnpSSXVnUDg5bUlGQkhBaUJvdnhUTHgwR0EtUjF6XzRBOU41UmxNTWlYdV82ZDh1YWh3NklDYllqTzVzbEttUVlsSnF3NkFDRXBOM1pWd1piLWljeE5SLUYzbEN3a3phUXFWNllEUGxFNVc1LVctMUhXN29WLXdhWlY3dWlmeGNoZmRn0gHcAUFVX3lxTFBqbk1yTTllTndZVk1sbUlMekpEU3hIdTl0YjZ3b1F2ZC1qLVNoUEx0d25IYjRkZThYQ1RlaTU1OGtHaDlfdjVHRXpvb080RlY0VGZkLWVrMGpyWHBRRDhMOTdqZkxFVVBlcW1vRWprVjhtR3l3amdrV05TTWNybUZHN205NE9ibjNzSDhwX2tFaHNad2NnYkx0ejZGVlhVSkoyd2lJbGx5OVNGaUZrcWVoQlpvcllZWGZDMFJCMVliT1l2Vzl5QjU1N2hrNDRoVUZRTTExRzhMZHgySE4?oc=5",
      "src": "Sportstar",
      "at": "24 Aug, 20:01"
+    },
+    {
+     "title": "Jurel ton, early SL wickets rubber-stamp India's dominance in Colombo Test",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd0F4VFB3MnJTRHdDWldacWtJRU02Q2hvVEhVYjhvVWU3bkhjd1ZsZlNweTNyeFM3OTlMMm81YThfdVdSN0F4SHBlazJPYmlvQ3ZaSFJiQUxoMG5SY2ZxRUpyQ1didjJEZGFnOHlUcnZPT3EyNV9ITF9MSGtubUVlUHgwZjdvbzRRMzdZNV9pUEUxNHNEdnBLQ2t1TUZNdk0zV2ttbl8ycVZEbHNDQVBWd2ZvU3hQWG90YXR2SzRwSlhMajZYWG1WSQ?oc=5",
+     "src": "Cricbuzz",
+     "at": "24 Aug, 21:48"
     },
     {
      "title": "Duleep Trophy: Abid Mushtaq, Arshdeep Singh help North Zone surge ahead",
@@ -1164,16 +1120,16 @@
    "tag": "Tech",
    "items": [
     {
-     "title": "Garmin Fenix 9 Pro said to feature brand-new titanium unibody design and larger display",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOc1J0X3dFdXVndDJfZWpFempnQ1FXZWxSNWI0a2lMYlBCNVQ5WjRmci1QQUQzV2RuczFQYVlxWU5SQjQ5Q1RyRXRYZ2VGUHZHYmxDQmxXU0VsMzBWLU91akgyNjc4UEtLdEdab0NWUXlfVVlrSkpvLWtHU3BpUlpyV0t1LU1BMHNKYTRPVDJ2X0FseXlEenlIdkdGZzRaNDhYYXN0enRvNWhPYVZLY2hId21UbXA2eWltR1ZMa3ktbndUbFRhMjhBSk5NTUs?oc=5",
+     "title": "Garmin Fenix 9 (Pro) leaks in pictures, including AMOLED and solar MiP versions",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWktZX0d1WWVONEFPVTA3NXdlb3h6VlZjVXVFbmZtR1g0c0Q0dmVuN1MwMGt1dnU3bVNjMERFNHJHcUdqQTBockYxQmFRUWk1enBXdUQ0VGRBR0hMcXlrOV82aktvQTdJRENrUmJsTU5YTjhldXhXd1R0dHJEX096aHZsdEo5TGczS04zU19uV0IzNWZxWTlkVUVXcXZobzNkbWlzMFk3ZGxSY3Z4VFdCTWx6cVVjSUVIYlNObTJR?oc=5",
      "src": "Notebookcheck",
-     "at": "24 Aug, 18:46"
+     "at": "25 Aug, 00:10"
     },
     {
-     "title": "G-Shock’s GBA-950 Is a Rugged $165 Garmin-Alternative Daily Training Watch",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Bd3lEVG1sQzB5Um5DRUNEQ25fYmpZaGVmMXc1RzFnMVJCZmZVYzVYR0VmVUFpTTFkV01aVVR1NXJvQzhIWE5XVFJQR2pPVnV5eFc2WVJLOWRERVprNUNzZnJmMHg0ek9JeHc?oc=5",
-     "src": "Gear Patrol",
-     "at": "20 Aug, 20:38"
+     "title": "Forget the Garmin Fenix 9, Casio has a new surf adventure watch that sells for a fraction of the Garmin’s price",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVDFvME5SSFY3N25KcmRiaHh6OU0wTDlwV20ySUxmWEJNOExnalRFMDNBN2t4a3N3Y2pjanhpaU8wOGdtcW1xQWlHLTVCenNZR3N1azRzSmZvT3ZxbkNxZGxQeTNmRlJCYUdmU3ZZdE9UTlZ5M1dtck9Md21zZ0Zzdzc0Yk1fNHRxQkJ3Uw?oc=5",
+     "src": "Yahoo Tech",
+     "at": "24 Aug, 23:15"
     },
     {
      "title": "Gurman: Early iPhone Ultra testers praise its design, hinge and usability - GSMArena.com news",
@@ -1194,10 +1150,10 @@
      "at": "25 Aug, 00:29"
     },
     {
-     "title": "Infinix Hot 70 Pro 5G India Launch Date",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBWLUhuMms3aXItaVNmZV9TVWsxSnE1YXBoeG8ycEx5QXpLN3p4bDF6RlBYTGxMNU5aZlJIX0VOQjJMb2taMDR3VU5QaldjWDlsVnFoWTI5ZWdTYTgwdkRjdDloR3c1Y1d5YUZDdFpINmxPNEFyTlppb1g3WFFWQQ?oc=5",
-     "src": "TelecomTalk",
-     "at": "24 Aug, 15:26"
+     "title": "Infinix HOT 70 Pro 5G India Launch: Military Toughness, 144Hz IPS LCD, 6,000mAh Battery, and Network-Free UltraLink Calling",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXU1QzRV84UnZLMGdIMUhJUlR2bzJBVV8xUWZvcGcyekxpdXcwUmdoX2tUc291RVB4OWZUSTlQb0ZXbUd4MVEzbGx6My1WRkZvdnBrRlFLWDZxd1VzU21PMGZrSENRdFQzWDBoY0xXOG5KNWdv?oc=5",
+     "src": "Techgenyz",
+     "at": "24 Aug, 15:38"
     }
    ]
   },
@@ -1235,10 +1191,10 @@
      "at": "25 Aug, 01:00"
     },
     {
-     "title": "FDA clears AI software for detecting untreated pulmonary hypertension in 12-lead ECGs",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbkFZN0NneFQwVDhoWFh3OVRYQzN4alY5ODZSRFdnRk1oN3Z1Tzd0VFpNaWVCYW9vUDBncGEwNm55VVpMaTR2NUhFLUxTZ3hBSGpOWWgycDRQdXdZRkpudFlGcUNoeE9SMzBSa1FDbjZQaTJOb3FEbXZnTzhEdTZpak5sQUhQU1hVeG1ncmJNN3oxV3pEZ0JaLXFmbWJUME5kX2hVMEFNN2ZVWk0wck1kcE5pYnMyOXMxSHFGV2g3TDFxcmRwRl80V3RpcXUtVXloMXJjV21SUEVHdjBk?oc=5",
-     "src": "Cardiovascular Business",
-     "at": "24 Aug, 20:38"
+     "title": "Artificial intelligence in action: how AI agents are transforming businesses, public administrations and strategic sectors",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWnFsQU5oNkJrSzl5d0p1WDFvQWJkdE53TmlJd0pOX2FWYjhxbzN4cHZka2xZZjVSd1BXd01aOXY4d1ZoTDJhRDd5bk1abHFiSGtsLUdGYmlBUUlLMUp2ZTE5eVhXenBXS1QxU2hadldxTDJ6bjhVTkprUTZ5amtqZWxQODJhbEpaRHpoS3ItRlM?oc=5",
+     "src": "telefonica.com",
+     "at": "24 Aug, 13:00"
     }
    ]
   },
@@ -1410,10 +1366,10 @@
    "tag": "World",
    "items": [
     {
-     "title": "'Sever Every Economic Lifeline': US Announces Explosive Sanctions Against Iran",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamdXZlVCZnhYamhPb3A1a3hBOGdXU2ZHMFF1ODFwbHdyRk5ySnNuSllLOUtaOW5yMnVRYkdaZlF0emM4NEI5bUp1bzMtMlg3TWNDNjBZMkxWVHRxX1c4azF5N2JIcFJvU0pxVWxVSFJxc2JwNWszZWZlQlFaZEJIR3NDWGhLdkdJWGlYdkVxM1JyMnJlRmxybWxsZTJ3dDF5aHhWcHlMX2xYbUdPcGZVWjM2YjJQUjVSLWVRa2hlVF8?oc=5",
-     "src": "NDTV",
-     "at": "24 Aug, 22:50"
+     "title": "Iran’s rial currency hits new record low as U.S. prepares to announce more sanctions",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYWVsM0Jxa3dEXzFFVGV5elM1NHFWZGVxSmY1NTNxOTJyQjJuR1EzWGZrM010YTlYaFYxekdHSkctVGltY1hUdGUtZTlJbTY0ek1rVHYtQkxLaHQ3b3VtNVRub2M5eC1EcWFaTEI2a3c5aHYyT0VSQXpDSEV3bXo1WWo2aEJJVTJ6cm5uY0NOS0FZT1dYYUhGU05TOEVtSHljQ3NLWlYzbEJ2YkhfckhMVExUWmpGMjJjZlJFcE5LaUh3OUFPNEs2WEl0TUdoMDVqM29HdHdtMVlpaHdSbkHSAeQBQVVfeXFMUDRtNW9FNVdEZ3U4TU1Fb2FVR3BnenpMVXFROXZJdDM2VUpKc2cxZVJncGphNnBSUFBlYTd3YnhsOUxRTHZhUUpsZzhmQ0tmdWxKVjY3SVNTUFdKVVpKUHNfQ3Z4dTNSbnJrUzJsNXhUb2UyQ1kyYkhwYXFmQzFsR1haeFFHWndaeHN1MmdjMER1S2lQemhIZF9kT254czQyeWFMTldLRzVHV0RINWFzc3NuQ3lRaVpaaW8yQ04yRzROUGVra01TbERwanM5aTlFc084QTV4THRSV3RZNTFlSFRkNGg3?oc=5",
+     "src": "The Hindu",
+     "at": "24 Aug, 17:07"
     },
     {
      "title": "Trump threatens 50% tariffs on all cars and trucks from Canada amid trade fight",
@@ -1422,22 +1378,22 @@
      "at": "25 Aug, 00:14"
     },
     {
-     "title": "‘Iran tried to murder my son’: Netanyahu makes big claim against Tehran",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQS29xTTNyNmVSOXhlb0FQampyak11YXFmdU1lXy00NXJ0d1VrNVh1bDY5REUxdWZ3UEQ2MXZIb2o0OVFaMWlzZE52NE9MaHd2WjJhS3ZwcU93b0RDT2NURjFuXy1Zd24xSTVWNmpLMUtGQXlqaEo0c0gybUxZcEpjbFlvaVVTdVAtS3I1dzRER2VhbGNHWllTUHBGbmMyNm9kZlFOR0hPUFhQTGVEX3NTNl82bFZwaWtPWjFXUkVpMFRlMkE5bi00eVdjdktVSXFwaUxLWFpmNFNEVVB6ZEtsVS13?oc=5",
+     "title": "\"Iran Tried To Murder One Of My Sons\": Benjamin Netanyahu's Explosive Claim",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSGtzWDk1c3JaWDFZTzlSYXBGSUp4bEZGODQzOVUyNzR3dTE5cHBkVHlfOXpVd3J0RTZwRlVXbGlnZ0JkMmlCRERabGVwNTJNYmQzTy05dk5FZEZPXzZ1Vld5bkJoV1hPUDBMVW43Umx0QkdRNExNdFZ6SW9mdHcxV2ktMWVrNU1WTkNfbGtDVDZEY3VPU3dxWDg3Z2RTaXkyaE5LQlg5S0VkWWhGUFpKcnhR?oc=5",
+     "src": "NDTV",
+     "at": "24 Aug, 22:35"
+    },
+    {
+     "title": "US plans to increase H-1B visa fee to $103,265, says notice posted in Federal Register",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWGJWOTNHSVYyOFZLOUpCRk92U0hETHluODhQWmNMR1pMWWlwbXFveWE0X1NrSjNEUXVDYUdidU5COWNNSmdocGU5YkhRdmltYzFXOE9zUnlqVWNSeWZ6WjQ1UmNkR3BEUmxFZVJSZlF2UUE4UWVfZm0tczluWUhrd09idnNfcXBhU0lFRXBlS0xoRGliSGo1TDNnN01vWXczMnF5cmF1UWVBVXFlcGlhaUpJVmgwV0FmLWhPRHRNT3bSAcYBQVVfeXFMTkRfLTVYeDBjY3VBQk1SQTF5b0NVUUdWS3VkTGZEa1hsLXFub3RmZVI1elRHU0lqT3dEa3hkOGVNQTk0MThYYTZ4ZTZieHZ3SEk5NGZCRlRFVjZ4YkF3clVUQW5aRkF2bkh4RlkwVmtHQk1xaHdaQTBYZ1lXSmxrS0FjdnE2Q2hBNHNHcUc5TmZEQkpXVnZUZlVDcVBQeFBSdGM2dlFPdHNtaXVvVkxHUHF2VWVxTVNjczEtTlNsal8xX0wtTFN3?oc=5",
+     "src": "Telegraph India",
+     "at": "24 Aug, 18:47"
+    },
+    {
+     "title": "Iran invited to join Mecca pact by Saudi Arabia, Turkey, Pakistan: Report",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ1o0VkhrRVVrYWZURDdsSWFmay1yLXhzeldBcUI2Sm9oOXY4TDlHY1k0LTMzekZtcExISjJobVZxeWx2Ykx2dVFxWEl2NWRSMjJTVVQ1cmpGTnUtVnI4T0lnVTExbVlKQk1seVVwUzJQSF9BNGpjTDZ3dWFJU0hfOTR0QzdKa041dUhPSnR5TVltc1V3bm9ERnFkUEFSWGt0SjFpZW9ISTFCSXV0RWFQVWtuY0JEMTJpUHFQVTFwUG5sQjVBbXUxS1JqZ2JXNmZnN09uRnFBWFFGY3NEaG5pWEc2bUI?oc=5",
      "src": "The Times of India",
-     "at": "24 Aug, 23:11"
-    },
-    {
-     "title": "Iran reportedly invited to join Saudi Arabia, Pakistan and Turkey’s Mecca defence pact",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbXkzZGlkeXFZZU1oYkNwTE9kWXowNGNXdGw5TU43aVpPcUw3N2k3MUVHU3ptTEIybFBVeVFMUDljSml6X2tTNzhJaFhra2hSc2hvYUpjMFkzejNYc0RYdXhZUmlNLVNDc2ZEZlNnbHdDakh0TmV4SThxQlB4N2h0U28yZ1N6WExvR3VxUVE3U2ZJU2VhVHR6N1BXZHREclRaUENRNVJibkVTempYV1dWTGQ1YWlXY293bHloeGN5blA2ZkFBa3plTE16RHZsaGlkU1VvV0p4a1TSAd4BQVVfeXFMT1JKamJMRmUtZzA2QWdSOWY4STd6NGlQbG9MSXA5cUZ4bldoc202U0VjS2ZTaXFRZXJKSE5NN1dfQU9VeTMxQ2NMLWlCZmxwOFVaWHo1NmtrT3laOFRWUTR2aS1RcENjdERJbS1NMVBsWEh4dGFFOEs0RTF5MXk4ZzFpMGRkLVN0S1VtcUZndEIxTmZpU0FkZl9nU2k2OUtZaExDSWllbzM1c2dCdk55LW10a3FBQWtxZVkyaXk2WVI0V2hlZ3RRQW5hMms1Rk1zTzZ2ZWhEc29nQkZnSHVB?oc=5",
-     "src": "Moneycontrol.com",
-     "at": "24 Aug, 08:58"
-    },
-    {
-     "title": "Trump administration moves to impose more than $100,000 fee for H-1B worker visas",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLS1UdEpscHZrLTh0MEp1R0N3Wmw4MnMxM0lzLVJoUzgyb2lXZGFqdzh2ZnVSX3VYMDJuTFVIalFuY0ZRUFo1S0ppVkkxb0xEZms4NHR1eXdOa1BPbEpvVU40MF81WFV5OFljTjdVU0xuS0Z5TElPUzRfTDAxNUF1S05xTllIMzVEUGRGbVNLTVZfLUJjMEt1WWd5X1YyOTU0djlzUndmOFpmQWtpOTdzS1h6eVFUdzY1ZTQxTVJmRkdVQm56dE1sNnQ0OXdFVGxTc21OOEt0TW9kZWPSAeIBQVVfeXFMT09pd3F0eTdpWFdLeGpRVDM5b3RvTnF1NFBXY3hYQVBfZ2w4blB6eE5pOFRJa0kyRFR5NFhWd2lDdmZtdnpPZkFhdmtHVGpwNGhBOXNPczB3TDlFLW1lNVh6WnQ2eWYwTERWTmJIOG0zWFVRcWQtWlU4WnMxSWJ3REY0b2gweU1vYzNZN05xbzl2NnJXdURkeFZYcW1ZRjNLZ1l1UGtteTR4dFRSRHFqTFFMeU5xd0VWSmM0Zlp5T2ZrMzZ2dVpqOVVYb2ZsaWNMTFFqMGpuMkFCamswcDBXaER6UQ?oc=5",
-     "src": "The Hindu",
-     "at": "24 Aug, 19:52"
+     "at": "24 Aug, 03:24"
     },
     {
      "title": "Give Imran Khan proper medical care, cricket legends urge Pakistani gov’t",
