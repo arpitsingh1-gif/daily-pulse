@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-08-25T16:31:08.349Z",
- "label": "25 Aug, 22:01 IST",
+ "generatedAt": "2026-08-25T16:40:50.195Z",
+ "label": "25 Aug, 22:10 IST",
  "markets": {
   "indices": [
    {
@@ -58,12 +58,12 @@
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 95.24,
-    "chg": -0.49,
-    "pct": -0.51,
+    "price": 95.23,
+    "chg": -0.5,
+    "pct": -0.52,
     "spark": [
      95.73,
-     95.2356
+     95.2261
     ],
     "fx": true,
     "ok": true
@@ -71,12 +71,12 @@
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 85.54,
-    "chg": -2.56,
-    "pct": -2.91,
+    "price": 85.25,
+    "chg": -2.85,
+    "pct": -3.23,
     "spark": [
      88.1,
-     85.54
+     85.25
     ],
     "fx": true,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4697.6,
-    "chg": -0.2,
+    "price": 4698,
+    "chg": 0.2,
     "pct": 0,
     "spark": [
      4697.8,
-     4697.6
+     4698
     ],
     "fx": true,
     "ok": true
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 68.4,
-    "chg": -0.19,
-    "pct": -0.28,
+    "price": 68.64,
+    "chg": 0.04,
+    "pct": 0.06,
     "spark": [
-     68.59,
-     68.4
+     68.6,
+     68.64
     ],
     "fx": true,
     "ok": true
@@ -218,12 +218,12 @@
    {
     "name": "Dow Jones",
     "g": ".DJI:INDEXDJX",
-    "price": 53462.54,
-    "chg": 45.38,
-    "pct": 0.08,
+    "price": 53507.6,
+    "chg": 90.44,
+    "pct": 0.17,
     "spark": [
      53417.16,
-     53462.54
+     53507.6
     ],
     "fx": false,
     "ok": true
@@ -231,12 +231,12 @@
    {
     "name": "Nasdaq",
     "g": ".IXIC:INDEXNASDAQ",
-    "price": 26122.62,
-    "chg": 142.42,
-    "pct": 0.55,
+    "price": 26140.36,
+    "chg": 160.17,
+    "pct": 0.62,
     "spark": [
-     25980.2,
-     26122.62
+     25980.19,
+     26140.36
     ],
     "fx": false,
     "ok": true
@@ -244,12 +244,12 @@
    {
     "name": "S&P 500",
     "g": ".INX:INDEXSP",
-    "price": 7670.24,
-    "chg": 17.38,
-    "pct": 0.23,
+    "price": 7676.41,
+    "chg": 23.55,
+    "pct": 0.31,
     "spark": [
      7652.86,
-     7670.24
+     7676.41
     ],
     "fx": false,
     "ok": true
@@ -283,12 +283,12 @@
    {
     "name": "FTSE 100",
     "g": "UKX:INDEXFTSE",
-    "price": 10884.94,
-    "chg": 30.62,
-    "pct": 0.28,
+    "price": 10886.16,
+    "chg": 31.84,
+    "pct": 0.29,
     "spark": [
      10854.32,
-     10884.94
+     10886.16
     ],
     "fx": false,
     "ok": true
@@ -548,7 +548,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 34.1
+    "pe": 34.1,
+    "stale": true
    },
    {
     "name": "Tata Motors",
@@ -561,7 +562,8 @@
      313.55
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "M&M",
@@ -575,7 +577,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 20.9
+    "pe": 20.9,
+    "stale": true
    },
    {
     "name": "Maruti Suzuki",
@@ -589,7 +592,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 29.9
+    "pe": 29.9,
+    "stale": true
    },
    {
     "name": "ITC",
@@ -603,7 +607,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.1
+    "pe": 17.1,
+    "stale": true
    },
    {
     "name": "HUL",
@@ -617,7 +622,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 31.8
+    "pe": 31.8,
+    "stale": true
    },
    {
     "name": "Sun Pharma",
@@ -631,7 +637,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 38
+    "pe": 38,
+    "stale": true
    },
    {
     "name": "Bajaj Finance",
@@ -645,7 +652,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 33.2
+    "pe": 33.2,
+    "stale": true
    },
    {
     "name": "Adani Ent",
@@ -659,7 +667,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 49.9
+    "pe": 49.9,
+    "stale": true
    }
   ],
   "gainers": [
@@ -675,7 +684,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 49.9
+    "pe": 49.9,
+    "stale": true
    },
    {
     "name": "M&M",
@@ -689,7 +699,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 20.9
+    "pe": 20.9,
+    "stale": true
    },
    {
     "name": "L&T",
@@ -703,7 +714,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 34.1
+    "pe": 34.1,
+    "stale": true
    },
    {
     "name": "ICICI Bank",
@@ -731,7 +743,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 38
+    "pe": 38,
+    "stale": true
    }
   ],
   "losers": [
@@ -761,7 +774,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 31.8
+    "pe": 31.8,
+    "stale": true
    },
    {
     "name": "Tata Motors",
@@ -774,7 +788,8 @@
      313.55
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    }
   ],
   "breadth": {
@@ -856,7 +871,7 @@
    "Nifty 50 up 0.48% — flat session",
    "Rich valuations: Adani Ent P/E 49.9",
    "India VIX 11.08 — calm markets",
-   "Global cues: Nasdaq +0.55%, Hang Seng -0.02%"
+   "Global cues: Nasdaq +0.62%, Hang Seng -0.02%"
   ],
   "context": [
    "Broad buying today — most large-caps rose. Broad-based rallies are generally healthier than a narrow one led by 1–2 heavyweights.",
@@ -909,10 +924,10 @@
   },
   {
    "tag": "AI",
-   "title": "Indonesia and China to boost cooperation in artificial intelligence and microchip manufacturing",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ0JmdzNrS3pyTlhidEpQVG1MZ0VhcU9QQzJ5T1d0dlVPbUNtckRjRVYzNWtmQUNFNHp4cndaS3MybGducmVzUGN5elc4SnkzLThMbVJRUWRuSkpjaUxIWUlxX3N3a0pIMnJCUW93dGk3SWgyZGQtQm9fVC1vRXh0Z3UyU2h2TzVmcFpFYVFoa3c5T29tMzJRSEM1aG9FU0w5UmRTaHJ2TVhoZTdwZWVBMkN2NWtjbWx0SnRfcko4aXc0UQ?oc=5",
-   "src": "TV BRICS",
-   "at": "25 Aug, 19:37"
+   "title": "Pope Leo XIV: In age of AI, the family is the first school of humanity",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXZ2bG5BUTNoM2RTQ3pUVUVjdkFvd2tkNTNnLTRyUm1GdDl6dGpNZVgxUTl2cnlHakVTZ19zLThMZ2p1QlpueHo0bFRWdVNvQUdGYk9KT2QxNlZEVmw5S1FrbE5KWE5Edk94ME5HZWJWWnRwRE5raHBlNTltU0hybGkyZjM4V1BVTzJuaWtYdENLTmcydnp3WEpOR1FxdEhuQ2VoU2RKSlQ1WVZ5ZUJSdjhCZw?oc=5",
+   "src": "Vatican News",
+   "at": "25 Aug, 19:49"
   },
   {
    "tag": "Economy",
@@ -992,10 +1007,10 @@
      "at": "25 Aug, 09:35"
     },
     {
-     "title": "‘75% global trade will be covered’: India negotiating trade deals with 8-9 more groups of countries",
-     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOczBXdWFYSzVwU1pyYjA1SmV4eFlacnBwU29WRzMzVU5mVFg1elZiTGxmQjlUMFJiM1ZUbDBpbUZUWThTTV8zbjl2VkdINU9xZ1FnYnNXdVJ4NUFzWm04cHlqUE51Z24tRGxuOFRUV1VTa1FoZm1MVE1BQm0ydXhjZWRrMXFKdnVsRjhDRGZPUmhVRHN6dDUwLVFXRFJkUTdWTVM3aW8ycGVfM0lMN25aLWQwTDdDS0lFUTN3bFY0ekZKcFR6Z3R0dWE0bUstWVFJR19LSU1PS1lZdDJFRDJMR2hsSzdTZEVja1RsTFlsWVVQNTU3NWYydjRicGI5aHBlYi1vUWtEM2xzeDBGUEE?oc=5",
-     "src": "The Times of India",
-     "at": "24 Aug, 12:49"
+     "title": "Hindustan Copper shares drop 7% after govt's plan to sell stake via OFS issue; check floor price",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMW9qWmFxS2N1dktwV0Z2ZW5zbnZlNEFpTzN1b1FXR0h5TXJnSDJ4YXZPdW5zcGtKLW9WNHJ3c2tudmJ1R0NCWlB3cUItcWVqeFJRSmlLU1c4NVAtRWowQlAwSldETzFTSnoxQTZkNWh1dXB5MDFlRWV0b2VtMHd6clJSOG9waWs2NTFsZFV1Q1RlSlRSNG05b0ZkeHNqb3pHanpHU01yRVN2Tkx3UHhSSGtsNmdHWnZQODlHY3Y0U1F1T0FrSzlLUkV4SDNwTXFDTlJ4VWhQUVlHMkhIbERVV3dvNU4wOG5Hb1k4?oc=5",
+     "src": "Upstox",
+     "at": "24 Aug, 19:54"
     }
    ]
   },
@@ -1068,10 +1083,10 @@
      "at": "25 Aug, 15:40"
     },
     {
-     "title": "Caruana, Praggnanandhaa Set Up Generational Clash In Final",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rYkxDNXYzam5nc3I0WlBIaE8yXzJkd0l3LUJFckF4clJLcXFRcnpRbjRQNHhwSmVlaDhKX2cydktneTdJc2pxYU1fTEVFa1pMSThaWEwwa3Z1RERxeHl5SW1lc2x2TEszTjJtYTFOaFp6TmFo?oc=5",
-     "src": "Chess.com",
-     "at": "25 Aug, 19:03"
+     "title": "Team India issues concerning update on Rishabh Pant after he fails to take the field on two days: ‘Badly bruised’ | Cricket",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPazF2MjlQRXJtbndpb2hpTXJZaDFmNnhPQzVZRjVpdG1lbUs5QlRqNk1TbWhvWjc1NWJ0SkFlZmdmYlViRGVMdWk1bzFzb0R3UDZBLXdTOHpxMDFOYTBHRmRCMlVTYm9STGJjZFJpRi1SOVBOMnRESFdnMFlYQzZQZXdYTURwaUlleEFNZ2dEYVdQNEE0bWZQNEJSQlZFVWVtc2UySnVoOEh1N1Y4RjJCRUJRczFKOUVPZC1aMnhJVlZGRmZPeTFUNGk5VW50ZFM5OEFOc3dmSkxvSlgtZnY3NlRIUGF1am85XzY3TW1UM09wRmhfSVN6R2hLcHkzcDTSAYQCQVVfeXFMTXVVREpaOWpIYmZSQjdyWDg0YWlHZEt4ZVhMbDl6RXNkSHcwUWdtWGVtZHp1Mll6cVpNcG8xM3UxV0Z1UzMwZG56U1l3STJDaTJ4c1VqZ0gxLUlaaUJIZHFud2Z6MExmdmxkQi1ISnFfLV9PTGxtZFg4RWtXV29LN0cwbzJUYlMzbGNGWDRNaV90QXhDbGpzdUJkSlZ2LUpnckV1NTUxOFVGX2t5Y1FGbXRkVUVIUmRySEFBRGFfbnphc3BfRmM4T3BXMnVJdmxuUXZRVXFFZnhHekVOM2F4SDhvYjJydEJnZm1XZ29mQkFlMGpFeVhJc0UxQUp1Q01Eemt0bl8?oc=5",
+     "src": "Hindustan Times",
+     "at": "25 Aug, 18:02"
     },
     {
      "title": "Joe Root 'hacked off' after Carse incident mars Lord's Test build-up",
@@ -1132,6 +1147,12 @@
      "at": "25 Aug, 05:30"
     },
     {
+     "title": "Pope Leo XIV: In age of AI, the family is the first school of humanity",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXZ2bG5BUTNoM2RTQ3pUVUVjdkFvd2tkNTNnLTRyUm1GdDl6dGpNZVgxUTl2cnlHakVTZ19zLThMZ2p1QlpueHo0bFRWdVNvQUdGYk9KT2QxNlZEVmw5S1FrbE5KWE5Edk94ME5HZWJWWnRwRE5raHBlNTltU0hybGkyZjM4V1BVTzJuaWtYdENLTmcydnp3WEpOR1FxdEhuQ2VoU2RKSlQ1WVZ5ZUJSdjhCZw?oc=5",
+     "src": "Vatican News",
+     "at": "25 Aug, 19:49"
+    },
+    {
      "title": "Indonesia and China to boost cooperation in artificial intelligence and microchip manufacturing",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ0JmdzNrS3pyTlhidEpQVG1MZ0VhcU9QQzJ5T1d0dlVPbUNtckRjRVYzNWtmQUNFNHp4cndaS3MybGducmVzUGN5elc4SnkzLThMbVJRUWRuSkpjaUxIWUlxX3N3a0pIMnJCUW93dGk3SWgyZGQtQm9fVC1vRXh0Z3UyU2h2TzVmcFpFYVFoa3c5T29tMzJRSEM1aG9FU0w5UmRTaHJ2TVhoZTdwZWVBMkN2NWtjbWx0SnRfcko4aXc0UQ?oc=5",
      "src": "TV BRICS",
@@ -1154,12 +1175,6 @@
      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVkVZR0x3T0VRcTBueVVkR3cxSGJhSU5nX0Q5VENJZ3ZGbkZybnBraWRYTTNxS2RPaVJiaDBxalhsR1p6WU1SY0tLOV96dEZrZ1BYa1lNbUhRSTRrRE5nbndXbmp2Y1hWWHFLaFduWExhT3RzWnNzS3l5T0syeVlSVDBCQ2xadlBNUmJWWGhhMEx2RUxycm9YQmpPU09UZHpUUUNsYTc3OE5Yc1Bfb0dPLTk0VHZ4TGpwMVNjWFRCQVZfN3l6bS16Zk9ZSWJ0Vnp2cUUxcS1WanVIWDVNS2EzanRXNEY0cUFsZE1IZkFyNksybXBWbm9acnEwb0NaODAwbzJn?oc=5",
      "src": "Cureus",
      "at": "25 Aug, 16:20"
-    },
-    {
-     "title": "HiDream.ai releases HiDream-O1-World interactive artificial intelligence model",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUHdJQVdjUWwyVEd4NUt4RU95VWx5R2NlZnNKenJDOXkzTUk2WWNhZmRaaUVsRGV5ZjVPdVhQSzhyMllKVlVUa2VLYmFHOEFzd0VkNm9lNDRiOVZURGtDaDZkb29GNHRxX25LcWo3WHNqaDROVV9CQUs3bno1VFNoQ0d3VjB3OXlGeElWMFZHS3NyZGgwU0VPdENzSS1WakMzOHBQT29YRkFzc2ZM?oc=5",
-     "src": "Vietnam Investment Review - VIR",
-     "at": "25 Aug, 14:10"
     }
    ]
   },
@@ -1179,16 +1194,16 @@
      "at": "25 Aug, 18:35"
     },
     {
+     "title": "July's rainfall recovery partly eased farm risks, says RBI report",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ3MyODJPRnV6dkZxdWk4Q0R2UzEtLVNOZWxmMnpVVkdOY0M3NUxwNTJSQm94eWNsYllTZGNWMkkxS1E4eUZWdW1aUlRQSWxCMFhxQjVJbXM1QTJvMUtXd3A0UGFuOTM0azgybEM5cUJKM1F4MUI2NWJvQTNKSnBJNThfQ2p4bEgtdE5LVlg1cnJXVENzQVFiU2JkTlo5TWRiT0trMGR0ZHZ3dU56bkpHYWVxcjhVYUdBdEJhSWRfQW1jYk85Q2tEUGJfWdIB0AFBVV95cUxQZUpOSkk2OTk1QmxEanZmZ1RRSjRXdkpfcnpraU5aelpoU3liTWJBb0tnQWdRbEdnb2R3bGM1dU1leldDaDQyWU9JWUFUU29id3d4emxxX1NLWWctRHk2Y3FUNHhYMVhtWkFpTml2Q1R0dVE3MWRCQnNVbUU2M05GT1BHdW95VkduTzduaUg3Y0R5XzZxREp5TWw0X3FfTFZTS3JKUmVzOEx0N3VNXzFrX0NpSnE1V2hNbndjWUxRS2taUzRkU1Rkbk50ODZWS0hl?oc=5",
+     "src": "Business Standard",
+     "at": "25 Aug, 21:57"
+    },
+    {
      "title": "West Asia war, monsoon risks weigh on India’s growth outlook: RBI bulletin",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdDJSajFBYmJjSVJsUjd6Y0pDeVV4NlVYVGJLdWVpVWYwUkN2eEp4TW9ZRjBSVnRtZWh0Zmg4bU5ZdzBqeE1VUFV5TGF4b0YyNndIUlVlSFN5ZGVuM1VPR252U3p1LUtBMDM3QjR2Y3VSUl9iM1IwdG9hV000UmRiWWNOTGh2YW4zbmJNMWxGWVpMcFI4UkpScmxKMENZNDdBdkNrd1ZmXzI3YkdsMnBBdkJMQU1XZ9IBwwFBVV95cUxOSG41TWRCQml0eEhqTzUtbWdHVVlXNkFUdDFlOUx1azlDTURLOER3NndvVjhSOExfVFRSYVA0OGpfNHJ6dE1telBMTklsbDlrNXB6TTZaUDlUcE82bG9GZDJXWE1qNFN3S01FMVBsRGxMQ1Ftb1hkeFREQUpTeF9FQ0w2czVFcWtSeWlIRUw4ZTl1d2dpQVNaSGNyVXJXbVZzc0NTakZ3MUsyeEM2U1VRS1praUo1T3RycmM4NEdfbzRhSGc?oc=5",
      "src": "Fortune India",
      "at": "25 Aug, 19:10"
-    },
-    {
-     "title": "Economy shows notable resilience despite global headwinds: RBI bulletin",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLVNzTlR3cF90X1YwMDhLMDFUcjVNNWE1Wld2NUdUUjlPTjdycVVlTVJrWUlIN0lCb2RmWGEtT0lpOEppVW1PcGFleWt1ZC1abFBDUFFZQ0xjc2ZJNjBvRlNuc3Y1dmNQTXVEUHNmSVNKSUNpcWlrTUItTXc1R0J3dlExRDJEYkcyZ1hMYTZObWNUNjFIcFU5TzNMRDJMeWxQMUhDRkVWU1N5cGlScTBwandoQ0hONVYxV3pWVGtfdkpjdXNiRUItRFEwNlU1YlU5dG5fRkZaOTLSAdgBQVVfeXFMUC1Tc05Ud3BfdF9WMDA4SzAxVHI1TTVhNVpXdjVHVFI5T043cnFVZU1Sa1lJSDdJQm9kZlhhLU9JaThKaVVtT3BhZXlrdWQtWmxQQ1BRWUNMY3NmSTYwb0ZTbnN2NXZjUE11RFBzZklTSklDaXFpa01CLU13NUdCd3ZRMUQyRGJHMmdYTGE2Tm1jVDYxSHBVOU8zTEQyTHlsUDFIQ0ZFVlNTeXBpUnEwcGp3aENITjVWMVd6VlRrX3ZKY3VzYkVCLURRMDZVNWJVOXRuX0ZGWjky?oc=5",
-     "src": "Business Standard",
-     "at": "25 Aug, 19:13"
     },
     {
      "title": "Brent Crude At $100? What It Means For Nifty, RBI, Rupee, Earnings — D-Street Expert Prashasta Seth Weighs In",
@@ -1226,12 +1241,6 @@
      "at": "25 Aug, 16:22"
     },
     {
-     "title": "How the language of political discourse has transformed in India and why it is a matter of concern",
-     "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQVGtIMEVORjktN2hXaTBOQk5LRlZaSWF3NHdFOERfTUhCOVVXNnU4MnQ3TU02UkVUaVpUYmx0SWxQWGtTMmJBUk9MR1o5SG5nZnZpVmhVT0ZLelB5SVhLSEFYS1RCeUdldC1yeVBseEY1WUdpaGZHcE80V1lfekNlZ2hsc1o4aXliTE1tZzQtZlFLcVpVN1dxVW1ZM2I5MURfazA1RjA2ZDhNNEhBMFlNb0NPSGs2dUNrZ3pybDJyWENXVG5jZ21uSmVGMHgtYWZ3dnc1bkE4bGxnTjhWd0ZBOGpXYnUzQlB4eVVaYmoxSE5WNWJvQkFqQVYtN1FlTVNJdGpaZ0dxMHJGQ2pvS09YbExjRkpnRkFTQUFGMUZSb2daSlVMOUdIeA?oc=5",
-     "src": "The Federal",
-     "at": "25 Aug, 16:06"
-    },
-    {
      "title": "PM Modi emphasises women should be made part of decision-making process",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOVpocUNJUThRbllFWmdOQVQtaU9ndUNvYldJNHZhcDhKR3hiYmN3N0xNSjd0YVQ0U0Uya3JwNjNTRWtKYWhKbllIRzRsWHk5a0wtM3ppTThEMlppU3cyZGFUSUNHdVFzdWNVc3ZKcmlJa284WldVUUdIbkN3TmJveXctOHJlakJaMWU4bXUyWURJV0p4R3VQb0NCNXd1UmM?oc=5",
      "src": "News On AIR",
@@ -1242,6 +1251,12 @@
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONzZhdlUxSnBndFFmMXpJZHMwZGFjVEhyaXVtWkZQNmloOGhMeGF0Q20tOWxYR01CWG52d0NHSVZXZmw3bDFPaDJQVzdVamtLVXZqaTMxMXRZZXViellNSnNTbElNSm8xNTRBS01obDAwWGtIXzdxU213VHlHN2JhZmF0cWRSYm5nNEFBc0JLUENFa0x4bl9rY3hiRlA2Q0JmOThlUGg4eHFVdVEtZ3JHNQ?oc=5",
      "src": "A2Z Taxcorp LLP",
      "at": "25 Aug, 11:48"
+    },
+    {
+     "title": "Before and after popping the caste question in Census",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc0xIV2lQQ2thcWUwbzBraDJyZlRHT2xKNWtpR3JQQnRQTEFKTG1hY19UeUp5NlJRTUFYSUs2OERJUzRXbXVBb2VVSWhEbVk5aVNwLTJGWk54b3pzNXFIQ0JVZE12N2xmdFppcVRyZGs1Und1RGkzZFZWLWhJeDdWcGFNeXdCaEpUd0ZXQ294R0xBRFYzZDNtREhrWEZpT1pBUWQ2WmJZOEM2d9IBtwFBVV95cUxQNTBDMFduOEJ0dTZoZEl3ZjhxRUdBUWlIdWJvckN5QVVzd2gxa0U0ekFEeDJiTnQzeGE0UDdhc0wzZUJ3SEs5VDE2TmoydktyVzRKM2J2dFg4NTVSRWF3T3hMcEFpbUYyOFpvdE1hVzdvX0pBTHc2dG9yOVZuSlpSc0JxYU5zLWRXTDlkOTNyMTktZ3NnWTJqeUdoSUJYeWVOR1NXM2p4ZXNmUnpROWFneW5ZdlYxRDQ?oc=5",
+     "src": "The New Indian Express",
+     "at": "25 Aug, 00:01"
     }
    ]
   },
@@ -1337,12 +1352,6 @@
      "at": "25 Aug, 17:55"
     },
     {
-     "title": "US Must Return To Islamabad Deal To Secure Hormuz - Tasnim",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNUJFUXRnQlFoV1h3bklDMF9XaUpEdkV5eG4wc25pcmdvd1paUnlPZ3pWN1FRZEZoTFFhOV9nZV9jczN4cTRfRDJpaWJ2bDhBOHA2NWltd2llc25iUGIyY1NtMUphdWt2eTlENlZmTF9QZTdBa1pUNEJ0Rm9kcHU3bV8tTF92b0M0Wi0wQtIBkgFBVV95cUxOWnRhb0llamFUejM0UHZHY1BiR0g2Y0w3RzJDN1hNNVNuXzBvWkZvdlB4alBORk41bGRQNExSSGxFa3ZUSkZmaDI5Z3ZPNFZCdW5nLU5YSjhqaGQtOHZRd0FESHc1TzJOa0JXUG43djRrQllYYjIxaTJnWDltSDU4MkREQmdDVHBmYi1BYWhuWlp2Zw?oc=5",
-     "src": "Forex Factory",
-     "at": "25 Aug, 14:48"
-    },
-    {
      "title": "US sanctions four Indian firms, three individuals over $119 million in Iranian petroleum imports",
      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNDkybXR4Uk1kQ3JTV2hyc0F5R3p0MVRaRnlrc212cWExcUVDcjA0N2s0cXUyUUhYNWxpNDJoWXZoNE5TdkdYWml6elJpS0VJYmlQRjdtaFkweGdQUzFKR1k5YTRNUGVVbTlYYnYtV2JtakxoT0RiSzYxU3RrdU15NERsYjNrWlNEclE2SEtUSk9reS14aFNWZWNzYUpLTDhQMDdYVG5XLVZlaXpsUFlvMEZHZHRLWDY0SWx1MlRETkRYcFltWlQ1elM5TEI1aVBvc094SdIB2gFBVV95cUxQN0p5VUFCQlBVdTduZC03dGRXdVgyZHNrakJSRllXdEl6NlFuajNqeVYzQnB1NHFxNmFrSlNZaHZ3amkwT1gzTzhWcnQ4SmZzd2g3VGhabWdSMmotRzgyTkkxR0l5UEpmTHV1Vlc0ZWd6LXdrdWlFZkp6T1hDMzgzY1Bfa2lSckdxZksyUDVOR2huT0pLZXhtTkhaLW4yRWVtX2J6R3FQR0pieDZaUGVBcDhOSG1iOHRsQ04yd21HMFFueGwtMnAwV28yb2hrMXNWbDBXSHFfSHdmZw?oc=5",
      "src": "CNBC TV18",
@@ -1355,16 +1364,22 @@
      "at": "25 Aug, 17:33"
     },
     {
+     "title": "CIA warned Trump: Killing Khamenei could harden Iran’s regime: WSJ",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTlBsQzZxWDltMDdFTDVLcmdmZFNITG1kTG9FNE95TkFkQ2N0cmZJR0YxRGRuclpHazhRcG9lMTNzcFVkWEhKbHg1ODN0Q3ZvWHRQbF85QUtuV253dUtuNC1LcDZHeFhocUI4dUxoSjRlUTUtajJyVWdjbnBnOG5JTlg5bzEtMzI1cHhtYjVja3g0VFdWRFZHU2RabXJ3ZXF3ZndzWE9WSl92ejVmZXJ3QWpn?oc=5",
+     "src": "Roya News",
+     "at": "25 Aug, 12:07"
+    },
+    {
+     "title": "Behind Closed Doors, Kuwaitis Are Questioning Their Alliance With The US",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOTRGMEZFOTFhTS1jNEhVUWY4b2QtQUZ1d1dJUlZUZDA0Z0J5X0NVU1JHbjBrY3dkekdkeDBqbnk2aGFiUGcxcE82WHZLdjF2ZGxqcGxwdVZiWTkxREdmdHZhMk05Zmx3Sy1nMG9GZ01RQkdPU1JyUVA0TVJnVTg1c3VjMVdPcEhQMUg4ODF3X0JTR1ZtWlFhZVZtRk9acUt5aHN0WWxwcl8ta1ktZDVsLXJ30gG6AUFVX3lxTE9jbGxBYnRrZGJvRnJrX3JxTGFzZWp5b0pUVDVxV0xFYVRjWTlhbHJ6c0p5MGJvQk9yM0RkSzRrZDNJQ2hRRS1kNDdSOW83dDI0T1RRNm1peEVTbGMwWExTOXk5SDVaM0ZhVTBRdWFoazlHcVFqRE9mY0hYak5CdXR5TTJfYTcwOGhsZUUyZlUtLXJEZEdaM1U2QzFlZVlkaHhoUHlNaU9WQWlaSVpIQ2lYX2h1V3BNNXNydw?oc=5",
+     "src": "NDTV",
+     "at": "25 Aug, 18:57"
+    },
+    {
      "title": "US' Trump plans to impose over $100,000 fee for H-1B worker visas: How will it impact Indians",
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLU5YTEsxeXVHazk3dmZWT3lSWkN4TDdmMkxsZjdWS0ItRWYtaEp6R1ZMQ2h1NnlhTXh4MjhnTFRqMUxSaGhuX2cwclQzMEhzdkRheEVWbzEyX0pxVkNMNmhQWEx1UGJKSkdvZFNyZ1g1UjF0Q2QxV1dEZmV0NXI2Q1h3aS0zS2p5Q09JYnpuTm5wRUJIQjVWaUVUQTNTMTB1bHFUaWh1RXZhOWt3ek1HMU9Tcmxsc3JxLTdtVDdwaXUwQ1hJeUNkdFVvMjFsYlHSAdYBQVVfeXFMUHZ3RE9HTm0yV1FTT3dsRnJJemxlOUZqaVZfWUtBYTRzY3MxcW1URTFOWnlQRUkxeTJic21OT2p2NTB1bXJ3MzJBSEphVlJPRmlPeU5ZWTJ1d0pMYlE2UE9DQW5lOGQtd3RFRjFURi0xa1VSbkhRa3JiQWVtbXFqWE0wQTlhQ1VEc0NtU0tZZVNMR2p0NGE2RDZ3anZXdVBIMzZ4a0gzZWRkWENFN2h5cndqY2JCMWx5cjcwbklubTJYRzRrdXZodnFTbW9oWVVhWmM0Q096dw?oc=5",
      "src": "The Hindu",
      "at": "25 Aug, 12:41"
-    },
-    {
-     "title": "China's One-Of-A-Kind Weapon Can Shoot Planes Flying Near US",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTWo0MDJHY19aQVpFOWM1N3RLMHJiaFdUd0Mtc3RDZWxhRVd4RGU4WXBZM0VaRnc2VHpTU04zQ01nYllFRDcxblYtTlBER1htRWN1R0tqV3BGLS1rUFR4ZFJiNzNmeGV6Qm52aHJjT09jQ25RWEFtSFk2OGtjU2dmWGhGVWJZTkt0aXp5NE1sWkIzTkdjc082ZHJDYktubUNJ?oc=5",
-     "src": "NDTV",
-     "at": "25 Aug, 12:18"
     }
    ]
   },
