@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-04T05:10:50.680Z",
- "label": "4 Sept, 10:40 IST",
+ "generatedAt": "2026-09-04T05:31:08.657Z",
+ "label": "4 Sept, 11:01 IST",
  "markets": {
   "indices": [
    {
@@ -32,12 +32,12 @@
    {
     "name": "Bank Nifty",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 57372.15,
-    "chg": -8.45,
-    "pct": -0.01,
+    "price": 57480.75,
+    "chg": 100.15,
+    "pct": 0.17,
     "spark": [
      57380.6,
-     57372.15
+     57480.75
     ],
     "fx": false,
     "ok": true
@@ -125,12 +125,12 @@
    {
     "name": "Bank",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 57372.15,
-    "chg": -8.45,
-    "pct": -0.01,
+    "price": 57480.75,
+    "chg": 100.15,
+    "pct": 0.17,
     "spark": [
      57380.6,
-     57372.15
+     57480.75
     ],
     "fx": false,
     "ok": true
@@ -311,12 +311,12 @@
    {
     "name": "Nifty BeES",
     "g": "NIFTYBEES:NSE",
-    "price": 273.5,
-    "chg": 0.87,
-    "pct": 0.32,
+    "price": 273.6,
+    "chg": 0.97,
+    "pct": 0.36,
     "spark": [
      272.63,
-     273.5
+     273.6
     ],
     "fx": false,
     "ok": true
@@ -580,16 +580,16 @@
    {
     "name": "Maruti Suzuki",
     "g": "MARUTI:NSE",
-    "price": 12758,
-    "chg": -99,
-    "pct": -0.77,
+    "price": 12788,
+    "chg": -69,
+    "pct": -0.54,
     "spark": [
      12857,
-     12758
+     12788
     ],
     "fx": false,
     "ok": true,
-    "pe": 28
+    "pe": 28.1
    },
    {
     "name": "ITC",
@@ -622,16 +622,16 @@
    {
     "name": "Sun Pharma",
     "g": "SUNPHARMA:NSE",
-    "price": 1906.7,
-    "chg": -9.3,
-    "pct": -0.49,
+    "price": 1903.5,
+    "chg": -12.5,
+    "pct": -0.65,
     "spark": [
      1916,
-     1906.7
+     1903.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 37.8
+    "pe": 37.7
    },
    {
     "name": "Bajaj Finance",
@@ -735,18 +735,32 @@
   ],
   "losers": [
    {
-    "name": "Maruti Suzuki",
-    "g": "MARUTI:NSE",
-    "price": 12758,
-    "chg": -99,
-    "pct": -0.77,
+    "name": "Sun Pharma",
+    "g": "SUNPHARMA:NSE",
+    "price": 1903.5,
+    "chg": -12.5,
+    "pct": -0.65,
     "spark": [
-     12857,
-     12758
+     1916,
+     1903.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 28
+    "pe": 37.7
+   },
+   {
+    "name": "Maruti Suzuki",
+    "g": "MARUTI:NSE",
+    "price": 12788,
+    "chg": -69,
+    "pct": -0.54,
+    "spark": [
+     12857,
+     12788
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 28.1
    },
    {
     "name": "Bharti Airtel",
@@ -761,20 +775,6 @@
     "fx": false,
     "ok": true,
     "pe": 38.9
-   },
-   {
-    "name": "Sun Pharma",
-    "g": "SUNPHARMA:NSE",
-    "price": 1906.7,
-    "chg": -9.3,
-    "pct": -0.49,
-    "spark": [
-     1916,
-     1906.7
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 37.8
    },
    {
     "name": "TCS",
@@ -810,74 +810,13 @@
    "total": 16
   },
   "trending": false,
-  "ipo": [
-   {
-    "title": "NSE IPO GMP, Grey Market Premium Today",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8teW5uRGNXTjFFVjJvWk1ET1BFVm4xV0RGYlVUNjhJaWx6d2ZtRmtTSG00dFFjbFZBRlhTT1NWb3BHRGFzYzJUWUJaRkZHbGx6a202OUVId2dMQmRFS2c4RUtB?oc=5",
-    "src": "IPO Watch",
-    "at": "4 Sept, 10:13"
-   },
-   {
-    "title": "ESDS Software Solution Share Price: GMP Signals 56% Listing Gain; Check Expected Price",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdW5zTjhCNU9kbzY2NmR2OS13Mjc3LXBXcFZYQklyRVNPM2JSM1FoSXhsaXY4VGlkQ19vdldjdU5hbjZoNVJrYk5EMklPa1lQWTNKN19oMElSYzNEbDRvNm8yYnA2OWNZZ3k4Q2FhUUx4ZExBTjl2YV9oTXFnSUJBcWVNWjJ3ZWoyUEpFZ2xRZ2Qyc0g2bEFVblZjZmJwSXBGTElOVjdZQjVfdzRJYWtITWgwcXNHSjJvbjN5MzJNMkp0RGFaaUFJalBQQWTSAdQBQVVfeXFMTzVrOWM5ak1nRDV2YmV5eDNRb19NeUZTM0NEWGZuSml5bDUxWWtHV1RXRTdoWUlOaWFHczBEMVlLZlZRS3Y1bVB1NUFZVUF1V3NudTBodE9uVVlrTnI3ck1KYno5U1preUczZVR0a2FrS2Y0cU5XbEpDZ0g2UGREYnhxalQ1Y1VLV1NQQjVpUXY4MHBpdUI5TnVlNlE1U2tBMjlObV9HelY1bWZtM2d0by0zVXlZSlRWNlA1VnZMV05LdmxWZl9JOWZaWW9UelVJb1pVSDQ?oc=5",
-    "src": "NDTV Profit",
-    "at": "4 Sept, 08:36"
-   },
-   {
-    "title": "Deepa Jewellers IPO allotment status check online by PAN number on BSE, NSE, Bigshare; GMP today after 42x",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSW01MkNGNjN1LU9yOXNpMjI4ZUx2aWFRWXN6RC1yVk1hZTFGbGtPT3JyMjNmZWhxSGEzaE9fYmxGTjNxRGxkdU9kVHZJRjBtVGRtSjBoZ21McDlETTZJeGJPU3p2eGl6bjF5Qk45SGFVTU10QXVtOWFQR3Z6VjFBWGJ3UXp5X2JzeTNJX2t6Z1FUcmRNQnJ1SnBXX1k4VkFsRWwxRUlWcXFyOHJyQTBqZXdWa25QWW1xNmtiQWd4UDJ0OVpxQVJqMll1TUtSYXl0ME0xVmtCN0hTa1ZhOW5wSUw1R01VTmlmSFRTVHFDRTjSAfYBQVVfeXFMTWo0ZHFvaDNibjJPTUhvemozUlhGNThBalJPV0tDVUZVRGRKWE5nUFNlU3ZaUUluSk5Kb1RLajFwWkY5LS1zMERHbDRNdnE5X3JNeklScXBZeG04cnZCamt1czJ3ZjRvd1ltUnE4a213QS0wb3dnSm5nNzdMVWlYQjdOQmVleFNFY0lzcFN1aVlqN0w0ZHRodEx3dlYxSHV4Tk5Fb0J3aWc0Uk9jdExKRy16OVdTM2hvQXM0VndKdXFLOGhuRVBxNmhFdXBfRVdleXFSX2NzV0NQYUdCdlNIRVUzX3lLSGJjV1ZDR044RWpYRVhjTnh3?oc=5",
-    "src": "Livemint",
-    "at": "4 Sept, 09:51"
-   },
-   {
-    "title": "Rays of Belief IPO: How to check allotment status on Kfin Tech, BSE, NSE, fresh GMP & listing date",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOU2ZSbmF2eEMzZmZoTzFGbVE0Zmw5Q3JTS1N0b0lqdHIwTnNiM0MxX1MyTWV6b1RqcS1UR2VTMWNHYmM5NmlKb25rUGlHTE1WTF9XNjJxa0tvS1l6Z0ktb2k2OEgzRllfbUEwcm9wSUszWlVYT3pMaVlyRGZoTGkzZENqaTFDMjBkMlBPR2syQ3k0M2NhVFplWTlxUmtXdzVOWGh6dkxubWN1N1lLY2lyUFo1WEhaTElOd1ZQZUpfbTVpbm5YNW1lcGtuTlJOck9vSDBQeDFaVl9weVB5U0NLbktORERDOVFnR2ljbWhHdXlJZTAwMHlv0gH8AUFVX3lxTE5GejhaUDN5MU9qT3dlV3lLYTdIdjJXVEdmMVpNWVhzR3ZFZzJhN2EwV184bmJUcHFpcU5WYTZ1ME0zMjZySldZbkljYWNlZWFWWEg1dVdQUnBkUnVuTGh1SmwwT1JFY2pkeXAtaHN1bVR0WEZfdjNKOXlGOGN6ZThBeGxXWWxUR3ZJZW1HREhGYzNHZ0RMLWJTNVluU3J2V1ZTT2VoRFBUaHNPbzJxRTF4VmhaZWpTZy1oZ250aTJSUjJ5OWxPWU1abDFONXlDZ3h6d0tUb0c5aXBheDFpa3o4OUZCTHFodWFrMXVrWTZTd1VlSTMycm9tOEczaQ?oc=5",
-    "src": "Business Today",
-    "at": "4 Sept, 09:36"
-   },
-   {
-    "title": "Deepa Jewellers IPO GMP today: Grey market hints 16% listing gain; check subscription, review, key dates. Apply or skip?",
-    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdGktbG9fSTBBN2ZXWTBTc0dSRW9aSE5tUTJNYjBzdzB0LW9iTElnZlVwSzF2TGVnYURWdlZzYWxNMkpkbU1ncEJPWGZ3YUh1M1UzX3FPT1BrYS15UGZKSkx2b05VVlJISXZGMURSOVdKaDhIYTZIYzZ4T2o3aU9Na3VBYnJTMkM5d3FNZzdJVWwyTWlzaDVPeGxEMEhFbkNGMHF2eUFWWUctTmU0ZTlMQzI4eU5lYlZfSzExV3pXTDJqbVVmTEc4dWFQT2lPbFRmRFR1WV9femhoOWh4MS1Jamx2ellZT3VpeUoyT3ctUnVzc2ZyMkt6REJyVmJzcms?oc=5",
-    "src": "TradingView",
-    "at": "3 Sept, 13:27"
-   },
-   {
-    "title": "Asset Reconstruction IPO GMP, Grey Market Premium Today",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sRHptMC1WYjlEbzlnTk1GQmNKc1d0V3BCUkh6V3diTkxBVExIVGU4M21RM19sZ0pwWjVKNDZYOXctU3lGVEJJeVpCcHlTRHktYm45amJpUURBaXB5bUxYOWY2T0RuY0pQSGpDZGVzbWVQOHJLdEN6eg?oc=5",
-    "src": "IPO Watch",
-    "at": "4 Sept, 08:39"
-   },
-   {
-    "title": "Priority Jewels IPO Share Price: GMP Signals 14% Listing Gain; Check Expected Price",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYjYtdmxMbjl5WUpENEhCaXNKSG5iSDB4aHNFa3IxRjFBY2wyWElwN0htQ3pQRDM4dzB6a0VhYl9aeVlldHBYbWtfeFhxaWRPc0xoZ2t6Qk80NmllcUdnSEFPbWxxUVlKdkpLU3VERG4zRUdUTDcwRjdpR3h1R2s1QVpMM01kdmQxM2VFeGtnM2VSbXczX1dZVDkwU1BjbkFJNF95RmtOTEtGQV9iV3hQcUt1YURhaHdqVGFmSDZEaTJXWGvSAcsBQVVfeXFMTXF2X2RJYzYzLXFzVzMySkVkNWhSeEZWSmNEM0d0aHYyd2pZcXhsbmh1LU40cHNPRDhVYVZldHZyT0U0ZzZjOEwxbUhDN1Z6cVNKY2M0QlJldTg4X2ZLNUYzVTZxSGNjMHlTNmQ1dkJSNEIwUWM0V243SDh6Rnp6ZlBWaWI3QW1OWlFGVkhscnRyV255dE1IX0RhQTB6N0VPajdhWTJyb2ZLUHRHeDhTSkd2cXZZZEU1NHZnV2FYenJGRkVjMDNINmVGNDA?oc=5",
-    "src": "NDTV Profit",
-    "at": "4 Sept, 08:39"
-   },
-   {
-    "title": "ESDS Software Solution IPO listing today: GMP at ₹247; Share price prediction ahead of NSE, BSE debut",
-    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNTRWTVZwOEFYOUVuV3otbWZuY0NYb2JBWGg5c0FFUWlNdW1kUXFLVnlEdG5PYkE0ek9ZaFFrMTJwQ1FqN2ppV1g5R3pVREt0NjRFRHdNVkxaV2g3M3lQeFF1YUJYa2x3YWhvWEJyME9qNHNTTTFZVTdMNEQ2WVhxb1VJa3NIOVMzY1d1enhKSTJ1bHFIMEpBVWlUWHZIcE5raEJWZVltSWkxd0lPdnZxdlZNUXRrQVdreTFWampXOG1sTExBNHBGX0ZwdVN3dGx1YlZlX0dDQm01bU0xandtQmhBTHh6MzBoVUZkSdIB8gFBVV95cUxOR3Nwck52SktWSHVhZGhES1NaVFhWejFhcVRTZjJCanltcGxtSDdsN0RIaWtMVFQwVXlSUjZlWWZ3N0taTHNiaDZoOTVQaS1meUlhcGtYOG9RelRxVDNNd0RpYkdSeDJDTFNEQlItSzN2ZFFCVFFFaWtxQWN1ZWxEUENscU83aTFkcEF5MFNNY2ttbHJKc2k4bXIxS1FobmxlYXpSSHRma2R4NlZMLWVENnVlQ2U5eUt2S2taWmFLdWZEV2xaLW8xWjR2N09KM19DaGQ1cHRpOEliaVYwcHlWNHA2eEJIN2Z0M2l5UkpjcHl6Zw?oc=5",
-    "src": "Livemint",
-    "at": "4 Sept, 06:29"
-   },
-   {
-    "title": "Deepa Jewellers IPO GMP, Grey Market Premium Today",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ENlJPTEQwdG5nVF9DVWpGTDhKNHdhc1FTSVI3SVJiX2t2R3ZTSjh4WDJPY21OX3R5TFUxU2FIVkg0MklBUEQ0UWpEdVpjMWE1Uk0tZHBVanNNckpRQnBseERMeUM1dU0ydjRIMnpQMlNiZw?oc=5",
-    "src": "IPO Watch",
-    "at": "4 Sept, 08:17"
-   },
-   {
-    "title": "Deepa Jewellers IPO allotment: How to check status online on NSE, BSE, Bigshare Services; listing date, time here",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOT2dVdV9OczNRTzc2bjNoWEFha2ZKTVh5Y3RaRU12Vi0yQ0JZdmNSekNmS3l4dVh0Z0dxR2kxeHdiRWtEZlhwSkNvbXFMYS1kRlE1UTBMa0VrSVRHME9lc2Ezb3pOZE50MVZ2bXRkbGJjVzFTekpLdFdiT29FS01lZ0JXa0UzNHA0NG84UlpQQkV3ZllOTVh0ZVV0YnpGMUVuckF1TE5FVXhmRG55YkZSSHpoQTFVbldrOVRNRmlzejJ4R0R2SU4wSGdjckJiVjBlUEVEZF9wWFIyZXAtZ0Zpd2JMTUR4TnZtalNiQ056VVMtSjVvM0xn?oc=5",
-    "src": "Upstox",
-    "at": "4 Sept, 08:51"
-   }
-  ],
+  "ipo": [],
   "insights": [
    "Breadth: 11/16 stocks up — broadly bullish today",
    "Top mover: Reliance +1.93%",
-   "Weakest: Maruti Suzuki -0.77%",
+   "Weakest: Sun Pharma -0.65%",
    "Hot sector: Realty +0.27% · Cold: Pharma -0.2%",
-   "5/8 sectors green today",
+   "6/8 sectors green today",
    "Nifty 50 up 0.37% — flat session",
    "Rich valuations: Adani Ent P/E 47.4",
    "India VIX 10.85 — calm markets",
