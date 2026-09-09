@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-09T07:21:00.366Z",
- "label": "9 Sept, 12:51 IST",
+ "generatedAt": "2026-09-09T07:40:53.748Z",
+ "label": "9 Sept, 13:10 IST",
  "markets": {
   "indices": [
    {
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 67.42,
-    "chg": 0.42,
-    "pct": 0.62,
+    "price": 67.43,
+    "chg": 0.43,
+    "pct": 0.64,
     "spark": [
      67,
-     67.42
+     67.43
     ],
     "fx": true,
     "ok": true
@@ -270,12 +270,12 @@
    {
     "name": "Hang Seng",
     "g": "HSI:INDEXHANGSENG",
-    "price": 25251.67,
-    "chg": -65.51,
-    "pct": -0.26,
+    "price": 25252.71,
+    "chg": -64.47,
+    "pct": -0.25,
     "spark": [
      25317.18,
-     25251.67
+     25252.71
     ],
     "fx": false,
     "ok": true
@@ -283,12 +283,12 @@
    {
     "name": "FTSE 100",
     "g": "UKX:INDEXFTSE",
-    "price": 10801.85,
-    "chg": -9.81,
+    "price": 10802.02,
+    "chg": -9.64,
     "pct": -0.09,
     "spark": [
      10811.66,
-     10801.85
+     10802.02
     ],
     "fx": false,
     "ok": true
@@ -350,12 +350,12 @@
    {
     "name": "Gold BeES",
     "g": "GOLDBEES:NSE",
-    "price": 126.17,
-    "chg": 0.33,
-    "pct": 0.26,
+    "price": 126.16,
+    "chg": 0.32,
+    "pct": 0.25,
     "spark": [
      125.84,
-     126.17
+     126.16
     ],
     "fx": false,
     "ok": true
@@ -376,16 +376,15 @@
    {
     "name": "Nasdaq 100",
     "g": "MON100:NSE",
-    "price": 350.99,
-    "chg": 6.29,
-    "pct": 1.82,
+    "price": 350,
+    "chg": 5.3,
+    "pct": 1.54,
     "spark": [
      344.7,
-     350.99
+     350
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "mf": [
@@ -442,12 +441,12 @@
    {
     "name": "Reliance",
     "g": "RELIANCE:NSE",
-    "price": 1288,
-    "chg": -6.9,
-    "pct": -0.53,
+    "price": 1287.6,
+    "chg": -7.3,
+    "pct": -0.56,
     "spark": [
      1294.9,
-     1288
+     1287.6
     ],
     "fx": false,
     "ok": true,
@@ -498,17 +497,16 @@
    {
     "name": "ICICI Bank",
     "g": "ICICIBANK:NSE",
-    "price": 1393.3,
-    "chg": -6.1,
-    "pct": -0.44,
+    "price": 1398,
+    "chg": -1.4,
+    "pct": -0.1,
     "spark": [
      1399.4,
-     1393.3
+     1398
     ],
     "fx": false,
     "ok": true,
-    "pe": 18,
-    "stale": true
+    "pe": 18.1
    },
    {
     "name": "SBI",
@@ -527,17 +525,16 @@
    {
     "name": "Bharti Airtel",
     "g": "BHARTIARTL:NSE",
-    "price": 1825.3,
-    "chg": -18.7,
-    "pct": -1.01,
+    "price": 1830,
+    "chg": -14,
+    "pct": -0.76,
     "spark": [
      1844,
-     1825.3
+     1830
     ],
     "fx": false,
     "ok": true,
-    "pe": 38.2,
-    "stale": true
+    "pe": 38.3
    },
    {
     "name": "L&T",
@@ -625,64 +622,60 @@
    {
     "name": "Sun Pharma",
     "g": "SUNPHARMA:NSE",
-    "price": 1871,
-    "chg": -14.9,
-    "pct": -0.79,
+    "price": 1872.4,
+    "chg": -13.5,
+    "pct": -0.72,
     "spark": [
      1885.9,
-     1871
+     1872.4
     ],
     "fx": false,
     "ok": true,
-    "pe": 37.1,
-    "stale": true
+    "pe": 37.1
    },
    {
     "name": "Bajaj Finance",
     "g": "BAJFINANCE:NSE",
-    "price": 1055.4,
-    "chg": 1.3,
-    "pct": 0.12,
+    "price": 1049.4,
+    "chg": -4.7,
+    "pct": -0.45,
     "spark": [
      1054.1,
-     1055.4
+     1049.4
     ],
     "fx": false,
     "ok": true,
-    "pe": 32.4,
-    "stale": true
+    "pe": 32.2
    },
    {
     "name": "Adani Ent",
     "g": "ADANIENT:NSE",
-    "price": 3102.4,
-    "chg": 149.3,
-    "pct": 5.06,
+    "price": 3104.6,
+    "chg": 151.5,
+    "pct": 5.13,
     "spark": [
      2953.1,
-     3102.4
+     3104.6
     ],
     "fx": false,
     "ok": true,
-    "pe": 50,
-    "stale": true
+    "pe": 50.1
    }
   ],
   "gainers": [
    {
     "name": "Adani Ent",
     "g": "ADANIENT:NSE",
-    "price": 3102.4,
-    "chg": 149.3,
-    "pct": 5.06,
+    "price": 3104.6,
+    "chg": 151.5,
+    "pct": 5.13,
     "spark": [
      2953.1,
-     3102.4
+     3104.6
     ],
     "fx": false,
     "ok": true,
-    "pe": 50,
-    "stale": true
+    "pe": 50.1
    },
    {
     "name": "L&T",
@@ -711,21 +704,6 @@
     "fx": false,
     "ok": true,
     "pe": 10.8
-   },
-   {
-    "name": "Bajaj Finance",
-    "g": "BAJFINANCE:NSE",
-    "price": 1055.4,
-    "chg": 1.3,
-    "pct": 0.12,
-    "spark": [
-     1054.1,
-     1055.4
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 32.4,
-    "stale": true
    }
   ],
   "losers": [
@@ -788,21 +766,20 @@
    {
     "name": "Bharti Airtel",
     "g": "BHARTIARTL:NSE",
-    "price": 1825.3,
-    "chg": -18.7,
-    "pct": -1.01,
+    "price": 1830,
+    "chg": -14,
+    "pct": -0.76,
     "spark": [
      1844,
-     1825.3
+     1830
     ],
     "fx": false,
     "ok": true,
-    "pe": 38.2,
-    "stale": true
+    "pe": 38.3
    }
   ],
   "breadth": {
-   "up": 4,
+   "up": 3,
    "total": 16
   },
   "trending": false,
@@ -817,16 +794,28 @@
     }
    },
    {
+    "title": "NSE IPO Live Updates: What latest GMP signals for listing, expected share price band in ₹1700 range, opening date news",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTDBQMkRKLXdoVmNNbWdGWDNFbUhkbEpGUDE2dlZ1U1YxM3NaSUxVRnBMRmZYNnJyczkwREJFMW9nRDFkV1k4RTRCNEt4em9GY3RQbU9KNWt2dTR1akJSZ1dhLXhyc1lzRk9TWXoxaTBIUnYzMVJPSlAyczZpNjdNNGkyMmxrMlN0VXNpN1NpOXY2NU9KcC15SV9MclVYWTZZVzNtZ3lBWWZjY1pyR2VEeXI4QUtZMGZ6WHRIV2VNaXV3ZkZXSXV1a3drR0Y4Tm9md0RISzIwOHljX1Fxd3dZT2tEUFU?oc=5",
+    "src": "IndiaIPO",
+    "at": "9 Sept, 12:19"
+   },
+   {
+    "title": "Steamhouse India IPO Day 1: Rs.414 crore public issue opens for subscription; GMP signals 22% listing pop - Apply or not?",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOV1pmY3dXb1ZaRmhHSDFLN0E2WEx3TG1hSlhZYWZ0LVJvYjZIdmNZWWtUa1gxbE1OanFoZnlVa1JNanFIZVVSRWUxUktOQlJSY3RxTTZySXdsQ2dBNThqQjdveGJvaWZrN1ZmZGotZTZfcE91VkRaLTgzWW9TQ3F4RFY0bkg1Vl9tejhJZHRFT2xrNFJfQ2FKS3BMWjJxT3lLMmp6NVpTd0FFUzVpa3YzcVRaN2I1dkJFX2NIT1VxMU9tVkRMRXViWE80TFJuUXQ5OERENHBCc2VNYlVVUXZ6cXlfcUN1a204NnRoTjhPZUczOWhmOWl5dUVvTVhqMUZNQWc?oc=5",
+    "src": "TradingView",
+    "at": "9 Sept, 12:56"
+   },
+   {
     "title": "Rentomojo IPO Opens For Subscription, GMP Signals Strong Listing Gains, Check Price Band And Other Details",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWDU5ZFBiQ29wbHlIZk14S0RnNHhIR3pvcVkzbXlPRjNxY1FBN0xMcE9VZFlKcDA3NUt4SFhPa25WN2FmX3d0RmVUOUdOMk9DLWFaUjEwc1RBanlIV0NOWTZRRFl6TzZJWFEySmNCRVBITkdtelpjTXpYMWhsTFlXRTE5MWtFdHNEWDdST0NLQVEtUjVLRXQ00gGkAUFVX3lxTE9nMXRiZWpDMGJEbDYtVnA4NkRsSV9OeUk1ZWtKVk9WTG1HVEoyakNISlJCSzNVRm9jMzNRLTVtM0pXVTJlVzRoWGRBXzN4aUhiSmgtcU13aW01b3ZxNGVVR2RkVlVLR2oxNzFWWTBBSlJYU25aVjFGR05wTmhQSDdWRjBGRU1YRk1XVjQ0Z3VLZ1ZTems0OGl3UmtiT1pqcTR1dWto?oc=5",
     "src": "Outlook Money",
     "at": "9 Sept, 09:29"
    },
    {
-    "title": "NSE IPO Live Updates: What latest GMP signals for listing, expected share price band in ₹1700 range, opening date news",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTDBQMkRKLXdoVmNNbWdGWDNFbUhkbEpGUDE2dlZ1U1YxM3NaSUxVRnBMRmZYNnJyczkwREJFMW9nRDFkV1k4RTRCNEt4em9GY3RQbU9KNWt2dTR1akJSZ1dhLXhyc1lzRk9TWXoxaTBIUnYzMVJPSlAyczZpNjdNNGkyMmxrMlN0VXNpN1NpOXY2NU9KcC15SV9MclVYWTZZVzNtZ3lBWWZjY1pyR2VEeXI4QUtZMGZ6WHRIV2VNaXV3ZkZXSXV1a3drR0Y4Tm9md0RISzIwOHljX1Fxd3dZT2tEUFU?oc=5",
-    "src": "indiaipo.in",
-    "at": "9 Sept, 12:19"
+    "title": "NSE IPO GMP, Grey Market Premium Today",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8teW5uRGNXTjFFVjJvWk1ET1BFVm4xV0RGYlVUNjhJaWx6d2ZtRmtTSG00dFFjbFZBRlhTT1NWb3BHRGFzYzJUWUJaRkZHbGx6a202OUVId2dMQmRFS2c4RUtB?oc=5",
+    "src": "IPO Watch",
+    "at": "9 Sept, 11:35"
    },
    {
     "title": "Steamhouse India IPO GMP Today: Grey Market Signals 22.22% Listing Gain As Issue Opens",
@@ -850,18 +839,6 @@
     }
    },
    {
-    "title": "NSE IPO GMP, Grey Market Premium Today",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8teW5uRGNXTjFFVjJvWk1ET1BFVm4xV0RGYlVUNjhJaWx6d2ZtRmtTSG00dFFjbFZBRlhTT1NWb3BHRGFzYzJUWUJaRkZHbGx6a202OUVId2dMQmRFS2c4RUtB?oc=5",
-    "src": "IPO Watch",
-    "at": "9 Sept, 09:38"
-   },
-   {
-    "title": "LCC Projects IPO: Check GMP, Issue Size, Key Dates, and other Details",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSlBBM0NXNlVSVTUtVkwtQUVlTWlxTHVfME9aX0I5czdxcE1hWE5hQU5ETl9IbVpMdUw4QkRySkNGa0tnTlFJSExMbndNVWNmbGtTTTlzTTJJd1h2c3cwd2RpZkQ5b3VBWlozbnRpcUI3cTVpTm9OZm8zY3c3eFJpUUw1ZXZGNDN2WDZsSEx3X1g0a1J2ZG5kSFM4WUp2OFFVN3NSbDdBNA?oc=5",
-    "src": "India Infoline",
-    "at": "9 Sept, 08:30"
-   },
-   {
     "title": "6 mainboard IPOs open today: Karamtara Engineering, Steamhouse India, LCC Projects and more; Check GMP, ke",
     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNb1VkZHlsZ1JUd1lYT3JHaExSWGFVTFFoV01RVnZMbDlsbWh0enN2a3RRU0gyQ0hQblZralhZZnRFUFU5WkZOSEdSUGpYd2xSR21jZXBTSTd6Q1h3aEllMk1vS3hCZXZNNnBCeFdJX1B0RGpkUUFNX18wTnFUdmlhaWpFNXpMU0g0UUtyQTg5NUpMbFNnMUpieTBhN1BmcTdlZXc3YWNodXZRalZ3VF9DczB3d3RMbXVrRDdJN3JZT3NscThMeDY1Q1VEbDZNX25tQVRvUFJFb3doVVZxSnJEdWxwX3BEVVpNam03dmZhY2dtNlh5UjdYZ0RlMHk0ZVU2alBiU3k4LW9zUTh4emxF0gGUAkFVX3lxTFBvSG1qekpjVXo0LTJYUE45dUZaSGkxY3RjaXhYZkVGRnMwSEVSdmdZb1IwUDlUSDZLaEVVMnNpdTdhakVUNUxJWmtkUVNBZXl2eUg1QmxxcGNBMjM0VDBrUGFjdFVXNnVpTnJvMWs1SEw4WEc3MEMxTVEtTXJuN2dtOFRWQUdHalNlVU9FWGoxTDNkSzU0eUJIWDhlMDRnYW9qbnJsUjBaai1CWmhNZS12Y0pVRERMNlNuT3FJWGdRUEhFdDhVRVFXdzVmdEtFNVozRTZScTJWdzlFZXZxNk4yUzQ3UHF6YmJtR1Q4VkF1TS1qQl9fNXRTVjNENGcwUzBJdHlLTFhGbUo5aER5Ql9yVnowTQ?oc=5",
     "src": "The Economic Times",
@@ -875,13 +852,13 @@
    }
   ],
   "insights": [
-   "Breadth: 4/16 stocks up — broadly weak today",
-   "Top mover: Adani Ent +5.06%",
+   "Breadth: 3/16 stocks up — broadly weak today",
+   "Top mover: Adani Ent +5.13%",
    "Weakest: Infosys -4.26%",
    "Hot sector: Metal +1.91% · Cold: IT -3.02%",
    "2/8 sectors green today",
    "Nifty 50 down 0.31% — flat session",
-   "Rich valuations: Adani Ent P/E 50",
+   "Rich valuations: Adani Ent P/E 50.1",
    "India VIX 11.58 — calm markets",
    "Global cues: FTSE 100 -0.09%, Dow Jones -1.18%"
   ],
@@ -901,24 +878,24 @@
   },
   {
    "tag": "Share Market",
-   "title": "Why is Indian stock market down? 3 key factors explained - Top losers contributing to the fall in Sensex, Nifty today",
-   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPR0E3TzBGbXNKTXd4UG54MlhvWEJNakFwWkpuME1CM0t0SUQ2b0lnQmtnU05sOVV3c05kcm9XUnpkRlF4c09QY2R2TjFhZVR5N0dabHNxcXNKM0F2UDBXRldaajNjYl9nbWJFc1Y1TFFfV0tjQXlNMWIxQllmSnFTNDhmcjdvcW02WXBJYTFhdF95Y2V4c2RhYU8tenAtcUJaQzVxdGFpekE4bWoxbXlSNU1WUmZoZ3gzYlNULUY1b2tMcVE0am9yYzhhaDBxX3dnNXMzWTVHeWJEME1RX0xhVzVJY3FPNkJJNk0zOTJzUHEydllaSExTbkVGaVpaQjJDMFFlbTgwNTUwT01VWmNxdtIBlgJBVV95cUxNYnhoNWNBNnFxZkFBOE92QzBJaWRpLXRyVWRoZnpPRUtscW4yU2xrVkx3c0syWXZwWmFNNjVBc1RUbUQ3Y1NMaVJ4TDhEcTNnQkk1RHRJLU9pSGtQWWkzNWVWRVliUlFPWGx6UFNvRzBnS3MxdDc4eU4yS3hlYVNMRk83RURRaXZHSUh0NmJXcGE4elBNdDZXNlBUUUJIY2xsbjJRRWZGMnc5UXRaU3puMXNVNW5vcFNkVkZuNE5rRmsxUER6Y3M4X2t0VDdDeHVRVmhsODNadEQ3RFkzUmUxX1lrRzRmQk9ZcnFPZHZLZndBR0VrU0h4Y3JlaWszdm1VTFI2MHlUMVM5c1Z0OGJvWUFQS0cwQQ?oc=5",
-   "src": "Livemint",
-   "at": "9 Sept, 10:34"
-  },
-  {
-   "tag": "Share Market",
    "title": "Three Reasons Why Stock Market Is Falling: Nifty Below 23,500, Sensex Down Over 600 Points",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGpldXFsMEl4bkltRXp1bTJBbG8wREdKUnpXSkszRUZINmNaazBIMS03OEk4UmF6SE1zekMweF84REY0NkNNczAyLVd5U1p5SmMweWYxVTJCNy00TnhXWDhPV18yRnBuaWNtcjVFbzdRd0NpdThVVjVKZndfVk5aSzZFNFN4SzFJdU9nWjR2UHhfWnBveTZPamJpSWQtUjdYUzNMa1NKQ3BXYzdVZTZkLXp2aDM1NGhoOEZZUTRQSnBTei12ZmNhZ2t0U3HSAdQBQVVfeXFMUHliM2RsNE1TU3RyNlRSZklGajBBVHNUUk1ITVdxWHc2ZTduRkxFTjU3eHVxcFd0dmdqemxoV1E3aTc5aGxRT1VBTHk1N1dGNFZYRTZKXzdJb0Z2blpLSE0zSEZOc3NsNFVfWmp5Zl9aSWtTMUV1MHBEUTRiZ2hCSTA5NEVfNkpIWjdaQUd5bmJkZlRZc2hybTdZWjJvQVVlSXFBRUQ3Wl9wdEZSVXJNTEtiQXpoVEtGenVxa3phaGZmdWE2dkJ6VGlsbHRiN1N0eW5iSlg?oc=5",
    "src": "NDTV Profit",
    "at": "9 Sept, 10:06"
   },
   {
+   "tag": "Share Market",
+   "title": "Why is Indian stock market down? 3 key factors explained - Top losers contributing to the fall in Sensex, Nifty today",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPR0E3TzBGbXNKTXd4UG54MlhvWEJNakFwWkpuME1CM0t0SUQ2b0lnQmtnU05sOVV3c05kcm9XUnpkRlF4c09QY2R2TjFhZVR5N0dabHNxcXNKM0F2UDBXRldaajNjYl9nbWJFc1Y1TFFfV0tjQXlNMWIxQllmSnFTNDhmcjdvcW02WXBJYTFhdF95Y2V4c2RhYU8tenAtcUJaQzVxdGFpekE4bWoxbXlSNU1WUmZoZ3gzYlNULUY1b2tMcVE0am9yYzhhaDBxX3dnNXMzWTVHeWJEME1RX0xhVzVJY3FPNkJJNk0zOTJzUHEydllaSExTbkVGaVpaQjJDMFFlbTgwNTUwT01VWmNxdtIBlgJBVV95cUxNYnhoNWNBNnFxZkFBOE92QzBJaWRpLXRyVWRoZnpPRUtscW4yU2xrVkx3c0syWXZwWmFNNjVBc1RUbUQ3Y1NMaVJ4TDhEcTNnQkk1RHRJLU9pSGtQWWkzNWVWRVliUlFPWGx6UFNvRzBnS3MxdDc4eU4yS3hlYVNMRk83RURRaXZHSUh0NmJXcGE4elBNdDZXNlBUUUJIY2xsbjJRRWZGMnc5UXRaU3puMXNVNW5vcFNkVkZuNE5rRmsxUER6Y3M4X2t0VDdDeHVRVmhsODNadEQ3RFkzUmUxX1lrRzRmQk9ZcnFPZHZLZndBR0VrU0h4Y3JlaWszdm1VTFI2MHlUMVM5c1Z0OGJvWUFQS0cwQQ?oc=5",
+   "src": "Livemint",
+   "at": "9 Sept, 10:34"
+  },
+  {
    "tag": "Sports",
-   "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcjBTQXZpNmJnSHpmQVhqdXVuNXJiMFdZY0JZNmhUcVBKbWpCb2o2a3pZR3hLY2ZubjdRdWVpUXlRX3VrSEZtS21zQ0FvOU1VOUIwZHJfdGhnU05aNzZ3a0JjRlZhS3lyX0ZwLUgtQXdCRGFpU3ViMEtoV0ZrLVdIRmJxQzI0aFZsMlVMR3NWeFg4cVhhRFpXX1NIaFBNM091NkdKS01RWFJFRHBobTBuOTlKd0UyX1BTUFBZcGZ3?oc=5",
-   "src": "espn.in",
-   "at": "8 Sept, 22:48"
+   "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEpNLVRNYnZtV1JkVFRrc1FyOGtydnBSYVJTZFdQd0NkN25jSzg5eGtNbTBDa2JFRmJab0dJdGNCckZuMXNXYWl4eXFwbEtib3ZLeTZOVXd5SDVyd3VTbDlrazlwNTZURjJJQ0VGcjAtenhYWGdwbzlSYmY1ZHN0NldGVjdaZzBackZnUnlub2xVUjRpS25F?oc=5",
+   "src": "Cricbuzz",
+   "at": "8 Sept, 17:58"
   },
   {
    "tag": "Tech",
@@ -957,10 +934,10 @@
   },
   {
    "tag": "Jobs",
-   "title": "Layoff Tracker—Trinity Health outsourcing hits 557 staff",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGotbUVRVDF3QVpWdUJURDNNbjNKMDVaeFk1aUJYRVZTaE9jNURGRmlubTRUWV9aZ2lMdUxoa3d5QmtKQk9uRlBzMV8zWGVuSDdmNU5xc1F5ZWFvenF0bTc1SXBxWkRMWHcxREVKTEpoQzAyYlVQT0NKX192bmdBYWlRdllFOWJGOVJ6UGJla0pqVVJHdE9vdDlmZEFBa2hxaXJwa1M2QWJwN0lTbVp5LXlXZWN2VmNSUmRLWjdvRy14ME0?oc=5",
-   "src": "Fierce Healthcare",
-   "at": "9 Sept, 11:17"
+   "title": "Tech layoffs surge: 6,300 jobs cut in 10 days by Uber, PayPal, Apple and others",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEF1cC1hVGwyeENFY3RST3hBanFjZFNCYjFjRURrRHFVSGFJZUNBR0xTT05jb1lfVFVCSWpUMWtIeXRuMVJUNEpVUWJ2TGFjNzB3SDJvQmF1bmN4bG9WVVlvQ0RxWDNYbDVBTUoyN3BQNlEzcHRtNVVXcFpfd0lPVGo2dXJtLThtLThFUnRJTzVNV2JGdlhabUI3bG9PRVNZX1FFMXVDZHNoYkdXUGF4XzR0c2VOZFRUdlNpU1lnTy1VSUIwYmdJcmdIc1h3cHl5bEHSAdcBQVVfeXFMT05abWU1ZXpzaUNqOThZNFBlb3ZpeDVnWEcwSHQ0RUZtcWpoSy15WFJ4SllUWWhBcTJIUVlMYlItRlZwSWYwUWtlMGltdkV0VHlkdHJmNWw0Yk5EYmdwM0RyWlhfUWMzNVZESUdvQ1pSN2NBUldBeW8wNVBCTUZYSm1pbnRIR2FxU29qbzlsRXU4dXlSaUlSS2tnMDJEU2JaYWlDYWxvNXdzdnRvVS1uZlJfZUdsWDE4eUx1Ylp3X1JzNGdlX3oycko2THFPNDg2bkd6Vmtqd0U?oc=5",
+   "src": "Storyboard18",
+   "at": "8 Sept, 18:31"
   },
   {
    "tag": "Crime",
@@ -980,7 +957,7 @@
    "tag": "For You",
    "title": "DataHub & SecuPi Partner to Provide Data Governance to Runtime Control: Governing What AI Agents Can Access, See and Do",
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNEVXQmVXeURNOHFnLU9kRmRNNmJsNERTZjBwMjViZ3VaVmVWa1hNTG1Fc0QyV2ZNRF9UOWhxcU0xRzFOUEI0SG1kUGg4QjZ5eDFGWkJ3eG5MYTZGdzlkbV9WUWJSOWdWaFJDV1FkRXA3TXloX1RJRWVJTDRfancxb01feENXMXRLdjFUWC1fdXdmMW0yYXFYN2E5R0tJLUlIZmJ2OHZfcVVJcnZHSHFhT1R3WExoN0dZSC0yWHQ4alFfWnhDWlloNjFZQUcxQnRkalRjN3kzSVVLb01hN2tfbkpOR0JtUHd1OVZRZmN1cnU1cjFL?oc=5",
-   "src": "einpresswire.com",
+   "src": "EIN Presswire",
    "at": "8 Sept, 19:30"
   }
  ],
@@ -1019,10 +996,10 @@
      "at": "9 Sept, 03:24"
     },
     {
-     "title": "Why Air India's funding call has come under political scrutiny in Singapore",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOQXd3ckZVMER1bTRzUTR4M05uQzBwb1RVc0l2Q2tDSUhQWXBVNHlodFd4NnBTb2g4UE5yUjg2bVZvQVVidm80Qzg3NjlXMTNobVpUeEVmNmdNc2lMUkJUUlJMNGlIeWpScklKNW1yYlFsWUxxZWhGeDMtdmtpR1YyanNOcXBfQWRDQUc4dnZwX3JMUEZkTlJnRlp3OE56UHJUSVktWE5Wa0xmbVlwV3hmYWFpV3hMb0p0RjVWZVVsd2h4ZUJQSnEwSzdnTWJpZ1FYQjRVVkR3Y0F4WWFwM24zRk1DTGNSQnZyc2VJaVBlYUs3dUlqb2U5VmVLUW8xY1RqMnfSAYcCQVVfeXFMTm1CZFBCWFJyRnVZcVlHX0lqWnNFazV1QVRTZDFpRzJKT1ZrcXFESkh2Q0t4SUFhSWxKblJDelJsRzVFR2JfSFp3YzQycnVpT2ZQeWc4ZHFjdm56WVhiR25wNzBwc2J4YlRhY2ZwRDkwa3ZrZUtMc0YxX3VjOVR6ZHA0ODFlaXZsLWVFVGl4X2p0d2tQUkl4UXBDbXRXTDd4U18xTG9yWHUzOXhGWGRTb0ZuVWZxU1d6U01kNTNYaW1hV1lIbm42V2k5bWRINGtiVlIzdzYxdXRCZG9tQ1Q3TUtJSU1ZSEUyNEY1LWZDbmJzWUlpSGhJaFBvMlBVNldGcmtCS0RpMEE?oc=5",
-     "src": "The Economic Times",
-     "at": "8 Sept, 19:21"
+     "title": "IFCI shares fall 10% after sharp run-up; NSE IPO buzz and profit booking explained",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSzNLdGxTVHNzZ0J0UDUySkk1SE44elhBTFJFbXI4M1BRMXhEX1JiUkppLTRpVXFMMGNqRjZERVZHbU0wMXpWSHZSbjBwYU9SR2dNc0tiQzd0VWhLSlJfXzZTV0o2d2hvYlp3T3VLX3htTllsdFJxTE5sOHRjSXpZdjBFRWhaVjJENTlnTVRkR1MtcmNvdnc3VXdlMkNmc2Fvc2NDbnlLVkM4RnVfMXNfd0YxOGlaWTR0bS1vbmRTaW11WHcyRzg0bVBtRFB1TGlVZGthd3FB?oc=5",
+     "src": "Upstox",
+     "at": "8 Sept, 14:39"
     }
    ]
   },
@@ -1030,28 +1007,28 @@
    "tag": "Share Market",
    "items": [
     {
-     "title": "Why is Indian stock market down? 3 key factors explained - Top losers contributing to the fall in Sensex, Nifty today",
-     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPR0E3TzBGbXNKTXd4UG54MlhvWEJNakFwWkpuME1CM0t0SUQ2b0lnQmtnU05sOVV3c05kcm9XUnpkRlF4c09QY2R2TjFhZVR5N0dabHNxcXNKM0F2UDBXRldaajNjYl9nbWJFc1Y1TFFfV0tjQXlNMWIxQllmSnFTNDhmcjdvcW02WXBJYTFhdF95Y2V4c2RhYU8tenAtcUJaQzVxdGFpekE4bWoxbXlSNU1WUmZoZ3gzYlNULUY1b2tMcVE0am9yYzhhaDBxX3dnNXMzWTVHeWJEME1RX0xhVzVJY3FPNkJJNk0zOTJzUHEydllaSExTbkVGaVpaQjJDMFFlbTgwNTUwT01VWmNxdtIBlgJBVV95cUxNYnhoNWNBNnFxZkFBOE92QzBJaWRpLXRyVWRoZnpPRUtscW4yU2xrVkx3c0syWXZwWmFNNjVBc1RUbUQ3Y1NMaVJ4TDhEcTNnQkk1RHRJLU9pSGtQWWkzNWVWRVliUlFPWGx6UFNvRzBnS3MxdDc4eU4yS3hlYVNMRk83RURRaXZHSUh0NmJXcGE4elBNdDZXNlBUUUJIY2xsbjJRRWZGMnc5UXRaU3puMXNVNW5vcFNkVkZuNE5rRmsxUER6Y3M4X2t0VDdDeHVRVmhsODNadEQ3RFkzUmUxX1lrRzRmQk9ZcnFPZHZLZndBR0VrU0h4Y3JlaWszdm1VTFI2MHlUMVM5c1Z0OGJvWUFQS0cwQQ?oc=5",
-     "src": "Livemint",
-     "at": "9 Sept, 10:34"
-    },
-    {
      "title": "Three Reasons Why Stock Market Is Falling: Nifty Below 23,500, Sensex Down Over 600 Points",
      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVGpldXFsMEl4bkltRXp1bTJBbG8wREdKUnpXSkszRUZINmNaazBIMS03OEk4UmF6SE1zekMweF84REY0NkNNczAyLVd5U1p5SmMweWYxVTJCNy00TnhXWDhPV18yRnBuaWNtcjVFbzdRd0NpdThVVjVKZndfVk5aSzZFNFN4SzFJdU9nWjR2UHhfWnBveTZPamJpSWQtUjdYUzNMa1NKQ3BXYzdVZTZkLXp2aDM1NGhoOEZZUTRQSnBTei12ZmNhZ2t0U3HSAdQBQVVfeXFMUHliM2RsNE1TU3RyNlRSZklGajBBVHNUUk1ITVdxWHc2ZTduRkxFTjU3eHVxcFd0dmdqemxoV1E3aTc5aGxRT1VBTHk1N1dGNFZYRTZKXzdJb0Z2blpLSE0zSEZOc3NsNFVfWmp5Zl9aSWtTMUV1MHBEUTRiZ2hCSTA5NEVfNkpIWjdaQUd5bmJkZlRZc2hybTdZWjJvQVVlSXFBRUQ3Wl9wdEZSVXJNTEtiQXpoVEtGenVxa3phaGZmdWE2dkJ6VGlsbHRiN1N0eW5iSlg?oc=5",
      "src": "NDTV Profit",
      "at": "9 Sept, 10:06"
     },
     {
-     "title": "Stock markets tumble in early trade amid escalating tensions in West Asia, higher oil prices",
-     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNODdoMDUwZGdCUUFXNm5TUjYwYWZJNEZnUENCWElYTzh0RjVpa2ozbW5YWEVzbmprUFc4UDV5Qk5Cck9zSHp2Wm8wUjBXNkFKWWdQWEdXaXJEWGt6OWpPOUdqVnNER1ZuTkFsYThLWnFEUDZnQVpycm5VX0wxbTdfVl9iUGo0cnRpTjRMcklaZmZITzZ6MWY0RHpHZWVSeW9aT0MzVUV0UHVMZkxCeERNTnF2SkVzTENrMHB4MFczcEctVjUzSElabWRhMTctUHlzQjVsRldSRGNNdlpDYWZRNFRZZUtWWXhKWWU4VmVfQ3DSAfABQVVfeXFMTTg3aDA1MGRnQlFBVzZuU1I2MGFmSTRGZ1BDQlhJWE84dEY1aWtqM21uWFhFc25qa1BXOFA1eUJOQnJPc0h6dlpvMFIwVzZBSllnUFhHV2lyRFhrejlqTzlHalZzREdWbk5BbGE4S1pxRFA2Z0FacnJuVV9MMW03X1ZfYlBqNHJ0aU40THJJWmZmSE82ejFmNER6R2VlUnlvWk9DM1VFdFB1TGZMQnhETU5xdkpFc0xDazBweDBXM3BHLVY1M0hJWm1kYTE3LVB5c0I1bEZXUkRjTXZaQ2FmUTRUWWVLVll4SlllOFZlX0Nw?oc=5",
-     "src": "thehindu.com",
-     "at": "9 Sept, 11:35"
+     "title": "Why is Indian stock market down? 3 key factors explained - Top losers contributing to the fall in Sensex, Nifty today",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPR0E3TzBGbXNKTXd4UG54MlhvWEJNakFwWkpuME1CM0t0SUQ2b0lnQmtnU05sOVV3c05kcm9XUnpkRlF4c09QY2R2TjFhZVR5N0dabHNxcXNKM0F2UDBXRldaajNjYl9nbWJFc1Y1TFFfV0tjQXlNMWIxQllmSnFTNDhmcjdvcW02WXBJYTFhdF95Y2V4c2RhYU8tenAtcUJaQzVxdGFpekE4bWoxbXlSNU1WUmZoZ3gzYlNULUY1b2tMcVE0am9yYzhhaDBxX3dnNXMzWTVHeWJEME1RX0xhVzVJY3FPNkJJNk0zOTJzUHEydllaSExTbkVGaVpaQjJDMFFlbTgwNTUwT01VWmNxdtIBlgJBVV95cUxNYnhoNWNBNnFxZkFBOE92QzBJaWRpLXRyVWRoZnpPRUtscW4yU2xrVkx3c0syWXZwWmFNNjVBc1RUbUQ3Y1NMaVJ4TDhEcTNnQkk1RHRJLU9pSGtQWWkzNWVWRVliUlFPWGx6UFNvRzBnS3MxdDc4eU4yS3hlYVNMRk83RURRaXZHSUh0NmJXcGE4elBNdDZXNlBUUUJIY2xsbjJRRWZGMnc5UXRaU3puMXNVNW5vcFNkVkZuNE5rRmsxUER6Y3M4X2t0VDdDeHVRVmhsODNadEQ3RFkzUmUxX1lrRzRmQk9ZcnFPZHZLZndBR0VrU0h4Y3JlaWszdm1VTFI2MHlUMVM5c1Z0OGJvWUFQS0cwQQ?oc=5",
+     "src": "Livemint",
+     "at": "9 Sept, 10:34"
     },
     {
      "title": "Sensex down 500 points: 5 reasons why stock market is falling today",
      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOY3NmM3FlUXFQdzQ5U2VuMmNZY2JhQy1tNVhBT25YOU5yOVBVMlZKYkdTYVh6TzBPSXpKNmZ6R21rMmZPTVFGZFFOSmxPYklseDc5WERLZVNLLWtPNm5QTlJRSFZ5Y3Q3NmE2NHdsS2lNV2tYbE5HM2ZtZFRwVnJYdHlrYWRoZmxIN19wemg0cS1weHBjLXBVazNvcjAzTFN4SndfMTNHZmZOQ0V2a0pWMkMwZjZqWXdUdE5qeFkxUGFyRHdpcHVlbUNCU3hITmJvM3NkX2JEYkQ5RjFaOXQzQ3ktTGtuSGFYQUwtUTZ5V1RDQdIB9wFBVV95cUxQQ3ZidEtvYWJCd1M3ZE93bW9rMUZvUTRjdC11TGhOT21LRklvSmJBUmcyRFdIYjY3aTM0dmVEaU9OUkF6UkVJZllHUkJEaHlrYklkMDFDblhPUkRZSEc0TE43ZUUwTWpzMjdheVZiVjNlc1dCSUxTMVRweV9wTWtvd00yRW9QZXZxa1ctSHVXLXRIbF9DZG1YNHhMUUJiUFVqNWRMUWljZ2Z3R2lyMVdWVzFNRlE2TGF3XzYteUxkeF9hM2JrNDNDT2dMbXBXaGF4NlpFWHhYTGR6bmhJWWwxdGthbm9KcXNrY1ZDNEtINzdSZktjTGhn?oc=5",
      "src": "India Today",
      "at": "9 Sept, 10:03"
+    },
+    {
+     "title": "Stock markets tumble in early trade amid escalating tensions in West Asia, higher oil prices",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNODdoMDUwZGdCUUFXNm5TUjYwYWZJNEZnUENCWElYTzh0RjVpa2ozbW5YWEVzbmprUFc4UDV5Qk5Cck9zSHp2Wm8wUjBXNkFKWWdQWEdXaXJEWGt6OWpPOUdqVnNER1ZuTkFsYThLWnFEUDZnQVpycm5VX0wxbTdfVl9iUGo0cnRpTjRMcklaZmZITzZ6MWY0RHpHZWVSeW9aT0MzVUV0UHVMZkxCeERNTnF2SkVzTENrMHB4MFczcEctVjUzSElabWRhMTctUHlzQjVsRldSRGNNdlpDYWZRNFRZZUtWWXhKWWU4VmVfQ3DSAfABQVVfeXFMTTg3aDA1MGRnQlFBVzZuU1I2MGFmSTRGZ1BDQlhJWE84dEY1aWtqM21uWFhFc25qa1BXOFA1eUJOQnJPc0h6dlpvMFIwVzZBSllnUFhHV2lyRFhrejlqTzlHalZzREdWbk5BbGE4S1pxRFA2Z0FacnJuVV9MMW03X1ZfYlBqNHJ0aU40THJJWmZmSE82ejFmNER6R2VlUnlvWk9DM1VFdFB1TGZMQnhETU5xdkpFc0xDazBweDBXM3BHLVY1M0hJWm1kYTE3LVB5c0I1bEZXUkRjTXZaQ2FmUTRUWWVLVll4SlllOFZlX0Nw?oc=5",
+     "src": "The Hindu",
+     "at": "9 Sept, 11:35"
     },
     {
      "title": "Sensex, Nifty open lower again as Brent Crude retouches USD 100 amid West Asia tensions",
@@ -1071,10 +1048,28 @@
    "tag": "Sports",
    "items": [
     {
+     "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEpNLVRNYnZtV1JkVFRrc1FyOGtydnBSYVJTZFdQd0NkN25jSzg5eGtNbTBDa2JFRmJab0dJdGNCckZuMXNXYWl4eXFwbEtib3ZLeTZOVXd5SDVyd3VTbDlrazlwNTZURjJJQ0VGcjAtenhYWGdwbzlSYmY1ZHN0NldGVjdaZzBackZnUnlub2xVUjRpS25F?oc=5",
+     "src": "Cricbuzz",
+     "at": "8 Sept, 17:58"
+    },
+    {
+     "title": "Champions League: Real Madrid, Manchester City off to winning starts",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmMwZjExQUJydEwwMXF6MFd1c1I3MWFmcG5DNXM5Wi1JOHI1b2VpNi0tdWEyNUdZVi05WFJJT2tuRHY2UUpnV25ibkdYd0k5cll4MU1wR3RVU0lZRjNnQm1ZWFVGemFjTkVWVDRwRC10Uy1MakRUMUU0dElJWjBRMmVERkVQQ3BrRHhsYXdjMnVLYnNRbmcwUHBqZlNXaWFRdnEwUGxWaGFjNnlLa21JT2lOQ1pzQ0tEU3VWcDhWcGhmN1liUFQ00gHMAUFVX3lxTE9RekJLSFV4UzAzSGxueXc4N0JOZWNIdXBIQ1B4WlRsUFlkM2VONmNZamlkcGM5X3ZWc3AtTzRCWnNndVdEeTVmQ245dzVKOHF3anJFRVJBYVNaWEp6RkhCN1gxc21jbmJUS2NhNUltX1p3Wkp3dFdNY09TQWNPdmpXOUozNnJQWjhWZG9VZU52SWd5QnZWRENKOG5neU1OZ1JOOFZLQ1pWd2s1TElrUnRFS1h6Znppa2swaG1FUUlNMjFoR1hqRGlfam9zeQ?oc=5",
+     "src": "Rediff",
+     "at": "9 Sept, 03:47"
+    },
+    {
      "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcjBTQXZpNmJnSHpmQVhqdXVuNXJiMFdZY0JZNmhUcVBKbWpCb2o2a3pZR3hLY2ZubjdRdWVpUXlRX3VrSEZtS21zQ0FvOU1VOUIwZHJfdGhnU05aNzZ3a0JjRlZhS3lyX0ZwLUgtQXdCRGFpU3ViMEtoV0ZrLVdIRmJxQzI0aFZsMlVMR3NWeFg4cVhhRFpXX1NIaFBNM091NkdKS01RWFJFRHBobTBuOTlKd0UyX1BTUFBZcGZ3?oc=5",
      "src": "espn.in",
      "at": "8 Sept, 22:48"
+    },
+    {
+     "title": "US Open PIX: Pegula trumps Navarro in 'Battle of the Billionaires' to enter semis",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPLWMwdVpPUWtHdUtsaERzeFd3MWJyTVA3Vm9zdDRpYU5Mc0trcmplZ1ZrOEh1WGVPblAwYTlzUFkzTVNSaF9FUExaWjNFcEkyTG11VkVlVXE5a2hlY2RxWG9DSUVVd08ycTNhbkhXdmpjenV0OTY1VlEzbkZUWjVwdGV2eUxuTHNrOEpONVdhR2lIYldVcThZekh1N1laMkVOcFVkbFpHRzhXNThCOGxQZU5xSmNHNk5MMjJaWlZLcnN3TWJrcU9nRWVrOVRJN1B1TUoyOHgxcXc4M2Vz0gHiAUFVX3lxTE9seGloUEp6ZzZxTndOSUY2R0UwR3cxV096TjZBZ285Q1lhWUpsTUN4QUxueDBaRVlsUVppbjd3MnVtZGpnSTYzZXA0ZUs5VDBZTU5GUkNhLXA3Vk1WS29RLTN0Vk5DVVVTUnNWVk9VU2o2RzZlMUhCTU9rVDFfdGVPRDJVZjZINXl6WEFGTEpzZWpDQXNqRmxSYmZaUjRTaTVXVUhuMmIxMmxLQ3VHN2lUaTFKdGtvSEw4bTdyWXBLYzNJdlg4bmI2eC11QXphaEg1RVZPcUo4bXVUMWZRcTczVVE?oc=5",
+     "src": "Rediff",
+     "at": "9 Sept, 09:03"
     },
     {
      "title": "New South Wales says BBL privatisation push 'threatens' the game",
@@ -1083,28 +1078,10 @@
      "at": "9 Sept, 11:14"
     },
     {
-     "title": "Why shouldn’t National Sports Governance Act apply to BCCI, state bodies, asks Supreme Court",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZW10SUE4TWJCeDdpc3dtc0JyZG1yblp0M052dnIxWTRqMHhja2FDb05FS1N2cWxRN1pvV2JxN3RUcWhzZXhQYXY1RjBmTEtPRkFwa0cyS3VRTmFEYnNYbjVlV1RiV3JpWF9PRGJzWVB0aFZIXzZrUFVZY0N1Y1haeFJHemhLdDFoZDJteEdkVGpja21kWkI4bUI0dkZpUmJVaU9Qb3pyZ3JMZTg5UjdZcDlQdTV4b0VRWjVvcVBUSHFIdHVRc0w2REt4Zmg1YjNiLWtkdWhYb1lZUkprMUZDcVBKaVBwT1hJaG1CV3FxVVY2bG9xRWVJM2w5SHBOdkpj?oc=5",
-     "src": "The Times of India",
-     "at": "9 Sept, 08:48"
-    },
-    {
-     "title": "‘It’s madness’: Anand loses on time after declining draw against Sindarov; 20-year-old calls legend ‘world-class’",
-     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQYUpfZnFUUGxxYjlYVUp6ZEowa1ZXZkh6YnRtUmZNS1lCRTQ3MWxPUG5xV1BJZ2NPd2NpbE04Q3dFa2xCZUVnSkpuWFhBdWRtSkFoRkx1UEc1R1l5dHJJeFZiTXpSU2J4VURkdDZFdHc1Nk9Gc0Vmakk0d3UxNUJxajh3UnpyOFpvQkcxU2NZUm5LZHc4d2c2OURHdkowNzNocXJMUlk2Q2VaOEhYNHJqWDBfcHI4RDNNZkdJUlJMWTFhLTk2Z3dlUnl2TXdoZHRpVmZRbEoxOENxdFl3MXlYRDFIUkdIVjl2N3RkTXpTeElaZFZRT1VzS0hqQTFneUJzbE1NdjViT1BrWm1SbGc?oc=5",
-     "src": "The Times of India",
-     "at": "9 Sept, 10:35"
-    },
-    {
-     "title": "Duleep Trophy final: Tilak shows grit but East Zone edge closer",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMzdFZnJ6MmNLWUFibURiU3NTSjRrTUNIa0NUMm84S0Z1ZG1TZFlFVHdEZDFCLURGMEphbjNMLWN4Ulh6SVJVaXVJcDJSSzJLbVFMcWY5dFhnVXJLN29pX2pfTmtMWHR5eTFuell0Rkt5TTUzdjdzM1RORm9kcXVhOG1xLVNhZ0V0WjB3Umhwcy1sVFo0RThmanA0N3phRnVTQmNvNTRqdGJfZ28?oc=5",
-     "src": "Cricbuzz",
-     "at": "8 Sept, 19:06"
-    },
-    {
-     "title": "Indian hockey teams ditch saffron, revert to blue jerseys for Asian Games",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOE1tam4wcXo5V1JDMTQ0eGNlcllJbGNYVVh4dTJ6VVRlU2dnQ0dkWjQwOGlUc3RpNzg2U2tleXhleFE5ekhwRU41dGVTT0JKYzFORWFva3R2NDY1X3pUMktsWDVwa2VKTVRCVFZ4VUdTd2JZWG1zeXZnUmlzUzFYR1htMlNXX1luMjdEWjE4ZWFGZUV4Y2JJdnBjekEtSWNyZjVhTnExaW5KN0VudV8xVGR2T2NWSEpRbTNR0gHCAUFVX3lxTFAtb0R5SzJvQUZzNUtMZFJNb3pGSVkyZU1ydHZfX0ZiMnRFMEF5YVZiMGNNR0VSVHdvR0UwTFJtRGQ2cno2ME14aWFsYVduMzlwc241OTBwQ0JxTGp3WF9sV1JSZE1Mc1JPeHk3T1N1ZzBDUUt0Y0JEY3g0VmlaOGcwM2xpRkdrSkEwb1ZLTEJmZThtSzc1ZUtPdHE3bzI3ZXlMWjJ5REgydnVNTnY4Q1JNU3V4NWNwa2RuRmdGNFJGa0ZB?oc=5",
-     "src": "The Indian Express",
-     "at": "8 Sept, 20:06"
+     "title": "Frances Tiafoe stages epic comeback to defeat Alex Michelsen and enter semis",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVnI2b1djQXNxV1I0UUd5c3pMQXF0bGUzQnpwek1FZ2dvY2c1clluNkhudTQ2VEllbVk0a1FCQlk0Z2NNYlpxNzd0eGVUa2JENEhRM3UzTHNJME1kdHpWVktNZno3bTA4dTI1bGp1bUNZT2lEZ0psQlNGRWZoRzczSEdYUEJzSzlnX0E1MG5CWV9CVE9fc0RodjlwbXotb3lHUW05eFBmNllOZ19ZNTNDbjNMVXhPUDI5eWV1UnB4RmRPUGlsaXVUV2F0bFFMcWRKNFHSAdcBQVVfeXFMUGhuNFk1ZjhabGcwOVNvbWtGNF9Wc0hzNWoyYjhKMU5hYl91NVNvVkJxVTRSM2xlenZ2Z2N1REl4VGJ5UkJSUnpzSW13WXkxY0hmcFV0RWJKajR3QzBrX3JUdEFWaWFxeW1kSUwtamg2dTJYeWxKTC13TFlUaDdGYmRLYm5KSDY1U0dvRE1MUHN6V1hKM3ZySi1uNWVqRVFvYlg0N2FLeng4bHRkX1JQRjdNblF6Tkh0RWZMX1J2THlKNjlZLXJvekU2Ty1KSmJWWlVHNnZ2ZkU?oc=5",
+     "src": "Rediff",
+     "at": "9 Sept, 05:29"
     }
    ]
   },
@@ -1118,34 +1095,34 @@
      "at": "9 Sept, 11:30"
     },
     {
-     "title": "New Apple CEO John Ternus to face first test with foldable iPhone launch",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTXJnZDJGU2N4NGNxaTZ3TS03SlBsS3Z2cjlTX3ozX0x1S2Y2OUxZUjloT0VuMjRmR1Q4cHpOM2ltMjBpd3gxRlo1cWNySVFTMkhfc1B3eW96WWU5UWVQVlBkemlLaEd0eXlIUkVxb0JqWEJqdTk0S3h0RDhQRXFBM1ItdWp0RG10c245N3p6YXJrXzhZM2tKdllhQWpxWVFVWUo3X2d4bkdOLVJ6QkxHTWNsVE9ydXA5eVRxZWZscnNjY3M?oc=5",
-     "src": "thehindu.com",
-     "at": "9 Sept, 09:09"
+     "title": "OM Pen leaks on Amazon with new design, 20.4 MP sensor, and AI autofocus",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZjJwWnFHempQTGtPZFpaWHNhMTNoLVhSYUwzcVo2X1o2Uk80bmd4UHhONkJybVJhS2JycVphVDBLZkl0VlVoNWtyNElOd1hmWU9RSTBKUUs5WUxfY25MTHZmV2V1dVFkZm1HMThYbTZrX0R0OHJYeUxoRWx4M2p0cDZvUEM5RGh2RnpyNlhNOTVZeDJQT3dTYnBBS21Md3NDQ2xaX0E0NTJGUmdZQ3RFZEExTXVMQQ?oc=5",
+     "src": "Notebookcheck",
+     "at": "8 Sept, 23:12"
     },
     {
-     "title": "Huawei and Xiaomi launch foldable phones ahead of Apple event",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UWndGQlVOVzVSb1lFNlZOczN3bHotTlhNejc0R01zcGZRb0h0NTViZTZ4MXFWOUZaVFVHYlFMQmtmNnZvUVV3d0dvQXp2SE9zMC1TU0V4bkotZ3N1NmlyM2VDTERSVy1mMW5jTk82S1c?oc=5",
-     "src": "qz.com",
-     "at": "8 Sept, 19:36"
+     "title": "Key App Developers Have Yet to Embrace Apple’s New Siri A.I.",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kRjNycGhheTNKQjBkdHZxM2xvSFg1eXZSSVlQWkg4elpFRElMd3pMRUd6b3JncXlpX2FxcFY4dlY1SXluamJTeHlVNlUzejBmX2VOOW5HcmpaVktnMk1USWtwTVNDS0J6NzZKNFBQSFdpZw?oc=5",
+     "src": "The New York Times",
+     "at": "8 Sept, 14:34"
     },
     {
-     "title": "Grab the New Samsung Galaxy Z Fold 8 at a Record-Low Price and Save $250",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4TWNWaUF3RUtnN1FRemFHc1NZSXpDWHFtQXA4eHFHMXJPdUZmTW5kQnAtWmVvd0pCV1hkM0wwY0g2UnUyTE1kcVVwREY3bHctZVlwNWo0bFdZTkVxZ2Z5N2FpWW8wTnB4dDFtMkFNRTZLcFItdUE?oc=5",
-     "src": "CNET",
-     "at": "9 Sept, 01:04"
+     "title": "Apple wanted the iPhone Ultra to cost $1,999, new report says - GSMArena.com news",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM1N2UG83TEEwckRnWWtpNFRVLXU4NUdKMC02Q3pxeUxTWHltZVFLWFROM3pvRy1qOTVjSFJwU3c2WDJsZW01aDlrRjZKNGhhR1h0Q2xLcXpqX1c2TnJKd3pydG1MbUU0QU9talhVSXVzVkRQcTBjclA5ek5sWWdOSmtuLTdQeW5XS2Ria20zOC00WjBQOGl4TzhYMDZDdmPSAZsBQVVfeXFMUGhIY2xOYjc4Z3BEMU5kNnp0ZmZQZVdfemRaejRtbXhRbjcybkdCVXU5MkRYWDJqTm1ya1IxRm9NRlBBY04xdHZ3eGpZRHVVTjEwTHVERUpXZFhBdWt2ZXZTNUpGY29pVUQxWDdDMGY5N3NXcjc2anh0TTdwYk9tM195OWpKMGFNaVhCd1lOb3lXU0NCQmZtVTlhcDg?oc=5",
+     "src": "GSMArena.com",
+     "at": "9 Sept, 04:32"
+    },
+    {
+     "title": "Huawei and Xiaomi launch foldables ahead of Apple’s September 9 event",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTHZVZEM2ZE5DbnhyTGl0ZUlpZ01vZzhqQlpHa1lLR1p6SWt2dk1JNllvT09DOUpCd0ljNnJVdFZja2NwM1NZLXViLWpuNFVZWVVkT2RQOUZxOFNrY1UtQVpxM0RZNy1GaUtjZkM3NEx1RkwzUFJhWW5pdnBqUVp5ZENVTXoxamtRMzVJTkxpZktRN1ROOG4zLVFudXFRa1Z0YTVZMA?oc=5",
+     "src": "Indian Television Dot Com",
+     "at": "8 Sept, 22:25"
     },
     {
      "title": "Google puts Chrome updates on the fast track with its newest release",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBvOWJlSnQ5UEdKUGR4bTZjM1F4bHhBRkE1b0NTU0YxWnNSMHZzWFJzYXRELW50QlFnMExjWFJUVGx6cmtSX3pkcUdYQU5lTW9mNGc4aG9FcG9TWC1lWHJHZG9XT2p6V3dac3NJZ2Y3c29KNFIybzhBZkd1QQ?oc=5",
      "src": "Android Authority",
      "at": "8 Sept, 21:30"
-    },
-    {
-     "title": "10 lesser-known facts about Apple and iPhone: From no 'App Store' to the 'iPhone' name, here are some surpr...",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR1dHZDZuYVNSTVg3SkFsSXo2MHBLRzI1WVMwaXAta2U0ZFlVTF9JWGdGdC1TMHJ2MGNoUGlLU2p3R0lJWkNTUVNmTTZVV2xTVlYtNFFPMi16N1pjYVZhTjB1SVRYeXM1RHZKLUl2em5oczJCekctZ0xwZFlnNlYzRWY3eHNCYzZ3N0VwMEJPeTZMa1h3ZElkUjI3YUVkWm5VRWhUTm9GR0N5bGPSAbABQVVfeXFMUEZRTDQ3dXppajJLcFFtcDBhX01lZFBBYkQtMFhtdjRtT0JveVNqcEp1QkVrSkx0OXlsLUFhakNhSDhiR3NVajR4SGlnYTkwY19nRkJ1Vk13dkIzQlNuR0VNMEhDLXpEQVVLMnIyaXV2VHQ1SVY2Z1g5OFVxQUFlX3lQcURBSDBGQmdiUmQ3VzhaNmttWDZJSzJkNkxpWVI3b09jZFpETmVGbDA1Qlc1YmE?oc=5",
-     "src": "Bhaskar English",
-     "at": "9 Sept, 06:06"
     }
    ]
   },
@@ -1165,9 +1142,15 @@
      "at": "9 Sept, 12:41"
     },
     {
+     "title": "GPT-6 Astra: A new generation of intelligence",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+     "src": "OpenAI",
+     "at": "9 Sept, 10:36"
+    },
+    {
      "title": "OpenAI's New AI Solves 90-Year-Old Maths Problem In 88 Hours, Claims Millennium Prize' Breakthrough",
      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOMXdCZ2lxSzdhcVIxSGNjYW8xYV9vS0RweGpOVjFtVmdmYjFWWUoxVmNacGVaWFBfenJvTThpWWJrd08xZUY1b1hQU0kwUkwzdnhENV84Z09GaTFpUUxKeGRJTjRsV3RYQkt0ZDFFeFo1ZG1Wd1IwYXNEX2FNT0xpMkpqcFhJMGYxeTd1azBGVG9EYmNveW0wNkk5b0J4WmpjQUUzUkFpMVdYTGJmelB3U3VSODRLdjRnNVV3UDJzYndWVWRCaGsxQjUtQWI2UElLWlNoSVZ6ZjJ1ZnFKdk03US1ybGk5NWJFaG5JcTl0RzhQQ2RHUTF1MFduYTZIS3A3QkxtaGJYSzBaMDNobnI40gGXAkFVX3lxTFBRdUVOZTFqVjNtLVU2Zno0R1VFN3NwTUtoSEpnVGdjblpmQzNTRkxySEdWeHRXSkN1V0dUMGxrUklxY0h1NHhDaWoyOUpNWkY0UC1HQnVEQk13VlpjZ0wxekxpcmVqSGdVdW9na1JoZVhCczVFMGpWSjhDUklpckJDbDQ3aGNNMFVpbHdyU001UGJWUDZodnlZbzNUSi1Oam9ob2Izem12bng1Ql9kZ2R4T2lDdWN2U0RnMTc1YVlTd2VoMGV3ZVhKbUtXVlVrV0MyVDVpV01sQXNSaVllTnRDR0hZTTNMVTh2SUVpcHhVamdzNUhXYTB1QXBrWTFIYlBhWDFYaWRxLVFpRzhib1ktLUE1X3ZlRQ?oc=5",
-     "src": "NDTV",
+     "src": "ndtv.com",
      "at": "9 Sept, 12:40"
     },
     {
@@ -1181,12 +1164,6 @@
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSDVrMFJYdEZKMmdkRkMtWVRuX1M1dHVmdGxpTUV5TFBXZk1oeWVvbUxVMFlndDZTSmhDOEZxb2U0MWNnOXRoWGhEaXRlN0hHRFVKbGxfUUhMNnpJaHFBUTgtd3VTV19pa0p5Q2ZMTnU4dThxZlRDRHdMU19NdTZiVHBvOU9ZdkY2U0pJOVdwclNIMWFNV3VNOQ?oc=5",
      "src": "kpmg.com",
      "at": "9 Sept, 11:27"
-    },
-    {
-     "title": "Global consultations on education in the age of AI",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX1lQN2NZVmEzZ0RXbUFfTkRYTEduTUxDbjVXU1R0WnpVQ1daZGV4T3ZzVGdfdGY0bVVDeWtWcWdaWTZteTVFN1V5U1J0TXpkQTFOTnY1VEdJWUpMaWtPRV9uTmpaQzVMSmZ0V0tnekRzQU1mbGFuWTkyTkdmT1RJVmt0dV90X28?oc=5",
-     "src": "UNESCO",
-     "at": "8 Sept, 19:54"
     }
    ]
   },
@@ -1253,34 +1230,28 @@
      "at": "9 Sept, 02:01"
     },
     {
+     "title": "More teachers, better access, fewer pupils: India’s government school paradox",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMmRZR1pzeENoZzMySlZQd1RUR19aNWZESlNFRFh4YVNSckxHMGxYbTA1SnFtZWxDalU4NGpybGlpd01VNnZFWXdTQlAyNTFWbDdJMVFxOUpTRVJGdlNkQTkwcVY2MmlTMlAzUDMxX1JWbVpVN2drNGVkS0RMaTltSks4SUNRV0RQSWI3b1JkSDJ5SGVYNE9XN1FiQl9jRTJ5Z243VTgxdG9sbmVHanB4bElSNm9DbDNUNFV6YWlXeHk5V1FrY3BkVDhyQUM3M0d2bTE3czVRN0o?oc=5",
+     "src": "The Times of India",
+     "at": "8 Sept, 13:41"
+    },
+    {
+     "title": "India Reviews Crypto Rules Again: Could the TDS Framework Feature in Review?",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkJ5bUY3T1ZObVFyZ25tbHlORXZldmgyaHU3SVQzNURGVEFRVDk3UFM3c09hajNGVzU3VmFVYk9ySWpHOWpxZEwtQUhYTVZEa09fX0JPOVozdEllYk00TF9XUUNYM2gwZHRwN3JKQklaYkRtdFV6VmwzQm5MRVVKM0RkX2ZHSmM0T0cxVGZyWjZ5ZzRTZ04yTmVCM2RneHZEVHFaNExHMmU2VEpNTE1TODVB?oc=5",
+     "src": "CryptoRank",
+     "at": "9 Sept, 01:28"
+    },
+    {
      "title": "BP Koirala's 113th Birth Anniversary Celebrated Across Nepal",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeVowZXRYUk11eXNRMEl0ejNfZGhUWXZLT0Nxb3Q1cEY2aWxQaGNhM3VsdjRLQWN0REJnbjBYQmIxN2tjaVZIUmVZNTMzM0dCcVRZcnpGb19SaWRwNzRWM3M0OWh0T3FYZUhNUE1DMlFEd09EOGZYVnVuWk56SFR5emxVeDV6bFJBbWFXS2lTMjllYzNVLWxBNzJZbHUxMzY1LVRkLWVTcl8xX2hySHptUUJpdEhUR2RjVU9V?oc=5",
      "src": "Ratopati",
      "at": "9 Sept, 10:15"
-    },
-    {
-     "title": "Govt cuts 2027 Hajj package cost despite including food costs: Minister",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ISFpicnBKMzdpMWNNci1tNEVPMXpZRzh0a1gwQ2hEWWxmOC01czAyRC1sSFRNLVRWb1BVR0dPQUVGcWhCUVhzTHBseVU4elR2MnJv?oc=5",
-     "src": "Bangladesh Sangbad Sangstha (BSS)",
-     "at": "8 Sept, 18:48"
-    },
-    {
-     "title": "charcha 2026: Indias largest collaborative convening returns to Delhi for its 7th edition",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeUFyR1pVOEs5bi1UM05VOEVudWY1eWdvVFpOLWt5QnFSMTJPcWNnU3Z6N000X0liSVhMdXpTTlRoa1E0Y0E2RkpsWHI3WUNJVEVPdGs4VkpkNXRjY2NqcmgxMDhPVHMyN1hBMDJvVUZEOEM5MXBoUmRfa1F5ajNzcGp4cXpOQXYza013RlIxbFRBWU1PVVZZY0otb0p3cGZKWmZrbVo4TGRmQjEtN0ktWDc5ZmJENWlQY3gxa0YzN2plVmxsUGp0V2JpVdIBywFBVV95cUxPeUFyR1pVOEs5bi1UM05VOEVudWY1eWdvVFpOLWt5QnFSMTJPcWNnU3Z6N000X0liSVhMdXpTTlRoa1E0Y0E2RkpsWHI3WUNJVEVPdGs4VkpkNXRjY2NqcmgxMDhPVHMyN1hBMDJvVUZEOEM5MXBoUmRfa1F5ajNzcGp4cXpOQXYza013RlIxbFRBWU1PVVZZY0otb0p3cGZKWmZrbVo4TGRmQjEtN0ktWDc5ZmJENWlQY3gxa0YzN2plVmxsUGp0V2JpVQ?oc=5",
-     "src": "TheWire.in",
-     "at": "8 Sept, 14:49"
     }
    ]
   },
   {
    "tag": "Jobs",
    "items": [
-    {
-     "title": "Layoff Tracker—Trinity Health outsourcing hits 557 staff",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGotbUVRVDF3QVpWdUJURDNNbjNKMDVaeFk1aUJYRVZTaE9jNURGRmlubTRUWV9aZ2lMdUxoa3d5QmtKQk9uRlBzMV8zWGVuSDdmNU5xc1F5ZWFvenF0bTc1SXBxWkRMWHcxREVKTEpoQzAyYlVQT0NKX192bmdBYWlRdllFOWJGOVJ6UGJla0pqVVJHdE9vdDlmZEFBa2hxaXJwa1M2QWJwN0lTbVp5LXlXZWN2VmNSUmRLWjdvRy14ME0?oc=5",
-     "src": "Fierce Healthcare",
-     "at": "9 Sept, 11:17"
-    },
     {
      "title": "Tech layoffs surge: 6,300 jobs cut in 10 days by Uber, PayPal, Apple and others",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEF1cC1hVGwyeENFY3RST3hBanFjZFNCYjFjRURrRHFVSGFJZUNBR0xTT05jb1lfVFVCSWpUMWtIeXRuMVJUNEpVUWJ2TGFjNzB3SDJvQmF1bmN4bG9WVVlvQ0RxWDNYbDVBTUoyN3BQNlEzcHRtNVVXcFpfd0lPVGo2dXJtLThtLThFUnRJTzVNV2JGdlhabUI3bG9PRVNZX1FFMXVDZHNoYkdXUGF4XzR0c2VOZFRUdlNpU1lnTy1VSUIwYmdJcmdIc1h3cHl5bEHSAdcBQVVfeXFMT05abWU1ZXpzaUNqOThZNFBlb3ZpeDVnWEcwSHQ0RUZtcWpoSy15WFJ4SllUWWhBcTJIUVlMYlItRlZwSWYwUWtlMGltdkV0VHlkdHJmNWw0Yk5EYmdwM0RyWlhfUWMzNVZESUdvQ1pSN2NBUldBeW8wNVBCTUZYSm1pbnRIR2FxU29qbzlsRXU4dXlSaUlSS2tnMDJEU2JaYWlDYWxvNXdzdnRvVS1uZlJfZUdsWDE4eUx1Ylp3X1JzNGdlX3oycko2THFPNDg2bkd6Vmtqd0U?oc=5",
@@ -1292,6 +1263,12 @@
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUzMwRjVTQUY0SE0tQk81aUJUY0ZtczcxR3ltbkJFclBQTUd5aENZOEpUUllDOTFWNGJlQmpmTHp0RnNlMnRKVDJ2aDlWOGVLSTNXTkxvNThwdks2ZGtVaHNxa3A0RXlaUWwyREFCTGtnMFc3SmZIN0tiaExTTkF0ODhzcVh5cHJCNndxYXpFSkhQWjhMdDJvS2hXR1A2NS0yb3VDeTh4M0lERy1YLXRyWFlrR0tsb1RrTEFzM0NxRE5YcUdmSEtvR1Rfc2hFTHJWQmfSAdcBQVVfeXFMTS05aUdDWlNLMDl4eVJHMXdVRUdoSWdGazVnUmlxaWhDd21KOXBaWlEtY1FJc1k5ckd0MFlyZlpUd3dxY0Z3SS1hNk9IMzZLcVNtaXhacEkzaVRGYkd5VE9OUlZNN1JEUTJGVG5heU92T0hjOGFtdl8tZGZ2dnBCQl9UNzRXXzJpZUhabElVblRuSUVjZnVFb1ZfaEVvWFZ0NERzMzhja3FickRKdGJvRnB5R0RyQWFoME9nVU1xc2NzY25lY3R5c1RiQnh4eEc3UkJGdTJOaDA?oc=5",
      "src": "Telegraph India",
      "at": "8 Sept, 19:27"
+    },
+    {
+     "title": "Layoff Tracker—Trinity Health outsourcing hits 557 staff",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGotbUVRVDF3QVpWdUJURDNNbjNKMDVaeFk1aUJYRVZTaE9jNURGRmlubTRUWV9aZ2lMdUxoa3d5QmtKQk9uRlBzMV8zWGVuSDdmNU5xc1F5ZWFvenF0bTc1SXBxWkRMWHcxREVKTEpoQzAyYlVQT0NKX192bmdBYWlRdllFOWJGOVJ6UGJla0pqVVJHdE9vdDlmZEFBa2hxaXJwa1M2QWJwN0lTbVp5LXlXZWN2VmNSUmRLWjdvRy14ME0?oc=5",
+     "src": "Fierce Healthcare",
+     "at": "9 Sept, 05:17"
     },
     {
      "title": "Samsung India begins job cuts, may lay off 40-50 employees soon: Report",
@@ -1337,7 +1314,7 @@
     {
      "title": "Pharma Trader Murder Investigation Underway in Kanpur",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLUtPNUFNUVVhYjN4eWlxS0R4T0tjY3ZJWVR4S2RHSi1MMUFKdm9qMWNmMEpzR1ZIb1NnMmZOYXRWb0xUOXdWa1VZR2dpWi1ERlYyaW9ZYjh3TDAtZ1FmOXhCcU50dkdfbzZTcHBlNWtnRHdqOWE1NFRKeHdhb1gxYXlLSUNiVFNCd1NjalNwSWxfcTEwbjZfbGZGOA?oc=5",
-     "src": "India News Network",
+     "src": "indianewsnetwork.com",
      "at": "9 Sept, 10:57"
     },
     {
@@ -1370,28 +1347,28 @@
      "at": "9 Sept, 05:28"
     },
     {
-     "title": "'Attack on one is attack on all': Pakistan warns Houthis, invokes Mecca defence pact",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUDNHNHc4a21KRjFEbE42UmMtNDdoS1VMVHBpbVRXU3VCMU1XM0JoeTZZb0tnY1h2RUZ0QmtOMkUxMnQ5aGdsU1lrdEYweDFyOGtfNzJnZkRfZWhHZUQzWTRXMWtsaFEyZ1Y3M1htRVI5ajFLOEFlSDJLUktwb1ZMcTRMNVRFQVZtQlRHT2NaM21fRldmSDB4d3dlYnlWMnVaQ25LVEdPbi1YUm5ZdkFjUHROMmJ5TC1IMGNyTjVfM0RGb1hqNDg4OHFwQzhPUkptTDZ2TEltYS1IRmhFLUFqSC0zOXBTQ210ZEstMzZB?oc=5",
+     "title": "World's highest-paid Prime Minister gets salary hike of 9%; pledges to donate difference to charity",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQRS1weHpyRzR2SFRLeEZZcVJlQzNzUVFOejM2MHR1MFNQUmFmejFRaERXYUVKUUF5OENJbV9DcEhxdXZUUUo4T3UxX0NGMl9JdTczODFuTUpBd05PeUFPYzZwM2Y4VTRmTFk3cU1MSExIS0tWaElZeU9GT1NZR1oyTDFvekhteXFybWs0Vnh0VzM4RFZWbGI1X1pEckVWelRFejA4UGZPLXkyenhWakFrTHY3QmVmempCcnVpV3V5NE40QVRvR0NGeDV0N1VCNUFlT0YzbHNRcG1tMVhyMHZHN1oxUU1DaVRvd3VxWENSd01BRVRKbmFUWGRqRU4tZW44WEhHengyZTh6dw?oc=5",
      "src": "The Times of India",
-     "at": "9 Sept, 11:40"
+     "at": "9 Sept, 08:27"
+    },
+    {
+     "title": "Missiles over Saudi, silence in Pakistan: How Houthi strikes are testing the Mecca defence pact",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSjI2TGxsVFg1NHhPaE55MjFxWTJtRmkyZ3djaUhZa2hoY2UtZDd5SGxsek92REpqNTk4UEU3TXVvMDEzand3OTM3Q2Z1VTBqOWhxUm41QUdoRTNVek1WM182WEh5SXlGS181ZUMzSmxhbERmZkNxT1hrNXFuWWVDM0dxc1FKRXg3SVpkYzdfVHpmUjVoX2lhMFJGQWxoMlQ5RGtBNThxT1dBM09ralU3ZWxEQ2s0ZmhOLWRyadIBwgFBVV95cUxQZW5jazg1dHZpcDExMlVyX1l3UV9iT1J0eDdLdmpXZDhpTzZfaTM4bFBWR2w3QkF4M2UzT05tWDhwRGJIZ0dPYjdwQ1gtQTRjWDNmZmR3VTRfYXdDMFNtLXN2RkNpMWtQeG9GMkxqalpqTGV2ZkdMXy1zdDh6UjBLQlNaenJkdlpLbzA3YTdqNGlJUGNzVS1XSlh5ZmIzQl9IZjBxYWNwd0d0b2VRazVmRDBQQlIwT0FRdk9adGtiOEE4Zw?oc=5",
+     "src": "Firstpost",
+     "at": "9 Sept, 09:25"
     },
     {
      "title": "Not involved, says government amid controversy over religious group’s Eiffel Tower tour",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNamhPM3JKU2Z6ZTd2b1UyX0Q1dENKM2tsTUYtUWZLQmZuVnE4Skl6UmpPTXV4V2NoY1BmcEIzcnlJM08zLWw1ZzNuaWxCc1VuV09aTEJraDF2cVdJSVhhVTN4RzNzM3F5RDRieTcyMW5TTkVhbmFMdUx2NWwtSnRCYzFVS3VDaU12Y25fQW00NnJXRkhkM1BWNmFIU3Z1LW5EbUFHU0V0YjM0OE1xckwyOHVhb2JMOXJqbjdwdGFMazZDQm9IMkprSWN5VnhjVWdsNVhvelpzQWNwSXBn?oc=5",
-     "src": "thehindu.com",
+     "src": "The Hindu",
      "at": "8 Sept, 22:38"
     },
     {
-     "title": "World's Highest-Paid Prime Minister Gets Salary Hike Of $1 Million",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOakRPLXZIR3JfQWhPSU1GdUxkYWlURkYyd0FMNDlJSE90NlFNRTRXVDZTOWhzMU9DWnVLWEl5U01haDViUzE0RnFwNW9Sdy10X2d4ZkVUenVWZF9HMk5nMFktNjRnNkdLdkdVREhQVXV5SVVXRnhjN3FVMGg2ZnFaN1g5SXNFLXB1cnlQY1pFN3ZQQlJZZ2g3WUJXRldFaWJobkVncTBMdnI?oc=5",
-     "src": "NDTV",
-     "at": "9 Sept, 00:30"
-    },
-    {
-     "title": "Over 600 flights cancelled as London's Heathrow, Manchester among UK airports hit by technical issue | World News",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMDlHbTdKMmxvOU1xNVhlMlcyVVlfNEltaWphcVVwX1RlaUJqNUlFQ29lSnU5ZXJ2bVphTXZjOFNzYnhiLVhrc0hsQjJibzBucXNxYkhSdVloRzA5ZFBJamFoR1pPSGxxLWVjdUNSN2dBY0stbmZOVGIzaGhMRjViY1JFYzZ0eXRpZkd1Q1FZemZBV0NZeEpQR1VMNkV5UGMzMGw3VndMenRpbFlSVS0wRnN1RjBfYnpqTkV2QzlYck9BNF9mLTczdXh4bXV3RkJCblFiYlpaRXZfSTZkNm84a0U1Q3BKRUEtSkZPMkoxakVOYnloSjlHYjJ2TnlLVjRCUXc?oc=5",
-     "src": "hindustantimes.com",
-     "at": "8 Sept, 20:58"
+     "title": "More Than 1,000 Flights Cancelled Due To UK Air Traffic Control Glitch",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZkgtOHl0bDBNd2IzSWtDMk5iVEVYcEFGdllxVl9teWlISDJrdU1NUVBKZEpZUEN2dXY1UlptQmlBcDU3dVJzNGt6WG5KaXZ2R2x2bHZpbFAyY09kX29acVFrck82d2l2VU9LcWJFUGt4RlZnVE5uZGwtdzRIQ1ptemVWZktoTENSTWV1TUhRWlhQWnZXTUtTa1laMWRkVkt1empPMHdYSnotZFd5OWc?oc=5",
+     "src": "ndtv.com",
+     "at": "8 Sept, 21:59"
     }
    ]
   },
@@ -1401,7 +1378,7 @@
     {
      "title": "DataHub & SecuPi Partner to Provide Data Governance to Runtime Control: Governing What AI Agents Can Access, See and Do",
      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNEVXQmVXeURNOHFnLU9kRmRNNmJsNERTZjBwMjViZ3VaVmVWa1hNTG1Fc0QyV2ZNRF9UOWhxcU0xRzFOUEI0SG1kUGg4QjZ5eDFGWkJ3eG5MYTZGdzlkbV9WUWJSOWdWaFJDV1FkRXA3TXloX1RJRWVJTDRfancxb01feENXMXRLdjFUWC1fdXdmMW0yYXFYN2E5R0tJLUlIZmJ2OHZfcVVJcnZHSHFhT1R3WExoN0dZSC0yWHQ4alFfWnhDWlloNjFZQUcxQnRkalRjN3kzSVVLb01hN2tfbkpOR0JtUHd1OVZRZmN1cnU1cjFL?oc=5",
-     "src": "einpresswire.com",
+     "src": "EIN Presswire",
      "at": "8 Sept, 19:30"
     },
     {
