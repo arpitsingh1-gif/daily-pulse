@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-10T21:51:02.885Z",
- "label": "11 Sept, 03:21 IST",
+ "generatedAt": "2026-09-10T22:01:38.803Z",
+ "label": "11 Sept, 03:31 IST",
  "markets": {
   "indices": [
    {
@@ -63,7 +63,7 @@
     "pct": 0.6,
     "spark": [
      95.12,
-     95.6911
+     95.6947
     ],
     "fx": true,
     "ok": true
@@ -71,12 +71,12 @@
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 103.61,
-    "chg": 6.51,
-    "pct": 6.7,
+    "price": 103.85,
+    "chg": 1.13,
+    "pct": 1.1,
     "spark": [
-     97.1,
-     103.61
+     102.72,
+     103.85
     ],
     "fx": true,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4358.2,
-    "chg": -102.5,
-    "pct": -2.3,
+    "price": 4358.5,
+    "chg": -48.8,
+    "pct": -1.11,
     "spark": [
-     4460.7,
-     4358.2
+     4407.3,
+     4358.5
     ],
     "fx": true,
     "ok": true
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 64.13,
-    "chg": -4.52,
-    "pct": -6.58,
+    "price": 64.09,
+    "chg": -0.84,
+    "pct": -1.29,
     "spark": [
-     68.65,
-     64.13
+     64.93,
+     64.09
     ],
     "fx": true,
     "ok": true
@@ -159,7 +159,8 @@
      26555.85
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "FMCG",
@@ -172,7 +173,8 @@
      45185.6
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Energy",
@@ -185,7 +187,8 @@
      38223.4
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Metal",
@@ -198,7 +201,8 @@
      13304.95
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Realty",
@@ -211,7 +215,8 @@
      872.05
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    }
   ],
   "global": [
@@ -226,7 +231,8 @@
      52064.1
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nasdaq",
@@ -239,7 +245,8 @@
      26081.73
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "S&P 500",
@@ -252,7 +259,8 @@
      7591.7
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nikkei 225",
@@ -265,7 +273,8 @@
      65270.95
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Hang Seng",
@@ -278,7 +287,8 @@
      24954.47
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "FTSE 100",
@@ -291,7 +301,8 @@
      10608.92
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    }
   ],
   "vix": {
@@ -305,7 +316,8 @@
     11.8
    ],
    "fx": false,
-   "ok": true
+   "ok": true,
+   "stale": true
   },
   "etf": [
    {
@@ -319,7 +331,8 @@
      267.35
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Bank BeES",
@@ -332,7 +345,8 @@
      584
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nifty Next 50",
@@ -345,7 +359,8 @@
      787.5
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Gold BeES",
@@ -358,7 +373,8 @@
      126.26
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Silver BeES",
@@ -371,7 +387,8 @@
      223.83
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Nasdaq 100",
@@ -384,7 +401,8 @@
      333
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    }
   ],
   "mf": [
@@ -450,7 +468,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 23
+    "pe": 23,
+    "stale": true
    },
    {
     "name": "TCS",
@@ -464,7 +483,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 16
+    "pe": 16,
+    "stale": true
    },
    {
     "name": "HDFC Bank",
@@ -478,7 +498,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 13.5
+    "pe": 13.5,
+    "stale": true
    },
    {
     "name": "Infosys",
@@ -492,7 +513,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 13.9
+    "pe": 13.9,
+    "stale": true
    },
    {
     "name": "ICICI Bank",
@@ -506,7 +528,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.8
+    "pe": 17.8,
+    "stale": true
    },
    {
     "name": "SBI",
@@ -520,7 +543,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 10.8
+    "pe": 10.8,
+    "stale": true
    },
    {
     "name": "Bharti Airtel",
@@ -534,7 +558,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 38.4
+    "pe": 38.4,
+    "stale": true
    },
    {
     "name": "L&T",
@@ -548,7 +573,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 32.6
+    "pe": 32.6,
+    "stale": true
    },
    {
     "name": "Tata Motors",
@@ -561,7 +587,8 @@
      301.1
     ],
     "fx": false,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "M&M",
@@ -575,7 +602,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 19
+    "pe": 19,
+    "stale": true
    },
    {
     "name": "Maruti Suzuki",
@@ -589,7 +617,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 27.6
+    "pe": 27.6,
+    "stale": true
    },
    {
     "name": "ITC",
@@ -603,7 +632,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 16.4
+    "pe": 16.4,
+    "stale": true
    },
    {
     "name": "HUL",
@@ -617,7 +647,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 30.4
+    "pe": 30.4,
+    "stale": true
    },
    {
     "name": "Sun Pharma",
@@ -631,7 +662,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 36.7
+    "pe": 36.7,
+    "stale": true
    },
    {
     "name": "Bajaj Finance",
@@ -645,7 +677,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 31.8
+    "pe": 31.8,
+    "stale": true
    },
    {
     "name": "Adani Ent",
@@ -659,7 +692,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 49.4
+    "pe": 49.4,
+    "stale": true
    }
   ],
   "gainers": [
@@ -675,7 +709,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 38.4
+    "pe": 38.4,
+    "stale": true
    },
    {
     "name": "HDFC Bank",
@@ -689,7 +724,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 13.5
+    "pe": 13.5,
+    "stale": true
    },
    {
     "name": "SBI",
@@ -703,7 +739,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 10.8
+    "pe": 10.8,
+    "stale": true
    },
    {
     "name": "L&T",
@@ -717,7 +754,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 32.6
+    "pe": 32.6,
+    "stale": true
    }
   ],
   "losers": [
@@ -733,7 +771,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 49.4
+    "pe": 49.4,
+    "stale": true
    },
    {
     "name": "M&M",
@@ -747,7 +786,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 19
+    "pe": 19,
+    "stale": true
    },
    {
     "name": "ICICI Bank",
@@ -761,7 +801,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.8
+    "pe": 17.8,
+    "stale": true
    },
    {
     "name": "Reliance",
@@ -775,7 +816,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 23
+    "pe": 23,
+    "stale": true
    },
    {
     "name": "Sun Pharma",
@@ -789,7 +831,8 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 36.7
+    "pe": 36.7,
+    "stale": true
    }
   ],
   "breadth": {
@@ -802,7 +845,7 @@
     "title": "Asset Reconstruction IPO GMP, Grey Market Premium Today",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sRHptMC1WYjlEbzlnTk1GQmNKc1d0V3BCUkh6V3diTkxBVExIVGU4M21RM19sZ0pwWjVKNDZYOXctU3lGVEJJeVpCcHlTRHktYm45amJpUURBaXB5bUxYOWY2T0RuY0pQSGpDZGVzbWVQOHJLdEN6eg?oc=5",
     "src": "IPO Watch",
-    "at": "10 Sept, 22:11"
+    "at": "11 Sept, 01:10"
    },
    {
     "title": "IPO GMP Today: Rentomojo Leads Listing-Gain Race At 35%; Asset Reconstruction, Manipal Payment Trail",
@@ -913,17 +956,17 @@
   },
   {
    "tag": "Tech",
-   "title": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lUXRfaDRtWUhUdElka1NlVnFybGs3LW93MnFia1FTSU1Td1hoZ0xqeklJeF9ScUl6OWZvMzRZVS1YeTdwUnBUTVFCTmpoTmpxNkFleEZDajRNQQ?oc=5",
-   "src": "BBC",
-   "at": "10 Sept, 15:02"
+   "title": "Apple reveals the iPhone 18 Pro and iPhone 18 Pro Max's battery capacities - GSMArena.com news",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSTZuaXBuNmJFaGVvXzBsczROc09oSUhzZ3lHR3pHOTNRdElid0RnSnNOSU01eEFUbFY2NFVIblFCLTdTOUt2dGxKdnNpMENkZUZscmF0Z2tROEZuYUxJcUY3YmxrSlJ2UzZGdUhPUU5mNWN0ZUt2eDZCMVFXNVRCYjJBVjlGT2ZOZlRVcHhCS2hwck0wZzNkcXYwYmRZam1aeW9BcnU3YVl0UUtZZEpuZmlyNNIBrwFBVV95cUxPQ1FkdDhOWHZ5NHZpMHVFenFiNERSaHJkRFotZ3BMd1F4b0JkNUhmbzU2dGdmME1ZOWprU2N0QURxdk52RnBvLTZzX3dVckpvVnZXWWpicW1lcTNqWW9yczR1dFpIUW53N1pGempoTlJyQ3Z4dGdtc2hYNWZacHlhMFBHTzlJZ3Z3WGZ1cGVxcGVIZWZYWXktVGt5M0hQanFvbkhRM0xXUDQ5YWJlVVo4?oc=5",
+   "src": "GSMArena.com",
+   "at": "11 Sept, 00:17"
   },
   {
    "tag": "AI",
    "title": "The turbulent AI era is here. The choices we make now are critical.",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
    "src": "gatesnotes.com",
-   "at": "10 Sept, 21:03"
+   "at": "11 Sept, 00:58"
   },
   {
    "tag": "AI",
@@ -943,7 +986,7 @@
    "tag": "Politics",
    "title": "Photo Album",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52TV9CUDFaQjBSTkduNGUyb2hoNnQxNkh6WTFDbzFuWE1RdE0xZEhaWjRwWXlyTTZrSDFLalZhSkphMkh3Z1kwZk1SeUY3MmE1b2tnTFlLTlVjZURrVGNzZUk2Y1NDQWlCSE5BZ2dkVVN2V0U?oc=5",
-   "src": "pib.gov.in",
+   "src": "PIB",
    "at": "10 Sept, 20:27"
   },
   {
@@ -962,10 +1005,10 @@
   },
   {
    "tag": "World",
-   "title": "Trump promises Americans $5,000 if Republicans win Congress",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWXd1QTlmQVlZSlNkSk8wWVVwcFpzNW5FVWxrUnlneFFra2x6U0lndGpycVZ6WjItSEhlS3p4anZtbno1YVpId2hjV205c0pWM3U3YXJ2RXg5c1VyWVU4bElQeHI0Z3libklsQXFMYTFQZWxScHRaeE1aa3VONFNnWUNPQkd0a3lCY0UxSGZZUWx6Z1o3dVdTeVdleENLTHhsbFJWMTVBWUJvZ21WNmowdDBHT3d4di1ZdEhUMElB?oc=5",
-   "src": "The Hindu",
-   "at": "10 Sept, 10:02"
+   "title": "At least 25 dead in cargo ship fire at China’s Qingdao port",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONnBTaDE1SWFWQVlET0RvR0hyQ0huQnJtYUlkeGt6amVDNUtudHpGUW1WdWxZMHo1dFhZTS04SGY2TllEcENxd1VCNFhHRl8wVTd2SEhyOTE1MnBZbnVCZ0ZPNjh6TGUzOFcyMnhtTFBmSlZkekFzZXZmNXhLcVlzQkpwdDdPd3R2d0dVaWlZVDhoUnN1Sk1iWHVqVXPSAaIBQVVfeXFMUC1PNWF5cW1Rb3hQWTNjajgtTENld3AxcGRnbUY3OGdxa2tnaGdfMG4wRFJGUVUtdzhhX2RBZlY3RW93NmFYcVl0a0NzWlRERzlqMzNlOGRUTFd4Q19Yb0ZMb0JWQzhrVF9ka1V4MjkzcW5xalFKV0VhQVdCLW45aWFMeEFzdDJIUS1xMnpKZks0aWtwMVlUWk0wTzJDcUFxaS1B?oc=5",
+   "src": "Al Jazeera",
+   "at": "10 Sept, 18:43"
   },
   {
    "tag": "For You",
@@ -1103,22 +1146,22 @@
    "tag": "Tech",
    "items": [
     {
-     "title": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lUXRfaDRtWUhUdElka1NlVnFybGs3LW93MnFia1FTSU1Td1hoZ0xqeklJeF9ScUl6OWZvMzRZVS1YeTdwUnBUTVFCTmpoTmpxNkFleEZDajRNQQ?oc=5",
-     "src": "BBC",
-     "at": "10 Sept, 15:02"
+     "title": "Apple reveals the iPhone 18 Pro and iPhone 18 Pro Max's battery capacities - GSMArena.com news",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSTZuaXBuNmJFaGVvXzBsczROc09oSUhzZ3lHR3pHOTNRdElid0RnSnNOSU01eEFUbFY2NFVIblFCLTdTOUt2dGxKdnNpMENkZUZscmF0Z2tROEZuYUxJcUY3YmxrSlJ2UzZGdUhPUU5mNWN0ZUt2eDZCMVFXNVRCYjJBVjlGT2ZOZlRVcHhCS2hwck0wZzNkcXYwYmRZam1aeW9BcnU3YVl0UUtZZEpuZmlyNNIBrwFBVV95cUxPQ1FkdDhOWHZ5NHZpMHVFenFiNERSaHJkRFotZ3BMd1F4b0JkNUhmbzU2dGdmME1ZOWprU2N0QURxdk52RnBvLTZzX3dVckpvVnZXWWpicW1lcTNqWW9yczR1dFpIUW53N1pGempoTlJyQ3Z4dGdtc2hYNWZacHlhMFBHTzlJZ3Z3WGZ1cGVxcGVIZWZYWXktVGt5M0hQanFvbkhRM0xXUDQ5YWJlVVo4?oc=5",
+     "src": "GSMArena.com",
+     "at": "11 Sept, 00:17"
     },
     {
-     "title": "Find Your Further // iPhone 18 and Urban Armor Gear",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUNnX3Y3aXdpbUJaOXhBN1dBSWt0UVZCX2JSNUpRNlRWTFR3MWZDVDJkenJ2OEhWOGwyQ0VuazRUNWc3ZXI5VVoyd0JFZlJlX3VGZG9SUDJGQjZuYlktcWJiUkFaZkZsWUhqbTBHRzVZYnVPWldmQXN5eWxoUHNGUDNlelQ1bk5fajU2TnVkWktnUms3?oc=5",
-     "src": "Yahoo Finance",
-     "at": "11 Sept, 02:48"
+     "title": "'Welcome to Foldables': Samsung braces for Apple's foldable iPhone challenge",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUm5OUVNzU0prMDh0b1hlUVBlOVdqQkRRZkliaUhEMUpWZ05NVXdFNVlHZzRBV1dIRGMybWE3OUljdnpYOUJTRTlfYW5PV2s1WkpEMWFJQVdDVXFtanRxSl9ScUV0YWFUVGxiSnZPOEt5VXZUWVg1VmlxNGc3Z3doNEw2a1lwNEpjR0stVWEydzJYN3JmUS1zaTdUNng2QXNEanplZ2tjaVVoaldkRENBV0MxOWtFYXJMMTJEOTd2X0lpRGdx?oc=5",
+     "src": "Reuters",
+     "at": "10 Sept, 10:58"
     },
     {
-     "title": "Apple A20 Pro storms Geekbench with near-5 GHz clocks and a massive single-core lead over Qualcomm and MediaTek",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcm1FZTQwWXZFS3ZiaXFjanRqcWFVYVg4RlFQemdQNHp1YmdYazl3MDFUN1BVNXpLaDJPLXF6d25DcjBLa3FsOUJFNUk4WkNxMGl4dGRuTEwtam1mMFVpRWt4VTZpS3RnLVg2aG5ZSDVCMHFOSHRYOVNNajE0Q0FlM0pnRW1LUjZ1UnBzX1lQd1lZQlJUVHNxaDZEcFkwUUhvUFFXcHAxYmJMaFZVYnZ4eTYzaU5zbXRzRVg2cVgwcDAwbDZwTlF4ejZvX0JfSkdYemFjVnlVazVOeDVNM1JmcHRoeDNGNUIzS2hoMg?oc=5",
-     "src": "Notebookcheck",
-     "at": "10 Sept, 12:02"
+     "title": "Apple Watch Series 12 Hypertension Notification Delayed In India",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTWNFWXAtX05JMjN5VnNKNTRNY1JlOXFEdXR4eURGMmpMRWh0MW9Yb244cWtnQTgyYlBCOFgxVTZjX0JoeGNHRU1UMF9ubi03blFaU1RzVU1xNUJCVS1KVmU2QWgwY2NDbVRjWUJNcktDOTZpRWViMVFFMzQ3ajhZYUpvQUtTQWJXTWdaa1hJcTltZkVaUVo4SE1hOThtWHhLUnhKaWJOcmzSAbABQVVfeXFMTTB1Z0dqQmVIZ3VSSkExVHZFSkpLQkJFckkwVzBiWndydnFmX05vRFBkSjZ1eXVKeUpXUjF6MFgxaVFuM1JQTVdKczlyR05WaEV1UWpoVXlsc1dHTTNUcm9Yak9BcjM3VEg3WGFhSXdnMmJycUtHZ2VTd205N29STHl0cnRRckVFMHVEWDlJYWc3T1JLSDZnMndfV2U3dFhCUU5tX2xwQk5PbVVRVHFELTk?oc=5",
+     "src": "NDTV",
+     "at": "10 Sept, 07:23"
     },
     {
      "title": "Apple announces AirPods 5, Watch Series 12 and Watch Ultra 4",
@@ -1127,16 +1170,16 @@
      "at": "10 Sept, 14:10"
     },
     {
-     "title": "Apple Watch Series 12 and Ultra 4 get S11 chip, microphones for Audio Intelligence - GSMArena.com news",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQclVMbXd5V0paUkNkRUx1TTFCNm82T011Z3V5VWdibWJXZk9zazg2ei05Qk1pVDF5cDZhakVMU01iNWt1b3pWNWVnb195SXNIZ3BXVnZBM0JERHo5UzFaUV9SelgxOUVJZEhma0QzdXZWZEg2TDd6MkRCaUoyREJMRWRZWDJ0WFhqbzFzeG1pR2hWei1mQXdNa0pUUVA2U09HdkVEelZyb1hRMUhKSWo4bk8zVl9HTWc3ZnJhT2J30gG6AUFVX3lxTE9OYmNaY0ZFa1hsQ0lSWFh4aHFfVGE2ZDB6NW9sdFlGSExwb2drMnBHMXU1TDJoTklnYnV1eGxVejF2SV9YQlBYeHdjNGJDVU4wblM5eTJfTjhFZEpVekIzUGROcjU1WXlfMDQ3M1VLWnVQTUtUZFhraWFoMnpNclFFSTAzQ3JLZV93ZGlJTzN1cUxVY1hTNF9NODNuaDVtRjBsMmtYRU43LWdOS005RVhhVldsc0FDaWpnQQ?oc=5",
-     "src": "GSMArena.com",
-     "at": "10 Sept, 02:08"
+     "title": "India gets one of world's steepest iPhone price hikes",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRDBZbWEteHVNTXFEbzc3Q1VyODdMVGhIYk10eWVScUJVUmNhbENCa09pdUF0cWUwbE8zTkdDVS1LTUJwWC1qOExGWHBpRjBkTFc5OWxNTVdRbWVfbFE0Vml1VjVnbGM5WG1SR1hXaDNNMVlQSmxCSjN3Y1c2d0ViWE5IZVFqcXRoR3Fyb1g1Zm83cnptN1pDQkRhVmJVM25WRUVXUU10NUIwdw?oc=5",
+     "src": "marketscreener.com",
+     "at": "10 Sept, 15:45"
     },
     {
-     "title": "Apple hikes iPhone prices in India by up to 41% after new models launch",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUm5FdHpuRzk4VDRmRnprLUpkV2lSd2o3UXlHUlVXR2c0Q2lEcTFQbTEwWXkxN3NScHRqUllFUmxDV1pEamlBanpHeTNEYjlpZ3JMNFIxSWVYUXFzQ2xqVHVuWnFLcmdYUWcyMV9oLXJmVi1OVllhX3dMUmZHMHdGM3BGa2tkaHhaYUI0bVBlTXdmQUp2V3I2WW1FS0lwU0IyV05YLW45X2RHM1FMM1JhWElkRENNNVRqeGloS1NSeDRxMUx6d2hJTWtfWVNleWgxYm9IOF84UVZWamh1RHfSAeMBQVVfeXFMT2Y5VzI3N1ZCcUJaT3o1Q0s3RWJzM2lhYnhZZ2F3aWhwS0t1dlFnTUl3VWhXTmNKMG9GYWl3bGtfOE5xTEFjZTFDUkQwSmxlRnRzeEM5WmtXMWN5SXZDYlhlS2tJU2h5TVFrNWsxNWNSRjdaM25JeUdzYXRCRzFJMnZ2SGxqNEV6Rnpwcml2QVpIT05ZV2tWVHFHN3BHOUV3dktWRkZfLW5oeE1RbWI3cDlyRE9uUVJGV1pGdm9CWV9vaEJGTVYxSXlrUW81WERNYWNCVmpTbEp3UjJMTEtrb2ZQSW8?oc=5",
-     "src": "Telegraph India",
-     "at": "10 Sept, 17:03"
+     "title": "We tracked down iPhone 18 Pro, Pro Max, and iPhone Duo cases already available",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VbFpjVl9WNTB5cG16V0VMa3V3ZXpxQk9iVVZwTWNyUUJKRGt2am9kSDhIcko0SlN1YTFDLXlMWEpHNXpmcUtYeE40OGt5VzhYZlVxLXpkbnRzaFFROVE?oc=5",
+     "src": "Mashable",
+     "at": "11 Sept, 00:31"
     }
    ]
   },
@@ -1147,19 +1190,13 @@
      "title": "The turbulent AI era is here. The choices we make now are critical.",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
      "src": "gatesnotes.com",
-     "at": "10 Sept, 21:03"
+     "at": "11 Sept, 00:58"
     },
     {
      "title": "Machine Learning Reshapes Credit Scoring",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tMGNSVC1ZYXJ0TXY4Rmp0N21Zdm1CaElVOTVORG5xVHhqTHpNbzZwLUUtbzVrZXNDeUJpeHZrbGFLeTZXempXakh1SkJlWkRUVGh1bGN1X2VWY1ZkbXlyOF9VTUxJZTdnYTBPOE1adGFjRXE3c1E?oc=5",
      "src": "Communications of the ACM",
      "at": "11 Sept, 02:52"
-    },
-    {
-     "title": "Where Artificial Intelligence Belongs in Vibration Analysis",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWG9aSkFWTW1KaVktM09jbUVKWk1NcUFSVFQ3aWlHWUNqYkFlTWc3d25MME1TdXh3ZkVKUzN4TS14MzEybWlWUDJKZ2RUTmxselZPRGdnd2FrU0UtY1BKNjhjTGJCdUtEU1RGTW1xem1BdHBialFkWkk3U3Y2QWQyM3JTREhuRllkaFdTVE83blZMVE16S05XaGc0R09GSlluWVE?oc=5",
-     "src": "pumpsandsystems.com",
-     "at": "11 Sept, 01:49"
     },
     {
      "title": "AI is emerging as an operating layer of connected infrastructure",
@@ -1178,6 +1215,12 @@
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT1lGai1ldmRnUmkxZXZzY2swY09Zd3YtZ2d1b3RhTkNoSkc2OGFtQ1dkb3UxdU9fbGpZUFVrWUthMnV5cThLNlFELU04TzduVmlmcnRDYkdLMXB6MXQxTDliTXE2WXJ5V0ZwNF95ZDBaX2dDamIzQ0NXVXNXLU90LU1wY0ZuRXRaMVNianZLNHRmaE1HeHlYVl9QY3M2UWZobHpuLWVTS3hNN3VuQkE?oc=5",
      "src": "nokia.com",
      "at": "10 Sept, 23:38"
+    },
+    {
+     "title": "Springer Nature launches framework on use of artificial intelligence",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTFBTY2I1c2dsRUphWF9Ua2h3N3ppci1XWnF5T29BeGNzSU5PclFMaDZhXzVLdGFwYUR6R3o4V2Z1Xzc4OHBHSDZMS2VaYnpZd2tyczVqTURNLUdFRDIwUkdlRHVUTkoxaXVMem9WNGY2N3RXb2hjTGQ3MC1qYUZKeXduYTdhcWN3NmliVzhVY3BXeER1a2hQU1UyYVkyb3ItTGlHajVXSmRQTW5RX0xxQQ?oc=5",
+     "src": "Research Information",
+     "at": "10 Sept, 13:30"
     }
    ]
   },
@@ -1228,13 +1271,13 @@
     {
      "title": "Photo Album",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE52TV9CUDFaQjBSTkduNGUyb2hoNnQxNkh6WTFDbzFuWE1RdE0xZEhaWjRwWXlyTTZrSDFLalZhSkphMkh3Z1kwZk1SeUY3MmE1b2tnTFlLTlVjZURrVGNzZUk2Y1NDQWlCSE5BZ2dkVVN2V0U?oc=5",
-     "src": "pib.gov.in",
+     "src": "PIB",
      "at": "10 Sept, 20:27"
     },
     {
      "title": "Reforming India’s Tribunal System",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX1d1SVMzMUdIZ0pVc3BqREtQRW5GZDJOVGNrVjVJWVJLb2pBdDZCdHdyNGFTX1JkLXhPVGNDTGh6Q1k3SmdfOGVUTlJGM1M5SHVEOEp1MGlqSkdEb3RrY2JYX3N0TlE5VG5rNWZUdkI3N3dWMElRbmlGU1BHSWxtUGtFZWZUdzg?oc=5",
-     "src": "pib.gov.in",
+     "src": "PIB",
      "at": "10 Sept, 15:11"
     },
     {
@@ -1285,6 +1328,12 @@
      "at": "10 Sept, 21:08"
     },
     {
+     "title": "Oracle Layoffs: 30,000 Jobs Wiped Off In 6 AM Email: Check Highest Tech Layoffs, Amazon, TCS, Intel In List",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdS13bFh2YzRpN3BnazZvWXhfRUhvZEloTFJ0Nk9nQ2ZxTlNCQTNQenN2LTh0WU9jekt6aW5GUl9mQ0FXdk5nVEQwOVBDSElzRkpCTGl6dGJuRGpramtSUmhXYUV4MU9DUjl3ZEU5dHFNM3BFaVlqMi1sSlg5SjN5djY3YTRJTzdSTUtyNjdqRkpGU2JRNENNVGFvdXR3REdjN1lKYkl5Nng0R192a0F5dHk2YkZkTVlSMFRfWHp3Y2U0TVhBcmxKVmQ0d1Rtd3R0NktQQkR2RXdEenBK?oc=5",
+     "src": "Goodreturns",
+     "at": "10 Sept, 13:47"
+    },
+    {
      "title": "H-1B visa issue: Trump administration proposes scrapping 60-day grace period, Indian techies to be affected",
      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbXFBNmM3YWpzMWRJWjVTTkRwZlRSbDBsX0huUnlFRG9ZNkdWOGZQZjdPWXVnTkRHVEtYbmdTNS1yT3pfVHRSeV82QUkySU0xbG85cE1WNFAxMGdFUmp1MUk5eHJkWFZXSUZWNEUtOUs2bHVvLXQwcHQtVUZUZUExS1UzU29fY3RPbTNNLTBFWmxWSGhRN1NrMXlPX1dLdnh6a1BMSjF2M3NOcHdIQ0YzOVA4ejdlR0dYQ3M1NEFZR3hGamJKTXFlZTlnbVpfbV8tc180b2ZTMkxUcWxSb0VzMkRSaXdhNlAtbXU0bUxhX1R3REQy0gH6AUFVX3lxTE5aRkltZGdWSzd4UDRvSktUaDExLVUwMVUxaWRYcWtwTW1kZDV2ZTdQTUF4SnBEV1NSOEtVQWs1ZjRMM21aRUtjNDlWSVNLUDRaYVlOMjJfMTRpUExoOVk4bUE2dGYyNDI5T200ekpZQVk4UndqaTBhcjBYaWw3Q3F1TTFQOVRyd3B4c0ZDMHNOMER4ZkhKUnRZSS1hNFcyd1JRRmQweW5rQ19IYmV1N1haYlhic2Q5MXQ4X1VnaU1Edmh1RFlCUnYyRnhKTmRYeGV4RVJTY3pyb2xlelZpVFlVYUQ1MlVpdURFb0dVQ2NmLWpUTHQxa0VnWFE?oc=5",
      "src": "Livemint",
@@ -1295,12 +1344,6 @@
      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON1h3bnFYSEJ1cXNFX3BEZFphVWVjTXliaTZHNnp1MGpjYVFoU3JEMUFaWDZsOUUyaXNyQzlONzFnX09RN2Rtalh1NDZQdndMb2RrXzhEX1dxczNDazhNV0EySmJjOHRiZ0pvZEhpVWpiMjZxZ3ZCZ3BfY05VajRpcnNTX1VtWFE3MWM4WHpKVkRMcVQ1aHZaNUFQRGFraWppSlQwOEhhaHk1VEF2SUpBNzhwUmJpcXFvdTJ5VEt4bWFzdk9UOVdYaFNPSF9ITGI1VDNWeHVobXlLQQ?oc=5",
      "src": "Deccan Herald",
      "at": "10 Sept, 21:08"
-    },
-    {
-     "title": "US unemployment claims dip to 206,000 as layoffs continue to remain rare",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQS2E1b0tQbE1DNWc5NzgxQ1dra0E3VWNHVDA3ZWNoWnVNRVU5VWRYZ2YzUXI0dUdZVnBSMHlNazAxNG1BME8xeGFGVmFQQmx4elBxdWJ3QXRPRmw1ZG1FNzMzYlRkeVIwaDNESjcyN25fa2dacDhEQnRLZ2V2LWJmeVVkOFQwbUlvUEVlOVRrVEtQTGZMZ0JPeHJKN0hUa0hhRWs3UjNSaEtfYjNVVVBDOGpJM05QaVNiSUVyY2toUXpBcEZFMUhXTmpEaF9LTEtCdVQ4bDM2eEQ4cERZV09MakpDNk5obVRtUzF2LXVR0gHuAUFVX3lxTFBLYTVvS1BsTUM1Zzk3ODFDV2trQTdVY0dUMDdlY2hadU1FVTlVZFhnZjNRcjR1R1lWcFIweU1rMDE0bUEwTzF4YUZWYVBCbHh6UHF1YndBdE9GbDVkbUU3MzNiVGR5UjBoM0RKNzI3bl9rZ1pwOERCdEtnZXYtYmZ5VWQ4VDBtSW9QRWU5VGtUS1BMZkxnQk94cko3SFRrSGFFazdSM1JoS19iM1VVUEM4akkzTlBpU2JJRXJja2hRekFwRkUxSFdOakRoX0tMS0J1VDhsMzZ4RDhwRFlXT0xqSkM2TmhtVG1TMXYtdVE?oc=5",
-     "src": "The Economic Times",
-     "at": "10 Sept, 18:16"
     }
    ]
   },
@@ -1316,7 +1359,7 @@
     {
      "title": "Video Contest on Role of e-sakshya in Investigation – India",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbkJ4QmpOeTBycS1vZmVJM2g5R3FYZDFnUzA2MHpTc0ZjRlFHaGIxWUl3b29PMXprby0wNHZVNXUyU2M3LXdHeGd1R0c2T1VVYTI1NWltNFpLbS1qeDZVTXZJNUNyd0pEQlY3NW9KTGNBSkswRHcyQW1jVDNJMzZIX25Wa1NmVjhYN1otMkQ5cUxQYXdhTWJMcGVvVmx1V0pBZFHSAacBQVVfeXFMUHFGZ1BOX0RXZi1WMFk5VTBiWTFvMUQzT1BRdUNnLXdSYW9Xdk1jTnpJUEJrMFRhU3Z4ZngtQXlTS25PYWIySEdLUWxZSUpVT082YVBtRW9KUE5TOTc0b0llQ20wZTljS2tHbTlhQ05UZldZSU5EWWFBUW9BTi03TkJiazNOWXJKWl9iQ3d0X1VPM241T3VSMlhWSTZvMGEyU3dwTkZSX3M?oc=5",
-     "src": "fundsforngos.org",
+     "src": "fundsforNGOs",
      "at": "10 Sept, 09:16"
     },
     {
@@ -1349,12 +1392,6 @@
    "tag": "World",
    "items": [
     {
-     "title": "Trump promises Americans $5,000 if Republicans win Congress",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWXd1QTlmQVlZSlNkSk8wWVVwcFpzNW5FVWxrUnlneFFra2x6U0lndGpycVZ6WjItSEhlS3p4anZtbno1YVpId2hjV205c0pWM3U3YXJ2RXg5c1VyWVU4bElQeHI0Z3libklsQXFMYTFQZWxScHRaeE1aa3VONFNnWUNPQkd0a3lCY0UxSGZZUWx6Z1o3dVdTeVdleENLTHhsbFJWMTVBWUJvZ21WNmowdDBHT3d4di1ZdEhUMElB?oc=5",
-     "src": "The Hindu",
-     "at": "10 Sept, 10:02"
-    },
-    {
      "title": "At least 25 dead in cargo ship fire at China’s Qingdao port",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONnBTaDE1SWFWQVlET0RvR0hyQ0huQnJtYUlkeGt6amVDNUtudHpGUW1WdWxZMHo1dFhZTS04SGY2TllEcENxd1VCNFhHRl8wVTd2SEhyOTE1MnBZbnVCZ0ZPNjh6TGUzOFcyMnhtTFBmSlZkekFzZXZmNXhLcVlzQkpwdDdPd3R2d0dVaWlZVDhoUnN1Sk1iWHVqVXPSAaIBQVVfeXFMUC1PNWF5cW1Rb3hQWTNjajgtTENld3AxcGRnbUY3OGdxa2tnaGdfMG4wRFJGUVUtdzhhX2RBZlY3RW93NmFYcVl0a0NzWlRERzlqMzNlOGRUTFd4Q19Yb0ZMb0JWQzhrVF9ka1V4MjkzcW5xalFKV0VhQVdCLW45aWFMeEFzdDJIUS1xMnpKZks0aWtwMVlUWk0wTzJDcUFxaS1B?oc=5",
      "src": "Al Jazeera",
@@ -1364,13 +1401,13 @@
      "title": "Yemen's Houthis close in on Bab el-Mandeb Strait in new threat to shipping",
      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUNHSEc4V2xmVVpPcmx6cE1GaF85MVB3Tnl5ZzdyWVBlYy0zcnNzOTQ1R2ZyNFdzbmp6c2xodVlOallDQTAyeUFodEUwa0dkOFFCN3ZIcmg0V3Iyc0NiUGczTklDSzhUOGNkUUd5ZWlRME5LRGhBdHFvSDdVUm9WdjZacC0zcFdkM0xZY09LUHFDR3lua1ZXMW1GN0NxT21CTFRYNkFOVGRNMzFsTjJXS1hnejFfVTdUZHBvMEJoMmJGU2xLQnc?oc=5",
      "src": "Reuters",
-     "at": "11 Sept, 02:53"
+     "at": "11 Sept, 03:08"
     },
     {
-     "title": "China: English to be removed as a graded core subject?",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZVRveGtRNjJTbUZpYnhSWFNFWEM4UVFjOEZOekhIRS1abzhGNmlNU090ZXVyMVNINE9XVE9udVFlTUFYak00SndqZVFpcDdLcjRvbm5XOXRQNmZ1V1R0bTlRdTRGWV93STZ2ZDNPZXVYSXRnb05fR29QODA3VTk5RmJkZ1ZyOHBRUm40SzNR0gGOAUFVX3lxTE1jX1RTeHBEcHBXREtnWDFTOVVmWUxKMlZsVDZidVBmYTd6VWlEcUxDZ2VzUV9zeUMtdm56eGlCeDAtU3dCcmhRTHAwTW1uUW90YTJKd3liOXBnczlWZFlBbWV0WlF6eUJYakNGd3JTTzRTLTRnWUFwdVIxT1V6Z25nWnd4SmcwakllTktXaUE?oc=5",
-     "src": "dw.com",
-     "at": "10 Sept, 14:36"
+     "title": "Trump claims Iran war will end right after U.S. midterm elections",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOEZSUHJLN21JUTZudUN6OGR2aUpSNjFJa1RoSXdUV081R19FOGFSRUdwbTh1NWE1STF1T29JRTVMZ3dQQzFVbUNObVAtdmRRSEJOZ1ZLR0d3cmo0SnlTQ3A3dTE2WEh5YzJPYUttX0dQZGozb3pfTTdvYTRmTEFrOVV0M3RDUW4zcWQ1Z3NvaUszMzNXNGZ4M0F6VHk0a18tSTdqYzZ2YjYxdVRKbFRJYUNGbzZHckhHMXBTRDFCdFpFTTDSAcoBQVVfeXFMT2p5LVVocEJZUFVfZk40LW0tNEtDdE9lQ3FRWlJkdXl0SHI2R1lXWjFJd1FNbFdvNG9uZlJiVGZHMmRsUHJBbVV3Sm8xZTYyTWQ0S1B3R2h5aXhyRFB6c1N4ZVNNRU1JMXM3eUlIVExhYVl6dDdkcGdrbGEycGwxQ194ejZSanZVVnJGMlBpLUUxWnVWbWNxUFlLTlpXaW5LUnJiM1BKalQzU0JqZHVwS3RBemEwX1IyaW5zU0JHQ1ptbFZYMjJJaXEwQQ?oc=5",
+     "src": "The Hindu",
+     "at": "10 Sept, 04:33"
     },
     {
      "title": "‘Flames engulfed vessel’: 5 killed, 87 missing in Philippines ferry fire - What we know",
@@ -1379,10 +1416,16 @@
      "at": "10 Sept, 07:19"
     },
     {
-     "title": "Trump Aides Warn Iran War Could Drag On Till He Leaves Office In 2029: Report",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMnRYd2lEbmRiVnlyOWZvQ2tWOHRfNVVHanh3RlQ5MGhCODVQbjhRMVhmblgyTmI5bzhUNU5uMUc5MTNZSmlPWFZ6eTBhUDI4Y01lRFdPUXdxMUJ2RGFiWFBvck9DZy0yZDZtVllKN1dFb3hTLWJ1R0FUdHl1Y2NXLXRZWFBmNkp2TEt0OUowM2RKVFZnbnI0VnYyWXZrM1FwNExJZHZydHJ0RGlOaVZqUzZ5NmY3Qnlt0gHAAUFVX3lxTFBBVk5MdVRsckQwNTJoY096VXZhMWF5UHBKcVJFeFZmSHdPWGFERldhcThMV2UyWTFNeHVzZ20wZHE4T1l6dUgtekNRcHk2MFNfdV94U19qR2F3NlRjdlVnX2c2UkJZX3J6UE95elNUSnRESkNqMFRnQjNYaGpqak9GWmlXOHV4TEZYYk9WMHNtOTEyUktrcWhyVTJybU5paGpoRC04cklOZ2F1dEdzNXJqQThHUXVpUUhsNHZJdWVXcg?oc=5",
+     "title": "China: English to be removed as a graded core subject?",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZVRveGtRNjJTbUZpYnhSWFNFWEM4UVFjOEZOekhIRS1abzhGNmlNU090ZXVyMVNINE9XVE9udVFlTUFYak00SndqZVFpcDdLcjRvbm5XOXRQNmZ1V1R0bTlRdTRGWV93STZ2ZDNPZXVYSXRnb05fR29QODA3VTk5RmJkZ1ZyOHBRUm40SzNR0gGOAUFVX3lxTE1jX1RTeHBEcHBXREtnWDFTOVVmWUxKMlZsVDZidVBmYTd6VWlEcUxDZ2VzUV9zeUMtdm56eGlCeDAtU3dCcmhRTHAwTW1uUW90YTJKd3liOXBnczlWZFlBbWV0WlF6eUJYakNGd3JTTzRTLTRnWUFwdVIxT1V6Z25nWnd4SmcwakllTktXaUE?oc=5",
+     "src": "dw.com",
+     "at": "10 Sept, 14:36"
+    },
+    {
+     "title": "US Moves To End 60-Day Grace Period For H-1B, Other Work Visa Holders",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX0ZaeEZJbDNnaW1NYllBVHpnMU5fRjJzTHFBLTV1MFd2TlR4U3dzWVA2UDE4SDl3dW5YZmszSU4tWktheGx6c2xKN0p6UEJqQlU5UUdaRzFYQk1WVU4zZ0hNVmdCdFppMkVJUS1CMmNTeEoyV09ndnZ1SE1xOVNMV09GalJkWUkyMzJNdkZDN19abldGdGdxVE9EeFI3VkpBeENWVUFkYkNqeGRHYXc?oc=5",
      "src": "NDTV",
-     "at": "10 Sept, 20:18"
+     "at": "10 Sept, 21:50"
     }
    ]
   },
