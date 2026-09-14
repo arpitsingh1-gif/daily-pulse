@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-14T09:50:55.556Z",
- "label": "14 Sept, 15:20 IST",
+ "generatedAt": "2026-09-14T10:01:37.686Z",
+ "label": "14 Sept, 15:31 IST",
  "markets": {
   "indices": [
    {
@@ -58,12 +58,12 @@
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 95.83,
-    "chg": 0.8,
-    "pct": 0.84,
+    "price": 95.75,
+    "chg": 0.72,
+    "pct": 0.76,
     "spark": [
      95.03,
-     95.8318
+     95.7506
     ],
     "fx": true,
     "ok": true
@@ -71,12 +71,12 @@
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 102.48,
-    "chg": 2.7,
-    "pct": 2.71,
+    "price": 102.1,
+    "chg": 2.32,
+    "pct": 2.33,
     "spark": [
      99.78,
-     102.48
+     102.1
     ],
     "fx": true,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4353.6,
-    "chg": -55.3,
-    "pct": -1.25,
+    "price": 4321.4,
+    "chg": -87.5,
+    "pct": -1.98,
     "spark": [
      4408.9,
-     4353.6
+     4321.4
     ],
     "fx": true,
     "ok": true
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 63.88,
-    "chg": -1.3,
-    "pct": -2,
+    "price": 62.91,
+    "chg": -2.28,
+    "pct": -3.49,
     "spark": [
-     65.18,
-     63.88
+     65.19,
+     62.91
     ],
     "fx": true,
     "ok": true
@@ -283,12 +283,12 @@
    {
     "name": "FTSE 100",
     "g": "UKX:INDEXFTSE",
-    "price": 10703.97,
-    "chg": 53.53,
-    "pct": 0.5,
+    "price": 10721.82,
+    "chg": 71.38,
+    "pct": 0.67,
     "spark": [
      10650.44,
-     10703.97
+     10721.82
     ],
     "fx": false,
     "ok": true
@@ -297,12 +297,12 @@
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 12.29,
+   "price": 12.28,
    "chg": 0.49,
    "pct": 4.15,
    "spark": [
-    11.8,
-    12.29
+    11.79,
+    12.28
    ],
    "fx": false,
    "ok": true
@@ -812,16 +812,16 @@
   "trending": false,
   "ipo": [
    {
-    "title": "Asset Reconstruction IPO GMP, Grey Market Premium Today",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sRHptMC1WYjlEbzlnTk1GQmNKc1d0V3BCUkh6V3diTkxBVExIVGU4M21RM19sZ0pwWjVKNDZYOXctU3lGVEJJeVpCcHlTRHktYm45amJpUURBaXB5bUxYOWY2T0RuY0pQSGpDZGVzbWVQOHJLdEN6eg?oc=5",
-    "src": "IPO Watch",
-    "at": "14 Sept, 13:58"
-   },
-   {
     "title": "Robokidz Eduventures IPO Date, Price Band, GMP, Subscription & Allotment",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4MFp1Q2ZFUHVqLXRLalpWUmdrWFgtQzVYUTJ2X0h6N0RNeXBRM09wX2xsazRuaVJOcUl6cXJwRTV1TzhCYVNsV0szRmhNT0ZsakNkd2JIUTN6clVyMGlyWGg5RUZja1MtUmc?oc=5",
     "src": "IndiaIPO",
     "at": "14 Sept, 11:27"
+   },
+   {
+    "title": "Asset Reconstruction IPO GMP, Grey Market Premium Today",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sRHptMC1WYjlEbzlnTk1GQmNKc1d0V3BCUkh6V3diTkxBVExIVGU4M21RM19sZ0pwWjVKNDZYOXctU3lGVEJJeVpCcHlTRHktYm45amJpUURBaXB5bUxYOWY2T0RuY0pQSGpDZGVzbWVQOHJLdEN6eg?oc=5",
+    "src": "IPO Watch",
+    "at": "14 Sept, 13:58"
    },
    {
     "title": "NSE IPO: Listing Gain Or Long-Term Bet? Check GMP, Valuation Before You Subscribe To Rs 22,569 Crore Issue",
@@ -834,12 +834,6 @@
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWEZBcUk0VVh0bTBaVXB6U1pOZDNmcTNrVmt4VnBfbXRTYW92b2J2ZDBTUHE4TWxLTi0xYVJDLWdtcTZ2NElNRXB6bjZiWjBoZklCb0F1QzFhM1p2SFBMMFU2cTZ3WTRtZDNYd1dMV09VdlpWMTJfRmU1RFJ4Mm9ZTlpPU2xGZDBEQnU4T1dWR3Q3NE1RVlBGcnNfLUJsNVM4cUNfTnJkSEZudFE5YmhOT19PbFJ0WndEakZmbUFzUkFzNFZJVmpDSEtYSVdqMTYzVEHSAdcBQVVfeXFMTkNfY3liaFdxWnNaZGExWUQyM1c2a2gxRldhdHdTY3RsVEJXY3pQNFo5Y2RicFpkdm1DRFRwMS1PV1I5RHQzU2hKSzlWYlFzRTUzR2xwZ1ktRi02TTJWYW5mRm9saEdrWXFxdXI3WXhreHpMbEVGYW5VQmJWN1VVeFNfdTItdXpKT0lYbUJLeTdjZXFTOHBFcXhReERTS2l4RE9VVlhZNFVVMFhzNWY4cDhFSTZKdUZoczN2amh2WWliMVU0TnRMUVJpeGFFd0xlZGFxc2o4aGc?oc=5",
     "src": "Livemint",
     "at": "14 Sept, 13:14"
-   },
-   {
-    "title": "Opportunity to invest in 5 IPOs this week: NSE's issue is the largest; SS Retail and Jindal Supreme are est...",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMklDbjhfbC00WHRMQjgtd2ZKa1E4S2oxbTJ4YnZFaVlDb1N3UzM4aTNGcUJveE5aaUl4QzhHdXhhY3dnT0NaZnY4RWU0enlyNWk4UGxNaTdpMndIWlllZ2VPQzVYNlFabmJaUVBqZkFXVG9OYk1SVzlSZW5ORmp1eVhUSzQ4SVl2QVUxMDVlT2steFFaenkxcjcweDctc3NCWk9iTEZrSUZJVHJmODVNSlVLWmlCa1hkb2tJ0gHAAUFVX3lxTE1SeXRMdWJBUGxnSlQ4cXBramIySFdTUFhab0lDY3hLWHA5c19QWVhpd0JKYUJSX05PeUh1VG5pNFVNdHkxR0xsUjJYS3JpWkdWZUw1TkYzN1NBLVdLYTVRMmU2MFl5M3AxS183NXl0VW93VjJ1dDBIOV9udkNlUU9ySmlkdU1wdk9BWFVfcnBzcVFTSWFzSlZmY1RNeXRnaUhzcVNmSDVuRE4yUDlpZ29Vay1LZmFObmtRN0N4SmVsOA?oc=5",
-    "src": "Bhaskar English",
-    "at": "14 Sept, 13:18"
    },
    {
     "title": "Pranav Constructions IPO set for debut after 120x subscription; GMP at 36%",
@@ -857,22 +851,28 @@
     "at": "14 Sept, 12:05"
    },
    {
+    "title": "NSE is among 11 IPOs greeting investors this week. GMPs signal up to 32% returns",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbXFWc1ZXZGZjQW1Fc0ZPSDktV0JrZ3B0azlfcjJlREQ0MFJvUjk5Z1NtWlV3YUdCaFFSVmdWYU1PeUk0bmgyUmdVczJNODdlZWotS3NHUWd1dGNuX0VJUFN5Nmw4UUdjUVgzYjlrbWQzRVBoRjk3dWpjX3ZYVGhFOG52WWZzekRNc2FsNDd2eEc1ZHJjbWM3UGx4bHAzeW5EWlo2NWtQNnBSTjhWLXhNekU3RW5BYkpvS1hUOHNUZW1YNThRTXMxMjFRcWJ5d19lbmducEpxZEw1QkdjaXl1eFpZNTE?oc=5",
+    "src": "The Economic Times",
+    "at": "14 Sept, 14:35"
+   },
+   {
     "title": "Kanohar Electricals IPO GMP, Grey Market Premium Today",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nQjZwaThMNnl4WWlQMjZLVjE3eEE0YmFaMVppQ19BZlgwRHRyc0lHaFJDMnA4NEFYY09OYmwtb00tWm9ZazBRVTJYMWdZdnVhN3NzTG5idTVNbWdFVExURHctNmxmTWZ2X01QUEtKLU4ya0J5ajBz?oc=5",
     "src": "IPO Watch",
     "at": "14 Sept, 12:07"
    },
    {
-    "title": "NSE is among 11 IPOs greeting investors this week. GMPs signal up to 32% returns",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbXFWc1ZXZGZjQW1Fc0ZPSDktV0JrZ3B0azlfcjJlREQ0MFJvUjk5Z1NtWlV3YUdCaFFSVmdWYU1PeUk0bmgyUmdVczJNODdlZWotS3NHUWd1dGNuX0VJUFN5Nmw4UUdjUVgzYjlrbWQzRVBoRjk3dWpjX3ZYVGhFOG52WWZzekRNc2FsNDd2eEc1ZHJjbWM3UGx4bHAzeW5EWlo2NWtQNnBSTjhWLXhNekU3RW5BYkpvS1hUOHNUZW1YNThRTXMxMjFRcWJ5d19lbmducEpxZEw1QkdjaXl1eFpZNTE?oc=5",
-    "src": "economictimes.com",
-    "at": "14 Sept, 14:35"
-   },
-   {
     "title": "Primary market remains upbeat as 11 IPOs worth `24,574 crore line up",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRFNXT0RZWVdtVHp2Y3IyUTJxUERKNDVSZ09KU3NwVzRzR0QwUHllV1dWcGh4b2hINDQyd3dYVE0zY0U1QUQ2Y2d6VGN3S2hVWDQyRFpyQVBHZkJWVlc3c1phUFBvTnFsSVBmZnZ6YUgyZ0pONU1GaEstV1h1MFlFMGZlb2d6SXYwTkxURUdpOFdabGhMODY0ejFJNk9LbER1ZFBpT1hhSWJYcDNHc3R5bjdBYXlmS3fSAbcBQVVfeXFMTURTV09EWVlXbVR6dmNyMlEycVBESjQ1UmdPSlNzcFc0c0dEMFB5ZVdXVnBoeG9oSDQ0Mnd3WFRNM2NFNUFENmNnelRjd0toVVg0MkRackFQR2ZCVlZXN3NaYVBQb05xbElQZmZ2emFIMmdKTjVNRmhLLVdYdTBZRTBmZW9nekl2ME5MVEVHaThXWmxoTDg2NHoxSTZPS2xEdWRQaU9YYUliWHAzR3N0eW43QWF5Zkt3?oc=5",
     "src": "MillenniumPost",
     "at": "13 Sept, 22:56"
+   },
+   {
+    "title": "IPO rush continues: Rs 24,500 crore worth of issues to hit primary market this week",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTGZ6Q3pDLVh6TXFxX1RSYXhkcnVFTzVSWlFZa0dSMk1YZ0lqS29teS1jTFIyT3poZ05lUXhtVDFMd1VQNVhVZElsNzJpSnYyNXVZd0JDUGc2SHNFcUwyREdLVldLWU5WUEVkRzJkbWx5NHh1Yjdid1JGODJTRk54ak9UZWhSb3JTM0U2dTc1X2JkZURNOUtJQjRhQVRLMEFHYktJN3drRzZaSDcxdUtTTW5TVlhpRTlBLWdlbExFOXMxVHpiZGUtWlJoVnpnYVVEcW4tYmFKeDd4a2pnWDRac3NKUTRQMTc40gHuAUFVX3lxTE50bmRDTVBkYnhIY05lUmdGWm1lOTFNTWoxMnFycEhaZEJrVFZGQnc3ZU5OTTJMZ2g4TGVFb0tkMENCNkd1WV94eHAyRWI2Q191ZWVpaHlocGxiZzdoSms1SUNEN1lUYXRUM3ZBbXExcVFpa1FwZlJHdTcwMGpWRU9aUU5paDMzelNSaGVLanhzS2dpRl96cWFvX0hGMlJzTEl5bF9JUHpFUWE4dkVsbWQ4cFJoczRQX3lVaWl6UlRDUHRkekt6eGM2SDFKc0xVR3VGRllnQm1ndVlIVmpwbXBVVzlQeVNKTVVJTEtnU1E?oc=5",
+    "src": "The Economic Times",
+    "at": "14 Sept, 06:13"
    }
   ],
   "insights": [
@@ -883,13 +883,13 @@
    "2/8 sectors green today",
    "Nifty 50 down 0.34% — flat session",
    "Rich valuations: Adani Ent P/E 49.4",
-   "India VIX 12.29 — calm markets",
+   "India VIX 12.28 — calm markets",
    "Global cues: Dow Jones +0.98%, Nikkei 225 -0.81%"
   ],
   "context": [
    "A mixed, stock-specific day with no clear index direction — the kind of day where individual names matter more than the headline number.",
    "Money rotated into Bank and out of Realty. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (12.29) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "India VIX is low (12.28) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
@@ -909,17 +909,17 @@
   },
   {
    "tag": "Share Market",
-   "title": "Stock market closed today as Sensex, Nifty observe Ganesh Chaturthi",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZERaZHNyWnB0b29QRmJKbnFpQ0xEZ1FBUXpRalRWNjczS0IxamdCRENlZ25TWWIyRHYxNkdHaXlpeW5mQmFyLXo4MXowNk9WQ19rYVFMSUkzX0VBTUJFeWhlMXRncHB2ZEFpSzZmWlY0b3d1al8wSkhVXzVIQ09DRloxemxMSmVoUGRqZEZLRzR6eFIxbnBWZnRKTHRYYW1oYTdVMTRqbU5UMUVi0gGyAUFVX3lxTE1XTmh3RmF0WngzbnE3RExpOGxmWXhsVGVDcHdMQ3duTjF4MjdBZXRxb2xQd0dZZi1UUEo2NGlNZDRZOEFJTmtoekh2M3dQbDZkY3NwTUhkcVVseW5JX3pjdFIxampuckR4ZkVfSmhWdllac2IwbGhQcFVyNjkzcVVTYmdoTXc4WGRxeUR1MFRqbkR6OWhvMzFORm02TzJHM1RDQmN1eWhULWRpdWZocmlCTUE?oc=5",
-   "src": "The Assam Tribune",
-   "at": "14 Sept, 12:25"
+   "title": "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNanJWWVp3UU9CcTdjMEpfUWVVQVdYU1Z2T25IYTdFZ0pXYTdQaXB1enNMN09sY0Q0aWFDWDl4RHp4UWxSQ0hXNDNyX3FQLVFDUXlrSW9nQlRxeDdOMTdtVE1NX2ItUzdWYmlDcnI0ZDBnOV9RdVBXMXFPd2ZKYy1RbVAxdE51WUtqVU9JRHE5SFpFc3FjNHJkd3pNNWpLc0tjM0xKc1hQVS1iNlBULVNCNlRjU1VtblNCRWZyOFVIcEU4VzJzMVVvYTBCejZDRGvSAdQBQVVfeXFMTTFwTHY4X3luV3lOV2I3RVRmZUdkVWJwQ0F2X1BMY3FoMXh2S3lvT2E2TTFjRno1TVJPNmxVY1JnQi14dE9ST1R5ZHVhR0pWMF9XaVY1X0xjRTA0Nkh5TXJFM0tPQnoxUlRsczlMeGZEcHpaTVVrMDk5Y0F0a0dFcllYbEhEcDhMb0t2NXU2dkpiN0pXVkdPNFBMNUpIaVhKNGw5LV8xZmVEVGJMM2RmOEJnZnlpTEsyYzlqUV9UVW1WZ2JQVGtGcncxOTl1cG9iLTJtYWY?oc=5",
+   "src": "Business Standard",
+   "at": "14 Sept, 07:39"
   },
   {
    "tag": "Sports",
-   "title": "Devajit Saikia backs India’s refusal to accept Asia Cup trophy from Naqvi",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMnVydU9tdWVnWHQ1NmQ3QjNyYS1wTk04V0d0RFhaRnNiWGh0REtFazNxSDJ0MGpSSXlNMkJUb2NNdkVpM1pXWWFtWVhHdkJlcFpIUFk1R3FLSUx4UWpac1FudFZIWUpIQzdqZEVGc3pBX0JJQlQ4aDVrZkxvcXVuVTRXTnJLUkhXdzJaZzRSUU9udy1walVlMjByNFRGNXRWT0RSbmY5cWVrWnR5RHBrS3BrdUJ1cy1BRUlQZFFhVDhUbG9Ba0RFRHFyd0pjQmJjeHA5T1B3WmRXVFNVVEE?oc=5",
-   "src": "Cricbuzz",
-   "at": "14 Sept, 08:06"
+   "title": "India win the Asia Cup but no trophy presentation... again",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUkwdU8tbkJ4bFZqWFJYZy1IQThCa2luZ3BaMXVGZ0pQb0Z5QlpsUmxXbXU4MHd5WHVsd1hLeXpHSWE1YlJkckVqREJJQ0VWbDdsZ2hycHRXREQ5b2U0aFp6LTBJai1QUTZmVGxCbHlXY29OVlBNNThYVTZMN3dCaUp1RllkQWhEVXV5VlN2bnd6RF9fQzZ0WTBqc0RON0RwenVuU2tWcDFqdTBaYVFHQUJacVZ5YVBicENqWVVNa9IB0AFBVV95cUxPZDRlTFJrYjc1WjAzcW5PaHA5M1ZkNW41QzBRWEVldW1sY1R3MXlndTFHTEd3bVdiUWJCQVhIZEEyZ21HNWphOGx0QnMxaVA4LXVvQkRMUnJwaVJjNTQ5ZmhjODZHd2lwYUVrekQzdEtQVFdFMUxGb0ZSYjBCRXh6Sm5VYUJqME5sYzhkdTFDSHBEbGJBNmU2dS10bEtwd2tDZF9lYTNoXzZsTlZId1RJN0tFM1FSLUZvQXhGaF94VjA4RHh5WVB3V1VyVnV4cnI0?oc=5",
+   "src": "Cricinfo",
+   "at": "14 Sept, 13:11"
   },
   {
    "tag": "Tech",
@@ -933,13 +933,13 @@
    "title": "The turbulent AI era is here. The choices we make now are critical.",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
    "src": "Gates Notes",
-   "at": "14 Sept, 09:42"
+   "at": "14 Sept, 12:44"
   },
   {
    "tag": "AI",
    "title": "What are the five pros and cons of artificial intelligence?",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUkJUcjZydEhPb3Itel9PUVFhWFpZcm5GRE1UYUhQQWxRYjdLbmp0RTg4T050Q0N3UGtral9HSFEzc2NXcWFnd3FwOUhPS0tpc0k4cXFZOHJuWHJ1TUYzN1ItMUNxMGRDbDNiMlZYV205eERMTk9uUjg3NzJleUdYOG0zSEIzU2RHTDZCRjROMU9qZW14MXh1SnU1MlFrWkkt0gGmAUFVX3lxTE1PXy1fNFdzYUxKLUVpWWN0RjhGaEp4ZnJXOFVEOGZ6RkxYb0NKUDR5SkliWmZTSXpYR3U1RFdVc0ZPM0FuVll2cF9lbnRpcTN5ZWVWbm1mTVdobklyaVlqUGdRSlFaMEg5SVNTa1AyR25HN0pOUHptdnVmY01JQmRDZUxUbTV1OXl1Z2JjRDI5UXBRR1N5MzJqZWRHd1gxN1ZZZ1U2cHc?oc=5",
-   "src": "Al Jazeera",
+   "src": "aljazeera.com",
    "at": "13 Sept, 20:36"
   },
   {
@@ -947,7 +947,7 @@
    "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
    "src": "News On AIR",
-   "at": "13 Sept, 23:58"
+   "at": "14 Sept, 13:36"
   },
   {
    "tag": "Politics",
@@ -972,10 +972,10 @@
   },
   {
    "tag": "World",
-   "title": "7,000-Foot Hike With Broken Bones: US Fighter's 50-Hour Iran Survival Story",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRFBTYkVKNVVLWUVnU3I5SngxUlAyTGh0c0ZzTEZ1b1V4d0ZhRXYtWU9tUUF2NFpxZldXMTU5Y2lwVmd6R1NqQmtzSldLdVlBYUpSRFpaM2VrYU55TE5NcEdTQ2hQZDY3WnR4ZWdzcXpsaDUweXVjejUzWlpLeGZ4TFZHd2dPWUhiaVJJZEV5OENDRDBYZktPTXczUmpJYzhOTWZHaEsyNHhnbnZWRnllT0MzdXg?oc=5",
-   "src": "NDTV",
-   "at": "14 Sept, 13:31"
+   "title": "Talks between Iran and Gulf countries in Oman postponed ‘in the interests of consensus’",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdVBZeGoxT25JV0ROWGlwYXJHOHI5VDVhMjVIdGtVNjlON2dCbmtwTHBvMTZ2bUVlTkw1OFVndy0tYm4xVklwMkVRUC1lcDlzanBCSDUxSVZwSlFlMGtOM3hDZGhTRDA3azBvdXBRVHgtdnVPNVBxcXB6aUdjdnpTYUNuSGh1VmxzZWFyTWFzbHlCcWFUZFk1UVhpS1I4UDVvSXJqdHVOcWg0VDRxY0xzZ0NsVnpVcFZXYkZtMjlnSVJpczFsdXhyTUhSby1uNmhuTVpzaW5wb3hJVnRmbjgtdHVJUdIB6gFBVV95cUxPbEJuZHNPa1lIRG9abmkzWHE1WGlfVWFCYWFHRnJvaC13RUtBbGs2ZW5JSUJGSjhoY05CdFlzTjlkbDRGMHJhQ1VRbGYzcFpic2Zhd1ZNVUhqaHNSR3docXM0RVZOdmlsY1RlUmxaWTI2X1pQb1N0TUVtZW5iRjNtT1NtLWdYM0VFT1RjZTBKLWt5NEZFUENlNmlHQWdMN3pLOEczdlZFcXhDUFBjazFVRmZZZkJ4SmF0VzJLYXYxUHpZRzQ4clB6N3FlWFQ3NWFGbWFFYi0xeWhIV2VQdHdyREgwSWhNNnJUVmc?oc=5",
+   "src": "The Hindu",
+   "at": "14 Sept, 01:53"
   },
   {
    "tag": "For You",
@@ -996,10 +996,16 @@
      "at": "14 Sept, 09:34"
     },
     {
-     "title": "Oversold Nifty could see a short-term rebound: Analysts",
-     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGpCTnliMVptNHI0NGJwaHZoZTNvdGZYYmU5X2FqUEljdndzLW43Sm5yaEc2YklMSzhKOHZsWkhsTEExUzIxYTROVnRiN1hyNGxyME4wb2hGemRfWUtnMkNxV1dKZWMzTnlmMGVicHpybTB3cU5pZkNDUVRYb3F6SXZ6ckVNVjZMRGdGZkNKOWZ3eEJFYkM1MnJDMmtTZEk4MGZUbi1XdXRXdGlhaTZRV3JqMGRLMXE4UDQ0RVpmYWQzdER1czl1YUdVZUVpZ9IB0wFBVV95cUxQaWJnQlZneWllZlhMcXk4UXQzblh5Sm5HeTZRT1k4VUpGdlE5aTdaRGdzWmQ2SUh4bWp4NHlHUFprdXlwRDFXN2YzQXA0LXJ3RFk5SjIzZl9tMWJ2NVQ5NUlFRXAxQUZOTDJIdW5BZlA5Y3laY0pXaW1pa1lsZWp0YTBNUTJvcVVlOHM1anJjRTFuQ2V2Q1YwMDZLQ3E0SnNqNmFzdEh4TW5JekNSb3N0dnhpMUtnU1pJSkUwbEhJUnV4TUUyLUtOQ3gzRHpDOWk0LTRJ?oc=5",
-     "src": "economictimes.com",
-     "at": "14 Sept, 07:21"
+     "title": "Jefferies says Sebi's proposed CAS changes will remove uncertainty, but still remains negative on BSE. Her",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQZS1DZ2RWOVNreS1qNXloZ092WDBUUWRJRmtuSTlKeURqOEVjc0J0SHVHQmI0R0xMWU05S3BKSjVZQllOVFlrZWQ1aTAxV2M0SHBXbWFtSk9lMjZtQm5wanB3Q3pvbnJWd0h0UVFWSmFiRTdkdmhnZEl4N1U3MXZIbzU5dGRUNTBhd09wczR1SmdnSUx2alljSVdXcXNEcTVDZnQ1VkdTVVB2VzlOX2lsSDlENlVULS1fQzVKM1BnVmpWc3JTYXU4MVpZNE84cEdZUDdaRVZveDJ2enIzOVdlSGFERld3blVRUi04c08wQ2hlcGdrajRlT0tJdjFBa3l0X3pZa2tYMG05aW93V096YdIBlgJBVV95cUxNMHBlV1V2TGtMR21WRTQ1a1k4aGFPV1NDc3dlZ05FcjRSSk1feUVfaU1xTDFpTHZwMS1FOWhCYzJhM05qX3lXbHZQYVhfOHF3QjVndEpWeDRSLTB2ODFoY3EwRmt0bG5FeFhmd2UwZ05hRFpDOWhKT2o4SmdxZlNkbFBYWUlrZkVidVpsZTl3ZUZSVTlDUlAzM2JSVjA2Z0xuNGhBQVBkcmQwS2F1UDg2Vy1KVFA0bXNhLXUzVV82dDA4NlFQVkIxeno4NjdCVWJEX3REakNuaUpIZjJpZS1xV2s1cUdrcnR5OUtnQVBGMzNwc1lieHlIcHNTckZLdUo3MFdaQ19aQl9wY0piaEVudjl3MUVJZw?oc=5",
+     "src": "The Economic Times",
+     "at": "14 Sept, 11:36"
+    },
+    {
+     "title": "Chartist Talk: Technical bounce in Nifty 50 likely? Rahul Ghose says these 2 stocks are worth tracking...",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPQTlDM0hoZDAwRWtXNFZEVHBSXzJtTGZINVdvcE5ZTTYyQ1hSX2tTQXJNQjZUN1ZhZzdSZjM3TXg5aTA2VkJiTjJTdTgzSE5aV2lra0Q1eFNJNHZsZkRrU3MwQmIwSll6aTkwbk45ZExnSlZZMzU3SzAyeWhJQ1RjSTN6UVFJOVliZ1ZRSVVtT2k4LXI2LU14ek1aRTVQM08xUk9VdVYxZGhobDhwdWxNTXdnNmdNVkVWNXZGbzE3LUxWenp0aVlPNTJqaXZnM1ljeVdBLTgyQUVjMlVJOWFnckdrSG05M3kyX1FDRFZhVllKTWtUNG5TRjhrWFlFaDNaUFVPVlN3bFFXeVZJdnc1UtIBlgJBVV95cUxQRmIxZ3dkdldteWEzMjJHd0FESmNZWll4MW5JdWdCSG5vME1memZBWWNPcGc5Ujd3dUcxenBfWVlUNXdQb2o1VXlYMzRCMTUtMVRxcURJUDRIQWdaaC1DQXJlaGdpRWlYaG91Tl9yR1hfNWdXUm5sa1lkT1pTaDR0X3pDemo1SVZOT1Z3S194NmVWckRCVEtMMlNFblpuNktoR29pX1dVb3pJYmxrbEthdFJkZXRzUEZYb1k2aXN4ZmZRNGQ5ODZ1eTA5clNnUDNPT0h6bGNrZWF2NnNkaF9GbjJIbUtoQTVuTFUxZjRpM1VHS3BnTUtmRlY0bERKRVFjc3dfZHlrQ3o5ZTIyRnFPQ1JTVlBwUQ?oc=5",
+     "src": "Moneycontrol.com",
+     "at": "14 Sept, 06:40"
     },
     {
      "title": "WPI inflation rises to 9.92% in August on rising prices of food, fuel, manufactured items",
@@ -1008,22 +1014,16 @@
      "at": "14 Sept, 13:03"
     },
     {
-     "title": "Asian stocks slide as AI slowdown fears deepen, oil surge lifts rate risks",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWXZoXzMtZUFtWDV0eGxZb3BhTW9WUkpIQnNQTlczaWltNjJ6TDd1dHJ3a2g0cGpiZ2F6OHFwOWUzb0ZsTDJoQzZlVVVReG1yWVZKYzhYUmxyN29DUVlIZk5QMWFWV0hPajJ2UlJTYmdmNUdkbXkyZlJqU1BQM3FWUGxzTFduNHNWRm4tdTl6M1k4djAxWVZrX19XclFEU291OF9UVXhxTlBfWWU3X2ltamxGM1BvRUpoTDNUUkNIelYwSE5pTTRYNA?oc=5",
-     "src": "Investing.com",
-     "at": "14 Sept, 12:57"
+     "title": "IPO set to unlock value in group companies holding Tata Sons stake",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQb1MwTnk5YVY4T0pka0p5TXRiZVhXTlhyYW5SLWh2MktRRWxmZEFnN2VFbHB1STJFYXpiVlFEb1pfQkVsQ2RVWGpDMmZ5ZFQtV2ZsNmJibzFKaG1ERFRLWkRORGVkcWl0YzB0V01rVnJCV09WZGlaVERNT09Hd01SVDlvSjdFdjJUMnZMbmhGSGdRYlRiSXdBTFFKeWlCSldRVHNBOEZvVUFzRnluOW9qU3JkSWpHZXByQUdfa0ZHQk45cXo1NDZkbk5yQnFiNEREbFdWWjQyTFVLTlNYV2Zn?oc=5",
+     "src": "The Times of India",
+     "at": "14 Sept, 05:04"
     },
     {
      "title": "Morning Bid: Shipping oil gets ever harder, costlier",
      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYmJCUUMxaW05Wm0yazVud3pVRFlHLTJKai13QUcxaUhtX2dlTEJPcV9XOWZGSnRzdFRXejctZE1sUGZrcEd3Sy1JOUZxVktnQW9hVl9vbTVSdEhldXBEaUxQTlJRanQyWDFpQXNaTlE1UWUwaVgzMU8yTmF2dzFGYUNuUQ?oc=5",
      "src": "Reuters",
      "at": "14 Sept, 10:03"
-    },
-    {
-     "title": "Altman Says OpenAI Won’t IPO This Year",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81WGVpdVBfbk41X2ZKOXhNSGhCekdXQ1Z2Tmdyd0NWSnZKTHJnTVVTTENpVHRpM25xWHN1RXctcWh2LTRzOGM1WC1hQlVZT2FBSlhTTDBuX1BVcWN6alJhZ2tibGJlWnZiNFhsNzdrTk1RUW85Yi1j?oc=5",
-     "src": "Gizmodo",
-     "at": "14 Sept, 06:41"
     }
    ]
   },
@@ -1037,34 +1037,34 @@
      "at": "14 Sept, 10:00"
     },
     {
-     "title": "Stock market closed today as Sensex, Nifty observe Ganesh Chaturthi",
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZERaZHNyWnB0b29QRmJKbnFpQ0xEZ1FBUXpRalRWNjczS0IxamdCRENlZ25TWWIyRHYxNkdHaXlpeW5mQmFyLXo4MXowNk9WQ19rYVFMSUkzX0VBTUJFeWhlMXRncHB2ZEFpSzZmWlY0b3d1al8wSkhVXzVIQ09DRloxemxMSmVoUGRqZEZLRzR6eFIxbnBWZnRKTHRYYW1oYTdVMTRqbU5UMUVi0gGyAUFVX3lxTE1XTmh3RmF0WngzbnE3RExpOGxmWXhsVGVDcHdMQ3duTjF4MjdBZXRxb2xQd0dZZi1UUEo2NGlNZDRZOEFJTmtoekh2M3dQbDZkY3NwTUhkcVVseW5JX3pjdFIxampuckR4ZkVfSmhWdllac2IwbGhQcFVyNjkzcVVTYmdoTXc4WGRxeUR1MFRqbkR6OWhvMzFORm02TzJHM1RDQmN1eWhULWRpdWZocmlCTUE?oc=5",
-     "src": "The Assam Tribune",
-     "at": "14 Sept, 12:25"
-    },
-    {
-     "title": "Indian stock markets are closed today: NSE, BSE trading holiday on Ganesh Chaturthi 14 Sept Monday",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNnpkbEFxMEVoYm1PTnRMdER4SUQ2YU9aVDdaZjRpX3lfUnhpY2U0TzZtSmNOdjg4Zm9BZzluXzBrMU00OEoxdW52M3kwak1KeGRTT19SMWF1V01zVm9DcldsTG4ycVkxdFpzZVRweTM1X1dwN0hDdGJrRS04d1ByZUhqSlFqU2dQU1FKUFJYZjZLRHJkeXhlRUcxY0NiRHp1UGhXVWFQdV9za3B3TWFpOGRRelF0ek9fYi1la0lIT1JTejNJS05nNF93RUhGaExlS0E3ckQ2LWNjbUxvOVhCVUdEcXBkWnQ1MFI2WGlfM2h4UzA4V1FGdU930gH_AUFVX3lxTE1XeXFQR1N0TUZLa0NZTzZsYmU3V2ZFRDc5YTUzY2lsMloxZTVLSW1VVVlLQWhzaXEtUWpOdkJmX1NzbWwtTTFHcU1mLXppVUZmS21FUzZjeEVxYjV2NGd0dUVqMXhlcXhJVHhMdmhLdVU4NHl4NWQtc0dTX1lQSmtNQVg2dTB1RFpFYjQyZXFiLXBsX29kdnRhOWMyd3M0anRoN0pGSU1NclpOd1BCVmRZNEF6VEdwR0RCUFdELTEyeXRyX1lhbklfM3BjTzhhdndHbkliSjNqbnBpanpuX0k5LWJMZE9fWUtnLVZkRVBlT2lRZzFTVkpaVHFtR25fcw?oc=5",
-     "src": "Livemint",
-     "at": "14 Sept, 06:43"
-    },
-    {
      "title": "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNanJWWVp3UU9CcTdjMEpfUWVVQVdYU1Z2T25IYTdFZ0pXYTdQaXB1enNMN09sY0Q0aWFDWDl4RHp4UWxSQ0hXNDNyX3FQLVFDUXlrSW9nQlRxeDdOMTdtVE1NX2ItUzdWYmlDcnI0ZDBnOV9RdVBXMXFPd2ZKYy1RbVAxdE51WUtqVU9JRHE5SFpFc3FjNHJkd3pNNWpLc0tjM0xKc1hQVS1iNlBULVNCNlRjU1VtblNCRWZyOFVIcEU4VzJzMVVvYTBCejZDRGvSAdQBQVVfeXFMTTFwTHY4X3luV3lOV2I3RVRmZUdkVWJwQ0F2X1BMY3FoMXh2S3lvT2E2TTFjRno1TVJPNmxVY1JnQi14dE9ST1R5ZHVhR0pWMF9XaVY1X0xjRTA0Nkh5TXJFM0tPQnoxUlRsczlMeGZEcHpaTVVrMDk5Y0F0a0dFcllYbEhEcDhMb0t2NXU2dkpiN0pXVkdPNFBMNUpIaVhKNGw5LV8xZmVEVGJMM2RmOEJnZnlpTEsyYzlqUV9UVW1WZ2JQVGtGcncxOTl1cG9iLTJtYWY?oc=5",
      "src": "Business Standard",
      "at": "14 Sept, 07:39"
     },
     {
-     "title": "Stock market holiday today: NSE, BSE closed on September 14 for Ganesh Chaturthi; trading resumes Tuesday | India News",
-     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTWo0STc4UjYxdmFkdUZKTDZiWmVSUVFOOUJ3QW9vNVJaNTByNlVHMjBPQjl6bU1VbkJFbzh5TXlVZmxmclloeGlWUFpDMk8zVnhyUGZTUF9Md3g5N0JuM0ZtX0ZQRWtpOHVCUG1JZGsxTTFlNW9raDRNX1YwVTFqYnJmdGtDUG5zSHFXb2VXSjdTQ0EwbDMwSi1YWjc4eHFsZmJRXzVwVlBjdWd3M19NdDRiR0dZZWVLMERoRVdxSjRjbTVpRjF4Q1J3NVBuOG5KUTZzbUdONEdFaUlTYmc4N01ONi1FLXFZYWxJTWM1NTJrbXfSAfgBQVVfeXFMT1hHSy1qbnJxM2FpZ3k4N0NPQjdscjZMc1lmMWY1WExMc1FzN0pnZ3p5a3JWckVfS2RsUXZLbVRfNE9QX0lHSW0zcmNoaEpFMEZjMTVDNFI4ajlJSFhJV3NNLVJvWjNuNWRyU2ZWVnA4WVJkejRNLWNUOTdBSW04WEJtTWJZVkMzSXVVaF8xWGlaV1JYckVRek81UC14X1hKMjc0cTVUTkVJOU9YbEI5a0tXS3JOS0NBaDdvQnNwV0w4RzR5MEVjU0p0UWVUY0Q0Nk8ybGRORzZIeGFmSnpvUi1RR2FrQkd0Rzd5VVdqVURZNm5LNUJYVTg?oc=5",
-     "src": "Hindustan Times",
-     "at": "14 Sept, 09:14"
+     "title": "Stock Market Holiday today: NSE, BSE to remain shut for Ganesh Chaturthi. Check upcoming market holidays",
+     "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPYnlfNlVXZVZkUXFQajFYajh1NU11QVRRSE1yNG1fZ2pBSy01aF9xNGdFZ2lqbWJhblZVWHVLTXcyT0NQUFdZRUJINE1BbXB1cjBsMGFiWWgzejRER0ZQaVBlRC1DSjdjTXQzRExHLTFuRmhLX1RoY0VSM3AxQUdKT3poeGROdWpnTFpkNndJOU00OUV5cmtyY2ItcjVhNE5TX0E5Y2M4NUdVSGRCSkpYSDU4UXdCWnNJQzVFcVlxNE5Bck5Ib1J4OWMzMXEzR3BOUUdyRWZIdDVvelFLVGlZZVUtVzBsSXEzdklBR2FqdUhiTFdyU2lJdEo3bzJud2h1dmEwUXlnOS1qZzJETDNzYmlB0gGLAkFVX3lxTE5FOTRFSEpPSlEtcnJqaDJ5a2tYVmpTQ2lUVHJoSWlFSElmLTFSRldsSWpJaEFPR3h2RWczR0F5SGQ1VmlUMklLby1ZUlFmVEZOY3B5SEh6S3dIc1ROX2JQN2huNFAyb1N4b3FEc0ZmbFJVblVFWDh3ekY1MUkyMmhxdGowX3BUd1FXUzB1dFVxZUQ5UzZxY0J0TlNSbTlOamtZQmlOMTN0bXY3Y2hGVHJCTXpKTXh2b053TWM3TnhKeHRGc3BYSG9qWWNBUVVqWEZjdmd5NUpPRDZYWG5CYkY1VHk3RDlLV2NzRUlLWGIxd1Y3RnV6dXZkWVFWOEgzaTlJYzZPSkhzNjNmOA?oc=5",
+     "src": "The Economic Times",
+     "at": "14 Sept, 06:00"
     },
     {
-     "title": "Stock Market Strategy: Nifty 50 Slips Below Key Moving Averages — How To Trade This Week?",
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMThTOHRlUl9TVi1GUGJSTzJnaEY2VGdWQ3EyUGtyU2RnWXJFVkoyZ2RqbTI4bDF0ZFRDZU5pbmd4RjMwMG93TVF1MTVndG44NGhQZUtDS0E3NzNqeDFGbDNuQl9uQVhXM0pSMGo5WHF2bTEtemo4MVMwaGFfTGtzWllSTFhZd2w0dDJJM3FMcUJBZHV6M2ktTGlZNVlJZGtBYjRweVRaUTl6a1RxX3k5aGhSQ1BiWExRRWtMVmhQWmg3WUZ1X3JXUEUxbTUyTXZUMWFhcnQwWDV5bE5tS0tDckk1ONIB4wFBVV95cUxQMThTOHRlUl9TVi1GUGJSTzJnaEY2VGdWQ3EyUGtyU2RnWXJFVkoyZ2RqbTI4bDF0ZFRDZU5pbmd4RjMwMG93TVF1MTVndG44NGhQZUtDS0E3NzNqeDFGbDNuQl9uQVhXM0pSMGo5WHF2bTEtemo4MVMwaGFfTGtzWllSTFhZd2w0dDJJM3FMcUJBZHV6M2ktTGlZNVlJZGtBYjRweVRaUTl6a1RxX3k5aGhSQ1BiWExRRWtMVmhQWmg3WUZ1X3JXUEUxbTUyTXZUMWFhcnQwWDV5bE5tS0tDckk1OA?oc=5",
-     "src": "NDTV Profit",
-     "at": "14 Sept, 11:08"
+     "title": "Market Data",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pSlMxSW5lZlUxLV9ISkZIUFdLZmRJQ0xEVlFxYjZIankyekVGTXJMWDFPYmppM3M5N2hJcGoxZEt4SWQ5T1o3SzhXNGowc0hnR1RCcmEwS2pmLXBXLS1ncTVEdGhqRGN1UlE?oc=5",
+     "src": "The Economic Times",
+     "at": "14 Sept, 14:15"
+    },
+    {
+     "title": "Stock Market Holiday: NSE, BSE To Remain Closed Today For Ganesh Chaturthi",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQakstcXQ1X1hsMDJDZlM2cTIxUG9rLWhNS1l4aVJUY2R4MWNPOVpGYzBnRXRpWmVZbnN2OXRHTXhpOTYyY1d1Q1pEY1VKbnVSVHdDR2NzY0J1LUhTY1gwZTJuLUE2VU9MWU1KNDQyUlRZZVhtRE5WNV9sR3FJRTJ3UmVQQ05Kdk1qVTFaZXRTTktSUWdhdm9XeFNRQVBJOWtOVVRuLVM5WFZibGxvUHFOWFpn0gG_AUFVX3lxTFBCSnlTdWM5MG8zQUNFSjVFVlBraEZLR2Z2Z2gydWYyRW9WU2JPX2VoTFVBc2RacjFFVzA2QWs5MGhUdmxtRnltTGpnUmpiNV9Sd3FnSXVlZy16d0R6UkZuNG93SWk1cEQxajBaNUJyZHhHWFZBVHpKVkFXOXoza202OFI2cGFTa0tQeEdDYk5wdlhHQXk4aUhMRjY0YnZnUFduTWF3RVlQLWl4Q0xHX2NWZUQyUG5rNWRqQ3NjZjJF?oc=5",
+     "src": "Outlook Money",
+     "at": "14 Sept, 08:32"
+    },
+    {
+     "title": "Stock market holiday 2026: Are NSE, BSE shut today for Ganesh Chaturthi? Here's what GIFT Nifty indicates",
+     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaVhrXzFNSGE3dm11U1lsUXU5cmpwN1ZyS1M1VlRiNUd3N1Q1Q01aRW9yYzdXR0JtMG8teFBZb0RTNU4xQVJkS2tTdEcwZ3pwd0F1TWZSd2RQbWpBV0owejJBVFJtS2loejItWlVidjhSeEFKXzdXV0JJdW1tdVpCQnZjSTVDaXVDTnZvQjJ1djk4RDFIZVF0UkkwbUZFUWNKQlJSOWExamlQdmhQdjlkYU9IMkhBaVBOY0UxTFFkVW1QcENaSEpfZ2p5RlRySWZfcnFiamF4bVBaY3V0b3FmMzdqcGpRc0dNYnZfRGk1Z3dXRElSR2RfTy130gH_AUFVX3lxTE9IZHFrYkZyRWNaN3A3SjViOHZHNjBrSEVnXzJjcGFsUkZGYXRORUcyamk3ZzRrTlVlY3RZaEFQZ194S3JGSEpiMUpjQ1oxWXJMZGZ0ekJLd0Z1NmJrdTNjVkR0eGFRYk9ETE1MWk9KalV1QnU0dTlhdjBYcXhPTnVPWDNmNXRablZQaHlZVmVuWkxRazAwTGlaZnVLWDRIeU9UZ0NLeld4bjVZbENKNTIzMjBQWWMwSGZ6aFd0X2FUdklLazBOWW9sSjVxV0pmSWcyUlUwOHdNWnY2X0hpZXR2UXJEYWQ5VlVSRzJqdzh5bW9LaFVNbDRXbUFrYWp4NA?oc=5",
+     "src": "Moneycontrol.com",
+     "at": "14 Sept, 10:11"
     }
    ]
   },
@@ -1072,10 +1072,10 @@
    "tag": "Sports",
    "items": [
     {
-     "title": "Devajit Saikia backs India’s refusal to accept Asia Cup trophy from Naqvi",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMnVydU9tdWVnWHQ1NmQ3QjNyYS1wTk04V0d0RFhaRnNiWGh0REtFazNxSDJ0MGpSSXlNMkJUb2NNdkVpM1pXWWFtWVhHdkJlcFpIUFk1R3FLSUx4UWpac1FudFZIWUpIQzdqZEVGc3pBX0JJQlQ4aDVrZkxvcXVuVTRXTnJLUkhXdzJaZzRSUU9udy1walVlMjByNFRGNXRWT0RSbmY5cWVrWnR5RHBrS3BrdUJ1cy1BRUlQZFFhVDhUbG9Ba0RFRHFyd0pjQmJjeHA5T1B3WmRXVFNVVEE?oc=5",
-     "src": "Cricbuzz",
-     "at": "14 Sept, 08:06"
+     "title": "India win the Asia Cup but no trophy presentation... again",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUkwdU8tbkJ4bFZqWFJYZy1IQThCa2luZ3BaMXVGZ0pQb0Z5QlpsUmxXbXU4MHd5WHVsd1hLeXpHSWE1YlJkckVqREJJQ0VWbDdsZ2hycHRXREQ5b2U0aFp6LTBJai1QUTZmVGxCbHlXY29OVlBNNThYVTZMN3dCaUp1RllkQWhEVXV5VlN2bnd6RF9fQzZ0WTBqc0RON0RwenVuU2tWcDFqdTBaYVFHQUJacVZ5YVBicENqWVVNa9IB0AFBVV95cUxPZDRlTFJrYjc1WjAzcW5PaHA5M1ZkNW41QzBRWEVldW1sY1R3MXlndTFHTEd3bVdiUWJCQVhIZEEyZ21HNWphOGx0QnMxaVA4LXVvQkRMUnJwaVJjNTQ5ZmhjODZHd2lwYUVrekQzdEtQVFdFMUxGb0ZSYjBCRXh6Sm5VYUJqME5sYzhkdTFDSHBEbGJBNmU2dS10bEtwd2tDZF9lYTNoXzZsTlZId1RJN0tFM1FSLUZvQXhGaF94VjA4RHh5WVB3V1VyVnV4cnI0?oc=5",
+     "src": "Cricinfo",
+     "at": "14 Sept, 13:11"
     },
     {
      "title": "US Open 2026: Alexander Zverev secures second Grand Slam title, denying an inspired Ben Shelton victory on home soil",
@@ -1084,16 +1084,16 @@
      "at": "14 Sept, 04:05"
     },
     {
-     "title": "Pakistan docked 11 WTC points for slow over-rate at Edgbaston",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWx6NjdMWUxxREdLbDJWanJFc3pEd3lDY3EzM002Vl91RlB3US1mNEFuSkVBRTRYOUFSSno0MDRnVjJSYks5WmE1UndtMkNXSlNwdDV1a3k3RTZwY3gweFlKSlFqLXo3SmlxMEc0bmU0bnRseHJXeGFLa0I4TXNIaFpFZzJHOVlPQ2xMTTNEQVRTNWJqeEhHSHB1ZXd5aENuQW5qRU1seTZ4UQ?oc=5",
-     "src": "Cricbuzz",
-     "at": "14 Sept, 12:57"
-    },
-    {
      "title": "IND vs AFG: Arshdeep, Abhishek power India to 7-wicket win over Afghanistan",
      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeDNqdUVHWmRzZms1Z1J5bm1FbmEtWTdUZFJGQXRCeE91R1pPTU5BaTUxZGtUMHpOM0M4aGZXcXp4bGJQdG95TE9UQlNHWndaTkszZzZwSjJlWDNNLXlNVzhwWHZlWnJaVWxlcmphM3ZQNDl5Mmh3OURENXlENjQyQ2VHVUJZNXcyc0g0VmlOYVRIRDh0eTdkS09LamNpYlBKLV9GOG5oMm1NTktqOTU2VkJ0VWtTdkVnbHVibUZiWXZib1k2Ry12Mm9XMHRtVHY4eGRFcNIB2gFBVV95cUxNRXVaU1hDV1NYVFpiTnF0eHZZTFhpYlc4TzFxTWx0d0Exd0w3ZUxUMzFEQzhTRllSeVJpalk1cjBkZUV4U292SlFSUmJSRm9DdjV5dlRleVg2MG1meU5uWFdPR0pDTHFFZW8zVXFnbFhKSWpITzhUY2Utb0tfQkRmSWU2c045WGVlRks5dFRkekY0SHpJdFY1MFNROXNleDVfZ2VZbEVvQmVSaWxOY0FudW5hTmR4cmhHaUFTM2tOcUZqN3ZseG9wTk8zMElLbndsTkpkSF9WRFRnUQ?oc=5",
      "src": "Business Standard",
      "at": "14 Sept, 01:00"
+    },
+    {
+     "title": "Pakistan docked 11 WTC points for slow over-rate at Edgbaston",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVWx6NjdMWUxxREdLbDJWanJFc3pEd3lDY3EzM002Vl91RlB3US1mNEFuSkVBRTRYOUFSSno0MDRnVjJSYks5WmE1UndtMkNXSlNwdDV1a3k3RTZwY3gweFlKSlFqLXo3SmlxMEc0bmU0bnRseHJXeGFLa0I4TXNIaFpFZzJHOVlPQ2xMTTNEQVRTNWJqeEhHSHB1ZXd5aENuQW5qRU1seTZ4UQ?oc=5",
+     "src": "Cricbuzz",
+     "at": "14 Sept, 12:57"
     },
     {
      "title": "Ronaldo calls for lifetime bans after ‘Jota’ chants aimed at Neves",
@@ -1133,20 +1133,20 @@
     {
      "title": "What the Next AI Revolution May Look Like",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVm9LTU11QnBQck9CdG11UE5vMmw5aUpIaDJtTWNadDFOVTJQMlBEWlBXdWtlaGxZcU1VdWhraC1ha21CbGpTdDVOREJnNHZfcTBlTWkzUGdxNmNzYjVYdURCWVIxZ2pDbUllQlVua1d6MHp5bmlUeGdYSTZWcHJ0WFhmanUtQXZjcUNN?oc=5",
-     "src": "INSEAD Knowledge",
+     "src": "knowledge.insead.edu",
      "at": "14 Sept, 06:30"
     },
     {
-     "title": "Samsung Galaxy S26 FE's India price leaks - GSMArena.com news",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNR0JQSVdPNEZ6ZlpXWGxNTDUtd0FldHk1RDhtaXVRcG1aMTVvSkppbUQySlJQUTBqaTZURlctdEk2alZHQmFCanVXNGJxV0JxQ1BGMXY0bHdETHhrYkpHZkFfX2VRc18taTZjcDF1S1kwam9DdkExbWZLRUdIQlV1Vl9fc2JUd9IBggFBVV95cUxNbVV3bTRmSnc5YXNwLWJ0SVY2WXA4UU8taDdZTHdVajlPU2p2R1dvaUotNlBadVZseEVSd2NHWjZqMENCekk3djFUN2N4RkpnYzlXTExOUXFCZm5QNVB4Zm55QkRhcmVwRDVOdE1IVjBMb2hlQUltREU2bFc5RzNXa0JR?oc=5",
-     "src": "GSMArena.com",
-     "at": "12 Sept, 21:31"
+     "title": "Samsung Galaxy S26 FE launched in India at Rs 79,999: Check offers, more",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUFByRW53NzRmUTZXRXVpUlVLXzJEVmdvNDdBN1VHWmhyM1V4eXFiNUpSTmNzdWUtUVRnVEFfVE1JaGdnQUc5dEdMT1V1cjg3TjZUT3FtOGI0Z2Z1bUhHdURzbTFxUk9adEtaZ3FyRzRIZFVXQk5UTkdiQlJXRzlLNUtPcVFJOHpSY0x2cUpTT0dPTE5LMV9KUHV1TGxPM2gtbThKZUVobmplazFZZDFTODJJTWhCdFkzNUxqeWRaNENETm5sbERnU1VyN1V5ajltT05v0gHYAUFVX3lxTE9wcFRYSC0tZE53LVJvblhfTUFseTEtNTJwTEdtYndlSDdaaVE3SzQ2bGQ2TjhlekJ4TG1NemNha0xvSG1oV0lRa1hyem1uUzlTY3UwS2Y5b1ZCSEVYS1FBaGwzSi1MU3Q5aHY4cXB5ZlZKakNjbVZac1ctS1BCaUw5dXRMQXZqSWUxZ3BlcDNoTzNFRTJsV0M3NXo4eS15Vzg4NW9BV2dBN3FDbEZRS1VKR1FUVDV0SUZJbzI1LUk2Tm1LdUhVSHROVE0yU2tiU0gtV19HNE9kdQ?oc=5",
+     "src": "Business Standard",
+     "at": "14 Sept, 14:04"
     },
     {
-     "title": "iOS 27 Available Tomorrow With These 8 New Features",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50QktMNEpUcGU1WGFfM2FsVjhwYjlRZVV5bDRCVWJMLWFhcF8yZzJ2MDloVkpRdEdPdkNYYm1NTl9BTWZ4cHNUczU2SVJJWExUczh0M3Q0WlppYkV2bkJjQ0dYQUJheFZac0NOa19vTlZmazRCWjlPY283Ujg?oc=5",
-     "src": "MacRumors",
-     "at": "14 Sept, 05:00"
+     "title": "Samsung Display Unveils World's First 2K 165Hz Gaming OLED, Debuting in Vivo's iQOO 16",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xdTRxZ0kzNUtnbVhpd3pkbmN2SmdrOG1UOTFVX3FYcUg0ejUwWkFQRHE5eFRqaERtdHlPajlaSlBKU0pDTmsta0g3UlNYZm1wckdYdXBxZ0FiMDdubzBfUVN1WFdYWk9KZ0V0a0lGbjIxWHpLZ1E?oc=5",
+     "src": "finance.biggo.com",
+     "at": "14 Sept, 08:35"
     }
    ]
   },
@@ -1157,12 +1157,12 @@
      "title": "The turbulent AI era is here. The choices we make now are critical.",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
      "src": "Gates Notes",
-     "at": "14 Sept, 09:42"
+     "at": "14 Sept, 12:44"
     },
     {
      "title": "What are the five pros and cons of artificial intelligence?",
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUkJUcjZydEhPb3Itel9PUVFhWFpZcm5GRE1UYUhQQWxRYjdLbmp0RTg4T050Q0N3UGtral9HSFEzc2NXcWFnd3FwOUhPS0tpc0k4cXFZOHJuWHJ1TUYzN1ItMUNxMGRDbDNiMlZYV205eERMTk9uUjg3NzJleUdYOG0zSEIzU2RHTDZCRjROMU9qZW14MXh1SnU1MlFrWkkt0gGmAUFVX3lxTE1PXy1fNFdzYUxKLUVpWWN0RjhGaEp4ZnJXOFVEOGZ6RkxYb0NKUDR5SkliWmZTSXpYR3U1RFdVc0ZPM0FuVll2cF9lbnRpcTN5ZWVWbm1mTVdobklyaVlqUGdRSlFaMEg5SVNTa1AyR25HN0pOUHptdnVmY01JQmRDZUxUbTV1OXl1Z2JjRDI5UXBRR1N5MzJqZWRHd1gxN1ZZZ1U2cHc?oc=5",
-     "src": "Al Jazeera",
+     "src": "aljazeera.com",
      "at": "13 Sept, 20:36"
     },
     {
@@ -1184,10 +1184,10 @@
      "at": "14 Sept, 14:30"
     },
     {
-     "title": "From Video to Data: How AI Is Transforming Multimedia Content Processing",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSl96R0ZxelNKRmdEdWtZT3c5cDNvdkRDV01Fel9RQW1zSXlmRGJmOXhicFVORjRTeVNHVjR1YTc5dV9CZURITUl1QVJETmZ2NGI0RDBqM0ViQ2dPbkFGWnNZV1pHN04tMmhkYkZTUFE2WUVqLVdBUGtHcW82QVRhdlMwdk9RbXVKOHJMaFo3bTRMR2ZFbjJuczdqTEhGTTM4LXdqQjdoUC0xM2lkRWJ6Vk00V3pkbzVlQTluazhB?oc=5",
-     "src": "AI News",
-     "at": "14 Sept, 13:28"
+     "title": "AI can drive greater telecom network autonomy, but accountability remains crucial",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOU3dPekRCazI3UllPX3VHbkprc1BFeGtQOThZNXU5cHdieXdxWG5LR09JVVBqczd2bFUyTzE4S2FoZmVNZndGUy1vckxoaWlSQm5sMzZkTVBPRGwxZlNrUWh4SmpRN2tELXJtTU8zOXl5VzBST1c3b3oxX2paXy0tMHRPSG1aemRBU0RnMElIOFhMQnp1enlBV3lrYzFXUkJSWXg0Q1VhUTgzQVhlSTJOS0F6M3Z4ZFFMV056R0phamFUakl3dHNBQWVOajVFTkZBUjZobHA0WnFmTDVzN0VxN3loNDZJT0tnaUlyeWtwQWNWd9IB9wFBVV95cUxNclFfdEJCQ2gweDFGQ2VjUXQxTlk4T1dYQ2RuVW1MUHNwWWw5YmVQTDJudGhaZWlKTWlodDZrT1lQbl9xYmVmQTV2aThkWHg5N0x1a2xCTGtCWVpSX29EWk1odkRMOXR2Y3NKRUZGZE1uVk1pUlZIUFZ4SWpxMWlnNWNOUDFKeUVSNTB3M2ZOX3dhdXY1Nk9XQk14YVg4M0x6bloxQXBfWi03SlNSUElKMU5rc0xLdmJPbjAwano3UjM5MGYtLTVDbEl1NUk3WlFZTDNCSk1TTXdMRDZ4VFJzYVVxcXNwdWZvT1JmR2lmWFJMNlFSTlZN?oc=5",
+     "src": "ET CIO",
+     "at": "14 Sept, 12:07"
     }
    ]
   },
@@ -1198,13 +1198,13 @@
      "title": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5",
      "src": "News On AIR",
-     "at": "13 Sept, 23:58"
+     "at": "14 Sept, 13:36"
     },
     {
-     "title": "ET Wealth Edition 20 September 2026",
-     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNbnBfQTNXTG1aM2JmcDQzTlhEZjJuVjZGZHhJTEJhX3lub09pZzZHZ0NzZl9YeVZlNkZ4SHY0SFhtNVp0MGFuazhQcnJ4ejhJRUk1OHp2cVlPRXRkWGhlY19sMmJJcU9xSWliclYzaVJTcVYxRG9wMm1OLWNHUWNjdzVpOF9zbGF1TGQ4cVV5NmVfQ25FOU9XR0Q5cWYweGt6ZDJ5LWEzWHhwSDVxUmFqQUVVd3kybXlTdUZNTHhFRTJRcnB4SUVRT25KSkYtSU54OHNwYk1rS1RXeEVvOThnaEcySXhVamplTHJyQUpLMExvejZPeXM0dXdWSVNMYjV0dHpWT05sMlBvOXpjZTI0?oc=5",
-     "src": "economictimes.com",
-     "at": "14 Sept, 06:47"
+     "title": "Global interest rates are rising: Will RBI rates, home loan EMIs and investments be affected?",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRVhGT2ItUWU4ODVxT0V6SzZGTG5yM2xPT3d4Ui1xbk1GV2dqZnN5eEVrUDFMX2VFSl9nZktfZkhVYXVWSlkyVnlVa0tSR2g2b2JGVmxZME1CYnpleEdHRXNHMnp6bmlFUDRlaWwyV09OVWN0dkU2NU1IYnpKbEM0d0hHOGVSSnBvbUloTEtBYUtCR0kzVW9PYnZZQVBibU5hbGFtZjdqQVR1OElqRndCakZaaWstQVlfVU9JaXBBRFAyYU9fcDRISm9lUGV2akpKYlFnaHRZUnhnTHZ2Rmw2ekVGZFRoSzlKM3g0enVsa9IB9AFBVV95cUxPNGI2SHFBU1RaUGZENWh5Q3UydlVwZmoxOWcybUFqOUxMeERUcW9oTUdzYm9NeGFiTnFxYnIybWM0MkVyazFOdElIOUR6SGNyakNVTjVEM3R2RTIxZWphbWZybUpNaGtJRHlaMXpDZy1JT3N0N3Bra2l1WlBKT0ZqNFZDaEduSGdZYzJnNjloZXdPTVhzODNla3NGd3pkdndUbk45U0ZmRk9vTFQyRGpybGdNUXUwWHZHYjEtMFEta3ZQYjBXeXFPd2Z6bkQ1RWxhbml6VkNjQjVFTlNfWG9hZVJlbFp2ZUVjRWY4MXgtRHh6TEM1?oc=5",
+     "src": "The Economic Times",
+     "at": "14 Sept, 06:30"
     },
     {
      "title": "Global Rates Are Rising. Why India May Feel It Before RBI Hikes",
@@ -1214,9 +1214,9 @@
     },
     {
      "title": "Oil price surge not a macro crisis for India amid low inflation, substantial forex reserves",
-     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTjlBZGt6cV9sclA3b24tc0NDSEZCa0V5dnNZX1A1SEJSV3NrWTk4UTZiYTlGY1VQNUZCSUItVWozZjRyUGdYY0hGM3VOOEpBWTV5WDF3MnV2NXZqWjh0WmM3MVN5Umc5YXctVFMtOHlySU5RWDk2TXNoanNiV0FISGQ1RkZQNTJsdVBVeW9kLVlxVnA4VDh6dF9OdU9jLXl4cG1aSHlvVmpOLXlSYzdwS1hCQ21mbS1GLXdVQkgxQjJKcFJRTTFhV1BFMHlyM3JULWdtbzJUTWRnMFBXY20xcXJrZ3EwZEtuWnfSAe8BQVVfeXFMUElfRFlMZEZRRkFxbXQ5Q05sYmZYVmtuUjM2Q0Q3R0hBZDc2aHZRR0N6bEdvS3VSWlJFUnhSekNkTDQzNEpwRjdwWTg4QXJXR3Rud1d1dHcyWEdFMGdPMlpaVDBLM0pvRG1mX2xOTldEdVNFQnJuZlRocS1zOXNUdmI4WmtJMG82MDJaNmpzbTJIYUIwTl9FVVZIT0pKVE1QaGRBU0RnTlI4ak1Mc19VT0JFSVJrXzl6eFBnTTY5dkUzbl81OUdvdTFtc3lRazZQNXptZmZNM2NfYWxvWDBhcXY4LXNpd3VwUFRpTGtYNEk?oc=5",
-     "src": "cfo.economictimes.indiatimes.com",
-     "at": "14 Sept, 11:15"
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYUFOZlRldE54bExuSnNQeFVsT2dBdjlKUHIzcWVwZFE3bnRBcDloTGJwOVU2VmZ1UHFKRGhvYkM5R1V4dWtEaF82RTZTSjRpcXk0b2Z2LTA3QW02U05EdWxVcHluQUZ1bWE3dzhEbFBxa1VmeVFINlkwalVlcG4wVmZxNE9tcDRlY3gyNk5mMXFBTnFDbk9ldExfZlRIVUZLTGIxbXp0OG0zM2ZJQ0hSQ1JmbHhyUWVGT1I3dmJVaC1zRm9RaXktTHlpNA?oc=5",
+     "src": "The Shillong Times",
+     "at": "14 Sept, 13:38"
     },
     {
      "title": "RBI Under Pressure to Hike Rates as Crude Oil Crosses $100",
@@ -1260,10 +1260,10 @@
      "at": "14 Sept, 06:00"
     },
     {
-     "title": "Photo Album",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyYjc0T3FXclhwNXdIQTJudVJWRmk3dWVxZWJiRXVwUTJseFljWXpCWVlhVjR3M3hUekJ3U0xmT2FSUXcxT3FzNlptcWViaF9YQTRweF9YSFZCS2pBRU5keGZtdlZ1SkRNenlGV1BlYWtvd2c?oc=5",
-     "src": "PIB",
-     "at": "14 Sept, 04:00"
+     "title": "Calcutta High Court Bar Library unveils portrait of former Law Minister Ashoke Kumar Sen",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU1QwMC1yYzJvelN0SUtHX2s3Q3ZjVjNRaUtwazJsNWVOdnRyQmZ3djVRQ1ZSa2RQS0VnWW9nU19uZUl5bVl3bmRXRmE4a0EtYWRqUkZCMmd5ZlRPLXBMT2Z6YXVHQ1BITnNRUVF3UTZ0aldJTC0yTjRWTWhseG5IZlUtMTktd2txcVIxOW1rT3BRWWVoZS15XzItWWgybnVwMzNYZFh0dmlBenJaNHBWSndHUXJXQ3BudVp1QzNVZy12al9XRmk0SURVVdIBywFBVV95cUxPU1QwMC1yYzJvelN0SUtHX2s3Q3ZjVjNRaUtwazJsNWVOdnRyQmZ3djVRQ1ZSa2RQS0VnWW9nU19uZUl5bVl3bmRXRmE4a0EtYWRqUkZCMmd5ZlRPLXBMT2Z6YXVHQ1BITnNRUVF3UTZ0aldJTC0yTjRWTWhseG5IZlUtMTktd2txcVIxOW1rT3BRWWVoZS15XzItWWgybnVwMzNYZFh0dmlBenJaNHBWSndHUXJXQ3BudVp1QzNVZy12al9XRmk0SURVVQ?oc=5",
+     "src": "Bar and Bench",
+     "at": "14 Sept, 12:44"
     }
    ]
   },
@@ -1303,7 +1303,7 @@
     {
      "title": "Indian moves to US for job, forgets to file ITR, Income Tax Dept imposes Rs 8.29 lakh penalty; ITAT Jaipur",
      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNNFRxdkJYbk1YSHJGT0lWVzkwQWt2d01BLXBXWWZfcjg2bHRJWk12RS1EQTRQSVZaT2E0WU4wMU5TMUcxSFFvUHJ3eUxuTzVPSW1RMVU0WUp2bjhOUDBKZ1NuYmxWWWNKdzFkX1FSQ1R5MkV0T3JuODBhc3RVQldxTXZFdUhTcnZvUlFBYng5OGZYZHo4dklibjZYZWFjMEQ0VklFcjdERXZSMm1iTl9HY1hCaFF4MnpmMExKTmM3YTZJMWRQMU5Id3R3MEZwUEtlYUJPRHFaZ2FlRzdqV0N6TXlGX21jRnlBTXFKZ0RsLTU4bFV3YlVKQ3RUU2c0Nm1sWE51Q1BKc3g1S21jYWVPaVRYVDNqeVJwVGJqdHhvR0t1dUdpVkpsTjNha0hwajDSAbQCQVVfeXFMUGtyN0hKQUVQaVFVQm9RQkoxbVh3bG80ZDZxYlVfWWwtS2xmZjhqWVg3a3FMODIyVlVVREg3Um9MYXRFSVB6SkF0RzVoaTB1VHN0V2JOeUtwOVl0OGJQX29VVDJlRmFwT3dlMHhBT1Zaa3FMTW5HaHo3bF9xdzBDTVdqT01ubEw1bkZRYXB2LW5FOFpRdHphU3p1OGxYN013TWJtSXlyQVZrVUlXb0NkNHJlb29LTzg2SXczTE9xZnZXNmZoYlBvTzdNTzZsejcteDBsSk8xQXhRc2tlN2puNGY1SEdMaEROa2J4dE1lWFVKQWRKdXd2bFFYWmJqSFVEeGE3aFJDcUM0Yzg1dzJMLV9PSnNhTEJyWkZQOW1Jb2FCVXhKcmp0eXpZdkl1YkFPMnRkQTc?oc=5",
-     "src": "economictimes.com",
+     "src": "The Economic Times",
      "at": "14 Sept, 07:00"
     }
    ]
@@ -1353,16 +1353,16 @@
    "tag": "World",
    "items": [
     {
-     "title": "7,000-Foot Hike With Broken Bones: US Fighter's 50-Hour Iran Survival Story",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRFBTYkVKNVVLWUVnU3I5SngxUlAyTGh0c0ZzTEZ1b1V4d0ZhRXYtWU9tUUF2NFpxZldXMTU5Y2lwVmd6R1NqQmtzSldLdVlBYUpSRFpaM2VrYU55TE5NcEdTQ2hQZDY3WnR4ZWdzcXpsaDUweXVjejUzWlpLeGZ4TFZHd2dPWUhiaVJJZEV5OENDRDBYZktPTXczUmpJYzhOTWZHaEsyNHhnbnZWRnllT0MzdXg?oc=5",
-     "src": "NDTV",
-     "at": "14 Sept, 13:31"
-    },
-    {
      "title": "Talks between Iran and Gulf countries in Oman postponed ‘in the interests of consensus’",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdVBZeGoxT25JV0ROWGlwYXJHOHI5VDVhMjVIdGtVNjlON2dCbmtwTHBvMTZ2bUVlTkw1OFVndy0tYm4xVklwMkVRUC1lcDlzanBCSDUxSVZwSlFlMGtOM3hDZGhTRDA3azBvdXBRVHgtdnVPNVBxcXB6aUdjdnpTYUNuSGh1VmxzZWFyTWFzbHlCcWFUZFk1UVhpS1I4UDVvSXJqdHVOcWg0VDRxY0xzZ0NsVnpVcFZXYkZtMjlnSVJpczFsdXhyTUhSby1uNmhuTVpzaW5wb3hJVnRmbjgtdHVJUdIB6gFBVV95cUxPbEJuZHNPa1lIRG9abmkzWHE1WGlfVWFCYWFHRnJvaC13RUtBbGs2ZW5JSUJGSjhoY05CdFlzTjlkbDRGMHJhQ1VRbGYzcFpic2Zhd1ZNVUhqaHNSR3docXM0RVZOdmlsY1RlUmxaWTI2X1pQb1N0TUVtZW5iRjNtT1NtLWdYM0VFT1RjZTBKLWt5NEZFUENlNmlHQWdMN3pLOEczdlZFcXhDUFBjazFVRmZZZkJ4SmF0VzJLYXYxUHpZRzQ4clB6N3FlWFQ3NWFGbWFFYi0xeWhIV2VQdHdyREgwSWhNNnJUVmc?oc=5",
      "src": "The Hindu",
      "at": "14 Sept, 01:53"
+    },
+    {
+     "title": "7,000-Foot Hike With Broken Bones: US Fighter's 50-Hour Iran Survival Story",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRFBTYkVKNVVLWUVnU3I5SngxUlAyTGh0c0ZzTEZ1b1V4d0ZhRXYtWU9tUUF2NFpxZldXMTU5Y2lwVmd6R1NqQmtzSldLdVlBYUpSRFpaM2VrYU55TE5NcEdTQ2hQZDY3WnR4ZWdzcXpsaDUweXVjejUzWlpLeGZ4TFZHd2dPWUhiaVJJZEV5OENDRDBYZktPTXczUmpJYzhOTWZHaEsyNHhnbnZWRnllT0MzdXg?oc=5",
+     "src": "NDTV",
+     "at": "14 Sept, 13:31"
     },
     {
      "title": "Trump calls on Ukraine to halt strikes on Russian diesel fuel, says attacks causing shortage",
@@ -1373,14 +1373,14 @@
     {
      "title": "Houthi projectile wounds two, damages mosque in Jazan region, Saudi says",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnNBXzZuemprcHVJaWc4RW0yNDVwNk93VFB6VWVwZXRSSjZsQU1CWFI1cjFwNVkyTFpqaExhTjdFSmp6eExzVVdmandxU2F0VGF3TENTR2Y3OUpJTHYzendyQ3pRUUhZRHlxQTVZN3ozTy01SlpoNzVzbGtxY1NLYzhodGRKaHdpUk8yS0hsZ1Z1N2NvQVN5NkFBZFBuSHhBdjVHRWZuVXhnRXNfTGw2OdIBtgFBVV95cUxNcEdnRUR0cEg2SVpMM1ZJeXlLLUF2MXl6aXVjemhvOVFaeDBkbnFTYkp5SVhTQWNxdjE5dk1TQ2tpWTBmTF9vUHBBMXZnY292LVhnYWVGTHFmTmVJM0JocHFiSml0UzVtRENEZF9HMmdxbzRWVlF1Y3lVMVRTNkhCUm41czF0SjRKTDRiYW84MDJULVp3NWVURTFGejFzazNNRDg4R0tvOWxwNGYtS0c0V0lLMlItUQ?oc=5",
-     "src": "Al Jazeera",
+     "src": "aljazeera.com",
      "at": "13 Sept, 12:14"
     },
     {
-     "title": "Trump won’t put the brakes on AI because he wants to beat China. How big a threat is Beijing?",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51dWJLWEZpZUgzUVd0Zzk5MkhITVVnTFB3SkJFdERmZ1Y2OWVtQzBybTEzR2FCY3RvUVhKU1k1UlVEdTNsWVEyd3FsOUtubWtvaFI3S3Vhdk85SmNsNnBxdDdyS0loallyWUs3ZUlpOWI4Uld4WWFJRw?oc=5",
-     "src": "CNN",
-     "at": "14 Sept, 13:53"
+     "title": "Trump eyes Iran oil, hints at Venezuela-style US control after war",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMW05eFpVRFZnUnlOZEN4QW15YWJ0Y2VlVkNXLU5peUJCUFI3WGxkck14b00yU1dmYVhYZzluR3lWNmVvMmpUM25NM3NWVWtXYVdqNVhWek5Jbm9rNjJjNTNRS0Q5U0NuODdQdjY2dWdubWpOTDd6NlR0c2libzExb0F6Rm9qUnhpQmRQZU5EV2ZDXzlVT1FzZEFJY20ydVlWanMwcGlmSXU0dDRpQjhmcXFKYXBILXhOU2JMa244RnZ6YVJOWGRDV3ozQUoxVmlla3fSAdcBQVVfeXFMTm14X0c5UVRTcWsyM2JkV1AyUjJ3ZjQ5a19femp4TEMtWHUzM2twNnI0TFNLZEVhRkdOYmNRQUlQRE43TDdUUGJxSGM0TGVhR2dzTTYxM2Z4LVZhQzNhQmZkbFpFOEJUMzVqSElWdGlkcG5FekpqbjMwOGphTm5qdjlJcnVCc0hnQ1FrMkhvbkc5MkxCWFNKTG5ZSW1xSTB0dWthTTVWTVBaUDVWRHFwUjNxYl9rZE1LbWh4OUF0bThsbEg0MElDQlhuZndfdnZJU0Y2bnJuUVU?oc=5",
+     "src": "The Times of India",
+     "at": "14 Sept, 07:51"
     },
     {
      "title": "Why can’t the Right accept Indian-American Longhorn fans?",
@@ -1400,10 +1400,22 @@
      "at": "14 Sept, 07:36"
     },
     {
+     "title": "India’s Auto Industry Can Be CAFE III-Ready In 3–4 Months Says Dr. Rajeev Gautam, President, Horiba India President",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTnRHSDhmRzlQTGg0aGstV0dhNWlxQmR6ekwtemY4M2VCcFF2OVJ0YlNYNktLdkxfZkgySmRTbG5ycy1RekZyZ05kb0tvSUJBSmZnX3Qzek1LaDFfZDZwYUR1ZEFOdjgzeUNCN3JKUkFOX3VBcW41RG5uSmtvb211Y25KaGRqZndFM3p6aHRvY1NxTE1iUVZ3VjMtbWlNS1g1amFvVjZVeUtvVTFWaDY2VXZDV3FMMGtiU0dXRTJ3bjgwZHZzcFlxYm5TMGpueHNpSnFWd2FjZ1c4V0ZodkRheWM3ZE5LNDVCMXJMaw?oc=5",
+     "src": "BW Businessworld",
+     "at": "14 Sept, 14:20"
+    },
+    {
      "title": "Egypt, India seek to turn strategic ties into deeper economic partnership",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUGkxU3RMLXNJN01RTS1jS1cyOHlaMEdWRmNQZFd5YkRkdVJjQkYwWllGeTBMWDBhbGtTOTZ2Um9wLXN2R3FvQjRrMHFmQXhzZE5nVTlERFpHM056UU1qc3RPblZUM3FDOUhjN3hlU0JPTnNqaWdXM01DM1BYU1hqTWI5TUkyRmNQOFlITmFjSFF5Rk9D?oc=5",
      "src": "The Arab Weekly",
      "at": "14 Sept, 15:17"
+    },
+    {
+     "title": "Made-in-India Jimny, Fronx and e Vitara cross 1 lakh export milestone in Japan",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRFFjTWdpejQyQW81Mnc0QlRIVG01aXR6b3NwMEZmRmFSeVFPVzhUcUlqcFVQV3JaOTVZVXJyaEtZOFRRSC0tbVNDMHBJWUlCUlYxc0pFbk04aUJVU0lScHdmb0owemNPcktpdWg5YU0zVjZTMWFZWWltZWllakpPUVo5TjZnSm5HQ1pMdU9CQ3h4dzI5UGJSdm1DaUpWaUM5X0tjMzM0VXd3cGFGQ1dXTXJUaG0tY0dRbGpwaHU2MDBISnRWSnZJbVJJUWZyaFcyZVp1QlcxYmbSAdgBQVVfeXFMUERRY01naXo0MkFvNTJ3NEJUSFRtNWl0em9zcDBGZkZhUnlRT1c4VHFJanBVUFdyWjk1WVVycmhLWThUUUgtLW1TQzBwSVlJQlJWMXNKRW5NOGlCVVNJUnB3Zm9KMHpjT3JLaXVoOWFNM1Y2UzFhWVlpbWVpZWpKT1FaOU42Z0puR0NaTHVPQkN4eHcyOVBiUnZtQ2lKVmlDOV9LYzMzNFV3d3BhRkNXV01yVGhtLWNHUWxqcGh1NjAwSEp0Vkp2SW1SSVFmcmhXMmVadUJXMWJm?oc=5",
+     "src": "HT Auto",
+     "at": "14 Sept, 13:32"
     },
     {
      "title": "Maruti Suzuki's Jimny 5-door, Fronx, e Vitara exports to Japan cross 100k",
@@ -1416,18 +1428,6 @@
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15X1hXNTNqc1d0MFVObS1FNWM2bjR3R0dMTmJjb3JiRktNLU9oU0ZMX18tMVlMUnhaMVFqRHNPTU42U3IxREh1VFZ2WHdCd21CT1h4QWNNc3ZDOWk1Z29OVzBOc1RlS2FBcGpDNUVna29pWGc?oc=5",
      "src": "Autopunditz",
      "at": "14 Sept, 12:44"
-    },
-    {
-     "title": "India’s vehicle market builds momentum ahead of the festive season",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeHhrS2o5c2doOFM0VTE5MFI5UlVfS09TY3FpRi1uUGVmclhhTTlCU0dNbTBZeDdhcm5jc2N4U2k0V0lPN0NNQzRyTkRQWTF4X2JJQ3pYcmlNbTUybk5Oa1BSMFc2bTBwWHhQQ1RiWG9XZzFENFE1V2w0M21iLXVWRnpNeXMxY29hQ20zdUdNUzlFV1FCZ28tUTNXYUJIazlWLXhyTnhLYklrZw?oc=5",
-     "src": "Just Auto",
-     "at": "14 Sept, 12:41"
-    },
-    {
-     "title": "Hyundai Announces Bayon as Name of Upcoming SUV in India",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOTg1aXpuSlFfOXUySGtfUjFDVnN6WHBYTklnR0JLaTJRYmRxRFNkQ1ZaQk5lNXhQM3ZvWUtVSWxVZWMzMkU5ZmlYSnBxUFdyeUthYzlqbENMYlFvdV9CQ0JwQUhabjk2UW5SWEFmRXUybllPaFVidHFJMXIyZ1p2UVFXak9nQWJDZ1BiRUplVGE1YUEyQm9DY3pRcE1Pcm8xT25EY1VITmoxVE5IWUE?oc=5",
-     "src": "Entrepreneur India",
-     "at": "14 Sept, 12:27"
     }
    ]
   }
