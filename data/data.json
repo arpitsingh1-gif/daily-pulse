@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-09-29T10:50:53.454Z",
- "label": "29 Sept, 16:20 IST",
+ "generatedAt": "2026-09-29T11:01:31.342Z",
+ "label": "29 Sept, 16:31 IST",
  "markets": {
   "indices": [
    {
     "name": "Sensex",
     "g": "SENSEX:INDEXBOM",
-    "price": 72480.07,
-    "chg": -291.65,
-    "pct": -0.4,
+    "price": 72529.07,
+    "chg": -242.65,
+    "pct": -0.33,
     "spark": [
      72771.72,
-     72480.07
+     72529.07
     ],
     "fx": false,
     "ok": true
@@ -66,17 +66,18 @@
      95.9406
     ],
     "fx": true,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 97.57,
-    "chg": -0.26,
-    "pct": -0.27,
+    "price": 97.2,
+    "chg": -0.63,
+    "pct": -0.64,
     "spark": [
      97.83,
-     97.57
+     97.2
     ],
     "fx": true,
     "ok": true
@@ -84,12 +85,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4175.4,
-    "chg": 7,
-    "pct": 0.17,
+    "price": 4184,
+    "chg": 15.6,
+    "pct": 0.37,
     "spark": [
      4168.4,
-     4175.4
+     4184
     ],
     "fx": true,
     "ok": true
@@ -97,12 +98,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 60.98,
-    "chg": -0.74,
-    "pct": -1.2,
+    "price": 61.19,
+    "chg": -0.53,
+    "pct": -0.86,
     "spark": [
      61.72,
-     60.98
+     61.19
     ],
     "fx": true,
     "ok": true
@@ -112,12 +113,12 @@
    {
     "name": "Auto",
     "g": "NIFTY_AUTO:INDEXNSE",
-    "price": 26309.65,
-    "chg": -215.4,
-    "pct": -0.81,
+    "price": 26173.35,
+    "chg": -351.7,
+    "pct": -1.33,
     "spark": [
      26525.05,
-     26309.65
+     26173.35
     ],
     "fx": false,
     "ok": true
@@ -151,12 +152,12 @@
    {
     "name": "Pharma",
     "g": "NIFTY_PHARMA:INDEXNSE",
-    "price": 26934.1,
-    "chg": 172.45,
+    "price": 26933.65,
+    "chg": 172,
     "pct": 0.64,
     "spark": [
      26761.65,
-     26934.1
+     26933.65
     ],
     "fx": false,
     "ok": true
@@ -164,12 +165,12 @@
    {
     "name": "FMCG",
     "g": "NIFTY_FMCG:INDEXNSE",
-    "price": 44838.1,
-    "chg": -426.25,
-    "pct": -0.94,
+    "price": 44790.3,
+    "chg": -474.05,
+    "pct": -1.05,
     "spark": [
      45264.35,
-     44838.1
+     44790.3
     ],
     "fx": false,
     "ok": true
@@ -177,12 +178,12 @@
    {
     "name": "Energy",
     "g": "NIFTY_ENERGY:INDEXNSE",
-    "price": 36642.1,
-    "chg": -51.1,
-    "pct": -0.14,
+    "price": 36509.75,
+    "chg": -183.45,
+    "pct": -0.5,
     "spark": [
      36693.2,
-     36642.1
+     36509.75
     ],
     "fx": false,
     "ok": true
@@ -190,12 +191,12 @@
    {
     "name": "Metal",
     "g": "NIFTY_METAL:INDEXNSE",
-    "price": 12903.4,
-    "chg": 49,
-    "pct": 0.38,
+    "price": 12954.45,
+    "chg": 100.05,
+    "pct": 0.78,
     "spark": [
      12854.4,
-     12903.4
+     12954.45
     ],
     "fx": false,
     "ok": true
@@ -203,12 +204,12 @@
    {
     "name": "Realty",
     "g": "NIFTY_REALTY:INDEXNSE",
-    "price": 841.4,
-    "chg": -9.5,
-    "pct": -1.12,
+    "price": 833.85,
+    "chg": -17.05,
+    "pct": -2,
     "spark": [
      850.9,
-     841.4
+     833.85
     ],
     "fx": false,
     "ok": true
@@ -283,12 +284,12 @@
    {
     "name": "FTSE 100",
     "g": "UKX:INDEXFTSE",
-    "price": 10710.5,
-    "chg": 25.62,
-    "pct": 0.24,
+    "price": 10729.36,
+    "chg": 44.48,
+    "pct": 0.42,
     "spark": [
      10684.88,
-     10710.5
+     10729.36
     ],
     "fx": false,
     "ok": true
@@ -297,12 +298,12 @@
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 13.5,
-   "chg": -0.14,
-   "pct": -1.04,
+   "price": 13.41,
+   "chg": -0.22,
+   "pct": -1.65,
    "spark": [
-    13.64,
-    13.5
+    13.63,
+    13.41
    ],
    "fx": false,
    "ok": true
@@ -311,12 +312,12 @@
    {
     "name": "Nifty BeES",
     "g": "NIFTYBEES:NSE",
-    "price": 259.7,
-    "chg": -0.77,
-    "pct": -0.3,
+    "price": 260.04,
+    "chg": -0.43,
+    "pct": -0.17,
     "spark": [
      260.47,
-     259.7
+     260.04
     ],
     "fx": false,
     "ok": true
@@ -324,12 +325,12 @@
    {
     "name": "Bank BeES",
     "g": "BANKBEES:NSE",
-    "price": 564.7,
-    "chg": -0.62,
-    "pct": -0.11,
+    "price": 565.44,
+    "chg": 0.12,
+    "pct": 0.02,
     "spark": [
      565.32,
-     564.7
+     565.44
     ],
     "fx": false,
     "ok": true
@@ -337,12 +338,12 @@
    {
     "name": "Nifty Next 50",
     "g": "JUNIORBEES:NSE",
-    "price": 761.99,
-    "chg": 0.09,
-    "pct": 0.01,
+    "price": 763.28,
+    "chg": 1.38,
+    "pct": 0.18,
     "spark": [
      761.9,
-     761.99
+     763.28
     ],
     "fx": false,
     "ok": true
@@ -350,12 +351,12 @@
    {
     "name": "Gold BeES",
     "g": "GOLDBEES:NSE",
-    "price": 120.75,
-    "chg": -0.42,
-    "pct": -0.35,
+    "price": 120.8,
+    "chg": -0.37,
+    "pct": -0.31,
     "spark": [
      121.17,
-     120.75
+     120.8
     ],
     "fx": false,
     "ok": true
@@ -363,12 +364,12 @@
    {
     "name": "Silver BeES",
     "g": "SILVERBEES:NSE",
-    "price": 209.31,
-    "chg": -1.34,
-    "pct": -0.64,
+    "price": 209.36,
+    "chg": -1.29,
+    "pct": -0.61,
     "spark": [
      210.65,
-     209.31
+     209.36
     ],
     "fx": false,
     "ok": true
@@ -376,12 +377,12 @@
    {
     "name": "Nasdaq 100",
     "g": "MON100:NSE",
-    "price": 319,
-    "chg": -4.86,
+    "price": 318.99,
+    "chg": -4.87,
     "pct": -1.5,
     "spark": [
      323.86,
-     319
+     318.99
     ],
     "fx": false,
     "ok": true
@@ -866,17 +867,17 @@
    "Breadth: 4/16 stocks up — broadly weak today",
    "Top mover: Adani Ent +1.83%",
    "Weakest: Bajaj Finance -1.62%",
-   "Hot sector: Pharma +0.64% · Cold: IT -1.48%",
+   "Hot sector: Metal +0.78% · Cold: Realty -2%",
    "2/8 sectors green today",
    "Nifty 50 down 0.28% — flat session",
    "Rich valuations: Adani Ent P/E 46.5",
-   "India VIX 13.5 — moderate volatility",
-   "Global cues: FTSE 100 +0.24%, Nasdaq -0.92%"
+   "India VIX 13.41 — moderate volatility",
+   "Global cues: FTSE 100 +0.42%, Nasdaq -0.92%"
   ],
   "context": [
    "Broad selling today — most large-caps fell. Down days are exactly when disciplined SIP investors keep buying units cheaper.",
-   "Money rotated into Pharma and out of IT. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (13.5) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "Money rotated into Metal and out of Realty. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
+   "India VIX is low (13.41) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
@@ -898,7 +899,7 @@
    "tag": "Share Market",
    "title": "Stock markets fall for second day as elevated oil prices, foreign fund outflows weigh",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSjE0RnktVUk3N3FQdTJJOHFVOUhKQ01LNGVXUm4tZVNyRnJOY0JhaXNnMkliMUtRdmxZakl1ZTN2VERkdjNxVVRLUXhSV19zY2ZnOE1icGVtSVRXOHNtM3Zwa0ZmTWNPejZwdkhmd0puNzlqeTRZcjRsNTdMcjFhLUxBb1VFWjg3OExMRGFycUt6YUZXbTlsUVUzNGhhSi1HdVFDRjlfOHJjbXMwNXhTckhpa041QQ?oc=5",
-   "src": "DD India",
+   "src": "ddindia.co.in",
    "at": "29 Sept, 16:18"
   },
   {
@@ -988,16 +989,16 @@
      "at": "29 Sept, 12:27"
     },
     {
-     "title": "Seeking To Profit From AI, Anthropic Warns Of Its \"Existential Risks\"",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc2VKWlpZTTlNU0Q3aF9IU2tJZTN2UFFSVGtGbkJ1TlZaUmtGYWRfV2pUZmVFdTlzdHh3RzlDRG1NN01zOTkzakd1bEQtU18tWXlPbV92ZG9IdnVDeUFIRklvNkFYcVpwcEtRZWgxRkpuaERSV2pJMUdIcFNzU0pja2xrZ0FXa3ljcjFnbkJZbkQyRTMwRTVvSFlTN1JSMG5RaThrS0tVX3BGMkp5WVItSUt1SnZmR1dRc0k40gHDAUFVX3lxTE4wYmFhM18tUlBOSThrcnRDRVVCWGVUSXpzazk4QWZVTkRYcVdDOWdRdVVvQndZZEE3U0JlN3Q0YUpyWjZBa2FySFNkZmRHa0JZS1U5QktnRjRBc1NrYUQ4ZktoWnhoZ0hiUVp1bkY2bkZIcExJUEU0ZENRQU1HVHZRNWlnOWFOLVU5cHgyUzJEVHliNmN5VmFkUDB0ODNJWUhQQ0VnYlRIUzd5a1FyakxfXzVOMmJLVEhEd2hIR3Z6WnFMWQ?oc=5",
-     "src": "ndtv.com",
-     "at": "29 Sept, 07:51"
-    },
-    {
      "title": "Oil woes push rupee to over one-week low, RBI caps fall near 96/USD",
      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTVl1TmI5dWRwRlVoQ3RIWUlrVFg1d1FGV3F1dC15UDFHUWpGN1NYaGNRT2YxQmlnQXdqbmpVaUozc1p3d2pzX3d6T2ZLTE9tYmV0Y1JlcGxlcVZYSjI1dDRYQkdhZ0tyZ09FT3JqTUNwQl9Edk9MaGxYdlJHbUtwaWZXMjJpQXVpcTZHNlFtRktOMC0wLWR1aDI3dWxkWE9uelVmMUpDRmJJV3dOaDB3YmdqSDIwdHlGbEE?oc=5",
      "src": "Reuters",
      "at": "28 Sept, 08:20"
+    },
+    {
+     "title": "Seeking To Profit From AI, Anthropic Warns Of Its \"Existential Risks\"",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc2VKWlpZTTlNU0Q3aF9IU2tJZTN2UFFSVGtGbkJ1TlZaUmtGYWRfV2pUZmVFdTlzdHh3RzlDRG1NN01zOTkzakd1bEQtU18tWXlPbV92ZG9IdnVDeUFIRklvNkFYcVpwcEtRZWgxRkpuaERSV2pJMUdIcFNzU0pja2xrZ0FXa3ljcjFnbkJZbkQyRTMwRTVvSFlTN1JSMG5RaThrS0tVX3BGMkp5WVItSUt1SnZmR1dRc0k40gHDAUFVX3lxTE4wYmFhM18tUlBOSThrcnRDRVVCWGVUSXpzazk4QWZVTkRYcVdDOWdRdVVvQndZZEE3U0JlN3Q0YUpyWjZBa2FySFNkZmRHa0JZS1U5QktnRjRBc1NrYUQ4ZktoWnhoZ0hiUVp1bkY2bkZIcExJUEU0ZENRQU1HVHZRNWlnOWFOLVU5cHgyUzJEVHliNmN5VmFkUDB0ODNJWUhQQ0VnYlRIUzd5a1FyakxfXzVOMmJLVEhEd2hIR3Z6WnFMWQ?oc=5",
+     "src": "ndtv.com",
+     "at": "29 Sept, 07:51"
     },
     {
      "title": "Gold and silver price today, Sept 29: Check retail rates of 24K, 22K gold and 999 silver in Mumbai, Delhi, other cities",
@@ -1019,7 +1020,7 @@
     {
      "title": "Stock markets fall for second day as elevated oil prices, foreign fund outflows weigh",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSjE0RnktVUk3N3FQdTJJOHFVOUhKQ01LNGVXUm4tZVNyRnJOY0JhaXNnMkliMUtRdmxZakl1ZTN2VERkdjNxVVRLUXhSV19zY2ZnOE1icGVtSVRXOHNtM3Zwa0ZmTWNPejZwdkhmd0puNzlqeTRZcjRsNTdMcjFhLUxBb1VFWjg3OExMRGFycUt6YUZXbTlsUVUzNGhhSi1HdVFDRjlfOHJjbXMwNXhTckhpa041QQ?oc=5",
-     "src": "DD India",
+     "src": "ddindia.co.in",
      "at": "29 Sept, 16:18"
     },
     {
@@ -1031,7 +1032,7 @@
     {
      "title": "Sensex Today Ends 242 Points Lower | Nifty Below 22,750 | Tata Chemicals Down 4.5%",
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcDdTTXhSMjZkSjBNcFdQTDBhVTh4QnhZNUVrbWwtSzNmZkxETUxsSUNRc3pBakNfVUVOWERCN05HQllSLXZxZUF3OENfal9SM25fYXNlWUZfWGNJYkt6Q3NwU2p0ckwzdXVWdXJXd3hnanZNMVVPQjhob3g0eWFkVlFJYWpETzJ3Rjc3emRzc0tZUEZoa0M3Rm9RdDlrbUQtRC01eF96dlNNTWhxSWpxU1ZpQWVabTV2U0FpV3otWkd3ZnVsZEFYLUFDN2UycWtmSFYw?oc=5",
-     "src": "equitymaster.com",
+     "src": "Equitymaster",
      "at": "29 Sept, 15:49"
     },
     {
@@ -1058,6 +1059,12 @@
      "at": "29 Sept, 14:03"
     },
     {
+     "title": "Fifa accuses Uefa of 'misinformation campaign'",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CVDZCWC0yMWJZX2UxOUdIaW5kVEVMLTgtV0xCbFhMTVUzR21lbW05OGwwMDNTYUxsRlB1VTAtZE96eWdrODhXMWY4eEhSTkRzRjRvLXdfOTNPSk5hWEEyTS1TZV9EZDRN?oc=5",
+     "src": "bbc.com",
+     "at": "29 Sept, 12:52"
+    },
+    {
      "title": "Virat Kohli passes 15,000 ODI runs as India beat West Indies",
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOEtjQnZwLWktbDRjVDFUY29pSHdNTkdKZHVXOHJhZTU3SjRLUks5azRfMkE5d2hubzlLY2xUczhqZVAxdkFpMnNJM2RFQWt1ZE9LSDRYTEJyNXI1aDZsSGd3U09oczdueThDblVRb1daQ3BNQ3c5bkFhREhjLTRnZUpFWmRqeC1ka2JFZlZ4Sm0yWmtoSXFyX3RLSl9nWXA3dnlKTNIBqgFBVV95cUxNQVk2eEFrV2ZCRHpVajdqMFZybUlobmxKYVZEcUlzLWRmQ191dGZIa2NkbzJBLXFoaEZmZzVaOEdlM0EtWFFJd2VycnQ2akxpa0gtUHFRNDFGdWNRcDNOc3FwbzMzYWlxZW1fMnVBUmJBY1JUTDA4NGZyT0gyUmo3VG5lREQ5QWxQZHVoTE9hbHdSUTRXbm44V2VYd2VNWVRHSFhHM2doNEtYUQ?oc=5",
      "src": "Al Jazeera",
@@ -1080,12 +1087,6 @@
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZDVVMzJXdkhuZUhiYm1hQW5paXpKV1daV0h2Y1hLMV9yNkZod0V6c0thaURLbE92djBqVHFiZVVDWnZjX3lJbnBrVTJnakxyOHBEckxoVVdmTkRvSC1FT044ckU3dHY3NFFkWmZLWUplU0lKQ1dTNlVtZVJHVHo5WXNhZDlGQ0ZBQ1dIVExjYnRGM1BxbXBjazFGcWMtYTVJRFJxSlo3THBiV1M1R0hzLTRUeHl4RlRSaTY0MERn0gHPAUFVX3lxTE1VZjZJc1o2eV9GalRMeHRCbHJmTjRWb1R3RmxjOFBwOE5IMWk3NlBNSVF1aDRqZ25sMHc5bVBOaERfY3JCV2hPcFZBdFV6ZU83MG4tTktrU3g2NVZ1RWxMMUJpRE8yS2YtTWFfdFRFWTF3ME5rV19vVW1wOEJ1SkU5Q3E3aFFuLXNPOEhqTFk2TnVXNUhpek5PdGszNDlHWUpFd2VZcGxSY1lKTlJYV0NyMVB5VC1XVVAwNVI0WlNpVnh6T1FMMEl2NU1GMWprdw?oc=5",
      "src": "Cricinfo",
      "at": "29 Sept, 12:12"
-    },
-    {
-     "title": "FIFA agrees in principle to federation payments from WC windfall",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOemZsNEUwUVdsTFVPZUJVN1o1VmhRU1REYm9KX3lER1daUTkxbkR1WElHUlh1VlcyODhIU2Vham44cWJXME5UVnF5QVZmY3JDaFZzS29JaHFBQ2w0Z0g1V3hQUWM3OFpYSFF4ZUM1VW90VGlnUmRzY3k3emprSVNHSkxYM01ITmZZZXJZX2tVVXAxNm1fZEE?oc=5",
-     "src": "ESPN India",
-     "at": "29 Sept, 03:04"
     }
    ]
   },
@@ -1101,7 +1102,7 @@
     {
      "title": "Nothing Headphone (1) Pro unveiled with triple drivers, improved ANC, and premium build - GSMArena.com news",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeU96ZzhDelV0SkFxanlFSjFVVXZJUlFydWFRaTdpNFV2TEJ1ajB5OEVmUlBQbThtWm51UEJBWmNGbExqN0M1QUE5MHY4cHh1Q19rMEhPbnhETUVTQkF1TW1JLVNTY3FJR2hxNUxFTko2eVRVaWIxTEsxMm40RWVGQnFFbHdmVFVieUZ2SXAwWExCUUhQc2xlVFpURGRTYkp3dGVsdTNfeXhiX1FyY3Jhem0zVDF0OU9fTUJja2JzcHfSAbwBQVVfeXFMT01RV0JDUGsxTTZfUG1zXzRrVE1kQ0Q4NmJPd1ZYX29samxXV05McGs4aDJxNnJoMHBkcUstbkVEZm42bFBWam5iU1NFcWJ3U1d2S0JFQlY2eEZzcmZydHNCeW9qZ3l2TkdITWlOVWV2OG03bjZQekdXYk9DWWFkLTZFS3liWWtHRXFxTUhwNnY1N3dyRzdKYmgtaW5iakd3NUtqanhtM05XRWFGRlpTZDdCYlBPT0F2bUlEbHU?oc=5",
-     "src": "GSMArena.com",
+     "src": "gsmarena.com",
      "at": "29 Sept, 06:30"
     },
     {
@@ -1199,16 +1200,16 @@
      "at": "28 Sept, 17:00"
     },
     {
-     "title": "Rising oil prices, inflation to create headwinds for India’s economic growth: BNP Paribas",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUtUaEhFUTlqSjcxQmFnOEJaSm95QXpQN2cyTjlzMDdJdEpPNWR1SHVrZ0ZvU180Ty0zWUItb3hDT3p3VDBQNzloVXhWNW5RS25FX0NvRE1sb1NqdU81WTd4UDF0a3Z4NGNWeHVXQ204TVA3YkhCclhsXzdNNkx5VnhLaDk4NG80UllDNmxFcmI4cTVtQWVKT0FLSXRKM0ZyY3JuX0hUWWs4dVJnTUhhUDhLSkk?oc=5",
-     "src": "ChiniMandi",
-     "at": "28 Sept, 16:22"
-    },
-    {
      "title": "India Ten-Year Bond Yield Forecast 2026 Hardens as RBI Starts Hikes",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZRG1YbU1VV0ZIZGNyY2laNFphc0xHM2pGUkdkczM0X05yNmxHTFhwbmRNdlliZ0luTlpzOUNGN2pxek82bEU0NVFyYjFmLV9kNkJLNUt6QjhoUkdEVEtYUGlySWxmQm5OQTlWUXNVVFRhZldTTGZJcHVpSQ?oc=5",
      "src": "Alice Blue",
      "at": "29 Sept, 13:24"
+    },
+    {
+     "title": "Nifty slides to six-month low as US-Iran deal hopes fade, oil tops $100 a barrel",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOGNvalNuT1M3am00V2ZIRkZ5bnZsRWxjeWp1ekg3R1FrVlBOZXlIaWJOWmxyQzdTelA1Q1F4QVI3YkVkUHo3MTlCc1M0YUFub3d6bWt3eDNOZWVTZ2FacUtzUTBfWUhxV2ZkaS1hY3Fic1B2bkcwZ1FyRHhjS1MxUi1nSW0zWTJmbGQ2MG5LU2VRVV9RdVJ3bUVXQ3ctcEhRemZHbDlPRHZRd29QRjhPd3ItdUEtY0xKZ3RPdm9VUVRvUkdVTW5JSUs2SFJieEI2?oc=5",
+     "src": "TradingView",
+     "at": "29 Sept, 00:53"
     }
    ]
   },
@@ -1287,10 +1288,10 @@
      "at": "28 Sept, 19:23"
     },
     {
-     "title": "US Government Signals Tougher Scrutiny for H-1B Visa Recruiters",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYUE2MmFOaGVXMkFRVTItMDUxcmJtZ2xYNGdpX1Y2WjNpSmVuS3F0SlgwUVVzTTEwRzRTaDhjRjU3ZzZ5OWdBekV4QzNJb3M0TTR3R2czWnZiNUpZTC1IdUhfSUViMXBlSlQxQ3NlVkU4ZTZQZGd3S3M2WXRGbVpSVTQ0bzdrc2F1d1h5RWplZmwyUXZ0aU9lVUFtNWJQLTlGbzlEN2Robw?oc=5",
-     "src": "India News Network",
-     "at": "29 Sept, 10:15"
+     "title": "US H-1B rules get tougher: What layoffs, $100,000 fee and new visa checks mean for Indian tech workers",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZklPYUg3M0pJMFhLdzIzeUZ3TVp0cjdNY29YRF9mVWxMRHd6Y2NXb2FFaEJib3lvNUNWTDdsTm5ZMlBFczJJMUdUU2h5MUVpWHJVbTFRWVBzUDhPZl8wcS11cjVGV0liME1wQ0JsQlM1WF8wdktVRF91UkYxblhrQkJtSG9nTjBfWE5RaWF6Ym1NanQ1dDVkS2ZVSmpVallHSkJac2VoOWt1V1cxWWY5MzRZS0JzT0hPMUNwdEhHb3JzSE52TmtTM25pZU5qTDBaQ0VyWFlRcmRWY1lYd09tZldENW1fczZQT0IyadIB8gFBVV95cUxOTVFGRlhrS2VxUTUzaVV6b2d3Ql80MTRfQ09Xa3d4ZUFkWVBGYVBrSTFYYktiMUV4RjNORS1ySzE3SWlPalYzbDFaclV6QlRxcmtLMFRjVGUtM3k5bEJhb1lKY0h4a1R0RGJDV0piN2lObFZQTkJDZTk1akI5UDlib1dVcXo2VkdBYVp3c2oxZHgzNzZHSnB0YjRjSEs4SWNUbWNZc2xNamYwZUF2cFA1dFZjb24xRVdQcjRuRGtDTG1BS1BKQVhEeXprNWRDSzR3anNreF9GTWJhR3NKTm9kdGpEMFRza0FHMlVKOU5iMjFKdw?oc=5",
+     "src": "Moneycontrol.com",
+     "at": "28 Sept, 19:43"
     }
    ]
   },
@@ -1363,16 +1364,16 @@
      "at": "29 Sept, 09:39"
     },
     {
-     "title": "The takeaways from Trump-Xi summit: Plenty of show, little of substance — and worries for India",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRXdRX094MkpvOEpCdXotODNKcDRFZFl0UGxUWGtzZVJQNEgycjVkVXFqSUpCUlJrUzVQaWRuOEMzSFVoVWwxcGt4OEotZlpNU1pFV3FoYkFsSHAxTGxCbmUtUnV6YjFQVXBfV2xBeXlENS1PTE5na2UzRk04NWdEVWlXOGFIbjRpQlpBdVNtck1RZ21rdlIta0JFRUVHSm5tQW9rYmlqaDRuYzBGZEx4RW54ZUd3OUpxdHlObzJ2b19jZjA3d1U2aFdDMTZPMVlPbkNKYWVHRXJjTUHSAeIBQVVfeXFMTWxtaVc0Q3JseEphalk2TFA2RE9iNktzQU83cVIwTmRISDVzbTRRV1E1ME1BaVhRa3JiUVJDMk5Xc3BUSmhjS1JjWjVnMkN2SmkyUnY1SlIwZUM5VnNoRGd0TnJzalVEeW5RX0laR1IyUDVybHJiVm1hNktyalR0VnM0bTZwcEZ5UUtWWXdQLW4ycTlpUkpZUXdhOGNza1RaU1ZqaXd2ZjZRVjhEV2JhQ1VqMDRqbkZLRlhaQWdhSFNCTmFPbXpvNEdIVVRwTGNxVVlST3dITUYxUzNNTzFtOGdtUQ?oc=5",
-     "src": "The Indian Express",
-     "at": "26 Sept, 12:12"
+     "title": "US military to guard midterms after Donald Trump gutted agency that protects elections",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTnFlejRtMGJsdWNDanMyQmUxaXBqSlhfazk5eFRRVFJGdW1wZzg3YkV1SXB6U3lLb0g5bGZmZ1RsVnJhNjJJN0duVzY4cU9nemRXWXRJTmx3UlhxNEMyYldHR3hybmU2YnZKeGNFTW96TE5QLU1XckVsWFNQZTJkVEtlMWgxWGJBa0dKTHB3cm55a1RZc0JGd2xyaWRMY3hMM2F0amZxV1d2WEtwcExRdlJCNHdRTmpqeGZjYUIyczNmaDZSME9DZ01MMnVsN3R0NGhXWXNaRHBmXzAzWWtZcVlrZnJBbW84ZzNpWXpB0gHzAUFVX3lxTE9IbnlkOURyWVFuSXVFZnl4MnFSNEVxOUpzT0JqVjdxUXRWUzJQWklNTDhDTHBhNXhhLWM1RXpDcDd0TWhUOXRpVXdRMmtUZm43WGpkSkhlYjZTbzAxQWF2NFhwN05FZnZFUGppLWNHLXRnTkEyRHBHdldYVVlvUGNoS3MyR0tFN2Q2NGdZWWtLVFlfRnVwOExlamxRQjVjMlhWNnEtem5EV1RubE9LUHQ3V1ByRUtRck16a2tBRlJiaEFPMmY5Rl9ud0JRdTQ2VGJ2dFgzVFVaSnpGWmtHa1B1cFRxNWd4YkcyTVI2anRaVF8yVQ?oc=5",
+     "src": "The Times of India",
+     "at": "29 Sept, 07:17"
     },
     {
-     "title": "Watch: Bangkok locals create floating market during floods",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pNFRTQWQ0dV9Fdnh4WjNySlVKeWJyUjZLdUpwR3RnVG9ZcFhzQjVndjF5WHVFSWx3SnMwOXE0TGtmTVFPenZFTExQOTdIc2ZsdEZNYXFyVlg?oc=5",
-     "src": "bbc.com",
-     "at": "29 Sept, 11:45"
+     "title": "China to cut tariffs on U.S. farm goods, but soybeans excluded",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQXZlMUVsT29ucTZGZVd6RHQyM3RJdDFDblBlbUZfRWpCMmlDa3VWVGw2Z2NNWk5zMENFLVBMQkRPckQ0bHVRci1Md1oyWUJNRVRORWZ0LW5SQnFPUVp4S1F5RHo3WGx3ZkZHQ0o2YTVyLVpUOGdGSklnTlNuOXJOZ2ZrWHc2ZGs1SDVkVkxIbGV1bzhEZ2NOMzB0ejNOMnpKRUM3dE53U1JkQWVmNWlFWVNVYTg5VXg0SGdnY2pMUjY?oc=5",
+     "src": "The Hindu",
+     "at": "28 Sept, 10:29"
     }
    ]
   }
