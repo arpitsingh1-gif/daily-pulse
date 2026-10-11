@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-11T23:01:15.199Z",
- "label": "12 Oct, 04:31 IST",
+ "generatedAt": "2026-10-11T23:20:45.360Z",
+ "label": "12 Oct, 04:50 IST",
  "markets": {
   "indices": [
    {
@@ -66,17 +66,18 @@
      96.7755
     ],
     "fx": true,
-    "ok": true
+    "ok": true,
+    "stale": true
    },
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 104.77,
-    "chg": 0.05,
-    "pct": 0.05,
+    "price": 105.32,
+    "chg": 0.6,
+    "pct": 0.57,
     "spark": [
      104.72,
-     104.77
+     105.32
     ],
     "fx": true,
     "ok": true
@@ -84,26 +85,25 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4220.3,
-    "chg": 4,
-    "pct": 0.09,
+    "price": 4213.5,
+    "chg": -2.8,
+    "pct": -0.07,
     "spark": [
      4216.3,
-     4220.3
+     4213.5
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 61.13,
-    "chg": 0.08,
-    "pct": 0.13,
+    "price": 61.11,
+    "chg": 0.06,
+    "pct": 0.1,
     "spark": [
      61.05,
-     61.13
+     61.11
     ],
     "fx": true,
     "ok": true
@@ -836,10 +836,10 @@
  "news": [
   {
    "tag": "Business",
-   "title": "Rupee relief, higher hedging costs: What RBI’s new forex rules mean",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOM2JkN1VFSXAzSGtNOVE0aFNFQk42dTlHcUk4Q2t1dkVhVm1CSC1KblQtNFJYWlVad0JKbFNwcTMzN0s4TTdiUGxWazJoSjFGMklET2p5VXk0a3d4cEM0ZHNud2F4WDRCRHJDQnB0OXdXak9SQ0dXdk01dVRBRG9QcXloS3dNVERscE1ZOVdCMnJCbWNQbGhJRV85TUp2V0F4Vk1zWE1QQVpvNEZvaE80QkROTXZ4cElZWnlJYnptX2stNW5hVW9NdUNsNFhKSldXNnhhMy12d3pobnhNZGlvTTZHRGw?oc=5",
-   "src": "The Times of India",
-   "at": "11 Oct, 21:01"
+   "title": "Musk vows affordable Starlink in India days before Ambani's record Jio IPO",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY0F4U0J6aGRjT1Vnei1UWVR2dDdqRS1DYUpneWtJOVF0U0YwOWx6aWtWTnJoTnNIbDBaMExoMnktdmJOdXRZQ3hkM3RGLUJ2SS0wSlVPek4zb0NNbTFxeXlNZVJCX1RNNDNKamtMa0E4Sy14WVFLWFhjUDMydmdWa2xESTZBejdrWEctWkw1UFRyNlhKLUdjZ3M5cURNZXpIdVYwWGlKdXJQUGI3SW9jbW0wWkNnbklpV1RzVEw0MHNTRm9reUltLQ?oc=5",
+   "src": "Reuters",
+   "at": "12 Oct, 01:10"
   },
   {
    "tag": "Share Market",
@@ -924,6 +924,12 @@
    "tag": "Business",
    "items": [
     {
+     "title": "Musk vows affordable Starlink in India days before Ambani's record Jio IPO",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY0F4U0J6aGRjT1Vnei1UWVR2dDdqRS1DYUpneWtJOVF0U0YwOWx6aWtWTnJoTnNIbDBaMExoMnktdmJOdXRZQ3hkM3RGLUJ2SS0wSlVPek4zb0NNbTFxeXlNZVJCX1RNNDNKamtMa0E4Sy14WVFLWFhjUDMydmdWa2xESTZBejdrWEctWkw1UFRyNlhKLUdjZ3M5cURNZXpIdVYwWGlKdXJQUGI3SW9jbW0wWkNnbklpV1RzVEw0MHNTRm9reUltLQ?oc=5",
+     "src": "Reuters",
+     "at": "12 Oct, 01:10"
+    },
+    {
      "title": "Rupee relief, higher hedging costs: What RBI’s new forex rules mean",
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOM2JkN1VFSXAzSGtNOVE0aFNFQk42dTlHcUk4Q2t1dkVhVm1CSC1KblQtNFJYWlVad0JKbFNwcTMzN0s4TTdiUGxWazJoSjFGMklET2p5VXk0a3d4cEM0ZHNud2F4WDRCRHJDQnB0OXdXak9SQ0dXdk01dVRBRG9QcXloS3dNVERscE1ZOVdCMnJCbWNQbGhJRV85TUp2V0F4Vk1zWE1QQVpvNEZvaE80QkROTXZ4cElZWnlJYnptX2stNW5hVW9NdUNsNFhKSldXNnhhMy12d3pobnhNZGlvTTZHRGw?oc=5",
      "src": "The Times of India",
@@ -948,16 +954,10 @@
      "at": "11 Oct, 23:18"
     },
     {
-     "title": "Musk vows affordable Starlink in India days before Ambani's record Jio IPO",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY0F4U0J6aGRjT1Vnei1UWVR2dDdqRS1DYUpneWtJOVF0U0YwOWx6aWtWTnJoTnNIbDBaMExoMnktdmJOdXRZQ3hkM3RGLUJ2SS0wSlVPek4zb0NNbTFxeXlNZVJCX1RNNDNKamtMa0E4Sy14WVFLWFhjUDMydmdWa2xESTZBejdrWEctWkw1UFRyNlhKLUdjZ3M5cURNZXpIdVYwWGlKdXJQUGI3SW9jbW0wWkNnbklpV1RzVEw0MHNTRm9reUltLQ?oc=5",
-     "src": "Reuters",
-     "at": "12 Oct, 01:10"
-    },
-    {
-     "title": "Sebi’s CAS guidelines likely within a week, says chief Tuhin Kanta Pandey",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNHY3VEdtU1RrNTFyWWl4NUZGMXFjSmhtdlQ2bXVBQnItNWxuaVBnRkk3bnRQSnQ3QkhyV2sxZWp5d2pmZXczelRyVC1paW9Fa0ViNi1XOFJ2Wjk5SDJwWXRTY19qRzNrTVN4ZF9FNW9Ec2xCdzV6cnB2MkJ0cmVlaF9RY3NwX3l4YWNVREpiRk80ckRZRndtbzZTNzlWR2hKSE1RWkZUeUE0amRXa2FVWGpVUmp6Sl9QNXZ6RzQyNXpYZEFSTjJESUotTGZHYTI0LVd4ejBQM0N2ZDEzblHSAeMBQVVfeXFMTUlzb29NRWNuT0tnOFNYSXoyWkNhMG5nRFlpZDUtbUYwU2dUeW5HTTlndldrempnLUZHNlVlRkQ5Q0VfeXN3bGVqOE1Mck0zNEF3X0lRbnM0YWhCcWZieWVSTHpKV1BPdGxkSHpnMW15NkJrYm5jek5IN1ZmRWdJdEdBU2dyRUtHT3NLMU43UUNTODRCSlNtLUVwNHV2VTh0Y1EzRzNFcFVfRFEwUDZXS1pjU014alFkWDB5QkFfYkxRUHU4cjM5VFpEOUR3OEFLem0yazM2NWdDMzNzM0k3U3BQNTQ?oc=5",
-     "src": "The Economic Times",
-     "at": "10 Oct, 19:28"
+     "title": "Sensex Today Rallies 879 Points | Nifty Above 22,500 | 6 Reasons Why Indian Share Markets Are Rising",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPaWFmTWE5ZjFmQmF6aTBNVjJhblhLNjBMcmVfU0c0bjZUT1M2OUhUNXZJS1dvc3RIdzRTR21lQmZfRDRlSkN4N05seEpLMGw2NGRxYWZEOGJwNWk4QmVneHloeFVpcnRCU29JWlNkbUF5WVRJRXAwS3hrNzNQUTdBcU96QndkLXFpWGR6cUFUU0l5aTR2YkFGNWVuV2N3a3JJQkhUYUNDZzhvS3hGTjQwVkllaGdaMWs0d2NwTWVyWUN3bEdRZ3NHckRUYjlEd0JNYjh3NzhrRmZwS1BqSHZrc1lUbmtVb1UyOUpnWm15MA?oc=5",
+     "src": "Equitymaster",
+     "at": "9 Oct, 16:01"
     }
    ]
   },
@@ -1030,7 +1030,7 @@
      "at": "11 Oct, 12:21"
     },
     {
-     "title": "Pakistan vs Sri Lanka Live Score Updates 2nd T20I",
+     "title": "Pakistan vs Sri Lanka Highlights 2nd T20I: Maaz Sadaqat, Sahibzada Farhan Power Pakistan To Series Win Over Sri Lanka",
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONUszTVZJYmVrT3dESEV6cTB3TDdMUDc4OFhpZjBuOEpuOUk1R0ZOY1VXYVFVYUkyaWJ3SXlfWVpkVXdlTXNXOU5rbnRFQ0hYYTZNMEdRZXdHSGNCS1ltZ3RIc0ZlalhWQkQ0dDhiWmdoQ2hLVjRIOGljbm96eGs5YmZQOURXUmJ5NzliWjNhZjQtWTI3UjVHMmNkaHVyd05udDVubkpFUVc?oc=5",
      "src": "NDTV Sports",
      "at": "11 Oct, 23:13"
@@ -1071,16 +1071,16 @@
      "at": "11 Oct, 17:00"
     },
     {
+     "title": "OnePlus 16 gets a sword-themed gift box based on A Record of a Mortal’s Journey to Immortality",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdEc3eW9iTmFDZHdlUE5xQU1wM3VFNlJYd3RXbFdsa0pDaGxJcHBlQXFNR1hOMTV5UEZKNW1pblRzalVReGY3UU1oNGZJWGcxcUh5cno0YlV4VlNJMDYxTWdjbHZwYUt6eXY4LVBlN3B2WkFLdDNvRHp3Z3k5dG82NWZNT0JuMTVwNFNXeC1hZzVyeVBmN3lwUHJFdVoySFRWNU9lQjROeHhWY0thZE9xd05mdWY3bDFOMElkRFNueE9kdm1QTVAwX2lTTkZnRVBNMHNLbzN3?oc=5",
+     "src": "Notebookcheck",
+     "at": "11 Oct, 01:17"
+    },
+    {
      "title": "TRISHNA satellite is in advanced stage of realisation, says ISRO official",
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNE9wbnVVNE5rX3JQMC1LUVhRU0t1U0l6anlIaVBPZHd3NEtGSE5jYW45bUR0azQxSXJKbzBGZkZfQ2dqeFBIZ2FueEhCRXg5cG9za0lGUW9WSmNqbGJkalBHWURIM1RKWVVTZlRybXhNeWJabEdxNEZjYlRXUkpIeWRZN0ZMdXg2VHBSTUpUUW0tSm92LUttcHZQM1RCc0tJQ3A1Y2tPeThDWWVYZGxQbUVQbVJDYlNWbmQzaGwycElUVnFBQWZzTy1NS3lBeTDSAdYBQVVfeXFMTk5kR2Y0aC1ZbzE2U2JQcjRrQ3lhRDNLRnVUS19YTW96UmhSRWpzWVRBVnVURFpWby1rZTNLbHpqNXZOdGs2S2RNWDdlSGZsUjFyVU5NaGRPWENzb1cwdUEwTi12S0FxVE9xcnM4NVR5MnY3WG84SElKcHJDaXo4RWJhTmQ2T1RSa0toVGk1VTRaVjZNY1JYbzJGdTlZdE9yYS1nRjlFdGZxaW5zekJRZ2lZUm5FNTlHWHRDUlpfOGZEMVZzZU95cGUxQkhxTkhuU3BaNzhuZw?oc=5",
      "src": "The Hindu",
      "at": "11 Oct, 21:25"
-    },
-    {
-     "title": "Māori game developer explores colonialism and cosmic horror through the eyes of a penguin",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaXJBYlI0SUlISjgzNHpmU05vMXdXYWRvUTlhOFc2UWpueXFfN2ZwUFpmRmt4Y3lkbG9tZTNyNnpKLUVHcmdlRGs2azBJanNNSnpydnFBU2d0bTZlZWxFcllSN3UtX3ZIbUh2dVVNQ0o5RFNKN0ltcmhodTh4M3Q1NTlScU0zYU9zbGh5dmxyRF9NZDBXWXIyYVdnQUJoS0FaZ3YyLWczaGdGM05tVlIzZDVoMjBJZlpuMVhQaGdKSVliRTVlc25id2Zn?oc=5",
-     "src": "RNZ",
-     "at": "11 Oct, 13:04"
     }
    ]
   },
@@ -1118,10 +1118,10 @@
      "at": "11 Oct, 21:10"
     },
     {
-     "title": "Preserving Your Organization's Heart in the Age of Artificial Intelligence",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcEk2X2NZMDdYTEU2TjRiYzBkVFhRd21USEdHVFhmTlRiN2NMWmVVcmZSdTVvRVRqZlc2ZXNiWWdIV0oxaVZpNHROMG5tRlFzQkNqS3BOTjNjVmlEZGpKWlhSZm1IOU11VDRieFF6emRRU1dRQWNSbVpQRThQcENoa21LZ3JKeVlzaU1BWmFfVGNpYjZ3ZW1rNk52QzQtQnF1cmF6T01wcGJBSjM0eWFDcHdCTEV3MWNMSWJj?oc=5",
-     "src": "I95 Business",
-     "at": "12 Oct, 00:03"
+     "title": "UK to strengthen cyber defences as minister calls for AI firms to increase safety efforts",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFpoZ1QxOWVmSkdqblhxbndMUjAyZUtFbWpIcHFnU0Q0SHNJMms1UkVLOVhmUHVDUXpIQmhmSVpoRWE5TTNHRFFXNkNSbmVhTXpFaEk3ZkU2TTk3VWt1Wk1xZE9iVkZiT0JzNDlkRXlUZEI0U0I5ZXl3aUpJWDBXN1RmaUcwYTJiZ2hNb3U0bFBoaHhvR2Z4eTI5LWNYYTRTYXJPQU56QQ?oc=5",
+     "src": "The Guardian",
+     "at": "12 Oct, 04:31"
     }
    ]
   },
@@ -1282,10 +1282,10 @@
      "at": "11 Oct, 09:44"
     },
     {
-     "title": "Netanyahu calls for criminal investigation into soldiers who appeared on NAZA film",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOODNhN3lSWmhQam1SV3JMajlTeTllcFBLYS1fN3I5eWxHYWJQbFVRbDVhaWFxaDdhb2doZXpYeDFZNjNNODBzcVFpd0o2UkRWVzdIWkFIb1Z2c2FRSmtiUDc2R1k2N1U3ZkNRUGZOT3hNanZmekJSMXZqUVFZM08ySFF0OXJLQ3NIRnY2R05UakRMZTNjd2lxb0pyVHBTNWR6TnM2ZloyTEZvaDFJOFdoSFJsazJ5SVkzT2IwWjJCUmJWNm9nNTNZ?oc=5",
-     "src": "The Times of Israel",
-     "at": "12 Oct, 00:14"
+     "title": "Environmental Protection as a Fundamental Duty under Article 51A(g)",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkR6Z1RKbUxuaEc1UzYxTTUzS2U1Y3lHMmczR1NwdWFJZGNTa252dUhGN2RfV3VSRjVyel9BdjdNcEhqUGs4OE1nRzhLRmFXeGJwYWRDZnFrRjdQWlhXY2VETHFqeDZ2TlRPWklTWmJ3TlpEOG0tZW5nOEZqXzluN2JmS2tyMjBnZWtiZGFkRHhxZ2xKdjhrLW9BN0dyOVBPYjhyMGJQbWV3MDF4anRuUE1qOFJiUQ?oc=5",
+     "src": "Legal Service India",
+     "at": "11 Oct, 17:25"
     }
    ]
   },
@@ -1323,10 +1323,10 @@
      "at": "11 Oct, 22:41"
     },
     {
-     "title": "Turkiye highway crash kills 11, injures 27 after tour bus hits truck",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcVNoWVpoeGVXbWtSd3dhVHJTRG5TRU9xNHA1c0xuNlpxcHdfLXhENTVSUlVjbmRqaGR3TF9QNnJucUJHXzJaNERaYVFkZGRGVFdzcnRGc3ZEVmhYMmI5U0N0MWRWTDhLMzNwdnhaMzR6MTBqdldzR21kbzVwMFUtWUloY0U4V1loYkU1QWdrcWtIbDEyc2VlZk91RmdOenJPNEpRWS1RalB5ZWJMTFHSAbMBQVVfeXFMTmxxWTVOaV9XVmE0V0pERUZIRU1Kd2czRHk2MzBkVEpjOGJfMmxSVExGQlBuQ1Z5MWdqd2xMU0lMTUdCalpfWTJqOUpDdlhsVGtXVW9LcHkxcDd0SkxoT2E2NVo2OG0zRzdqRC1CcXZHaFRzNVpJcGlTU1RObEpGMTBKTUVCV3hZOWNJU3BCb2tpeWNvcTBhX2J3SU9FZ1V2TmlBZkFlWFlDMm41SUdzTVRfQ0k?oc=5",
-     "src": "Al Jazeera",
-     "at": "11 Oct, 22:46"
+     "title": "Pakistan PM Shehbaz Sharif govt declares emergency, ends Imran Khan's party's rule",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVHpxdDNEZEV4U0RXYTh5bklUeWJPaHNuX2l0aVVBWWpBZ3ZuT0dWYmxxWHlYUjI2aEk1R2NrTmFaaEhjcXBQVlFKbmZWVFRuQVRzZHFUMWk5Ti1wUWwzYzg1MURva1Q5bDU0a2w5ZXQ3Tzh5WEtVZzBnMDlEOW5JdDAyWTRaYkNtZG9oN3k0U1RWdEhlUmdXNlAxUlRYUEZhbm1YOVotLWFhM2JCdVFzb3FyMTNZV1VYZ1JvRnpIVWI2N29jSTBocVMxZEFYYUZrZ2ZsOHB3VzZ0VlFOdjc3S1l2aHpqTGtKT1pxdWpMcTjSAfYBQVVfeXFMT2NtTWJxSmVyYkF2R3JiYzhuX29oLTFvWFROX0ZRX1FMQm9rRGpSNDE4Y1pINThlYlhhLVB4MGc1QVpQMG1QRjVUWmVFanptNHlVeUpua3Q0OUVCcndXWTZYME13ZDZBcHc1b3VEWnBLRFY1MkhGVzhjRjhabVpwWjNsWmZ5VFpScEw2N212aHJaYXJ5Y3ZkV0hOQU9teUZQdHMwcDFjdWFWOFZSekZPa0VuYjljR296QzdobmFOcHVBNGRsWGRxWkFQM01lWFpqNHlLWjZoNEVxZy1IUV9kMzJ1MEVWSTBYb29GNjFvODRqVThERnZn?oc=5",
+     "src": "Telegraph India",
+     "at": "11 Oct, 15:53"
     }
    ]
   }
