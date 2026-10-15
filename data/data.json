@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-15T03:31:04.623Z",
- "label": "15 Oct, 09:01 IST",
+ "generatedAt": "2026-10-15T03:40:46.360Z",
+ "label": "15 Oct, 09:10 IST",
  "markets": {
   "indices": [
    {
@@ -19,12 +19,12 @@
    {
     "name": "Nifty 50",
     "g": "NIFTY_50:INDEXNSE",
-    "price": 22622.7,
-    "chg": -99.25,
-    "pct": -0.44,
+    "price": 22671.3,
+    "chg": 48.6,
+    "pct": 0.21,
     "spark": [
-     22721.95,
-     22622.7
+     22622.7,
+     22671.3
     ],
     "fx": false,
     "ok": true
@@ -45,12 +45,12 @@
    {
     "name": "Nifty IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 30171,
-    "chg": 340.9,
-    "pct": 1.14,
+    "price": 30544.9,
+    "chg": 373.9,
+    "pct": 1.24,
     "spark": [
-     29830.1,
-     30171
+     30171,
+     30544.9
     ],
     "fx": false,
     "ok": true
@@ -138,12 +138,12 @@
    {
     "name": "IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 30171,
-    "chg": 340.9,
-    "pct": 1.14,
+    "price": 30544.9,
+    "chg": 373.9,
+    "pct": 1.24,
     "spark": [
-     29830.1,
-     30171
+     30171,
+     30544.9
     ],
     "fx": false,
     "ok": true
@@ -177,12 +177,12 @@
    {
     "name": "Energy",
     "g": "NIFTY_ENERGY:INDEXNSE",
-    "price": 36503.5,
-    "chg": 527.6,
-    "pct": 1.47,
+    "price": 36360.45,
+    "chg": -143.05,
+    "pct": -0.39,
     "spark": [
-     35975.9,
-     36503.5
+     36503.5,
+     36360.45
     ],
     "fx": false,
     "ok": true
@@ -622,16 +622,16 @@
    {
     "name": "Sun Pharma",
     "g": "SUNPHARMA:NSE",
-    "price": 1746.4,
-    "chg": -24.3,
-    "pct": -1.37,
+    "price": 1736,
+    "chg": -10.4,
+    "pct": -0.6,
     "spark": [
-     1770.7,
-     1746.4
+     1746.4,
+     1736
     ],
     "fx": false,
     "ok": true,
-    "pe": 34.6
+    "pe": 34.4
    },
    {
     "name": "Bajaj Finance",
@@ -778,20 +778,6 @@
     "pe": 17.3
    },
    {
-    "name": "Sun Pharma",
-    "g": "SUNPHARMA:NSE",
-    "price": 1746.4,
-    "chg": -24.3,
-    "pct": -1.37,
-    "spark": [
-     1770.7,
-     1746.4
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 34.6
-   },
-   {
     "name": "L&T",
     "g": "LT:NSE",
     "price": 3642,
@@ -804,6 +790,19 @@
     "fx": false,
     "ok": true,
     "pe": 30.2
+   },
+   {
+    "name": "Tata Motors",
+    "g": "TMPV:NSE",
+    "price": 283.8,
+    "chg": -2.05,
+    "pct": -0.72,
+    "spark": [
+     285.85,
+     283.8
+    ],
+    "fx": false,
+    "ok": true
    }
   ],
   "breadth": {
@@ -877,15 +876,15 @@
    "Breadth: 6/16 stocks up — mixed today",
    "Top mover: Infosys +2.44%",
    "Weakest: Bajaj Finance -2.62%",
-   "Hot sector: Energy +1.47% · Cold: Pharma -1.3%",
-   "3/8 sectors green today",
-   "Nifty 50 down 0.44% — flat session",
+   "Hot sector: IT +1.24% · Cold: Pharma -1.3%",
+   "2/8 sectors green today",
+   "Nifty 50 up 0.21% — flat session",
    "India VIX 14.62 — moderate volatility",
    "Global cues: FTSE 100 +0.7%, Nikkei 225 -4.81%"
   ],
   "context": [
    "A mixed, stock-specific day with no clear index direction — the kind of day where individual names matter more than the headline number.",
-   "Money rotated into Energy and out of Pharma. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
+   "Money rotated into IT and out of Pharma. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
    "India VIX is low (14.62) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
@@ -934,10 +933,10 @@
   },
   {
    "tag": "AI",
-   "title": "Using artificial intelligence in your job search",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRExhQXJpYTFSM2F1MkFxZVFsNUhfeS1fNTZqN0FKaXFVQ0RfNDBQQVUzNGRKckpKajNMa2huMDNBQ0NDX3lGRzd1OGtYM01feFpsVFBrR3lsREhTNlYtY0twZnhuVW5uS3dsZ3dZSFM3eFduOGhYLTA0WWxBbkxkam5pRUU1bWc2MlZLbUw5RUItalg4SUlpMGhQYW8?oc=5",
-   "src": "Chemical & Engineering News",
-   "at": "15 Oct, 02:19"
+   "title": "Domain specific training with three-dimensional virtual colonoscopy images improves artificial intelligence based automated size prediction for large lesions",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1UTlkVWhCX0VtUXRiQ3pSalRzYTdwR0dUM2NFRmdvVXlFdS1MUzFTRkw4UlVZWnRqc0dsLU1pV04tRGFmQjBXUHZiSkp1OWVFa1pNdHBlMG9YWUlmclo4TVhsNUZ6NjYyQ21r?oc=5",
+   "src": "Baishideng Publishing Group",
+   "at": "15 Oct, 07:49"
   },
   {
    "tag": "Economy",
@@ -993,16 +992,22 @@
      "at": "15 Oct, 07:26"
     },
     {
-     "title": "Trading Plan: Can Nifty 50, Bank Nifty enter consolidation phase amid broader market weakness?",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbko5bExobVE0ZHhYRGZ2bXVCYWlRaVZfMlluQXhyeU02aHBBUUFxSm1IYVNzMVJobklLZVpWNlQ4MDRfOXlfcU81NHZZbkhhQmF3enVSUmI0WFlsYXk5RlFLWDRoWDA2ZmJ1a1Nwa3JtMnFRYTdxTzhPTkJ3eFRnbjBYUWNOdmlpQUtZeXYyNXlIV0pSLW5fUnZ0WHRrTmxoVEc4NUdYZVdpYUVTX2xhNk1ad1Z3dGMzbFNjREpSMDU2MlRyNjd2MTRzaTZFSVFjM3JaM2tyUlBhY2x3UHk5UXRkOUt1RnJrUm0wMdIB8gFBVV95cUxPdElJS3puLXBfRENQZ3k1azF1SnNTZlpQSW83RXpRaGhjQ3BONmRYVV9oVklaekR6SVVxWWdJTkZyNUZvVUtXVl9KOHpvbEhJUGpSVlpRU0lvQ3NjNjRYeUFGQ1VyMEoyUnRaRkJpWVdBNHAzYjVueGVNWndNbnVmdUhJZkpBQjhjZGp0aUM5eDVfVG52OTFDUV9jQ1JJQkt0eGhzN3Rhb3ZQVzZ3Q3ZzQjRJMF9ZVnBxbUh5b0JCdEhhY0JYMGpDTEpYWEhIQkczMEJUa3gwX1g0VUduS2UzdlRmUHZHeG8ybzA5dWx5MWx0UQ?oc=5",
-     "src": "Moneycontrol.com",
-     "at": "15 Oct, 07:46"
+     "title": "Stock market outlook today, 15 Oct: Sensex, Nifty prediction - DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
+     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPQmt4MElPMFdzZEZHaGlsSnRoTGZRQ3lua2F1ZnZnQ3hLT2dOUDlSRzluaUtMZ2I3eEgyUmEyOVJEYlJmV2ZJcUI5TTZia1IxVEk2V1hSUlVyT2JXTkN2WTZSWXFlV0wtTDFnTmhvX2llUXJhTEVoRURmVDQtc2dIVm10MVRrSjV6TTJUUXFqZEZlbEg3ek5LazBkVzM0QUZnNVFMVTV6VU92X0tXRU5Fa1FFb2ltTzJHY2s2N1UwMWtzeEpubHEzNnhvUGpWSlU2VzBIaTU0TWlFNkhGczJhVWdKTGYwdjRLczYzRllRaGQzQmloZnN5dkF2Nk1JbjUxaU5YcdIBigJBVV95cUxQeGloY3FkM2YwOXhZR1NQb1NSUXVPdS1pYzZzVkZMeVRaX1d2M3hDaVRJQ3NKQ0gzeV83X0h0S1FSTlRlbjRIXzY0T3I0dzZTV3dHWWs3dWo4emFzcVlsbnRLVFJ4VHYyRHlJOWJhWEpJZjl3MDI0RjBRaHFiRk92OUJtZGo3ZTZTTm9FMGprdTY4dXFUUjR5ekY0cWtjeVlRbldaOFk4dXB3VDgwNWpPQm9FSXVIYmUtc0t0dGo0SnpidG5sQV9aaW9zSFJoM21VWURzckNiYnc3NTZwVGs2Nk1GZGVPNGxSWGMwbDlvd0NXTmxUc1liczd0QTJydWpjYjdqb3BOVl92QQ?oc=5",
+     "src": "Livemint",
+     "at": "15 Oct, 06:49"
     },
     {
      "title": "Fairfax Financial Buying Majority Stake in India’s IDBI Bank",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdjRkbktBSkNLaE13WkxCbUYxbzd0b3VHZng4enF2eHVLWnFkSGFORmZHM2hvQy1QdVp2aEtVUG9BZTk5MlhlOG1tOXZzWUhPSXFQTlViVFhMZ2tlTFhTQzFIOFFBU0F2N0ppWGJpWk1fbXVkMHV4ZU1WbGNYVEhJR2R2Uno0U0RUTHZjM1Vfc2QwbDZHU21rbU9fclU?oc=5",
      "src": "WSJ",
      "at": "14 Oct, 19:00"
+    },
+    {
+     "title": "Trading Plan: Can Nifty 50, Bank Nifty enter consolidation phase amid broader market weakness?",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbko5bExobVE0ZHhYRGZ2bXVCYWlRaVZfMlluQXhyeU02aHBBUUFxSm1IYVNzMVJobklLZVpWNlQ4MDRfOXlfcU81NHZZbkhhQmF3enVSUmI0WFlsYXk5RlFLWDRoWDA2ZmJ1a1Nwa3JtMnFRYTdxTzhPTkJ3eFRnbjBYUWNOdmlpQUtZeXYyNXlIV0pSLW5fUnZ0WHRrTmxoVEc4NUdYZVdpYUVTX2xhNk1ad1Z3dGMzbFNjREpSMDU2MlRyNjd2MTRzaTZFSVFjM3JaM2tyUlBhY2x3UHk5UXRkOUt1RnJrUm0wMdIB8gFBVV95cUxPdElJS3puLXBfRENQZ3k1azF1SnNTZlpQSW83RXpRaGhjQ3BONmRYVV9oVklaekR6SVVxWWdJTkZyNUZvVUtXVl9KOHpvbEhJUGpSVlpRU0lvQ3NjNjRYeUFGQ1VyMEoyUnRaRkJpWVdBNHAzYjVueGVNWndNbnVmdUhJZkpBQjhjZGp0aUM5eDVfVG52OTFDUV9jQ1JJQkt0eGhzN3Rhb3ZQVzZ3Q3ZzQjRJMF9ZVnBxbUh5b0JCdEhhY0JYMGpDTEpYWEhIQkczMEJUa3gwX1g0VUduS2UzdlRmUHZHeG8ybzA5dWx5MWx0UQ?oc=5",
+     "src": "Moneycontrol.com",
+     "at": "15 Oct, 07:46"
     },
     {
      "title": "Indian shares end lower as higher oil prices, foreign outflows dent appetite",
@@ -1015,12 +1020,6 @@
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUdXTFZ2WFowNUFJVTgxX20zeG5XRmFsVm5GNEJjSlJYWVRuaVNOWG5ONGlHMVhTMUYwTzlXM0E4TTlaWFVZbWtVUm03ZUppNm9BS3dWZGpqV3UtWEhuUFRxX3ZhX2Ftb1gyWHA3NEZYMGt6OWV3bTZoRkhpblM3a1RzdkRiSkRlMGx5OTZTejhIekE2Y3VFeW5QOHk0YXJESWExT1RUZWJyd9IBrwFBVV95cUxPRWRWRUVEWFhldVg2ZUtZMDZrTWxIbDNmMzZuYmlXTlQyV2V2bmdTc1dnWkllbU9TTlhZQ19GRDBvUy1OY2ZNYVNPNHRBVVlqM2o4ZDdEVHJjTFhhR2d2MnVOSmJJZk1IY0RnUDM5X20tMWNrZlJyeWVCalI2Umg5UnVpNDZIaERGZmdaY1AzZzcwaTZDdWV2dVRQU2FtbnVveWZ1aEpfb1BtdDFITmhJ?oc=5",
      "src": "Crude Oil Prices Today | OilPrice.com",
      "at": "15 Oct, 04:30"
-    },
-    {
-     "title": "Hyundai India New Pune Plant - Rs 11,000 Cr Investment, Hybrid Production Planned",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR2NHMDZXb1lCcjhXdW00b3dQT1d1QVdoUkhQbVo3VWt2alJWeXNlVkgteHhzVFdGYTVTd1BvUEdyRUZhTl96ZmhQaFk2SjhsTTFmOHY1YUVYdEQ4NlZwcGM0YzBwRzM3Qzh5Qjh0Y1p2SlZBYXo5SzBwbGk3M205aXBXODk1a2k4YlpuZUFMWFBiNjdkOXVmN9IBmAFBVV95cUxNR2NHMDZXb1lCcjhXdW00b3dQT1d1QVdoUkhQbVo3VWt2alJWeXNlVkgteHhzVFdGYTVTd1BvUEdyRUZhTl96ZmhQaFk2SjhsTTFmOHY1YUVYdEQ4NlZwcGM0YzBwRzM3Qzh5Qjh0Y1p2SlZBYXo5SzBwbGk3M205aXBXODk1a2k4YlpuZUFMWFBiNjdkOXVmNw?oc=5",
-     "src": "RushLane",
-     "at": "14 Oct, 19:22"
     }
    ]
   },
@@ -1087,16 +1086,16 @@
      "at": "15 Oct, 06:32"
     },
     {
+     "title": "'Don't like going out anymore': Prithvi Shaw opens up on life and his goal of India comeback",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOS0VvSU1HZDJfOXdISHF1QjNrUnNEejVwZW80eDV0RHpvYnRzdVFsUTJmb3hhZGdpaEdOWEJueTNTWDBBVml1aU9JQmtFRERyMDZYVWc1QS1IUHNKZkowdnEtQmxRQ2ZUa2xzWTlETXJEWmxQTDVndFhLQWhEdlJRNmdjVUQ4VGRDWWNNVExSREtQVlBUMTZUd2xXR251VmFqcnhRcWtGZ0hEQVlJbmtIaEsxMWs1a090LUV3c2FkQzhxY0t0aUFuX05vX25nSThIeDdubHNuTl9sU19NbHpFaEJDemEtMHN0Q1BwX0NwWmx2WllOaVNqem9OLUN6eVk?oc=5",
+     "src": "The Times of India",
+     "at": "15 Oct, 08:15"
+    },
+    {
      "title": "Parthiv Patel Out Of BCCI Chief Selector Race? Ex-Keeper Misses Deadline For Job",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU25VckpzanR3RXdjNjBlWnlZdmJTeGRfRVh1N3h5bUNBaVVfT1RHZnZOMXozdlprZWRLRWFaQ3ZYbjBqRkdJWFVBWXJOY0MxM28zczU3RFNmQTNfbjRqNldqLTlxS09YdUpPT1l4aFRfTVp1YXlnbXVFQW95NVhVRVlVRDJDdzJzUWRmVjZLWWpBcmR2Zi10U2czelN3T1dEYURhUG5VcVVuMnhOWENTbDJpNUhtb2pObGlYM21paWpFY1Ry0gHKAUFVX3lxTE1lRVQ5YkZzYTRodUF4RE5OU2tJQ0NNNmlJSkpQMVlSMTVoU3RpdW1QTmRvVlk3M0o5ZkVqVEptbUZtZzhLaVQzQmJpUktWSkMtT3IwVkZOZEc1RVNHWkQzMThnWlROUUcxMU9iVVVqX0RHMDREd1lKelJ0bmozeTZUTmNWU1dSc2ZBbEk5WUpxX1ZaVDdQOGFMLWNWbGRvQkRmNE4yeEJMclZrRlFqMGM4NmMzd1ItMEp6UmdLNlo4OWdDeHhFNTE0VGc?oc=5",
      "src": "News18",
      "at": "14 Oct, 17:23"
-    },
-    {
-     "title": "Prithvi Shaw interview: I have stopped going out. It's me, my family and cricket now",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSVU1UEs0ZGZHd3hvaWgzdTRaUTVaLTJpaDNkNHBoMnROOFBzQjFFOEIxSXpXb3BHczBJOEVQclNBWFZOZ3U2VUh1VVVzM1VZNFlQM2UwektFSTkzaG9GR1hnaVJCRkk2cDNFLUFyNGJpQ2Uwc1pEbGdoVFZPcllUYThZZHAwdDI2Y2tsUU9TR0I4Zy1uNTB1T0VjSll1cE1ORmZuY3ZLdWlQdEFNSnVsSGRVNEFsYm9RR3IwNmFSWTU4aUnSAcgBQVVfeXFMUFZWYmR2cDFqLUY4UlY5TXZMYXhENjFJWXBxQlh0aUNzSEU1dHB4aS1mc3RxNklTOUZxTnBUaHpxX0pPQ0pzR0NBTEdaMjdHTFA3OUxSQUdkWlI3NzhwVVp5MWNJN0RSUURXeGVaRGgzLVlxUUxSQ0oyRTB4YUNJZFRZaHRFa0VaRFhDaTF4ZWIxU3JSRWZiRXdnSFAtMUphQmJnaGJ2VDdtR0Mwa0daV2x1NnJYcjJ0T1ZRZnp5X04tMVlPc0tZN2c?oc=5",
-     "src": "India Today",
-     "at": "14 Oct, 19:26"
     },
     {
      "title": "South Africa need 'singlebloodymindedness': Conrad after Durban defeat",
@@ -1157,6 +1156,12 @@
      "at": "15 Oct, 06:03"
     },
     {
+     "title": "Domain specific training with three-dimensional virtual colonoscopy images improves artificial intelligence based automated size prediction for large lesions",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA1UTlkVWhCX0VtUXRiQ3pSalRzYTdwR0dUM2NFRmdvVXlFdS1MUzFTRkw4UlVZWnRqc0dsLU1pV04tRGFmQjBXUHZiSkp1OWVFa1pNdHBlMG9YWUlmclo4TVhsNUZ6NjYyQ21r?oc=5",
+     "src": "Baishideng Publishing Group",
+     "at": "15 Oct, 07:49"
+    },
+    {
      "title": "Using artificial intelligence in your job search",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRExhQXJpYTFSM2F1MkFxZVFsNUhfeS1fNTZqN0FKaXFVQ0RfNDBQQVUzNGRKckpKajNMa2huMDNBQ0NDX3lGRzd1OGtYM01feFpsVFBrR3lsREhTNlYtY0twZnhuVW5uS3dsZ3dZSFM3eFduOGhYLTA0WWxBbkxkam5pRUU1bWc2MlZLbUw5RUItalg4SUlpMGhQYW8?oc=5",
      "src": "Chemical & Engineering News",
@@ -1179,12 +1184,6 @@
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaWRWTElzWnNXaXMtQ0tlWW5MSEYtZEFpbG5SbUl0dTdaWWEtby1yTnNHZFgyUjdoWkVQWENNMTJMZVNJcjYta1ltWFViYmRBMlFUcFlvaFVFbkpjOW1WcFhyY1E2Y1VRaFVHdUR5RHVITkdNWWZkWGR0blljZGJ2UnlqSkxzSWhfTmtfVTlHQzdZVmlObDRyMjZJZEZPTFJDaWNhSA?oc=5",
      "src": "Reuters",
      "at": "15 Oct, 03:13"
-    },
-    {
-     "title": "CEA Holds Conference To Make India’s Power Sector AI-Enabled",
-     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONmhiSnVaNmdHdmRMTFFZS1lmdWZ3TldBN1hnUVFyNFQtelNMUWJjTFU1Y0JjdEEtN1M0dU9Xdml3bUpTZVJoeU9GUXVUc2N2eVZDWmRjTmhJRXNTMmg2UUhDdlRPZ1JQeXZpQzl5RV92UjJXZ0pZblM1eEVPWXdVamJCQXU?oc=5",
-     "src": "Sarkaritel.com",
-     "at": "15 Oct, 08:04"
     }
    ]
   },
@@ -1199,9 +1198,9 @@
     },
     {
      "title": "Think beyond 7%",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSWNoZHFtQzFZeVVnRGJZWTdJOTlXRDFmYldPZExzYTBIVHNHdlBLeFdQWFVITFZJYzdMbWhzRUN0NTRoZ3J3WkdXSWJxMWE4aHBpYlhpb3RGdDl1T1ZhNmx6VjhaWWxaejJBbjVQSHl3LTlmV3hUd251WWwwdzE4OU1RaGt3Q3pXdjEyRk51TElOWE9uR1FjbFZHRmxjZHo2cXBN0gGoAUFVX3lxTE9yT3dIS005T0VLWllqak9QMUdILU1OZFNHb1RGQ3pVR0dyVVNlN3JIbm5Fd2tZdm1xZWZ3ZnVLeWt0dDUtWURCNHdJNWZ0ZndLWE96YXRrZVRianllaTVUa1pMSHkyb09BSi15Mmx2blMzMENtMjVvMzFCSVdHS2ZyUDkwNUZpckllLVJVWXU0VXhwQy1Eb2t6TkxKZ01MTTVrWFVaVmFmZw?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdGNITzVBbk1sMmlnWnRCQUxrVFVIVkJwaXM3SEtJWmFub09rLUVqNExaa2E3VXZvb09zRUdId3BBYm9lZ3prSVBGZVpLTzZfZ2VEQTdVMHpRUU13eWdDTkNkNm1NZWhjUndxNFFsSFNhaFMybFZJSUltejVQN0JQcXVXTHRCR08tdHJxQ3ZmeEFyNklndkJ3ejRBM3FKbVdNdkZV0gGoAUFVX3lxTFBPMGtxN2ZLLUdnSkJ5WWlaYTJDenY3RUxlR2dPVmJ1Y19tMm9na0RGWl82Yk8xVEV6MHhaU3Q5a092bnpKSHcxWHA3SXU4bjRCODJVM25mYVRaM2pBaS03Uy1zREFSeDVfQVZNZ20xYnJCRHJjTG9XX3FRN3RJdGxCcS1rUmlsaHZWWjhOekJfak15cUIyajJkXzlGUlRWOGdDX2p4MjV3Yw?oc=5",
      "src": "The Times of India",
-     "at": "15 Oct, 05:00"
+     "at": "15 Oct, 08:54"
     },
     {
      "title": "IMF applauds India’s GDP data revamp, says country entered energy shock with strong fundamentals",
@@ -1222,10 +1221,10 @@
      "at": "14 Oct, 17:00"
     },
     {
-     "title": "RBI Rate Hike: Can Your FD Beat Inflation After Tax?",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMXVQRVFMMUpRM3VJaTl0ZDJzZThEdUY5MndyY3pZWFZBVVFBN0E2UFFzRC1qY0tDNURfdDR1SE5LbU5wVHdBLTZsc2VUMXNmZ1NnemxCNnlRdHhjaFVVRW14bzhvY3pJLVY1d2VvTDhEUHNVcDVfTXRRRGQ4QW9EUWpva1AtcWdwY09WNDFQXzZITWxSWTd4R1QxZnBTcmFpck9ULUd3?oc=5",
-     "src": "NDTV Profit",
-     "at": "14 Oct, 15:21"
+     "title": "Think beyond 7%",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSWNoZHFtQzFZeVVnRGJZWTdJOTlXRDFmYldPZExzYTBIVHNHdlBLeFdQWFVITFZJYzdMbWhzRUN0NTRoZ3J3WkdXSWJxMWE4aHBpYlhpb3RGdDl1T1ZhNmx6VjhaWWxaejJBbjVQSHl3LTlmV3hUd251WWwwdzE4OU1RaGt3Q3pXdjEyRk51TElOWE9uR1FjbFZHRmxjZHo2cXBN0gGoAUFVX3lxTE9yT3dIS005T0VLWllqak9QMUdILU1OZFNHb1RGQ3pVR0dyVVNlN3JIbm5Fd2tZdm1xZWZ3ZnVLeWt0dDUtWURCNHdJNWZ0ZndLWE96YXRrZVRianllaTVUa1pMSHkyb09BSi15Mmx2blMzMENtMjVvMzFCSVdHS2ZyUDkwNUZpckllLVJVWXU0VXhwQy1Eb2t6TkxKZ01MTTVrWFVaVmFmZw?oc=5",
+     "src": "The Times of India",
+     "at": "15 Oct, 05:00"
     }
    ]
   },
@@ -1237,12 +1236,6 @@
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FZTBOb2xsNFIxaDFIei1YaU1ERnZwbW5pa3BDcDJhVnZmaEF3clJKVGFMcFJLYTJMeWtIb2RPclZNZXdLMGt0ajJPNTh5NS1wTS13bG12VU9rOUE3UmZhVG9oN0dPbHZ5ZHFJSVk0MVROeFVuUGtn?oc=5",
      "src": "pib.gov.in",
      "at": "15 Oct, 06:55"
-    },
-    {
-     "title": "Photo Album",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfYkd3Zk9iRlRsT3JTd0dYTVVldW1MTmFFcWJCcExKVHlxS2pqakozYjZoeFZ1d2JYTnBveXhocnN4TlhvOFY0MkJzRWNnOWV2SE9zWldYY203Nm5xQzhTMlk3eDlPeUVxN1VVZHVpYlNlOUU?oc=5",
-     "src": "www.pib.gov.in",
-     "at": "14 Oct, 20:50"
     },
     {
      "title": "India’s democracy, opposition & the leader of opposition",
@@ -1257,16 +1250,22 @@
      "at": "14 Oct, 20:23"
     },
     {
-     "title": "A motion of no confidence against Kristen Michal's government has been introduced in Estonia",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZUhNUnpaRm5WVGJYc2xZWXRmY0lEdWVRMkhzUmtEQnJSOVVNQ05uZklTV3ZLNjd0cUVsMzUzTVF0eHBiU1BKU3BRWFVpMUxRZFQ4b1AyQ0g1SzhpcS1KU1hIOXU3cU5pdVk3bjNmV2IwX2Z2Zk5iRFNsb19nX0J3eUZyWi1ZLUR6dkN2ZGJ3M3A?oc=5",
-     "src": "UA.NEWS",
-     "at": "14 Oct, 14:21"
+     "title": "Photo Album",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfYkd3Zk9iRlRsT3JTd0dYTVVldW1MTmFFcWJCcExKVHlxS2pqakozYjZoeFZ1d2JYTnBveXhocnN4TlhvOFY0MkJzRWNnOWV2SE9zWldYY203Nm5xQzhTMlk3eDlPeUVxN1VVZHVpYlNlOUU?oc=5",
+     "src": "www.pib.gov.in",
+     "at": "14 Oct, 20:50"
     },
     {
      "title": "Parliamentary Panel to Examine Satellite Internet Amid Starlink Row: Security, Competition in Focus",
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTW54TGFRMk9WV1RneHdxYlNUSVBacTlIXy16THlNaXFwMzBBM3lRejFvUmM0LXZwWUQ5RHA2bGN1aGhPSlpsRThPR1FaeVBwWDc2TkRsYUpCN0dhLWczOXFRMndJVnVvbWFiWEVUYW9udEFkc0N3WS1NWkI0QzBKMEZzbERURHAwMUFUQ1hodkROVXFWaUFWaTI5WkxOZS1weTRvaXB5UU9DbFNPZzJzQ3BzQ2FjWlM3dVJVSVU1bWVOQXk1MF9iUVFCdExzWjg?oc=5",
      "src": "www.nationpathindia.com",
      "at": "14 Oct, 20:11"
+    },
+    {
+     "title": "A motion of no confidence against Kristen Michal's government has been introduced in Estonia",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZUhNUnpaRm5WVGJYc2xZWXRmY0lEdWVRMkhzUmtEQnJSOVVNQ05uZklTV3ZLNjd0cUVsMzUzTVF0eHBiU1BKU3BRWFVpMUxRZFQ4b1AyQ0g1SzhpcS1KU1hIOXU3cU5pdVk3bjNmV2IwX2Z2Zk5iRFNsb19nX0J3eUZyWi1ZLUR6dkN2ZGJ3M3A?oc=5",
+     "src": "UA.NEWS",
+     "at": "14 Oct, 14:21"
     }
    ]
   },
@@ -1362,16 +1361,22 @@
      "at": "14 Oct, 22:21"
     },
     {
-     "title": "Iran reports cargo ship sinks after hitting mine in Strait of Hormuz",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQelpvaUZOeUF5OEFwS3NfN0FTVVFoYzdHMjRWM2dLbzZMS3BPX193bjFua2JndE1CaWJOVGhsbXdsTXlHYjM2YU4xdXNDVFo5M1Rta2tqOHItU093WW5VeFZtV0xhU1BTeU9HcGVjWHRQMGVOem5xb3Q0ZVpOQkIwYWxKRFJCd0pxRldCTm9VUEZDYmdibE1iSVVkWjl4N2VrRmVHbk1vYWc1SzhVNU1JZWNPQ2ZXWk1QMVUxdzl5ZDlKcmY0c0ctX0Y0Q1LSAdMBQVVfeXFMUFZ5Q2hUR0l3ZktQb3lROGwxanJsR21zWlRxZDJRQTY0Zmk0RDZHVm1aTVBQUVgxalU4WFVwOXMyY1FMWGstemM4LUFvbkJFVWJobUU3WnVyVHdKVWFUb08wbjhDYWozLWkwbzc3cEFMQ0dDX18wUVU5aGF1QjlrM09kdl9NZmZmRENnSGkxTWM5RFI3Y0RYeldUYXdfS0x3OC1aM1hIX1c4LUotQWdtWlRmVkpUWXJFTWNXNV9rU19xaDhjUVV5OUtTNWNUTWUzempaRQ?oc=5",
-     "src": "The Hindu",
-     "at": "14 Oct, 22:11"
-    },
-    {
      "title": "US Teen Plans Mass Shooting' At Hindu Temple In US, Jammed Rifle Stops Him",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS2xHZDY5a2ctTDE4LUVVWl9tTjlCbTh6S1JSd0ExNWI3cGp6SXhUX1BZM2w1eVBRUDBScUZkTVA0TkxOZWd2RG96Y0FvckxodTJ3ZmZvTXhTY0YxOVVTamJmTF9yNHpiY0hjMmQ1a3NfS3ZRTVdVTTRTN2hudkJ2czhUaTJBLTRXSnFUb3RtVlNuZ0ViNUgwbVhrLXV3VEhFUDBqZGJaNUhoUnNf?oc=5",
      "src": "NDTV",
      "at": "15 Oct, 07:27"
+    },
+    {
+     "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5",
+     "src": "Reuters",
+     "at": "15 Oct, 02:42"
+    },
+    {
+     "title": "Iran reports cargo ship sinks after hitting mine in Strait of Hormuz",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQelpvaUZOeUF5OEFwS3NfN0FTVVFoYzdHMjRWM2dLbzZMS3BPX193bjFua2JndE1CaWJOVGhsbXdsTXlHYjM2YU4xdXNDVFo5M1Rta2tqOHItU093WW5VeFZtV0xhU1BTeU9HcGVjWHRQMGVOem5xb3Q0ZVpOQkIwYWxKRFJCd0pxRldCTm9VUEZDYmdibE1iSVVkWjl4N2VrRmVHbk1vYWc1SzhVNU1JZWNPQ2ZXWk1QMVUxdzl5ZDlKcmY0c0ctX0Y0Q1LSAdMBQVVfeXFMUFZ5Q2hUR0l3ZktQb3lROGwxanJsR21zWlRxZDJRQTY0Zmk0RDZHVm1aTVBQUVgxalU4WFVwOXMyY1FMWGstemM4LUFvbkJFVWJobUU3WnVyVHdKVWFUb08wbjhDYWozLWkwbzc3cEFMQ0dDX18wUVU5aGF1QjlrM09kdl9NZmZmRENnSGkxTWM5RFI3Y0RYeldUYXdfS0x3OC1aM1hIX1c4LUotQWdtWlRmVkpUWXJFTWNXNV9rU19xaDhjUVV5OUtTNWNUTWUzempaRQ?oc=5",
+     "src": "The Hindu",
+     "at": "14 Oct, 22:11"
     },
     {
      "title": "Indian-origin public servant in Australia allegedly stalks woman, threatens to track her through government databases | Trending",
@@ -1380,16 +1385,10 @@
      "at": "14 Oct, 19:49"
     },
     {
-     "title": "Fire at Aramco headquarters in Saudi Arabia after Houthi strike",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd2wtcUVHMUw3U2VkSkFYUVg2SGF3YU9XRGRZQUR1QUxpTm94YnZlQTJiNnlyMGVkQ1NKVWczSk1ZLUZGdXp3bDhlQnhnNnA0RnNWU1FtempxMVZlT3RjZERJcXhXLVQ5REtFSG14MFNsalFUdG1xMU5hbGVGZ0JhTHV3dlNNeF90YjBpQndRa2V2UjBORmRpM1p4dkQwei1qc2dR0gGqAUFVX3lxTE9qa3V2Z3RwX0ZsRkF3TlRrSjVkWHdWeGVXSVNMVFM0U3BRSl9IaTJkdjdXUm16dWYwN0ZqQ1U4T2E1aUtDNG90T2pQY29CMWJyaXR6VS1mcXAtQzhJWENFMU9jNjc0VnJhbEVsRU1uTlFFeWhTd1l0UjNpaHFBTVl4XzM5YkFYOUZkMDFkQldCMk8yS0hWcWd4dmtILWRCOXpBRmUwXzBkMW1B?oc=5",
-     "src": "The Indian Express",
-     "at": "14 Oct, 11:45"
-    },
-    {
-     "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkdFQnE4VXFUbGJlcS1VaTFHbjQ0RGFIM1Z4SlhUbHlWQXpUTUtHWTB1Z1hZWGg3Y2I5R2lIYzJKUkYwT0VrRVB5Wi1uUkhnTGQxbm9iamMwaktyVnluQlRVdm10bnpMZC1jNUNqQzVfVUNjUnUydm9XR0N4R3NpdUEtNkFKZzdCendFTkRJRWhiMl9CVU5manRteVpYbk9nUEZZamVpTTZLU0xtN1JzNNIBtgFBVV95cUxNUFJyamdZU1BmR2pxcWd1VGQ0aUVEZzhOM292OWMxQ3FfcjNEX19BWEJuMEtnVFNpa3R1RThmQnZCWjNIZnpCNTNTV1NYN1VFVVhIRmQtdjFHNjM1Y0Exc1V5a1hiWkF6bHAzNEh0NGNYZl9ocXhMemxad2tmN0pRN2MyZ1IzZmZXcERxTElEX1FnYnNSMTROZnNUd3hpbFRmdDlvR3NDUUMzdzRMN0gyZDhyQlZfZw?oc=5",
-     "src": "Al Jazeera",
-     "at": "14 Oct, 17:12"
+     "title": "Not a coincidence: Ukraine's Starlink access restricted after Trump's Russia pivot",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPM0YtQlgtTzBJSTJZeHJ6REZpOEJRc2Q3YXpnbncxLVhIU0dsVWxWcTVSSUJoSnQ3S2NhaUJFQ3VzRWdJd1BwRkh2VXNmZVFvdjZxbmNWZzVCRThabXlwSWk3RHR2V2o4UUMwQTVwS0RXYnVBSnRpbVJvXzJ1Q1AyeEh5QXFXSlNRSDU0WVdLcmlicHU1LTZfSFVSOC0tMEw3bFVZZjdyYm93M0FYMnNWb2Q0OWNFeUVhckdEZjh6aHVlSERVNWJibkRaY3FjN0kyQ3JxZ09qRkxWRlVsLUljVTN5ZC0yUdIB6wFBVV95cUxOMkctZ3JYQUF2NXhGWms5enFlaFd3OE5Tbkw1YUVvLWlFTmlpVG9xVWtKTUdnX2RwbkhoWjN2SEYtaXhqU0tSaDFXM2dYRllCdWJxUzFidkNJbnRiam00dTUzQUNIcGh2V0hJWmZpV2lGRWg1VVpFRVVkaVBhR1J1TnNLdDYwNzBFeF80bTBjSlVrczZrWmdKak5hbmhFbm9nSEtqdUpZeE9wMUozTmg3WDVlZjRSSUpUUEhyWEFIZDZZQUtQb3pDRFVIM3JNSHAxOXE3NFR0Z0psUDZpNUNiYkw0T0taWGpYRy1Z?oc=5",
+     "src": "India Today",
+     "at": "15 Oct, 01:45"
     }
    ]
   },
