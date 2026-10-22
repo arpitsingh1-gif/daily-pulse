@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-10-22T06:31:06.162Z",
- "label": "22 Oct, 12:01 IST",
+ "generatedAt": "2026-10-22T06:50:47.292Z",
+ "label": "22 Oct, 12:20 IST",
  "markets": {
   "indices": [
    {
     "name": "Sensex",
     "g": "SENSEX:INDEXBOM",
-    "price": 73517.4,
-    "chg": -192.29,
-    "pct": -0.26,
+    "price": 73117.11,
+    "chg": -592.58,
+    "pct": -0.8,
     "spark": [
      73709.69,
-     73517.4
+     73117.11
     ],
     "fx": false,
     "ok": true
@@ -19,12 +19,12 @@
    {
     "name": "Nifty 50",
     "g": "NIFTY_50:INDEXNSE",
-    "price": 22739.75,
-    "chg": -71.6,
-    "pct": -0.31,
+    "price": 22602.05,
+    "chg": -209.3,
+    "pct": -0.92,
     "spark": [
      22811.35,
-     22739.75
+     22602.05
     ],
     "fx": false,
     "ok": true
@@ -84,12 +84,12 @@
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4104.4,
-    "chg": -45.6,
+    "price": 4104.2,
+    "chg": -45.8,
     "pct": -1.1,
     "spark": [
      4150,
-     4104.4
+     4104.2
     ],
     "fx": true,
     "ok": true
@@ -97,12 +97,12 @@
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 56.26,
-    "chg": -1.45,
-    "pct": -2.51,
+    "price": 56.18,
+    "chg": -1.53,
+    "pct": -2.65,
     "spark": [
      57.71,
-     56.26
+     56.18
     ],
     "fx": true,
     "ok": true
@@ -112,12 +112,12 @@
    {
     "name": "Auto",
     "g": "NIFTY_AUTO:INDEXNSE",
-    "price": 25145.1,
-    "chg": -51.55,
-    "pct": -0.2,
+    "price": 24873.4,
+    "chg": -323.25,
+    "pct": -1.28,
     "spark": [
      25196.65,
-     25145.1
+     24873.4
     ],
     "fx": false,
     "ok": true
@@ -151,12 +151,12 @@
    {
     "name": "Pharma",
     "g": "NIFTY_PHARMA:INDEXNSE",
-    "price": 25508.35,
-    "chg": -57.55,
-    "pct": -0.23,
+    "price": 25425.2,
+    "chg": -140.7,
+    "pct": -0.55,
     "spark": [
      25565.9,
-     25508.35
+     25425.2
     ],
     "fx": false,
     "ok": true
@@ -164,12 +164,12 @@
    {
     "name": "FMCG",
     "g": "NIFTY_FMCG:INDEXNSE",
-    "price": 43146.6,
-    "chg": -574.1,
-    "pct": -1.31,
+    "price": 42915.95,
+    "chg": -804.75,
+    "pct": -1.84,
     "spark": [
      43720.7,
-     43146.6
+     42915.95
     ],
     "fx": false,
     "ok": true
@@ -177,12 +177,12 @@
    {
     "name": "Energy",
     "g": "NIFTY_ENERGY:INDEXNSE",
-    "price": 35127.2,
-    "chg": -347.55,
-    "pct": -0.98,
+    "price": 35005.9,
+    "chg": -468.85,
+    "pct": -1.32,
     "spark": [
      35474.75,
-     35127.2
+     35005.9
     ],
     "fx": false,
     "ok": true
@@ -190,12 +190,12 @@
    {
     "name": "Metal",
     "g": "NIFTY_METAL:INDEXNSE",
-    "price": 11779,
-    "chg": -80.55,
-    "pct": -0.68,
+    "price": 11708.95,
+    "chg": -150.6,
+    "pct": -1.27,
     "spark": [
      11859.55,
-     11779
+     11708.95
     ],
     "fx": false,
     "ok": true
@@ -203,12 +203,12 @@
    {
     "name": "Realty",
     "g": "NIFTY_REALTY:INDEXNSE",
-    "price": 807.7,
-    "chg": 1.85,
-    "pct": 0.23,
+    "price": 797.65,
+    "chg": -8.2,
+    "pct": -1.02,
     "spark": [
      805.85,
-     807.7
+     797.65
     ],
     "fx": false,
     "ok": true
@@ -257,12 +257,12 @@
    {
     "name": "Nikkei 225",
     "g": "NI225:INDEXNIKKEI",
-    "price": 63179.59,
-    "chg": -1441.65,
-    "pct": -2.23,
+    "price": 62907.84,
+    "chg": -1713.4,
+    "pct": -2.65,
     "spark": [
      64621.24,
-     63179.59
+     62907.84
     ],
     "fx": false,
     "ok": true
@@ -270,12 +270,12 @@
    {
     "name": "Hang Seng",
     "g": "HSI:INDEXHANGSENG",
-    "price": 22927.92,
-    "chg": -723.95,
+    "price": 22928.32,
+    "chg": -723.55,
     "pct": -3.06,
     "spark": [
      23651.87,
-     22927.92
+     22928.32
     ],
     "fx": false,
     "ok": true
@@ -297,12 +297,12 @@
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 16.12,
-   "chg": 0.45,
-   "pct": 2.85,
+   "price": 16.34,
+   "chg": 0.66,
+   "pct": 4.24,
    "spark": [
-    15.67,
-    16.12
+    15.68,
+    16.34
    ],
    "fx": false,
    "ok": true
@@ -311,12 +311,12 @@
    {
     "name": "Nifty BeES",
     "g": "NIFTYBEES:NSE",
-    "price": 259.61,
-    "chg": 0.04,
-    "pct": 0.02,
+    "price": 258.13,
+    "chg": -1.44,
+    "pct": -0.55,
     "spark": [
      259.57,
-     259.61
+     258.13
     ],
     "fx": false,
     "ok": true
@@ -324,12 +324,12 @@
    {
     "name": "Bank BeES",
     "g": "BANKBEES:NSE",
-    "price": 570.23,
-    "chg": 1.64,
-    "pct": 0.29,
+    "price": 567.05,
+    "chg": -1.54,
+    "pct": -0.27,
     "spark": [
      568.59,
-     570.23
+     567.05
     ],
     "fx": false,
     "ok": true
@@ -337,12 +337,12 @@
    {
     "name": "Nifty Next 50",
     "g": "JUNIORBEES:NSE",
-    "price": 729.42,
-    "chg": -1.26,
-    "pct": -0.17,
+    "price": 726.06,
+    "chg": -4.62,
+    "pct": -0.63,
     "spark": [
      730.68,
-     729.42
+     726.06
     ],
     "fx": false,
     "ok": true
@@ -350,12 +350,12 @@
    {
     "name": "Gold BeES",
     "g": "GOLDBEES:NSE",
-    "price": 116.95,
-    "chg": -1.18,
-    "pct": -1,
+    "price": 117.38,
+    "chg": -0.75,
+    "pct": -0.63,
     "spark": [
      118.13,
-     116.95
+     117.38
     ],
     "fx": false,
     "ok": true
@@ -363,12 +363,12 @@
    {
     "name": "Silver BeES",
     "g": "SILVERBEES:NSE",
-    "price": 189.84,
-    "chg": -5.22,
-    "pct": -2.68,
+    "price": 190.02,
+    "chg": -5.04,
+    "pct": -2.58,
     "spark": [
      195.06,
-     189.84
+     190.02
     ],
     "fx": false,
     "ok": true
@@ -376,12 +376,12 @@
    {
     "name": "Nasdaq 100",
     "g": "MON100:NSE",
-    "price": 305.15,
-    "chg": -2.25,
-    "pct": -0.73,
+    "price": 304.56,
+    "chg": -2.84,
+    "pct": -0.92,
     "spark": [
      307.4,
-     305.15
+     304.56
     ],
     "fx": false,
     "ok": true
@@ -441,68 +441,68 @@
    {
     "name": "Reliance",
     "g": "RELIANCE:NSE",
-    "price": 1196,
-    "chg": -13,
-    "pct": -1.08,
+    "price": 1190.2,
+    "chg": -18.8,
+    "pct": -1.56,
     "spark": [
      1209,
-     1196
+     1190.2
     ],
     "fx": false,
     "ok": true,
-    "pe": 21.7
+    "pe": 21.6
    },
    {
     "name": "TCS",
     "g": "TCS:NSE",
-    "price": 2501,
-    "chg": -28,
-    "pct": -1.11,
+    "price": 2488,
+    "chg": -41,
+    "pct": -1.62,
     "spark": [
      2529,
-     2501
+     2488
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.5
+    "pe": 17.4
    },
    {
     "name": "HDFC Bank",
     "g": "HDFCBANK:NSE",
-    "price": 701.2,
-    "chg": -5.75,
-    "pct": -0.81,
+    "price": 692.25,
+    "chg": -14.7,
+    "pct": -2.08,
     "spark": [
      706.95,
-     701.2
+     692.25
     ],
     "fx": false,
     "ok": true,
-    "pe": 13.5
+    "pe": 13.3
    },
    {
     "name": "Infosys",
     "g": "INFY:NSE",
-    "price": 1162.45,
-    "chg": -5.55,
-    "pct": -0.48,
+    "price": 1147.15,
+    "chg": -20.85,
+    "pct": -1.79,
     "spark": [
      1168,
-     1162.45
+     1147.15
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.7
+    "pe": 15.5
    },
    {
     "name": "ICICI Bank",
     "g": "ICICIBANK:NSE",
-    "price": 1395.4,
-    "chg": 10.4,
-    "pct": 0.75,
+    "price": 1389.5,
+    "chg": 4.5,
+    "pct": 0.32,
     "spark": [
      1385,
-     1395.4
+     1389.5
     ],
     "fx": false,
     "ok": true,
@@ -511,12 +511,12 @@
    {
     "name": "SBI",
     "g": "SBIN:NSE",
-    "price": 964.85,
-    "chg": 1.85,
-    "pct": 0.19,
+    "price": 963.05,
+    "chg": 0.05,
+    "pct": 0.01,
     "spark": [
      963,
-     964.85
+     963.05
     ],
     "fx": false,
     "ok": true,
@@ -525,40 +525,40 @@
    {
     "name": "Bharti Airtel",
     "g": "BHARTIARTL:NSE",
-    "price": 1907.5,
-    "chg": 15.8,
-    "pct": 0.84,
+    "price": 1898.5,
+    "chg": 6.8,
+    "pct": 0.36,
     "spark": [
      1891.7,
-     1907.5
+     1898.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 39.8
+    "pe": 39.7
    },
    {
     "name": "L&T",
     "g": "LT:NSE",
-    "price": 3658.8,
-    "chg": 22.8,
-    "pct": 0.63,
+    "price": 3656.2,
+    "chg": 20.2,
+    "pct": 0.56,
     "spark": [
      3636,
-     3658.8
+     3656.2
     ],
     "fx": false,
     "ok": true,
-    "pe": 30.4
+    "pe": 30.3
    },
    {
     "name": "Tata Motors",
     "g": "TMPV:NSE",
-    "price": 271.55,
-    "chg": -4.15,
-    "pct": -1.51,
+    "price": 269.45,
+    "chg": -6.25,
+    "pct": -2.27,
     "spark": [
      275.7,
-     271.55
+     269.45
     ],
     "fx": false,
     "ok": true
@@ -566,82 +566,82 @@
    {
     "name": "M&M",
     "g": "M%26M:NSE",
-    "price": 2861.5,
-    "chg": -27.5,
-    "pct": -0.95,
+    "price": 2843.4,
+    "chg": -45.6,
+    "pct": -1.58,
     "spark": [
      2889,
-     2861.5
+     2843.4
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.4
+    "pe": 17.3
    },
    {
     "name": "Maruti Suzuki",
     "g": "MARUTI:NSE",
-    "price": 11175,
-    "chg": -25,
-    "pct": -0.22,
+    "price": 11084,
+    "chg": -116,
+    "pct": -1.04,
     "spark": [
      11200,
-     11175
+     11084
     ],
     "fx": false,
     "ok": true,
-    "pe": 24.5
+    "pe": 24.3
    },
    {
     "name": "ITC",
     "g": "ITC:NSE",
-    "price": 259.3,
-    "chg": -2.7,
-    "pct": -1.03,
+    "price": 257.1,
+    "chg": -4.9,
+    "pct": -1.87,
     "spark": [
      262,
-     259.3
+     257.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 16.4
+    "pe": 16.2
    },
    {
     "name": "HUL",
     "g": "HINDUNILVR:NSE",
-    "price": 1828.3,
-    "chg": -21.9,
-    "pct": -1.18,
+    "price": 1816,
+    "chg": -34.2,
+    "pct": -1.85,
     "spark": [
      1850.2,
-     1828.3
+     1816
     ],
     "fx": false,
     "ok": true,
-    "pe": 28.7
+    "pe": 28.5
    },
    {
     "name": "Sun Pharma",
     "g": "SUNPHARMA:NSE",
-    "price": 1746.8,
-    "chg": 1.7,
-    "pct": 0.1,
+    "price": 1739,
+    "chg": -6.1,
+    "pct": -0.35,
     "spark": [
      1745.1,
-     1746.8
+     1739
     ],
     "fx": false,
     "ok": true,
-    "pe": 34.6
+    "pe": 34.5
    },
    {
     "name": "Bajaj Finance",
     "g": "BAJFINANCE:NSE",
-    "price": 932.55,
-    "chg": 6.55,
-    "pct": 0.71,
+    "price": 933.2,
+    "chg": 7.2,
+    "pct": 0.78,
     "spark": [
      926,
-     932.55
+     933.2
     ],
     "fx": false,
     "ok": true,
@@ -650,56 +650,28 @@
    {
     "name": "Adani Ent",
     "g": "ADANIENT:NSE",
-    "price": 2561.9,
-    "chg": -32.6,
-    "pct": -1.26,
+    "price": 2537.5,
+    "chg": -57,
+    "pct": -2.2,
     "spark": [
      2594.5,
-     2561.9
+     2537.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 41.3
+    "pe": 40.9
    }
   ],
   "gainers": [
    {
-    "name": "Bharti Airtel",
-    "g": "BHARTIARTL:NSE",
-    "price": 1907.5,
-    "chg": 15.8,
-    "pct": 0.84,
-    "spark": [
-     1891.7,
-     1907.5
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 39.8
-   },
-   {
-    "name": "ICICI Bank",
-    "g": "ICICIBANK:NSE",
-    "price": 1395.4,
-    "chg": 10.4,
-    "pct": 0.75,
-    "spark": [
-     1385,
-     1395.4
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 17.1
-   },
-   {
     "name": "Bajaj Finance",
     "g": "BAJFINANCE:NSE",
-    "price": 932.55,
-    "chg": 6.55,
-    "pct": 0.71,
+    "price": 933.2,
+    "chg": 7.2,
+    "pct": 0.78,
     "spark": [
      926,
-     932.55
+     933.2
     ],
     "fx": false,
     "ok": true,
@@ -708,26 +680,54 @@
    {
     "name": "L&T",
     "g": "LT:NSE",
-    "price": 3658.8,
-    "chg": 22.8,
-    "pct": 0.63,
+    "price": 3656.2,
+    "chg": 20.2,
+    "pct": 0.56,
     "spark": [
      3636,
-     3658.8
+     3656.2
     ],
     "fx": false,
     "ok": true,
-    "pe": 30.4
+    "pe": 30.3
+   },
+   {
+    "name": "Bharti Airtel",
+    "g": "BHARTIARTL:NSE",
+    "price": 1898.5,
+    "chg": 6.8,
+    "pct": 0.36,
+    "spark": [
+     1891.7,
+     1898.5
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 39.7
+   },
+   {
+    "name": "ICICI Bank",
+    "g": "ICICIBANK:NSE",
+    "price": 1389.5,
+    "chg": 4.5,
+    "pct": 0.32,
+    "spark": [
+     1385,
+     1389.5
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 17.1
    },
    {
     "name": "SBI",
     "g": "SBIN:NSE",
-    "price": 964.85,
-    "chg": 1.85,
-    "pct": 0.19,
+    "price": 963.05,
+    "chg": 0.05,
+    "pct": 0.01,
     "spark": [
      963,
-     964.85
+     963.05
     ],
     "fx": false,
     "ok": true,
@@ -738,12 +738,12 @@
    {
     "name": "Tata Motors",
     "g": "TMPV:NSE",
-    "price": 271.55,
-    "chg": -4.15,
-    "pct": -1.51,
+    "price": 269.45,
+    "chg": -6.25,
+    "pct": -2.27,
     "spark": [
      275.7,
-     271.55
+     269.45
     ],
     "fx": false,
     "ok": true
@@ -751,141 +751,80 @@
    {
     "name": "Adani Ent",
     "g": "ADANIENT:NSE",
-    "price": 2561.9,
-    "chg": -32.6,
-    "pct": -1.26,
+    "price": 2537.5,
+    "chg": -57,
+    "pct": -2.2,
     "spark": [
      2594.5,
-     2561.9
+     2537.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 41.3
+    "pe": 40.9
+   },
+   {
+    "name": "HDFC Bank",
+    "g": "HDFCBANK:NSE",
+    "price": 692.25,
+    "chg": -14.7,
+    "pct": -2.08,
+    "spark": [
+     706.95,
+     692.25
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 13.3
+   },
+   {
+    "name": "ITC",
+    "g": "ITC:NSE",
+    "price": 257.1,
+    "chg": -4.9,
+    "pct": -1.87,
+    "spark": [
+     262,
+     257.1
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 16.2
    },
    {
     "name": "HUL",
     "g": "HINDUNILVR:NSE",
-    "price": 1828.3,
-    "chg": -21.9,
-    "pct": -1.18,
+    "price": 1816,
+    "chg": -34.2,
+    "pct": -1.85,
     "spark": [
      1850.2,
-     1828.3
+     1816
     ],
     "fx": false,
     "ok": true,
-    "pe": 28.7
-   },
-   {
-    "name": "TCS",
-    "g": "TCS:NSE",
-    "price": 2501,
-    "chg": -28,
-    "pct": -1.11,
-    "spark": [
-     2529,
-     2501
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 17.5
-   },
-   {
-    "name": "Reliance",
-    "g": "RELIANCE:NSE",
-    "price": 1196,
-    "chg": -13,
-    "pct": -1.08,
-    "spark": [
-     1209,
-     1196
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 21.7
+    "pe": 28.5
    }
   ],
   "breadth": {
-   "up": 6,
+   "up": 5,
    "total": 16
   },
   "trending": false,
-  "ipo": [
-   {
-    "title": "Vaibhav Vyapaar IPO Date, Price Band, GMP, Subscription & Allotment",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wQkdsTG1NcmpVNkVJUnVlNmVsVVg2R093TUhfclFfSGpZYmEtSTVTQlBzMkZfcV85RVFVRmZLRTZQV0RLck1fWE8wQ0JXWDE5cl9XejhIVXFsQzNJZTFBQVlZTQ?oc=5",
-    "src": "India IPO",
-    "at": "21 Oct, 16:19"
-   },
-   {
-    "title": "Reliance Jio IPO creates history with fastest-ever full subscription - Will listing set more records? Check latest GMP",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVkpEZTdQWEJPM1BIeko5R1dlLXpLR1NLR1ZsQ010N0dNTDFNVUNtV081bUwwc0dRSHRFNERNLVZ0emlTOUZab1BqcXJ2TGlVYlE5UGxsSFl5dkdTUDhROTZlMGtjTjBtZHBsNnhZZ21pLUZQUXd6UUFkR2R5a0xveWlqWk1VY0ppNnlBWlhGRVc2YjZKTkhiMzVqWnBiT3UxbHREX3ZRVHN0UWFlU0pqclZBdnlMQVVMWjZKM0xEWDdyeHpYTkNEd0FtVHlNUllmQmZocXE0RVg4Y25zZW45Qm4wamdmNXpZQzd3YjBrUDRQMDc4dzZYSzhSRnJicExVRldN0gGIAkFVX3lxTE1ZdGRrWHoyeWlWdF9rS2FZbVhrbk9SYmp2ajA3R3dGbkNrdnlNdTlZN2Q0ZVFkSHVreVlsOExDTmRFODR6VGYxbWd2QkxEOGlKWlloNzR0WjA3X2N0TUVkWVNWNEFZRHhDRklXRUl6ZVpxZFN0MThVYnh5Z2dGUDJ3SDZyWmxfbUpPd2FqSzVXd3BYU3lINkFmTlVqcjlmMHliX3hTQ1JVZnhQbUtndTNJR1M2eWc4YkEwVEVDSmltdlkwOFRXdHRTeWVrdEU3OTI0N1BWblhlMXNqT0ZDelpnTW9KRHJuUjZJQTZkVUNSTTNUT1pFUDdvOHRxOHNoZElxZjFmWlRUeA?oc=5",
-    "src": "Livemint",
-    "at": "21 Oct, 14:30"
-   },
-   {
-    "title": "Jio IPO Day 2: GMP at 22%, issue subscribed over 3.16; check brokerage views and key details",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVW4xal9raGQ2blBqVEpQWG1UQ1FhZFJwT2VZYjRVdmxlZTZrbnYyZEo3TkNBb2o5U2dRdVQ5RVpCUmVIeTdzQmlGU09HMWhJdUxXbHZrQTFWTGctZ01PWW5tVUJyNTRUa0dlZHZUWTFuazdmV1AzZDlfNnJXX2FqZzZkdlpTVVlmS2RQcHhRQXBiZHRXaHB3M3ItUWhabzByUER2NmpqalFaTUZWWUs2VmpTUWluZ2MyOWI2WnQxOVJlbTBkNzRNVFpFajk5ZHZHRldES1lyV28yRVZrbmlxZEg0ejFZcnZXeF9kaTVDT2Vfd9IB9wFBVV95cUxPbXpoVTBia2cyR0NpSmZCVm9Iel9ndEJRZ0ltQi1GSlFNWF9ZLWNtNHV1dklFcEJuN0xYNm4yX2g4ckExbjkzNGhUMkJCWGNaeHpnQnRvVC16bkFpU1lQdXZkRnQ4RVFuNHRjWnk0SlVuMDZ0Y3lXUHA3amhVcHpXRmVlaDFKanliZDVibDZid3VOaHQ0VV9LM0djSVVsSTZkbmlIZE9oWW1KYkxKaWZWTkdUTy05d3FFQ0dfMDJ3cFFiN2xKTUhRSm1hX0QyWVdCSWtod3JZZm9TMHM1ems5clNiaklxMjZHR0V6cjJRc3FpSGFpMDdv?oc=5",
-    "src": "The Economic Times",
-    "at": "22 Oct, 09:18"
-   },
-   {
-    "title": "Jio IPO Day 1: QIB demand leads as issue sees 1.69 times subscription",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmJoMDRGQjJ6RnVVSUJNb3NwY05hNk1hcmQ0bmktNnpWSFc3dmhYU3VSSTBFaE9mNmNTQldDcnNCVzQtbFRoczJDN1JTTHMyN3E2Z0MzbGZjUlg0OUdOODVzbmZkdkhiUmhYQjRtQmRSeGZmdF9JcUEzOTBCbEJOYXZuMndpMEVfdGRNcGpPNk1kdm95cnItRdIBnwFBVV95cUxPUnFlOUJsTXJYMzNWLW5XQTYwU1dadjZxQzRGYnU2WkZWN2JLVUlHeXNnN3dOaHJsNEhMMWNmcXBqMUFIRUVBY2w3QTZvcXdZNndZOVhxQi1DZkdYZ2tYSHZKdFpOWHVwbHpQazV6OC1YaEJSeFBwZktpZHR5OTF5TFdvSy1IZGFzZmQ2ZjRocXQ0NkNVMlZ1MGhVdTlkY3c?oc=5",
-    "src": "The Indian Express",
-    "at": "21 Oct, 13:16"
-   },
-   {
-    "title": "Jio IPO opens: India’s biggest issue, and a big question over listing gains",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUmVaSEF3Wm1aRjFZbjVjVUNyT2FwZFM3MTZHeUFxbXZQZWZvOEdkVms2TThIc0Q0anhlWHVFOHpGbkxmWjlEdnVGTEl4b2lQSU9qLW9CSEMtTDZ5WGpQWmF6VG5WSGRwYzRETmUxN2puZFJMZHB6dkZuM3Zld2pzdFFLemVrdnA3OHRSaTVobmVFX3U0ZkYyOUZIX3hFME90bjBTNEQ4NkFZemhRQ0wtb3k0WF9PNzg3c0JSTw?oc=5",
-    "src": "The Federal",
-    "at": "21 Oct, 17:30"
-   },
-   {
-    "title": "Jio IPO Live Tracker – Subscription, GMP & Latest Updates",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wUGJHUTdGMmpRZFZQSU5xaGE0Y0NKZUlicU9tQXFJMm5ENWVPYmpIQkFUSTVWMTJ0enoyTWdCU0lOMXlSMmxFOEFTUk5ycEd3Y1plOFA0WXg5c2xIdXRtbk9ucjBNNk9Oc1Q1WVBR?oc=5",
-    "src": "Multibagg AI",
-    "at": "21 Oct, 15:14"
-   },
-   {
-    "title": "Ravita Engineering Services shares to list today: Check GMP ahead of debut",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQY2NhSTJDUTJGYjlneU5mY2ZDVnFSbkh3Vm51TGMyT1ZsWVVfMFRQS0JiMU8tNFh4clZXX0pUVmttMmtEN0FSanVkeVh6cDA5NnR1cFQ3M1Nna25mTktFQVJQUDRLNmd6V3VMZHN5M192MmlqQlh6UnBqWTB1ZkFmRmFCOVgyX3NuZ2VvTnZNU3hzaXdkVEUxMEpPb3ZHcFlBak5Vemc0OUVMMUZiVl9qUy12N2FoSk1QVzlwUlIwVHRkaVctVnFpejNNYUxwTDg0cGpiNHpJSE1XVjh5RFpxNdIB5gFBVV95cUxPT2U0X0FUQ0VMZ21HTmFobG5qMnczcFFsT2kzS0VYT2FtYjRpNXlpZWFQQ3czN3E1WGNYdFpzc0gyWDAwUjdMT0luOFgxd2k3TE5iU2ItVVZZUWRKcF83YUVPYUFGQVBXeUs2YnVIbWx1cVZiZlR4UUwxSWIxQ1VmbURnSVhQazRSUTRLU0ltWmN1WURBZk0yQUw5YndLOFpGN0szOGtvcldrc1J2RHlINUxQbFVlMlJ6dDNRdTVTUGhOY0Z4STFnTTdXNlJwU1dxZnJMYWIyZlZLTXZ2VjNiaXV4QVloZw?oc=5",
-    "src": "The Economic Times",
-    "at": "22 Oct, 09:21"
-   },
-   {
-    "title": "Reliance Jio IPO: Fully subscribed in 100 mins! Know how to improve allotment chances | What GMP hints at listing price",
-    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUVVmYXNEcVBTYXgzTG5tbU1OUTFWVkdydmhEb2plSHhTZG4zQUFfQlE2dDNDejdsMU9uc0wzUmFOVHlmbmhQV09aQnh1b0hfTW9jaXBWa3Z2alhkdWJJNnJFRldmTUszZGxxb1FPV25wR3ViYUdKZWg2Sm54SFZiQ3Q3aF9LaUpEUHlCNy1nZExaMTFaTVlTNGZPTVVYNG1ySDYyR3BfQmNST044QlNZQWN0eWpmb3duVGJxek9FMGF2R2pSX096TzZBREE5MDNjS1hWSDBaWTVmQjBIaGpBZ2lEdThoMm1JTF8zQUdIM1p2OVBudXNORnhfbTVyS2xq0gGGAkFVX3lxTE1FUWZmckFmS2hmd3BBUE1HNDlXSHl1RWVubTVjZ1FhVzZkaVV5d0NXeElOa0p0ME5YT2hfWkZ3RTVES3NsZGJtMUJwaWQxMnhXbFNCQXVtVlR4YlpxUUIweU5SM3Rlc0oxbTBtRGdmRnZOUkZSZGJmQlBxS01zS1AtdWhWTkVHSjlQQ2hOOGN3algyTVlPTnFzLVMxZWFnQW55WkJ5dUwtb1pUZlNrdkQ4VzNuYS1aLU51ZHdfd3YxekhXVDFEVUJEMkU0V0ZXU1FQOTA4YjlBeElMak4za3NVUkROWVFNaEtqcm0wVzVDNXpxcV9RTFB3aHpYek53a1d1Q0RvQ0E?oc=5",
-    "src": "Livemint",
-    "at": "21 Oct, 13:08"
-   },
-   {
-    "title": "SEBI’s SME IPO reforms offer a financing choice as rates rise",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNzQzNFJ1cWJ2SkN3X1FLaS1aeWFBQ19GUjdYeXFBQkQ2UHhhY3ZjQmMySmV0QWQtRE1vNlg0WmZMUWhVakJaSHR2T1NETnpaYnEwcTBjaUhkZDZITkpGYS1oWEI4bnJIOWlTYjhoMV80TjJfQkcteHEzUHNsX05URzJJQmFhTlY3eHNqSXl4cjM4OWFaNjQ3RXN3aDF0d1dnX3lTMmc4Uk1GWWpDX0ktLUQ2QzVyb2tkbl9kT2Rka9IBxgFBVV95cUxPOU5zbFUxYXE5SnVNdzFsWmNJTmtMNXVfWG1ER3BuRFRzWWY5YnJtanVtTkQzSDNtOVZrMjdHMkVJaVE2bnhtWEVnM0tUWVVjZzJJbm5ldGFXcXBDcl96Nlo4NHB1b05ZZlNsd1NZQzgxYk5XU05PQnI5NFdxcnNQTU9FTUhxcUwxMVNDdUJacmFIWjZwTnZKdnh6UlJOUXU4b0lSYUp0dllnVGZhcUpmaVk4VmFkTWJrY3FtV3RjVjIzc0NDdWc?oc=5",
-    "src": "The Hindu",
-    "at": "21 Oct, 12:14"
-   },
-   {
-    "title": "Tonbo Imaging IPO GMP Today with Listing Gain Expectation",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aRUtycjF0Znh2cTg2dm9GVmpPd29pLVBWQ3JXTDR6QXE5YlFscUNCSExaM2ItcXc2Vk55eWpFcTNudC1TNWxkUElUcFg1dnZPdVE5cEE2OVNMMmNQb0dNZ3VJWnlDeWNfSU05ZWFNRQ?oc=5",
-    "src": "IPO Watch",
-    "at": "22 Oct, 09:52"
-   }
-  ],
+  "ipo": [],
   "insights": [
-   "Breadth: 6/16 stocks up — mixed today",
-   "Top mover: Bharti Airtel +0.84%",
-   "Weakest: Tata Motors -1.51%",
-   "Hot sector: Realty +0.23% · Cold: IT -1.63%",
-   "1/8 sectors green today",
-   "Nifty 50 down 0.31% — flat session",
-   "India VIX 16.12 — moderate volatility",
+   "Breadth: 5/16 stocks up — broadly weak today",
+   "Top mover: Bajaj Finance +0.78%",
+   "Weakest: Tata Motors -2.27%",
+   "Hot sector: Bank -0.41% · Cold: FMCG -1.84%",
+   "0/8 sectors green today",
+   "Nifty 50 down 0.92% — bearish session",
+   "India VIX 16.34 — moderate volatility",
    "Global cues: Nasdaq +1.05%, Hang Seng -3.06%"
   ],
   "context": [
-   "A mixed, stock-specific day with no clear index direction — the kind of day where individual names matter more than the headline number.",
-   "Money rotated into Realty and out of IT. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (16.12) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "Broad selling today — most large-caps fell. Down days are exactly when disciplined SIP investors keep buying units cheaper.",
+   "Money rotated into Bank and out of FMCG. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
+   "India VIX is low (16.34) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
