@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-29T01:20:53.837Z",
- "label": "29 Oct, 06:50 IST",
+ "generatedAt": "2026-10-29T01:40:52.880Z",
+ "label": "29 Oct, 07:10 IST",
  "markets": {
   "indices": [
    {
@@ -14,8 +14,7 @@
      73246.03
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty 50",
@@ -28,8 +27,7 @@
      22698.85
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank Nifty",
@@ -42,8 +40,7 @@
      54267.4
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty IT",
@@ -56,64 +53,59 @@
      31553.4
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 95.21,
-    "chg": 0.03,
-    "pct": 0.03,
+    "price": 95.15,
+    "chg": -0.06,
+    "pct": -0.06,
     "spark": [
-     95.18,
-     95.2098
+     95.21,
+     95.1486
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 114.1,
-    "chg": -1.22,
-    "pct": -1.06,
+    "price": 114.37,
+    "chg": -0.95,
+    "pct": -0.82,
     "spark": [
      115.32,
-     114.1
+     114.37
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 4065.8,
-    "chg": 14.2,
-    "pct": 0.35,
+    "price": 4076.3,
+    "chg": 24.7,
+    "pct": 0.61,
     "spark": [
      4051.6,
-     4065.8
+     4076.3
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 53.91,
-    "chg": 0.24,
-    "pct": 0.45,
+    "price": 54.28,
+    "chg": 0.61,
+    "pct": 1.13,
     "spark": [
      53.67,
-     53.91
+     54.28
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "sectors": [
@@ -128,8 +120,7 @@
      25707.35
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank",
@@ -142,8 +133,7 @@
      54267.4
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "IT",
@@ -156,8 +146,7 @@
      31553.4
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Pharma",
@@ -170,8 +159,7 @@
      26541.35
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FMCG",
@@ -184,8 +172,7 @@
      42878.35
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Energy",
@@ -198,8 +185,7 @@
      34946.3
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Metal",
@@ -212,8 +198,7 @@
      11769.35
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Realty",
@@ -226,8 +211,7 @@
      797.85
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "global": [
@@ -242,8 +226,7 @@
      52475.1
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq",
@@ -256,8 +239,7 @@
      26549.85
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "S&P 500",
@@ -270,36 +252,33 @@
      7743.98
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nikkei 225",
     "g": "NI225:INDEXNIKKEI",
-    "price": 63954.19,
-    "chg": 685.82,
-    "pct": 1.08,
+    "price": 64582.68,
+    "chg": 628.49,
+    "pct": 0.98,
     "spark": [
-     63268.37,
-     63954.19
+     63954.19,
+     64582.68
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Hang Seng",
     "g": "HSI:INDEXHANGSENG",
-    "price": 23094.83,
-    "chg": 53.51,
-    "pct": 0.23,
+    "price": 23134.09,
+    "chg": 39.26,
+    "pct": 0.17,
     "spark": [
-     23041.32,
-     23094.83
+     23094.83,
+     23134.09
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FTSE 100",
@@ -312,8 +291,7 @@
      10694.5
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "vix": {
@@ -327,8 +305,7 @@
     16.25
    ],
    "fx": false,
-   "ok": true,
-   "stale": true
+   "ok": true
   },
   "etf": [
    {
@@ -342,8 +319,7 @@
      259.47
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank BeES",
@@ -356,8 +332,7 @@
      561.2
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty Next 50",
@@ -908,7 +883,7 @@
    "3/8 sectors green today",
    "Nifty 50 down 0.22% — flat session",
    "India VIX 16.25 — moderate volatility",
-   "Global cues: Nikkei 225 +1.08%, FTSE 100 +0.07%"
+   "Global cues: Nikkei 225 +0.98%, FTSE 100 +0.07%"
   ],
   "context": [
    "A mixed, stock-specific day with no clear index direction — the kind of day where individual names matter more than the headline number.",
@@ -947,10 +922,17 @@
   },
   {
    "tag": "Tech",
-   "title": "Apple introduces touchscreen MacBook Pro with PROLED XDR display",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ0huWEZkU2x4SGhISTZzMnpZTHFzTmxtMU9seVBLM2hUck5XVndQTkxid3lKU3l5bm1mNndBbklxT1l6MTJpQ1FxTWw0cUgwekJtM1poRnJ2R0hUWlEzU3lGSUlWdHR5TFJpVEZYZ0FkTUVYRXhZMENwbE5ySVFMUVV6eDRHNGdraXpweUpwdk11bVhLTlNjUQ?oc=5",
-   "src": "The National",
-   "at": "29 Oct, 01:24"
+   "title": "Apple just dropped a new iPad mini with an 8.5-inch OLED display — how to buy",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMRVptOGRHZENpVFpEb3NaV01VRWltV1JtV25Jd0hLLXA2YnEzcjdqZi1pVG1PakhaOWFnSm90VUJnTVpXUUttN3h6ckh3OVp3cGg1aG5vbDROS0FYMzlKOXY4TDVXd2tURnhCNFktYm0?oc=5",
+   "src": "Mashable",
+   "at": "29 Oct, 05:46"
+  },
+  {
+   "tag": "AI",
+   "title": "Pakistan’s Artificial Intelligence Warfare",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wLVI2V1pUMFg0ZUl0bkRRMnZPLTNRTXIxaXp1dzludnZNak9tS21sRmE4VG95QmJkS3dfb3daSUNXUmYySS1ueDBHeENRemJBNHAzTHJqdmdiZUV4WE1mNUtqTWpfQ0VaejNFY3YtcVdNT05mTUtENHFlVkpVWUU?oc=5",
+   "src": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+   "at": "29 Oct, 07:06"
   },
   {
    "tag": "AI",
@@ -958,13 +940,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZFhNVXgwblRIMFVDZUZ4Z2htN1hVc3FzUDJMRGVGVWFGUVBJWU1ReVB6U3c1emhadHd2cEZDNU5KM1Zrd2taRWYxWUVGVjdscmowN2ZPVk43RDh1QnpoX0Q5bDZPS2gyb0p3N0dBaWVUZFkwTHBfT2UwZTR3MlkweC1ydE8tdzlETXhXRTlCdTA0TWltOE1Z?oc=5",
    "src": "Unicef",
    "at": "29 Oct, 01:22"
-  },
-  {
-   "tag": "AI",
-   "title": "Could next-gen artificial intelligence help map out future space outposts?",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVEJGTFd6bUpoR05Delo1Y29TWV9yTHhUMGJPWmMza1Y2eEl5YXRpMkEwWDMwQ0JiM2tFVGFPSGstek9Db3ZXZk52OWlkeFdySFhHbVhwV0tNNVluVVhFWHF4ZWRObWVGUXNvcDZGU1RzWnd0YzRLNHd1ODBIMVBEYw?oc=5",
-   "src": "Phys.org",
-   "at": "29 Oct, 03:00"
   },
   {
    "tag": "Economy",
@@ -978,7 +953,7 @@
    "title": "Romania dispatch: parliamentary vote ends months-long government formation crisis",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN3ZZREFhVzhHN1BqOEFtbmNhR2JDZnVFMEJkTHc3SEJBLXZRLVdubVhuc2R5QlVySWk5ck1TYWFjVHNTaUlVaS1xbUQxME1IRWhEcjgzZlhTUkUyaEd3d21jZUV6MG5udC1FZDg0TjAzWnNUSVBQRGVzQmhrSk90bUFNM2pKNzJnd1M3ZHRSWG56YWZoeHdaVlRaNDVLRkdCaWluUl82TDV6bVVlaVhTSGFqN2V4TjNE?oc=5",
    "src": "Jurist.org",
-   "at": "29 Oct, 03:21"
+   "at": "29 Oct, 05:09"
   },
   {
    "tag": "Jobs",
@@ -1032,12 +1007,6 @@
      "at": "28 Oct, 15:44"
     },
     {
-     "title": "Bioweapons, Blackmail, Risks To Humanity In Anthropic's Pre-IPO Warning",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUzE2SVZvcG43VU1JdzgtczJtQmRHZjRkSFZ6UHB0NEJQUW5pNFJHWDB2WF9Pc2o5d05lXzlab01vVUpPemFHbDAzSlpTOGZtNXA4UWZIWlVhbzBJZ1lKR0RzLUlqa3RZTV9KT2hWUHpqZEdQRnduU21fSmwzTG1BMUowZVRBNTdUOVc1WGkxWDFFNEc1dDJrNjRzQy1aelRnUVkwZExfdHN1ZTJCcFE?oc=5",
-     "src": "NDTV",
-     "at": "27 Oct, 23:44"
-    },
-    {
      "title": "Adani said to weigh deal for €3 billion energy storage firm VTTI",
      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaFFoT3pianI4UThXWnhFZnlYWkZFdmdKUkYxOU5LbFJTMzdDcThTclhIWm1aSGZod09ZcTBEY0dRWHRCbHN0TDlzZkN6WUVmcVowcG5ja25OTUVSUEN4NlJfeGVXckEzTEwtSUhaWnVBV0xhYWZJaTZUSFIxRmZHQ2lvelBQOHZkY1QwVmpQTE9lVTFLdl81ckdHOUpNSkg0YzMwbzVVajlCX1UwbVpQSmdZR2pEX0dqOFI0TEszODdsbjdJc3psUEg1THE4d3FFb3R1RmJESkVHS2N1SVk5YtIB5gFBVV95cUxQVi1fak1IUEI0eldXTUUydWZwS1RINGNodG4zQVlqZkQ2aWZVWVl6MkRZcURKdXl5UnNUSmMwY2hlZ3RMUlc1ZzRTaEgzT1FvSjR0MFFmQkVVenJyT1E5VmFHV1E4aU1lMmhFeVFtb1N6UjNrR1d5ZnA1MHQ4SWtHZWN5ZmtxV25tcHVWNDZIVzlENE9WSlFwVzVpMkRBSVFXV0RsRnQwSVp0N2FPOWJMcS1fWm12QWIwWjlQUjgyNmpubTg3SDB2R2trbHZWNmZUaXlaRkxQbzFETDdEUjNMTmNVMGFBUQ?oc=5",
      "src": "The Economic Times",
@@ -1048,6 +1017,12 @@
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa1IxYXRjVUVMdDl0dnV0Mkl2RFhqNU5kRVVGUUpaSmJObXFna2ZRUl9RX09uRWhnWDVUQVIxbC02VzV1SDc5eGtVWjdWT3d6Zmh0alZNc3U0V2luZ0lJTmh0ZUVVdkFFbUV0VkVCbzZSVkJoSl9VRnRNSHpjYWNsVnFXRU00blV1QTJMajJmb2dVY0tFYnJ3?oc=5",
      "src": "The Economist",
      "at": "25 Oct, 17:53"
+    },
+    {
+     "title": "Bioweapons, Blackmail, Risks To Humanity In Anthropic's Pre-IPO Warning",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUzE2SVZvcG43VU1JdzgtczJtQmRHZjRkSFZ6UHB0NEJQUW5pNFJHWDB2WF9Pc2o5d05lXzlab01vVUpPemFHbDAzSlpTOGZtNXA4UWZIWlVhbzBJZ1lKR0RzLUlqa3RZTV9KT2hWUHpqZEdQRnduU21fSmwzTG1BMUowZVRBNTdUOVc1WGkxWDFFNEc1dDJrNjRzQy1aelRnUVkwZExfdHN1ZTJCcFE?oc=5",
+     "src": "NDTV",
+     "at": "27 Oct, 23:44"
     }
    ]
   },
@@ -1114,34 +1089,28 @@
      "at": "27 Oct, 18:48"
     },
     {
+     "title": "‘Vaibhav heads out’: Ashwin’s blunt call on Sooryavanshi if Ishan Kishan returns",
+     "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOdHdfMXUxcEZMQW5uclBEbFBRU2M5UmtsR3BqcWRkVHBhOGxCTjdObkRPcC1TNWJaVDh2S0dvZWZ6a3lwRF9UNThJWUlkMGhSRkhxT3phUDBMQ1ZvTzd4WGRDS0thclhLSnQ2OXl5YkJzREVVaW53M1U0SnQwNVA1UUpZb19JSHhwX3RWdGFyRlhMVHFILW4xSFlhYk56R0xBbHF6aGh3aFVhOFBUbGVLT01kb0ZQSXdfU0kzNllERWVuYm5zRDJJTWFQUk5ndXM0OXhRUUtLeUk2cWFtSUphLVROSHROQXdMTFlmZ3Z5TXFmYTM1NmlTSnVGVW1ZV05LanZqdw?oc=5",
+     "src": "The Times of India",
+     "at": "29 Oct, 06:19"
+    },
+    {
      "title": "Vaishnavi Sharma's maiden five-fer helps India complete 3-0 sweep",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ3NiMUdJUFhFaDM4aTloT0I4TkZzOVVHbGR2d29WcndQYU5LNGJoMGdwSGZ4WnI5Y0lVZUFkMWJwdlAxbGtnLUg1X2RzZVM1LXpNdVVRaE5Ia0NET3lTMENuY093RXg4cmtWOWFhZnBLWlBGZjR3ZUhlNzg0YTJEajZMbHZWMEtmazluZVJDMTdKeHNFdDctNjRvYmRwVk9Sc1JqSDVoQUFiVmxVdHNJd2k2OGItTVprSE9SQUNn?oc=5",
      "src": "Cricbuzz",
      "at": "28 Oct, 20:47"
     },
     {
-     "title": "Madrid Daily: Club apologizes over Mbappé comments as China broadcast dispute continues",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd1RRWGxhSHlwbk5ZY2RTczdybkhTNE1EeXpXczJJMU1YS2trMHBQTDNLR0J2SHlwX2N6NUlNVzJqc1Vzd3ZGOTU3QmxsMlBCcjhHUmJYQk1aTmJ4TENRdmtFMnZ2cnU0UjhYai1aUzRMaXJhMWdVNTh0dXF1dzB1REl0X1dITG1vUFR2VWdMdFpwVmdFT1pUcmtpUjVjRXBLMHM3alNrUHk3NUJzaExDWTNBZFVXVWdXeTVEeHBLUmZzRXRtN0E0TVFqNTRnWGdaVHc?oc=5",
-     "src": "Managing Madrid",
-     "at": "28 Oct, 20:01"
-    },
-    {
-     "title": "How Vaibhav Sooryavanshi Got A 'Chocolate' From Gautam Gambhir And Co. And New Zealand Paid The Price - Ex-India Star Explains",
-     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPWnhtaG9fYlBKOUtHc09Nd2VqVFdfdEQzYktSdXNndE9SQVFYc1B2TXFvUnhnSzV4X2gzMF9ybDJDaVpVMFUwOHJlN3pmNWhLN3lXbXRORE9USU93QVNHQnVsUER0NTNheUVwMnFReVhKMFg2VU5kdnRBSXNsaFJpMEhMQzlsMkhhbTFLcWYwb0xFX0F6cFZrc0psRGRYRzA5aDZiSjRmVEZ1QVJaM19LWWZZRURIS0xMbGZrQmdlQV9KY01USVcxemlPVk5sUUZtQnhlOHI2c2UzOU5KcXFNQmhKcXVCSkoxc0tvRWpLN2xQQ1hwM1VQZ01pXzMyX2xlalBIdzVnZ0tCdDk3OUpiRg?oc=5",
-     "src": "NDTV Sports",
-     "at": "28 Oct, 06:25"
+     "title": "Batters step up to give Australia command in Cape Town Test",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdzdudzhNSm5GUEFCOEVzSDc4SjUxMktOeU5uOEM4djZlNXg1ZGxtSWtxZG5LeXdJdjdmbFVkbjVuNDhHdml5dDlValBNTnhkRHZ1dGx0UU9kOXdMTmpDUVVqVy1fNVlRSWllTzNQV3c5T29tNE9sTHVicVhKaGRqV3pGN1ZhRy1CazljOTJjVGdfT2hyNXdJbUxFeEFmaWxRcjljS1lqTGRRR1lBY2FmOEpuRi1FUlk?oc=5",
+     "src": "Cricbuzz",
+     "at": "28 Oct, 21:50"
     }
    ]
   },
   {
    "tag": "Tech",
    "items": [
-    {
-     "title": "Apple introduces touchscreen MacBook Pro with PROLED XDR display",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ0huWEZkU2x4SGhISTZzMnpZTHFzTmxtMU9seVBLM2hUck5XVndQTkxid3lKU3l5bm1mNndBbklxT1l6MTJpQ1FxTWw0cUgwekJtM1poRnJ2R0hUWlEzU3lGSUlWdHR5TFJpVEZYZ0FkTUVYRXhZMENwbE5ySVFMUVV6eDRHNGdraXpweUpwdk11bVhLTlNjUQ?oc=5",
-     "src": "The National",
-     "at": "29 Oct, 01:24"
-    },
     {
      "title": "Apple just dropped a new iPad mini with an 8.5-inch OLED display — how to buy",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMRVptOGRHZENpVFpEb3NaV01VRWltV1JtV25Jd0hLLXA2YnEzcjdqZi1pVG1PakhaOWFnSm90VUJnTVpXUUttN3h6ckh3OVp3cGg1aG5vbDROS0FYMzlKOXY4TDVXd2tURnhCNFktYm0?oc=5",
@@ -1155,28 +1124,40 @@
      "at": "28 Oct, 21:47"
     },
     {
+     "title": "Apple introduces touchscreen MacBook Pro with PROLED XDR display",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ0huWEZkU2x4SGhISTZzMnpZTHFzTmxtMU9seVBLM2hUck5XVndQTkxid3lKU3l5bm1mNndBbklxT1l6MTJpQ1FxTWw0cUgwekJtM1poRnJ2R0hUWlEzU3lGSUlWdHR5TFJpVEZYZ0FkTUVYRXhZMENwbE5ySVFMUVV6eDRHNGdraXpweUpwdk11bVhLTlNjUQ?oc=5",
+     "src": "The National",
+     "at": "29 Oct, 01:24"
+    },
+    {
+     "title": "[OPINION] Ice Caves Could Remind Fans Why Minecraft Has ‘Mine’ in Its Name",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQakNmQUhRSUZpQUlKTnB2M243RU1HZmZ2T3M0dVZTNG5xUXBURFpidFM2b0xBRGpfcHJmSzNiQmhReWJOdExrUkNSWG1JaDUzdmM2eUF4Vm1PVGYtalFaamFXQU1iZFdRYWo0OU5TTXI4anhyc2pFWTdnRGVNbVUwdFNtZUg2aU5LeXfSAY8BQVVfeXFMT2RnTUF3N3YzOTUyZzdZdmpwWEJpTmxnei1EMnZiV3BJRFJ6T2tpeWNxLUFfRTZMSEY5VVZpbEJ5VWxMUld0SGs3bklCWmkxOUx6Tk1xdmQ1RHFUc05VaFBGY256Uk1qV3RaeUdmZWNxTThkaFRiQ1hHUzQ5YWQ0T3RUZ0cxUzZMbTdjRDhfNUk?oc=5",
+     "src": "Beebom",
+     "at": "29 Oct, 01:30"
+    },
+    {
      "title": "Today’s NYT Strands Hints, Spangram and Answers for Thursday, Oct. 29, #970",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd2VaVi0yTGJKRGRKdU1TYTZoQXBsa1VaQnQ5Um1fUTJsa0xyUEJvR2VOUXVBcUVSV1pGN2ZqWmQxTzNLc051N2pZYzYwTi1yenh0VUxEMF95d2oxWGpQdDJPSjB4TGZ2UGV1cmt0Ul80aGpweEhkQ2xNakE3N3M3MjFzUnVaVXV6NXVZX1NKWlRYSFBf?oc=5",
      "src": "CNET",
      "at": "29 Oct, 01:30"
     },
     {
-     "title": "'Crackgate was decisive': Why Korean buyers are returning Apple’s iPhone Duo even without defects",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYm9NbU5HdFBacDNhOThsZ21yaDRsakVDUUg5djEwb2t2QzRrV2lkX2w5b1NLdVI5SXBMaFdTT0FXaWtuRzNzX1doZUhiT3ZuWHpjYVhpQVFrQlJIMGdENk8ycy1KSFZYNHk4T09fVERnQjFMck1rS2dxRzZiWXBtSTVSWGRSMEtvbHhIX1J1bVNQenRHQzh0aExTeUJ4VThPWHpsN3pTQU1lcFJQV0Zrb3VhUFBJamJhSEdBOUFwT0VxRk5pdHNWLUJQTXR4eEJWdWZJUklUY1hYc0V0b3Nz?oc=5",
-     "src": "Korea JoongAng Daily",
-     "at": "28 Oct, 11:28"
-    },
-    {
-     "title": "Google Chrome Users on Windows Beware! CERT-In Flags Critical Security Flaws",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZkhEMFFqb0hEcDN0a01SVEY4Y0pMZUhDcVJGS0l3Skx0UGVMOTdQTEhPSm9UTl9Ob1hrRWZMYVVrMDA0MWd1VlBSV0FQVU5hTGVscllmNlQyc1F1aFZCVEQ1NXppOF9SUGMtLVNLdEstOHlnMEdDRUpNYTdSYU1EMi1yWlFjRXY4eUcwZWZSLVlFVTMxMEJXSGJPZ1gyS1Bqa01HNkx5WFBrZmk0djV4dzVGV2E1Zw?oc=5",
-     "src": "Gizbot",
-     "at": "27 Oct, 15:30"
+     "title": "Apple says a small number of iPhone Duo inner display impacted",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNODFrMFhRT3BjLUZab2VGZmZ0T3J4S29rcVZUaUZWMFVZWUZ2azdsOTdsSm1mNmQtaDFwVTVoTnZDOWNrRWRHWkQ5a3hiSzJmUllNOU5qOVNNR1h4MEZlc09wZFpERS01bDZDWjdJU0pTV0huMlV0MEJjSmtYQU1EMFJDaGtBdUhjQ3ZqZ05VWXJVYndyaWJtaGNwd1AzNWpJdGhNSWJuVmVPMGp0RDgzSjZLcFI5bjNsSFBlcE9ENG9CWDRjaWQxeDR6a3NOV0FV0gHXAUFVX3lxTE1FSHJzeURGWXBJUGotUTJ4RGlmTDdmOS14UWl3Z2o2ckNKS0EtNkkxV1ppeDExNXVCYzJMeGFlNnRqUVFjN0VZUndNSTFHSWMzMm1lM242TThqdWdEOWR6QTcxOEJlNE9UaVNOS1JqYWRmSHlGZFdSQ1FwYVpseWNNcGVoYkZiMU1HRHhoT3Y4ZjNsT0lEOGNXbVo4bVYwb2tqdVZSZGI5b01uZUxvNDE2UDZtNHRLeHhwWExBNjZlcjlWZXdaOVNTdWF1Q3FKU0lOQ3JFVHVV?oc=5",
+     "src": "The Hindu",
+     "at": "28 Oct, 12:24"
     }
    ]
   },
   {
    "tag": "AI",
    "items": [
+    {
+     "title": "Pakistan’s Artificial Intelligence Warfare",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wLVI2V1pUMFg0ZUl0bkRRMnZPLTNRTXIxaXp1dzludnZNak9tS21sRmE4VG95QmJkS3dfb3daSUNXUmYySS1ueDBHeENRemJBNHAzTHJqdmdiZUV4WE1mNUtqTWpfQ0VaejNFY3YtcVdNT05mTUtENHFlVkpVWUU?oc=5",
+     "src": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+     "at": "29 Oct, 07:06"
+    },
     {
      "title": "Artificial intelligence and childhood: opportunities, risks, and how to support children in using it",
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZFhNVXgwblRIMFVDZUZ4Z2htN1hVc3FzUDJMRGVGVWFGUVBJWU1ReVB6U3c1emhadHd2cEZDNU5KM1Zrd2taRWYxWUVGVjdscmowN2ZPVk43RDh1QnpoX0Q5bDZPS2gyb0p3N0dBaWVUZFkwTHBfT2UwZTR3MlkweC1ydE8tdzlETXhXRTlCdTA0TWltOE1Z?oc=5",
@@ -1202,16 +1183,10 @@
      "at": "29 Oct, 03:22"
     },
     {
-     "title": "Artificial Intelligence, Explained",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1nR0Eyek4zaURBVlNrX2J0V0d6UENDMXE4cTZKVVU4NXR4YjN1eVdXUUJpaEl0dHBQTVdKSUtkUmJpN3ZmTTVkdlFJcmw0UXlEZjNVamhueS16NWZUM0NXQnNqNmZSRndPVlEwMVhHWnBTTWZQ?oc=5",
-     "src": "Direxion",
-     "at": "29 Oct, 02:10"
-    },
-    {
-     "title": "Stanford professors Sebastian Thrun and Peter Norvig opened their artificial intelligence course to the w",
-     "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNTnBmazI2Q08wel9MNC1PaUdtQkxhem02ZDFlNVpFdjFyQVQ4Ui1OcjdSTm16MUlHQV8tdEJKMGRmU2hHOVdDU1RMS1U5cldUblNYTnlMUmpDVnBjdmROM3BoN3VadEwydGx4YXl3dXNiTDJ4eWhEMGhJbTEwNk16SllHRUNZaW1mbXpYYjVBb0g4YlVCZDJoTmlYN0c5NTA2RHE2VkdId0NYVmlwQVJNa09Ub2h3am1OZFVRSzVFOTFla243X1VEV3dFVVZOTWprZGdvQnNfZHp3SHF3c0FhYTVqazhJMjBDOUcyZVZMeVdjQTVpdnBBbjY3SVo0WXRoWkQyRXBWcXhROU9CaFl4UjBnNzRoVmI3MjZRR2Vsb0xmLW5KZU9yMktfa2xDQ0Fub2ctMld0OW1XR0ttUEVKOW1VdVhRN281XzN0VzFmd0VTVVRZMHlQT2RVX0MtQdIB4wJBVV95cUxQNFd3T1NYQlphcG9hNEVKWlJHN25oVjZFbmNnMzBEMWlDM0Q5SmdpbzVvSjcxUVc5cURPYkRuVldmclJSVXJYazBIOXRxU18wWEZGajFubXF1WkVkaEJGTENJNkFQQzY3cGZPNWE5U0dWZXZQbWJGam5RT0pDOWJSOXR4R3M5cWtPWFVndDlfb1FsRDMwYXRVem5ualVzVHJpdldNaHBnRlFJQkRicGM1WlM2MTc5aXNPRmh1TTVyamtkb3NDNkRscnF1Q29kcERSRUlJSTdwWjR3MHkxRjltaTk0d3lSV3lLcW9ieUYwWTJZb1VPYWVrYTV3UDJtU3c1Y1AwTC1POTI3RG9xSXh4NEFoWmZGeE5kU05ZVzNjQzlzZDhjSmtIT3hEcGFiS3A3Rk1jOHMzNlJlVHI0bGdicUxYaWdyU19TWl9MSHVIbHJEN1hCaW5SOW55WERWM3FXd3M4?oc=5",
-     "src": "The Times of India",
-     "at": "29 Oct, 01:30"
+     "title": "Assessing the impact of artificial intelligence requires social experimentation",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0TFd3US1JOUN2V2JMT1NkVDBadHZkY3hSOHBubjJmQ0xZcGxJUVhId0ZKS1N6V1FlelJZQ2hMbFhYbjUyZ1lVZDJSNGF1bkE5dDRZRm9CcThTZDBycHV2N3NURURONnlwVFBIV094ZklJOEhMUE9DSTVKZUZpZw?oc=5",
+     "src": "China Daily",
+     "at": "29 Oct, 07:08"
     }
    ]
   },
@@ -1263,7 +1238,7 @@
      "title": "Romania dispatch: parliamentary vote ends months-long government formation crisis",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN3ZZREFhVzhHN1BqOEFtbmNhR2JDZnVFMEJkTHc3SEJBLXZRLVdubVhuc2R5QlVySWk5ck1TYWFjVHNTaUlVaS1xbUQxME1IRWhEcjgzZlhTUkUyaEd3d21jZUV6MG5udC1FZDg0TjAzWnNUSVBQRGVzQmhrSk90bUFNM2pKNzJnd1M3ZHRSWG56YWZoeHdaVlRaNDVLRkdCaWluUl82TDV6bVVlaVhTSGFqN2V4TjNE?oc=5",
      "src": "Jurist.org",
-     "at": "29 Oct, 03:21"
+     "at": "29 Oct, 05:09"
     },
     {
      "title": "Parliamentary panel to examine RTI Act implementation, functioning of CIC",
@@ -1395,12 +1370,6 @@
      "at": "28 Oct, 13:30"
     },
     {
-     "title": "‘He’s gone’: Mike Waltz says Cuban diplomat to be expelled from US after heated UN confrontation",
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORGpWNTk0TkVnVUtrbnNRcGZXT0gxOFV6UWVrWU45dDJTd1NZMFg3bzJnTUFIVks3TVJoMExRWTlVOTJTNG96UEFHNEtKOG1fTFMwRkdVQlBFWGdVQUZhWmQzTFd4TXFxYUZ4dkdVQ2h0WHlCUF9obXNrU1E4YmNodVl2ZFMyY3ZDZU52UVVRODg2NEw1SE5nLXZuTUdCUEhxOW13TUxTOEtyWkZtak9KbHdqR3IxWGFaRGNELXREUmVkRHZiTU9fQ1FDOHBKVE9CdUc0cVZiSFdBWG85WjFrUGNEemRHMTJYd2l1eGZySVFlb0FPRXfSAfsBQVVfeXFMTkRDbTVJWmV6MGRzRF9rUjI2cWxtS2lodGdKYTdKQnE2eVRCcUhrTEoyUmpDU1ZSQ0tPeU5xTzYzYXJZUkNfa3VPQWNGMXJQTFBKTm1lUm9LZC1nLW5vTEZYMzFOYnl0dnlvWjN0elpWMjNQOEJaVDhuRVpBNEY3cjZrQ1lVN1JfSm82bHdUQk9ETzE2RW1sLXJtS19ZSzFLdU9xZ0JsaF9Wd09xWVRWam1Pa1h0aElzVkJicWppN2xXaF9fcl9FR1pvdlF2a3hQbzNEckIxbVg0TlFaYnlGdldGdnZ4cjZ2Rm9CSkpNS0RESnFGT3p3RnR6S0k?oc=5",
-     "src": "The Times of India",
-     "at": "28 Oct, 20:18"
-    },
-    {
      "title": "\"Within 96 Hours\": US Forces Ready To Renew Iran Strikes, Await Trump Nod",
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXdLNmw4ZC1xYzc3S0l6enF2QUFLdC10QUV0dWZFbXdXTENPTUN2N0RHLWEyc0h0MEdmMl8yUTRORktneDEzUnVlQlNRWlc3WnB3RC1oWXNweE1qSDlfcXBCYzZrUnNrV24zakp0aGRNVVM0eVRrZGdxYUVMbmdqaGJ1SFFzeC02NFZadDVfYjdzZUhDUVRvbjFVR1BtdmlROV9XbnJvTHAteXV6blFFdVBKUFdJWnFH?oc=5",
      "src": "NDTV",
@@ -1413,10 +1382,16 @@
      "at": "28 Oct, 19:09"
     },
     {
-     "title": "Flavio Bolsonaro flees Brazil and boards a flight to Ecuador after election loss to Lula",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeFdYTUtEejZ3WmdySUVxeXBQZUN1cG1GWVRlRkdIZ0RiM3F0b21ldlY2TWtDNDFuMWtpbi13UDJFamZuVTBMczlOR2E1R0Z2T2pSLXppcnpIaFo4ZnN2dC1ZbDBmLWxaZnpuUmFtbWI1TmNOd21vdUFyV2lpTEtQcDZTV2dDUy1FdWw2YzdLY0RBUXpaWjJHbml3bm43dkh3NTVFb25yUFdrenEwc0txdEw1ZVE4aWNyYkxYMHh4SjVCOU11TVV6ZWhTTVFuNnkzdlRHUXAzWG5oWXZkSGIzS3hWb2p4MHPSAe4BQVVfeXFMTVhlVUpZaV9rNGxZMjJja3BEd3RnM2NQbFhrWS1nTlV3QUFDZVRXNGc4aW9iTHdZNkVxN09oNURMX1BpRkxzUGxBcXFDYWVvdHNvTnNibXAxZERZSmZyS2NZelJSSDd4TjFaN1pfTmtGNmJxRjlyYXBCanlKWUVrcTdfa3A1bUM2dTNNOURpQmRkZ0ljWS1zVmFUWk5ocmcxUldVa0JoNEFnYV9tVHVpNFBodXNvTXo3QjctMkJaVE1qQnpxS2VuOWhOSWdnU2JqM1FfOTZBS1dQN2FSSHhiMWEtYkNGa0wtX0pwOEhvZw?oc=5",
-     "src": "The Hindu",
-     "at": "28 Oct, 14:49"
+     "title": "Flávio Bolsonaro declares himself Brazil’s ‘true president’, vows to lead opposition from US",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU3dXWmF2S0puLUlwRVRJLUR4ZWN4WGJuNnZWRVlKUU1MWHgzSzFIQVdUMkRQN2xvM3Q0T0NFMW9wMUk4XzRUd1FiVVpYTmdCSkVYS0lIRGhOczVXTUhaM1NfS1NaN0t1UHNWZmpINHVZLWJ2WDZIcVBsRmpmN012QW9YeTZfdTBDRmRXZWQzc0JrQ2xaMFBlTEZDN3FQUGdjeVFvNlI4LVpSSUJfUDJnLUVZdFF2TERGODdOcFoteXk4OTMyWTA2Q3hCTHVmQUtFeU1ZdE1Zb3pud2VsU1U0eXMzU3ZGakVrUHRYaGdaSXJyd2dGRG15ZUdsdjZVdw?oc=5",
+     "src": "The Times of India",
+     "at": "29 Oct, 02:40"
+    },
+    {
+     "title": "Iran says discussing plan with mediators to end war, reopen Hormuz",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHNyTHZ1UERsZEFHM2E3V01sZWVuSVJjbmZvUVlrREZNempGYnI5c0FqcmtoUGxVNUpsbE1rUWRVSmVoMGhZZnYwdi02NVozN0FhWVRjVDVQRTc1bURsajNtOWQxUkUtblQ2Z2ZKeGxrODRRY2d5YWdKYWNtSndaaGhLeDhWVEJTX0R4ZGJiMGZMTkdRN3dTcHltZzg3Tk1UaGhEOENVOUFvOFh0dzBz?oc=5",
+     "src": "Arab News",
+     "at": "28 Oct, 13:48"
     }
    ]
   },
