@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-12T19:20:46.015Z",
- "label": "13 Nov, 00:50 IST",
+ "generatedAt": "2026-11-12T19:40:45.486Z",
+ "label": "13 Nov, 01:10 IST",
  "markets": {
   "indices": [
    {
@@ -14,8 +14,7 @@
      81911.01
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty 50",
@@ -28,8 +27,7 @@
      25299.35
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank Nifty",
@@ -42,8 +40,7 @@
      61518.5
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty IT",
@@ -56,64 +53,59 @@
      32163.55
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 94.03,
-    "chg": 0.34,
-    "pct": 0.36,
+    "price": 94.08,
+    "chg": 0.38,
+    "pct": 0.41,
     "spark": [
-     93.69,
-     94.0338
+     93.7,
+     94.0792
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 94.6,
-    "chg": 1.84,
-    "pct": 1.98,
+    "price": 95.82,
+    "chg": 3.06,
+    "pct": 3.3,
     "spark": [
      92.76,
-     94.6
+     95.82
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 3876.6,
-    "chg": -123.9,
-    "pct": -3.1,
+    "price": 3884.5,
+    "chg": -116,
+    "pct": -2.9,
     "spark": [
      4000.5,
-     3876.6
+     3884.5
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 49.97,
-    "chg": -2.04,
-    "pct": -3.92,
+    "price": 50,
+    "chg": -2,
+    "pct": -3.85,
     "spark": [
-     52.01,
-     49.97
+     52,
+     50
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "sectors": [
@@ -128,8 +120,7 @@
      28231
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank",
@@ -142,8 +133,7 @@
      61518.5
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "IT",
@@ -156,8 +146,7 @@
      32163.55
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Pharma",
@@ -170,8 +159,7 @@
      28675.75
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FMCG",
@@ -184,8 +172,7 @@
      46838.5
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Energy",
@@ -198,8 +185,7 @@
      37389.1
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Metal",
@@ -212,8 +198,7 @@
      12772.6
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Realty",
@@ -226,52 +211,48 @@
      934.25
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "global": [
    {
     "name": "Dow Jones",
     "g": ".DJI:INDEXDJX",
-    "price": 52683.72,
-    "chg": 197.23,
-    "pct": 0.38,
+    "price": 52414.02,
+    "chg": -72.47,
+    "pct": -0.14,
     "spark": [
      52486.49,
-     52683.72
+     52414.02
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq",
     "g": ".IXIC:INDEXNASDAQ",
-    "price": 25508.02,
-    "chg": 41.83,
-    "pct": 0.16,
+    "price": 25335.98,
+    "chg": -130.21,
+    "pct": -0.51,
     "spark": [
      25466.19,
-     25508.02
+     25335.98
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "S&P 500",
     "g": ".INX:INDEXSP",
-    "price": 7634.63,
-    "chg": 15.25,
-    "pct": 0.2,
+    "price": 7597.71,
+    "chg": -21.67,
+    "pct": -0.28,
     "spark": [
      7619.38,
-     7634.63
+     7597.71
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nikkei 225",
@@ -284,8 +265,7 @@
      60819.36
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Hang Seng",
@@ -298,8 +278,7 @@
      24008.55
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FTSE 100",
@@ -312,8 +291,7 @@
      10863.09
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "vix": {
@@ -327,8 +305,7 @@
     16.62
    ],
    "fx": false,
-   "ok": true,
-   "stale": true
+   "ok": true
   },
   "etf": [
    {
@@ -342,8 +319,7 @@
      288.35
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank BeES",
@@ -356,8 +332,7 @@
      636.93
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty Next 50",
@@ -370,8 +345,7 @@
      795.4
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold BeES",
@@ -384,8 +358,7 @@
      112.79
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver BeES",
@@ -398,8 +371,7 @@
      171.57
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq 100",
@@ -412,8 +384,7 @@
      305.45
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "mf": [
@@ -479,8 +450,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 22.1,
-    "stale": true
+    "pe": 22.1
    },
    {
     "name": "TCS",
@@ -494,8 +464,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.1,
-    "stale": true
+    "pe": 17.1
    },
    {
     "name": "HDFC Bank",
@@ -509,8 +478,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.6,
-    "stale": true
+    "pe": 15.6
    },
    {
     "name": "Infosys",
@@ -524,8 +492,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.2,
-    "stale": true
+    "pe": 15.2
    },
    {
     "name": "ICICI Bank",
@@ -539,8 +506,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.5,
-    "stale": true
+    "pe": 19.5
    },
    {
     "name": "SBI",
@@ -554,8 +520,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.1,
-    "stale": true
+    "pe": 11.1
    },
    {
     "name": "Bharti Airtel",
@@ -569,8 +534,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 41.3,
-    "stale": true
+    "pe": 41.3
    },
    {
     "name": "L&T",
@@ -584,8 +548,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 32,
-    "stale": true
+    "pe": 32
    },
    {
     "name": "Tata Motors",
@@ -598,8 +561,7 @@
      297.25
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "M&M",
@@ -613,8 +575,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.7,
-    "stale": true
+    "pe": 19.7
    },
    {
     "name": "Maruti Suzuki",
@@ -628,86 +589,94 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 30.4,
-    "stale": true
+    "pe": 30.4
    },
    {
     "name": "ITC",
     "g": "ITC:NSE",
-    "price": 285,
-    "chg": 6.2,
-    "pct": 2.22,
+    "price": 284.05,
+    "chg": -0.95,
+    "pct": -0.33,
     "spark": [
-     278.8,
-     285
+     285,
+     284.05
     ],
     "fx": false,
     "ok": true,
-    "pe": 18.9,
-    "stale": true
+    "pe": 18.9
    },
    {
     "name": "HUL",
     "g": "HINDUNILVR:NSE",
-    "price": 2022.4,
-    "chg": 32.1,
-    "pct": 1.61,
+    "price": 1974,
+    "chg": -48.4,
+    "pct": -2.39,
     "spark": [
-     1990.3,
-     2022.4
+     2022.4,
+     1974
     ],
     "fx": false,
     "ok": true,
-    "pe": 31.6,
-    "stale": true
+    "pe": 30.8
    },
    {
     "name": "Sun Pharma",
     "g": "SUNPHARMA:NSE",
-    "price": 1902.3,
-    "chg": -2.2,
-    "pct": -0.12,
+    "price": 1885,
+    "chg": -17.3,
+    "pct": -0.91,
     "spark": [
-     1904.5,
-     1902.3
+     1902.3,
+     1885
     ],
     "fx": false,
     "ok": true,
-    "pe": 41.6,
-    "stale": true
+    "pe": 41.2
    },
    {
     "name": "Bajaj Finance",
     "g": "BAJFINANCE:NSE",
-    "price": 1078.8,
-    "chg": 13.95,
-    "pct": 1.31,
+    "price": 1115,
+    "chg": 36.2,
+    "pct": 3.36,
     "spark": [
-     1064.85,
-     1078.8
+     1078.8,
+     1115
     ],
     "fx": false,
     "ok": true,
-    "pe": 31,
-    "stale": true
+    "pe": 32
    },
    {
     "name": "Adani Ent",
     "g": "ADANIENT:NSE",
-    "price": 2714.5,
-    "chg": 8.2,
-    "pct": 0.3,
+    "price": 2741.5,
+    "chg": 27,
+    "pct": 0.99,
     "spark": [
-     2706.3,
-     2714.5
+     2714.5,
+     2741.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 58.4,
-    "stale": true
+    "pe": 58.9
    }
   ],
   "gainers": [
+   {
+    "name": "Bajaj Finance",
+    "g": "BAJFINANCE:NSE",
+    "price": 1115,
+    "chg": 36.2,
+    "pct": 3.36,
+    "spark": [
+     1078.8,
+     1115
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 32
+   },
    {
     "name": "SBI",
     "g": "SBIN:NSE",
@@ -720,53 +689,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.1,
-    "stale": true
-   },
-   {
-    "name": "ITC",
-    "g": "ITC:NSE",
-    "price": 285,
-    "chg": 6.2,
-    "pct": 2.22,
-    "spark": [
-     278.8,
-     285
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 18.9,
-    "stale": true
-   },
-   {
-    "name": "HUL",
-    "g": "HINDUNILVR:NSE",
-    "price": 2022.4,
-    "chg": 32.1,
-    "pct": 1.61,
-    "spark": [
-     1990.3,
-     2022.4
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 31.6,
-    "stale": true
-   },
-   {
-    "name": "Bajaj Finance",
-    "g": "BAJFINANCE:NSE",
-    "price": 1078.8,
-    "chg": 13.95,
-    "pct": 1.31,
-    "spark": [
-     1064.85,
-     1078.8
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 31,
-    "stale": true
+    "pe": 11.1
    },
    {
     "name": "ICICI Bank",
@@ -780,11 +703,52 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.5,
-    "stale": true
+    "pe": 19.5
+   },
+   {
+    "name": "Adani Ent",
+    "g": "ADANIENT:NSE",
+    "price": 2741.5,
+    "chg": 27,
+    "pct": 0.99,
+    "spark": [
+     2714.5,
+     2741.5
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 58.9
+   },
+   {
+    "name": "HDFC Bank",
+    "g": "HDFCBANK:NSE",
+    "price": 812.3,
+    "chg": 5.7,
+    "pct": 0.71,
+    "spark": [
+     806.6,
+     812.3
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 15.6
    }
   ],
   "losers": [
+   {
+    "name": "HUL",
+    "g": "HINDUNILVR:NSE",
+    "price": 1974,
+    "chg": -48.4,
+    "pct": -2.39,
+    "spark": [
+     2022.4,
+     1974
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 30.8
+   },
    {
     "name": "M&M",
     "g": "M%26M:NSE",
@@ -797,8 +761,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.7,
-    "stale": true
+    "pe": 19.7
    },
    {
     "name": "L&T",
@@ -812,8 +775,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 32,
-    "stale": true
+    "pe": 32
    },
    {
     "name": "Maruti Suzuki",
@@ -827,8 +789,7 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 30.4,
-    "stale": true
+    "pe": 30.4
    },
    {
     "name": "TCS",
@@ -842,26 +803,11 @@
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.1,
-    "stale": true
-   },
-   {
-    "name": "Tata Motors",
-    "g": "TMPV:NSE",
-    "price": 297.25,
-    "chg": -2,
-    "pct": -0.67,
-    "spark": [
-     299.25,
-     297.25
-    ],
-    "fx": false,
-    "ok": true,
-    "stale": true
+    "pe": 17.1
    }
   ],
   "breadth": {
-   "up": 8,
+   "up": 6,
    "total": 16
   },
   "trending": false,
@@ -885,10 +831,16 @@
     "at": "12 Nov, 12:43"
    },
    {
-    "title": "Mahanadi Coalfields IPO GMP Today with Listing Gain Expectation",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FRGJZS1VUVEtreG1KQk8wZGYxX2U0eEk3QzVIMzhUTGZlM2VUZ21LaUNidDBfMWJtazZ1MGN4bFJZWUdMaklfTVk5ZWxWczdDQmR5UWZEOVB4WlJC?oc=5",
+    "title": "Ajwa Projects IPO GMP Today, Expected Listing Gain & Price Band",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WdjlZb1ZReTVfS2ItcmtoVWF3UGdiMjFKbDVSZ2ktRHZMZ3YxOFU1MHZiNmdBQUE0QVdVTVhsRUR5YkRCZThHR1lVRW9SeFNDajAzX1NYVVUxRUZfZ3hET2U0cVRkWVBSdDhLZw?oc=5",
+    "src": "IndiaIPO",
+    "at": "12 Nov, 03:14"
+   },
+   {
+    "title": "Striders Impex IPO GMP Today with Listing Gain Expectation",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkSkJ6QUlZTWZiN2lhakRZdm1OXzFreHZxckNxTUNQeDB5M3ZkTzV2NURWcGZpcGRFdkVQbURHVDVzdjY1alpfVml4amw4UUdLOFhOb1dR?oc=5",
     "src": "IPO Watch",
-    "at": "12 Nov, 01:03"
+    "at": "12 Nov, 09:22"
    },
    {
     "title": "Hindustan Coca Cola IPO Details",
@@ -897,22 +849,16 @@
     "at": "12 Nov, 01:22"
    },
    {
-    "title": "Ajwa Projects IPO GMP Today, Expected Listing Gain & Price Band",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WdjlZb1ZReTVfS2ItcmtoVWF3UGdiMjFKbDVSZ2ktRHZMZ3YxOFU1MHZiNmdBQUE0QVdVTVhsRUR5YkRCZThHR1lVRW9SeFNDajAzX1NYVVUxRUZfZ3hET2U0cVRkWVBSdDhLZw?oc=5",
-    "src": "IndiaIPO",
-    "at": "12 Nov, 03:14"
+    "title": "Haldiram Snacks Food Plans ₹10,000 Crore IPO in Late 2027",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYzE2MU1iWmQ1UDF2MEQ0WllCcllUcjhtaV9JUGtkUHJUWGwyZmVKRkw4WW01cWpyOHRidzZrdnJvbnFoQzZpdVRIZzVld1J2Q3VDYTN6RmhwOFdaOEdJd0R3Y3FQMk5ERVluMEhoWm4yV0o1aDZOM0wtSnpPRFU?oc=5",
+    "src": "IPO Watch",
+    "at": "12 Nov, 16:49"
    },
    {
     "title": "Anthropic IPO: Can Indian investors apply for Claude maker's $64 billion share sale? Check rules",
     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWGZPd2VWV1dZamRySElIc1FiNmwyTUxYVFplWEtQTHRYYVlUQmZTUW11UzloUUJOUU45aU1yWDk1N0pCX1FhdzhZaG51eVFaN3dFU0hBTjdyYi1JNTZDamhQU005MF83OXVCTlRsQ0p3YkZBcUFfNmlBRW5jZ3BHVFRCVkNaWDk3djBZNTNuSG9Odl9BNWxhby1QWlVjRGRXb2xvQjBIanpfX1J0eUpvUXhHY1lWbTZQb3V3bUxYUW9razhaSVYtMG9xRVdmcEFTSk01eWNLa2dHbFY4SDdBQkdpdjI3OWF1SEVWTnpoeXVFbVQtd1RlZjRHazVCUdIBgwJBVV95cUxNNlpoeU5KSmNpMWVWaXRnMXlLVmp6aDM4UG1MUXFlcGF2aUpneHRjTEJqdEp2azl1Q0tEQlBPTG1vS0ZVTnJVYVJkTUJHUUtZcjNvaTl0MS1USFRaZnpLMzltc0Q4QlU1Yjh3MUNhZktiNUl3SHd2ZlNLeDhHb0NaZlkxN0VicVoycEg1RkxfanBUODg0cDJhbVlNdnF6Y3BESXI4cmx6cmVuSkhLQnJNV3dia2doa3RXS0hESERBdFE1NnFoLVY1bDVVUGducC04TGVBWm1TQVdBaFJYaW5mS3RnMy1QWGJPZ3JNMUlBeWc3S0E3NW9UT0lReFF0d1JMZnpz?oc=5",
     "src": "The Economic Times",
     "at": "12 Nov, 15:46"
-   },
-   {
-    "title": "Swiggy Limited IPO, GMP, Details, Price, And Review IPO GMP Today, Expected Listing Gain & Price Band",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kQXBpNllCRUg2d0hwS1RjVHZXWlBRWFNYZVNMb281VjlZbGJLX0N3Yk5VZFpNV00wR2JLSjJIV01HUmtvUE9lbWVNZ2d2b0VmQmRtOXVqN2ZRZXdsR2NXZ1hBOGVkQjhPQ0pGRQ?oc=5",
-    "src": "IndiaIPO",
-    "at": "12 Nov, 01:43"
    },
    {
     "title": "10 Best IPO Platforms in India for 2026",
@@ -928,15 +874,15 @@
    }
   ],
   "insights": [
-   "Breadth: 8/16 stocks up — mixed today",
-   "Top mover: SBI +2.38%",
-   "Weakest: M&M -1.9%",
+   "Breadth: 6/16 stocks up — mixed today",
+   "Top mover: Bajaj Finance +3.36%",
+   "Weakest: HUL -2.39%",
    "Hot sector: Realty +4.51% · Cold: Auto -1.02%",
    "2/8 sectors green today",
    "Nifty 50 up 0.18% — flat session",
-   "Rich valuations: Adani Ent P/E 58.4",
+   "Rich valuations: Adani Ent P/E 58.9",
    "India VIX 16.62 — moderate volatility",
-   "Global cues: Dow Jones +0.38%, Hang Seng -1.26%"
+   "Global cues: FTSE 100 +0.25%, Hang Seng -1.26%"
   ],
   "context": [
    "A mixed, stock-specific day with no clear index direction — the kind of day where individual names matter more than the headline number.",
@@ -961,10 +907,10 @@
   },
   {
    "tag": "Share Market",
-   "title": "Sensex, Nifty End Flat After Strong Rally; FIIs Pump $6.43 Billion Into Indian Stocks in November",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUjJOdzZzZXIwU3Y1Z29Ib1JoVTZlWVlNanR2eEdWXzAwbDlzMGdDRFdGWjI2ajU4cjlQT0l1cFhTb2MxVGFrWjYwNmk0VnV5NkdyRzdsOUd3MXBMNjBwMGJFNVZuNFgxY0J4dmFWelVVMXBDTW1mNDEweTdDamRoZHpnLWVRdzhSZjBoMHMyaG9SdzFuMTFQU3NTR3MwbnRINURqNkZseHl4Q1o0djdETExFeHJ4Sy1JanpuVy1ZZ1RyZ2JfVWxUaDZiRVhZMkdlLUk4?oc=5",
-   "src": "Moneylife",
-   "at": "12 Nov, 17:43"
+   "title": "Today's Market: Sensex Today Ends Flat | Nifty Above 25,250 | Roto Pumps Up 14% - Indian Stock Market News",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1BONnd3VEM5M0UzcWEtZHN1VFdoMWRramV6ejhwWFNzMC1zQjlfTXR3OGJNakxkOXhLS2RqVm9QZ3E2QngyRndlbktqT2ZnRVFyX0ZhTGFXc3ByY0MtQjBYV2pGS09pa1UySTZpV210MHZ0U29kYkl1UU1rcGNLWGxTYnVUTDc3dUFSWlVWYmMtaXliQ1ZGNFR0RnYyVURQXzB2RTA1dERvSURRYWI4UXFGRGVYZ0xNOE1aWA?oc=5",
+   "src": "Equitymaster",
+   "at": "12 Nov, 16:01"
   },
   {
    "tag": "Sports",
@@ -1031,10 +977,10 @@
   },
   {
    "tag": "For You",
-   "title": "Auto industry remains key driver of India’s economic growth: SIAM",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSzh5X2h0RTFIYm1tUngyQUFhc1V0R2hmZnFYM3V6SlVzXzJ5eW5tQ0lNa2VTbkFWbkFBRTlIT2xobzIyd00tTkR5dkotaEFCc0FTYjMwYlhIYmdjbl9rUGtXekQxb0VVMmhSaDN4RFlBdW5RY09iWE4wY1NHb0pndUJ6RS1tRExTRldpT3cxOVhHZUU?oc=5",
-   "src": "DD News",
-   "at": "12 Nov, 18:02"
+   "title": "Beyond Wages: What makes automotive jobs work for women?",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM1RjMThnMDF4X3hnbE42Q1ZZeC16cVVQQ1JMTUF0SXZydUVidlNuXzM2YjZ3T2lBVXZTWk5NTkFHNy1nQ2w3cnBLTW5NaG1QVWppcVpxUmRzeTJ4SDR2QzdDSTdDOW14RnB6WE9IWnlURXFpN044bGxFOHhna0V1SEtHcFZhbW5xNmxxLWFpb0dZZ3FfcWh6anZHNjVUNjBoV2gzbkFMZXBxc2ExTTRXaHNCSjJid2ZCVnd2ZDNjdDJZajU1aDYxR0RsY0lJMDFtUG1NZFFYZlg?oc=5",
+   "src": "www.motownindia.com",
+   "at": "12 Nov, 21:33"
   }
  ],
  "browse": [
@@ -1089,6 +1035,18 @@
      "at": "12 Nov, 22:09"
     },
     {
+     "title": "Today's Market: Sensex Today Ends Flat | Nifty Above 25,250 | Roto Pumps Up 14% - Indian Stock Market News",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1BONnd3VEM5M0UzcWEtZHN1VFdoMWRramV6ejhwWFNzMC1zQjlfTXR3OGJNakxkOXhLS2RqVm9QZ3E2QngyRndlbktqT2ZnRVFyX0ZhTGFXc3ByY0MtQjBYV2pGS09pa1UySTZpV210MHZ0U29kYkl1UU1rcGNLWGxTYnVUTDc3dUFSWlVWYmMtaXliQ1ZGNFR0RnYyVURQXzB2RTA1dERvSURRYWI4UXFGRGVYZ0xNOE1aWA?oc=5",
+     "src": "Equitymaster",
+     "at": "12 Nov, 16:01"
+    },
+    {
+     "title": "Indian Stock Markets Close Higher with Sensex and Nifty Gains",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS1V4RkVSVTZ2S3FfTmlfYTM4NTJ0NFFQc3djMC16MHVoMDE3RGVWVVREYTRnZTdDX3hpNDJZQVpZN01nRFdBWWxmbnFuQk1Ba0NIeEoyME1wdXhSRUdOcS16Zi1zTlZpbG1IOEFpdzhidVMxaGtXY3h3cHF0aW5WOEtNT2ZKZ2pHNjM0X2dsWm5TMjVHdTlnNm9pREl6dw?oc=5",
+     "src": "India News Network",
+     "at": "12 Nov, 11:24"
+    },
+    {
      "title": "Sensex, Nifty End Flat After Strong Rally; FIIs Pump $6.43 Billion Into Indian Stocks in November",
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUjJOdzZzZXIwU3Y1Z29Ib1JoVTZlWVlNanR2eEdWXzAwbDlzMGdDRFdGWjI2ajU4cjlQT0l1cFhTb2MxVGFrWjYwNmk0VnV5NkdyRzdsOUd3MXBMNjBwMGJFNVZuNFgxY0J4dmFWelVVMXBDTW1mNDEweTdDamRoZHpnLWVRdzhSZjBoMHMyaG9SdzFuMTFQU3NTR3MwbnRINURqNkZseHl4Q1o0djdETExFeHJ4Sy1JanpuVy1ZZ1RyZ2JfVWxUaDZiRVhZMkdlLUk4?oc=5",
      "src": "Moneylife",
@@ -1101,22 +1059,10 @@
      "at": "12 Nov, 10:27"
     },
     {
-     "title": "Today's Market: Sensex Today Ends Flat | Nifty Above 25,250 | Roto Pumps Up 14% - Indian Stock Market News",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1BONnd3VEM5M0UzcWEtZHN1VFdoMWRramV6ejhwWFNzMC1zQjlfTXR3OGJNakxkOXhLS2RqVm9QZ3E2QngyRndlbktqT2ZnRVFyX0ZhTGFXc3ByY0MtQjBYV2pGS09pa1UySTZpV210MHZ0U29kYkl1UU1rcGNLWGxTYnVUTDc3dUFSWlVWYmMtaXliQ1ZGNFR0RnYyVURQXzB2RTA1dERvSURRYWI4UXFGRGVYZ0xNOE1aWA?oc=5",
-     "src": "Equitymaster",
-     "at": "12 Nov, 16:01"
-    },
-    {
-     "title": "Sensex, Nifty Rebound as Banks Lead Early Trade",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQXdmSXlsWTExZUZwaml5NzJZa0tDYnJQbWxUMHhScTJ3eDF3c0JPMXhUaTMzRzNzNmItX1l1WTJzT1hKMmJvcDVLM1Z5NFBzczMtVERicmRiZ0VVcldHREo2RmpIU0NhRlVNcmFVRFhUS0xSM0xFUVE1YWZkV3JyaW9sdlpDeFFISFFENXF0eTFmMWFwRVpad21QdnN3VGZrUlR0VEJHOXl4Wi1sZWpkLXV2SWh0cERQLWQ1MmVNNDBWbTAycTY1T1FPeEtGekNMUmYyb0VwWHJIcGswSTN3R0Z4YVdsUQ?oc=5",
-     "src": "HDFC Sky",
-     "at": "12 Nov, 10:28"
-    },
-    {
-     "title": "Nifty Ends at 25,299 as Nifty Bank Surges 1.19%, Realty Jumps 4.5% and Insurers Rally on Strong October Premium Data",
-     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdTM2VzY0a3BQWXZQLU0xcFVleUJuMUV0Z051ZDZRZ3hoUXNEOFNWcDZzUFZUM3h4bHZYdDg3RWF4WUVmREQ3YlhKUGxDMDA2Z2lJVDVYOWd3MmlhbEdZMWgzaDBRZExIbWxzRWNWdjEzdDhheWZOZDJLNVEzWGVrb3VONlVHVEtjSTloSmhJQTVyNzNDZXA4Tm5PbmdtWVhLVThqQm42ZEpNX2x5bTlFc1V3Q1JQVjE2UURIc1ItbVRab2lTS2lEellYVEV2aUhXWk16elRQQ1VoTE9hYW9ENGQ2QjB4bkNMWVNR?oc=5",
-     "src": "India Infoline",
-     "at": "12 Nov, 17:57"
+     "title": "Sensex climbs 32 points, Nifty up 45 points; extend winning streak to third day amid foreign fund inflows",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZ25yNk16Ukh5dDMtZ0U2dzhDT0gyRlNIUFVSYjdsYi1fakZ5eWVUQ3BiZ25ibVQ5cEFZSUQtZXRNM2wzVkk3d0tXWk9MeWNjQWlYUVIwU01xdVFWZW9hMWg4QTJEa0U2RXhGRnNYUWxyd1JyWnZrOGRqQ0wzenRLcEFwR3RHVGI5UndjdExST1AxRXFwSkRxSnFUWFR4ckR5TUE5eXM4d0llSVRneGxWeTRaY294bmpHU2Z5YldzZ1ZvSHdOT3FNX2I3VmtteTJiSm80cWZlRHJSY3ZnRUtMdEhHV3NCRXBiZEMw0gHwAUFVX3lxTFB6RWs5OUpkb3AxSUpFME9IMjJ4WVVHTmEtYmVCWW1PZFBVUWVycjZHQmt5dXJ5QWxhREFUaHVpbHhTVlVPSFV6SHptVlozcTYyTGVsUGlxZThjRm1TRnRXWEZ2d3ZOem1vYVBQR19vd3J0N1N0M2dlcHlJRjVfZ0FUcV9WOFBIVzkyM0lVMTlhcjJvLTZnNFFkdS12ZUgwWWkyeUZuTTlhNmlHbGZoTmxpWkxJc2dJTmZZcVNNNkhQeEdWX1pPZmYtdmhvdzRPYm9XeHNQS3ZKSExuSVc5N1d6eEdWSlc3cWxuakNNa2hQQg?oc=5",
+     "src": "Telegraph India",
+     "at": "12 Nov, 16:16"
     }
    ]
   },
@@ -1142,6 +1088,12 @@
      "at": "12 Nov, 08:03"
     },
     {
+     "title": "'Definitely long term': Ness Wadia on Hardik Pandya's acquisition",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUEpQWkZoYlVleDhUUkhndkJCVnp0NkpNR3hjTngteHRZdHhTZ01sMzJYM3RKSy1pTXladzZoU3lmN05YMzVaVWJrMTdEWUFHeGRseVRpemN6aEQ1Zk9ZVjhSOGNCSlRYTkJMeHNLZTBJbmJMZW43VldNMUF4UGpvV2pmcEl1TGE0QXlkeGdoVXRpWmVxSTJ2NmhaUnRvZXF1T2lXWmFISHJCemh1WldNSnFBN1BPX2NOWmd0OVBWaW1qUXQ3X19RZkRyYnhjcmlON1NiZzR1VkNVQQ?oc=5",
+     "src": "Cricbuzz",
+     "at": "12 Nov, 10:15"
+    },
+    {
      "title": "IND vs NZ 4th ODI | 'Pace is good, but skills matter': Auqib Nabi on adapting to New Zealand conditions",
      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNQ3V0RFgtSTk1ZVBBRldldTVDanZTR1JpWUVBR2hTYVlYMmQtaENGZzBMbXdKOW5uWm9qQVFhSXk4RU5zQktrQk5ZRUdXS0Z2UllfTmVkNzJBT1pjdlpUMVNyWE1YdWxHWFF3bEZ1dV9DSDJlYnpnZVUwQkVUdG9ldnNCdldIMHZoSU5pRlNFZU4wemY2Tk9seUZZTnFzZHBOYlhxd21nVEpJRTJ6R3NQMURZWmtqWm4zZXBnUkswMFJ2QkpNdTFTUW9xUVhmZnZpYXJLYjVaXzE5MTlWNDItemplQTR2clFXNFBtTW9ud3pVM3RCNXQ3YkUzd0Rpb21wQ2NkZnlVRzg5WWhzU3BXWHk2OUExMEN5SUEzQVhjeWU?oc=5",
      "src": "The Times of India",
@@ -1152,12 +1104,6 @@
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fb1Bxc3BjbWVTalViSnJOMzN1czFuZDNycHdGbXo3UXRwTFpVckw2QllsWm1ieTNfQkNRNWVPODlFXzF6bnZKSENMS19KbW1KbHoxYlpiUW9ieGtVUnB2Q2pFTlEyZWxjLWFqZVlvLUh2QQ?oc=5",
      "src": "Chess News | ChessBase",
      "at": "12 Nov, 12:48"
-    },
-    {
-     "title": "Six months on: Manchester United's move opens the door for Guardiola's return to coaching",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPX25fbUR3ejdzN01WWlV1ZkFkOFByOTJLdHkzUTRjeExDMGVWTFBOWnZGLTVWTUlMYkFfcUo1c0ZjS2FaWTFWUFhmaWE1LUpaSjVsNEtpbUxrUGtGNW5BeEt4Uzl2QktCYVlMTEtlWmxTZGEyMmVfTFpJWERjVTFGdEs4NXpjOVMwelBCQUh4S0pjQ0JPUk10UGhpSFJJMHRrbUJmd3RnNnRfM3NiMEtJMVk1VFo2NUNwbmdUY0xmUjZpNVVJVEhjYjRSWGhNcUdSdlQ3UVVzbmdtUQ?oc=5",
-     "src": "Goal.com",
-     "at": "12 Nov, 02:59"
     }
    ]
   },
@@ -1224,6 +1170,12 @@
      "at": "12 Nov, 21:08"
     },
     {
+     "title": "Artificial Intelligence",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHQWNlSHQzMUlJUTg1elY2MnlhM0JMRDkyUlMtYUdwNDFYYmF2cktZZzg2X3pDMVluRVhBS01LY0VnRVI0bnk2eElyWkczd0dLdktiOFMybWl5STktVHc?oc=5",
+     "src": "ABC News - Breaking News, Latest News and Videos",
+     "at": "12 Nov, 20:35"
+    },
+    {
      "title": "How Public Health Agencies Can Use Artificial Intelligence Effectively and Responsibly",
      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZ3hXd1F3VnVfUTB4cl8yZ1VoMy1VWDVBU1gzUUh2M3JxNnJRQzI2ZmF2YUc2Yk1qa1ZpYWxicnRQZU02OEFYRUxjN0g5MXhEVXFUYWY2QV9wTFNVbnhXVUpEQ0o2OV9fX1VIcFo5RUdVbUdOeDFsSXotTWFoYUFtX3hySXQ0b1FsYjlYSEtxWUdoVVdTcXVHWDk0UXlWWGQ2dkswWlp2b1BDTDdlLTZQelAwLWx2SUZRVXZhUmo1YWtIY3dyMVM1SWpVU3pKa2xZNlk3bk03YjlkMU40bkp4VFVvVEJGUQ?oc=5",
      "src": "The Pew Charitable Trusts",
@@ -1234,12 +1186,6 @@
      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PRzlkTEhtc1d0V19iajRwUXRYTkRfN1RGZnNnNzhNMFZGaDQ5WDMzc1NCTlRYazEyd2Nta2Y4Tkk0dE41dmEwZ1Nud2lLMkFybTdWand4WHlVN01oNnZqX3AxM3BnUlBR?oc=5",
      "src": "RAND",
      "at": "13 Nov, 00:23"
-    },
-    {
-     "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4YjZYeWtGZHc3Vk81V3czUXBBVjktcXlSLWs3MFdyWkRtcmRpV1BmY1hKckhyU3RYWEdsTWlGcnhFVFVNakRLLWZvREpURHJnRVVSdmZEcHJWU2p5YWJZX1pEWGRWRDB1aw?oc=5",
-     "src": "The New York Times",
-     "at": "12 Nov, 03:25"
     }
    ]
   },
@@ -1312,16 +1258,16 @@
      "at": "12 Nov, 17:15"
     },
     {
-     "title": "No Winter Session of Parliament? Government mulls continuing Monsoon Session",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbUxCekJiSVNNNnhtQ3l4Zkc2M2xXb1p2Tnp4Ni03c1FucHN4RHF6UWpJTnJMMXNFOHRCMHotZ1oxcV9nSVg1NFRORXh5Z3FuMkE4UWVUaWJseWRMSDdqdFloazJnc1pieVIwNmNWdXdYbFlHOG5BZ0NBRlQ4ZXF6V2dCNk9jTTdYYWlsajdXYlVkS0s5TUM4cXhFZ1JaWEhNR0phQjRJbVFnSGJXQ1NhenNCSGIwdkgzYVE?oc=5",
-     "src": "Deccan Herald",
-     "at": "12 Nov, 22:27"
-    },
-    {
      "title": "Union government considering special Parliament session to push Delimitation Bill, say reports",
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWhPV3VjTnB6NFNwdDN1Rk1KUXBkWXFNUkR5UjRsbkhmUVg0S3Rtc2lJbF91Tm9sbHZFaFEwamRxN1RiUG5tUTVmYno0Rmc4LU8ybkNJbVV5ZnRoaFF4dTVSTVhNd3ppZURmQWduMThYVmU5dDRNZnk5RllXZWdiNUttTDVXX0p5bTlPMERqUXBnWU1RaDA3UGRNQUY5TVYtbGsyUEo2bGJQenBuZHdQY0JpMDJpX1RoMXVoQlpGa0VaaXhKemlUTGRaNkVTOEk?oc=5",
      "src": "The South First",
      "at": "12 Nov, 16:38"
+    },
+    {
+     "title": "Congress' Jairam Ramesh accuses Modi govt of 'calibrated capitulation' to China, demands Parliament debate",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYkRFclhKQWJ1dnpwMzRidHhEVmUzdUJVdG9lN2FuT2JtcjB5bm9ZUWRxQ3U5Qjk3eHdfa3ZuN1ZYUENpdWZBSy1lV1VwaUYyZFNGRzBXRGpFa3VHVnFfeFVlRkJPNHBCS1gyVURWcEVoQ2pBdFRPeDdyUFBneDdURDd2alA4NVRLWDlfNU9nUzdnLUpYM2V1TXdod2htSXFKcGZMdVNXWm9ET2VuWDl0NFN1NUVGYWNKOURZbHdyME1JSDhxLW9hbXdwWUNpelh1Yi02V29KMXRmY1M0M1hpcXZjRndwbmZldmxr?oc=5",
+     "src": "Deccan Herald",
+     "at": "12 Nov, 17:46"
     }
    ]
   },
@@ -1382,12 +1328,6 @@
      "at": "12 Nov, 18:43"
     },
     {
-     "title": "Ex-Tech Mahindra Executive Murder: CCTV Shows Neighbour Firing 15 Rounds And Shooting Him Even After He Falls",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcG0ySWVHS0MxZnFPQmp6T2k2T0dVSFFaQmN5Ry1lR2UxQmVVSEZac1Zka1NtWnVFcXBlQ3BlWjFjb0g1amFVeTEyU3dVRWVPMHlEX3IwamVZNGViOVJoeUo3Q0RDaW5yUGFPZUo3RTN4SUk3Tm9MbmlrMmxMQUZTU2ZydXMzdnVsa2dEeE05eTI3bDhrOGFNU29mOGRGR1JVdzVIcl9Ha2V3Vml6Nm5MZEdhRG9rTjRlM2p0UEVzcGI?oc=5",
-     "src": "Brut",
-     "at": "12 Nov, 17:24"
-    },
-    {
      "title": "CRYPTO CRIME | India’s Financial Crimes Watchdog Raids 2 Exchanges Over Illegal USDT Cross-Border Trades",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWJ6YWstMlptc3BxVHdoZ1pwcXZSLTdMejVwLXRteVRJWm5nTXBiR0toRndkQVlLdG45NUhnYXJsZmViY194cTk5RDRXd3NIX2hia3JsUU5LZGxla0hyZTA4Zk9sWl94czZVem0yWHlLQXFIbFlTVjBmb0x4bWpzX0VLVXlONFEyN2c?oc=5",
      "src": "BitKE",
@@ -1400,10 +1340,16 @@
      "at": "12 Nov, 20:34"
     },
     {
-     "title": "Rajasthan High Court quashes FIRs on 2003 municipal leases against sitting MLA and others as abuse of process",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSjJXc3l4a2o3X2prSDhFWHowOE9JRDg1ZGFxdzRUNjE4aUE4UlRELXFlZnRFYVdEb194S0JtcFUyZVZidWNSUEJPclFiblVUWFdFN2JBazN2aXEtN0R5UjBCSUZIQlpLbGh4YUY1WU5HclJOaUczWDNqRFNhX1hPY1ZQdWlXT0haYy1pREd5Z2pWUFBDLW9GV2t6TjRJeFJaVzN0YWFfcHNzb2ZlZmxLQTVBQ0pldw?oc=5",
-     "src": "SCC Online",
-     "at": "12 Nov, 14:00"
+     "title": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdVlTQWdpTzBYbmhpM3ZFNkJGWWhPTm1TLVNQZy1XLVR0UWZObGhkX0ZYZVBfQ2pFNTNrdm5vZVVTUGEtdXBCYlhHNndxazlhTWU1SkhXakhoZjlBYkVNRFc5cHZfUEVEM0d4dFE3cEZkVEo1RFI1Wmpzb05KQzNWRGtLZW5GeFlLYmxRWGlyQzBoOFQzRWNneFpyeWRIVUYyTzN6YXFpejJVMmtQLTlJZUVrVS1pbkloZGpNUVpnZ0o3NnZWUzkzVU5TU0UzeVlCcjN3eWhLb29rYXF6dnRXN0J6RHdCYmZmM2sza2xOWQ?oc=5",
+     "src": "CoinDesk",
+     "at": "12 Nov, 15:40"
+    },
+    {
+     "title": "Rizwan, Imam-ul-Haq cleared for domestic cricket as Pakistan probe nears end",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMHFXd1p2ZThmV2hxWW9DTFBrUTBYdzBpM0lZanBPcG5ldmxqNk4xd3pxZVJ5enBMWHoyT3Z3bjRfbVpOYk1xajVRUGRoREsxeGppT0lvRHJfdk5veFVuNWJiWHhRZjZ2dlRkYzhLRHQzZDF4MTB1Ui0zWkVjZHB4eno0am1wSTk4cnZ0a0RxbUY2WUNUV25rZHBiX3pwMTRSYkM0Y1RrLWo0SmFyYUdTTmNpOXIycnFySGtDWXB3d1pnOHlUelc2bHBkSWhKenFQN003OEhnMHZ4WFB4cURGSy1hdHZVUUHSAewBQVVfeXFMT2VMc3RkZExMOExVQkk0LUtUZ0lDZFVoeWFnNVZNT0xLRVpFeWNOcVhnYVZLVDZXMXRfc01qYWNnNEUxWDVoa0ljZVpxZm9KQ3JsRjR5ck1IdmhtUHl1bXhaSW11M2MzSU5QRXZGQThtTENOT0RHcnFJb3QybWtYYWo2UWdpLUZWWTVhV0daS1FUSFlxWWRsc2hoT1VUX01LbDdyOG1fSnlIS3VBR2hIblQ3cUpGYUhuYi1TQmNvSWRCVlQtSDc4UmNBbXF1eFdHUm0yNmk1QmxIem92ak1uSHRRakM0bms1UXVQZGI?oc=5",
+     "src": "India Today",
+     "at": "12 Nov, 18:14"
     }
    ]
   },
@@ -1415,12 +1361,6 @@
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkdBWnZVWXZqcEFwdWFkTmw5XzVHVndjNzBhdW1GZVFfT2d2OFBzVDlLbC1pdmNvZTY5X01iRE01eGktRlh0b0s2bXJSTm9ZS19CZkdnVzR6bmEzOFJlQjNET2NvTl9yVGZjeHg5SkxVcmZ5UHFkLXcxQ1M3N1dRU3R5R05raV9VOVRsUDRFZE9sT1B6NmZ0ZTA4SFB0TlNYTUNhUHdMWVNKV0tDSmd4d19IRERyblE2QkgxSlpzSQ?oc=5",
      "src": "Reuters",
      "at": "12 Nov, 21:58"
-    },
-    {
-     "title": "Man Kills 1, Injures 4 Near White House, Then Shoots Self",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZG94SkI0eXU1RFlVRi1JYUk5NWlwdWFsd21McERQbGJrXzdlcGtSQ2F1LWgzZHEyR2FXYnFYRkNhQ1N5ajNDekktN0tpN1lpV01HOTQwUXZBZmNjMXJsNGVPRmFaQi1DcXN2YzFLaXItTFpKQjJvNGlHWVBGbnl0YllRZDEtZzRESG9FajgwbjcxY2hfT0FzNF94NUg?oc=5",
-     "src": "NDTV",
-     "at": "12 Nov, 19:19"
     },
     {
      "title": "UAE midnight crash: Several dead in Fujairah after truck hits multiple vehicles, police issues warning",
@@ -1435,28 +1375,28 @@
      "at": "11 Nov, 17:30"
     },
     {
+     "title": "Man Kills 1, Injures 4 Near White House, Then Shoots Self",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZG94SkI0eXU1RFlVRi1JYUk5NWlwdWFsd21McERQbGJrXzdlcGtSQ2F1LWgzZHEyR2FXYnFYRkNhQ1N5ajNDekktN0tpN1lpV01HOTQwUXZBZmNjMXJsNGVPRmFaQi1DcXN2YzFLaXItTFpKQjJvNGlHWVBGbnl0YllRZDEtZzRESG9FajgwbjcxY2hfT0FzNF94NUg?oc=5",
+     "src": "NDTV",
+     "at": "12 Nov, 19:19"
+    },
+    {
      "title": "Ukraine-Russia peace talks enter second day with territory in focus",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRUYzMzk4VjIzNzZlRW1PNkszQlQ2RjVjWk9kNnpCbVFqR0VZV3NvdnhLRXpCNVNfSVZqMTV5UjRFMnlINW1XYUthOEw0Qy1oN3A2ZllKSHVReTFUdnloNHhESGdOOEp2TTYzU2s1SWxUNFlYYk4wSlkwcGo0X0NrNEdxYTBkNVdBZ2dtaWdIZXBIc3dTYVBNOEVRVndkUjhhU3FkcmVWbXhCS3kwMUMwUTE4aExqVm1OREpQUzFwaWhRQ3RR?oc=5",
      "src": "Euronews.com",
      "at": "11 Nov, 14:49"
     },
     {
-     "title": "'No room for Taiwan independence': China's Xi Jinping doubles down on reunification push",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONkpOaElreTJZOWF6ZXZVc1ZmX3ppLVhweGU3eFZZRnM5T05PeWZBeHdYclNISllZeGliUkpHRWlQTUd6SU5sRm56c0duUTlRa0poYnowR0dTU05FMkVQbXpFNlB4TDk3UkVUVzljS183UjRSTVRraTgtMU5mQi16NEc3WDFvdzhtWnJjcnF3ZGwwYjBmNWlHd1dndGZqc3FCNnptR0JFV1ZQQWpibVpsaFNkWXgta0lMY2k3Yk5LMm5ZZm1vM19sRTFnYjdRU1dwT29Dd24tQVZaYi1oRXI0dklsRUgtQdIB6wFBVV95cUxQZXRjSkxlcmF0X29HQ0dJRzZIN1d5aEloc21OQ2E5Mmg3REh6QXBUdWdxSllTTWgxeTFscXVnYXZ6N2U5QnU3RGRSVzRyclBSb1ZuS0RMZVJSQk9sWUNTckp5N3J5RWZrNnczcmNDdElhUDcyZVdqMmh6NGZnRkNWd1l3OXhJSEtkMzVIR3k2NDRrWWpVQlNiTURiWVlfWTZrbGQ5QVJjRW9LR21UaDVGR3BXRTFBektnakQyZ1FWWWZLNVhPUGQ4Mm5SbWQ2SDRoNW1MNFVxZERyWEswTDBCUWoybFR2OGU0UnpF?oc=5",
-     "src": "The Times of India",
-     "at": "12 Nov, 09:22"
+     "title": "Four tankers struck by explosions in Strait of Hormuz, Iran says",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?oc=5",
+     "src": "Reuters",
+     "at": "12 Nov, 21:57"
     }
    ]
   },
   {
    "tag": "For You",
    "items": [
-    {
-     "title": "Auto industry remains key driver of India’s economic growth: SIAM",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSzh5X2h0RTFIYm1tUngyQUFhc1V0R2hmZnFYM3V6SlVzXzJ5eW5tQ0lNa2VTbkFWbkFBRTlIT2xobzIyd00tTkR5dkotaEFCc0FTYjMwYlhIYmdjbl9rUGtXekQxb0VVMmhSaDN4RFlBdW5RY09iWE4wY1NHb0pndUJ6RS1tRExTRldpT3cxOVhHZUU?oc=5",
-     "src": "DD News",
-     "at": "12 Nov, 18:02"
-    },
     {
      "title": "Beyond Wages: What makes automotive jobs work for women?",
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM1RjMThnMDF4X3hnbE42Q1ZZeC16cVVQQ1JMTUF0SXZydUVidlNuXzM2YjZ3T2lBVXZTWk5NTkFHNy1nQ2w3cnBLTW5NaG1QVWppcVpxUmRzeTJ4SDR2QzdDSTdDOW14RnB6WE9IWnlURXFpN044bGxFOHhna0V1SEtHcFZhbW5xNmxxLWFpb0dZZ3FfcWh6anZHNjVUNjBoV2gzbkFMZXBxc2ExTTRXaHNCSjJid2ZCVnd2ZDNjdDJZajU1aDYxR0RsY0lJMDFtUG1NZFFYZlg?oc=5",
@@ -1486,6 +1426,12 @@
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOVR4RXpQRWhjbDhVS0l4c0VNZTRHQUttUWRuYlFqYzR4bTZVc2RGN1BRbVExUU9YTm9HdzZxdXcwS1hweTdILTE1cktwLUZnZm9DbThmX1Bsc3NCNThvZFlDU0xCTW9iTFRnalZmRUEycXVIcGNNVG5HWXdJd1g2U2dpNzRjcnoxLUxPYi1tLXd6QQ?oc=5",
      "src": "https://hrtoday.in/",
      "at": "12 Nov, 20:21"
+    },
+    {
+     "title": "Kia India Announces $2 Billion Investment in Andhra Pradesh; Annual Production Capacity to Reach 6.3 Lakh Units",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcDByQ3FtM1ZPLU1pV1dhRDM5MHh3dzZWSlNXaTV4elhWUzYwdEdGRUZjcTdwQzJCcTUwQUladDRfR0NfTEVPdUxFdEpKR1JoZVhQbXctNVNOSklXSW9ERXA5clZLbWJ2Y0N0OVN4VmpoVTJUSTRmcXNlS3RIVXczTVlQWm9laldRVE1IbA?oc=5",
+     "src": "Autopunditz",
+     "at": "12 Nov, 14:25"
     }
    ]
   }
