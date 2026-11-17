@@ -1,233 +1,217 @@
 {
- "generatedAt": "2026-11-17T08:40:46.546Z",
- "label": "17 Nov, 14:10 IST",
+ "generatedAt": "2026-11-17T09:01:15.039Z",
+ "label": "17 Nov, 14:31 IST",
  "markets": {
   "indices": [
    {
     "name": "Sensex",
     "g": "SENSEX:INDEXBOM",
-    "price": 82668.12,
-    "chg": 563.33,
-    "pct": 0.69,
+    "price": 82795.99,
+    "chg": 691.2,
+    "pct": 0.84,
     "spark": [
      82104.79,
-     82668.12
+     82795.99
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty 50",
     "g": "NIFTY_50:INDEXNSE",
-    "price": 25439.1,
-    "chg": 148,
-    "pct": 0.59,
+    "price": 25463.55,
+    "chg": 172.45,
+    "pct": 0.68,
     "spark": [
      25291.1,
-     25439.1
+     25463.55
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank Nifty",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 62329.45,
-    "chg": 753.55,
-    "pct": 1.22,
+    "price": 62361.05,
+    "chg": 785.15,
+    "pct": 1.28,
     "spark": [
      61575.9,
-     62329.45
+     62361.05
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 31989.5,
-    "chg": 48.45,
-    "pct": 0.15,
+    "price": 31691.15,
+    "chg": -249.9,
+    "pct": -0.78,
     "spark": [
      31941.05,
-     31989.5
+     31691.15
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "USD/INR",
     "g": "USD-INR",
-    "price": 93.51,
-    "chg": -0.47,
-    "pct": -0.5,
+    "price": 93.42,
+    "chg": -0.57,
+    "pct": -0.6,
     "spark": [
-     93.98,
-     93.5114
+     93.99,
+     93.4177
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Brent $",
     "g": "BZW00:NYMEX",
-    "price": 91.66,
-    "chg": -0.78,
-    "pct": -0.84,
+    "price": 92.11,
+    "chg": -0.33,
+    "pct": -0.36,
     "spark": [
      92.44,
-     91.66
+     92.11
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold $",
     "g": "GCW00:COMEX",
-    "price": 3887.4,
-    "chg": 34.4,
-    "pct": 0.89,
+    "price": 3874.9,
+    "chg": 21.9,
+    "pct": 0.57,
     "spark": [
      3853,
-     3887.4
+     3874.9
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver $",
     "g": "SIW00:COMEX",
-    "price": 47.76,
-    "chg": 0.9,
-    "pct": 1.92,
+    "price": 47.43,
+    "chg": 0.57,
+    "pct": 1.22,
     "spark": [
      46.86,
-     47.76
+     47.43
     ],
     "fx": true,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "sectors": [
    {
     "name": "Auto",
     "g": "NIFTY_AUTO:INDEXNSE",
-    "price": 27738.9,
-    "chg": 168.65,
-    "pct": 0.61,
+    "price": 27873.05,
+    "chg": 302.8,
+    "pct": 1.1,
     "spark": [
      27570.25,
-     27738.9
+     27873.05
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank",
     "g": "NIFTY_BANK:INDEXNSE",
-    "price": 62329.45,
-    "chg": 753.55,
-    "pct": 1.22,
+    "price": 62361.05,
+    "chg": 785.15,
+    "pct": 1.28,
     "spark": [
      61575.9,
-     62329.45
+     62361.05
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "IT",
     "g": "NIFTY_IT:INDEXNSE",
-    "price": 31989.5,
-    "chg": 48.45,
-    "pct": 0.15,
+    "price": 31691.15,
+    "chg": -249.9,
+    "pct": -0.78,
     "spark": [
      31941.05,
-     31989.5
+     31691.15
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Pharma",
     "g": "NIFTY_PHARMA:INDEXNSE",
-    "price": 28129.25,
-    "chg": 30.85,
-    "pct": 0.11,
+    "price": 28172.15,
+    "chg": 73.75,
+    "pct": 0.26,
     "spark": [
      28098.4,
-     28129.25
+     28172.15
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FMCG",
     "g": "NIFTY_FMCG:INDEXNSE",
-    "price": 47657.15,
-    "chg": -50.95,
-    "pct": -0.11,
+    "price": 47609.7,
+    "chg": -98.4,
+    "pct": -0.21,
     "spark": [
      47708.1,
-     47657.15
+     47609.7
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Energy",
     "g": "NIFTY_ENERGY:INDEXNSE",
-    "price": 37120.5,
-    "chg": -156.15,
-    "pct": -0.42,
+    "price": 37179.1,
+    "chg": -97.55,
+    "pct": -0.26,
     "spark": [
      37276.65,
-     37120.5
+     37179.1
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Metal",
     "g": "NIFTY_METAL:INDEXNSE",
-    "price": 12509.8,
-    "chg": 51.45,
-    "pct": 0.41,
+    "price": 12519.85,
+    "chg": 61.5,
+    "pct": 0.49,
     "spark": [
      12458.35,
-     12509.8
+     12519.85
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Realty",
     "g": "NIFTY_REALTY:INDEXNSE",
-    "price": 932.75,
-    "chg": 23.85,
-    "pct": 2.62,
+    "price": 926.05,
+    "chg": 17.15,
+    "pct": 1.89,
     "spark": [
      908.9,
-     932.75
+     926.05
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "global": [
@@ -242,8 +226,7 @@
      51608.17
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq",
@@ -256,8 +239,7 @@
      24509.76
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "S&P 500",
@@ -270,150 +252,139 @@
      7416.59
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nikkei 225",
     "g": "NI225:INDEXNIKKEI",
-    "price": 59094.68,
-    "chg": -567.34,
-    "pct": -0.95,
+    "price": 58860.43,
+    "chg": -801.59,
+    "pct": -1.34,
     "spark": [
      59662.02,
-     59094.68
+     58860.43
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Hang Seng",
     "g": "HSI:INDEXHANGSENG",
-    "price": 23571.89,
-    "chg": -181.95,
-    "pct": -0.77,
+    "price": 23508.17,
+    "chg": -245.67,
+    "pct": -1.03,
     "spark": [
      23753.84,
-     23571.89
+     23508.17
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "FTSE 100",
     "g": "UKX:INDEXFTSE",
-    "price": 10881.55,
-    "chg": -21.01,
-    "pct": -0.19,
+    "price": 10802.43,
+    "chg": -79.12,
+    "pct": -0.73,
     "spark": [
-     10902.56,
-     10881.55
+     10881.55,
+     10802.43
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "vix": {
    "name": "India VIX",
    "g": "INDIA_VIX:INDEXNSE",
-   "price": 15.39,
-   "chg": -0.29,
-   "pct": -1.83,
+   "price": 15.31,
+   "chg": -0.37,
+   "pct": -2.33,
    "spark": [
     15.68,
-    15.39
+    15.31
    ],
    "fx": false,
-   "ok": true,
-   "stale": true
+   "ok": true
   },
   "etf": [
    {
     "name": "Nifty BeES",
     "g": "NIFTYBEES:NSE",
-    "price": 289.91,
-    "chg": 2.3,
-    "pct": 0.8,
+    "price": 290.13,
+    "chg": 2.52,
+    "pct": 0.88,
     "spark": [
      287.61,
-     289.91
+     290.13
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Bank BeES",
     "g": "BANKBEES:NSE",
-    "price": 644.98,
-    "chg": 8.09,
-    "pct": 1.27,
+    "price": 646.4,
+    "chg": 9.51,
+    "pct": 1.49,
     "spark": [
      636.89,
-     644.98
+     646.4
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nifty Next 50",
     "g": "JUNIORBEES:NSE",
-    "price": 788.95,
-    "chg": 3.68,
-    "pct": 0.47,
+    "price": 786.64,
+    "chg": 1.37,
+    "pct": 0.17,
     "spark": [
      785.27,
-     788.95
+     786.64
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Gold BeES",
     "g": "GOLDBEES:NSE",
-    "price": 110.3,
-    "chg": 0.24,
-    "pct": 0.22,
+    "price": 110.01,
+    "chg": -0.05,
+    "pct": -0.05,
     "spark": [
      110.06,
-     110.3
+     110.01
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Silver BeES",
     "g": "SILVERBEES:NSE",
-    "price": 160.94,
-    "chg": 0.33,
-    "pct": 0.21,
+    "price": 161.06,
+    "chg": 0.45,
+    "pct": 0.28,
     "spark": [
      160.61,
-     160.94
+     161.06
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "Nasdaq 100",
     "g": "MON100:NSE",
-    "price": 300.39,
-    "chg": -1.11,
-    "pct": -0.37,
+    "price": 298.74,
+    "chg": -2.76,
+    "pct": -0.92,
     "spark": [
      301.5,
-     300.39
+     298.74
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    }
   ],
   "mf": [
@@ -470,354 +441,358 @@
    {
     "name": "Reliance",
     "g": "RELIANCE:NSE",
-    "price": 1345.3,
-    "chg": 0.5,
-    "pct": 0.04,
+    "price": 1371.5,
+    "chg": 26.7,
+    "pct": 1.99,
     "spark": [
      1344.8,
-     1345.3
+     1371.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 22.2,
-    "stale": true
+    "pe": 22.6
    },
    {
     "name": "TCS",
     "g": "TCS:NSE",
-    "price": 2443,
-    "chg": 38,
-    "pct": 1.58,
+    "price": 2419.6,
+    "chg": 14.6,
+    "pct": 0.61,
     "spark": [
      2405,
-     2443
+     2419.6
     ],
     "fx": false,
     "ok": true,
-    "pe": 17.1,
-    "stale": true
+    "pe": 17
    },
    {
     "name": "HDFC Bank",
     "g": "HDFCBANK:NSE",
-    "price": 817,
-    "chg": 0.5,
-    "pct": 0.06,
+    "price": 817.05,
+    "chg": 0.55,
+    "pct": 0.07,
     "spark": [
      816.5,
-     817
+     817.05
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.7,
-    "stale": true
+    "pe": 15.7
    },
    {
     "name": "Infosys",
     "g": "INFY:NSE",
-    "price": 1141.2,
-    "chg": -3.9,
-    "pct": -0.34,
+    "price": 1130,
+    "chg": -15.1,
+    "pct": -1.32,
     "spark": [
      1145.1,
-     1141.2
+     1130
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.1,
-    "stale": true
+    "pe": 15
    },
    {
     "name": "ICICI Bank",
     "g": "ICICIBANK:NSE",
-    "price": 1607.1,
-    "chg": 22.1,
-    "pct": 1.39,
+    "price": 1608.1,
+    "chg": 23.1,
+    "pct": 1.46,
     "spark": [
      1585,
-     1607.1
+     1608.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.7,
-    "stale": true
+    "pe": 19.7
    },
    {
     "name": "SBI",
     "g": "SBIN:NSE",
-    "price": 1109.85,
-    "chg": 19.35,
-    "pct": 1.77,
+    "price": 1107.6,
+    "chg": 17.1,
+    "pct": 1.57,
     "spark": [
      1090.5,
-     1109.85
+     1107.6
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.3,
-    "stale": true
+    "pe": 11.3
    },
    {
     "name": "Bharti Airtel",
     "g": "BHARTIARTL:NSE",
-    "price": 2155,
-    "chg": 1.5,
-    "pct": 0.07,
+    "price": 2150.5,
+    "chg": -3,
+    "pct": -0.14,
     "spark": [
      2153.5,
-     2155
+     2150.5
     ],
     "fx": false,
     "ok": true,
-    "pe": 42.4,
-    "stale": true
+    "pe": 42.4
    },
    {
     "name": "L&T",
     "g": "LT:NSE",
-    "price": 4191,
-    "chg": 51,
-    "pct": 1.23,
+    "price": 4195.6,
+    "chg": 55.6,
+    "pct": 1.34,
     "spark": [
      4140,
-     4191
+     4195.6
     ],
     "fx": false,
     "ok": true,
-    "pe": 32.3,
-    "stale": true
+    "pe": 32.3
    },
    {
     "name": "Tata Motors",
     "g": "TMPV:NSE",
-    "price": 263.2,
-    "chg": 0.8,
-    "pct": 0.3,
+    "price": 259.7,
+    "chg": -2.7,
+    "pct": -1.03,
     "spark": [
      262.4,
-     263.2
+     259.7
     ],
     "fx": false,
-    "ok": true,
-    "stale": true
+    "ok": true
    },
    {
     "name": "M&M",
     "g": "M%26M:NSE",
-    "price": 3387.4,
-    "chg": 48.4,
-    "pct": 1.45,
+    "price": 3424.7,
+    "chg": 85.7,
+    "pct": 2.57,
     "spark": [
      3339,
-     3387.4
+     3424.7
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.6,
-    "stale": true
+    "pe": 19.8
    },
    {
     "name": "Maruti Suzuki",
     "g": "MARUTI:NSE",
-    "price": 12660,
-    "chg": 89,
-    "pct": 0.71,
+    "price": 12627,
+    "chg": 56,
+    "pct": 0.45,
     "spark": [
      12571,
-     12660
+     12627
     ],
     "fx": false,
     "ok": true,
-    "pe": 29.6,
-    "stale": true
+    "pe": 29.5
    },
    {
     "name": "ITC",
     "g": "ITC:NSE",
-    "price": 294.5,
-    "chg": -0.6,
-    "pct": -0.2,
+    "price": 294,
+    "chg": -1.1,
+    "pct": -0.37,
     "spark": [
      295.1,
-     294.5
+     294
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.5,
-    "stale": true
+    "pe": 19.5
    },
    {
     "name": "HUL",
     "g": "HINDUNILVR:NSE",
-    "price": 2007.9,
-    "chg": 7.6,
-    "pct": 0.38,
+    "price": 2011.3,
+    "chg": 11,
+    "pct": 0.55,
     "spark": [
      2000.3,
-     2007.9
+     2011.3
     ],
     "fx": false,
     "ok": true,
-    "pe": 31.3,
-    "stale": true
+    "pe": 31.4
    },
    {
     "name": "Sun Pharma",
     "g": "SUNPHARMA:NSE",
-    "price": 1877.5,
-    "chg": 10,
-    "pct": 0.54,
+    "price": 1874.9,
+    "chg": 7.4,
+    "pct": 0.4,
     "spark": [
      1867.5,
-     1877.5
+     1874.9
     ],
     "fx": false,
     "ok": true,
-    "pe": 41,
-    "stale": true
+    "pe": 41
    },
    {
     "name": "Bajaj Finance",
     "g": "BAJFINANCE:NSE",
-    "price": 1125.2,
-    "chg": 15.2,
-    "pct": 1.37,
+    "price": 1120.05,
+    "chg": 10.05,
+    "pct": 0.91,
     "spark": [
      1110,
-     1125.2
+     1120.05
     ],
     "fx": false,
     "ok": true,
-    "pe": 32.3,
-    "stale": true
+    "pe": 32.2
    },
    {
     "name": "Adani Ent",
     "g": "ADANIENT:NSE",
-    "price": 2690,
-    "chg": 31,
-    "pct": 1.17,
+    "price": 2740.1,
+    "chg": 81.1,
+    "pct": 3.05,
     "spark": [
      2659,
-     2690
+     2740.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 57.8,
-    "stale": true
+    "pe": 58.6
    }
   ],
   "gainers": [
    {
-    "name": "SBI",
-    "g": "SBIN:NSE",
-    "price": 1109.85,
-    "chg": 19.35,
-    "pct": 1.77,
+    "name": "Adani Ent",
+    "g": "ADANIENT:NSE",
+    "price": 2740.1,
+    "chg": 81.1,
+    "pct": 3.05,
     "spark": [
-     1090.5,
-     1109.85
+     2659,
+     2740.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 11.3,
-    "stale": true
-   },
-   {
-    "name": "TCS",
-    "g": "TCS:NSE",
-    "price": 2443,
-    "chg": 38,
-    "pct": 1.58,
-    "spark": [
-     2405,
-     2443
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 17.1,
-    "stale": true
+    "pe": 58.6
    },
    {
     "name": "M&M",
     "g": "M%26M:NSE",
-    "price": 3387.4,
-    "chg": 48.4,
-    "pct": 1.45,
+    "price": 3424.7,
+    "chg": 85.7,
+    "pct": 2.57,
     "spark": [
      3339,
-     3387.4
+     3424.7
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.6,
-    "stale": true
+    "pe": 19.8
+   },
+   {
+    "name": "Reliance",
+    "g": "RELIANCE:NSE",
+    "price": 1371.5,
+    "chg": 26.7,
+    "pct": 1.99,
+    "spark": [
+     1344.8,
+     1371.5
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 22.6
+   },
+   {
+    "name": "SBI",
+    "g": "SBIN:NSE",
+    "price": 1107.6,
+    "chg": 17.1,
+    "pct": 1.57,
+    "spark": [
+     1090.5,
+     1107.6
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 11.3
    },
    {
     "name": "ICICI Bank",
     "g": "ICICIBANK:NSE",
-    "price": 1607.1,
-    "chg": 22.1,
-    "pct": 1.39,
+    "price": 1608.1,
+    "chg": 23.1,
+    "pct": 1.46,
     "spark": [
      1585,
-     1607.1
+     1608.1
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.7,
-    "stale": true
-   },
-   {
-    "name": "Bajaj Finance",
-    "g": "BAJFINANCE:NSE",
-    "price": 1125.2,
-    "chg": 15.2,
-    "pct": 1.37,
-    "spark": [
-     1110,
-     1125.2
-    ],
-    "fx": false,
-    "ok": true,
-    "pe": 32.3,
-    "stale": true
+    "pe": 19.7
    }
   ],
   "losers": [
    {
     "name": "Infosys",
     "g": "INFY:NSE",
-    "price": 1141.2,
-    "chg": -3.9,
-    "pct": -0.34,
+    "price": 1130,
+    "chg": -15.1,
+    "pct": -1.32,
     "spark": [
      1145.1,
-     1141.2
+     1130
     ],
     "fx": false,
     "ok": true,
-    "pe": 15.1,
-    "stale": true
+    "pe": 15
+   },
+   {
+    "name": "Tata Motors",
+    "g": "TMPV:NSE",
+    "price": 259.7,
+    "chg": -2.7,
+    "pct": -1.03,
+    "spark": [
+     262.4,
+     259.7
+    ],
+    "fx": false,
+    "ok": true
    },
    {
     "name": "ITC",
     "g": "ITC:NSE",
-    "price": 294.5,
-    "chg": -0.6,
-    "pct": -0.2,
+    "price": 294,
+    "chg": -1.1,
+    "pct": -0.37,
     "spark": [
      295.1,
-     294.5
+     294
     ],
     "fx": false,
     "ok": true,
-    "pe": 19.5,
-    "stale": true
+    "pe": 19.5
+   },
+   {
+    "name": "Bharti Airtel",
+    "g": "BHARTIARTL:NSE",
+    "price": 2150.5,
+    "chg": -3,
+    "pct": -0.14,
+    "spark": [
+     2153.5,
+     2150.5
+    ],
+    "fx": false,
+    "ok": true,
+    "pe": 42.4
    }
   ],
   "breadth": {
-   "up": 14,
+   "up": 12,
    "total": 16
   },
   "trending": false,
@@ -853,12 +828,6 @@
     "at": "17 Nov, 14:01"
    },
    {
-    "title": "Coal India's Mahanadi Coalfields IPO expected profit calculator on GMP: What retail, HNI investors can gain on listing?",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaGVvLWF1QVBfbDlPbUgtbzFWUHJUUjQ3YXZpY0FGaVl2TnFILXFXZEQ3NG5RYVNTUUV1TkFDckZiZmZrOU1BejE5bHRyM2JxR1Exd05WRkthOWp5dG9WS3k5dEQyVmtnWmVpUDkyTjdwUXVBY1dkOWxqd3VvVlpxTTRXUjIza3I0RTAyNENHeHBNcV91Y3Z2dHZrenVQTWhvRzJseklYVm9NTHNTbjVxWDBnMFZpeVNiYTNpcm1lT0cyX2ZKR3QxNGZMdkx3LVBDamQzV0YxdEtrT3hmUDVQZWhLYmJBbDRDcWlOLU5oc3pkOXQzTUI0QkNMeFpKUU1MUU80?oc=5",
-    "src": "TradingView",
-    "at": "16 Nov, 14:35"
-   },
-   {
     "title": "Mahanadi Coalfields IPO Details",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jSlk4RWJCNHNVZ0hOM1E0d2VSb3kxbnJjeXVQR2R6Y0UwVDYyU3dCZ29ORzN3M3lrVHZrQ05KX1RXVmE0M0djTjVyTm5nTmYwdzJpTkpWdnJBYkdtemlWWXV3?oc=5",
     "src": "IPO Watch",
@@ -869,6 +838,12 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwNWp1S2VZR1lLMHNZYjd6WTZ3V0xGa2dMZGpBbVBLVjRJSFlYZThhcVNiT09JUmlxVnVGRmVnTmpIblE2dEN4ejNhX1E4NDd2UjEwakNSZDhSUWtkcElHSQ?oc=5",
     "src": "IPO Watch",
     "at": "17 Nov, 03:10"
+   },
+   {
+    "title": "SSMD Agrotech India IPO GMP Today with Listing Gain Expectation",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1dXFpbXJ3NjRndUtmZVM5NTA4V3lCV2RTS2ZkOGpzUjZaT3ZPVG1BQlhTUmN0ak1TMmZmUUNVUGJvWUpkWV9rQ3NkOGItaThhRGRuOVFJTDJSUkIy?oc=5",
+    "src": "IPO Watch",
+    "at": "17 Nov, 04:49"
    },
    {
     "title": "IPO Calendar 2026: Upcoming, Ongoing and Recently Closed IPOs",
@@ -884,20 +859,20 @@
    }
   ],
   "insights": [
-   "Breadth: 14/16 stocks up — broadly bullish today",
-   "Top mover: SBI +1.77%",
-   "Weakest: Infosys -0.34%",
-   "Hot sector: Realty +2.62% · Cold: Energy -0.42%",
-   "6/8 sectors green today",
-   "Nifty 50 up 0.59% — bullish session",
-   "Rich valuations: Adani Ent P/E 57.8",
-   "India VIX 15.39 — moderate volatility",
-   "Global cues: FTSE 100 -0.19%, Nasdaq -2.49%"
+   "Breadth: 12/16 stocks up — broadly bullish today",
+   "Top mover: Adani Ent +3.05%",
+   "Weakest: Infosys -1.32%",
+   "Hot sector: Realty +1.89% · Cold: IT -0.78%",
+   "5/8 sectors green today",
+   "Nifty 50 up 0.68% — bullish session",
+   "Rich valuations: Adani Ent P/E 58.6",
+   "India VIX 15.31 — moderate volatility",
+   "Global cues: FTSE 100 -0.73%, Nasdaq -2.49%"
   ],
   "context": [
    "Broad buying today — most large-caps rose. Broad-based rallies are generally healthier than a narrow one led by 1–2 heavyweights.",
-   "Money rotated into Realty and out of Energy. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
-   "India VIX is low (15.39) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
+   "Money rotated into Realty and out of IT. Sector leadership shifts often — chasing last month's hottest sector is a classic beginner trap.",
+   "India VIX is low (15.31) — calm, low expected volatility. Calm markets breed complacency; a good time to check your asset allocation, not to chase risk."
   ]
  },
  "news": [
@@ -966,10 +941,10 @@
   },
   {
    "tag": "Jobs",
-   "title": "Cellebrite Layoffs: 85 jobs cut, but India impact remains unclear",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNa0NLWlpUb1dIOGV5MDlPRXVkRUxmX2lVQzBvdTRnQm1ZSGZWNlk3WWJ2QTJrdklQWm50MGFWa0pXU2otWE5fUjdtUHEwTFVXOG9QWWNOYlJzT0xsblRnaWRMZnVKc2pTc3VoaGkzTVpoR0luZ1dlTVlfR2F6Qmp5Z0IzZUPSAYQBQVVfeXFMTWtDS1paVG9XSDhleTA5T0V1ZEVMZl9pVUMwb3U0Z0JtWUhmVjZZN1lidkEya3ZJUFpudDBhVmtKV1NqLVhOX1I3bVBxMExVVzhvUFljTmJSc09MbG5UZ2lkTGZ1SnNqU3N1aGhpM01aaEdJbmdXZU1ZX0dhekJqeWdCM2VD?oc=5",
-   "src": "DQ",
-   "at": "17 Nov, 12:43"
+   "title": "No mass layoffs since 2008, millions in stock rewards: Why Nvidia employees want Jensen Huang back",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUHRFUkJGWFVNRVlPV1lyUERvSUZ4TDAxOVdzYUlDNG8wUGR4U0RyNFhLb0tmdGJyMVZtNDI0blF6bU5MQXRoZDdUTFhqVE9hZ1k1WUZqUW04WFc0YzkzUXRjVmZndHBQMDc3blNnUFFtTTMzUUpWMnBoTF9Nb2tsTTFPVHNoR3FhMWVVcVBNTVI4MnRKWlRLMlRFN0FpanNrQl9SbmpXand2LWl5REFXbUNxcjktSThRcTFHTEhiV1hvUGgteXlTU3NsNG9KTzZFWWxFS3liZkQ3R2ljM0Exbw?oc=5",
+   "src": "People Matters - HR News",
+   "at": "17 Nov, 10:35"
   },
   {
    "tag": "Crime",
@@ -980,10 +955,10 @@
   },
   {
    "tag": "World",
-   "title": "Beijing hails ‘groundbreaking significance’ of U.S., China, Russia summit in Shenzhen",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObGxDYkdvbWhhSmZVMGtueDVjaVhQcS1VcldRUlFvMTFKQVQ0bHZCNUxuaWYzT2tLQzg4dEQwNmktOVJFREcwOE8yX0Jwc3RQdl9SeE1VYVo1VVJ2UWdYMTBYbGw3QzhGN3BfU1JsNHoxa1FxM1I0TWo1NU11SjVRY2Z0M2QwRGtXeTBfazYyNFhyUnNaQWxKUUd2Z0ZhS0JnbVl3WjRJM3kwQWl2VGVYVy1vMUJuelp6MWpVdmp1S2xqNWtXZ0lUZlhIQU16a0dqZGY2aWxvTTIzUDQ?oc=5",
-   "src": "The Hindu",
-   "at": "16 Nov, 16:01"
+   "title": "\"What Changed Since Pahalgam?\" Opposition To Centre Over SCO Invite To Pak",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ21hOWYtZHVETnZyZkJmS0ViRm1Da1JDNW9jS1UtakpGRUZrR1FDTVRhYUN6d2xESGJtcTNLUE9mQWc3TXMwUFpfR2YwWW03NldmRElzT0RzVUNpVW4ydzN2cWstVVFadXdlNHpsSXBYSTJ3czUzVTBGSGNfcGFHTGkyUzV0Ml8yNk5LZ0M3WnBDVmRQY2t1ekh0QjhtSGxjUHpRNkZ5QkdNOFBmN3VpVW9YUlVkdUlWSnlSdw?oc=5",
+   "src": "NDTV",
+   "at": "17 Nov, 09:49"
   },
   {
    "tag": "For You",
@@ -1010,16 +985,16 @@
      "at": "17 Nov, 06:52"
     },
     {
-     "title": "Wholesale inflation rises to 12.3% in October 2026, second straight month of double-digit inflation",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVUxHaUFjSTNObWY5M0NYaXM5TGtoanRWRzV2bUJkR182YTduc1NBX0ZvU1ExSUNqdW9rakZiM1lyQjNKQms4QUp3cVk1Q250RGxSNGloYVdJTGxGVkstUGJOdWw3cFh0dVprM2hRdWdEejdVS2haQTUyQTRRdDZRNVBiSTRPVkw2MHNoMmY1dU1NWnVvaTIxam9qNWlYdFRZeklvV0duRUVJZnhqQWdVWtIBtwFBVV95cUxQRG11c0ZfbkF1RmREcGZPckNVTEJXbXpuRlZic2I3Z2JhV0pGdzVtWGVqN1AtVWVmYUdrcWtpNElXS2M3TkF1NDhsd1B6Yk0wd19kUnNhLVJSbE51ZXRIVEs3VXZpU241N253bmY1aWgyY3VvbmRsdjdmQUZqYnlfQkxtZS1LQ00yeVFMeUpRR255aHl6eTE3cExmVEZZOUNKRm5FbnAzWHdYWDJNUGdFdU9mNGZQVzg?oc=5",
+     "title": "Jimmy Tata backs Tata Sons listing, accuses Noel of ‘back-door takeover’",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYWo3WjNST2dJZUg4UzZlWlI5N0ZqLUttcFhCNjROZ282a1BHZDJlZVVNWVJnS2hmRjhwSERMZTB2NUczOG8xVldvOHFOdWl1WEYwVTlNeW9kbTFEZ1ctbzBGcHAyUWJnZkZwNkE3cUx2WlpGeXVENE4zZF8zUWJuVE1ramVMbHFRZnpSVm9JMFRjTGpzeVFkLVFSSUZFT1RxbUZzUTR3T3hTLWRHRFAyLWprOVo4b1dJWkdFdVFHTEVDUndLMGUtcHRpbm_SAdMBQVVfeXFMT0tNVkstQVIwWS1ZSVpIdmpfbVFGMDJ5OUlHNldRRFVxUXpidkdNUVdGbUQ3TGE0MWFNbG9LSzhINGo0b2hiYkU1b3hzZzRkSTR4NUkxcWF6MmpfVVdScVFJODlXQlR1ME5KMEhqMGVZSmdjTmxOVFhlZVRXQ0JDQllsaGVkZWVRbDM2M0kwNjFYUTNxYkEtU1JqTFhMNlpDdE9tMmtJeVhUdEE3ajZVbHJhd1NsTGZlWWU1TVdwenJBNUJyYmtYdXdHSDNkVWdXc2h2cw?oc=5",
      "src": "The Hindu",
-     "at": "16 Nov, 12:25"
+     "at": "16 Nov, 19:18"
     },
     {
-     "title": "Jensen Huang seeks return as Nvidia CEO four days after resignation",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU2lRNTBzb29uRXZjeWduODQ5eTl0TWk4WGptS2luNUNkNkh6cFd5S3liYkVyR0c3a29PaS1LRWdNdjFDWDJPX0dUeWtDaGZoa3YybHNhNGE1MjEtZVZSSUlVTGwxNktqa29tU1A2N2RQank4Uk5BZ3J0T09tTGRDQ0U1ZXE4MWJVWFFscURiNERxcmFxZnhQOXZvUW9nSGVRVU45QlprNVpwcTBhR1JPVTAwMGpsdmwyWFhHRw?oc=5",
-     "src": "Korea JoongAng Daily",
-     "at": "16 Nov, 05:45"
+     "title": "Anthropic’s big week",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRFRkVE1YOE9DRHJYZWdrbUthRFdhVjAzYVVOTFNTVE5kQTdNdWJuWHJlMTdJTTUyNUhtZ1I1RHF6ODZwMFZrRzU2SGxudnh1SGJkSjA2Y1VDdHRBS09hRDJYRVFTS2lvclFhTlY5NjlteUl0X0VacU9nX2lrVHFVQXV6SnBfOXBBLVdBMWoyMWVhRjNrZWg0?oc=5",
+     "src": "The Economist",
+     "at": "17 Nov, 09:41"
     },
     {
      "title": "Indian rupee claims seven-month peak on inflows, dollar and oil retreat",
@@ -1101,7 +1076,7 @@
      "title": "IPL 2027 retention Live: IPL confirms a trade on deadline day, pacer takes paycut",
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOV0h0NUtFSDRoeEk3ZVU1MGwwSk9pa29NLVUzZ1BfMzJxRGQyWG14T2lKejhibGhBSFNpcE1qalpxa0phMV9HeWNhbXR3X0JyNzRCWmxFYVdoQThrUDV4YTNSSXpnaHhwVFBJVlpIa0dCRVBFUHJ3c1gyN1Zld0Z4d2RFN2txN0NWZmtGVnNiS1ZfZklWTElRd3p0a0I1a09tLUZJczQ3YUVIZHJYbGhZd1Y1LUMwT2pnS1NYTGdZOS1jQ1BEOWFGRDQ5Nkg2UllaVWJKMk5LREVrY2Y2cmtwUHExb9IB6AFBVV95cUxONlBWOHNCbk5Ta1oxT2F5U1V5WTJPNHlNUE9uamU1dmZjYnpUT1VHQkdhNFlNdWNLZENaZmRVd1U0YVZ0NTZyeFdEOHNkQkRlR0U5Q2M4a0dXNTRDYVkyVlhycDd4TC1XY2dDOW4tNkgwNDlyNzdyV05JdUhXeFBDY3NlU2NvM2Z3SXltb3pkTldJRzVIQlBNbFdTSVNQblFPRW1tQTkxMjl3UXVrSG1DVERSUjQ0R1BraHdEeWhTWEY1MDZGdjIwM2J5clFxSWhOUkVrS1hBcHFVY1c0ZDkzalJTZVNtMkFT?oc=5",
      "src": "India Today",
-     "at": "17 Nov, 14:05"
+     "at": "17 Nov, 14:25"
     },
     {
      "title": "Exclusive interview | 'Donkey work' awaits Bumrah & Co: Shane Bond, Kyle Mills on Wellington's wind chall",
@@ -1127,16 +1102,16 @@
      "at": "17 Nov, 05:16"
     },
     {
+     "title": "Can AI answer your health questions? Apple opens study to 200,000 Americans",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWG04NjVka1BUYkJVcHJPYW1tLUNuMHFwZGk5RlRKZzM4Wl8tdEtxbXZlcDM3T1ZoRHNudGZOUVhUWVdsZEFCRjh0WVprSk85NGtqb1BWVlhRTGdPbXYtWnJQaFFMUTJ5V0Y4RTFYUDlJODY3a1NUemx4ZXlJUU1aQzZfT1NGUWFhSXNYeVNuU3ZkRHU0dnBqekxuWW5jYXE4R2xmX2lmZlg1a3lQUUpGaXNMd0VDZnJtSW9wSjdBU1FTZWs?oc=5",
+     "src": "The American Bazaar",
+     "at": "17 Nov, 01:01"
+    },
+    {
      "title": "GTA 6 Preorders Near 15 Million Copies, Sales Value Hits NT$48 Billion as Take-Two Stock Rallies Ahead of Launch",
      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RSTJEdFV5MUZwdTJnMTdVcmFpNzVIZEpJSUxvbjF4YWlzUm84dDgzdWVETnFjNzZUa2hVelFyTzlwXzE2Ulc5bEM4RnlNSGk2cTlvcHREQ3ZBaVZNLWMwM3VmLVpqRDg2UFVQcDNZTnhfemp1T1E?oc=5",
      "src": "BigGo Finance",
      "at": "17 Nov, 09:35"
-    },
-    {
-     "title": "Apple launches AI health research app to study how users seek medical advice",
-     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaG51NFVLT1RYaVY2anRvdzJYam83U2liMkVHQ082cWExd0l1QjhfLXY5dUFleE9BTVIyLWFJckdqWF9fMlJ5Q3A4blNYVXFVb0F1T2tyWWxsM2F6RnAtUkJPZWpFU1lOY2gxRGJHSmd1RThpYUpqQXFLZDY2WG1lb2llaXN5NXNRUXFCTUVjOHZPeTdfVmk5UjljYmFCeEFldWhHbnJCV3R0UHRSTUJuLTFzRHlZN052b1NqWjVpQ2dnRkhVekJpRGt3LTlydmFKa0JrWjJEcTBrQ010akt3Y3V3bWTSAeoBQVVfeXFMTXBHOE9wZVFiN0gtWGlsekFFSWFkYkFvZ1Iyb1FWcGluSkJrVUJlWXExRmFsWkhUTkZFc015aml6TU4zbnFYOUlaR2FGSHY2bzBvM3dKVG41ZXYyMExrUjlLbThYUmZIRXB6UHRNZWZobXFwaGV5bkNsMHRaZjBxcFZGZ25KY1Vnejdmakd5cndNYzJIXzlxZVV5cFN4S0RwLXdhbm1UUElQVElXWV9xNDVBUmZQZEFqRFpUdW44eDNXX3E4dFBTV2NFY05rOGwwM2hxRkdneTRlQjl5OWJXakJzM19tMFI4U2hB?oc=5",
-     "src": "ET Enterprise AI",
-     "at": "16 Nov, 17:24"
     },
     {
      "title": "Instagram head Adam Mosseri explains what makes iPhone Duo ‘a bit of a tricky form factor’ for Instagram",
@@ -1174,6 +1149,18 @@
      "at": "17 Nov, 10:30"
     },
     {
+     "title": "Artificial Intelligence. Original Advantage.",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWllSndaemVReU5wdjdrbFBPTkJuV3ZVbzdYbEhaMWtBdS13TDEyM1JIb05CYlR4QzFhN3J3dmttTFlIb2c1Nk15S2x1RHdhOWd2Zk1COVV6eGFlSjQwSXdMX1BNWmZMb01JTGN2UGUzMDV5RWdScW92ZDVyWUxyeTJzUElvU1hVYmgxRnFBNkNjRGJDMWJyZXpwZno?oc=5",
+     "src": "Deloitte",
+     "at": "17 Nov, 12:59"
+    },
+    {
+     "title": "AI usage spreads rapidly in S. Korea but productivity gains remain limited",
+     "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOaHhHN3N1bkZ5alhmV1V4UmxZVXFzUUtndFpmUDlBNk9FdkQ2NHRJMEhpX2VxcEFTdklSci1qcUJLV09UM2ltandrc3ZfNGFUcXRydFdyTmpPUXNWT2tOclpRREc2UTdpS1pEdjJZLVE1czUwemhTR1p4ZjlwNHJKVkNUaXVocEZfN2tPYUJKaFZ6OUNkOTVtVGlZRHAyQXFJZnhDN1ozOXhMRkZxSFI0eEhYc1JETTRCNjF5bVd4blBTSml3R0h0NVhfRHdHTnIxd0dWR1lCaVJEMGcwbDE4NTFTZDN5aGt2WHhQVllhUmswY3lxakxrRkdCVkxfak9jQXRvNFdFRkJRQ29OWXV0RG94SDI1OFVJRFlfcEFLYkJ0eGZONXNUaGl2SjR4NW1U0gHuAUFVX3lxTE5fVTV3WXU3bUlJbk9jVzNlT3BSQkVvckxmS1VLeEQteUd3YWVoZ0lDcUMxTDhRVW9mTnRSV2k4bXRMTzdwWEJpckxJZ1ZGeDUxbkxFZGVuNVNiZlJLV01vUnk5V0FFMnlubTBBU1hIV2l5Vkd0cm90SU9TNTBJZTctbmV4ZG9OQXRCYmUtUjByZGRqS0lsYUtHRnQ3WG8xcy1VWjlPd0FxV0tNQ2VDSzZKcXhjbUNFZTdMTzJFXzRQajFYejM3LU9jdlJTUzk1NC1IZjVUUWdsajNvLU1uYWVyRnpWX3NMVWxJdmhhd0E?oc=5",
+     "src": "ET CIO",
+     "at": "17 Nov, 11:00"
+    },
+    {
      "title": "Who shares the value? AI, streaming and decent work in media and culture",
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdU9uWEN0R0tpeUxTbUMtNEowS3BKUnN6NDBUSV9vOWVJWDJaUFAxR3hMU1RBRDR3cGFpNGYxeXdkOVVhaFVlUE5IZXdWUkg2WVJmYXhkUkVyQzdfNjcyV1BJMkZVa0I0NXVDMWtPSjBib1k2a0t2NDdQdDdHWWFFWlA0YU52Xy1MWUtnTS1rYk04U3NtX1QzN1dCSnRxOGdTY3c?oc=5",
      "src": "International Labour Organization",
@@ -1183,19 +1170,7 @@
      "title": "South Korea cheating scandal: Are AI smart glasses a threat to exams?",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTg0M1FVWGpFbFJWb1phajZkN0lva3k2TW5zZXRhbWZEZlJ5V2VsNXFjQm9PRTl1SjBxcDM4ZlJlc0FQbkZfc0dNdEFqUTkzeWVLZTMtVkl4LUhLNzNFOWhuR3BUMHJfVkZ2eEtJd2xiOG1SU1VSdlExbFZSZEZOQm13NDNNMm5WU0d2UFRxREN2ZWdJdndZdGtyb1MwbzhnYVZDZjJGcjV0R1FkOVHSAbMBQVVfeXFMT3ZaU0Ixc0RZd3FCM3A4ZXM4SzU0STRCenVIdVJmTy1CWXF5ZVZsTWZGbU5Nc1BwaFZlekxLRXF3LUo5YVhwY28wbDViQ09uQ2FjOFpXdDZrYUFxaTk1c05rck9yRzBXQklZOEJBSTAzd0F3N3ZIc1ZuSWJyMl8zWG9reTFjTUE0OV8wN2FReTVxVndnbTNQb0RteHhhdmd1Q1ExU05BR0JmZHpFckI3Y1BYNHM?oc=5",
      "src": "Al Jazeera",
-     "at": "17 Nov, 14:02"
-    },
-    {
-     "title": "Chief AI officers are everywhere. Their authority isn’t.",
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5vTmtya09Zb1lrUmcyMFI1NU9IczNob3YxU040bFplUEhadDR4Z0M1ZlhVYWplQVRmbG1hU1pxN2VmOUY1OHRsQkFCTFk1WnU1dTd1cmtsU0xxbTJka3ROajNhNXljX3Jqd09xTTc3QW9LZw?oc=5",
-     "src": "IBM",
-     "at": "17 Nov, 11:46"
-    },
-    {
-     "title": "AI usage spreads rapidly in S. Korea but productivity gains remain limited",
-     "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOaHhHN3N1bkZ5alhmV1V4UmxZVXFzUUtndFpmUDlBNk9FdkQ2NHRJMEhpX2VxcEFTdklSci1qcUJLV09UM2ltandrc3ZfNGFUcXRydFdyTmpPUXNWT2tOclpRREc2UTdpS1pEdjJZLVE1czUwemhTR1p4ZjlwNHJKVkNUaXVocEZfN2tPYUJKaFZ6OUNkOTVtVGlZRHAyQXFJZnhDN1ozOXhMRkZxSFI0eEhYc1JETTRCNjF5bVd4blBTSml3R0h0NVhfRHdHTnIxd0dWR1lCaVJEMGcwbDE4NTFTZDN5aGt2WHhQVllhUmswY3lxakxrRkdCVkxfak9jQXRvNFdFRkJRQ29OWXV0RG94SDI1OFVJRFlfcEFLYkJ0eGZONXNUaGl2SjR4NW1U0gHuAUFVX3lxTE5fVTV3WXU3bUlJbk9jVzNlT3BSQkVvckxmS1VLeEQteUd3YWVoZ0lDcUMxTDhRVW9mTnRSV2k4bXRMTzdwWEJpckxJZ1ZGeDUxbkxFZGVuNVNiZlJLV01vUnk5V0FFMnlubTBBU1hIV2l5Vkd0cm90SU9TNTBJZTctbmV4ZG9OQXRCYmUtUjByZGRqS0lsYUtHRnQ3WG8xcy1VWjlPd0FxV0tNQ2VDSzZKcXhjbUNFZTdMTzJFXzRQajFYejM3LU9jdlJTUzk1NC1IZjVUUWdsajNvLU1uYWVyRnpWX3NMVWxJdmhhd0E?oc=5",
-     "src": "ET CIO",
-     "at": "17 Nov, 11:00"
+     "at": "17 Nov, 14:03"
     }
    ]
   },
@@ -1274,16 +1249,22 @@
      "at": "16 Nov, 20:36"
     },
     {
-     "title": "Parliament panel to examine India-Pakistan ties, India's UN Security Council bid",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc2lwUzRaZ2UyLTN6azBCMUFXSTloeW9xeWZBSUUwNzhhdDVLTEhISmYxWDl1V3VndDZUeVpuUFJLLWhYRW9SaWRDa3RDTm81dHJpRGlvTW0zNjlrVldCOGlaTGN4eGZndk1nUUMxbFZhTFZLc21lQTRWWGZQa1ZMSjlOejdYSkpEc1gyUy1yb1ZrRkh5STItZVRmTmtiakcxV21nVTNyX1pRLWJsTVdvUy1KMTd5TmdxbnhWMWNlZG5kZndIcVHSAcsBQVVfeXFMT09MVEtIbllfd3UybmdfUEJLdG91R25ZbHJBbWdNVFAwZC16WjZSb296VkJRSXZSR3FCdnFTdkE2Y1pUV01XMk5pNmtmVVNjWXd2RllZLVAxZW1kbGxkRzZGWU1ubjRRYXBlNjd5a2EybUZSZDJjckFpS2hvLWtlcUx0MFNYNGw4a2F0NER3U3lGc0xGXzJVRHpiT1oyZUNXQ3RzNldSSVktbzdtVE1xd2ZmZ2sybzQ3WHRhRWJDN21MYjBwbHpaNGJWS0E?oc=5",
-     "src": "India Today",
-     "at": "17 Nov, 04:50"
+     "title": "December Parliament Session 2026: When Will the Winter Session Begin? Check Expected Dates, Key Bills and Important Points to Know",
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNMUdyNWhIcGxhbTJDMnRkMlZkRVc2WXVXM3hvZzJ0WldaVGlWaGRNdU9LU1FtbGdQdXVWWlFDOV9TeXlFN2RtVFg2TFk1Xy1wR3FQdzR1OEItd1k5Z2xJaEZsd2dZeXhlQXV0THhFVUxEM0lrMWRRTF9BX3puRDdRV09Nb3NSb2JWSjVWSFRBMDlMcXpzWUh0OHBmbG9ncURzanhxR1hpOFFpM0tyMmpEZHBlZmV4SkZONlhUc0lGOHh5ampRZHlvRWtrY1lTTkJsVEI0dHVjWjFmRGlwc01jYXJDeVdOSTlKVXhtM0FiYlhrZTNJelNDeXZqcDlrdHg1VEY1a2wybTZFUGFBQ3FuUFBYVdIBmgJBVV95cUxPSElnN0dGamdDWnRQSkd1NUJ6SlVGNXcxdkVUeHlsQ0E3aU41d2RjMEp0YWpEMS1adTJOQ2JMRTN3UGpTVVZ6ZHhXREl3UEcyb01ESDBiUHV5MlllZ2lUQ18yTHd3RzhJa0RKWW9YRFJSd09YVUpkZTRaaXZsdk5pbmFhVEtDTlctdzdzLW1LakJ4WnlOSndGWUFfbGJHN3hhU2lsemE0R0h4bDRNdVR0N3p2TTBndTNWVlZmUVB1dzV0bmxFWG56Z0xmekxZaVU1dXktMmliUzdmVWlmY2w1Rl9IcnJwdEpWM1IwSDZZbE1RNFhsTVV2RDdhcHAxSjV4NE9fZGN3Z1luNzdoQjdQeVVxUzhRYUQwNHc?oc=5",
+     "src": "Jagran Josh",
+     "at": "16 Nov, 15:40"
     }
    ]
   },
   {
    "tag": "Jobs",
    "items": [
+    {
+     "title": "No mass layoffs since 2008, millions in stock rewards: Why Nvidia employees want Jensen Huang back",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUHRFUkJGWFVNRVlPV1lyUERvSUZ4TDAxOVdzYUlDNG8wUGR4U0RyNFhLb0tmdGJyMVZtNDI0blF6bU5MQXRoZDdUTFhqVE9hZ1k1WUZqUW04WFc0YzkzUXRjVmZndHBQMDc3blNnUFFtTTMzUUpWMnBoTF9Nb2tsTTFPVHNoR3FhMWVVcVBNTVI4MnRKWlRLMlRFN0FpanNrQl9SbmpXand2LWl5REFXbUNxcjktSThRcTFHTEhiV1hvUGgteXlTU3NsNG9KTzZFWWxFS3liZkQ3R2ljM0Exbw?oc=5",
+     "src": "People Matters - HR News",
+     "at": "17 Nov, 10:35"
+    },
     {
      "title": "Cellebrite Layoffs: 85 jobs cut, but India impact remains unclear",
      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNa0NLWlpUb1dIOGV5MDlPRXVkRUxmX2lVQzBvdTRnQm1ZSGZWNlk3WWJ2QTJrdklQWm50MGFWa0pXU2otWE5fUjdtUHEwTFVXOG9QWWNOYlJzT0xsblRnaWRMZnVKc2pTc3VoaGkzTVpoR0luZ1dlTVlfR2F6Qmp5Z0IzZUPSAYQBQVVfeXFMTWtDS1paVG9XSDhleTA5T0V1ZEVMZl9pVUMwb3U0Z0JtWUhmVjZZN1lidkEya3ZJUFpudDBhVmtKV1NqLVhOX1I3bVBxMExVVzhvUFljTmJSc09MbG5UZ2lkTGZ1SnNqU3N1aGhpM01aaEdJbmdXZU1ZX0dhekJqeWdCM2VD?oc=5",
@@ -1295,12 +1276,6 @@
      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSTJsNklhcm9tSGRWWnU5Sl9LSzR5Wmw1NHZIdlduWWFpXzlCN1ZIS19ya19lY0RzbkF3SVJLOUlhcnd6UlhURUo4eDBkaXM1ekdJdTFzQ2hfem01WGs0VGpTOEYxZGZOYUIyODRyNFljNUhiQjNfNnl2OWNTQ1ZjeDdpSGc2SXJ4RWMzLUk2YW1tMDByZjBQTGYzcnVlSW9NRHN3LXgtMnQ3ZFh6ZWVFaFB4WGxDRjBrc2xMQ2RRUXhVcHl4MnZQTTNLdWVQMFBHRExQbVkyMkhfLUxlazVPbkZqNTl0VGdyVGhZNmQySdIBvwFBVV95cUxPMjdnNTNQRUNJS056MVhTamxuUzFXU2lMRm9meU5od3BjOTN6S1lrZ0R6eTZ3YjgxQ1BsNDZJWTg0SGtRbEMtS0FjT1NuSG1GX2I3V1h6dEJwaU14Zml1em1SaDh4cTN2Y3FRU3JUaTQ4WVQ4bFNpVE1WUnNjSG1DRC12WVdTTkJTY2NsTURxTkJKR3R6SzdmdV9vOTVrMGIyb19NcHMzZmpIMC0zQlJwNVhpUmR1UGdtb2VOSHhPMA?oc=5",
      "src": "TechGig",
      "at": "17 Nov, 08:51"
-    },
-    {
-     "title": "US government proposes new rules for Green Cards; tells companies: American Workers are the best in the w",
-     "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNTmZ1X0tZejZZUUhzWmY4cGNrNTZzZThfS2xCb0N5UHFIOWZtejRMU0FCcTVlWEc1WGhPcC1vVTdvaS1RQUdJbEdtWnZMTS1ZaHhjS3BFOVBkUGg5enI5TXY4S00ydjNnZVBHS2VyOF82NHRPbEc4Z0pkSEF2M1BVcE1LRmpnbWtHMzVqRlJPNjBqdTNUR3MybTRaSl9YSTBuUWFqNDRSYVB2d21iSFBweS15NE5ZSGpjWEc2WkhRSktjR0NKajZjMmR6ZVZlbUhvNWl1X05OdGZSUURSMkpSdkJtaVZIdUhmVks2dWdfanhseVplZHp1NGxOZG01NS1JWXFPMENqeXVySjBKY09aekJsbGlSblBOZzB2RWM2TnlsSWNPZUl5c3dNRmFud2JaMGlUZG1KY2d2VnU0X3RjdU0yTzBSUDTSAcwCQVVfeXFMTWs1U2VHcGZaNW5PbFlNdC1sVy1KSDZFNkxBMnh2eUhCTWxTLW9yZTFOUHFwbURNNHNUQW1Sc1c0YVNWUEJRZ0xwMGp2TlcxV0lTS2lwM09QYzNmQlpFZ2lFMHM2RlF5V3BDMHhEbUN6XzJFNW1SaW9SVXpkX1pIYU5EU1MxRGZjeWFoZEZuaFFNbnZYZmUwSjQ1TmYxMkUybjBQNjhMZms1REpBXzlOSUxNLWtaMlFWY1M3TWhTVUNTWk5kVGJNTmhvWDZMMmhGcUx0aFZBR2FlNWIyX04wUlZWRmVkUmVCaDAwT3RqdEdIbngxanJySG55QWpRLU94Q3BmU3g5ZTBuRS1oX1BTZjFjTmtjY1AyMVQyNzBSeXNfZm43aTU2OGtjVGZlb1UzT1U0QjVxLVkzaWFWTnNzRzI0N1l3clYzeV95akY?oc=5",
-     "src": "The Times of India",
-     "at": "17 Nov, 07:05"
     },
     {
      "title": "Australia's Bunnings to cut 350 tech jobs as it shifts work to India and Philippines in TCS partnership",
@@ -1367,10 +1342,28 @@
    "tag": "World",
    "items": [
     {
-     "title": "Beijing hails ‘groundbreaking significance’ of U.S., China, Russia summit in Shenzhen",
-     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObGxDYkdvbWhhSmZVMGtueDVjaVhQcS1VcldRUlFvMTFKQVQ0bHZCNUxuaWYzT2tLQzg4dEQwNmktOVJFREcwOE8yX0Jwc3RQdl9SeE1VYVo1VVJ2UWdYMTBYbGw3QzhGN3BfU1JsNHoxa1FxM1I0TWo1NU11SjVRY2Z0M2QwRGtXeTBfazYyNFhyUnNaQWxKUUd2Z0ZhS0JnbVl3WjRJM3kwQWl2VGVYVy1vMUJuelp6MWpVdmp1S2xqNWtXZ0lUZlhIQU16a0dqZGY2aWxvTTIzUDQ?oc=5",
+     "title": "\"What Changed Since Pahalgam?\" Opposition To Centre Over SCO Invite To Pak",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ21hOWYtZHVETnZyZkJmS0ViRm1Da1JDNW9jS1UtakpGRUZrR1FDTVRhYUN6d2xESGJtcTNLUE9mQWc3TXMwUFpfR2YwWW03NldmRElzT0RzVUNpVW4ydzN2cWstVVFadXdlNHpsSXBYSTJ3czUzVTBGSGNfcGFHTGkyUzV0Ml8yNk5LZ0M3WnBDVmRQY2t1ekh0QjhtSGxjUHpRNkZ5QkdNOFBmN3VpVW9YUlVkdUlWSnlSdw?oc=5",
+     "src": "NDTV",
+     "at": "17 Nov, 09:49"
+    },
+    {
+     "title": "Trump says ‘would not mind’ Huang being reinstated at Nvidia",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSG5wQlhweXg0aDZyX3htdEc4bUxYVGE3aVhuMi1Ha2JpUUIyV0ZQUEZUeEdabnhlV1BNYkt5eUZ0YlBoemFLdmpKM000czUzZ292NTVtZGU2Umg5VUZfTlpsenJxVVR6RUJSSnpwQzhib3B0dTNFY055cHdhdEhVQ2VFaWJ5YUQ2emRueXFadVN3YS1ieVBLNzV5akd6d0xvMmN0WmJtUjNSbTBqU0l5RjBXVDU2SHU0Y2p5Tk5VONIBxgFBVV95cUxNOHRPY3BWQWs5OTZ0MEVZYnRaSVJIT3hLWXd4OFZ4UmlYUWt1T1djYUZRTmtzRGhaaXJLajJvRHhoZlk2U3laMW9Ea3hkaXEta2haYmw0NEN2cnNWQ1I2akpJNElGeDJxbmozRzhXZ29hUGJDSk82RHN6WU9sYWtVekVnMmtnbmZPWjdxb081SWh1NWpsaEVvNmp3bnN5MWRORk50VTh0RjBmU2hld2ZweVVON3NTeEctX0VVUGZiOGR5aHlWQUE?oc=5",
      "src": "The Hindu",
-     "at": "16 Nov, 16:01"
+     "at": "16 Nov, 22:46"
+    },
+    {
+     "title": "Trump to kick off Asia trip with Quad talks in Manila ahead of China visit",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0l1bEVvMnNwMHJqM01iVWVDR2JJQmRvaU51TmJQdGRLVnVKUENDTWlLTW5wVEdSVG5uTFEtYktLMUlDWjU4ZXJ3U0ROcjZtMEZNVlZCZFBiMTNGTldnMVBEX09UMkhLS0pQSlVqMmlXMTllMGdxZ3BsU2xrM1lvU0JDWHdSYzh3QjJhRVFUc3N2YW5xLUpXOGNWdG10cTM5R3BYNWtjLTNFN01oaGo2UzVvRQ?oc=5",
+     "src": "Reuters",
+     "at": "17 Nov, 06:56"
+    },
+    {
+     "title": "Trump to face massive protests in Manila during Philippines visit for ASEAN Summit",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZjdlZTZ0VTV3RXE1aGkwbTlQaWVMRGFhTWZwYTM4STJ1aVp5QVZIRlNZQVlWUzh1VWVkWnU3alNIREx3cTVETnBxZ21JOHhDR1dibzItVEZMWUhwZjhoY3dFSHRzakxLS0FEUkdZdUI5UEFYbGZHTDRTMzlUWnZqaE1RcENEVWdLbjlRWXlXQXQyUDBtcjU1RW1PWkxFNTZlbWVyVFlQWnE4djFJa2xZMFhVY3JmSWUzSklhV0NoY9IBxwFBVV95cUxQZVdiOGZyVlUzelZCaWxPSGZ6Z2x5M1o0UUVRcnVVd0M4OXlfZjdKNXkyV2JBaUtQdmRXYUlHSEFfT2pQUTU2THRXTV9fRUZTcW5zaVZ3X3VJZ3AyNXdid0JkcDlpemRhNTJyaXZCb2x4aUNTMmI0ZWlnRkNVR1o5M0dGcFlleUJmZVZsUjFJMGc3SW53YWRRdFVvRHotVEk2LVBQSm0yaVlwS3ZXZDB6M201TDlHSk5acUlMWGl4Uy1rTDRpLTlr?oc=5",
+     "src": "Khaleej Times",
+     "at": "16 Nov, 20:46"
     },
     {
      "title": "Jailed Pakistan ex-PM Imran Khan writes to judges, seeks vital medical care",
@@ -1379,28 +1372,10 @@
      "at": "16 Nov, 19:19"
     },
     {
-     "title": "Oil Tanker Transiting Strait Of Hormuz Attacked Near Oman, 4th In 24 Hours",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQREM2dGRkR0tRLWRlUEowVXhfZlduWGpENHROOWk5QjAxMGNwMG9pZWI2X1ljajZXVDRDaURseUtGYXQ1bmlOMmpHN0REb2NwWVhoMmdQWjRMQm1MeDUzSkhZeGVvNUlJQ0RYb0RSQ2ZWbFAyMG5odHpvbXM5VTVrb0RFckxMMmhTLWVPNjQyR2l1UUgxaFdBYm5R?oc=5",
-     "src": "NDTV",
-     "at": "17 Nov, 06:38"
-    },
-    {
-     "title": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaEFSNlFrUU5OZ21iTTZkZUtzWU04LU1mWFpXLU9LNXMxelFic2QtYU5oNTNWaXAzZjQwTEpSY0JySU00ZU10TkRKazBHOWhIWmlmeUw5dFh4MTJwNmU1WGp4dE5Ia2toeUZlanUyaW5GVHN3dlJ0dFMydU1kZzRrZjgzT0FoRDFRV1hYMFIyaGxSanpyUnl5aEp6SVFMQ3A0MHAtcHY0Q19jUHlvalJvbmVtV2tLdGs4YUo3RHlR?oc=5",
-     "src": "Reuters",
-     "at": "17 Nov, 05:05"
-    },
-    {
-     "title": "Why are Iran's missile facilities located close to major dams? Airstrikes put the question back in focus",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUnZDd0p5QXI0dXJxYXRQUEZ1Vkd5clhDS2F2MzRfQXNHcmk5ellJNmNhd1VaZDhtVXIxOG9CTTdPMHpaMXVjTDdvcmpZcVZrOUdCSHVNWm0wTF9FWF9ZV2RMN1Z5WnlEeVBORWh0QnQtbzF5WjVhcFU4UGtqeXRHZktlQXkxU1ZtdkNSOS1vanhOZEZ4MGhRbkUzYmdSQWxRSndkdFFLWHFnZVRHTU1uRW5DdGdvbkZESDBwbjl3cFptNHdZX2xMRktrVkpZTEFndmNFNDM2TkZIaDNIYjlTWF91bWZxc3lCdEJVbGYxZ1pLUdIB9wFBVV95cUxPZVdCbXJvT3pjUmNuWkFuVzZtbHZ1ZnJkTm5pd1dWYjdtdXI4RjctTVNvRnVaWXp3S1A5bTNGU251Ulc2aHJPaEhMMVY2Zkh1cWZlVUNzcDd0cVQwNTVmalZLd2RuR2dPbHg1OXFpeWxoeHU4ZUYzd0dsWHhla3lidDBzekFBblZ3aGw3czZ0WFR6MWZ4SUJ6VTlGQ3Nuejlrc2I2OFBxOHRnZUN4c0c2YjRTeTVBbjBudHRvWEtwaW5RNURfQ2RSOGRDU3dlNVphbEtNeDU5OUFWY3RvTHVLb3BNRXBqTTI4X0pOTkQ0M3JLUkNFSXRB?oc=5",
-     "src": "Moneycontrol.com",
-     "at": "16 Nov, 21:10"
-    },
-    {
-     "title": "Quad leaders meet today, signal to China before talks with US, Russia",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcGpuQWZoWTNtTThBamR6blo0NkdiX2VYcVRkSndacmE1d3JyUG9xQl9wSDRYSUUyRFIzZU40OHUtQjdYZFhpWTRTeC00RDVNR2RIeU5wNGFEdGRhaDZDWnktN0R5N3N1X0dWcVY0Mnd1cXdNaWFic2hYYm9xS1JJSzNlOHJuQkhiNWRrYUZUZkhjaHkyczlESGphT2pjT3Ntc0Z5bjJJckNmc1RtTENjTC1hVWg5ZUNDalBUd1B6clJKZ2FNYlh3UllIa2rSAdMBQVVfeXFMTUVmNUpNZEhzM2pjQndKbHJiMUwxUjh0ZmhuMEpseEQxTFV6RU9WZkk2bm5rY0J2a1BzX3dZWFlLc2VmTlRzSHhLZm1ObjVqTkpHcUNJUWFSVUl2aU5fZXFfOHpWdEZlLUdjVXdkMmdsMTVubXlJSmtpbTlmVnY0ZzlrSml1aHg4ZFNvWVdSRVZoYUtaeHhwRFdFRUlxeDFFOU9FQ2NuU0xoLWxpTzBfdURsN3VZOEZHblZSNGJ1c203aDVrd05haFdNLXQwS09UWUVEbw?oc=5",
-     "src": "The Indian Express",
-     "at": "17 Nov, 05:20"
+     "title": "Eisenkot says Netanyahu cannot stay in office ‘a minute longer’",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaWVUTGlvV1I5T0JGaTRLZnoyTGVWWkREVG9fakJYRmZWTlF5QXh4V3BZdXcxNi1sZXlFRjVmR3diMmQ4WDBxLTlRX3FJLTh3UE5HMTNvbVhDbWtsNnpxLXQzOVpnX1JDZ3FHaHo3ZzU0UFNLaEhpYjdYQTVobHpURDJFZzdTdW51d3pOLXdhQjJpLWdvOWxBQ0Q0U21aUDBIWmVrcjd1VFpDZw?oc=5",
+     "src": "Arab News",
+     "at": "16 Nov, 02:29"
     }
    ]
   },
